@@ -6,7 +6,7 @@ The first time you push an electrode into a sediment core, it can feel like chea
 
 You’re not looking for organisms. You’re not counting cells. You’re not even measuring a specific chemical species. You’re measuring a *tendency*: whether this environment is eager to give electrons away, or eager to take them.
 
-The number that comes back—an \(E_h\), an \(E\), a redox potential—is easy to treat like a mysterious “black box” variable. This chapter is about making it legible. The punchline is simple:
+The number that comes back—an $E_h$, an $E$, a redox potential—is easy to treat like a mysterious “black box” variable. This chapter is about making it legible. The punchline is simple:
 
 Microbes make a living by moving electrons downhill.
 
@@ -32,27 +32,27 @@ That’s why oxygen is so powerful. Oxygen is not “preferred” because microb
 In sediments and groundwater, this produces a recognizable pattern: environments often spend their most “expensive” oxidants first (in the sense of energy payoff), then move to thinner margins as the chemistry becomes more reduced. This is the intuition behind the redox ladder. We’ll treat the ladder as a tendency, not a law, but it’s still a useful first map.
 
 ## Physics‑forward bridge: chemistry to electricity
-Chemistry already has a perfectly good way to talk about available work: \(\Delta G\). Electrochemistry has another: voltage. They are the same story in two languages.
+Chemistry already has a perfectly good way to talk about available work: $\Delta G$. Electrochemistry has another: voltage. They are the same story in two languages.
 
 ::: {.callout-note}
 ## Equation Corner — energy as voltage
-For a reaction that transfers \(n\) electrons,
+For a reaction that transfers $n$ electrons,
 
-\[
+$$
 \Delta G = -nF\,\Delta E
-\]
+$$
 
-- \(F\) is Faraday’s constant (\(\approx 96485\ \mathrm{C\,mol^{-1}}\)).
-- \(\Delta E\) is the potential drop the electrons experience (in volts).
-- \(\Delta G\) has units of \(\mathrm{J\,mol^{-1}}\) of reaction as written.
+- $F$ is Faraday’s constant ($\approx 96485\ \mathrm{C\,mol^{-1}}$).
+- $\Delta E$ is the potential drop the electrons experience (in volts).
+- $\Delta G$ has units of $\mathrm{J\,mol^{-1}}$ of reaction as written.
 
-Back‑of‑the‑envelope: a \(0.20\ \mathrm{V}\) drop corresponds to about \(19\ \mathrm{kJ\,mol^{-1}}\) **per mole of electrons** moved, because \(F\times 0.20 \approx 19\,000\ \mathrm{J\,mol^{-1}}\).
+Back‑of‑the‑envelope: a $0.20\ \mathrm{V}$ drop corresponds to about $19\ \mathrm{kJ\,mol^{-1}}$ **per mole of electrons** moved, because $F\times 0.20 \approx 19\,000\ \mathrm{J\,mol^{-1}}$.
 :::
 
 That estimate is one of the book’s recurring moves: it lets you look at a potential difference and immediately ask, “Is there enough payment here to cover the costs of being alive?”
 
 ## Voltage is not fixed: the Nernst translator
-There’s a reason \(E_h\) can be confusing at first. In many readers’ heads, “voltage” sounds like a property of a battery: fixed, intrinsic, stamped on the side.
+There’s a reason $E_h$ can be confusing at first. In many readers’ heads, “voltage” sounds like a property of a battery: fixed, intrinsic, stamped on the side.
 
 Redox potentials in natural waters are not like that. They shift with context, because the “height” of the hill depends on the current mixture of reactants and products. The translator between concentrations and voltage is the Nernst equation.
 
@@ -60,13 +60,13 @@ Redox potentials in natural waters are not like that. They shift with context, b
 ## Equation Corner — Nernst in plain language
 For a half‑reaction,
 
-\[
+$$
 E = E^\circ - \frac{RT}{nF}\ln Q
-\]
+$$
 
-Read it like this: \(E\) moves up or down depending on what’s abundant and what’s scarce, because \(Q\) encodes the ratio of products to reactants.
+Read it like this: $E$ moves up or down depending on what’s abundant and what’s scarce, because $Q$ encodes the ratio of products to reactants.
 
-Back‑of‑the‑envelope at room temperature: \(\frac{RT}{F} \approx 25.7\ \mathrm{mV}\). So concentration ratios do not need to be extreme to shift \(E\) by tens of millivolts.
+Back‑of‑the‑envelope at room temperature: $\frac{RT}{F} \approx 25.7\ \mathrm{mV}$. So concentration ratios do not need to be extreme to shift $E$ by tens of millivolts.
 :::
 
 This is why “what’s the redox potential here?” is never just a question about the environment’s identity. It is a question about composition, transport, and history—about what has been delivered, what has been consumed, and what has accumulated.
@@ -82,22 +82,22 @@ Think of an electron donor and acceptor pair as the two terminals of a battery. 
 In the lab, external resistance can be tiny: you shake a bottle, concentrations stay uniform, and “the reaction” looks simple. In sediments, external resistance is often the whole story: diffusion is slow, oxidants are delivered from one side, and reduced products can build up locally. The same chemistry that seems straightforward in a beaker becomes spatially organized in mud.
 
 ## What to measure if you want the electron story
-The goal is not to worship a single number like \(E_h\), but to assemble a set of measurements that tell you where electrons are coming from, where they are going, and what bottlenecks matter.
+The goal is not to worship a single number like $E_h$, but to assemble a set of measurements that tell you where electrons are coming from, where they are going, and what bottlenecks matter.
 
 In practice, you often learn the most from **profiles** (how things change with depth or distance):
 
 - Dissolved oxygen
 - Nitrate/nitrite
-- Manganese and iron in reduced form (often \(\mathrm{Mn^{2+}}\), \(\mathrm{Fe^{2+}}\))
+- Manganese and iron in reduced form (often $\mathrm{Mn^{2+}}$, $\mathrm{Fe^{2+}}$)
 - Sulfate and sulfide
 - Methane
-- \(pH\), alkalinity, and dissolved inorganic carbon (to constrain carbon cycling and buffering)
+- $pH$, alkalinity, and dissolved inorganic carbon (to constrain carbon cycling and buffering)
 
 Those measurements let you ask a physics‑style question: where is the gradient, and what flux would it imply? Later, when we build reaction–transport models, this is exactly the bridge we will formalize.
 
 ## Takeaway
 - Electrons are a bookkeeping device: metabolism is electron flow from donors to acceptors.
-- The “energy payoff” can be read as a voltage drop: \(\Delta G = -nF\Delta E\).
+- The “energy payoff” can be read as a voltage drop: $\Delta G = -nF\Delta E$.
 - Potentials are contextual: the Nernst equation translates concentration ratios into voltage shifts.
 - Sediment redox structure emerges because biology runs through a medium where transport is limited.
 

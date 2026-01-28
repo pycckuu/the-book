@@ -31,7 +31,7 @@ Schrödinger’s *What Is Life?* is a useful touchstone for this book because it
 - **Life as a non‑equilibrium process**: sustained order requires continuous energy flow and entropy export.
 - **Life as an information process**: heredity requires a stable physical structure that can store and copy patterns.
 
-What we add, with modern microbiology and geochemistry in hand, is where this becomes visible and measurable: in sediments and groundwater, “order” often shows up as redox zonation and predictable sequences of reactions, and the bookkeeping can be done in \(\Delta G\), transport, and microbial rates.
+What we add, with modern microbiology and geochemistry in hand, is where this becomes visible and measurable: in sediments and groundwater, “order” often shows up as redox zonation and predictable sequences of reactions, and the bookkeeping can be done in $\Delta G$, transport, and microbial rates.
 :::
 
 ## The least romantic definition of life (and the most useful)
@@ -111,7 +111,7 @@ $$
 - $Q$ encodes the concentrations/activities of reactants and products.
 - At equilibrium, $\Delta G = 0$.
 
-Life persists by exploiting places where \(\Delta G\) is not zero—and by having the machinery to capture some of it.
+Life persists by exploiting places where $\Delta G$ is not zero—and by having the machinery to capture some of it.
 
 ## Where we go next
 In the next chapter, we’ll introduce the currency that makes all of this legible: **electrons**. Once you start thinking in donors and acceptors, a large part of Earth’s invisible ecology becomes readable.
