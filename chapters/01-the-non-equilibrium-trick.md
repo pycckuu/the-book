@@ -103,13 +103,13 @@ That is why microbes can look like they are making choices. They don’t choose 
 ## Equation Corner (tiny, but foundational)
 This book will keep returning to one statement:
 
-\[
+$$
 \Delta G = \Delta G^\circ + RT \ln Q
-\]
+$$
 
-- \(\Delta G\) is the energy “profit” (or loss) available under actual conditions.
-- \(Q\) encodes the concentrations/activities of reactants and products.
-- At equilibrium, \(\Delta G = 0\).
+- $\Delta G$ is the energy “profit” (or loss) available under actual conditions.
+- $Q$ encodes the concentrations/activities of reactants and products.
+- At equilibrium, $\Delta G = 0$.
 
 Life persists by exploiting places where \(\Delta G\) is not zero—and by having the machinery to capture some of it.
 
@@ -123,7 +123,7 @@ And once we have electrons, we can do something both dangerous and useful: put p
 - The key observables are gradients and fluxes, not “who’s there.”
 - Sediments and subsurface environments are ideal because they turn the invisible into measurable profiles.
 
-[^schrodinger1944]: Erwin Schr{\"o}dinger, *What Is Life? The Physical Aspect of the Living Cell* (Cambridge University Press, 1944). [@Schrodinger1944]
+[^schrodinger1944]: Erwin Schrödinger, *What Is Life? The Physical Aspect of the Living Cell* (Cambridge University Press, 1944). [@Schrodinger1944]
 
 [^markov2010]: Alexandr Markov, *Birth of Complexity. Evolutionary Biology Today: Unexpected Discoveries and New Questions* (2010). [@Markov2010]
 
