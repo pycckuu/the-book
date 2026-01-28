@@ -46,6 +46,7 @@ book:
     - appendices/d-math-without-pain.md
 
 bibliography: sources/bibliograph.bib
+suppress-bibliography: true
 
 format:
   html:
