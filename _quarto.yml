@@ -1,0 +1,61 @@
+project:
+  type: book
+  output-dir: _book
+  resources:
+    - sources/img
+
+book:
+  title: "Equations of a Living Planet"
+  subtitle: "The Energy Rules Behind Earth’s Chemical Cycles"
+  author: "Igor Markelov"
+  date: "2026"
+  search: true
+  output-file: equations-of-a-living-planet
+  downloads: [pdf, epub]
+  chapters:
+    - index.md
+    - toc.md
+    - chapters/01-the-non-equilibrium-trick.md
+    - chapters/02-electrons-biology-currency.md
+    - chapters/03-price-tags-and-speed-limits.md
+    - chapters/04-one-reaction-anchor.md
+    - chapters/05-the-redox-ladder.md
+    - chapters/06-life-without-light.md
+    - chapters/07-oxygen-successful-poison.md
+    - chapters/08-methane-maker-eater-middleman.md
+    - chapters/09-high-cost-of-being-alive.md
+    - chapters/10-sediment-is-a-reactor.md
+    - chapters/11-the-conservation-equation.md
+    - chapters/12-how-stuff-moves.md
+    - chapters/13-how-fast-stuff-happens.md
+    - chapters/14-making-rates-respect-energy.md
+    - chapters/15-syntrophy-and-assemblies.md
+    - chapters/16-switching-as-dynamics.md
+    - chapters/17-yield-power-atp-ledger.md
+    - chapters/18-parameters-without-make-believe.md
+    - chapters/19-porewater-detective-story.md
+    - chapters/20-from-mud-to-the-sky.md
+    - chapters/21-sulfate-methane-boundary.md
+    - chapters/22-groundwater-redox.md
+    - chapters/23-cleaning-water.md
+    - chapters/24-what-we-still-dont-know.md
+  appendices:
+    - appendices/a-energy-toolkit.md
+    - appendices/b-model-toolkit.md
+    - appendices/c-reaction-gallery.md
+    - appendices/d-math-without-pain.md
+
+bibliography: sources/bibliograph.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+  pdf:
+    documentclass: scrbook
+    toc: true
+    number-sections: true
+  epub:
+    toc: true
+    number-sections: true
