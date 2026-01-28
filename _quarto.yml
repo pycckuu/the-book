@@ -54,6 +54,7 @@ format:
     number-sections: true
   pdf:
     documentclass: scrbook
+    pdf-engine: xelatex
     toc: true
     number-sections: true
   epub:
