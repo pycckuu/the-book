@@ -20,9 +20,9 @@ A living cell is similar, except the gradients it maintains are chemical and ele
 
 This is the non‑equilibrium trick of life: it stays out of equilibrium by paying an energy bill, continuously.
 
-If that framing feels familiar, it should. In the middle of the twentieth century, the physicist Erwin Schrödinger asked essentially the same question we’re asking here: how can living systems maintain order in a universe that tends to erase differences?[^schrodinger1944] His answer was not “life violates physics,” but the opposite—that life persists by keeping itself organized while exporting disorder to the surroundings.
+If that framing feels familiar, it should. In the middle of the twentieth century, the physicist Erwin Schrödinger asked essentially the same question we’re asking here: how can living systems maintain order in a universe that tends to erase differences? @Schrodinger1944 His answer was not “life violates physics,” but the opposite—that life persists by keeping itself organized while exporting disorder to the surroundings.
 
-In modern terms: organisms maintain internal order by exporting entropy, powered by a throughput of energy and matter. Schrödinger also made a second, remarkably prescient point: heredity must be carried by a stable, information‑bearing structure—his “aperiodic crystal”—which today we recognize as the basic idea behind molecular genetics.[^schrodinger1944]
+In modern terms: organisms maintain internal order by exporting entropy, powered by a throughput of energy and matter. Schrödinger also made a second, remarkably prescient point: heredity must be carried by a stable, information‑bearing structure—his “aperiodic crystal”—which today we recognize as the basic idea behind molecular genetics. @Schrodinger1944
 
 ::: {.callout-note}
 ## Sidebar — Schrödinger’s answer (and what we’d say now)
@@ -37,7 +37,7 @@ What we add, with modern microbiology and geochemistry in hand, is where this be
 ## The least romantic definition of life (and the most useful)
 There are many definitions of life that feel satisfying in a conversation. They start to wobble when you try to model a real environment: a microbial mat, a sediment column, a deep aquifer, or an entire planet where “organisms” are distributed, mixed with minerals, and constrained by transport.
 
-One definition that survives contact with models is blunt: life is not a thing you point to, it’s a process—an organized way to maintain **non‑equilibrium conditions** by extracting energy from the environment.[^markov2010]
+One definition that survives contact with models is blunt: life is not a thing you point to, it’s a process—an organized way to maintain **non‑equilibrium conditions** by extracting energy from the environment. @Markov2010
 
 This isn’t the only useful lens, but it has a practical advantage: it tells you what to measure. If a place is alive in this sense, you should be able to see the traces of an energy budget being balanced in real time:
 
@@ -122,8 +122,4 @@ And once we have electrons, we can do something both dangerous and useful: put p
 - Life persists by maintaining non‑equilibrium conditions using environmental energy.
 - The key observables are gradients and fluxes, not “who’s there.”
 - Sediments and subsurface environments are ideal because they turn the invisible into measurable profiles.
-
-[^schrodinger1944]: Erwin Schrödinger, *What Is Life? The Physical Aspect of the Living Cell* (Cambridge University Press, 1944). [@Schrodinger1944]
-
-[^markov2010]: Alexandr Markov, *Birth of Complexity. Evolutionary Biology Today: Unexpected Discoveries and New Questions* (2010). [@Markov2010]
 
