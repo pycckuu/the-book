@@ -21,15 +21,20 @@ jobs:
         with:
           tinytex: true
 
-      - name: Render (PDF)
-        run: quarto render --to pdf
+      - name: Render (PDF + EPUB)
+        run: |
+          rm -rf dist
+          mkdir -p dist
 
-      - name: Render (EPUB)
-        run: quarto render --to epub
+          quarto render --to pdf
+          cp _book/*.pdf dist/
+
+          quarto render --to epub
+          cp _book/*.epub dist/
 
       - name: Create GitHub Release and upload assets
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            _book/*.pdf
-            _book/*.epub
+            dist/*.pdf
+            dist/*.epub

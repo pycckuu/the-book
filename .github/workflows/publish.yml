@@ -27,13 +27,23 @@ jobs:
           tinytex: true
 
       - name: Render (HTML)
-        run: quarto render --to html
+        run: |
+          quarto render --to html
+          rm -rf _book_site
+          cp -a _book _book_site
 
       - name: Render (PDF)
-        run: quarto render --to pdf
+        run: |
+          quarto render --to pdf
+          cp _book/*.pdf _book_site/
 
       - name: Render (EPUB)
-        run: quarto render --to epub
+        run: |
+          quarto render --to epub
+          cp _book/*.epub _book_site/
+
+          rm -rf _book
+          mv _book_site _book
 
       - name: Add .nojekyll
         run: touch _book/.nojekyll
