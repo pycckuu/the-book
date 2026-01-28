@@ -20,10 +20,24 @@ A living cell is similar, except the gradients it maintains are chemical and ele
 
 This is the non‑equilibrium trick of life: it stays out of equilibrium by paying an energy bill, continuously.
 
+If that framing feels familiar, it should. In the middle of the twentieth century, the physicist Erwin Schrödinger asked essentially the same question we’re asking here: how can living systems maintain order in a universe that tends to erase differences?[^schrodinger1944] His answer was not “life violates physics,” but the opposite—that life persists by keeping itself organized while exporting disorder to the surroundings.
+
+In modern terms: organisms maintain internal order by exporting entropy, powered by a throughput of energy and matter. Schrödinger also made a second, remarkably prescient point: heredity must be carried by a stable, information‑bearing structure—his “aperiodic crystal”—which today we recognize as the basic idea behind molecular genetics.[^schrodinger1944]
+
+::: {.callout-note}
+## Sidebar — Schrödinger’s answer (and what we’d say now)
+Schrödinger’s *What Is Life?* is a useful touchstone for this book because it connects two themes that are often taught separately:
+
+- **Life as a non‑equilibrium process**: sustained order requires continuous energy flow and entropy export.
+- **Life as an information process**: heredity requires a stable physical structure that can store and copy patterns.
+
+What we add, with modern microbiology and geochemistry in hand, is where this becomes visible and measurable: in sediments and groundwater, “order” often shows up as redox zonation and predictable sequences of reactions, and the bookkeeping can be done in \(\Delta G\), transport, and microbial rates.
+:::
+
 ## The least romantic definition of life (and the most useful)
 There are many definitions of life that feel satisfying in a conversation. They start to wobble when you try to model a real environment: a microbial mat, a sediment column, a deep aquifer, or an entire planet where “organisms” are distributed, mixed with minerals, and constrained by transport.
 
-One definition that survives contact with models is blunt: life is not a thing you point to, it’s a process—an organized way to maintain **non‑equilibrium conditions** by extracting energy from the environment. @Markov2010
+One definition that survives contact with models is blunt: life is not a thing you point to, it’s a process—an organized way to maintain **non‑equilibrium conditions** by extracting energy from the environment.[^markov2010]
 
 This isn’t the only useful lens, but it has a practical advantage: it tells you what to measure. If a place is alive in this sense, you should be able to see the traces of an energy budget being balanced in real time:
 
@@ -35,7 +49,7 @@ This isn’t the only useful lens, but it has a practical advantage: it tells yo
 You can also emphasize other classic features of life from the same source material:
 
 - Life as something inseparable from an **organism** (discrete units that reproduce).
-- Life as an **information process**: a “replicator” copying itself using resources from the environment. @Markov2010
+- Life as an **information process**: a “replicator” copying itself using resources from the environment.
 
 This book will use all three. But we’ll start with non‑equilibrium because it’s the lens that most reliably turns messy nature into predictions.
 
@@ -43,7 +57,7 @@ This book will use all three. But we’ll start with non‑equilibrium because i
 Even in the driest, most mechanistic view, life still needs two things:
 
 1. **A way to store and copy information** (genetic material).
-2. **A way to do work**—maintenance and reproduction—by tapping energy and turning it into usable chemical currency. @Markov2010
+2. **A way to do work**—maintenance and reproduction—by tapping energy and turning it into usable chemical currency.
 
 Modern cells spread these roles across many molecules and subsystems, so it can be tempting to get lost in the parts list. But the division of labor isn’t the main point. The main point is the pressure from physics: copying information and maintaining organized structure is not free. If you want a system that stays organized in a changing environment, you need a continuous income stream of usable energy from outside the system.
 
@@ -105,7 +119,11 @@ In the next chapter, we’ll introduce the currency that makes all of this legib
 And once we have electrons, we can do something both dangerous and useful: put price tags on reactions.
 
 ## Takeaway
-- Life persists by maintaining non‑equilibrium conditions using environmental energy. @Markov2010
+- Life persists by maintaining non‑equilibrium conditions using environmental energy.
 - The key observables are gradients and fluxes, not “who’s there.”
 - Sediments and subsurface environments are ideal because they turn the invisible into measurable profiles.
+
+[^schrodinger1944]: Erwin Schr{\"o}dinger, *What Is Life? The Physical Aspect of the Living Cell* (Cambridge University Press, 1944). [@Schrodinger1944]
+
+[^markov2010]: Alexandr Markov, *Birth of Complexity. Evolutionary Biology Today: Unexpected Discoveries and New Questions* (2010). [@Markov2010]
 
