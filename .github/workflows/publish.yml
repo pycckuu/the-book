@@ -53,6 +53,7 @@ jobs:
 
   deploy:
     needs: build
+    if: ${{ github.event.repository.private == false }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
