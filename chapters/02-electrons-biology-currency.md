@@ -2,15 +2,15 @@
 title: "Electrons: Biology’s Currency"
 ---
 
-The first time you push an electrode into a sediment core, it can feel like cheating.
+Most environments aren’t short on carbon. They’re short on somewhere to put the electrons.
 
-You’re not looking for organisms. You’re not counting cells. You’re not even measuring a specific chemical species. You’re measuring a *tendency*: whether this environment is eager to give electrons away, or eager to take them.
+That sounds like a line from a strange economics lecture until you look closely at mud. The surface of wet sediment often wears a rusty color—orange-brown, like old metal left in the rain. A little deeper it can turn dark, even black, and if you disturb it you might catch a familiar warning in the air: that sharp, swampy “rotten egg” edge that tells you something has been reduced and something else has paid the price.
 
-The number that comes back—an $E_h$, an $E$, a redox potential—is easy to treat like a mysterious “black box” variable. This chapter is about making it legible. The punchline is simple:
+Those colors and smells are not decoration. They’re bookkeeping. They are the sediment’s way of telling you what the scarce resource is down here: **oxidizing power**, the capacity of the environment to accept electrons.
 
-Microbes make a living by moving electrons downhill.
+This chapter is about the hidden economy that follows from that scarcity. Microbes don’t make a living by “eating” in the everyday sense. They make a living by moving electrons from donors to acceptors—downhill—and capturing a small cut of the released energy.
 
-Everything else—oxygen disappearing, iron dissolving, sulfate turning into sulfide, methane bubbling up—is the landscape that downhill motion carves.
+Everything else—oxygen disappearing, iron dissolving, sulfate turning into sulfide, methane appearing—is the landscape that downhill motion carves.
 
 ## The most useful story: electrons falling
 If you want a physics‑native mental model, start with something ordinary: a ball rolling down a hill.
@@ -66,6 +66,8 @@ $$
 
 Read it like this: $E$ moves up or down depending on what’s abundant and what’s scarce, because $Q$ encodes the ratio of products to reactants.
 
+Think about oxygen in our mud jar. As microbes consume it, its concentration ($Q$) plummets. Because $Q$ is inside a logarithm, a drop in concentration translates directly into a drop in voltage. The "hill" gets shallower as the fuel runs out. The Nernst equation isn't just a formula; it's the rule that says *beggars can't be choosers*.
+
 Back‑of‑the‑envelope at room temperature: $\frac{RT}{F} \approx 25.7\ \mathrm{mV}$. So concentration ratios do not need to be extreme to shift $E$ by tens of millivolts.
 :::
 
@@ -79,11 +81,15 @@ Think of an electron donor and acceptor pair as the two terminals of a battery. 
 - **Internal resistance**: enzymes, reaction pathways, regulation, and the microbe’s own maintenance costs.
 - **External resistance**: transport limits—how quickly donors and acceptors are supplied, and products are removed.
 
-In the lab, external resistance can be tiny: you shake a bottle, concentrations stay uniform, and “the reaction” looks simple. In sediments, external resistance is often the whole story: diffusion is slow, oxidants are delivered from one side, and reduced products can build up locally. The same chemistry that seems straightforward in a beaker becomes spatially organized in mud.
+In a well-mixed beaker, a microbe is living at an unlimited buffet. Resistance is negligible.
+
+In mud, that same microbe is trying to drink a milkshake through a very long, very thin straw. The "battery" (the chemical potential) might be fully charged, but the "wire" (diffusion) is terrible. The organism is throttled not by the energy available, but by how fast the world can deliver it.
 
 ## What to measure if you want the electron story
 The goal is not to worship a single number like $E_h$, but to assemble a set of measurements that tell you where electrons are coming from, where they are going, and what bottlenecks matter.
 
+::: {.callout-note}
+## Measurements that tell the electron story
 In practice, you often learn the most from **profiles** (how things change with depth or distance):
 
 - Dissolved oxygen
@@ -92,8 +98,13 @@ In practice, you often learn the most from **profiles** (how things change with 
 - Sulfate and sulfide
 - Methane
 - $pH$, alkalinity, and dissolved inorganic carbon (to constrain carbon cycling and buffering)
+:::
 
 Those measurements let you ask a physics‑style question: where is the gradient, and what flux would it imply? Later, when we build reaction–transport models, this is exactly the bridge we will formalize.
+
+Once you learn to read these profiles, a landscape stops looking like just dirt and water. It starts looking like a patchwork of charged batteries waiting to be discharged.
+
+The cliffs, the sediments, the buried organic matter—they are all terminals of a distinct voltage. The microbes are simply the wires that close the circuit.
 
 ## Takeaway
 - Electrons are a bookkeeping device: metabolism is electron flow from donors to acceptors.
