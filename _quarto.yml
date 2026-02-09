@@ -5,40 +5,33 @@ project:
     - sources/img
 
 book:
-  title: "Equations of a Living Planet"
-  subtitle: "The Energy Rules Behind Earth’s Chemical Cycles"
+  title: "The Invisible Architects"
+  subtitle: "How Microbes Built the World"
   author: "Igor Markelov"
   date: "2026"
   search: true
-  output-file: equations-of-a-living-planet
+  output-file: the-invisible-architects
   downloads: [pdf, epub]
   chapters:
     - index.md
-    - toc.md
-    - chapters/01-the-non-equilibrium-trick.md
-    - chapters/02-electrons-biology-currency.md
-    - chapters/03-price-tags-and-speed-limits.md
-    - chapters/04-one-reaction-anchor.md
-    - chapters/05-the-redox-ladder.md
-    - chapters/06-life-without-light.md
-    - chapters/07-oxygen-successful-poison.md
-    - chapters/08-methane-maker-eater-middleman.md
-    - chapters/09-high-cost-of-being-alive.md
-    - chapters/10-sediment-is-a-reactor.md
-    - chapters/11-the-conservation-equation.md
-    - chapters/12-how-stuff-moves.md
-    - chapters/13-how-fast-stuff-happens.md
-    - chapters/14-making-rates-respect-energy.md
-    - chapters/15-syntrophy-and-assemblies.md
-    - chapters/16-switching-as-dynamics.md
-    - chapters/17-yield-power-atp-ledger.md
-    - chapters/18-parameters-without-make-believe.md
-    - chapters/19-porewater-detective-story.md
-    - chapters/20-from-mud-to-the-sky.md
-    - chapters/21-sulfate-methane-boundary.md
-    - chapters/22-groundwater-redox.md
-    - chapters/23-cleaning-water.md
-    - chapters/24-what-we-still-dont-know.md
+    - part: "Part I: The Rules of the Game"
+      chapters:
+        - chapters/01-budget-of-the-universe.md
+        - chapters/02-the-stage.md
+    - part: "Part II: The First Society"
+      chapters:
+        - chapters/03-spark.md
+        - chapters/04-the-first-city.md
+        - chapters/05-the-poisoning.md
+    - part: "Part III: The Great Mergers"
+      chapters:
+        - chapters/06-cannibals-and-voters.md
+        - chapters/07-the-merger.md
+    - part: "Part IV: The Hidden World and the Future"
+      chapters:
+        - chapters/08-cities-without-sunlight.md
+        - chapters/09-the-water-planet.md
+        - chapters/epilogue.md
   appendices:
     - appendices/a-energy-toolkit.md
     - appendices/b-model-toolkit.md
