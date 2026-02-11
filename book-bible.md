@@ -32,7 +32,7 @@ A physics‑minded, story‑driven guide to how microbes survive on tight energy
   - **Appendix A** (Energy Toolkit): Lineweaver-Burk, inhibition types, pH/temperature optima
   - **Appendix B** (Model Toolkit): diagenetic equation, transport terms, rate expressions, partial equilibrium, growth/yield/decay, software tools
   - **Appendix C** (Reaction Gallery): placeholder
-  - **Appendix D** (Math Without Pain): Schrodinger equation derivation, molecular energy hierarchy, partition functions
+  - **Appendix D** (Math Without Pain): Schrödinger equation derivation, molecular energy hierarchy, partition functions
   - **Appendix E** (Dramatis Personae): One-page cards for key organisms (*D. audaxviator*, *Synechococcus*, *B. subtilis*, *M. xanthus*, *Ruthia magnifica*, *Carsonella ruddii*, *Lokiarchaeota*, *Riftia pachyptila*, *Elysia viridis*)
 
 ## Physics‑forward mental models (recurring)

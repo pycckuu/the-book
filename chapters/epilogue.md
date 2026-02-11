@@ -4,9 +4,9 @@ title: "What Is Life?"
 
 In 1944, a physicist who had never cultured a bacterium or cored a sediment sat down in Dublin and asked a question that biologists had been circling for centuries: *What is life?*
 
-Erwin Schrodinger's little book did not answer its own title. What it did was more lasting. It reframed the question in the language of physics -- order, entropy, free energy, information -- and insisted that the answer, whatever it turned out to be, must not violate the laws that govern everything else.[^schrodinger1944]
+Erwin Schrödinger's little book did not answer its own title. What it did was more lasting. It reframed the question in the language of physics -- order, entropy, free energy, information -- and insisted that the answer, whatever it turned out to be, must not violate the laws that govern everything else.[^schrodinger1944]
 
-We opened this book with his question. Now, having traveled four and a half billion years from the first chemical reactions on a cooling planet to microbial communities persisting three kilometers underground on energy budgets thinner than a candle flame, we can attempt something Schrodinger could not: an answer grounded in evidence, calibrated in $\Delta G$, and tested against the porewater profiles of real sediments.
+We opened this book with his question. Now, having traveled four and a half billion years from the first chemical reactions on a cooling planet to microbial communities persisting three kilometers underground on energy budgets thinner than a candle flame, we can attempt something Schrödinger could not: an answer grounded in evidence, calibrated in $\Delta G$, and tested against the porewater profiles of real sediments.
 
 ## Three definitions, all correct
 
@@ -22,7 +22,7 @@ This definition is the one that keeps biology from dissolving into pure chemistr
 
 **Life is the ability of a replicator to copy itself using resources from the environment.**[^joyce1994]
 
-This is the information definition, and it is the one Schrodinger anticipated most clearly with his "aperiodic crystal." We traced it from the RNA world hypothesis through the emergence of DNA-based heredity to the full metabolic machinery of modern cells. The replicator definition captures something the other two miss: the arrow of evolution. Non-equilibrium maintenance is necessary but not sufficient. Discrete organisms are necessary but not sufficient. What makes life *life* -- what distinguishes it from a cleverly maintained chemical gradient -- is that the system carries instructions for its own reproduction, and those instructions can change.
+This is the information definition, and it is the one Schrödinger anticipated most clearly with his "aperiodic crystal." We traced it from the RNA world hypothesis through the emergence of DNA-based heredity to the full metabolic machinery of modern cells. The replicator definition captures something the other two miss: the arrow of evolution. Non-equilibrium maintenance is necessary but not sufficient. Discrete organisms are necessary but not sufficient. What makes life *life* -- what distinguishes it from a cleverly maintained chemical gradient -- is that the system carries instructions for its own reproduction, and those instructions can change.
 
 ## Two irreducible properties
 
@@ -95,7 +95,7 @@ The invisible architects have not retired. They are still at work -- in every gr
 
 The question is whether we will make the effort to understand them.
 
-[^schrodinger1944]: Erwin Schrodinger, *What Is Life? The Physical Aspect of the Living Cell* (Cambridge University Press, 1944). [@Schrodinger1944]
+[^schrodinger1944]: Erwin Schrödinger, *What Is Life? The Physical Aspect of the Living Cell* (Cambridge University Press, 1944). [@Schrodinger1944]
 
 [^luisi1998]: Pier Luigi Luisi, "About Various Definitions of Life," *Origins of Life and Evolution of the Biosphere* 28 (1998): 613--622. [@Luisi1998]
 

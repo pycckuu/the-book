@@ -2,19 +2,25 @@
 title: "The Budget of the Universe"
 ---
 
-In February 1943, a physicist who had already changed the world once sat down to give a series of lectures at Trinity College, Dublin. Erwin Schrodinger was fifty-five, exiled from Austria, and restless. He had won the Nobel Prize a decade earlier for an equation that described how matter behaves at atomic scales. Now he wanted to ask a question that no physicist had any business asking:
+Three kilometers below the surface of South Africa, in rock that has not seen sunlight for twenty million years, a bacterium called *Candidatus* Desulforudis audaxviator divides once per century. Its energy source is hydrogen gas, produced atom by atom as uranium in the surrounding rock decays. Its electron acceptor is sulfate, trapped in mineral inclusions since the Archean. The reaction releases just enough free energy to synthesize a handful of ATP molecules---just barely enough to copy a genome, repair a membrane, and divide.[^lin2006_deep]
+
+This organism runs on the thinnest energy budget in the known biosphere. To understand how it survives---how *any* microbe survives---you need to understand what "energy budget" means. That requires physics. Not all of physics. Just the rules that govern what reactions can happen, how much energy they release, and why some reactions proceed while others, equally favorable on paper, sit frozen until the right catalyst arrives.
+
+---
+
+In February 1943, a physicist who had already changed the world once sat down to give a series of lectures at Trinity College, Dublin. Erwin Schrödinger was fifty-five, exiled from Austria, and restless. He had won the Nobel Prize a decade earlier for an equation that described how matter behaves at atomic scales. Now he wanted to ask a question that no physicist had any business asking:
 
 What is life?
 
-Not what life is *made of*---biochemists were sorting that out. Not where life *came from*---that was still anyone's guess. Schrodinger wanted to know what physical rules a living system must obey simply to persist. He looked at biology and saw thermodynamics. The lectures became a slim book, published in 1944, and the book became one of the most influential scientific texts of the twentieth century.[^schrodinger1944][^schrodinger_lectures]
+Not what life is *made of*---biochemists were sorting that out. Not where life *came from*---that was still anyone's guess. Schrödinger wanted to know what physical rules a living system must obey simply to persist. He looked at biology and saw thermodynamics. The lectures became a slim book, published in 1944, and the book became one of the most influential scientific texts of the twentieth century.[^schrodinger1944][^schrodinger_lectures]
 
-Schrodinger's argument was almost unsettling in its clarity. Living systems maintain internal order---precise molecular arrangements, concentration gradients, structured membranes---in a universe that relentlessly erases differences. The Second Law of Thermodynamics says that the total disorder of a closed system can only increase. So how does a bacterium, a fern, or a physicist stay organized?
+Schrödinger's argument was almost unsettling in its clarity. Living systems maintain internal order---precise molecular arrangements, concentration gradients, structured membranes---in a universe that relentlessly erases differences. The Second Law of Thermodynamics says that the total disorder of a closed system can only increase. So how does a bacterium, a fern, or a physicist stay organized?
 
 Not by violating the Second Law. By *obeying it creatively*. A living organism maintains its internal order by exporting disorder---entropy---to the surroundings. It takes in structured energy (food, sunlight) and releases degraded energy (heat, waste). The organism stays organized; the universe, on balance, becomes more disordered. The accounting always works out.
 
-Schrodinger also made a second, remarkably prescient prediction. He argued that the genetic material---whatever it was---must be a stable, information-bearing structure. He called it an "aperiodic crystal": not a repeating lattice like salt or diamond, but an irregular arrangement capable of encoding instructions. Nine years later, Watson and Crick described the double helix of DNA.[^watsoncrick1953] It was, almost exactly, Schrodinger's aperiodic crystal.
+Schrödinger also made a second, remarkably prescient prediction. He argued that the genetic material---whatever it was---must be a stable, information-bearing structure. He called it an "aperiodic crystal": not a repeating lattice like salt or diamond, but an irregular arrangement capable of encoding instructions. Nine years later, Watson and Crick described the double helix of DNA.[^watsoncrick1953] It was, almost exactly, Schrödinger's aperiodic crystal.
 
-But this chapter is not about DNA. It is about the first half of Schrodinger's insight: the energy rules. Before there was life, before there was an ocean, before there was a planet with liquid water, there were the laws of thermodynamics and quantum mechanics. These laws---discovered in European laboratories with hydrogen atoms, metal plates, and vacuum tubes---are the constitution that every chemical reaction, every metabolic pathway, and every living organism must obey.
+But this chapter is not about DNA. It is about the first half of Schrödinger's insight: the energy rules. Before there was life, before there was an ocean, before there was a planet with liquid water, there were the laws of thermodynamics and quantum mechanics. These laws---discovered in European laboratories with hydrogen atoms, metal plates, and vacuum tubes---are the constitution that every chemical reaction, every metabolic pathway, and every living organism must obey.
 
 They are the budget of the universe.
 
@@ -32,11 +38,11 @@ $$
 
 Here $\nu$ is the frequency of the radiation and $h$ is a new constant of nature, now called Planck's constant ($h \approx 6.626 \times 10^{-34}$ J$\cdot$s).[^codata2018] The constant is extraordinarily small, which is why the graininess of energy is invisible in everyday life. But at atomic and molecular scales, it is everything.
 
-This is not abstract physics. It is the reason photosynthesis works. A chlorophyll molecule absorbs red light at around 680 nm because the energy of a red photon ($E = h\nu = hc/\lambda$) matches a specific electronic transition in chlorophyll.[^blankenship_680] A photon of slightly lower energy, in the infrared, cannot make that jump. A photon of much higher energy, in the ultraviolet, would overshoot and cause damage. The quantization of energy is why biology runs on specific wavelengths and not on a continuous smear.
+A chlorophyll molecule absorbs red light at around 680 nm because the energy of a red photon ($E = h\nu = hc/\lambda$) matches a specific electronic transition in chlorophyll.[^blankenship_680] A photon of slightly lower energy, in the infrared, cannot make that jump. A photon of much higher energy, in the ultraviolet, would overshoot and cause damage. The quantization of energy is why biology runs on specific wavelengths and not on a continuous smear. Cyanobacteria---the microbes that invented oxygenic photosynthesis roughly 2.5 billion years ago---exploit exactly this specificity. Their chlorophyll absorbs red photons at 680 nm because that is where the electronic transition sits; a few nanometers in either direction and the reaction center would be blind.
 
 Five years after Planck's proposal, Albert Einstein pushed the idea further. He showed that light itself behaves as a stream of particles---photons---each carrying exactly one quantum of energy $E = h\nu$. His evidence came from the photoelectric effect: when light strikes a metal surface, it can knock electrons free, but only if each individual photon carries enough energy to overcome the binding force that holds the electron in the metal.[^einstein1905] Below a threshold frequency, nothing happens---no matter how bright the light. Above it, electrons fly out immediately. The energy of the ejected electrons increases linearly with the frequency of the incoming light, exactly as $E = h\nu$ predicts. Einstein received the Nobel Prize for this work in 1921, not for relativity.
 
-The implications ripple forward through everything that follows in this book. Chemical bonds have specific energies. Breaking them requires a minimum energy input. Forming new bonds releases specific amounts of energy. None of this would work if energy were continuous.
+Chemical bonds have specific energies. Breaking them requires a minimum energy input. Forming new bonds releases specific amounts of energy. None of this would work if energy were continuous.
 
 ## The hydrogen-chlorine cannon
 
@@ -72,11 +78,13 @@ This is quantization in action. The reaction is favorable, the reactants are mix
 
 Every reaction in biochemistry follows the same logic. Enzymes do not change whether a reaction is favorable; they lower the activation barrier so that the reaction can proceed at body temperature. They are, in effect, a substitute for the blue lamp---a way to start the cannon without the explosion.
 
+The brave wanderer from our opening---*D. audaxviator*---carries hydrogenase enzymes that lower the barrier for oxidizing H$_2$ with sulfate. Without those enzymes, the reaction would be thermodynamically favorable but kinetically frozen, like a hydrogen-chlorine mixture sitting in the dark. The enzyme is the lamp.
+
 ## The budget: Gibbs free energy
 
 The hydrogen-chlorine cannon illustrates one of the most important distinctions in all of science: the difference between energy that is *released* and energy that is *available to do work*. Not all released energy is useful. Some of it dissipates as disordered heat. Some of it goes into rearranging the surroundings in ways you cannot harness. To understand what a reaction can actually accomplish---whether it can build a molecule, pump an ion across a membrane, or power a flagellar motor---you need a sharper accounting tool.
 
-That tool was invented by Josiah Willard Gibbs in the 1870s, and it is the single most important equation in this book.[^gibbs1873]
+That tool was invented by Josiah Willard Gibbs in the 1870s, and it is the equation that appears more often than any other in this book.[^gibbs1873]
 
 ![Not all energy is equal. Gibbs free energy is the fraction that can do work.](../sources/img/ch1_gibbs_free_energy.png){#fig-gibbs-free-energy}
 
@@ -96,7 +104,7 @@ When a reaction occurs, the change in Gibbs free energy tells you the direction:
 
 The biological metaphor writes itself. Enthalpy is your gross income. The entropy term $TS$ is the tax---the portion the universe takes as payment for allowing things to happen. Gibbs free energy is your disposable income: the fraction you can direct toward maintenance, growth, or reproduction.
 
-Microbes are accountants -- but not the optimizing kind. They do not maximize profit. They cover costs. A bacterium in a sediment pore does not search for the reaction with the largest $\Delta G$; it runs whatever reaction its existing enzymes can catalyze, provided the return exceeds the minimum cost of staying alive. In the language of decision theory, microbes *satisfice*: they find strategies that are good enough, not strategies that are best.[^simon1956] This distinction -- between optimizing and satisficing -- will turn out to matter enormously when we try to predict what microbial communities actually do in real environments. Optimization models predict sharp boundaries and competitive exclusion. Satisficing models predict the fuzzy coexistence and apparent inefficiency that field measurements consistently show. The physics sets the menu. The microbes choose what they can afford, not what is cheapest.
+Microbes are accountants -- but not the optimizing kind. They do not maximize profit. They cover costs. A bacterium in a sediment pore does not search for the reaction with the largest $\Delta G$; it runs whatever reaction its existing enzymes can catalyze, provided the return exceeds the minimum cost of staying alive. In the language of decision theory, microbes *satisfice*: they find strategies that are good enough, not strategies that are best.[^simon1956] This distinction -- between optimizing and satisficing -- explains a pattern visible in every marine sediment core: the redox zones overlap instead of forming sharp boundaries, and supposedly outcompeted metabolisms persist in the "wrong" zone. Optimization models predict sharp exclusion. Satisficing models predict the fuzzy coexistence and apparent inefficiency that field measurements consistently show. The physics sets the menu. The microbes choose what they can afford, not what is cheapest.
 
 ### Real conditions, not standard ones
 
@@ -129,28 +137,16 @@ Most organic molecules fall between these extremes. Glucose (C$_6$H$_{12}$O$_6$)
 
 The insight is practical: **the oxidation state of the carbon atoms in an organic molecule provides a direct measure of its free-energy content**.[^stumm_redox] You do not need to look up $\Delta G_f^\circ$ for every compound. A quick glance at the molecular formula tells you whether the molecule is energy-rich or energy-poor.
 
-This will matter enormously when we start asking how microbes process organic matter in sediments. The "freshness" or "reactivity" of organic material is, at bottom, an oxidation-state story.
+In any sediment core, the reactivity of organic carbon drops with depth---a pattern that is, at bottom, an oxidation-state story. The "freshness" of buried organic material tracks its average oxidation state.
 :::
 
 ## Why energy levels are discrete
 
-Planck and Einstein showed that light carries energy in packets. But the discreteness runs deeper. Particles themselves behave as waves---a fact confirmed experimentally in the 1920s[^davisson1927] and formalized by the Schrodinger equation (derived in Appendix D). Electrons confined to an atom cannot have arbitrary energies, for the same reason a guitar string cannot vibrate at arbitrary frequencies: the boundary conditions select only certain standing-wave patterns, and each pattern corresponds to a specific energy. From these discrete energy levels come all bond energies, activation barriers, and spectroscopic signatures.
-
-## How molecules store energy
-
-Quantization does not stop at individual atoms. Molecules store energy in four modes---electronic, vibrational, rotational, and translational---each governed by the same quantum rules but operating at different energy scales.[^atkins_energy]
-
-**Electronic transitions** are the most energetic: the gaps between electron orbitals are measured in electron-volts (hundreds of kJ/mol). These are the transitions that make photosynthesis and the photoelectric effect work.
-
-**Vibrational transitions** are smaller---bonds stretching and bending like quantum springs, with energy levels spaced by amounts comparable to the thermal energy at room temperature. Infrared spectroscopy probes these modes.
-
-**Rotational and translational transitions** are smaller still. At room temperature, both are fully excited: the thermal energy far exceeds the gaps, so many quantum states are populated. This hierarchy---electronic $\gg$ vibrational $\gg$ rotational $\gg$ translational---explains why heating a gas increases its pressure (translational energy changes easily) long before it changes color (electronic transitions require much more energy).
-
-The quantitative details---the energy-level formulas, the partition function that bridges quantum mechanics to thermodynamics, and the connection to entropy and $\Delta G$---are developed in Appendix D.
+The discreteness of energy levels---why atoms have specific orbitals and bonds have specific strengths---traces back to the wave nature of matter. Particles themselves behave as waves, confirmed experimentally in the 1920s and formalized by the Schrödinger equation. Electrons confined to an atom cannot have arbitrary energies, for the same reason a guitar string cannot vibrate at arbitrary frequencies: the boundary conditions select only certain standing-wave patterns, and each pattern corresponds to a specific energy. The full derivation, along with the hierarchy of electronic, vibrational, rotational, and translational energy modes in molecules, is developed in Appendix D.
 
 ## Chemical equilibrium and the reaction quotient
 
-We have assembled the pieces: energy comes in quanta, bonds have specific energies, and the Gibbs free energy tracks how much usable work a reaction can deliver. Now we can formalize the concept of chemical equilibrium.
+We have assembled the pieces: energy comes in quanta, bonds have specific energies, and the Gibbs free energy tracks how much usable work a reaction can deliver. Now we can formalize chemical equilibrium.
 
 Every chemical species in a mixture has a **chemical potential** $\mu_i$---a measure of how much the system's free energy would change if you added one more mole of that species. For an ideal system:
 
@@ -188,37 +184,29 @@ This equation is a Rosetta Stone. It connects the standard free energy change (w
 
 For microbial metabolism, the critical quantity is rarely $\Delta G^\circ$. It is $\Delta G$---the energy available *right here, right now*, at the actual concentrations in the local environment. Two identical reactions can have completely different $\Delta G$ values in different environments, because $Q$ depends on what has been consumed and what has accumulated. A reaction that is profitable near the sediment surface, where oxygen is present, may become unprofitable a centimeter deeper, where oxygen has been depleted.
 
-This is why mud tells stories. The concentration profiles---oxygen dropping to zero, sulfate declining, methane appearing---are the visible signatures of $Q$ shifting through space, dragging $\Delta G$ with it.
+This is why mud tells stories. The concentration profiles---oxygen dropping to zero, sulfate declining, methane appearing---are the visible signatures of $Q$ shifting through space, dragging $\Delta G$ with it. Each zone is dominated by a different microbial guild: aerobic heterotrophs at the top, sulfate reducers in the middle, methanogens at the bottom. The physics sets the order. The microbes fill the niches.
 
 ## The rules before the game
 
 The chain of reasoning is now complete.
 
-Planck showed that energy comes in packets. Einstein showed that light carries these packets as particles. The wave nature of matter --- confirmed experimentally in the 1920s and formalized by the Schrodinger equation --- explains why atoms and molecules have discrete energy levels. From those energy levels come bond energies, activation barriers, and the electronic transitions that make photosynthesis and respiration possible.
+Planck showed that energy comes in packets. Einstein showed that light carries these packets as particles. The wave nature of matter --- confirmed experimentally in the 1920s and formalized by the Schrödinger equation --- explains why atoms and molecules have discrete energy levels. From those energy levels come bond energies, activation barriers, and the electronic transitions that make photosynthesis and respiration possible.
 
 Gibbs, working half a century before quantum mechanics, already had the thermodynamic framework: enthalpy minus the entropy tax gives you the free energy---the budget. With the reaction quotient $Q$ adjusting the budget for local conditions, you can calculate the energy available from any reaction in any environment.
 
-These discoveries were made in an era when "biology" meant looking at cells through microscopes and cataloging species in jars. Planck was worrying about the spectrum of hot metal. Einstein was thinking about the photoelectric effect in a patent office. Gibbs was a reclusive professor in New Haven writing papers that almost nobody read. De Broglie was a French aristocrat writing a doctoral thesis that his examiners weren't sure they believed.
+The rules they uncovered---quantized energy, the Gibbs budget, chemical equilibrium---are the same rules that govern every metabolic reaction in every living cell that has ever existed. They governed the first autocatalytic cycles in hydrothermal vents 4 billion years ago.[^martinrussell2003] They govern the sulfate-reducing bacteria 3 kilometers underground in a South African gold mine today.[^lin2006_deep] Evolution operates within the Second Law, not outside it. Natural selection can explore an enormous space of molecular strategies, but every strategy must balance the Gibbs budget: find a reaction with $\Delta G < 0$ under local conditions, harvest that energy, and export the resulting entropy.
 
-None of them were thinking about bacteria.
-
-And yet. The rules they uncovered---quantized energy, wave-particle duality, the Gibbs budget, chemical equilibrium---are the same rules that govern every metabolic reaction in every living cell that has ever existed. They governed the first autocatalytic cycles in hydrothermal vents 4 billion years ago.[^martinrussell2003] They govern the sulfate-reducing bacteria 3 kilometers underground in a South African gold mine today.[^lin2006_deep] They will govern whatever organisms exist on whatever planets we eventually find.
-
-This is the deepest lesson of the opening chapter. The physics was not designed for biology. It was designed for hydrogen atoms and metal plates. But biology had no choice except to obey it. Evolution cannot override the Second Law. Natural selection can explore an enormous space of molecular strategies, but every strategy must balance the Gibbs budget. Every organism must find an energy source with $\Delta G < 0$ under local conditions, harvest that energy efficiently enough to cover the cost of maintenance and reproduction, and export the resulting entropy to the environment.
-
-The rest of this book is the story of how microbes---the oldest, most successful, and most diverse organisms on Earth---solved that problem in every environment the planet offered. In hot springs and frozen Antarctic lakes. In sunlit surface waters and in sediments where no photon has penetrated for millions of years. On sulfur, on iron, on methane, on hydrogen, on organic matter that other organisms discarded as waste.
-
-But all of those solutions are constrained by the same budget. And the budget was set before the first cell divided.
+The brave wanderer, three kilometers underground, obeys every rule in this chapter. So does every other organism we will meet. The budget was set before the first cell divided.
 
 ## Takeaway
 
 - Energy comes in discrete packets ($E = h\nu$), which is why specific photons break specific bonds and why photosynthesis requires specific wavelengths.
-- The Gibbs free energy $G = H - TS$ is the universal budget: enthalpy minus the entropy tax gives the energy available to do work.
+- The Gibbs free energy $G = H - TS$ is the universal budget: enthalpy minus the entropy cost gives the energy available to do work.
 - Under real conditions, $\Delta G = \Delta G^\circ + RT \ln Q$ adjusts the budget for actual concentrations. At equilibrium, $\Delta G = 0$ and the reaction quotient equals $K_{\text{eq}}$.
 - Wave-particle duality (Appendix D) explains *why* energy levels are discrete and *why* bonds have the strengths they do. Molecules store energy in electronic, vibrational, rotational, and translational modes.
 - These rules---discovered with hydrogen atoms and metal plates---are the same rules that will govern every bacterium, every enzyme, every metabolic pathway for the next 4.5 billion years of Earth's history.
 
-[^schrodinger1944]: Erwin Schrodinger, *What Is Life? The Physical Aspect of the Living Cell* (Cambridge University Press, 1944). [@Schrodinger1944]
+[^schrodinger1944]: Erwin Schrödinger, *What Is Life? The Physical Aspect of the Living Cell* (Cambridge University Press, 1944). [@Schrodinger1944]
 
 [^planck1901]: Max Planck, "Ueber das Gesetz der Energieverteilung im Normalspectrum," *Annalen der Physik* 309, no. 3 (1901): 553--563. [@Planck1901]
 
@@ -242,9 +230,6 @@ But all of those solutions are constrained by the same budget. And the budget wa
 
 [^stumm_redox]: The oxidation-state framework for organic carbon is developed in Werner Stumm and James J. Morgan, *Aquatic Chemistry*, 3rd ed. (Wiley, 1996), ch. 8. [@stumm1996aquatic]
 
-[^davisson1927]: Clinton Davisson and Lester Germer, "Diffraction of Electrons by a Crystal of Nickel," *Physical Review* 30 (1927): 705–740. [@Davisson1927]
-
-[^atkins_energy]: Energy-level hierarchies in molecules are covered in Peter Atkins and Julio de Paula, *Physical Chemistry*, 9th ed. (Oxford University Press, 2010). [@Atkins2010]
 
 [^martinrussell2003]: William Martin and Michael J. Russell, "On the Origins of Cells," *Philosophical Transactions of the Royal Society B* 358 (2003): 59–85. [@MartinRussell2003]
 
