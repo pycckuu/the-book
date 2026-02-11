@@ -13,7 +13,7 @@ The approach is chronological and technical, but story-driven. Every equation ea
 
 The book is organized in five parts.
 
-**Part I: The Rules of the Game** establishes the physics before introducing a single organism. Free energy, electron transfer, kinetics, and the costs of staying alive -- these are the constraints that every microbe on Earth must obey, and they set the stage for everything that follows.
+**Part I: The Rules of the Game** establishes the thermodynamic and quantum constraints -- using organisms as entry points to the physics. Free energy, electron transfer, kinetics, and the costs of staying alive -- these are the rules that every microbe on Earth must obey, and they set the stage for everything that follows.
 
 **Part II: The First Society** introduces the earliest metabolisms, the first microbial communities, and the catastrophe that changed the atmosphere forever: the rise of oxygen. Here the emphasis shifts from physics to history, though the physics never leaves.
 

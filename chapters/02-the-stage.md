@@ -10,9 +10,9 @@ And yet, within a billion years, one of those planets was alive, another was a f
 
 ![Three planets, one outcome. Temperature and atmospheric evolution of Venus, Earth, and Mars from formation to ~3.5 billion years ago. Uncertainty bars reflect the state of knowledge: Earth is well constrained; Venus and Mars are not.](../sources/img/ch2_planetary_divergence.png){#fig-planetary-divergence}
 
-The figure tells the story in a single frame. Earth's temperature range is narrow---0 to 70°C, with a best estimate near 25°C from resurrected ancestral proteins[^fig_gaucher]---because stromatolites[^fig_allwood] and zircon oxygen isotopes[^fig_wilde_zircon] provide tight constraints. Venus spans the full range from possibly habitable to full runaway greenhouse: the deuterium-to-hydrogen ratio proves catastrophic water loss,[^fig_donahue] but the timing remains debated.[^fig_way] Mars shows the late Noachian ambiguity between warm-wet and cold-with-episodic-thaw scenarios,[^fig_mars_climate] and its crustal magnetic remnants[^fig_acuna] confirm a dynamo that shut down early. Same raw materials, same physics, three different outcomes---but only one is well constrained.
+Look at the uncertainty bars. Earth's temperature is well constrained---stromatolites,[^fig_allwood] zircon isotopes,[^fig_wilde_zircon] and resurrected ancestral proteins[^fig_gaucher] converge on a best estimate near 25°C. Venus and Mars are not: deuterium ratios prove Venus lost its water,[^fig_donahue] but when?[^fig_way] Mars's crustal magnetism proves an early dynamo,[^fig_acuna] but warm-wet or cold-episodic?[^fig_mars_climate] Same raw materials, same physics, three different outcomes.
 
-This chapter is about why. Not in the sense of purpose, but in the sense of mechanism: what sequence of physical accidents turned one ordinary rocky planet into the one place where non-equilibrium chemistry could build a biosphere? The answer is not a single miracle. It is a chain of contingencies--each one physical, each one measurable, and each one shockingly specific.
+This chapter is about why. Not in the sense of purpose, but in the sense of mechanism: what sequence of physical accidents turned one ordinary rocky planet into the one place where non-equilibrium chemistry could build a biosphere? The answer is not a single miracle. It is a chain of contingencies--each one physical, each one measurable, and each one specific enough to test.
 
 ## The violence that built the world
 
@@ -56,13 +56,13 @@ So what happened?
 
 The answer is written in isotopes. When planetary scientists compare the nitrogen, carbon, and oxygen isotope ratios of Venus's atmosphere to Earth's, they find striking similarities--consistent with both planets starting from the same mix of volatiles. But one ratio is dramatically different: the deuterium-to-hydrogen ratio (D/H). Venus's atmosphere has a D/H ratio roughly 100 to 150 times higher than Earth's.
 
-This single number tells a story of catastrophic water loss. Deuterium (D, or $^2$H) is the heavy isotope of hydrogen. It is chemically almost identical to ordinary hydrogen ($^1$H) but twice as massive. When water molecules are broken apart in the upper atmosphere by ultraviolet radiation, the lighter $^1$H escapes to space more easily than the heavier D. Over time, preferential loss of light hydrogen enriches the remaining hydrogen in deuterium. The more water you lose, the higher the D/H ratio climbs.
+That ratio records catastrophic water loss. Deuterium (D, or $^2$H) is the heavy isotope of hydrogen. It is chemically almost identical to ordinary hydrogen ($^1$H) but twice as massive. When water molecules are broken apart in the upper atmosphere by ultraviolet radiation, the lighter $^1$H escapes to space more easily than the heavier D. Over time, preferential loss of light hydrogen enriches the remaining hydrogen in deuterium. The more water you lose, the higher the D/H ratio climbs.
 
 Venus's extreme D/H ratio means it lost nearly all of its hydrogen--and therefore nearly all of its water--to space.
 
 The mechanism is a runaway greenhouse, and it proceeds in steps that are individually straightforward but collectively devastating:
 
-1. Venus is closer to the Sun than Earth. It receives roughly twice the solar flux. At some point in its early history--perhaps when the Sun was slightly brighter, or when some other perturbation tipped the balance--surface temperatures exceeded roughly 75 degrees Celsius.
+1. Venus is closer to the Sun than Earth. It receives roughly twice the solar flux. At some point in its early history--perhaps when the Sun was slightly brighter, or when some other perturbation tipped the balance--surface temperatures likely crossed a critical threshold---models place it in the range of 70 to 80 degrees Celsius, though the exact value remains debated.
 
 2. Above that threshold, the oceans began to evaporate massively. Water moved from the surface into the atmosphere:
 
@@ -225,7 +225,7 @@ Venus shows what happens when the distance is wrong. Mars shows what happens whe
 
 The stage is set: a warm, wet, metal-rich, geologically active planet bathed in energy, with the thermodynamic rules of Chapter 1 operating in every drop of its ancient ocean.
 
-Now the chemistry can begin.
+And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen gas, carbon monoxide, and hydrogen cyanide into warm, metal-rich water---exactly the cocktail that organic chemists use to build the building blocks of life in the lab. The thermodynamics are favorable. The raw materials are abundant. The planet has time. What it does not yet have is a molecule that can copy itself.
 
 ## Takeaways
 
