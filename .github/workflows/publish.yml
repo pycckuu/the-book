@@ -1,0 +1,74 @@
+name: Build book site + downloads
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto (with TinyTeX for PDF)
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
+
+      - name: Render (HTML)
+        run: |
+          quarto render --to html
+          rm -rf _book_site
+          cp -a _book _book_site
+
+      - name: Render (PDF)
+        run: |
+          quarto render --to pdf
+          cp _book/*.pdf _book_site/
+
+      - name: Render (EPUB)
+        run: |
+          quarto render --to epub
+          cp _book/*.epub _book_site/
+
+          rm -rf _book
+          mv _book_site _book
+
+      - name: Add .nojekyll
+        run: touch _book/.nojekyll
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _book
+
+      - name: Upload PDF + EPUB
+        uses: actions/upload-artifact@v4
+        with:
+          name: downloads
+          path: |
+            _book/*.pdf
+            _book/*.epub
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+

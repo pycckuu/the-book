@@ -1,0 +1,60 @@
+project:
+  type: book
+  output-dir: _book
+  resources:
+    - sources/img
+
+book:
+  title: "The Invisible Architects"
+  subtitle: "How Microbes Built the World"
+  author: "Igor Markelov"
+  date: "February 1, 2026"
+  search: true
+  output-file: the-invisible-architects
+  downloads: [pdf, epub]
+  chapters:
+    - index.md
+    - part: "Part I: The Rules of the Game"
+      chapters:
+        - chapters/01-budget-of-the-universe.md
+        - chapters/02-the-stage.md
+    - part: "Part II: The First Society"
+      chapters:
+        - chapters/03-spark.md
+        - chapters/04-the-first-city.md
+        - chapters/05-the-poisoning.md
+    - part: "Part III: The Great Mergers"
+      chapters:
+        - chapters/06-cannibals-and-voters.md
+        - chapters/07-the-merger.md
+    - part: "Part IV: The Equation"
+      chapters:
+        - chapters/08-the-equation.md
+    - part: "Part V: The Hidden World and the Future"
+      chapters:
+        - chapters/09-cities-without-sunlight.md
+        - chapters/10-the-water-planet.md
+        - chapters/epilogue.md
+  appendices:
+    - appendices/a-energy-toolkit.md
+    - appendices/b-model-toolkit.md
+    - appendices/c-reaction-gallery.md
+    - appendices/d-math-without-pain.md
+    - appendices/e-dramatis-personae.md
+
+bibliography: sources/bibliograph.bib
+suppress-bibliography: true
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+  pdf:
+    documentclass: scrbook
+    pdf-engine: xelatex
+    toc: true
+    number-sections: true
+  epub:
+    toc: true
+    number-sections: true

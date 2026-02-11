@@ -1,0 +1,40 @@
+name: Release downloads (PDF + EPUB)
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto (with TinyTeX for PDF)
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
+
+      - name: Render (PDF + EPUB)
+        run: |
+          rm -rf dist
+          mkdir -p dist
+
+          quarto render --to pdf
+          cp _book/*.pdf dist/
+
+          quarto render --to epub
+          cp _book/*.epub dist/
+
+      - name: Create GitHub Release and upload assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/*.pdf
+            dist/*.epub

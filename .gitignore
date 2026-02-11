@@ -1,0 +1,12 @@
+/.quarto/
+/_book/
+/_site/
+/_freeze/
+/_cache/
+*.log
+*.aux
+*.out
+*.toc
+*.synctex.gz
+
+**/*.quarto_ipynb
