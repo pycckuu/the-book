@@ -12,11 +12,11 @@ This is the central paradox of the origin of life, and for decades it stopped th
 
 In modern cells, the division of labor is clean. DNA stores the instructions. Proteins do the work -- catalyzing reactions, building structures, transporting molecules across membranes. But proteins cannot copy themselves; they need DNA's blueprint. And DNA cannot do anything useful without the proteins that read it, unwind it, and replicate it. Which came first? The question is not rhetorical. It is a genuine engineering bottleneck: you cannot bootstrap a system that requires two specialized components if each component depends on the other for its existence.
 
-The answer, when it arrived, came from an unexpected direction. It came from the molecule that everyone had been treating as the middleman.
+The answer, when it arrived, came from an unexpected direction. It came from the molecule that everyone had dismissed as a mere intermediary.
 
 ## The middleman steps forward
 
-RNA sits between DNA and proteins in every modern cell. It carries the genetic message from the archive (DNA) to the factory floor (ribosomes, which are themselves largely made of RNA). For most of the twentieth century, RNA looked like a messenger -- important, but not the protagonist.
+RNA sits between DNA and proteins in every modern cell. It carries the genetic message from the archive (DNA) to the factory floor (ribosomes, which are themselves largely made of RNA). For most of the twentieth century, RNA appeared to be a passive carrier -- important, but not the molecule doing the work.
 
 Then, in the early 1980s, Thomas Cech and Sidney Altman independently discovered that certain RNA molecules could catalyze chemical reactions.[^cech1986] They were not just carrying information; they were *doing chemistry*. These catalytic RNAs were named ribozymes, and their discovery earned Cech and Altman the Nobel Prize in 1989.[^nobel1989]
 
@@ -40,7 +40,7 @@ Where did it come from? In 2005, Matthew Pasek and Dante Lauretta proposed a str
 
 The early Earth was under heavy bombardment.[^lhb] Meteorites arrived constantly, and among them were iron-rich bodies containing the mineral schreibersite -- an iron-nickel phosphide.[^schreibersite] When schreibersite corrodes in water, it releases reactive phosphorus compounds. Not the stable, locked-up phosphorus of terrestrial rocks, but forms that can participate in organic chemistry. Pasek and Lauretta showed that this corrosion proceeds readily in aqueous conditions, providing a "highly reactive source of prebiotic phosphorus on the surface of the early Earth."[^pasek2005]
 
-The chemistry of life did not arise in isolation from geology. Meteorites provided phosphorus. Minerals provided surfaces. The ocean provided the solvent. Life did not invent its raw materials; it inherited them from the planet's violent adolescence.
+The chemistry of life did not arise in isolation from geology. Meteorites provided phosphorus. Minerals provided surfaces. The ocean provided the solvent. Life did not invent its raw materials; it inherited them from the planet's early bombardment.
 
 ## An ocean laced with metal
 

@@ -18,7 +18,7 @@ This chapter is about why. Not in the sense of purpose, but in the sense of mech
 
 The solar system did not assemble gently. It condensed from a disk of gas and dust around a young star, and the condensation was competitive. Small grains stuck together into pebbles, pebbles into boulders, boulders into planetesimals tens of kilometers across. Those planetesimals collided, shattered, reformed, and collided again. The inner solar system, where temperatures were too high for ices to survive, produced rocky bodies: Mercury, Venus, Earth, Mars, and a great deal of rubble that didn't make it into a planet at all.
 
-The process was not orderly. It was closer to a demolition derby in which the survivors happened to be the ones that absorbed the most collisions. Earth accreted over tens of millions of years, each impact delivering kinetic energy that converted to heat on arrival. The growing planet was partly or entirely molten for much of this period--a magma ocean hundreds of kilometers deep, with an atmosphere of rock vapor and steam above it.
+The process was not orderly. It was a series of collisions in which the survivors were simply the bodies that absorbed the most impacts without fragmenting. Earth accreted over tens of millions of years, each impact delivering kinetic energy that converted to heat on arrival. The growing planet was partly or entirely molten for much of this period--a magma ocean hundreds of kilometers deep, with an atmosphere of rock vapor and steam above it.
 
 Venus and Mars went through the same process. So did a number of other bodies that no longer exist as independent planets, because they were absorbed or ejected. The point to hold onto is this: the starting chemistry was not special. All three surviving inner planets received water vapor, carbon dioxide, nitrogen, sulfur compounds, and a grab-bag of metals delivered by the same population of impactors. The differences that would later matter--the differences between a dead world and a living one--were not written into the ingredients. They emerged from the physics of what happened next.
 
@@ -166,7 +166,7 @@ This is a beautiful example of the non-equilibrium theme from Chapter 1. Life do
 
 How do we know the temperature of an ocean that evaporated three billion years ago? How do we detect the breath of organisms that left no fossils? The answer, in almost every case, is isotopes.
 
-Isotope geochemistry is the closest thing Earth science has to a time machine. Different physical and biological processes fractionate isotopes--preferring lighter or heavier versions of the same element--in predictable ways. By measuring isotope ratios in ancient minerals, we can reconstruct conditions that no instrument ever recorded.
+Different physical and biological processes fractionate isotopes--preferring lighter or heavier versions of the same element--in predictable ways. By measuring isotope ratios in ancient minerals, we can reconstruct conditions that no instrument ever recorded.
 
 **Carbon isotopes and the signature of life.** The carbon isotope ratio $\delta^{13}$C is the workhorse proxy for ancient biological activity. Autotrophic organisms preferentially fix $^{12}$C from CO$_2$, leaving the residual inorganic carbon pool enriched in $^{13}$C. A persistent offset between carbonate $\delta^{13}$C and organic carbon $\delta^{13}$C in the sedimentary record--maintained for over 3.5 billion years--is one of the strongest lines of evidence that life has been continuously active on Earth since the early Archean.[^carbon_isotope_record]
 

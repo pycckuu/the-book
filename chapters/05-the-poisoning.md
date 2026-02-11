@@ -26,7 +26,7 @@ Because the prize was independence. Before oxygenic photosynthesis, every photot
 
 Water, on the other hand, was everywhere.
 
-The opportunity to finally break free from the hydrogen sulfide addiction outweighed all other considerations.[^markov_selfish] The result was ecologically devastating. Cyanobacteria flooded the environment with a molecule toxic to nearly every other organism — not out of malice, but because the energy payoff was enormous. But in the long run, oxygen opened an entirely new energy regime. Without them, Earth would still be a planet of microbes -- and nothing more.
+The opportunity to finally break free from hydrogen sulfide dependence outweighed all other considerations.[^markov_selfish] The result was ecologically devastating. Cyanobacteria flooded the environment with a molecule toxic to nearly every other organism — not out of malice, but because the energy payoff was enormous. But in the long run, oxygen opened an entirely new energy regime. Without them, Earth would still be a planet of microbes -- and nothing more.
 
 ## The ladder of electron donors
 
@@ -120,7 +120,7 @@ Oxygen began to accumulate in the atmosphere. Not much by modern standards -- pe
 
 For the anaerobic communities that had built the living world, free oxygen was lethal. Organisms that had never encountered this molecule -- had never needed defenses against it -- suddenly found their enzymes damaged, their membranes compromised, their DNA under attack. The world's first mass extinction was not caused by an asteroid or a volcanic eruption. It was caused by a microbe's waste product.
 
-The survivors retreated. They found refuge in the places oxygen could not reach: deep sediments, waterlogged soils, the interiors of organic-rich deposits, the guts of other organisms. Many of the anaerobic metabolisms we study today -- sulfate reduction, methanogenesis, iron reduction -- are practiced by lineages whose ancestors were driven underground by the Great Oxidation Event. They are refugees from the poisoning, still hiding from oxygen after 2.4 billion years.
+The survivors retreated. They found refuge in the places oxygen could not reach: deep sediments, waterlogged soils, the interiors of organic-rich deposits, the guts of other organisms. Many of the anaerobic metabolisms we study today -- sulfate reduction, methanogenesis, iron reduction -- are practiced by lineages whose ancestors were driven underground by the Great Oxidation Event. They are survivors of the poisoning, confined to anoxic refugia for 2.4 billion years.
 
 ## The invention of respiration
 
@@ -132,7 +132,7 @@ The logic is startlingly simple once you see it. Photosynthesis works by passing
 
 Now imagine a small modification. Instead of starting the electron at chlorophyll, start it at an organic molecule -- say, pyruvate, a common product of fermentation. And instead of ending the chain at CO$_2$, end it at oxygen. The electron still passes through the same protein complexes. The energy is still harvested in the same way -- proton pumping, ATP synthesis, the whole apparatus. But now the process runs in reverse conceptual direction: instead of using light to push electrons uphill and fix carbon, it lets electrons roll downhill from organic carbon to oxygen, and captures the energy released.[^respiration_origin]
 
-This is aerobic respiration. And its invention solved two problems at once: it neutralized the dangerous poison (oxygen receives electrons and is converted to harmless water) and it stored enormous amounts of energy in the process. Kill two birds with one stone.[^markov_respiration]
+This is aerobic respiration. And its invention solved two problems at once: it neutralized the dangerous poison (oxygen receives electrons and is converted to harmless water) and it stored enormous amounts of energy in the process.[^markov_respiration]
 
 The deep irony is that respiration is carried out by the same protein complexes as photosynthesis. The cytochrome chains, the proton-pumping machinery, the ATP synthase -- all of it is shared, or at least derived from the same ancestral toolkit. In modern cyanobacteria, photosynthesis and respiration use overlapping components to such an extent that there is a kind of competition between the two processes for the right to use the same proteins.[^markov_competition]
 
@@ -168,7 +168,7 @@ Nitrogen fixation -- the conversion of atmospheric N$_2$ into biologically usabl
 
 For anaerobic organisms, this was never a problem. But for cyanobacteria -- organisms that produce oxygen as a byproduct of their core metabolism -- it was an existential dilemma. How do you fix nitrogen when your own photosynthesis is flooding the cell with the one substance that destroys the nitrogen-fixing enzyme?
 
-Many cyanobacteria solved this with specialized cells called heterocysts: thick-walled compartments that exclude oxygen and dedicate themselves entirely to nitrogen fixation while neighboring cells handle photosynthesis.[^heterocysts] Division of labor, bacterial style.
+Many cyanobacteria solved this with specialized cells called heterocysts: thick-walled compartments that exclude oxygen and dedicate themselves entirely to nitrogen fixation while neighboring cells handle photosynthesis -- a spatial solution to a chemical incompatibility.[^heterocysts]
 
 But some cyanobacteria had a more elegant solution, and it took until 2006 to discover it.
 
@@ -224,7 +224,7 @@ The irony is inescapable. The greatest environmental catastrophe in Earth's hist
 
 The transition was not clean. The Great Oxidation Event was followed by hundreds of millions of years of fluctuation -- periods when oxygen rose, crashed, and rose again. The "Boring Billion," as some geologists call the period from roughly 1.8 to 0.8 billion years ago, saw oxygen levels stabilize at a fraction of modern values -- enough to sustain aerobic life in surface waters, not enough to oxygenate the deep ocean.[^boring_billion] The deep waters remained anoxic, or at best "ferruginous" (iron-rich and oxygen-free), for most of this interval.
 
-This means that for over a billion years, Earth had a split personality. The surface was a new world -- oxygenated, dangerous to anaerobes, open to aerobic innovation. The deep ocean and the sediments remained an old world -- anoxic, sulfidic or ferruginous, still running on the ancient metabolisms. The two worlds coexisted, separated by a chemical boundary that shifted with the seasons, the currents, and the slow rhythms of plate tectonics.
+This means that for over a billion years, Earth was chemically partitioned. The surface was a new world -- oxygenated, dangerous to anaerobes, open to aerobic innovation. The deep ocean and the sediments remained an old world -- anoxic, sulfidic or ferruginous, still running on the ancient metabolisms. The two worlds coexisted, separated by a chemical boundary that shifted with the seasons, the currents, and the slow rhythms of plate tectonics.
 
 That boundary is still with us. In every stratified lake, every oxygen-minimum zone in the ocean, every waterlogged soil, there is a depth where oxygen disappears and the old metabolisms take over. The sulfate reducers, the methanogens, the iron reducers -- they never left. They were just pushed into the margins by a gas that their ancestors never evolved to handle.
 
