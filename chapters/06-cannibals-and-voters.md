@@ -28,13 +28,13 @@ To see how sophisticated, consider a single species that can grow flagella and s
 
 ## *Bacillus subtilis*: the bacterium that does everything
 
-*Bacillus subtilis* is a soil bacterium, a gram-positive rod that has been studied in laboratories for over a century. It was one of the first bacteria to have its genome sequenced. It is the workhorse of bacterial genetics, the *E. coli* of the gram-positive world. And yet, for decades, most of that research was done on well-fed cells growing in shaking flasks---conditions under which *B. subtilis* behaves like the simple, solitary creature of the textbook picture.
+*Bacillus subtilis* is a soil bacterium, a gram-positive rod that has been studied in laboratories for over a century. It was one of the first bacteria to have its genome sequenced.[^kunst_genome] It is the workhorse of bacterial genetics, the *E. coli* of the gram-positive world. And yet, for decades, most of that research was done on well-fed cells growing in shaking flasks---conditions under which *B. subtilis* behaves like the simple, solitary creature of the textbook picture.
 
 Take it out of the flask. Put it in soil, on a root surface, in a biofilm, or in a colony on an agar plate where nutrients are running low. Now it transforms.
 
-When conditions demand it, *B. subtilis* can grow flagella and acquire motility, swimming toward nutrients or away from toxins. It can collect into organized "packs" with consistent, coordinated movement. It can secrete enzymes that break down complex molecules in the environment---a costly investment that benefits all nearby cells, not just the producer. It can form biofilms: dense, structured communities encased in a self-produced matrix of proteins and polysaccharides. And it can make "decisions"---or more precisely, its genetic circuits can be triggered into discrete, stable states---based on chemical signals received from relatives.[^markov_altruism]
+When conditions demand it, *B. subtilis* can grow flagella and acquire motility, swimming toward nutrients or away from toxins. It can collect into organized "packs" with consistent, coordinated movement. It can secrete enzymes that break down complex molecules in the environment---a costly investment that benefits all nearby cells, not just the producer. It can form biofilms: dense, structured communities encased in a self-produced matrix of proteins and polysaccharides.[^flemming_biofilm] And it can make "decisions"---or more precisely, its genetic circuits can be triggered into discrete, stable states---based on chemical signals received from relatives.[^markov_altruism]
 
-The mechanism that coordinates many of these transitions is **quorum sensing**: a kind of chemical voting, in which bacteria secrete small signaling molecules (autoinducers) into the surrounding medium and simultaneously detect them.[^markov_quorum] [@Ellermeier2006] Each cell casts a "vote" by producing signal. Each cell "counts" votes by measuring the local concentration. When a certain critical number of votes accumulates---when the quorum is reached---the behavior of the entire population shifts.
+The mechanism that coordinates many of these transitions is **quorum sensing**: a kind of chemical voting, in which bacteria secrete small signaling molecules (autoinducers) into the surrounding medium and simultaneously detect them.[^markov_quorum][^bassler_bacterial] Each cell casts a "vote" by producing signal. Each cell "counts" votes by measuring the local concentration. When a certain critical number of votes accumulates---when the quorum is reached---the behavior of the entire population shifts.
 
 ::: {.callout-note}
 ## Sidebar --- How quorum sensing works
@@ -57,11 +57,11 @@ But the most dramatic social behavior of *B. subtilis* is not cooperation. It is
 
 Imagine a population of *B. subtilis* in soil. Nutrients have been declining for hours. The cells have already tried the obvious responses: ramping up enzyme secretion to scavenge what remains, adjusting their metabolic pathways, slowing growth. Nothing has worked. Starvation is now severe.
 
-The cell has one remaining option that guarantees survival: sporulation. A *B. subtilis* spore is one of nature's most resilient structures---resistant to heat, desiccation, UV radiation, and chemical assault. A spore can wait for decades, even centuries, and germinate when conditions improve.
+The cell has one remaining option that guarantees survival: sporulation. A *B. subtilis* spore is one of nature's most resilient structures---resistant to heat, desiccation, UV radiation, and chemical assault.[^setlow_spore] A spore can wait for decades, even centuries, and germinate when conditions improve.
 
 But sporulation is not free. It is, in fact, enormously expensive.
 
-The decision to commit to spore formation is not taken lightly.[^ellermeier_cannibalism] Sporulation requires the coordinated activation of approximately 500 genes over a period of 6 to 8 hours. The process involves a complete reorganization of the cell: an asymmetric division that produces a smaller forespore and a larger mother cell, followed by engulfment of the forespore by the mother cell, assembly of a multi-layered protective coat, and finally, programmed death of the mother cell to release the mature spore. The commitment becomes irreversible after roughly 2 hours---once the cell passes that point, it *will* sporulate or it will die trying.[^ellermeier_cannibalism]
+The decision to commit to spore formation is not taken lightly.[^ellermeier_cannibalism] Sporulation requires the coordinated activation of approximately 500 genes over a period of 6 to 8 hours.[^stragier_sporulation] The process involves a complete reorganization of the cell: an asymmetric division that produces a smaller forespore and a larger mother cell, followed by engulfment of the forespore by the mother cell, assembly of a multi-layered protective coat, and finally, programmed death of the mother cell to release the mature spore. The commitment becomes irreversible after roughly 2 hours---once the cell passes that point, it *will* sporulate or it will die trying.[^ellermeier_cannibalism]
 
 Given this enormous investment of time and energy, it should not surprise us that *B. subtilis* treats sporulation as a last resort. Before committing, the cell exhausts every alternative. It searches for new nutrients. It adjusts its metabolism. It waits.
 
@@ -91,15 +91,15 @@ The population-level accounting is stark. The population invests in a toxic publ
 
 *Bacillus subtilis* eats its own. *Myxococcus xanthus* eats everyone else---and it does so cooperatively.
 
-*Myxococcus xanthus* is the best-characterized species of soil-dwelling myxobacteria, a group distinguished by two remarkable properties: cooperative predation and social development.[^fiegna_myxo] Where most predatory bacteria act alone---a single cell encountering a single prey---*M. xanthus* hunts in packs.
+*Myxococcus xanthus* is the best-characterized species of soil-dwelling myxobacteria, a group distinguished by two remarkable properties: cooperative predation and social development.[^fiegna_myxo][^velicer_myxo] Where most predatory bacteria act alone---a single cell encountering a single prey---*M. xanthus* hunts in packs.
 
-Predation is accomplished by swarming groups of cells that secrete toxic and lytic metabolites---antibiotics, enzymes, and other compounds that kill and degrade prey organisms.[^fiegna_myxo] The killing agents diffuse outward from the swarm, creating a zone of destruction around the advancing pack. The prey cells lyse, and their contents form an extracellular public pool of nutrients that the entire swarm shares. No individual *M. xanthus* cell could produce enough antibiotics or lytic enzymes to kill prey efficiently on its own. The predatory strategy works only because the costs are shared and the benefits are pooled.
+Predation is accomplished by swarming groups of cells that secrete toxic and lytic metabolites---antibiotics, enzymes, and other compounds that kill and degrade prey organisms.[^fiegna_myxo][^berleman_predation] The killing agents diffuse outward from the swarm, creating a zone of destruction around the advancing pack. The prey cells lyse, and their contents form an extracellular public pool of nutrients that the entire swarm shares. No individual *M. xanthus* cell could produce enough antibiotics or lytic enzymes to kill prey efficiently on its own. The predatory strategy works only because the costs are shared and the benefits are pooled.
 
 This is cooperative predation in the truest sense: a hunting behavior that depends on group size, coordinated movement, and the production of extracellular public goods.
 
-But the social life of *M. xanthus* does not end with feeding. When amino acids become scarce---when the hunting has failed or the prey is exhausted---*M. xanthus* enters its most dramatic phase: the construction of fruiting bodies.
+But the social life of *M. xanthus* does not end with feeding. When amino acids become scarce---when the hunting has failed or the prey is exhausted---*M. xanthus* enters its most dramatic phase: the construction of fruiting bodies.[^kaiser_fruiting]
 
-Upon amino-acid deprivation, individual cells begin to aggregate. They stream toward central collection points, piling up into mounds that grow into elaborate, species-specific structures: the fruiting bodies. A typical *M. xanthus* fruiting body contains roughly 100,000 cells, assembled through coordinated movement and the exchange of intercellular chemical signals.[^fiegna_myxo]
+Upon amino-acid deprivation, individual cells begin to aggregate. They stream toward central collection points, piling up into mounds that grow into elaborate, species-specific structures: the fruiting bodies. A typical *M. xanthus* fruiting body contains roughly 100,000 cells, assembled through coordinated movement and the exchange of intercellular chemical signals.[^fiegna_myxo][^kaiser_c_signal]
 
 Inside the fruiting body, a fraction of the cells differentiate into stress-resistant spores---the myxobacterial equivalent of the *B. subtilis* endospore. But here is the grim arithmetic: **only a minority of cells survive development**. The majority die during the construction process, their cellular contents presumably fueling the differentiation of the survivors.
 
@@ -114,16 +114,16 @@ And indeed, cheater mutants have been isolated in *M. xanthus*. They arise readi
 
 The resolution involves several mechanisms:
 
-- **Kin selection**: in structured environments (soil, biofilms), cells tend to interact with close relatives. Helping relatives indirectly promotes copies of one's own genes.
-- **Population structure**: cheaters that destroy the cooperative group they depend on ultimately destroy themselves. In spatially structured environments, cooperative groups can outcompete or outlast cheater-dominated groups.
-- **Policing mechanisms**: some cooperative systems include enforcement. In *B. subtilis* cannibalism, for instance, non-cooperators (low-Spo0A cells) are not merely disadvantaged---they are actively killed.
+- **Kin selection**: in structured environments (soil, biofilms), cells tend to interact with close relatives. Helping relatives indirectly promotes copies of one's own genes.[^hamilton_kin][^west_kin]
+- **Population structure**: cheaters that destroy the cooperative group they depend on ultimately destroy themselves. In spatially structured environments, cooperative groups can outcompete or outlast cheater-dominated groups.[^griffin_cooperation]
+- **Policing mechanisms**: some cooperative systems include enforcement. In *B. subtilis* cannibalism, for instance, non-cooperators (low-Spo0A cells) are not merely disadvantaged---they are actively killed.[^travisano_policing]
 
 The upshot is that microbial cooperation is not naive. It is enforced, policed, and maintained by mechanisms that punish free riders. The "altruism" is real, but it is not unconditional.
 :::
 
 The parallels between *M. xanthus* and *B. subtilis* are instructive. Both species use quorum sensing to coordinate group behavior. Both form complex multicellular structures under stress. Both sacrifice a fraction of their population so that the rest may survive. And both face---and have solved, at least partially---the problem of cheaters.
 
-But the parallels extend further than any two species. These social behaviors are not oddities confined to a few laboratory favorites. Chemical signaling, quorum sensing, biofilm formation, and programmed cell death have been documented in hundreds of bacterial species across nearly every major lineage. The social life of microbes is not an exception. It is the rule.
+But the parallels extend further than any two species. These social behaviors are not oddities confined to a few laboratory favorites. Chemical signaling, quorum sensing, biofilm formation, and programmed cell death have been documented in hundreds of bacterial species across nearly every major lineage.[^miller_quorum][^nadell_biofilm] The social life of microbes is not an exception. It is the rule.
 
 ## How cells "decide": the metabolic logic
 
@@ -139,15 +139,15 @@ When ATP levels fall, the cell activates reactions that increase ATP production 
 
 **Covalent modification** is the first layer. An enzyme that sits idle in the cell can be activated by the addition of a phosphate group, donated from ATP itself. Protein kinases---enzymes that transfer phosphate groups from ATP to target proteins---are the molecular switches that flip inactive enzymes to their active forms. The work of Edwin Fischer and Edwin Krebs, who discovered this mechanism, earned them a Nobel Prize and revealed a principle that runs through all of cell biology: energy currency doubles as signaling currency.
 
-**Allosteric modulation** is the second layer. Many enzymes have two binding sites: the active site, where the reaction happens, and an allosteric site (from the Greek *allos*, "other," and *stereos*, "solid"), where a regulatory molecule can bind. When an inhibitor or stimulator binds the allosteric site, it changes the enzyme's shape and alters its activity---without competing for the active site. This allows the cell to tune enzyme activity in response to signals that have nothing to do with the enzyme's own substrate.
+**Allosteric modulation** is the second layer. Many enzymes have two binding sites: the active site, where the reaction happens, and an allosteric site (from the Greek *allos*, "other," and *stereos*, "solid"), where a regulatory molecule can bind.[^monod_allosteric][^changeux_allosteric] When an inhibitor or stimulator binds the allosteric site, it changes the enzyme's shape and alters its activity---without competing for the active site. This allows the cell to tune enzyme activity in response to signals that have nothing to do with the enzyme's own substrate.
 
 **Feedback inhibition** is the third layer. In many metabolic pathways, the end product of the pathway inhibits the first enzyme in the sequence. When enough of the product has accumulated, the pathway shuts itself down. This is the simplest form of homeostatic regulation: the output controls the input.
 
 Together, these mechanisms create a cell that is constantly adjusting its metabolic state in response to internal and external signals. The key architectural principle is the separation of catabolic and anabolic pathways: pathways that break things down (catabolism, producing ATP) and pathways that build things up (anabolism, consuming ATP) are regulated by different key enzymes that respond to different signals.
 
-When AMP levels are high---which means ATP levels are low, because AMP accumulates when ATP is consumed faster than it is regenerated---catabolic enzymes are activated and the cell ramps up energy production. When ATP levels are high, catabolism is inhibited. The cell reads its own energy state through the ratio of ATP to AMP, and adjusts accordingly.
+When AMP levels are high---which means ATP levels are low, because AMP accumulates when ATP is consumed faster than it is regenerated---catabolic enzymes are activated and the cell ramps up energy production. When ATP levels are high, catabolism is inhibited. The cell reads its own energy state through the ratio of ATP to AMP, and adjusts accordingly.[^hardie_amp]
 
-Why AMP and not ATP? Because AMP is a more sensitive indicator of energy stress. In a cell where the total adenine nucleotide pool (ATP + ADP + AMP) is roughly constant, a small decrease in ATP causes a proportionally larger increase in AMP, amplified by the adenylate kinase reaction ($2\,\text{ADP} \rightleftharpoons \text{ATP} + \text{AMP}$). A 10% drop in ATP can produce a several-fold increase in AMP. Enzymes that respond to AMP are responding to a magnified version of the cell's energy deficit.
+Why AMP and not ATP? Because AMP is a more sensitive indicator of energy stress. In a cell where the total adenine nucleotide pool (ATP + ADP + AMP) is roughly constant, a small decrease in ATP causes a proportionally larger increase in AMP, amplified by the adenylate kinase reaction ($2\,\text{ADP} \rightleftharpoons \text{ATP} + \text{AMP}$).[^atkinson_energy] A 10% drop in ATP can produce a several-fold increase in AMP. Enzymes that respond to AMP are responding to a magnified version of the cell's energy deficit.
 
 This metabolic regulation is not "decision-making" in the way we usually mean the phrase. It is feedback control---the same logic that governs a thermostat. But when you layer multiple feedback loops on top of each other, wire them to external signals (like quorum-sensing molecules), and allow them to interact through shared intermediates, the system can produce something more interesting than gradual adjustment.
 
@@ -203,7 +203,7 @@ The implication is older than it looks.
 
 Altruism, cooperation, voting, and organized social behavior are not human inventions. They are not even animal inventions. They are microbial inventions, and they are old---three billion years old, perhaps older.
 
-When we watch a colony of *B. subtilis* split into killers and victims, we are watching a social contract enforced by chemistry: a population-level strategy in which individual sacrifice produces collective survival. When we watch *M. xanthus* swarms hunt prey and build fruiting bodies, we are watching cooperative predation and division of labor---behaviors we associate with wolves and ants, not with single-celled organisms.
+When we watch a colony of *B. subtilis* split into killers and victims, we are watching a social contract enforced by chemistry: a population-level strategy in which individual sacrifice produces collective survival. When we watch *M. xanthus* swarms hunt prey and build fruiting bodies, we are watching cooperative predation and division of labor---behaviors we associate with wolves and ants, not with single-celled organisms.[^crespi_comparison]
 
 The molecular details differ from anything in the animal world. There are no neurons, no hormones, no immune cells in the mammalian sense. But the functional logic---the game theory, the evolutionary pressures, the tension between cooperation and cheating---is identical. Natural selection does not care whether a social contract is executed by neurons or by transcription factors. It cares only whether the strategy persists.
 
@@ -242,3 +242,43 @@ In the next chapter, we turn from social strategies to the most consequential so
 [^thomson_multi]: Thomson and Gunawardena (2009) demonstrated that multisite phosphorylation systems can support unlimited numbers of stable steady states. [@Thomson2009]
 
 [^fiegna_myxo]: Fiegna et al. (2006) characterize *M. xanthus* as distinguished by cooperative predation and social development, with competition for sporulation slots as a major fitness component. [@Fiegna2006]
+
+[^kunst_genome]: The complete genome sequence of *Bacillus subtilis* (4.2 Mb, ~4,100 genes) was published by Kunst et al. (1997), making it one of the first gram-positive bacteria to be fully sequenced. [@Kunst1997]
+
+[^flemming_biofilm]: The biofilm matrix is composed of extracellular polysaccharides, proteins, and DNA that encases cells in a self-produced structure; see Flemming and Wingender (2010) for a comprehensive review. [@Flemming2010]
+
+[^bassler_bacterial]: Bassler and Losick (2006) provide an accessible overview of bacterial cell-cell communication systems, including quorum sensing and its role in coordinating collective behavior. [@BasslerLosick2006]
+
+[^setlow_spore]: *Bacillus subtilis* endospores exhibit extreme resistance to heat (surviving 100°C for hours), radiation (withstanding UV and gamma rays at doses lethal to vegetative cells), and chemical assault (including oxidizers, aldehydes, and detergents); see Setlow (2006). [@Setlow2006]
+
+[^stragier_sporulation]: Sporulation in *B. subtilis* is controlled by a cascade of sigma factors activating roughly 500 genes in a tightly regulated temporal sequence; see Stragier and Losick (1996). [@Stragier1996]
+
+[^velicer_myxo]: For an overview of the social evolution and developmental biology of myxobacteria, including experimental evolution studies of cooperation and cheating, see Velicer and Vos (2009). [@VelicerVos2009]
+
+[^berleman_predation]: *Myxococcus xanthus* produces a cocktail of secondary metabolites including antibiotics, bacteriolytic enzymes, and biosurfactants that collectively kill and lyse prey cells; see Berleman and Kirby (2009). [@BerlemanKirby2009]
+
+[^kaiser_fruiting]: Fruiting body formation in *M. xanthus* involves aggregation of up to 10^5 cells into macroscopic structures; see Kaiser (2004) for a review of the developmental program. [@Kaiser2004]
+
+[^kaiser_c_signal]: The C-signal is a surface-associated protein that requires direct cell-cell contact and coordinates aggregation and sporulation during fruiting body development; see Kroos et al. (1986). [@Kroos1986]
+
+[^hamilton_kin]: Hamilton's rule (rB > C) formalizes kin selection: altruistic behavior is favored when the benefit to relatives (B), weighted by relatedness (r), exceeds the cost to the actor (C); see Hamilton (1964). [@Hamilton1964a; @Hamilton1964b]
+
+[^west_kin]: West et al. (2007) review the application of kin selection theory to microbial systems, showing that relatedness structure in biofilms and colonies can maintain cooperation. [@West2007]
+
+[^griffin_cooperation]: Griffin et al. (2004) demonstrate experimentally that spatial structure (limited dispersal) maintains cooperation in *Pseudomonas aeruginosa* by ensuring that cooperators interact preferentially with other cooperators. [@Griffin2004]
+
+[^travisano_policing]: Travisano and Velicer (2004) review policing mechanisms in microbial populations, including toxin-immunity systems that eliminate non-cooperators. [@TravisanoVelicer2004]
+
+[^miller_quorum]: Quorum sensing has been identified in more than 150 bacterial species across diverse phylogenetic groups; see Miller and Bassler (2001). [@MillerBassler2001]
+
+[^nadell_biofilm]: Nadell et al. (2016) review the ecological and evolutionary dynamics of biofilm formation across bacterial taxa, emphasizing the prevalence of matrix production as a cooperative trait. [@Nadell2016]
+
+[^monod_allosteric]: The concept of allosteric regulation was formalized by Monod, Changeux, and Jacob (1963), describing how regulatory molecules binding at sites distinct from the active site can modulate enzyme activity. [@MonodChangeuxJacob1963]
+
+[^changeux_allosteric]: Changeux and Edelstein (2005) provide a historical and mechanistic overview of allosteric regulation, from initial models to structural biology. [@ChangeuxEdelstein2005]
+
+[^hardie_amp]: AMP-activated protein kinase (AMPK) is the master regulator of energy homeostasis in eukaryotes, activated by rising AMP/ATP ratios; the bacterial equivalent involves direct AMP binding to metabolic enzymes; see Hardie (2007). [@Hardie2007]
+
+[^atkinson_energy]: The "energy charge" concept, defined as ([ATP] + 0.5[ADP]) / ([ATP] + [ADP] + [AMP]), was introduced by Atkinson (1968) to describe cellular energy status; AMP is a sensitive indicator because adenylate kinase amplifies small ATP changes. [@Atkinson1968]
+
+[^crespi_comparison]: Crespi (2001) draws explicit parallels between microbial social behaviors (quorum sensing, cooperative predation, altruistic cell death) and the eusocial insects, arguing that similar selective pressures produce convergent social strategies. [@Crespi2001]

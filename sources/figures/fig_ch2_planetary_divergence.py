@@ -124,11 +124,11 @@ for ax, p in zip(axes, planets):
 axes[0].set_ylabel('Surface temperature (°C)', fontsize=11)
 axes[0].set_ylim(-120, 500)
 
-# Add 0°C and 100°C reference labels
-axes[0].text(-0.15, 0, '0°C\n(freezing)', fontsize=7, color='#999999',
-             va='center', ha='right', transform=axes[0].transData)
-axes[0].text(-0.15, 100, '100°C\n(boiling)', fontsize=7, color='#999999',
-             va='center', ha='right', transform=axes[0].transData)
+# Add 0°C and 100°C reference labels (on right side of last panel to avoid overlap)
+axes[2].text(2.35, 0, '0°C\n(freezing)', fontsize=7, color='#999999',
+             va='center', ha='left', transform=axes[2].transData)
+axes[2].text(2.35, 100, '100°C\n(boiling)', fontsize=7, color='#999999',
+             va='center', ha='left', transform=axes[2].transData)
 
 # Suptitle
 fig.suptitle('The divergence at ~3.5 Ga', fontsize=14, fontweight='bold',

@@ -18,17 +18,17 @@ The answer, when it arrived, came from an unexpected direction. It came from the
 
 RNA sits between DNA and proteins in every modern cell. It carries the genetic message from the archive (DNA) to the factory floor (ribosomes, which are themselves largely made of RNA). For most of the twentieth century, RNA looked like a messenger -- important, but not the protagonist.
 
-Then, in the early 1980s, Thomas Cech and Sidney Altman independently discovered that certain RNA molecules could catalyze chemical reactions. They were not just carrying information; they were *doing chemistry*. These catalytic RNAs were named ribozymes, and their discovery earned Cech and Altman the Nobel Prize in 1989.
+Then, in the early 1980s, Thomas Cech and Sidney Altman independently discovered that certain RNA molecules could catalyze chemical reactions.[^cech1986] They were not just carrying information; they were *doing chemistry*. These catalytic RNAs were named ribozymes, and their discovery earned Cech and Altman the Nobel Prize in 1989.[^nobel1989]
 
 The implications were enormous. If RNA can both store information *and* catalyze reactions, then you do not need two separate systems to get life started. You need one. A single type of molecule that reads itself and copies itself -- an autocatalytic loop of replicating RNA, ribozymes catalyzing the synthesis of copies of themselves.[^markov2010a]
 
 This is the RNA world hypothesis: the proposal that the earliest life on Earth was not built from DNA and proteins, but from RNA alone -- organisms without the division of labor that modern cells take for granted. The chicken-and-egg paradox dissolves, because RNA is both the chicken and the egg.
 
-The standard RNA alphabet is small: four nucleotides -- adenosine (A), guanosine (G), cytidine (C), and uridine (U) -- plus a handful of modified variants like inosine.[^markov2010b] With just these letters, RNA can fold into elaborate three-dimensional shapes, creating pockets and surfaces that behave like primitive enzymes. Not as efficient as proteins, not as stable as DNA, but enough. Enough to get the process started.
+The standard RNA alphabet is small: four nucleotides -- adenosine (A), guanosine (G), cytidine (C), and uridine (U) -- plus a handful of modified variants like inosine.[^markov2010b][^rna_bases] With just these letters, RNA can fold into elaborate three-dimensional shapes, creating pockets and surfaces that behave like primitive enzymes. Not as efficient as proteins, not as stable as DNA, but enough. Enough to get the process started.
 
 ## Where it happened
 
-Where did RNA chemistry first ignite? Two settings are plausible, and they are not mutually exclusive. Ice can concentrate dilute reactants into tiny liquid pockets between crystals, bringing RNA precursors together at effective concentrations far higher than open water -- and many ribozymes work best at low temperatures.[^markov2010c] Hydrothermal vents, meanwhile, provide a continuous supply of reduced gases (CO, H$_2$, HCN) and metal catalysts (iron, nickel) at temperatures where abiotic organic synthesis proceeds readily.[^johnson2008] The cold scenario is strong on the first spark -- concentrating molecules for the initial assembly of self-copying RNA -- but weak on sustained supply. The hot scenario is strong on raw materials but weak on the delicate chemistry of RNA folding. It is possible that different steps happened in different settings: building blocks synthesized at vents, transported by currents to colder environments where replication proceeded more efficiently. The planet is large, and chemistry does not respect the boundaries of human narratives.
+Where did RNA chemistry first ignite? Two settings are plausible, and they are not mutually exclusive. Ice can concentrate dilute reactants into tiny liquid pockets between crystals, bringing RNA precursors together at effective concentrations far higher than open water -- and many ribozymes work best at low temperatures.[^markov2010c] Hydrothermal vents, meanwhile, provide a continuous supply of reduced gases (CO, H$_2$, HCN) and metal catalysts (iron, nickel) at temperatures where abiotic organic synthesis proceeds readily.[^johnson2008][^miller1953] The cold scenario is strong on the first spark -- concentrating molecules for the initial assembly of self-copying RNA -- but weak on sustained supply. The hot scenario is strong on raw materials but weak on the delicate chemistry of RNA folding. It is possible that different steps happened in different settings: building blocks synthesized at vents, transported by currents to colder environments where replication proceeded more efficiently. The planet is large, and chemistry does not respect the boundaries of human narratives.
 
 ## The phosphorus problem
 
@@ -38,19 +38,19 @@ RNA's backbone is not made of the nucleotide bases themselves. The bases are the
 
 Where did it come from? In 2005, Matthew Pasek and Dante Lauretta proposed a striking answer: iron meteorites.[^pasek2005]
 
-The early Earth was under heavy bombardment. Meteorites arrived constantly, and among them were iron-rich bodies containing the mineral schreibersite -- an iron-nickel phosphide. When schreibersite corrodes in water, it releases reactive phosphorus compounds. Not the stable, locked-up phosphorus of terrestrial rocks, but forms that can participate in organic chemistry. Pasek and Lauretta showed that this corrosion proceeds readily in aqueous conditions, providing a "highly reactive source of prebiotic phosphorus on the surface of the early Earth."[^pasek2005]
+The early Earth was under heavy bombardment.[^lhb] Meteorites arrived constantly, and among them were iron-rich bodies containing the mineral schreibersite -- an iron-nickel phosphide.[^schreibersite] When schreibersite corrodes in water, it releases reactive phosphorus compounds. Not the stable, locked-up phosphorus of terrestrial rocks, but forms that can participate in organic chemistry. Pasek and Lauretta showed that this corrosion proceeds readily in aqueous conditions, providing a "highly reactive source of prebiotic phosphorus on the surface of the early Earth."[^pasek2005]
 
 The chemistry of life did not arise in isolation from geology. Meteorites provided phosphorus. Minerals provided surfaces. The ocean provided the solvent. Life did not invent its raw materials; it inherited them from the planet's violent adolescence.
 
 ## An ocean laced with metal
 
-The ancient ocean was a different solvent than the one we know. It was richer in dissolved heavy metals -- not just iron, which was abundant in a world without free oxygen to rust it out of solution, but also more exotic elements: tungsten, molybdenum, vanadium.[^markov2010d]
+The ancient ocean was a different solvent than the one we know. It was richer in dissolved heavy metals -- not just iron, which was abundant in a world without free oxygen to rust it out of solution, but also more exotic elements: tungsten, molybdenum, vanadium.[^markov2010d][^metal_ocean]
 
-This matters because many of the enzymes that drive modern biochemistry are not pure protein. They are metalloproteins -- protein molecules with metal ions at their active sites, performing the actual catalytic work. The protein provides the scaffold; the metal does the chemistry. Strip the iron from a cytochrome, the molybdenum from a nitrogenase, the nickel from a urease, and you have a beautifully folded but catalytically dead molecule.
+This matters because many of the enzymes that drive modern biochemistry are not pure protein. They are metalloproteins -- protein molecules with metal ions at their active sites, performing the actual catalytic work.[^metalloproteins] The protein provides the scaffold; the metal does the chemistry. Strip the iron from a cytochrome, the molybdenum from a nitrogenase, the nickel from a urease, and you have a beautifully folded but catalytically dead molecule.
 
-Why would proteins evolve to depend on metals? One compelling answer is that they did not "choose" metals -- they inherited them. In the earliest stages of chemical evolution, before proteins existed, the catalysts were the metals themselves. Iron-sulfur clusters, nickel surfaces, molybdenum compounds -- these inorganic materials can catalyze many of the same reactions that enzymes catalyze today, just less efficiently.
+Why would proteins evolve to depend on metals? One compelling answer is that they did not "choose" metals -- they inherited them. In the earliest stages of chemical evolution, before proteins existed, the catalysts were the metals themselves. Iron-sulfur clusters, nickel surfaces, molybdenum compounds -- these inorganic materials can catalyze many of the same reactions that enzymes catalyze today, just less efficiently.[^ironsulfur_world]
 
-The transition from mineral catalyst to protein catalyst was gradual. The first proteins, clumsy and short, would have naturally incorporated iron atoms from their iron-rich environment. Those that happened to fold around a metal ion in a useful way gained a catalytic advantage. Over time, proteins became better scaffolds for the metals, and the metals became more precisely positioned within the proteins. But the metals came first. The proteins grew around them like a house built around a hearth.[^markov2010e]
+The transition from mineral catalyst to protein catalyst was gradual.[^mineral_catalyst] The first proteins, clumsy and short, would have naturally incorporated iron atoms from their iron-rich environment. Those that happened to fold around a metal ion in a useful way gained a catalytic advantage. Over time, proteins became better scaffolds for the metals, and the metals became more precisely positioned within the proteins. But the metals came first. The proteins grew around them like a house built around a hearth.[^markov2010e]
 
 At least one modern organism may preserve this ancient iron-dependent metabolism almost unchanged. *Ferroplasma acidiphilum*, discovered in 2000 in a metallurgical bioreactor in Tula, Russia, powers itself entirely by oxidizing ferrous iron -- its proteins are unusually iron-rich, and its lifestyle closely matches the conditions of the early Earth's iron-rich, anoxic ocean.[^golyshina2000] [^ferrer2007] (See Appendix E for more on *Ferroplasma*.)
 
@@ -84,7 +84,7 @@ Each metabolic type is a different wire connecting a different pair of terminals
 
 This is what "community" means in thermodynamic terms. It is not a word about feelings or altruism (though those will come later). It is a word about closing circuits. About making sure that the electrons, once moved, have a path back to the beginning.
 
-And this is why, when we eventually find the oldest unambiguous traces of life in the rock record -- the layered structures called stromatolites, dating back more than 3.4 billion years -- we do not find evidence of a single organism. We find evidence of a community. A layered, multi-species mat of cooperating microbes, each occupying a different niche, each performing a different metabolic trick, and each depending on the others to keep the cycles turning.
+And this is why, when we eventually find the oldest unambiguous traces of life in the rock record -- the layered structures called stromatolites, dating back more than 3.4 billion years[^stromatolites] -- we do not find evidence of a single organism. We find evidence of a community.[^microbial_mats] A layered, multi-species mat of cooperating microbes, each occupying a different niche, each performing a different metabolic trick, and each depending on the others to keep the cycles turning.
 
 ## From spark to city
 
@@ -115,6 +115,30 @@ The spark has caught. Now it builds.
 [^pasek2005]: Matthew A. Pasek and Dante S. Lauretta, "Aqueous Corrosion of Phosphide Minerals from Iron Meteorites: A Highly Reactive Source of Prebiotic Phosphorus on the Surface of the Early Earth," *Astrobiology* (2005). [@Pasek:2005je]
 
 [^johnson2008]: Adam P. Johnson et al., "The Miller Volcanic Spark Discharge Experiment," *Science* (2008). German chemists proved abiotic organic synthesis possible using CO and HCN with iron and nickel catalysts at 80-120 C, in conditions closely matching early Earth's submarine volcanic vents. [@Johnson2008]
+
+[^cech1986]: Thomas R. Cech, "A Model for the RNA-Catalyzed Replication of RNA," *Proceedings of the National Academy of Sciences* 83 (1986): 4360-4363. Cech demonstrated that RNA molecules could act as catalysts, performing chemical reactions without protein enzymes. [@Cech1986]
+
+[^nobel1989]: The 1989 Nobel Prize in Chemistry was awarded jointly to Sidney Altman and Thomas Cech "for their discovery of catalytic properties of RNA." This discovery resolved the chicken-and-egg problem of the origin of life by showing that RNA could both store information and catalyze reactions.
+
+[^rna_bases]: The four standard RNA nucleotides (A, G, C, U) differ from DNA only in the sugar backbone (ribose vs. deoxyribose) and the substitution of uracil for thymine. This simpler chemistry may reflect RNA's evolutionary priority over DNA.
+
+[^lhb]: The Late Heavy Bombardment (approximately 4.1-3.8 Ga) represents a period of intense meteorite impacts on the inner solar system. This bombardment delivered substantial quantities of volatiles, organics, and reactive minerals including phosphides to the early Earth's surface.
+
+[^schreibersite]: Schreibersite (Fe,Ni)₃P is a rare terrestrial mineral but common in iron meteorites. Its corrosion in water produces a range of reduced phosphorus compounds including phosphite and hypophosphite, which are far more reactive in prebiotic chemistry than oxidized phosphate minerals.
+
+[^metal_ocean]: The Archean ocean's metal content reflected the anoxic atmosphere and reduced state of surface minerals. Without photosynthetic oxygen production, iron remained soluble as Fe²⁺ rather than precipitating as Fe³⁺ oxides, creating dissolved iron concentrations orders of magnitude higher than modern oceans.
+
+[^metalloproteins]: Approximately one-third of all known enzymes require metal cofactors for catalytic activity. The most common are iron, zinc, magnesium, and copper, but molybdenum, tungsten, nickel, and vanadium also play essential roles in specific metabolic pathways.
+
+[^ironsulfur_world]: Günter Wächtershäuser, "Before Enzymes and Templates: Theory of Surface Metabolism," *Microbiological Reviews* 52 (1988): 452-484. The iron-sulfur world hypothesis proposes that life originated on charged mineral surfaces of iron sulfide, where the oxidation of FeS to FeS₂ (pyrite) provided energy for carbon fixation. [@Wachtershauser1988]
+
+[^mineral_catalyst]: William Martin and Michael J. Russell, "On the Origins of Cells," *Philosophical Transactions of the Royal Society B* 358 (2003): 59-85. Mineral surfaces, particularly iron-sulfur minerals, can catalyze many of the core reactions of metabolism including carbon fixation and peptide synthesis. [@MartinRussell2003]
+
+[^stromatolites]: Abigail C. Allwood et al., "Stromatolite reef from the Early Archaean era of Australia," *Nature* 441 (2006): 714-718. The oldest well-preserved stromatolites from the Strelley Pool Formation in Western Australia date to 3.43 Ga and provide morphological and geochemical evidence for photosynthetic microbial communities. [@Allwood2006]
+
+[^microbial_mats]: J. William Schopf, "Fossil Evidence of Archaean Life," *Philosophical Transactions of the Royal Society B* 361 (2006): 869-885. Stromatolites represent fossilized microbial mats -- layered communities of bacteria and archaea organized by metabolic function, with photosynthesizers near the surface and anaerobic metabolizers below. [@Schopf2006]
+
+[^miller1953]: Stanley L. Miller, "A Production of Amino Acids Under Possible Primitive Earth Conditions," *Science* 117 (1953): 528-529. Miller's famous experiment demonstrated that organic compounds including amino acids could form spontaneously from simple gases (methane, ammonia, hydrogen, water vapor) subjected to electrical discharge, providing early experimental support for abiotic organic synthesis. [@Miller1953]
 
 [^markov2010d]: Dupont et al., *History of biological metal utilization inferred through phylogenomic analysis of protein structures* (2010). The ancient ocean contained far more dissolved heavy metals than today, including tungsten, molybdenum, and vanadium. Many protein enzymes use metal ions as essential components (metalloproteins). [@Dupont2010]
 
