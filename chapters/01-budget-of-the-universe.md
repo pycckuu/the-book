@@ -4,7 +4,7 @@ title: "The Budget of the Universe"
 
 Three kilometers below the surface of South Africa, in rock sealed from sunlight for perhaps twenty million years, a bacterium called *Candidatus* Desulforudis audaxviator may divide as rarely as once per century. Its energy source is hydrogen gas, produced atom by atom as uranium in the surrounding rock decays. Its electron acceptor is sulfate, trapped in mineral inclusions since the Archean. The reaction releases just enough free energy to synthesize a handful of ATP molecules---just barely enough to copy a genome, repair a membrane, and divide.[^lin2006_deep]
 
-This organism runs on the thinnest energy budget in the known biosphere. To understand how it survives---how *any* microbe survives---you need to understand what "energy budget" means. That requires physics. Not all of physics. Just the rules that govern what reactions can happen, how much energy they release, and why some reactions proceed while others, equally favorable on paper, sit frozen until the right catalyst arrives.
+This organism runs on one of the thinnest energy budgets yet measured in the biosphere. To understand how it survives---how *any* microbe survives---you need to understand what "energy budget" means. That requires physics. Not all of physics. Just the rules that govern what reactions can happen, how much energy they release, and why some reactions proceed while others, equally favorable on paper, sit frozen until the right catalyst arrives.
 
 ---
 
@@ -22,7 +22,7 @@ Schrödinger also made a second, remarkably prescient prediction. He argued that
 
 But this chapter is not about DNA. It is about the first half of Schrödinger's insight: the energy rules. Before there was life, before there was an ocean, before there was a planet with liquid water, there were the laws of thermodynamics and quantum mechanics. These laws---discovered in European laboratories with hydrogen atoms, metal plates, and vacuum tubes---constrain every chemical reaction, every metabolic pathway, and every living organism.
 
-They are the budget of the universe.
+They are the budget of the universe---the same rules that keep *D. audaxviator* alive three kilometers underground, harvesting hydrogen atoms released one at a time by radioactive decay.
 
 ## Energy in packets
 
@@ -42,7 +42,7 @@ A chlorophyll molecule absorbs red light at around 680 nm because the energy of 
 
 Five years after Planck's proposal, Albert Einstein pushed the idea further. He showed that light itself behaves as a stream of particles---photons---each carrying exactly one quantum of energy $E = h\nu$. His evidence came from the photoelectric effect: when light strikes a metal surface, it can knock electrons free, but only if each individual photon carries enough energy to overcome the binding force that holds the electron in the metal.[^einstein1905] Below a threshold frequency, nothing happens---no matter how bright the light. Above it, electrons fly out immediately. The energy of the ejected electrons increases linearly with the frequency of the incoming light, exactly as $E = h\nu$ predicts. Einstein received the Nobel Prize for this work in 1921, not for relativity.
 
-Chemical bonds have specific energies. Breaking them requires a minimum energy input. Forming new bonds releases specific amounts of energy. None of this would work if energy were continuous.
+Chemical bonds have specific energies. Breaking them requires a minimum energy input. Forming new bonds releases specific amounts of energy. None of this would work if energy were continuous. In anoxic sediments, methanogens stake their survival on the energy gap between the C--H bonds they form and the H--H bonds they break---a margin so slim that a small shift in hydrogen concentration can shut the reaction down.
 
 ## The hydrogen-chlorine cannon
 
@@ -82,7 +82,7 @@ Every reaction in biochemistry follows the same logic. Enzymes do not change whe
 
 ## The budget: Gibbs free energy
 
-The hydrogen-chlorine cannon illustrates one of the most important distinctions in all of science: the difference between energy that is *released* and energy that is *available to do work*. Not all released energy is useful. Some of it dissipates as disordered heat. Some of it goes into rearranging the surroundings in ways you cannot harness. To understand what a reaction can actually accomplish---whether it can build a molecule, pump an ion across a membrane, or power a flagellar motor---you need a sharper accounting tool.
+In a marine sediment, a sulfate reducer and a methanogen may both have access to the same pool of dissolved hydrogen---but only the organism whose reaction yields usable energy under local conditions gets to grow. The hydrogen-chlorine cannon illustrates the distinction that decides the winner: the difference between energy that is *released* and energy that is *available to do work*. Not all released energy is useful. Some of it dissipates as disordered heat. Some of it goes into rearranging the surroundings in ways you cannot harness. To understand what a reaction can actually accomplish---whether it can build a molecule, pump an ion across a membrane, or power a flagellar motor---you need a sharper accounting tool.
 
 That tool was invented by Josiah Willard Gibbs in the 1870s, and it is the equation that appears more often than any other in this book.[^gibbs1873]
 
@@ -102,7 +102,7 @@ When a reaction occurs, the change in Gibbs free energy tells you the direction:
 - If $\Delta G > 0$: the reaction requires an input of energy. It will not happen on its own.
 - If $\Delta G = 0$: the system is at equilibrium. No net change occurs.
 
-Enthalpy is your gross income. The entropy term $TS$ is the tax---the portion the universe takes as payment for allowing things to happen. Gibbs free energy is your disposable income: the fraction you can direct toward maintenance, growth, or reproduction.
+Think of enthalpy as gross income and $TS$ as the tax the universe collects; $G$ is what remains to spend on maintenance, growth, or reproduction.
 
 Microbes do not optimize. They cover costs. A bacterium in a sediment pore does not search for the reaction with the largest $\Delta G$; it runs whatever reaction its existing enzymes can catalyze, provided the return exceeds the minimum cost of staying alive. In the language of decision theory, microbes *satisfice*: they find strategies that are good enough, not strategies that are best.[^simon1956] This distinction -- between optimizing and satisficing -- explains a pattern visible in every marine sediment core: the redox zones overlap instead of forming sharp boundaries, and supposedly outcompeted metabolisms persist in the "wrong" zone. Optimization models predict sharp exclusion. Satisficing models predict the fuzzy coexistence and apparent inefficiency that field measurements consistently show. The physics sets the menu. The microbes choose what they can afford, not what is cheapest.
 

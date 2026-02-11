@@ -12,7 +12,7 @@ And yet, within a billion years, one of those planets was alive, another was a f
 
 Look at the uncertainty bars. Earth's temperature is well constrained---stromatolites,[^fig_allwood] zircon isotopes,[^fig_wilde_zircon] and resurrected ancestral proteins[^fig_gaucher] converge on a best estimate near 25°C. Venus and Mars are not: deuterium ratios prove Venus lost its water,[^fig_donahue] but when?[^fig_way] Mars's crustal magnetism proves an early dynamo,[^fig_acuna] but warm-wet or cold-episodic?[^fig_mars_climate] Same raw materials, same physics, three different outcomes.
 
-This chapter is about why. Not in the sense of purpose, but in the sense of mechanism: what sequence of physical accidents turned one ordinary rocky planet into the one place where non-equilibrium chemistry could build a biosphere? The answer is not a single miracle. It is a chain of contingencies--each one physical, each one measurable, and each one specific enough to test.
+What sequence of physical accidents turned one ordinary rocky planet into the one place where non-equilibrium chemistry could build a biosphere? The answer is not a single miracle. It is a chain of contingencies--each one physical, each one measurable, and each one specific enough to test.
 
 ## The violence that built the world
 
@@ -20,7 +20,7 @@ The solar system did not assemble gently. It condensed from a disk of gas and du
 
 The process was not orderly. It was a series of collisions in which the survivors were simply the bodies that absorbed the most impacts without fragmenting. Earth accreted over tens of millions of years, each impact delivering kinetic energy that converted to heat on arrival. The growing planet was partly or entirely molten for much of this period--a magma ocean hundreds of kilometers deep, with an atmosphere of rock vapor and steam above it.
 
-Venus and Mars went through the same process. So did a number of other bodies that no longer exist as independent planets, because they were absorbed or ejected. The point to hold onto is this: the starting chemistry was not special. All three surviving inner planets received water vapor, carbon dioxide, nitrogen, sulfur compounds, and a grab-bag of metals delivered by the same population of impactors. The differences that would later matter--the differences between a dead world and a living one--were not written into the ingredients. They emerged from the physics of what happened next.
+Venus and Mars went through the same process. So did a number of other bodies that no longer exist as independent planets, because they were absorbed or ejected. The starting chemistry was not special. All three surviving inner planets received water vapor, carbon dioxide, nitrogen, sulfur compounds, and a grab-bag of metals delivered by the same population of impactors. The differences that would later matter--the differences between a dead world and a living one--were not written into the ingredients. They emerged from the physics of what happened next.
 
 The first 700 to 800 million years of Earth's history left almost no direct record in the crust. The oldest surviving minerals--tiny crystals of zircon from Western Australia--are about 4.4 billion years old. Everything before that was recycled: melted, subducted, destroyed by impacts, or simply overwritten by the planet's own geological activity. This period, the Hadean eon, is named after the Greek underworld, and the name is apt. We know the Earth existed. We know it was hot. We know it was hit, repeatedly, by objects large enough to re-melt the surface. But we have almost no rocks from that time to read.[^wilde2001_hadean]
 
@@ -44,7 +44,7 @@ Third--and perhaps most importantly--the giant impact stripped away much of Eart
 
 ## The divergence: Venus, Earth, and Mars
 
-Here is where the story becomes precise, and where "same starting materials, different outcomes" stops being a slogan and becomes a measurable physical argument.
+"Same starting materials, different outcomes" is a slogan until you pin numbers to it.
 
 ### Venus: the greenhouse that ate itself
 
@@ -159,7 +159,7 @@ This 30-degree cooling over three billion years is independently supported by ox
 
 The implication for our story is this: the earliest life was not just tolerant of heat. It was adapted to heat, because the planet was hot. The first microbes were thermophiles or even hyperthermophiles--organisms whose enzymes worked best at temperatures that would cook most modern life. As the planet cooled, life followed the temperature downward, adapting its proteins step by step to progressively cooler conditions.
 
-This is a beautiful example of the non-equilibrium theme from Chapter 1. Life does not set the temperature. The planet sets the temperature, and life adapts its machinery to harvest energy within whatever temperature regime it finds. The thermodynamic rules do not change--$\Delta G$ is $\Delta G$ whether the water is 70 degrees or 35 degrees--but the kinetic landscape changes profoundly, and with it the strategies that pay off.
+This illustrates the non-equilibrium theme from Chapter 1. Life does not set the temperature. The planet sets the temperature, and life adapts its machinery to harvest energy within whatever temperature regime it finds. The thermodynamic rules do not change--$\Delta G$ is $\Delta G$ whether the water is 70 degrees or 35 degrees--but the kinetic landscape changes profoundly, and with it the strategies that pay off.
 
 ::: {.callout-note}
 ## Sidebar: Reading Earth's diary -- isotope proxies
@@ -225,7 +225,7 @@ Venus shows what happens when the distance is wrong. Mars shows what happens whe
 
 The stage is set: a warm, wet, metal-rich, geologically active planet bathed in energy, with the thermodynamic rules of Chapter 1 operating in every drop of its ancient ocean.
 
-And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen gas, carbon monoxide, and hydrogen cyanide into warm, metal-rich water---exactly the cocktail that organic chemists use to build the building blocks of life in the lab. The thermodynamics are favorable. The raw materials are abundant. The planet has time. What it does not yet have is a molecule that can copy itself.
+And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen gas and carbon monoxide---and, if thermodynamic models and recent vent-fluid analyses are right, hydrogen cyanide---into warm, metal-rich water.[^hcn_vents] Exactly the cocktail that organic chemists use to build the building blocks of life in the lab. The thermodynamics are favorable. The raw materials are abundant. The planet has time. What it does not yet have is a molecule that can copy itself.
 
 ## Takeaways
 
@@ -287,3 +287,5 @@ And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen
 [^canup_moon]: Robin M. Canup and Erik Asphaug, "Origin of the Moon in a Giant Impact Near the End of the Earth's Formation," *Nature* 412 (2001): 708–712. [@CanupAsphaug2001]
 
 [^wilde_zircon]: Simon A. Wilde et al., "Evidence from Detrital Zircons for the Existence of Continental Crust and Oceans on the Earth 4.4 Gyr Ago," *Nature* 409 (2001): 175–178. [@Wilde2001]
+
+[^hcn_vents]: H$_2$ and CO in vent fluids are well established. HCN at vents is thermodynamically predicted and has been detected in some fluid analyses; see Niklas G. Holm and Astrid Neubeck, "Reduction of Nitrogen Compounds in Oceanic Basement and Its Implications for HCN Formation and Abiotic Organic Synthesis," *Geochemical Transactions* 10 (2009): 9 [@HolmNeubeck2009]; for prebiotic chemistry context, John D. Sutherland, "The Origin of Life---Out of the Blue," *Angewandte Chemie International Edition* 55 (2016): 104--121. [@Sutherland2016]
