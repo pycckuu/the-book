@@ -75,7 +75,7 @@ The clam, in turn, provides *Ruthia* with a stable physical environment, a suppl
 
 What makes *Ruthia* remarkable is what its genome reveals: it has retained a complete set of genes for chemoautotrophic life.[^newton_ruthia] It can still, in principle, do everything a free-living sulfur-oxidizing bacterium can do. Its genome has not yet suffered the erosion that afflicts more deeply integrated symbionts. It is still biochemically independent, still carrying the full toolkit of an autonomous organism.
 
-*Ruthia magnifica* is early on the spectrum. It is an intracellular symbiont, yes -- committed to life inside a host -- but it has not yet traveled far down what we might call the path of inevitable degradation. It is a captured bacterium that still remembers how to be free.
+*Ruthia magnifica* is early on the spectrum. It is an intracellular symbiont, yes -- committed to life inside a host -- but it has not yet traveled far down what we might call the path of inevitable degradation. It is a captured bacterium whose genome still encodes the full machinery for independent life.
 
 ### The shrinking genome: *Carsonella ruddii*
 
@@ -100,7 +100,7 @@ Between the deep-sea vent and the psyllid gut, there are stranger partnerships. 
 
 When *E. chlorotica* feeds, it does something unusual. It punctures algal cells and sucks out the contents, digesting most of the cellular material. But it does not digest the chloroplasts -- the photosynthetic organelles. Instead, it captures them intact and incorporates them into the cells lining its own digestive tract. There, surrounded by animal tissue, the stolen chloroplasts continue to function. They absorb light, split water, fix carbon. The sea slug photosynthesizes.[^rumpho_kleptoplasty]
 
-The chloroplasts are not inherited. They do not reproduce inside the slug. Each generation of *E. chlorotica* must acquire them anew by feeding on algae. This is not a permanent merger but a temporary theft -- a kind of biological kleptomania that hints at how the permanent acquisition of photosynthesis might have begun, billions of years ago, when an ancient eukaryote engulfed a cyanobacterium and never let go.
+The chloroplasts are not inherited. They do not reproduce inside the slug. Each generation of *E. chlorotica* must acquire them anew by feeding on algae. This is not a permanent merger but a temporary theft -- kleptoplasty -- that hints at how the permanent acquisition of photosynthesis might have begun, billions of years ago, when an ancient eukaryote engulfed a cyanobacterium and never let go.
 
 *E. chlorotica* is a living thought experiment: what does the early stage of chloroplast acquisition look like? Perhaps something like this -- a predator that learns to keep its prey's machinery running, harvesting the products, and gradually becoming dependent on them.
 

@@ -58,7 +58,7 @@ $$
 \Delta H = \underbrace{(436 + 242)}_{\text{bonds broken}} - \underbrace{2 \times 431}_{\text{bonds formed}} = -184 \text{ kJ/mol}
 $$
 
-The reaction releases 184 kJ of heat for every mole of H$_2$ consumed. It is exothermic---profitable, in thermodynamic terms.
+The reaction releases 184 kJ of heat for every mole of H$_2$ consumed. It is exothermic---it releases energy that can do useful work.
 
 But to get started, someone has to pay the activation cost: breaking that first Cl--Cl bond. Convert to the energy per single bond:
 
@@ -102,9 +102,9 @@ When a reaction occurs, the change in Gibbs free energy tells you the direction:
 - If $\Delta G > 0$: the reaction requires an input of energy. It will not happen on its own.
 - If $\Delta G = 0$: the system is at equilibrium. No net change occurs.
 
-The biological metaphor writes itself. Enthalpy is your gross income. The entropy term $TS$ is the tax---the portion the universe takes as payment for allowing things to happen. Gibbs free energy is your disposable income: the fraction you can direct toward maintenance, growth, or reproduction.
+Enthalpy is your gross income. The entropy term $TS$ is the tax---the portion the universe takes as payment for allowing things to happen. Gibbs free energy is your disposable income: the fraction you can direct toward maintenance, growth, or reproduction.
 
-Microbes are accountants -- but not the optimizing kind. They do not maximize profit. They cover costs. A bacterium in a sediment pore does not search for the reaction with the largest $\Delta G$; it runs whatever reaction its existing enzymes can catalyze, provided the return exceeds the minimum cost of staying alive. In the language of decision theory, microbes *satisfice*: they find strategies that are good enough, not strategies that are best.[^simon1956] This distinction -- between optimizing and satisficing -- explains a pattern visible in every marine sediment core: the redox zones overlap instead of forming sharp boundaries, and supposedly outcompeted metabolisms persist in the "wrong" zone. Optimization models predict sharp exclusion. Satisficing models predict the fuzzy coexistence and apparent inefficiency that field measurements consistently show. The physics sets the menu. The microbes choose what they can afford, not what is cheapest.
+Microbes do not optimize. They cover costs. A bacterium in a sediment pore does not search for the reaction with the largest $\Delta G$; it runs whatever reaction its existing enzymes can catalyze, provided the return exceeds the minimum cost of staying alive. In the language of decision theory, microbes *satisfice*: they find strategies that are good enough, not strategies that are best.[^simon1956] This distinction -- between optimizing and satisficing -- explains a pattern visible in every marine sediment core: the redox zones overlap instead of forming sharp boundaries, and supposedly outcompeted metabolisms persist in the "wrong" zone. Optimization models predict sharp exclusion. Satisficing models predict the fuzzy coexistence and apparent inefficiency that field measurements consistently show. The physics sets the menu. The microbes choose what they can afford, not what is cheapest.
 
 ### Real conditions, not standard ones
 
@@ -116,7 +116,7 @@ $$
 
 Here $R$ is the gas constant (8.314 J mol$^{-1}$ K$^{-1}$), $T$ is absolute temperature, and $Q$ is the **reaction quotient**---the ratio of product activities to reactant activities, each raised to the power of its stoichiometric coefficient.
 
-The reaction quotient is the universe's way of adjusting the price. When products accumulate, $Q$ increases, and $\Delta G$ becomes less negative: the reaction becomes less profitable. When reactants are abundant, $Q$ is small, and there is more energy to harvest. At equilibrium, $Q$ equals the equilibrium constant $K_{\text{eq}}$, and $\Delta G = 0$:
+The reaction quotient captures how concentrations shift the energy balance. When products accumulate, $Q$ increases, and $\Delta G$ becomes less negative: less energy is available. When reactants are abundant, $Q$ is small, and there is more energy to harvest. At equilibrium, $Q$ equals the equilibrium constant $K_{\text{eq}}$, and $\Delta G = 0$:
 
 $$
 \Delta G^\circ = -RT \ln K_{\text{eq}}
@@ -180,9 +180,9 @@ $$
 \Delta G^\circ = -RT \ln K_{\text{eq}}
 $$
 
-This equation is a Rosetta Stone. It connects the standard free energy change (which you can look up in tables or calculate from bond energies) to the equilibrium constant (which tells you how far a reaction will go before it stops). A large negative $\Delta G^\circ$ means a large $K_{\text{eq}}$: the reaction strongly favors products. A $\Delta G^\circ$ near zero means the reaction is easily reversible and sensitive to conditions.
+This equation bridges thermodynamic tables and observable chemistry. It connects the standard free energy change (which you can look up in tables or calculate from bond energies) to the equilibrium constant (which tells you how far a reaction will go before it stops). A large negative $\Delta G^\circ$ means a large $K_{\text{eq}}$: the reaction strongly favors products. A $\Delta G^\circ$ near zero means the reaction is easily reversible and sensitive to conditions.
 
-For microbial metabolism, the critical quantity is rarely $\Delta G^\circ$. It is $\Delta G$---the energy available *right here, right now*, at the actual concentrations in the local environment. Two identical reactions can have completely different $\Delta G$ values in different environments, because $Q$ depends on what has been consumed and what has accumulated. A reaction that is profitable near the sediment surface, where oxygen is present, may become unprofitable a centimeter deeper, where oxygen has been depleted.
+For microbial metabolism, the critical quantity is rarely $\Delta G^\circ$. It is $\Delta G$---the energy available *right here, right now*, at the actual concentrations in the local environment. Two identical reactions can have completely different $\Delta G$ values in different environments, because $Q$ depends on what has been consumed and what has accumulated. A reaction that yields energy near the sediment surface, where oxygen is present, may cost energy a centimeter deeper, where oxygen has been depleted.
 
 This is why mud tells stories. The concentration profiles---oxygen dropping to zero, sulfate declining, methane appearing---are the visible signatures of $Q$ shifting through space, dragging $\Delta G$ with it. Each zone is dominated by a different microbial guild: aerobic heterotrophs at the top, sulfate reducers in the middle, methanogens at the bottom. The physics sets the order. The microbes fill the niches.
 
