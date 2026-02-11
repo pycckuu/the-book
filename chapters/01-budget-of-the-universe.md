@@ -78,7 +78,7 @@ The hydrogen-chlorine cannon illustrates one of the most important distinctions 
 
 That tool was invented by Josiah Willard Gibbs in the 1870s, and it is the single most important equation in this book.[^gibbs1873]
 
-[FIGURE: A schematic showing the Gibbs free energy concept. On the left, a reaction releases total energy (enthalpy change, delta-H). A portion is "lost" to entropy (T times delta-S, shown as disordered heat arrows). The remainder -- delta-G -- is the usable work, depicted as an arrow driving a molecular machine (e.g., an ion pump). Caption: "Not all energy is equal. Gibbs free energy is the fraction that can do work."]
+![Not all energy is equal. Gibbs free energy is the fraction that can do work.](../sources/img/ch1_gibbs_free_energy.png){#fig-gibbs-free-energy}
 
 $$
 G = H - TS

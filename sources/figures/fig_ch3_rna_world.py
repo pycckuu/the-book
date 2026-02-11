@@ -91,13 +91,13 @@ ax2.add_patch(FancyArrowPatch((0.65, 0.5), (1.0, 0.9),
 ax2.add_patch(FancyArrowPatch((0.65, -0.5), (1.0, -0.9),
               connectionstyle='arc3,rad=0.1', **arr_green))
 
-# Caption
-fig.text(0.5, 0.01, 'RNA broke the deadlock by doing both jobs.',
-         ha='center', fontsize=11, style='italic', color='#666666')
+# Caption (Removed - handled in markdown)
+# fig.text(0.5, 0.01, 'RNA broke the deadlock by doing both jobs.',
+#          ha='center', fontsize=11, style='italic', color='#666666')
 
 plt.subplots_adjust(wspace=-0.1, left=0.01, right=0.99, top=0.88, bottom=0.10)
-plt.savefig('/Users/igor/conductor/workspaces/the-book/abu-dhabi/sources/img/ch3_rna_world.png',
+plt.savefig('/Users/igor/git/the-book/sources/img/ch3_rna_world.png',
             dpi=300, bbox_inches='tight', facecolor='white')
-plt.savefig('/Users/igor/conductor/workspaces/the-book/abu-dhabi/sources/img/ch3_rna_world.pdf',
+plt.savefig('/Users/igor/git/the-book/sources/img/ch3_rna_world.pdf',
             bbox_inches='tight', facecolor='white')
 print("Figure saved.")

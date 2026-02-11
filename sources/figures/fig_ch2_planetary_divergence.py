@@ -134,14 +134,14 @@ axes[2].text(2.35, 100, '100°C\n(boiling)', fontsize=7, color='#999999',
 fig.suptitle('The divergence at ~3.5 Ga', fontsize=14, fontweight='bold',
              y=0.98, color='#222222')
 
-# Caption
-fig.text(0.5, 0.01,
-         'Same raw materials, same physics, three different outcomes — but only one is well constrained.',
-         ha='center', fontsize=10, style='italic', color='#555555')
+# Caption (Removed - handled in markdown)
+# fig.text(0.5, 0.01,
+#          'Same raw materials, same physics, three different outcomes — but only one is well constrained.',
+#          ha='center', fontsize=10, style='italic', color='#555555')
 
 plt.tight_layout(rect=[0.02, 0.04, 0.98, 0.94])
-plt.savefig('/Users/igor/conductor/workspaces/the-book/abu-dhabi/sources/img/ch2_planetary_divergence.png',
+plt.savefig('/Users/igor/git/the-book/sources/img/ch2_planetary_divergence.png',
             dpi=300, bbox_inches='tight', facecolor='white')
-plt.savefig('/Users/igor/conductor/workspaces/the-book/abu-dhabi/sources/img/ch2_planetary_divergence.pdf',
+plt.savefig('/Users/igor/git/the-book/sources/img/ch2_planetary_divergence.pdf',
             bbox_inches='tight', facecolor='white')
 print("Figure saved.")
