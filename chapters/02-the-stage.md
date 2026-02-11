@@ -8,7 +8,9 @@ They orbited the same young star, caught roughly the same rain of water and carb
 
 And yet, within a billion years, one of those planets was alive, another was a furnace, and the third was a frozen desert.
 
-![The divergence at ~3.5 Ga. Temperature uncertainty bars reflect the honest state of knowledge: Earth's range is narrow (0--70°C, with a best estimate near 25°C from resurrected ancestral proteins[^fig_gaucher]); Venus spans the full range from possibly habitable to full runaway greenhouse, because the D/H ratio proves catastrophic water loss[^fig_donahue] but the timing remains debated[^fig_way]; Mars shows the late Noachian ambiguity between warm-wet and cold-with-episodic-thaw scenarios.[^fig_mars_climate] Mars's crustal magnetic remnants[^fig_acuna] confirm a recently lost dynamo. Earth's stromatolites[^fig_allwood] and zircon oxygen isotopes[^fig_wilde_zircon] provide the tightest constraints. Same raw materials, same physics, three different outcomes---but only one is well constrained.](../sources/img/ch2_planetary_divergence.png){#fig-planetary-divergence}
+![Three planets, one outcome. Temperature and atmospheric evolution of Venus, Earth, and Mars from formation to ~3.5 billion years ago. Uncertainty bars reflect the state of knowledge: Earth is well constrained; Venus and Mars are not.](../sources/img/ch2_planetary_divergence.png){#fig-planetary-divergence}
+
+The figure tells the story in a single frame. Earth's temperature range is narrow---0 to 70°C, with a best estimate near 25°C from resurrected ancestral proteins[^fig_gaucher]---because stromatolites[^fig_allwood] and zircon oxygen isotopes[^fig_wilde_zircon] provide tight constraints. Venus spans the full range from possibly habitable to full runaway greenhouse: the deuterium-to-hydrogen ratio proves catastrophic water loss,[^fig_donahue] but the timing remains debated.[^fig_way] Mars shows the late Noachian ambiguity between warm-wet and cold-with-episodic-thaw scenarios,[^fig_mars_climate] and its crustal magnetic remnants[^fig_acuna] confirm a dynamo that shut down early. Same raw materials, same physics, three different outcomes---but only one is well constrained.
 
 This chapter is about why. Not in the sense of purpose, but in the sense of mechanism: what sequence of physical accidents turned one ordinary rocky planet into the one place where non-equilibrium chemistry could build a biosphere? The answer is not a single miracle. It is a chain of contingencies--each one physical, each one measurable, and each one shockingly specific.
 
@@ -68,9 +70,11 @@ $$\text{H}_2\text{O}(\ell) \longrightarrow \text{H}_2\text{O}(g)$$
 
 3. Water vapor is a powerful greenhouse gas. More water in the atmosphere trapped more infrared radiation, which raised surface temperatures further, which evaporated more water. This is a positive feedback loop--a thermal runaway.
 
-4. With the oceans now in the atmosphere, solar ultraviolet radiation could reach the water vapor and photolyze it:
+4. With the oceans now in the atmosphere, solar ultraviolet radiation could reach the water vapor. The net result of UV photolysis was the decomposition of water:
 
 $$2\,\text{H}_2\text{O}(g) \xrightarrow{UV} 2\,\text{H}_2(g) + \text{O}_2(g)$$
+
+(This is the net stoichiometry; the actual mechanism proceeds through OH and H radicals in multiple steps.)
 
 5. The liberated hydrogen, being the lightest gas, escaped from the top of the atmosphere into space. The oxygen was consumed by reactions with surface rocks and volcanic gases.
 
@@ -88,7 +92,7 @@ On Venus, the greater solar flux pushed temperatures high enough that no cold tr
 
 This is a knife-edge. Earth's cold trap works today, and has worked for most of Earth's history, but it is not guaranteed by any deep principle. It is a consequence of Earth's specific distance from the Sun, its atmospheric composition, and its surface temperature. Move Earth 10 to 15 percent closer to the Sun, and models suggest the cold trap fails, the runaway begins, and we join Venus.
 
-Same physics. Same starting materials. A difference of a few tens of millions of kilometers--about 70 percent of the distance from the Earth to the Sun--and the outcome is a lifeless furnace versus a habitable world.
+Same physics. Same starting materials. A difference of a few tens of millions of kilometers--less than a third of the distance from the Earth to the Sun--and the outcome is a lifeless furnace versus a habitable world.
 
 ### Mars: the planet that lost its shield
 

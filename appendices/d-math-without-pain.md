@@ -4,9 +4,11 @@ title: "Appendix D --- Math Without Pain"
 
 This appendix collects the quantum-mechanical derivations and detailed mathematical treatments that support the main text. Readers who want the full machinery will find it here; readers who skipped the Deep Dives can return to these sections when curiosity strikes.
 
-## D.1 The Schrodinger equation: from waves to energy levels
+## D.1 The Schrödinger equation: from waves to energy levels
 
-The machinery that connects wave-particle duality to energy quantization is the Schrodinger equation. Before we derive it, the experimental evidence that demands it.
+Planck and Einstein showed that light carries energy in packets. But the discreteness runs deeper. Particles themselves behave as waves---a fact confirmed experimentally in the 1920s[^davisson1927] and formalized by the Schrödinger equation. Electrons confined to an atom cannot have arbitrary energies, for the same reason a guitar string cannot vibrate at arbitrary frequencies: the boundary conditions select only certain standing-wave patterns, and each pattern corresponds to a specific energy. From these discrete energy levels come all bond energies, activation barriers, and spectroscopic signatures that appear throughout this book.
+
+The machinery that connects wave-particle duality to energy quantization is the Schrödinger equation. Before we derive it, the experimental evidence that demands it.
 
 In 1924, Louis de Broglie proposed that every particle has an associated wavelength:
 
@@ -40,7 +42,7 @@ $$
 E\,\Psi = -\frac{\hbar^2}{2m}\frac{\partial^2 \Psi}{\partial x^2} + V\,\Psi
 $$
 
-This is the **time-independent Schrodinger equation** (TISE). It says: the allowed energies of a quantum system are those values $E$ for which this equation has well-behaved solutions.
+This is the **time-independent Schrödinger equation** (TISE). It says: the allowed energies of a quantum system are those values $E$ for which this equation has well-behaved solutions.
 
 **Step 4: Add time.** From $E = \hbar\omega$ and $\Psi \propto e^{-i\omega t}$, differentiate once with respect to time:
 
@@ -48,13 +50,13 @@ $$
 i\hbar\frac{\partial \Psi}{\partial t} = E\,\Psi
 $$
 
-Combining with the TISE gives the **time-dependent Schrodinger equation**:
+Combining with the TISE gives the **time-dependent Schrödinger equation**:
 
 $$
 i\hbar\frac{\partial \Psi}{\partial t} = -\frac{\hbar^2}{2m}\frac{\partial^2 \Psi}{\partial x^2} + V\,\Psi
 $$
 
-**What we sacrificed in this presentation:** rigor. The argument above is a plausibility construction, not a derivation from first principles. The Schrodinger equation is a *postulate*---it cannot be derived from classical mechanics any more than Newton's second law can be derived from kinematics. Its justification is that it works: every prediction it makes matches experiment.
+**What we sacrificed in this presentation:** rigor. The argument above is a plausibility construction, not a derivation from first principles. The Schrödinger equation is a *postulate*---it cannot be derived from classical mechanics any more than Newton's second law can be derived from kinematics. Its justification is that it works: every prediction it makes matches experiment.
 
 **What we kept:** the direct connection between de Broglie's wavelength, Planck's energy quantization, and the equation that governs all of chemistry. The TISE is the equation that produces the energy levels of hydrogen, the shapes of molecular orbitals, and the bond energies that appear in every reaction in this book.
 
@@ -117,3 +119,5 @@ q_{\text{total}} = q_{\text{trans}} \cdot q_{\text{rot}} \cdot q_{\text{vib}} \c
 $$
 
 From this partition function, all thermodynamic quantities---internal energy, entropy, heat capacity, and ultimately $\Delta G$---can be calculated. Statistical mechanics is the bridge between the quantum mechanics of individual molecules and the thermodynamics of bulk matter.
+
+[^davisson1927]: Clinton Davisson and Lester Germer, "Diffraction of Electrons by a Crystal of Nickel," *Physical Review* 30 (1927): 705–740. [@Davisson1927]
