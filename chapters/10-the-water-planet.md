@@ -78,7 +78,7 @@ Consider the major greenhouse gases and their atmospheric budgets as assessed in
 
 **Carbon dioxide.** Sources include fossil fuel combustion and land-use change (deforestation, agriculture). Sinks include ocean uptake and the terrestrial biosphere (plant growth and soil storage). The net imbalance -- what accumulates in the atmosphere each year -- was estimated at $3.9 \pm 1.4$ Gt C/yr. That imbalance is small compared to the gross fluxes, which means the system is nearly balanced. "Nearly" is doing a lot of work in that sentence; it is the small residual that drives the entire climate problem.[^watson1992]
 
-**Methane.** Sources are a revealing mix: fossil carbon (natural gas leaks, coal mining), wetlands, rice paddies, and animal waste. The biological sources dominate. Sinks include the hydroxyl radical (OH$^-$) in the troposphere -- the atmosphere's main oxidizing agent -- photochemical removal in the stratosphere, and microbial oxidation in soils. Source and sink fluxes are roughly 381 and 394 Tg C/yr, respectively -- close to balanced, but the source mix has shifted dramatically since the industrial revolution.[^watson1992]
+**Methane.** Sources are a revealing mix: fossil carbon (natural gas leaks, coal mining), wetlands, rice paddies, and animal waste. The biological sources dominate. Sinks include the hydroxyl radical (OH) in the troposphere -- the atmosphere's main oxidizing agent -- photochemical removal in the stratosphere, and microbial oxidation in soils. Source and sink fluxes are roughly 381 and 394 Tg C/yr, respectively -- close to balanced, but the source mix has shifted dramatically since the industrial revolution.[^watson1992]
 
 **Nitrous oxide.** Sources include soils (both natural and fertilized), forests, and combustion. Sinks are dominated by photodissociation in the stratosphere. Soil microbial processes show up on both sides of the ledger -- as both producers and consumers of N$_2$O -- which is a recurring theme: microbes are not unidirectional. They are opportunistic, and the same community can be a net source or net sink depending on local redox conditions.
 
@@ -117,7 +117,7 @@ $$
 
 which tells you how long, on average, a molecule stays in the atmosphere before being removed.
 
-For CO$_2$, $\tau$ is on the order of centuries (removal is slow). For methane, $\tau \approx 10$ years (OH$^-$ is relatively efficient). For CFCs, $\tau$ can exceed 100 years (photolysis in the stratosphere is the only exit).
+For CO$_2$, $\tau$ is on the order of centuries (removal is slow). For methane, $\tau \approx 10$ years (OH is relatively efficient). For CFCs, $\tau$ can exceed 100 years (photolysis in the stratosphere is the only exit).
 
 The policy implication is immediate: reducing emissions of a short-lived species (methane) produces atmospheric benefits within a decade. Reducing emissions of a long-lived species (CO$_2$, CFCs) takes much longer to register. The box model, for all its simplicity, captures this asymmetry exactly.
 :::

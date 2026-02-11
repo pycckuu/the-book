@@ -274,4 +274,3 @@ The brave wanderer descended into the dark and found a way to live there. The eq
 
 [^blanch1981]: Harvey W. Blanch, "Invited Review: Microbial Growth Kinetics," *Biotechnology and Bioengineering* 23 (1981): 1691--1722. [@Blanch1981]
 
-[^berner1980_subsurface]: Robert A. Berner, *Early Diagenesis: A Theoretical Approach* (Princeton University Press, 1980). The foundational text for quantitative modeling of sediment diagenesis and subsurface geochemistry. [@Berner1980Early]

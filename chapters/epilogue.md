@@ -45,7 +45,7 @@ This is not a simplification. It is an empirical observation, and it is the reas
 
 We moved through that framework in five stages:
 
-*Part I: *The Rules of the Game* established the physics: free energy, electron transfer, kinetics, and the costs that every living system must pay. The planetary stage on which that physics played out - three planets with the same starting materials; only one outcome well constrained. The point was to show that the constraints come first, and biology responds to them.
+*Part I: The Rules of the Game* established the physics: free energy, electron transfer, kinetics, and the costs that every living system must pay. The planetary stage on which that physics played out - three planets with the same starting materials; only one outcome well constrained. The point was to show that the constraints come first, and biology responds to them.
 
 *Part II: The First Society* introduced the organisms, but in their most ancient and minimal forms: the first metabolisms, the first communities, the first catastrophic success (oxygen). Here the emphasis was on how life does not merely inhabit environments but reshapes them -- sometimes constructively, sometimes catastrophically.
 
@@ -115,7 +115,7 @@ The question is whether we will make the effort to understand them.
 
 [^simon1956]: Herbert A. Simon, "Rational Choice and the Structure of the Environment," *Psychological Review* 63 (1956): 129–138. The satisficing framework: organisms find strategies that are good enough, not optimal. [@Simon1956]
 
-[^blanch1981]: Harvey W. Blanch and Donald S. Clark, *Biochemical Engineering* (Marcel Dekker, 1981). Lag phase dynamics and the limitations of unstructured models in microbial kinetics. [@Blanch1981]
+[^blanch1981]: Harvey W. Blanch, "Invited Review: Microbial Growth Kinetics," *Biotechnology and Bioengineering* 23 (1981): 1691–1722. Lag phase dynamics and the limitations of unstructured models in microbial kinetics. [@Blanch1981]
 
 [^arndt2013]: Sandra Arndt et al., "Quantifying the Degradation of Organic Matter in Marine Sediments: A Review and Synthesis," *Earth-Science Reviews* 123 (2013): 53–86. The mechanistic understanding of organic matter degradation remains a major challenge for RTMs. [@Arndt2013]
 

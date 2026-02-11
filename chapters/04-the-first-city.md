@@ -46,7 +46,7 @@ Several guilds coexist in this dark zone, and their interactions form the critic
 
 **Fermenters** break down the organic matter that rains from above -- dead cells, exudates, structural polymers. Fermentation does not require an external electron acceptor; it reshuffles the carbon and hydrogen within organic molecules, producing a mix of small organic acids, alcohols, CO$_2$, and molecular hydrogen (H$_2$). The energy yield per molecule is modest, but the substrates are abundant.
 
-**Sulfate reducers** pick up where the fermenters leave off.[^sulfate_reduction] They use the H$_2$ that fermentation produces as an electron donor and reduce the sulfate (SO$_4$^2-^) that was generated as waste by the photosynthetic top layer, converting it back to hydrogen sulfide:
+**Sulfate reducers** pick up where the fermenters leave off.[^sulfate_reduction] They use the H$_2$ that fermentation produces as an electron donor and reduce the sulfate (SO$_4^{2-}$) that was generated as waste by the photosynthetic top layer, converting it back to hydrogen sulfide:
 
 $$
 4\,\text{H}_2 + \text{SO}_4^{2-} + 2\,\text{H}^+ \longrightarrow \text{H}_2\text{S} + 4\,\text{H}_2\text{O}
@@ -122,7 +122,7 @@ This is why enzymes exist. They are the difference between a reaction that is po
 
 ## What enzymes actually do
 
-Enzymes are protein catalysts that accelerate specific chemical reactions by factors of 10$^8$ to 10$^{13}$ without being consumed.[^enzyme_acceleration] Three properties define them: they are needed in small amounts (one molecule can process thousands of substrates per second); they emerge from each reaction cycle unchanged; and they have no effect on thermodynamics -- an enzyme cannot make an unfavorable reaction favorable, it can only speed the approach to equilibrium.
+Enzymes are protein catalysts that accelerate specific chemical reactions by factors of 10$^8$ to 10$^{17}$ without being consumed.[^enzyme_acceleration] Three properties define them: they are needed in small amounts (one molecule can process thousands of substrates per second); they emerge from each reaction cycle unchanged; and they have no effect on thermodynamics -- an enzyme cannot make an unfavorable reaction favorable, it can only speed the approach to equilibrium.
 
 That last point matters. Enzymes do not push reactions in one direction. They accelerate both forward and reverse reactions equally. The net direction is still dictated by $\Delta G$. The enzyme just ensures that the system reaches its thermodynamic destiny faster.
 
@@ -166,7 +166,7 @@ These simplifications are not errors. They are deliberate trades: we sacrifice r
 - The three-layer architecture (phototrophs, secondary phototrophs, dark-zone recyclers) was dictated by physics -- light attenuation, chemical gradients, and thermodynamic competition.
 - Stromatolites are the fossil record of these communities, preserved in layered carbonate structures dating to 3.5 billion years ago.
 - Carbon isotope fractionation by RuBisCO provides a durable biosignature, detectable in rocks 3.8 billion years old.
-- Enzymes accelerate reactions by 10$^8$ to 10$^{13}$-fold; Michaelis-Menten kinetics ($V = V_{\max}[\text{S}]/([\text{S}] + K_m)$) describes the speed-versus-supply tradeoff governing every metabolic reaction in the mat.
+- Enzymes accelerate reactions by 10$^8$ to 10$^{17}$-fold; Michaelis-Menten kinetics ($V = V_{\max}[\text{S}]/([\text{S}] + K_m)$) describes the speed-versus-supply tradeoff governing every metabolic reaction in the mat.
 - The mat satisfices: it finds a steady state dictated by constraints, not optimization. Competing metabolisms coexist wherever both can cover maintenance costs.
 
 [^sharkbay]: Living stromatolites in Shark Bay, Western Australia, provide modern analogs of ancient mat communities. The hypersaline conditions exclude grazing metazoans that would otherwise consume the mats. See David J. Des Marais, "Biogeochemistry of Hypersaline Microbial Mats Illustrates the Dynamics of Modern Microbial Ecosystems and the Early Evolution of the Biosphere," *Biological Bulletin* 204 (2003): 160--167. [@DesMarais2003]
