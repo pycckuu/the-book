@@ -10,7 +10,7 @@ And yet, within a billion years, one of those planets was alive, another was a f
 
 ![Three planets, one outcome. Temperature and atmospheric evolution of Venus, Earth, and Mars from formation to ~3.5 billion years ago. Uncertainty bars reflect the state of knowledge: Earth is well constrained; Venus and Mars are not.](../sources/img/ch2_planetary_divergence.png){#fig-planetary-divergence}
 
-Look at the uncertainty bars. Earth's temperature is well constrained---stromatolites,[^fig_allwood] zircon isotopes,[^fig_wilde_zircon] and resurrected ancestral proteins[^fig_gaucher] converge on a best estimate near 25°C. Venus and Mars are not: deuterium ratios prove Venus lost its water,[^fig_donahue] but when?[^fig_way] Mars's crustal magnetism proves an early dynamo,[^fig_acuna] but warm-wet or cold-episodic?[^fig_mars_climate] Same raw materials, same physics, three different outcomes.
+Look at the uncertainty bars. Earth is the best-known case: three independent proxies---rock structures,[^fig_allwood] mineral isotopes,[^fig_wilde_zircon] and reconstructed ancient enzymes[^fig_gaucher]---converge on a surface temperature near 25°C. Venus and Mars are far less constrained. Deuterium ratios prove Venus lost its water,[^fig_donahue] but when?[^fig_way] Mars's crustal magnetism proves an early dynamo,[^fig_acuna] but warm-wet or cold-episodic?[^fig_mars_climate] Same raw materials, same physics, three different outcomes.
 
 What sequence of physical accidents turned one ordinary rocky planet into the one place where non-equilibrium chemistry could build a biosphere? The answer is not a single miracle. It is a chain of contingencies--each one physical, each one measurable, and each one specific enough to test.
 
@@ -62,7 +62,7 @@ Venus's extreme D/H ratio means it lost nearly all of its hydrogen--and therefor
 
 The mechanism is a runaway greenhouse, and it proceeds in steps that are individually straightforward but collectively devastating:
 
-1. Venus is closer to the Sun than Earth. It receives roughly twice the solar flux. At some point in its early history--perhaps when the Sun was slightly brighter, or when some other perturbation tipped the balance--surface temperatures likely crossed a critical threshold---models place it in the range of 70 to 80 degrees Celsius, though the exact value remains debated.
+1. Venus is closer to the Sun than Earth (0.72 AU versus 1.00 AU). By the inverse-square law, it receives about 2,600 W/m$^2$ of solar flux compared to Earth's 1,361 W/m$^2$---nearly twice as much energy per unit area. At some point in its early history--perhaps when the Sun was slightly brighter, or when some other perturbation tipped the balance--surface temperatures likely crossed a critical threshold---models place it in the range of 70 to 80 degrees Celsius, though the exact value remains debated.
 
 2. Above that threshold, the oceans began to evaporate massively. Water moved from the surface into the atmosphere:
 
@@ -86,7 +86,7 @@ The entire process may have taken as little as a few hundred million years. By t
 
 Earth sits only about 38 percent farther from the Sun than Venus. That modest difference in orbital distance was enough--but just barely--to prevent the same runaway.
 
-The key is what atmospheric scientists call the **cold trap**. On Earth, the upper atmosphere (specifically the tropopause, at roughly 10 to 15 kilometers altitude) is very cold: around minus 60 degrees Celsius. Water vapor rising from the surface condenses and falls back as rain long before it reaches the altitudes where ultraviolet radiation could break it apart. The tropopause acts as a cold lid, trapping water in the lower atmosphere where it is shielded from photolysis.
+The key is what atmospheric scientists call the **cold trap**. On Earth, the tropopause (roughly 12 km altitude) is very cold: around minus 60 degrees Celsius. At that temperature the saturation vapor pressure of water is only about 1 Pa---orders of magnitude lower than at the surface. Water vapor rising from below condenses and falls back as rain long before it reaches the altitudes where ultraviolet radiation could break it apart. The tropopause acts as a cold lid, trapping water in the lower atmosphere where it is shielded from photolysis.
 
 On Venus, the greater solar flux pushed temperatures high enough that no cold trap could form. Water vapor mixed freely into the upper atmosphere, where UV radiation destroyed it molecule by molecule.
 
@@ -100,7 +100,7 @@ Mars tells the opposite cautionary tale. Where Venus got too hot and lost its wa
 
 Mars is smaller than Earth--about half the diameter, roughly one-tenth the mass. Its lower mass meant lower internal heat, which meant its core cooled faster, which meant it lost its global magnetic field earlier. Without a magnetic field, the solar wind--a stream of charged particles from the Sun--could interact directly with the upper atmosphere, stripping it away molecule by molecule over hundreds of millions of years.
 
-As the atmosphere thinned, surface pressure dropped. Below a certain pressure, liquid water cannot exist regardless of temperature: it either freezes or sublimes directly to vapor. Mars crossed that threshold and its surface water was lost--some to space, some frozen into the regolith and polar caps, some perhaps trapped in subsurface reservoirs that remain liquid (under pressure, in contact with salts) even today.
+As the atmosphere thinned, surface pressure dropped. Mars's present-day surface pressure is about 610 Pa---0.6 percent of Earth's. Models suggest it may have started with 0.5 to 1 bar or more; the loss unfolded over hundreds of millions of years as the dynamo faded. Below a certain pressure, liquid water cannot exist regardless of temperature: it either freezes or sublimes directly to vapor. Mars crossed that threshold and its surface water was lost--some to space, some frozen into the regolith and polar caps, some perhaps trapped in subsurface reservoirs that remain liquid (under pressure, in contact with salts) even today.
 
 But here is the tantalizing part: early Mars may have been habitable.
 
@@ -225,7 +225,7 @@ Venus shows what happens when the distance is wrong. Mars shows what happens whe
 
 The stage is set: a warm, wet, metal-rich, geologically active planet bathed in energy, with the thermodynamic rules of Chapter 1 operating in every drop of its ancient ocean.
 
-And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen gas and carbon monoxide---and, if thermodynamic models and recent vent-fluid analyses are right, hydrogen cyanide---into warm, metal-rich water.[^hcn_vents] Exactly the cocktail that organic chemists use to build the building blocks of life in the lab. The thermodynamics are favorable. The raw materials are abundant. The planet has time. What it does not yet have is a molecule that can copy itself.
+And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen gas and carbon monoxide into warm, metal-rich water---an environment saturated with the electron donors and carbon sources that will underwrite the first microbial metabolisms. If thermodynamic models and recent vent-fluid analyses are right, trace hydrogen cyanide is in the mix as well.[^hcn_vents] The thermodynamics are favorable. The raw materials are abundant. The planet has time. What it does not yet have is a molecule that can copy itself.
 
 ## Takeaways
 

@@ -42,7 +42,7 @@ A chlorophyll molecule absorbs red light at around 680 nm because the energy of 
 
 Five years after Planck's proposal, Albert Einstein pushed the idea further. He showed that light itself behaves as a stream of particles---photons---each carrying exactly one quantum of energy $E = h\nu$. His evidence came from the photoelectric effect: when light strikes a metal surface, it can knock electrons free, but only if each individual photon carries enough energy to overcome the binding force that holds the electron in the metal.[^einstein1905] Below a threshold frequency, nothing happens---no matter how bright the light. Above it, electrons fly out immediately. The energy of the ejected electrons increases linearly with the frequency of the incoming light, exactly as $E = h\nu$ predicts. Einstein received the Nobel Prize for this work in 1921, not for relativity.
 
-Chemical bonds have specific energies. Breaking them requires a minimum energy input. Forming new bonds releases specific amounts of energy. None of this would work if energy were continuous. In anoxic sediments, methanogens stake their survival on the energy gap between the C--H bonds they form and the H--H bonds they break---a margin so slim that a small shift in hydrogen concentration can shut the reaction down.
+Chemical bonds have specific energies. Breaking them requires a minimum energy input. Forming new bonds releases specific amounts of energy. None of this would work if energy were continuous. In anoxic sediments, methanogens harvest dissolved hydrogen to reduce CO$_2$ to methane---a reaction whose standard free-energy yield is modest and whose actual yield depends sharply on local hydrogen concentration. Four molecules of H$_2$ enter the reaction, so the energy available scales with the fourth power of hydrogen activity. At the nanomolar concentrations typical of real sediment, the margin between a viable metabolism and a thermodynamic dead end is vanishingly thin.
 
 ## The hydrogen-chlorine cannon
 
@@ -127,6 +127,26 @@ This is not a separate equation. It is a special case of the one above, evaluate
 For biochemical reactions, a modified convention is often used: $\Delta G^{\circ\prime}$, where the prime indicates standard conditions at pH 7 rather than the chemist's convention of pH 0. Since most biology operates near neutral pH, this keeps the reference point close to reality.[^karp2008]
 
 ::: {.callout-note}
+## Equation Corner --- The hydrogen threshold
+
+Two guilds compete for dissolved H$_2$ in marine sediment: sulfate reducers and methanogens. Their net reactions:
+
+**Sulfate reduction:**
+
+$$4\text{H}_2 + \text{SO}_4^{2-} + 2\text{H}^+ \longrightarrow \text{H}_2\text{S} + 4\text{H}_2\text{O} \qquad \Delta G^{\circ\prime} \approx -152 \text{ kJ/mol}$$
+
+**Hydrogenotrophic methanogenesis:**
+
+$$4\text{H}_2 + \text{CO}_2 \longrightarrow \text{CH}_4 + 2\text{H}_2\text{O} \qquad \Delta G^{\circ\prime} \approx -131 \text{ kJ/mol}$$
+
+Both are exergonic at standard conditions, but in real sediment $Q$ does the work. As microbes consume H$_2$, its concentration drops and $Q$ rises, making $\Delta G$ less negative. Each guild has a minimum energy yield---roughly $-10$ to $-20$ kJ/mol, the cost of pumping a single ion across a membrane---below which it cannot sustain its energy-conserving machinery.[^hoehler2004]
+
+Because the methanogen's $\Delta G^{\circ\prime}$ is smaller to begin with, its $\Delta G$ crosses the viability threshold at a higher H$_2$ concentration. Field measurements confirm the prediction: sulfate reducers draw H$_2$ down to roughly 1--1.5 nM; methanogens stall at roughly 7--10 nM.[^lovley1988] Where sulfate is available, sulfate reducers pull H$_2$ below the methanogen's threshold and win by default. Methanogens dominate only where sulfate is exhausted and no one else is pulling H$_2$ lower.
+
+This is not a hand-waving story. Plug the concentrations into $\Delta G = \Delta G^{\circ\prime} + RT \ln Q$, and the guild boundaries fall out of the arithmetic. The physics predicts the zonation; the microbes confirm it.
+:::
+
+::: {.callout-note}
 ## Equation Corner --- Oxidation state as an energy proxy
 
 A powerful shortcut for estimating how much free energy an organic molecule contains: look at the **average oxidation state of its carbon atoms**.
@@ -190,17 +210,17 @@ The concentration profiles in a sediment column---oxygen dropping to zero, sulfa
 
 Planck showed that energy comes in packets. Einstein showed that light carries these packets as particles. The wave nature of matter --- confirmed experimentally in the 1920s and formalized by the Schrödinger equation --- explains why atoms and molecules have discrete energy levels. From those energy levels come bond energies, activation barriers, and the electronic transitions that make photosynthesis and respiration possible.
 
-Gibbs, working half a century before quantum mechanics, already had the thermodynamic framework: enthalpy minus the entropy tax gives you the free energy---the budget. With the reaction quotient $Q$ adjusting the budget for local conditions, you can calculate the energy available from any reaction in any environment.
+Gibbs, working half a century before quantum mechanics, already had the thermodynamic framework: enthalpy minus the entropy term gives you the free energy. With the reaction quotient $Q$ adjusting for local conditions, you can calculate the energy available from any reaction in any environment.
 
-The rules they uncovered---quantized energy, the Gibbs budget, chemical equilibrium---are the same rules that govern every metabolic reaction in every living cell that has ever existed. They governed the first autocatalytic cycles in hydrothermal vents 4 billion years ago.[^martinrussell2003] They govern the sulfate-reducing bacteria 3 kilometers underground in a South African gold mine today.[^lin2006_deep] Evolution operates within the Second Law, not outside it. Natural selection can explore an enormous space of molecular strategies, but every strategy must balance the Gibbs budget: find a reaction with $\Delta G < 0$ under local conditions, harvest that energy, and export the resulting entropy.
+The rules they uncovered---quantized energy, Gibbs free energy, chemical equilibrium---are the same rules that govern every metabolic reaction in every living cell that has ever existed. They governed the first autocatalytic cycles in hydrothermal vents 4 billion years ago.[^martinrussell2003] They govern the sulfate-reducing bacteria 3 kilometers underground in a South African gold mine today.[^lin2006_deep] Evolution operates within the Second Law, not outside it. Natural selection can explore an enormous space of molecular strategies, but every strategy must close the Gibbs ledger: find a reaction with $\Delta G < 0$ under local conditions, harvest that energy, and export the resulting entropy.
 
-*D. audaxviator*, three kilometers underground, obeys every rule in this chapter. So does every other organism we will meet. The budget was set before the first cell divided.
+*D. audaxviator*, three kilometers underground, obeys every rule in this chapter. So does every other organism we will meet. The rules were set before the first cell divided.
 
 ## Takeaway
 
 - Energy comes in discrete packets ($E = h\nu$), which is why specific photons break specific bonds and why photosynthesis requires specific wavelengths.
-- The Gibbs free energy $G = H - TS$ is the universal budget: enthalpy minus the entropy cost gives the energy available to do work.
-- Under real conditions, $\Delta G = \Delta G^\circ + RT \ln Q$ adjusts the budget for actual concentrations. At equilibrium, $\Delta G = 0$ and the reaction quotient equals $K_{\text{eq}}$.
+- The Gibbs free energy $G = H - TS$ is the universal constraint: enthalpy minus the entropy cost gives the energy available to do work.
+- Under real conditions, $\Delta G = \Delta G^\circ + RT \ln Q$ adjusts for actual concentrations. At equilibrium, $\Delta G = 0$ and the reaction quotient equals $K_{\text{eq}}$.
 - Wave-particle duality (Appendix D) explains *why* energy levels are discrete and *why* bonds have the strengths they do. Molecules store energy in electronic, vibrational, rotational, and translational modes.
 - These rules---discovered with hydrogen atoms and metal plates---are the same rules that will govern every bacterium, every enzyme, every metabolic pathway for the next 4.5 billion years of Earth's history.
 
@@ -234,3 +254,7 @@ The rules they uncovered---quantized energy, the Gibbs budget, chemical equilibr
 [^lin2006_deep]: Li-Hung Lin et al., "Long-Term Sustainability of a High-Energy, Low-Diversity Crustal Biome," *Science* 314 (2006): 479–482. [@Lin2006]
 
 [^simon1956]: Herbert A. Simon, "Rational Choice and the Structure of the Environment," *Psychological Review* 63 (1956): 129–138. [@Simon1956]
+
+[^hoehler2004]: Tori M. Hoehler, "Biological Energy Requirements as Quantitative Boundary Conditions for Life in the Subsurface," *Geobiology* 2 (2004): 205–215. The minimum biological energy quantum---the smallest energy yield that can drive ion translocation across a membrane---is approximately $-20$ kJ/mol (Schink 1997), though field measurements suggest methanogens can operate at yields as small as $-10$ kJ/mol. [@Hoehler2004]
+
+[^lovley1988]: Derek R. Lovley and Steve Goodwin, "Hydrogen Concentrations as an Indicator of the Predominant Terminal Electron-Accepting Reactions in Aquatic Sediments," *Geochimica et Cosmochimica Acta* 52 (1988): 2993–3003. [@Lovley1988]
