@@ -55,7 +55,7 @@ That organelle is the mitochondrion. Every mitochondrion in every eukaryotic cel
 
 The transformation from free-living bacterium to mitochondrion did not happen overnight. It was a long, slow slide from partnership to dependence to irreversible fusion -- a process that took hundreds of millions of years and that we can still watch happening today, frozen at different stages in different organisms.
 
-[FIGURE: The integration spectrum. A horizontal arrow labeled "Independence" on the left and "Organelle" on the right. Four organisms are placed along the spectrum at increasing integration: (1) Ruthia magnifica -- full genome, complete metabolic independence, inside a clam; (2) Elysia viridis -- stolen chloroplasts, temporary, non-heritable; (3) Carsonella ruddii -- 160 kb genome, cannot replicate alone; (4) Mitochondrion -- ~16 kb genome, fully integrated organelle. Caption: "The path from symbiont to organelle is a one-way ratchet. Every lost gene tightens the bond."]
+[FIGURE: The integration spectrum. A horizontal arrow labeled "Independence" on the left and "Organelle" on the right. Four organisms are placed along the spectrum at increasing integration: (1) Ruthia magnifica -- full genome, complete metabolic independence, inside a clam; (2) Elysia chlorotica -- stolen chloroplasts, temporary, non-heritable; (3) Carsonella ruddii -- 160 kb genome, cannot replicate alone; (4) Mitochondrion -- ~16 kb genome, fully integrated organelle. Caption: "The path from symbiont to organelle is a one-way ratchet. Every lost gene tightens the bond."]
 
 Think of it as a spectrum. At one end, a bacterium lives inside a host cell but retains its full genetic and metabolic independence: it could, in principle, be extracted and grown on its own. At the other end, the bacterium has lost so many genes that it is no longer an organism at all -- it is an organelle, a part of the host, unable to exist independently. Between these extremes lies every shade of partnership, dependence, and dissolution.
 
@@ -94,15 +94,15 @@ But look at *Carsonella*'s genome, and you see something startling. At just 160 
 The trajectory from symbiont to organelle is a one-way street driven by a simple evolutionary logic. Once a function is reliably supplied by the host, the symbiont's gene for that function is no longer under selection. Mutations accumulate. The gene degrades, shrinks, and eventually disappears. Each lost gene makes the symbiont more dependent on the host, which in turn makes further gene loss more likely. The result is a ratchet: integration deepens with every deletion, and there is no going back. *Carsonella*'s 160-kilobase genome represents a late stage of this process. Mitochondria, with their even smaller genomes (typically 15-20 kilobases in animals), represent a still later stage. The endpoint is complete gene transfer to the host nucleus, at which point the distinction between "symbiont" and "organelle" dissolves entirely.
 :::
 
-### The borrowed factory: *Elysia viridis*
+### The borrowed factory: *Elysia chlorotica*
 
-Between the deep-sea vent and the psyllid gut, there are stranger partnerships. Consider the sea slug *Elysia viridis*, a small, leaf-shaped mollusk that grazes on algae in the shallow coastal waters of Europe.
+Between the deep-sea vent and the psyllid gut, there are stranger partnerships. Consider the sea slug *Elysia chlorotica*, a small, leaf-shaped mollusk that grazes on algae in the tidal marshes and shallow coastal waters of eastern North America.
 
-When *Elysia* feeds, it does something unusual. It punctures algal cells and sucks out the contents, digesting most of the cellular material. But it does not digest the chloroplasts -- the photosynthetic organelles. Instead, it captures them intact and incorporates them into the cells lining its own digestive tract. There, surrounded by animal tissue, the stolen chloroplasts continue to function. They absorb light, split water, fix carbon. The sea slug photosynthesizes.[^rumpho_kleptoplasty]
+When *E. chlorotica* feeds, it does something unusual. It punctures algal cells and sucks out the contents, digesting most of the cellular material. But it does not digest the chloroplasts -- the photosynthetic organelles. Instead, it captures them intact and incorporates them into the cells lining its own digestive tract. There, surrounded by animal tissue, the stolen chloroplasts continue to function. They absorb light, split water, fix carbon. The sea slug photosynthesizes.[^rumpho_kleptoplasty]
 
-The chloroplasts are not inherited. They do not reproduce inside the slug. Each generation of *Elysia* must acquire them anew by feeding on algae. This is not a permanent merger but a temporary theft -- a kind of biological kleptomania that hints at how the permanent acquisition of photosynthesis might have begun, billions of years ago, when an ancient eukaryote engulfed a cyanobacterium and never let go.
+The chloroplasts are not inherited. They do not reproduce inside the slug. Each generation of *E. chlorotica* must acquire them anew by feeding on algae. This is not a permanent merger but a temporary theft -- a kind of biological kleptomania that hints at how the permanent acquisition of photosynthesis might have begun, billions of years ago, when an ancient eukaryote engulfed a cyanobacterium and never let go.
 
-*Elysia* is a living thought experiment: what does the early stage of chloroplast acquisition look like? Perhaps something like this -- a predator that learns to keep its prey's machinery running, harvesting the products, and gradually becoming dependent on them.
+*E. chlorotica* is a living thought experiment: what does the early stage of chloroplast acquisition look like? Perhaps something like this -- a predator that learns to keep its prey's machinery running, harvesting the products, and gradually becoming dependent on them.
 
 ### The perfect commune: the three-way lichen
 

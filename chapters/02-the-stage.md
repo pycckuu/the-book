@@ -28,7 +28,7 @@ What we do have is physics. And physics, combined with isotope geochemistry and 
 
 Sometime during the first hundred million years, Earth was struck by another planet.
 
-Not a small asteroid. Not a glancing blow. A body roughly the size of Mars--or possibly larger--collided with the young Earth in an impact so violent that it partially vaporized both objects. The debris from this collision--a disk of molten and vaporized rock orbiting what remained of Earth--coalesced -- perhaps within centuries, perhaps faster -- into a new body: the Moon [@CanupAsphaug2001].
+Not a small asteroid. Not a glancing blow. A body roughly the size of Mars--or possibly larger--collided with the young Earth in an impact so violent that it partially vaporized both objects. The debris from this collision--a disk of molten and vaporized rock orbiting what remained of Earth--coalesced -- perhaps within centuries, perhaps faster -- into a new body: the Moon.[^canup_moon]
 
 The evidence for this is not speculative. The Moon's bulk composition is strikingly similar to Earth's mantle (not to the average solar system), which means it formed from Earth material. The Moon is depleted in volatile elements, consistent with formation from a superheated debris disk. The angular momentum of the Earth-Moon system is consistent with a giant impact. And the Moon is large relative to its planet--unusually large--which is hard to explain by capture but straightforward if it was born from the planet itself.
 
@@ -110,7 +110,7 @@ This raises a possibility that planetary scientists take seriously: that life ma
 
 Wherever life originated, it needed liquid water. Not as a decorative feature, but as a physical requirement: water is the solvent in which biochemical reactions occur, the medium through which reactants diffuse to meet each other, and a participant in countless hydrolysis and condensation reactions. Without liquid water, the thermodynamic rules from Chapter 1 are real but irrelevant--there is no medium in which to run the chemistry.
 
-The evidence that Earth's hydrosphere appeared very early comes from those ancient zircon crystals mentioned above. Zircons (zirconium silicate, ZrSiO$_4$) are extraordinarily durable minerals. They resist weathering, metamorphism, and even partial melting of the rocks that contain them. Some zircon crystals from the Jack Hills of Western Australia have been dated to 4.4 billion years ago--only about 150 million years after the Earth formed [@Wilde2001].
+The evidence that Earth's hydrosphere appeared very early comes from those ancient zircon crystals mentioned above. Zircons (zirconium silicate, ZrSiO$_4$) are extraordinarily durable minerals. They resist weathering, metamorphism, and even partial melting of the rocks that contain them. Some zircon crystals from the Jack Hills of Western Australia have been dated to 4.4 billion years ago--only about 150 million years after the Earth formed.[^wilde_zircon]
 
 The structure and oxygen isotope composition of these zircons suggest that they crystallized from magma that had interacted with liquid water. Specifically, the oxygen isotope ratios ($\delta^{18}$O values) are higher than what you would expect from a purely magmatic origin, consistent with the incorporation of water-altered material into the melt. This is not proof of a surface ocean--but it is strong evidence that liquid water was present on or near the Earth's surface within the first few hundred million years.
 
@@ -233,19 +233,6 @@ Now the chemistry can begin.
 - The earliest isotopic evidence of life (carbon isotope fractionation in 3.8-billion-year-old graphite from Greenland) indicates that biological carbon fixation was occurring by the early Archean.
 - Resurrected ancestral proteins indicate that the earliest organisms preferred temperatures of 60 to 70 degrees Celsius; the planet has been cooling, and life has been adapting, for over three billion years.
 
-[^markov2010_earth]: Alexandr Markov, *Birth of Complexity. Evolutionary Biology Today: Unexpected Discoveries and New Questions* (2010). [@Markov2010]
-
-[^gradstein2004]: Gradstein et al., *A new Geologic Time Scale, with special reference to Precambrian and Neogene* (2004). [@Gradstein2004]
-
-[^gaucher2008]: Gaucher et al., *Palaeotemperature trend for Precambrian life inferred from resurrected proteins* (2008). [@Gaucher2008]
-
-[^schidlowski1988]: Schidlowski, *A 3,800-million-year isotopic record of life from carbon in sedimentary rocks* (1988). [@Schidlowski:1988de]
-
-[^wilde2001]: Wilde et al., *Evidence from detrital zircons for the existence of continental crust and oceans on the Earth 4.4 Gyr ago* (2001). [@Wilde2001]
-
-[^canupasphaug2001]: Canup and Asphaug, *Origin of the Moon in a giant impact near the end of the Earth's formation* (2001). [@CanupAsphaug2001]
-
-[^dupont2010]: Dupont et al., *History of biological metal utilization inferred through phylogenomic analysis of protein structures* (2010). [@Dupont2010]
 
 [^wilde2001_hadean]: Simon A. Wilde et al., "Evidence from Detrital Zircons for the Existence of Continental Crust and Oceans on the Earth 4.4 Gyr Ago," *Nature* 409 (2001): 175–178. [@Wilde2001]
 
@@ -292,3 +279,7 @@ Now the chemistry can begin.
 [^fig_allwood]: Abigail C. Allwood et al., "Stromatolite Reef from the Early Archaean Era of Australia," *Nature* 441 (2006): 714–718. Evidence of microbial communities at 3.43 Ga. [@Allwood2006]
 
 [^fig_wilde_zircon]: Simon A. Wilde et al., "Evidence from Detrital Zircons for the Existence of Continental Crust and Oceans on the Earth 4.4 Gyr Ago," *Nature* 409 (2001): 175–178. Jack Hills zircons dated to 4.4 Ga with oxygen isotope signatures suggesting liquid water interaction. [@Wilde2001]
+
+[^canup_moon]: Robin M. Canup and Erik Asphaug, "Origin of the Moon in a Giant Impact Near the End of the Earth's Formation," *Nature* 412 (2001): 708–712. [@CanupAsphaug2001]
+
+[^wilde_zircon]: Simon A. Wilde et al., "Evidence from Detrital Zircons for the Existence of Continental Crust and Oceans on the Earth 4.4 Gyr Ago," *Nature* 409 (2001): 175–178. [@Wilde2001]
