@@ -2,7 +2,7 @@
 title: "The Budget of the Universe"
 ---
 
-Three kilometers below the surface of South Africa, in rock that has not seen sunlight for twenty million years, a bacterium called *Candidatus* Desulforudis audaxviator divides once per century. Its energy source is hydrogen gas, produced atom by atom as uranium in the surrounding rock decays. Its electron acceptor is sulfate, trapped in mineral inclusions since the Archean. The reaction releases just enough free energy to synthesize a handful of ATP molecules---just barely enough to copy a genome, repair a membrane, and divide.[^lin2006_deep]
+Three kilometers below the surface of South Africa, in rock sealed from sunlight for perhaps twenty million years, a bacterium called *Candidatus* Desulforudis audaxviator may divide as rarely as once per century. Its energy source is hydrogen gas, produced atom by atom as uranium in the surrounding rock decays. Its electron acceptor is sulfate, trapped in mineral inclusions since the Archean. The reaction releases just enough free energy to synthesize a handful of ATP molecules---just barely enough to copy a genome, repair a membrane, and divide.[^lin2006_deep]
 
 This organism runs on the thinnest energy budget in the known biosphere. To understand how it survives---how *any* microbe survives---you need to understand what "energy budget" means. That requires physics. Not all of physics. Just the rules that govern what reactions can happen, how much energy they release, and why some reactions proceed while others, equally favorable on paper, sit frozen until the right catalyst arrives.
 
@@ -20,7 +20,7 @@ Not by violating the Second Law. By *obeying it creatively*. A living organism m
 
 Schrödinger also made a second, remarkably prescient prediction. He argued that the genetic material---whatever it was---must be a stable, information-bearing structure. He called it an "aperiodic crystal": not a repeating lattice like salt or diamond, but an irregular arrangement capable of encoding instructions. Nine years later, Watson and Crick described the double helix of DNA.[^watsoncrick1953] It was, almost exactly, Schrödinger's aperiodic crystal.
 
-But this chapter is not about DNA. It is about the first half of Schrödinger's insight: the energy rules. Before there was life, before there was an ocean, before there was a planet with liquid water, there were the laws of thermodynamics and quantum mechanics. These laws---discovered in European laboratories with hydrogen atoms, metal plates, and vacuum tubes---are the constitution that every chemical reaction, every metabolic pathway, and every living organism must obey.
+But this chapter is not about DNA. It is about the first half of Schrödinger's insight: the energy rules. Before there was life, before there was an ocean, before there was a planet with liquid water, there were the laws of thermodynamics and quantum mechanics. These laws---discovered in European laboratories with hydrogen atoms, metal plates, and vacuum tubes---constrain every chemical reaction, every metabolic pathway, and every living organism.
 
 They are the budget of the universe.
 
@@ -78,7 +78,7 @@ This is quantization in action. The reaction is favorable, the reactants are mix
 
 Every reaction in biochemistry follows the same logic. Enzymes do not change whether a reaction is favorable; they lower the activation barrier so that the reaction can proceed at body temperature. They are, in effect, a substitute for the blue lamp---a way to start the cannon without the explosion.
 
-The brave wanderer from our opening---*D. audaxviator*---carries hydrogenase enzymes that lower the barrier for oxidizing H$_2$ with sulfate. Without those enzymes, the reaction would be thermodynamically favorable but kinetically frozen, like a hydrogen-chlorine mixture sitting in the dark. The enzyme is the lamp.
+*D. audaxviator* carries hydrogenase enzymes that lower the barrier for oxidizing H$_2$ with sulfate. Without those enzymes, the reaction would be thermodynamically favorable but kinetically frozen, like a hydrogen-chlorine mixture sitting in the dark. The enzyme is the lamp.
 
 ## The budget: Gibbs free energy
 
@@ -184,11 +184,9 @@ This equation bridges thermodynamic tables and observable chemistry. It connects
 
 For microbial metabolism, the critical quantity is rarely $\Delta G^\circ$. It is $\Delta G$---the energy available *right here, right now*, at the actual concentrations in the local environment. Two identical reactions can have completely different $\Delta G$ values in different environments, because $Q$ depends on what has been consumed and what has accumulated. A reaction that yields energy near the sediment surface, where oxygen is present, may cost energy a centimeter deeper, where oxygen has been depleted.
 
-This is why mud tells stories. The concentration profiles---oxygen dropping to zero, sulfate declining, methane appearing---are the visible signatures of $Q$ shifting through space, dragging $\Delta G$ with it. Each zone is dominated by a different microbial guild: aerobic heterotrophs at the top, sulfate reducers in the middle, methanogens at the bottom. The physics sets the order. The microbes fill the niches.
+The concentration profiles in a sediment column---oxygen dropping to zero, sulfate declining, methane appearing---are the visible signatures of $Q$ shifting through space, dragging $\Delta G$ with it. Each zone is dominated by a different microbial guild: aerobic heterotrophs at the top, sulfate reducers in the middle, methanogens at the bottom. The physics sets the order. The microbes fill the niches.
 
 ## The rules before the game
-
-The chain of reasoning is now complete.
 
 Planck showed that energy comes in packets. Einstein showed that light carries these packets as particles. The wave nature of matter --- confirmed experimentally in the 1920s and formalized by the Schrödinger equation --- explains why atoms and molecules have discrete energy levels. From those energy levels come bond energies, activation barriers, and the electronic transitions that make photosynthesis and respiration possible.
 
@@ -196,7 +194,7 @@ Gibbs, working half a century before quantum mechanics, already had the thermody
 
 The rules they uncovered---quantized energy, the Gibbs budget, chemical equilibrium---are the same rules that govern every metabolic reaction in every living cell that has ever existed. They governed the first autocatalytic cycles in hydrothermal vents 4 billion years ago.[^martinrussell2003] They govern the sulfate-reducing bacteria 3 kilometers underground in a South African gold mine today.[^lin2006_deep] Evolution operates within the Second Law, not outside it. Natural selection can explore an enormous space of molecular strategies, but every strategy must balance the Gibbs budget: find a reaction with $\Delta G < 0$ under local conditions, harvest that energy, and export the resulting entropy.
 
-The brave wanderer, three kilometers underground, obeys every rule in this chapter. So does every other organism we will meet. The budget was set before the first cell divided.
+*D. audaxviator*, three kilometers underground, obeys every rule in this chapter. So does every other organism we will meet. The budget was set before the first cell divided.
 
 ## Takeaway
 
