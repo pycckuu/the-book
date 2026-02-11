@@ -10,27 +10,27 @@ The water was hot -- slightly above 60 degrees Celsius -- alkaline, and saturate
 
 And it was alive.
 
-Not teeming -- not a jungle. But when Li-Hung Lin and colleagues analyzed the microbial community in that fracture water, they found something startling: a functioning ecosystem, dominated by a single bacterial species, running on chemistry that the rock itself provided [@Lin2006]. Most of the organic matter in the water had an abiogenic origin -- produced not by photosynthesis or any biological process, but by geological reactions between water and minerals deep in the crust. The hydrogen came from radiolysis of water by uranium decay in the surrounding rock. The sulfate came from ancient seawater trapped in mineral inclusions.
+Not teeming -- not a jungle. But when Li-Hung Lin and colleagues analyzed the microbial community in that fracture water, they found something startling: a functioning ecosystem, dominated by a single bacterial species, running on chemistry that the rock itself provided.[^lin2006] Most of the organic matter in the water had an abiogenic origin -- produced not by photosynthesis or any biological process, but by geological reactions between water and minerals deep in the crust. The hydrogen came from radiolysis of water by uranium decay in the surrounding rock. The sulfate came from ancient seawater trapped in mineral inclusions.
 
 Life, in this place, was not borrowing from the sun. It was borrowing from the Earth's interior.
 
 ## The brave wanderer
 
-The organism that dominated that fracture water -- comprising over 88 percent of the community -- received one of the more literary names in microbiology: *Candidatus* Desulforudis audaxviator. The name comes from a Latin phrase in Jules Verne's *Journey to the Center of the Earth*: "Descende, audax viator, et terrestre centrum attinges" -- "Descend, brave traveler, and you will reach the center of the Earth" [@Chivian2008].
+The organism that dominated that fracture water -- comprising over 99.9 percent of the community -- received one of the more literary names in microbiology: *Candidatus* Desulforudis audaxviator. The name comes from a Latin phrase in Jules Verne's *Journey to the Center of the Earth*: "Descende, audax viator, et terrestre centrum attinges" -- "Descend, brave traveler, and you will reach the center of the Earth".[^chivian2008]
 
-The name was earned. When Dylan Chivian and colleagues reconstructed the organism's genome from metagenomic data, they found a cell prepared for total independence. *D. audaxviator* carries a complete genetic toolkit for life in extreme isolation: it fixes its own carbon from CO$_2$, fixes atmospheric nitrogen (there is no "atmosphere" down there, but trace dissolved N$_2$ suffices), and harvests energy by reducing sulfate with molecular hydrogen. Thermodynamic calculations confirm that under the conditions of the Mponeng fracture water -- the specific concentrations of H$_2$, sulfate, and products present -- this metabolism is the most energetically favorable option available [@Lin2006].
+The name was earned. When Dylan Chivian and colleagues reconstructed the organism's genome from metagenomic data, they found a cell prepared for total independence. *D. audaxviator* carries a complete genetic toolkit for life in extreme isolation: it fixes its own carbon from CO$_2$, fixes atmospheric nitrogen (there is no "atmosphere" down there, but trace dissolved N$_2$ suffices), and harvests energy by reducing sulfate with molecular hydrogen. Thermodynamic calculations confirm that under the conditions of the Mponeng fracture water -- the specific concentrations of H$_2$, sulfate, and products present -- this metabolism is the most energetically favorable option available.[^lin2006] The calculated Gibbs energy yield is just barely sufficient to support ATP synthesis, placing this organism at the thermodynamic edge of life.[^chivian2008]
 
-What the genome does *not* contain is equally telling. There are zero genes for oxygen use. Zero genes for oxygen defense -- no catalase, no superoxide dismutase, none of the protective machinery that aerobic or even facultatively anaerobic organisms carry as insurance. This organism has not dealt with oxygen for a very long time [@Chivian2008].
+What the genome does *not* contain is equally telling. There are zero genes for oxygen use. Minimal genes for oxygen defense -- a lone superoxide dismutase but no catalase, no peroxidase, little of the protective machinery that aerobic or even facultatively anaerobic organisms carry as insurance. This organism has not dealt with oxygen for a very long time.[^chivian2008]
 
-Alongside *D. audaxviator*, the community includes roughly 25 other species, among them four methanogenic archaea. But the brave wanderer is the keystone -- the organism that, more than any other, demonstrates that a living system can persist for geological time without any connection to the surface biosphere. Lin and colleagues called it "the first proven case of autonomous long existence of living organisms in the bowels of the earth, without any connection with the big biosphere" [@Lin2006].
+Alongside *D. audaxviator*, the community includes roughly 25 other species, among them four methanogenic archaea. But the brave wanderer is the keystone -- the organism that, more than any other, demonstrates that a living system can persist for geological time without any connection to the surface biosphere. Lin and colleagues called it "the first proven case of autonomous long existence of living organisms in the bowels of the earth, without any connection with the big biosphere".[^lin2006]
 
-The fracture water community made its journey underground at least 20 million years ago. Since then, it has survived on the thin trickle of chemical energy that radioactive decay and water-rock reactions provide. No sunlight. No organic rain from above. No seasonal pulse of nutrients. Just rock, water, heat, and the patient rearrangement of electrons.
+The fracture water community made its journey underground millions of years ago -- noble gas dating suggests residence times of 3 to 25 million years, depending on the fracture system. Since then, it has survived on the thin trickle of chemical energy that radioactive decay and water-rock reactions provide. No sunlight. No organic rain from above. No seasonal pulse of nutrients. Just rock, water, heat, and the patient rearrangement of electrons.
 
 ## What counts as "deep"
 
 The Mponeng discovery is dramatic, but it is not an isolated curiosity. By the mid-1990s, evidence was accumulating that microbial life extends far deeper into the Earth's crust than anyone had assumed. The question was how to think about it systematically.
 
-Derek Lovley and Francis Chapelle proposed a framework that remains useful today [@Lovley1995]. The key insight is that "deep" should not be defined by depth alone. A sample from 500 meters in one geological setting might be more connected to the surface than a sample from 50 meters in another. What matters is the hydrology -- how water moves through the subsurface.
+Derek Lovley and Francis Chapelle proposed a framework that remains useful today.[^lovley1995] The key insight is that "deep" should not be defined by depth alone. A sample from 500 meters in one geological setting might be more connected to the surface than a sample from 50 meters in another. What matters is the hydrology -- how water moves through the subsurface.
 
 Lovley and Chapelle described three scales of groundwater flow:
 
@@ -40,9 +40,9 @@ Lovley and Chapelle described three scales of groundwater flow:
 
 The "deep subsurface," in Lovley and Chapelle's definition, should be restricted to intermediate and regional flow systems -- environments where surface-derived inputs are minimal and microorganisms must work with whatever chemistry the geology provides. This is a functional definition, not a geometric one. It is about *isolation*, not *depth*.
 
-One constraint is universal across all these settings: "Microorganisms are the only life forms that can inhabit most deep subsurface environments because typical pore spaces are too small for other types of life" [@Lovley1995]. A bacterium fits through a pore throat that would stop a nematode, let alone anything with a circulatory system. In the deep subsurface, smallness is not a limitation. It is the entry ticket.
+One constraint is universal across all these settings: "Microorganisms are the only life forms that can inhabit most deep subsurface environments because typical pore spaces are too small for other types of life".[^lovley1995] A bacterium fits through a pore throat that would stop a nematode, let alone anything with a circulatory system. In the deep subsurface, smallness is not a limitation. It is the entry ticket.
 
-And one absence is absolute: "Light is not available in the deep subsurface" [@Lovley1995]. No photosynthesis. Every calorie of energy must come from chemical reactions -- from the oxidation of organic matter buried with the sediment, from reduced compounds like Fe(II), Mn(II), ammonia, or sulfide carried in by recharge water, or from geological processes like serpentinization and radiolysis that generate fresh electron donors *in situ*.
+And one absence is absolute: "Light is not available in the deep subsurface".[^lovley1995] No photosynthesis. Every calorie of energy must come from chemical reactions -- from the oxidation of organic matter buried with the sediment, from reduced compounds like Fe(II), Mn(II), ammonia, or sulfide carried in by recharge water, or from geological processes like serpentinization and radiolysis that generate fresh electron donors *in situ*.[^lovley1995_serpentin]
 
 ## The terminal electron acceptor hierarchy
 
@@ -54,13 +54,13 @@ $$
 
 [FIGURE: The terminal electron acceptor hierarchy shown as a vertical column. Depth increases downward. At the top, O2 is consumed first (narrow zone). Below it, NO3- disappears. Then Mn(IV) and Fe(III) reduction zones. Then a broad SO4-2 reduction zone. At the bottom, CO2 reduction (methanogenesis). Each zone is labeled with the dominant metabolism and the Gibbs energy yield per mole of electron donor. The energy yield decreases with depth. Caption: "The redox ladder, expressed in sediment. Each zone represents the cheapest electron acceptor still available."]
 
-Each acceptor supports a distinct metabolic community: aerobic respirers, denitrifiers, manganese reducers, iron reducers, sulfate reducers, methanogens. These are the Terminal Electron Accepting Processes, or TEAPs, and in an idealized system they appear in sequence as the more energetically favorable acceptors are exhausted [@Lovley1995].
+Each acceptor supports a distinct metabolic community: aerobic respirers, denitrifiers, manganese reducers, iron reducers, sulfate reducers, methanogens. These are the Terminal Electron Accepting Processes, or TEAPs, and in an idealized system they appear in sequence as the more energetically favorable acceptors are exhausted.[^lovley1995] Iron and sulfate reducers typically conserve four to five times more energy per mole of electron donor than methanogens -- a difference that has profound implications for community structure and biomass yields.[^bethke2011]
 
-In practice, the deep subsurface is messier. Lovley and Chapelle noted a tendency in geochemistry to treat microorganisms as "black boxes that may facilitate thermodynamically favorable reactions" -- as if the bugs are just catalysts that speed up whatever chemistry the Gibbs energy landscape demands [@Lovley1995]. This shorthand works surprisingly often, but it fails in important cases.
+In practice, the deep subsurface is messier. Lovley and Chapelle noted a tendency in geochemistry to treat microorganisms as "black boxes that may facilitate thermodynamically favorable reactions" -- as if the bugs are just catalysts that speed up whatever chemistry the Gibbs energy landscape demands.[^lovley1995] This shorthand works surprisingly often, but it fails in important cases.
 
-The reason is that thermodynamic favorability is necessary but not sufficient. A reaction can be favorable on paper and still not happen because no organism present carries the right enzymes. A reaction can be favorable and fast in a beaker but starved in a pore because transport cannot supply reactants. As Lovley and Chapelle put it: "It is becoming increasingly apparent that even in ancient, relatively nondynamic subsurface environments, simplified nonbiological models do not accurately describe important geochemical processes" [@Lovley1995].
+The reason is that thermodynamic favorability is necessary but not sufficient. A reaction can be favorable on paper and still not happen because no organism present carries the right enzymes. A reaction can be favorable and fast in a beaker but starved in a pore because transport cannot supply reactants. As Lovley and Chapelle put it: "It is becoming increasingly apparent that even in ancient, relatively nondynamic subsurface environments, simplified nonbiological models do not accurately describe important geochemical processes".[^lovley1995]
 
-The practical consequence is stark: "Most redox reactions do not take place spontaneously but require microorganisms to catalyze them" [@Lovley1995]. In the deep subsurface, the biology is not a detail layered on top of the chemistry. The biology *is* the chemistry, or at least the part of it that actually happens on observable timescales.
+The practical consequence is stark: "Most redox reactions do not take place spontaneously but require microorganisms to catalyze them".[^lovley1995] In the deep subsurface, the biology is not a detail layered on top of the chemistry. The biology *is* the chemistry, or at least the part of it that actually happens on observable timescales.
 
 ## Respiration in equations
 
@@ -70,11 +70,11 @@ $$
 R_{\text{resp}} = k_{\text{resp}} \cdot [B] \cdot \frac{[\text{TED}]}{[\text{TED}] + K_{m,\text{TED}}} \cdot \frac{[\text{TEA}]}{[\text{TEA}] + K_{m,\text{TEA}}}
 $$
 
-where $[B]$ is biomass concentration, $[\text{TED}]$ and $[\text{TEA}]$ are the concentrations of the terminal electron donor and acceptor, $K_m$ values are half-saturation constants, and $k_{\text{resp}}$ is the maximum specific rate [@Jin2005; @Thullner2007].
+where $[B]$ is biomass concentration, $[\text{TED}]$ and $[\text{TEA}]$ are the concentrations of the terminal electron donor and acceptor, $K_m$ values are half-saturation constants, and $k_{\text{resp}}$ is the maximum specific rate.[^jin2005][^thullner2007]
 
 The dual-Monod form captures something important: respiration slows when *either* the donor *or* the acceptor becomes scarce. A sulfate reducer with plenty of hydrogen but vanishing sulfate will slow down just as surely as one with plenty of sulfate but no hydrogen. The two Monod terms act as independent throttles.
 
-In shallow, oxygenated environments, aerobic respiration dominates so thoroughly that it accounts for 90--95 percent of all degraded organic carbon [@Rabouille1991]. But the deep subsurface is almost never oxygenated. In anoxic, nitrate-depleted settings, a division of labor emerges: fermentative microorganisms first break complex organic molecules into simpler ones -- acetate, formate, hydrogen -- and then respiring bacteria use those simpler compounds as electron donors, passing the electrons to whatever terminal acceptor remains [@Lovley1995]. The fermenters and the respirers are partners, not competitors, linked by the small molecules that one produces and the other consumes.
+In shallow, oxygenated environments, aerobic respiration dominates so thoroughly that it accounts for 90--95 percent of all degraded organic carbon.[^rabouille1991] But the deep subsurface is almost never oxygenated. In anoxic, nitrate-depleted settings, a division of labor emerges: fermentative microorganisms first break complex organic molecules into simpler ones -- acetate, formate, hydrogen -- and then respiring bacteria use those simpler compounds as electron donors, passing the electrons to whatever terminal acceptor remains.[^lovley1995] The fermenters and the respirers are partners, not competitors, linked by the small molecules that one produces and the other consumes.
 
 No single organism can do everything. That constraint -- the inability of any one species to completely oxidize complex organic matter using a given terminal electron acceptor -- is what forces the community to be a community. Even in the Mponeng fracture, where *D. audaxviator* dominates, those 25 other species are not bystanders. They fill niches that the brave wanderer cannot.
 
@@ -82,15 +82,15 @@ No single organism can do everything. That constraint -- the inability of any on
 
 The deep subsurface pushes microbial life to its energetic limits. How slow can metabolism get before it ceases to be metabolism?
 
-The answer, it turns out, is extraordinarily slow. Douglas LaRowe and Jan Amend compiled data on microbial turnover times across a range of natural settings and found that in aquifers, sedimentary rocks, marine sediments, and ice cores, biomass turnover times can exceed 1,000 years [@LaRowe:2015dt]. In Antarctic photosynthetic communities -- admittedly a surface environment, but one where conditions are extreme -- biomass turnover times reach up to 19,000 years.
+The answer, it turns out, is extraordinarily slow. Douglas LaRowe and Jan Amend compiled data on microbial turnover times across a range of natural settings and found that in aquifers, sedimentary rocks, marine sediments, and ice cores, biomass turnover times can exceed 1,000 years.[^larowe2015] In Antarctic photosynthetic communities -- admittedly a surface environment, but one where conditions are extreme -- biomass turnover times reach up to 19,000 years.
 
 Consider what that means. A cell that turns over its biomass once every thousand years is not dormant. It is metabolically active, but so slowly that its existence plays out on a geological timescale.
 
-The range of metabolic rates across Earth's biosphere is staggering. LaRowe and Amend found that catabolic rates vary over twelve orders of magnitude, from approximately $6 \times 10^{-9}$ to $6.66 \times 10^{3}$ nmol cm$^{-3}$ day$^{-1}$ [@LaRowe:2015dt]. Twelve orders of magnitude. The fastest microbial communities metabolize a trillion times faster than the slowest. And yet the slowest are still alive.
+The range of metabolic rates across Earth's biosphere is staggering. LaRowe and Amend found that catabolic rates vary over twelve orders of magnitude, from approximately $6 \times 10^{-9}$ to $6.66 \times 10^{3}$ nmol cm$^{-3}$ day$^{-1}$.[^larowe2015] Twelve orders of magnitude. The fastest microbial communities metabolize a trillion times faster than the slowest. And yet the slowest are still alive.
 
-This raises a fundamental question about maintenance energy -- the minimum energy flux a cell needs just to stay alive without growing. In laboratory cultures, maintenance energy can be measured: you starve a culture, track its decline, and calculate the energy cost of keeping the lights on. But in deep subsurface settings, per-cell energy fluxes are "several orders of magnitude lower than maintenance energies predicted from laboratory cultures" [@LaRowe:2015dt].
+This raises a fundamental question about maintenance energy -- the minimum energy flux a cell needs just to stay alive without growing. In laboratory cultures, maintenance energy can be measured: you starve a culture, track its decline, and calculate the energy cost of keeping the lights on. But in deep subsurface settings, per-cell energy fluxes are "several orders of magnitude lower than maintenance energies predicted from laboratory cultures".[^larowe2015]
 
-Either the cells are dying (but they aren't -- they persist for millions of years), or our laboratory-derived maintenance estimates are wrong for these conditions. LaRowe and Amend argue for the latter: maintenance energy is not a constant. It depends on growth conditions, temperature, community structure, and the specific stresses a cell faces. It should be treated as a variable, not a parameter [@LaRowe:2015dt].
+Either the cells are dying (but they aren't -- they persist for millions of years), or our laboratory-derived maintenance estimates are wrong for these conditions. LaRowe and Amend argue for the latter: maintenance energy is not a constant. It depends on growth conditions, temperature, community structure, and the specific stresses a cell faces. It should be treated as a variable, not a parameter.[^larowe2015]
 
 The implication reshapes how we model deep life. A cell in a laboratory flask, bathed in rich media at 37 degrees, has a "maintenance bill" that includes the cost of dealing with rapid environmental fluctuations, repairing damage from reactive oxygen species, and competing with neighbors. A cell in a fracture at 2.8 kilometers depth, in stable, anoxic water that changes on geological timescales, has shed most of those costs. It has not optimized for speed or yield. It has satisficed -- found the minimal metabolic strategy that covers the minimal maintenance cost under its specific constraints, and held that position for geological time.
 
@@ -130,7 +130,7 @@ This equation is the bookkeeping device that makes reaction-transport models pos
 
 ## The dark photosynthesizer
 
-In 2015, a group of American chemists reported something that sounded like science fiction. They took *Moorella thermoacetica*, a non-photosynthetic, anaerobic bacterium -- a species that has never, in its evolutionary history, used light for energy -- and turned it into a kind of solar cell.
+In 2016, a group of American chemists reported something that sounded like science fiction. They took *Moorella thermoacetica*, a non-photosynthetic, anaerobic bacterium -- a species that has never, in its evolutionary history, used light for energy -- and turned it into a kind of solar cell.
 
 The trick was cadmium sulfide nanoparticles. The researchers dissolved cadmium and sulfide precursors in the growth medium. The bacterium, doing what *Moorella* does naturally, precipitated cadmium sulfide crystals on its own cell surface. These nanoparticles acted as light-harvesting antennae: when illuminated, they generated excited electrons that the bacterium captured and used to reduce CO$_2$ into acetic acid and other organic molecules.
 
@@ -178,9 +178,9 @@ There is also a **biological conveyor belt**: head-down deposit feeders (worms, 
 
 One of the persistent questions in deep subsurface microbiology is whether organisms in these communities are competing for scarce resources or somehow cooperating to optimize the overall energy harvest. The answer matters for modeling, because competition and cooperation lead to different predictions about which organisms persist and at what rates.
 
-Craig Bethke and colleagues examined this question through the lens of the thermodynamic ladder [@Bethke2011]. They noted an apparent paradox: iron reducers and sulfate reducers conserve four to five times more energy in their ATP pools per mole of electron donor consumed than methanogens do. If competition were purely about energy yield, methanogens should be consistently outcompeted wherever iron or sulfate is available. Yet in many natural environments, all three groups coexist, sometimes operating at similar overall rates.
+Craig Bethke and colleagues examined this question through the lens of the thermodynamic ladder.[^bethke2011] They noted an apparent paradox: iron reducers and sulfate reducers conserve four to five times more energy in their ATP pools per mole of electron donor consumed than methanogens do. If competition were purely about energy yield, methanogens should be consistently outcompeted wherever iron or sulfate is available. Yet in many natural environments, all three groups coexist, sometimes operating at similar overall rates.
 
-One possible resolution is that the organisms are not simply maximizing their own energy harvest. Perhaps the community as a whole tends toward a state that maximizes the total usable energy extracted from all available reactions -- a kind of collective optimization [@Bethke2011]. Under this view, the community composition is not determined solely by pairwise competition but by a global optimization problem: given the available electron donors and acceptors, what combination of metabolisms extracts the most energy?
+One possible resolution is that the organisms are not simply maximizing their own energy harvest. Perhaps the community as a whole tends toward a state that maximizes the total usable energy extracted from all available reactions -- a kind of collective optimization.[^bethke2011] Under this view, the community composition is not determined solely by pairwise competition but by a global optimization problem: given the available electron donors and acceptors, what combination of metabolisms extracts the most energy?
 
 But there is a third possibility, and it is the one most consistent with the data we have seen throughout this book: neither individual optimization nor collective optimization, but satisficing. Each organism runs the metabolism its enzymes permit, at the rate the local concentrations support, without reference to any global objective. The community structure that results is not optimal in any formal sense -- it is merely *viable*. Every guild covers its maintenance costs. No guild is excluded unless its reaction is thermodynamically impossible under local conditions. The coexistence of iron reducers, sulfate reducers, and methanogens in the same aquifer is not paradoxical under this view. It is expected: all three can cover costs, so all three persist. The boundaries are fuzzy because the constraints are fuzzy.
 
@@ -194,17 +194,11 @@ $$
 \frac{d[B]}{dt} = Y \cdot R_{\text{resp}} - \mu_{\text{dec}} \cdot [B]
 $$
 
-Biomass grows in proportion to the respiration rate (scaled by the yield coefficient $Y$) and decays at a rate proportional to the current biomass (scaled by the decay constant $\mu_{\text{dec}}$) [@Thullner2007; @Dale2010].
+Biomass grows in proportion to the respiration rate (scaled by the yield coefficient $Y$) and decays at a rate proportional to the current biomass (scaled by the decay constant $\mu_{\text{dec}}$).[^thullner2007][^dale2010]
 
 The yield coefficient $Y$ is the fraction of energy from respiration that gets converted into new biomass. It is the efficiency of the organism as a machine: how much of the fuel becomes structure rather than heat?
 
-Several approaches exist for estimating $Y$. Theoretical frameworks, such as those developed by Rittmann and McCarty or by Heijnen and Van Dijken, derive yield from thermodynamic first principles -- partitioning the Gibbs energy of the catabolic reaction between the energy needed for biosynthesis and the energy dissipated [@Rittmann2001; @Heijnen1992]. Empirical approaches, like that of Roden and Jin, fit yield to experimental data and find relationships like:
-
-$$
-Y = 0.28 + 0.0211 \cdot (-\Delta G')
-$$
-
-where $\Delta G'$ is the Gibbs energy of the catabolic reaction under actual conditions [@Roden2011]. The more energy available per mole of reaction, the higher the yield -- but the relationship is shallow. Even large changes in available energy produce only modest changes in yield, because biosynthesis has irreducible costs.
+Several approaches exist for estimating $Y$. Theoretical frameworks, such as those developed by Rittmann and McCarty or by Heijnen and Van Dijken, derive yield from thermodynamic first principles -- partitioning the Gibbs energy of the catabolic reaction between the energy needed for biosynthesis and the energy dissipated.[^rittmann2001][^heijnen1992] Empirical approaches fit yield to experimental data and find relationships that scale with the available Gibbs energy.[^larowe2011_yield] The more energy available per mole of reaction, the higher the yield -- but the relationship is shallow. Even large changes in available energy produce only modest changes in yield, because biosynthesis has irreducible costs.
 
 For the standard Monod growth model, the rate of biomass production is:
 
@@ -214,11 +208,11 @@ $$
 
 where $\mu_{\max}$ is the maximum specific growth rate, $S$ is the limiting substrate, $K$ is the half-saturation constant, and $X$ is biomass. This is the workhorse of microbial ecology modeling. It captures the essential behavior: growth accelerates with substrate availability, saturates when substrate is abundant, and scales with the amount of biomass present.
 
-But in the deep subsurface, growth is only half the story. Much of the biomass at any given time may be dormant -- alive but metabolically inactive, waiting for conditions to improve. Stolpovsky and colleagues developed models that explicitly track dormant and active cell fractions, showing that the transition between states can dramatically affect community dynamics and the apparent rates of geochemical processes [@Stolpovsky2011].
+But in the deep subsurface, growth is only half the story. Much of the biomass at any given time may be dormant -- alive but metabolically inactive, waiting for conditions to improve. Stolpovsky and colleagues developed models that explicitly track dormant and active cell fractions, showing that the transition between states can dramatically affect community dynamics and the apparent rates of geochemical processes.[^stolpovsky2011]
 
-Three approaches to estimating yield deserve comparison. Rittmann and McCarty partition catabolic energy into a growth fraction and a dissipated fraction, based on the energetics of biosynthesis from available carbon and nitrogen sources [@Rittmann2001]. Heijnen and Van Dijken use a correlation between the Gibbs energy dissipated per C-mol of biomass produced and the degree of reduction of the substrate [@Heijnen1992]. Roden and Jin fit yield directly to experimental data, obtaining the empirical relationship above [@Roden2011].
+Three approaches to estimating yield deserve comparison. Rittmann and McCarty partition catabolic energy into a growth fraction and a dissipated fraction, based on the energetics of biosynthesis from available carbon and nitrogen sources.[^rittmann2001] Heijnen and Van Dijken use a correlation between the Gibbs energy dissipated per C-mol of biomass produced and the degree of reduction of the substrate.[^heijnen1992] Empirical approaches fit yield directly to experimental data across a range of metabolic types and environmental conditions.[^larowe2011_yield]
 
-A deeper issue: cells do not respond instantaneously to environmental changes. There is a **lag phase** -- a delay between a change in conditions and the metabolic response [@Blanch1981]. Simple unstructured models assume quasi-steady state. For stable deep subsurface settings, this may be acceptable. For perturbed systems -- aquifers receiving a pulse of contaminant, sediments exposed to sudden changes -- "simple unstructured models are not adequate descriptors" [@Blanch1981]. Additional complications arise from substrate and product inhibition, and from activity coefficient corrections in high-ionic-strength porewaters [@Blanch1981].
+A deeper issue: cells do not respond instantaneously to environmental changes. There is a **lag phase** -- a delay between a change in conditions and the metabolic response.[^blanch1981] Simple unstructured models assume quasi-steady state. For stable deep subsurface settings, this may be acceptable. For perturbed systems -- aquifers receiving a pulse of contaminant, sediments exposed to sudden changes -- "simple unstructured models are not adequate descriptors".[^blanch1981] Additional complications arise from substrate and product inhibition, and from activity coefficient corrections in high-ionic-strength porewaters.[^blanch1981]
 
 The honest summary: yield and growth rate are not constants. They are functions of thermodynamics, environment, and history. Models that treat them as fixed parameters work in narrow conditions; models that let them vary work more broadly, at the cost of more parameters to constrain.
 
@@ -256,6 +250,28 @@ The brave wanderer descended into the dark and found a way to live there. The eq
 
 [^lovley1995]: Derek R. Lovley and Francis H. Chapelle, "Deep Subsurface Microbial Processes," *Reviews of Geophysics* 33 (1995): 365--381. [@Lovley1995]
 
-[^larowe2015]: Douglas E. LaRowe and Jan P. Amend, "Catabolic rates, population sizes and doubling/replacement times of microorganisms in natural settings," *American Journal of Science* 315 (2015): 167--203. [@LaRowe:2015dt]
+[^larowe2015]: Douglas E. LaRowe and Jan P. Amend, "Catabolic rates, population sizes and doubling/replacement times of microorganisms in natural settings," *American Journal of Science* 315 (2015): 167--203. Comprehensive compilation of metabolic rates spanning twelve orders of magnitude across Earth's biosphere. [@LaRowe:2015dt]
 
 [^bethke2011]: Craig M. Bethke et al., "The thermodynamic ladder in geomicrobiology," *American Journal of Science* 311 (2011): 183--210. [@Bethke2011]
+
+[^lovley1995_serpentin]: Serpentinization -- the hydration of ultramafic rocks -- produces molecular hydrogen abiotically and has been recognized as a key energy source for deep subsurface chemosynthetic ecosystems. [@Lovley1995]
+
+[^jin2005]: Qusheng Jin and Craig M. Bethke, "Predicting the Rate of Microbial Respiration in Geochemical Environments," *Geochimica et Cosmochimica Acta* 69 (2005): 1133--1143. [@Jin2005]
+
+[^thullner2007]: Martin Thullner, Pierre Regnier, and Philippe Van Cappellen, "Modeling Microbially Induced Carbon Degradation in Redox-Stratified Subsurface Environments: Concepts and Open Questions," *Geomicrobiology Journal* 24 (2007): 139--155. [@Thullner2007]
+
+[^rabouille1991]: C. Rabouille and J.-F. Gaillard, "A coupled model representing the deep-sea organic carbon mineralization and oxygen consumption in surficial sediments," *Journal of Geophysical Research* 96 (1991): 2761--2776. [@Rabouille1991]
+
+[^dale2010]: A. W. Dale et al., "Pathways and regulation of carbon, sulfur and energy transfer in marine sediments overlying methane gas hydrates on the Opouawe Bank (New Zealand)," *Geochimica et Cosmochimica Acta* 74 (2010): 5763--5784. [@Dale2010]
+
+[^rittmann2001]: Bruce E. Rittmann and Perry L. McCarty, *Environmental Biotechnology: Principles and Applications* (McGraw-Hill, 2001). [@Rittmann2001]
+
+[^heijnen1992]: J. J. Heijnen and J. P. Van Dijken, "In search of a thermodynamic description of biomass yields for the chemotrophic growth of microorganisms," *Biotechnology and Bioengineering* 39 (1992): 833--858. [@Heijnen1992]
+
+[^larowe2011_yield]: Douglas E. LaRowe and Philippe Van Cappellen, "Degradation of natural organic matter: A thermodynamic analysis," *Geochimica et Cosmochimica Acta* 75 (2011): 2030--2042. Thermodynamic framework for predicting organic matter reactivity and microbial yield. [@LaRowe2011]
+
+[^stolpovsky2011]: Konstantin Stolpovsky et al., "Incorporating dormancy in dynamic microbial community models," *Ecological Modelling* 222 (2011): 3092--3102. [@Stolpovsky2011]
+
+[^blanch1981]: Harvey W. Blanch, "Invited Review: Microbial Growth Kinetics," *Biotechnology and Bioengineering* 23 (1981): 1691--1722. [@Blanch1981]
+
+[^berner1980_subsurface]: Robert A. Berner, *Early Diagenesis: A Theoretical Approach* (Princeton University Press, 1980). The foundational text for quantitative modeling of sediment diagenesis and subsurface geochemistry. [@Berner1980Early]

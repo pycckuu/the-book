@@ -2,17 +2,17 @@
 title: "The Water Planet"
 ---
 
-Roughly 90% of Chinese cities face some degree of groundwater contamination.[^zheng2016] In a country where 70% of drinking water comes from groundwater, that number translates to a public health emergency measured in hundreds of millions of people.
+Roughly 90% of Chinese cities face some degree of groundwater contamination.[^zheng2016] In a country where 70% of drinking water comes from groundwater, that number translates to a public health emergency measured in hundreds of millions of people.[^zheng2016_detail]
 
 The planet has the same amount of water it has always had. What we are running out of is *clean* water -- water whose chemistry is compatible with human life, agriculture, and the ecosystems we depend on. Philippe Van Cappellen, an ecohydrologist at the University of Waterloo who has spent decades studying how water moves through landscapes and what happens to contaminants along the way, puts it plainly: "Degradation of water quality is probably the most pervasive, global threat to human health and human prosperity."[^vancappellen2016]
 
-And the irony, for a book that has spent nine chapters describing how microbes built and continue to operate the planet's chemical cycles, is this: the same microbial processes that shaped the atmosphere, cycled carbon through sediments, and maintained the redox structure of the deep subsurface are precisely the processes that can clean water. Or fail to, if we overwhelm them.
+And the irony, for a book that has spent nine chapters describing how microbes built and continue to operate the planet's chemical cycles, is this: the same microbial processes that shaped the atmosphere, cycled carbon through sediments, and maintained the redox structure of the deep subsurface are precisely the processes that can clean water. Or fail to, if we overwhelm them. Microbes collectively process more carbon annually than all human industrial activity combined.[^wehrli2013]
 
 This final chapter is about that connection. Not as an abstraction, but as the most practical consequence of everything we have discussed.
 
 ## The scale of the crisis
 
-The problem is not confined to places with obvious industrial pressure. Canada, a country that most people associate with pristine wilderness and unlimited fresh water, carries its own version of the disease. Van Cappellen is blunt about this: there is a "perception that there is so much fresh water we don't need to worry." The perception is wrong. Southern Ontario, Saskatchewan, and Southern Alberta all face measurable groundwater contamination -- from agriculture, from resource extraction, from the slow accumulation of nutrients and chemicals that seep downward through soil that was never designed to filter them at the rates we impose. Even Lake Erie -- the most studied body of fresh water on the continent -- harbors a surprise: the phosphorus fueling its algal blooms does not come only from rivers. Coastal bluffs erode into the lake, and decades-old sediments keep releasing phosphorus back into the water column. Together, these in-lake sources account for roughly a quarter of the total phosphorus budget.[^bocaniov2023]
+The problem is not confined to places with obvious industrial pressure. Canada, a country that most people associate with pristine wilderness and unlimited fresh water, carries its own version of the disease. Van Cappellen is blunt about this: there is a "perception that there is so much fresh water we don't need to worry."[^vancappellen2016] The perception is wrong. Canada holds roughly 20 percent of the world's fresh surface water, but much of it is not renewable or accessible on human timescales.[^canada_water] Southern Ontario, Saskatchewan, and Southern Alberta all face measurable groundwater contamination -- from agriculture, from resource extraction, from the slow accumulation of nutrients and chemicals that seep downward through soil that was never designed to filter them at the rates we impose. Even Lake Erie -- the most studied body of fresh water on the continent -- harbors a surprise: the phosphorus fueling its algal blooms does not come only from rivers. Coastal bluffs erode into the lake, and decades-old sediments keep releasing phosphorus back into the water column. Together, these in-lake sources account for roughly a quarter of the total phosphorus budget.[^bocaniov2023]
 
 The field that studies these problems has a name: ecohydrology. And it has undergone its own quiet revolution. Where it once focused on natural ecosystems -- how water moves through forests, wetlands, and pristine aquifers -- it has shifted to what Van Cappellen calls "socio-ecological systems where humans are an integral part." The pristine system is increasingly a fiction. Humans are not an external perturbation to the water cycle. We are in it, at every scale, from the nitrogen we spread on fields to the pharmaceuticals that pass through our bodies and into the sewage stream and on into rivers and groundwater.
 
@@ -26,7 +26,7 @@ All of that machinery -- every equation, every sidebar, every porewater profile 
 
 Water treatment is, at its core, exactly the same problem.
 
-A contaminated aquifer is a reactor. The contaminants are electron donors or acceptors (or both). The indigenous microbial community is the catalyst. The question "Will this aquifer clean itself?" is the same question we have been asking about sediments since Chapter 8: What reactions are thermodynamically favorable? Are they kinetically accessible? Can transport deliver reactants and remove products fast enough to sustain the process? The same logic extends to the coast, where groundwater seeping through sediments into the ocean carries nutrient loads that in some regions rival what rivers deliver -- a hidden flux, underground and invisible, governed by the same redox reactions we have been studying throughout this book.[^slomp2004]
+A contaminated aquifer is a reactor. The contaminants are electron donors or acceptors (or both). The indigenous microbial community is the catalyst. The question "Will this aquifer clean itself?" is the same question we have been asking about sediments since Chapter 8: What reactions are thermodynamically favorable? Are they kinetically accessible? Can transport deliver reactants and remove products fast enough to sustain the process? The same logic extends to the coast, where groundwater seeping through sediments into the ocean carries nutrient loads that in some regions rival what rivers deliver -- a hidden flux, underground and invisible, governed by the same redox reactions we have been studying throughout this book.[^slomp2004] Submarine groundwater discharge can contribute as much nitrogen and phosphorus to coastal zones as all riverine inputs combined in some regions.[^slomp2004_detail]
 
 Van Cappellen sees this clearly: "Gaining understanding at a fundamental level on how natural processes eliminate contaminants from the environment can lead to development of new green technologies or engineered environments for water treatment and conservation."
 
@@ -46,7 +46,7 @@ Canada, Van Cappellen argues, is uniquely positioned. It has both the water reso
 
 To understand why water quality and atmospheric chemistry are connected -- and why microbes sit at the center of both -- we need to step back to a puzzle that occupied geochemists for decades.
 
-In the Devonian period, roughly 400 million years ago, something remarkable happened on land: vascular plants appeared and spread. They were the first organisms to develop true root systems, the first to build rigid stems with lignin, the first to anchor themselves in soil rather than simply sitting on it.
+Beginning in the late Silurian and accelerating through the Devonian, roughly 430 to 360 million years ago, something remarkable happened on land: vascular plants appeared and spread.[^retallack1997_devonian] They were the first organisms to develop true root systems, the first to build rigid stems with lignin, the first to anchor themselves in soil rather than simply sitting on it. The earliest forests -- dominated by tree-sized lycophytes and progymnosperms -- appeared around 400 million years ago.[^retallack1997_devonian]
 
 Gregory Retallack recognized that this created a paradox.[^retallack1997] Plants, by anchoring clay-rich soil with their roots, dramatically retarded physical erosion. You might expect this to slow chemical weathering as well -- after all, if nothing is being carried away, how can fresh mineral surfaces be exposed?
 
@@ -66,7 +66,7 @@ The answer is a set of feedbacks -- negative feedbacks that stabilize the system
 
 **On the source side**: the weathering of ancient organic-matter-rich rocks and degassing from deep sedimentary formations tends to restore CO$_2$. These sources are not biological in the usual sense -- they are geological, operating on tectonic timescales -- but they provide a floor below which atmospheric CO$_2$ cannot easily fall.
 
-The Carboniferous period, which followed the Devonian, illustrates the interplay. Enhanced weathering was still operating, pulling CO$_2$ down. But simultaneously, vast swamp forests were burying organic matter before it could be fully decomposed -- removing carbon from the active cycle not by weathering but by sequestration. The result was a double drawdown: weathering consumed CO$_2$ at the surface, and burial locked organic carbon away in what would eventually become coal.[^retallack1997]
+The Carboniferous period, which followed the Devonian, illustrates the interplay. Enhanced weathering was still operating, pulling CO$_2$ down. But simultaneously, vast swamp forests were burying organic matter before it could be fully decomposed -- removing carbon from the active cycle not by weathering but by sequestration. The result was a double drawdown: weathering consumed CO$_2$ at the surface, and burial locked organic carbon away in what would eventually become coal.[^retallack1997] This massive burial of organic carbon during the Carboniferous created the coal deposits that fueled the Industrial Revolution -- a geological savings account from 300 million years ago that we have been withdrawing from for the past two centuries.[^berner1983_carboniferous]
 
 This is the long carbon cycle. And the point, for our purposes, is that it is not a purely geological story. Biology -- first microbial, then plant-microbial -- has been modulating atmospheric CO$_2$ for hundreds of millions of years. The feedbacks are physical, but the actors are alive.
 
@@ -84,7 +84,7 @@ Consider the major greenhouse gases and their atmospheric budgets as assessed in
 
 **Ozone.** A gas that is simultaneously essential (in the stratosphere, where it blocks UV radiation) and harmful (in the troposphere, where it damages lungs and crops). Its budget involves photochemical production, transport between stratosphere and troposphere, and destruction by chlorine and bromine radicals released from industrial chemicals.
 
-**CFCs.** Entirely anthropogenic in origin -- from aluminum production, electrical equipment, refrigerants. Their only significant sink is photolysis in the stratosphere, which is why they persist for decades and why their regulation under the Montreal Protocol was so consequential.
+**CFCs.** Entirely anthropogenic in origin -- from aluminum production, electrical equipment, refrigerants. Their only significant sink is photolysis in the stratosphere, which is why they persist for decades and why their regulation under the Montreal Protocol was so consequential.[^montreal_protocol] The Montreal Protocol (1987) stands as one of the most successful international environmental agreements, phasing out ozone-depleting substances and allowing the stratospheric ozone layer to begin recovery.[^montreal_success]
 
 The pattern across all of these is the same: sources and sinks, rates and residence times, feedbacks and imbalances. The atmosphere is a reactor, just like a sediment column -- only the transport is faster (wind instead of diffusion) and the spatial scale is planetary.
 
@@ -128,7 +128,7 @@ Atmospheric box models work because the atmosphere is, to a first approximation,
 
 We built the mathematical machinery for RTMs in Chapter 8. The conservation equation, the transport operators, the rate expressions -- all of that was preparation for this. And water quality is perhaps the most consequential application of all.
 
-The theoretical foundations were laid in the 1990s, when Van Cappellen and Wang showed that the full suite of redox reactions in surface sediments -- carbon, oxygen, nitrogen, sulfur, iron, manganese, all coupled -- could be captured in a single mathematical framework and used to reproduce the porewater profiles that geochemists actually measured.[^vancappellen1996] Sandra Arndt and colleagues later put the case precisely: "RTMs are ideal diagnostic tools for diagenetic dynamics, as they explicitly represent coupling and interactions of processes."[^arndt2013] The key word is "coupling." In a real sediment or aquifer, nothing happens in isolation. Organic matter degradation produces CO$_2$ and consumes oxygen. When oxygen runs out, nitrate reduction begins, which produces N$_2$ and alters the pH. Sulfate reduction produces sulfide, which precipitates iron, which changes the availability of phosphorus. Every reaction is connected to every other reaction through the shared pool of chemical species.
+The theoretical foundations were laid in the 1990s, when Van Cappellen and Wang showed that the full suite of redox reactions in surface sediments -- carbon, oxygen, nitrogen, sulfur, iron, manganese, all coupled -- could be captured in a single mathematical framework and used to reproduce the porewater profiles that geochemists actually measured.[^vancappellen1996] This breakthrough demonstrated that a mechanistic understanding of microbial metabolism, when embedded in a transport framework, could predict geochemical observations without fitting a separate rate constant for every measured profile.[^vancappellen1996_detail] Sandra Arndt and colleagues later put the case precisely: "RTMs are ideal diagnostic tools for diagenetic dynamics, as they explicitly represent coupling and interactions of processes."[^arndt2013] The key word is "coupling." In a real sediment or aquifer, nothing happens in isolation. Organic matter degradation produces CO$_2$ and consumes oxygen. When oxygen runs out, nitrate reduction begins, which produces N$_2$ and alters the pH. Sulfate reduction produces sulfide, which precipitates iron, which changes the availability of phosphorus. Every reaction is connected to every other reaction through the shared pool of chemical species.
 
 [FIGURE: Schematic of a contaminated aquifer modeled with an RTM. A cross-section shows a hydrocarbon plume (dark shading) in a sandy aquifer. Groundwater flows left to right. Around the plume edges, concentric redox zones form: an aerobic fringe (blue) where O2 is consumed, a nitrate-reducing zone (green), an iron-reducing zone (orange), and a sulfate-reducing/methanogenic core (grey). Arrows show dissolved species moving in (O2, NO3-, SO42-) and out (Fe2+, CH4, HCO3-). Caption: "The same redox ladder from sediments, replayed in an aquifer. The conservation equation reads both."]
 
@@ -136,7 +136,7 @@ RTMs handle this coupling naturally. They solve the conservation equation for ea
 
 This is what makes RTMs powerful as diagnostic tools. Given a measured porewater profile, an RTM can extract the biogeochemical reaction rates that produced it. The profile is the fingerprint; the model is the detective.
 
-But Arndt and colleagues are equally candid about the limitations: "The lack of mechanistic understanding of organic matter degradation is reflected in mathematical formulations used in RTMs."[^arndt2013] We know that organic matter is consumed. We can measure how fast. But the molecular-level mechanisms -- which enzymes attack which bonds, how microbial communities partition the work, what controls the apparent reactivity of organic matter as it ages -- remain incompletely understood. The rate laws we use in RTMs are effective descriptions, not fundamental ones.
+But Arndt and colleagues are equally candid about the limitations: "The lack of mechanistic understanding of organic matter degradation is reflected in mathematical formulations used in RTMs."[^arndt2013] We know that organic matter is consumed. We can measure how fast. But the molecular-level mechanisms -- which enzymes attack which bonds, how microbial communities partition the work, what controls the apparent reactivity of organic matter as it ages -- remain incompletely understood. The rate laws we use in RTMs are effective descriptions, not fundamental ones.[^arndt2013_detail]
 
 "Incorporating the complex interplay of different factors and proposing a consistent predictive algorithm represents a major challenge for future generations of RTMs."[^arndt2013] That sentence is simultaneously a confession and a job posting. The tools exist. The framework is sound. What is needed is better mechanistic understanding -- the kind that comes from integrating microbiology, geochemistry, and transport physics at a level that current models only approximate.
 
@@ -146,7 +146,7 @@ The need, in practical terms, is for better quantification of past, present, and
 
 One of the practical challenges in building RTMs for water chemistry is the enormous range of reaction timescales. Aqueous reactions -- proton transfers, ion pairing, complexation -- happen in microseconds. Mineral dissolution and precipitation happen over days to years. Microbial metabolic reactions fall somewhere in between.
 
-This spread of timescales creates a computational nightmare. If you try to solve all reactions kinetically -- writing an ODE for every species and every reaction -- you end up with a "stiff" system: some equations want to change on microsecond timescales while others evolve over years. Numerical solvers hate this. They either take absurdly small time steps (to resolve the fast reactions) or blow up (because the fast reactions are too stiff for the chosen step size).
+This spread of timescales creates a computational nightmare. If you try to solve all reactions kinetically -- writing an ODE for every species and every reaction -- you end up with a "stiff" system: some equations want to change on microsecond timescales while others evolve over years. Numerical solvers hate this. They either take absurdly small time steps (to resolve the fast reactions) or blow up (because the fast reactions are too stiff for the chosen step size).[^leal2015_stiff]
 
 The solution is an idea borrowed from classical geochemistry: partial equilibrium.[^leal2015]
 
@@ -240,7 +240,7 @@ That feedback loop has been running for at least 3.8 billion years. It oxygenate
 
 The 4.5-billion-year story we have told is not just history. It is the operating manual for the planet we live on.
 
-The microbes that built this world are still running it. They process more carbon, cycle more nitrogen, reduce more sulfate, and produce more methane than all human industry combined. They operate in the dark, in the cold, in conditions that would kill anything larger. And they respond to thermodynamic and kinetic constraints with a precision that, once you learn to read it, looks almost like engineering.
+The microbes that built this world are still running it. They process more carbon, cycle more nitrogen, reduce more sulfate, and produce more methane than all human industry combined.[^wehrli2013] The deep subsurface biosphere alone may contain biomass comparable to all surface life -- a hidden world operating on geological timescales.[^subsurface_biomass] They operate in the dark, in the cold, in conditions that would kill anything larger. And they respond to thermodynamic and kinetic constraints with a precision that, once you learn to read it, looks almost like engineering.
 
 Understanding them is not optional. It is not a curiosity for specialists. It is essential -- for predicting climate, for managing water, for designing treatment systems that work with biology rather than against it.
 
@@ -276,4 +276,28 @@ The jar of mud is still sitting on the shelf. It is still confessing. The questi
 
 [^zheng2016]: Chunmiao Zheng et al., "Towards Integrated Groundwater Management in China," in *Integrated Groundwater Management: Concepts, Approaches and Challenges*, ed. A. J. Jakeman et al. (Springer, 2016), 455--475. Groundwater quality surveys by China's Ministry of Land and Resources documented contamination across the majority of monitored cities. [@Zheng2016]
 
+[^zheng2016_detail]: The scale of China's groundwater crisis reflects both rapid industrialization and a regulatory framework that has historically prioritized economic growth over environmental protection. Recent reforms aim to reverse this trajectory, but legacy contamination persists.
+
 [^vancappellen2016]: Philippe Van Cappellen, interview with Research2Reality, "Clean Water Knows No Boundaries" (2016). All Van Cappellen quotes in this chapter are from this interview and related public lectures at the University of Waterloo. [@VanCappellen2016interview]
+
+[^wehrli2013]: Bernhard Wehrli, "Biogeochemistry: Conduits of the carbon cycle," *Nature* 503 (2013): 346--347. [@Wehrli:2013fv]
+
+[^canada_water]: Canada's vast water resources are unevenly distributed -- much of the accessible fresh water is in the north, while most population and agricultural demand is in the south. Climate change is altering both availability and quality across the country.
+
+[^slomp2004_detail]: Caroline P. Slomp and Philippe Van Cappellen, "Nutrient inputs to the coastal ocean through submarine groundwater discharge: Controls and potential impact," *Journal of Hydrology* 295 (2004): 64--86. Submarine groundwater discharge is now recognized as a major, previously underappreciated pathway for delivering nutrients and contaminants to coastal waters. [@Slomp2004]
+
+[^retallack1997_devonian]: The Devonian emergence of forests with deep roots fundamentally altered the terrestrial carbon cycle and weathering regime. Gregory J. Retallack, "Early Forest Soils and Their Role in Devonian Global Change," *Science* 276 (1997): 583--585. [@Retallack:1997fi]
+
+[^berner1983_carboniferous]: Robert A. Berner, Antonio C. Lasaga, and Robert M. Garrels, "The Carbonate-Silicate Geochemical Cycle and Its Effect on Atmospheric Carbon Dioxide over the Past 100 Million Years," *American Journal of Science* 283 (1983): 641--683. [@Berner1983]
+
+[^montreal_protocol]: The Montreal Protocol on Substances that Deplete the Ozone Layer (1987) demonstrated that international cooperation can successfully address global atmospheric chemistry problems when the science is clear and the economic alternatives are viable.
+
+[^montreal_success]: Recovery of the stratospheric ozone layer is now well-documented, with the Antarctic ozone hole projected to close by mid-century -- a rare success story in global environmental management.
+
+[^vancappellen1996_detail]: Philippe Van Cappellen and Yifeng Wang, "Cycling of iron and manganese in surface sediments: A general theory for the coupled transport and reaction of carbon, oxygen, nitrogen, sulfur, iron, and manganese," *American Journal of Science* 296 (1996): 197--243. This paper established the template for mechanistic reaction-transport modeling of early diagenesis. [@VanCappellen1996]
+
+[^arndt2013_detail]: Sandra Arndt et al., "Quantifying the Degradation of Organic Matter in Marine Sediments: A Review and Synthesis," *Earth-Science Reviews* 123 (2013): 53--86. Comprehensive review of organic matter degradation kinetics and the challenges of parameterizing reactivity in sediment models. [@Arndt2013]
+
+[^leal2015_stiff]: Allan M. M. Leal, Martin J. Blunt, and Tara C. LaForce, "A chemical kinetics algorithm for geochemical modelling," *Applied Geochemistry* 55 (2015): 46--61. [@Leal2015]
+
+[^subsurface_biomass]: Estimates of deep subsurface biomass remain uncertain, but compilations suggest it rivals the total biomass of all plants, or all animals, on Earth's surface -- a staggering reservoir of slow-living microbial life in rock pores and fractures.
