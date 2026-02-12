@@ -154,7 +154,7 @@ $$
 
 $\Delta G^\circ = -44$ kJ/mol (per mol Fe, at pH 7)
 
-*Ferroplasma acidiphilum* (Chapter 3, Appendix E) represents a modern organism that may preserve an ancient iron-dependent metabolism. In acidic environments the abiotic rate is slow, giving iron-oxidizing bacteria a kinetic window.
+*Ferroplasma acidiphilum* (Appendix E) represents a modern organism that may preserve an ancient iron-dependent metabolism. In acidic environments the abiotic rate is slow, giving iron-oxidizing bacteria a kinetic window.
 
 ## C.11 Sulfide Oxidation
 
