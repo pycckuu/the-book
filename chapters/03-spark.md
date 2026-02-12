@@ -6,9 +6,9 @@ Imagine you find a book.
 
 Not an ordinary book -- this one is written in a language you have never seen, and the ink is a protein that degrades unless it is continuously recopied by a machine. The machine, in turn, is built from instructions contained in the book. Without the machine, the book decays. Without the book, the machine cannot be assembled. Each depends entirely on the other, and neither can exist first.
 
-This is the central paradox of the origin of life, and for decades it stopped the conversation cold.
+This is the central paradox of the origin of life, and for decades it stalled progress on the question.
 
-![The chicken-and-egg problem, resolved. Left panel: DNA and proteins in a circular dependency (DNA needs proteins to replicate, proteins need DNA for instructions -- arrows form a closed loop with a question mark). Right panel: RNA sitting at the center, with arrows pointing both to "stores information" and "catalyzes reactions." RNA broke the deadlock by doing both jobs.](../sources/img/ch3_rna_world.png){#fig-rna-world}
+![The chicken-and-egg problem, and one way out. Left panel: DNA and proteins in a circular dependency (DNA needs proteins to replicate, proteins need DNA for instructions -- arrows form a closed loop with a question mark). Right panel: RNA sitting at the center, with arrows pointing both to "stores information" and "catalyzes reactions." RNA broke the deadlock by doing both jobs.](../sources/img/ch3_rna_world.png){#fig-rna-world}
 
 In modern cells, the division of labor is clean. DNA stores the instructions. Proteins do the work -- catalyzing reactions, building structures, transporting molecules across membranes. But proteins cannot copy themselves; they need DNA's blueprint. And DNA cannot do anything useful without the proteins that read it, unwind it, and replicate it. Which came first? The question is not rhetorical. It is a genuine engineering bottleneck: you cannot bootstrap a system that requires two specialized components if each component depends on the other for its existence.
 
@@ -22,13 +22,13 @@ Then, in the early 1980s, Thomas Cech and Sidney Altman independently discovered
 
 The implications were enormous. If RNA can both store information *and* catalyze reactions, then you do not need two separate systems to get life started. You need one. A single type of molecule that reads itself and copies itself -- an autocatalytic loop of replicating RNA, ribozymes catalyzing the synthesis of copies of themselves.[^markov2010a]
 
-This is the RNA world hypothesis: the proposal that the earliest life on Earth was not built from DNA and proteins, but from RNA alone -- organisms without the division of labor that modern cells take for granted. The chicken-and-egg paradox dissolves, because RNA is both the chicken and the egg.
+This is the RNA world hypothesis: the proposal that the earliest life on Earth was not built from DNA and proteins, but from RNA alone -- organisms without the division of labor that modern cells take for granted. The chicken-and-egg paradox becomes tractable, because RNA is both the chicken and the egg.
 
 The standard RNA alphabet is small: four nucleotides -- adenosine (A), guanosine (G), cytidine (C), and uridine (U) -- plus a handful of modified variants like inosine.[^markov2010b][^rna_bases] With just these letters, RNA can fold into elaborate three-dimensional shapes, creating pockets and surfaces that behave like primitive enzymes. Not as efficient as proteins, not as stable as DNA, but enough. Enough to get the process started.
 
 ## Where it happened
 
-Where did RNA chemistry first ignite? Two settings are plausible, and they are not mutually exclusive. Ice can concentrate dilute reactants into tiny liquid pockets between crystals, bringing RNA precursors together at effective concentrations far higher than open water -- and many ribozymes work best at low temperatures.[^markov2010c] Hydrothermal vents, meanwhile, provide a continuous supply of reduced gases (CO, H$_2$, HCN) and metal catalysts (iron, nickel) at temperatures where abiotic organic synthesis proceeds readily.[^johnson2008][^miller1953] The cold scenario is strong on the first spark -- concentrating molecules for the initial assembly of self-copying RNA -- but weak on sustained supply. The hot scenario is strong on raw materials but weak on the delicate chemistry of RNA folding. It is possible that different steps happened in different settings: building blocks synthesized at vents, transported by currents to colder environments where replication proceeded more efficiently. The planet is large, and chemistry does not respect the boundaries of human narratives.
+Where did RNA chemistry first ignite? Three settings are plausible, and they are not mutually exclusive. Ice can concentrate dilute reactants into tiny liquid pockets between crystals, bringing RNA precursors together at effective concentrations far higher than open water -- and many ribozymes work best at low temperatures.[^markov2010c] Hydrothermal vents provide a continuous supply of reduced gases (CO, H$_2$, HCN) and metal catalysts (iron, nickel) at temperatures where abiotic organic synthesis proceeds readily.[^johnson2008][^miller1953] A third option -- wet-dry cycling on land, in volcanic hot springs or tidal flats -- adds something the other two lack: repeated cycles of hydration and dehydration that concentrate reactants and drive polymerization of nucleotides into longer chains, while also promoting the self-assembly of lipid membranes into protocell-like vesicles.[^damer2020] The cold scenario is strong on the first spark -- concentrating molecules for the initial assembly of self-copying RNA -- but weak on sustained supply. The hot scenario is strong on raw materials but weak on the delicate chemistry of RNA folding. The wet-dry scenario bridges both, but requires land surfaces that may not have been widespread on the early Earth. It is possible that different steps happened in different settings: building blocks synthesized at vents, concentrated by ice or evaporation cycles, assembled into replicators in calmer pools. The planet is large, and chemistry does not respect the boundaries of human narratives.
 
 ## The phosphorus problem
 
@@ -52,27 +52,23 @@ Why would proteins evolve to depend on metals? One compelling answer is that the
 
 The transition from mineral catalyst to protein catalyst was gradual.[^mineral_catalyst] The first proteins, clumsy and short, would have naturally incorporated iron atoms from their iron-rich environment. Those that happened to fold around a metal ion in a useful way gained a catalytic advantage. Over time, proteins became better scaffolds for the metals, and the metals became more precisely positioned within the proteins. But the metals came first. The proteins grew around them like a house built around a hearth.[^markov2010e]
 
-At least one modern organism may preserve this ancient iron-dependent metabolism almost unchanged. *Ferroplasma acidiphilum*, discovered in 2000 in a metallurgical bioreactor in Tula, Russia, powers itself entirely by oxidizing ferrous iron -- its proteins are unusually iron-rich, and its lifestyle closely matches the conditions of the early Earth's iron-rich, anoxic ocean.[^golyshina2000] [^ferrer2007] (See Appendix E for more on *Ferroplasma*.)
-
-One useful tool for thinking about energy content is the Nominal Oxidation State of Carbon (NOSC) -- a single number that estimates how much energy is locked in an organic molecule, from fully reduced (methane, NOSC = $-4$) to fully oxidized (CO$_2$, NOSC = $+4$). The full framework, developed by LaRowe and Van Cappellen,[^larowe2011] is in Appendix A.
-
 ## In the beginning, there was the community
 
 Now we arrive at the most important idea in this chapter. It is also the most counterintuitive.
 
 We have been telling the origin story as if it were about a single lineage: first RNA, then proteins, then DNA, then cells. A lonely molecule in a puddle, gradually becoming more complex. This is the popular version, and it captures something real. But it misses the deepest constraint.
 
-Consider what a living system actually does. It takes in raw materials, transforms them, and produces waste. If it is the only living system around, it will eventually exhaust its raw materials or drown in its own waste. This is not a biological problem; it is a thermodynamic one. A single organism, running a single metabolic strategy, cannot sustain itself indefinitely in a closed environment. It would be, as Markov puts it, "as impossible as a perpetual motion machine."[^markov2010f]
+Consider what a living system actually does. It takes in raw materials, transforms them, and produces waste. If it is the only living system around, it will eventually exhaust its raw materials or drown in its own waste. This is not a biological problem; it is a thermodynamic one. A single organism, running a single metabolic strategy in a confined setting, will run down unless something external recycles its waste and restocks its inputs.[^markov2010f]
 
 The stable existence of any biosphere -- even the most primitive one -- requires relatively closed biogeochemical cycles. Resources must be recycled. One organism's waste must become another organism's food. The carbon that is fixed must eventually be re-oxidized. The sulfate that is reduced must eventually be re-oxidized. The cycle must close, or the system runs down.
 
-A single type of organism *cannot* close these cycles alone.
+A single type of organism is unlikely to close all of these cycles on its own.
 
-There is one narrow theoretical exception: an organism that happens to catalyze reactions that are already part of established geochemical cycles. Such a creature would not need a partner, because the planet itself would serve as its recycling system -- food trickling in from geological sources, waste absorbed back into geological sinks. This is plausible only for the simplest metabolisms, and even then, it works only if the organism's demands are modest enough to be met by geological supply.[^markov2010f]
+There is a significant caveat: an organism that plugs into established geochemical cycles -- food trickling in from geological sources, waste absorbed into geological sinks -- can persist without a biological partner, because the planet itself recycles for it. Early Earth's hydrothermal systems are exactly this kind of flow-through setting. But such a strategy works only while the organism's demands stay modest enough for geological supply to satisfy. The moment metabolism intensifies or diversifies, the geological buffer is overwhelmed, and biological recycling becomes essential.[^markov2010f]
 
-But for anything more ambitious -- for life that grows, diversifies, and reshapes its environment -- cooperation is not an optional add-on. It is a structural requirement from the very beginning.
+But for anything more ambitious -- for life that grows, diversifies, and reshapes its environment -- biological recycling is not an optional add-on. It is a structural requirement that arises early.
 
-This is a radical departure from the popular narrative. In the standard story, life begins as a solitary replicator and only later learns to cooperate. The biogeochemical argument reverses the order: the community came first, not because cooperation is noble, but because thermodynamics demands it. A single metabolic strategy, running alone, is a dead end. Multiple strategies, running together and recycling each other's waste, are a cycle. And cycles can persist.
+This shifts the popular narrative. In the standard story, life begins as a solitary replicator and only later learns to cooperate. The biogeochemical argument compresses the timeline: networked communities were not a late luxury but an early necessity, because a biosphere that does not recycle its waste runs down. A single metabolic strategy, running alone, is a geological niche player. Multiple strategies, running together and recycling each other's output, are a cycle. And cycles can persist.
 
 The earliest communities may have been simple. Perhaps methanogenic archaea reduced CO$_2$ to CH$_4$ using hydrogen, while other organisms oxidized the methane or consumed other waste products. Perhaps sulfate reducers and sulfur oxidizers formed the first recycling pair. The details are debated and may never be fully resolved. But the principle is clear: life's first achievement was not the individual cell. It was the network.
 
@@ -88,7 +84,7 @@ And this is why, when we eventually find the oldest unambiguous traces of life i
 
 ## From spark to city
 
-The chapter began with a paradox: the chicken and the egg, information and machinery, locked in mutual dependence. RNA resolved that paradox by being both at once. But RNA alone does not make a biosphere. A biosphere requires energy capture, waste recycling, and the closing of biogeochemical cycles -- and that requires a community.
+The chapter began with a paradox: the chicken and the egg, information and machinery, locked in mutual dependence. RNA offered a way out of that paradox by being both at once. But RNA alone does not make a biosphere. A biosphere requires energy capture, waste recycling, and the closing of biogeochemical cycles -- and that requires a community.
 
 The next question is: what did those first communities look like? How did they organize themselves physically? And how did their organization shape the planet?
 
@@ -98,11 +94,11 @@ The spark has caught. Now it builds.
 
 ## Takeaway
 
-- The chicken-and-egg paradox (DNA needs proteins, proteins need DNA) is resolved by RNA, which can store information *and* catalyze reactions.
-- Life may have started cold (ice concentrating reactants), hot (hydrothermal vents providing building blocks), or both in sequence.
+- The chicken-and-egg paradox (DNA needs proteins, proteins need DNA) becomes tractable once you consider RNA, which can store information *and* catalyze reactions -- the strongest current hypothesis for how life bootstrapped itself.
+- Life may have started cold (ice concentrating reactants), hot (hydrothermal vents providing building blocks), or on land (wet-dry cycling driving polymerization) -- or in some combination.
 - Reactive phosphorus for RNA backbones likely came from iron meteorites corroding in early water.
 - Ancient ocean metals (iron, nickel, tungsten, molybdenum) served as the first catalysts; proteins evolved around them.
-- Life could not have begun as a single organism running a single metabolism. Biogeochemical cycles require multiple metabolic strategies recycling each other's waste. The community came first.
+- A single organism running a single metabolism can persist only where geological fluxes recycle its waste. A durable, growing biosphere requires multiple metabolic strategies recycling each other's output -- so networked communities likely emerged very early.
 
 [^markov2010a]: Kruger et al., *Self-splicing RNA: autoexcision and autocyclization of the ribosomal RNA intervening sequence of Tetrahymena* (1982); Gilbert, *Origin of life: The RNA world* (1986). The first prototype of the future RNA-organism could be the autocatalytic loop formed by replicating RNA molecules -- ribozymes, capable of catalyzing the synthesis of copies of themselves. [@Kruger1982; @Gilbert1986]
 
@@ -118,7 +114,7 @@ The spark has caught. Now it builds.
 
 [^cech1986]: Thomas R. Cech, "A Model for the RNA-Catalyzed Replication of RNA," *Proceedings of the National Academy of Sciences* 83 (1986): 4360-4363. Cech demonstrated that RNA molecules could act as catalysts, performing chemical reactions without protein enzymes. [@Cech1986]
 
-[^nobel1989]: The 1989 Nobel Prize in Chemistry was awarded jointly to Sidney Altman and Thomas Cech "for their discovery of catalytic properties of RNA." This discovery resolved the chicken-and-egg problem of the origin of life by showing that RNA could both store information and catalyze reactions. [@Cech1986]
+[^nobel1989]: The 1989 Nobel Prize in Chemistry was awarded jointly to Sidney Altman and Thomas Cech "for their discovery of catalytic properties of RNA." This discovery opened the most promising path through the chicken-and-egg problem by showing that RNA could both store information and catalyze reactions. [@Cech1986]
 
 [^rna_bases]: The four standard RNA nucleotides (A, G, C, U) differ from DNA only in the sugar backbone (ribose vs. deoxyribose) and the substitution of uracil for thymine. This simpler chemistry may reflect RNA's evolutionary priority over DNA. [@Alberts2015]
 
@@ -144,11 +140,6 @@ The spark has caught. Now it builds.
 
 [^markov2010e]: Dupont et al. (2010). The earliest forms of life actively used simple inorganic catalysts -- especially iron and sulfur compounds. Phylogenomic analysis of protein structures shows that the earliest metal-binding domains preferentially bound metals abundant in the Archean ocean, with proteins evolving around pre-existing mineral catalysts. [@Dupont2010]
 
-[^golyshina2000]: Olga V. Golyshina et al., "*Ferroplasma acidiphilum* gen. nov., sp. nov.," *International Journal of Systematic and Evolutionary Microbiology* (2000). Discovered in a bioreactor at a metallurgical plant in Tula, Russia. [@Golyshina2000]
+[^damer2020]: Bruce Damer and David Deamer, "The Hot Spring Hypothesis for an Origin of Life," *Astrobiology* 20 (2020): 429-452. Wet-dry cycling in terrestrial hot springs drives polymerization of nucleotides and self-assembly of lipid vesicles, providing both longer RNA chains and primitive compartments. [@Damer2020]
 
-[^ferrer2007]: Manuel Ferrer et al., "The cellular machinery of *Ferroplasma acidiphilum*," *Nature* (2007). Proposed that *Ferroplasma*'s iron-rich cellular machinery represents accidentally preserved remnants of ancient life stages. [@Ferrer2007]
-
-[^larowe2011]: Douglas E. LaRowe and Philippe Van Cappellen, "Degradation of natural organic matter: A thermodynamic analysis," *Geochimica et Cosmochimica Acta* (2011). [@LaRowe2011]
-
-
-[^markov2010f]: Markov (2010). "An organism capable alone to close a cycle is not possible, just as a perpetual motion machine." Stable biosphere requires relatively closed biogeochemical cycles, which a single organism cannot provide. [@Markov2010]
+[^markov2010f]: Markov (2010). A stable, growing biosphere requires relatively closed biogeochemical cycles. A single organism in a flow-through geological setting can persist, but diversification and intensification of metabolism require biological recycling partners. [@Markov2010]
