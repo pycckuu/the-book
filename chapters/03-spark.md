@@ -52,13 +52,13 @@ Why would proteins evolve to depend on metals? One compelling answer is that the
 
 The transition from mineral catalyst to protein catalyst was gradual.[^mineral_catalyst] The first proteins, clumsy and short, would have naturally incorporated iron atoms from their iron-rich environment. Those that happened to fold around a metal ion in a useful way gained a catalytic advantage. Over time, proteins became better scaffolds for the metals, and the metals became more precisely positioned within the proteins. But the metals came first. The proteins grew around them like a house built around a hearth.[^markov2010e]
 
-## In the beginning, there was the community
+## The recycling problem
 
-Now we arrive at the most important idea in this chapter. It is also the most counterintuitive.
+Now we arrive at a constraint that reshapes the origin story. It is also counterintuitive.
 
 We have been telling the origin story as if it were about a single lineage: first RNA, then proteins, then DNA, then cells. A lonely molecule in a puddle, gradually becoming more complex. This is the popular version, and it captures something real. But it misses the deepest constraint.
 
-Consider what a living system actually does. It takes in raw materials, transforms them, and produces waste. If it is the only living system around, it will eventually exhaust its raw materials or drown in its own waste. This is not a biological problem; it is a thermodynamic one. A single organism, running a single metabolic strategy in a confined setting, will run down unless something external recycles its waste and restocks its inputs.[^markov2010f][^braakman2013]
+Consider what a living system actually does. It takes in raw materials, transforms them, and produces waste. If it is the only living system around, it will eventually exhaust its raw materials or drown in its own waste. This is not a biological problem; it is a thermodynamic one. A single organism, running a single metabolic strategy, will eventually outpace its local supply of raw materials or accumulate waste faster than the environment can absorb it -- unless something external recycles its waste and restocks its inputs.[^markov2010f][^braakman2013]
 
 The stable existence of any biosphere -- even the most primitive one -- requires relatively closed biogeochemical cycles. Resources must be recycled. One organism's waste must become another organism's food. The carbon that is fixed must eventually be re-oxidized. The sulfate that is reduced must eventually be re-oxidized. The cycle must close, or the system runs down.
 
@@ -70,7 +70,7 @@ But for anything more ambitious -- for life that grows, diversifies, and reshape
 
 This shifts the popular narrative. In the standard story, life begins as a solitary replicator and only later learns to cooperate. The biogeochemical argument compresses the timeline: networked communities were not a late luxury but an early necessity, because a biosphere that does not recycle its waste runs down. A single metabolic strategy, running alone, is a geological niche player. Multiple strategies, running together and recycling each other's output, are a cycle. And cycles can persist.
 
-The earliest communities may have been simple. Perhaps methanogenic archaea reduced CO$_2$ to CH$_4$ using hydrogen, while other organisms oxidized the methane or consumed other waste products. Perhaps sulfate reducers and sulfur oxidizers formed the first recycling pair. The details are debated and may never be fully resolved. But the principle is clear: the network -- not the individual cell -- was what made life durable enough to leave a mark in the rock record.
+The earliest communities may have been simple. Perhaps methanogenic archaea reduced CO$_2$ to CH$_4$ using hydrogen, while other organisms oxidized the methane or consumed other waste products. Perhaps sulfate reducers and sulfur oxidizers formed the first recycling pair. The details are debated and may never be fully resolved. But the principle is clear: the network -- not the individual cell -- was what allowed early life to outgrow its initial geological niche and sustain metabolism at a scale that could reshape the planet's chemistry.
 
 ## The circuit redrawn
 
@@ -80,7 +80,7 @@ Each metabolic type is a different wire connecting a different pair of terminals
 
 This is what "community" means in thermodynamic terms. It is not a word about feelings or altruism (though those will come later). It is a word about closing circuits. About making sure that the electrons, once moved, have a path back to the beginning.
 
-And this is why, when we eventually find the oldest unambiguous traces of life in the rock record -- the layered structures called stromatolites, dating back more than 3.4 billion years[^stromatolites] -- we do not find evidence of a single organism. We find evidence of a community.[^microbial_mats] A layered, multi-species mat of cooperating microbes, each occupying a different niche, each performing a different metabolic trick, and each depending on the others to keep the cycles turning.
+This is consistent with what the rock record eventually shows. The oldest unambiguous traces of life are the layered structures called stromatolites, dating back more than 3.4 billion years[^stromatolites] -- hundreds of millions of years after life likely began. They do not tell us directly what the first organisms looked like. But what they preserve is not a solitary cell. It is a community:[^microbial_mats] a layered, multi-species mat of cooperating microbes, each occupying a different niche, each performing a different metabolic trick, and each depending on the others to keep the cycles turning. The thermodynamic argument says communities had to emerge early; the stromatolites show that, by the time the record becomes clear, communities are already what we find.
 
 ## From spark to city
 
