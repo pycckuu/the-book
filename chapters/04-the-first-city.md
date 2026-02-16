@@ -2,9 +2,9 @@
 title: "The First City"
 ---
 
-What does a self-sustaining community look like?
+What did the first self-sustaining communities look like?
 
-Not a single cell -- not for long, anyway. As the last chapter argued, a lone metabolism can persist where geological fluxes do the recycling, but the moment life intensifies beyond what the planet's plumbing can absorb, biological waste piles up until the system chokes. You need multiple metabolic strategies to close biogeochemical cycles biologically. But how many? And how do they organize themselves? What does the simplest self-sustaining community look like? Simpler partnerships -- a sulfur oxidizer paired with a sulfur reducer, say -- are thermodynamically plausible, but they leave little geological trace. The rock record offers a different answer: not the theoretical minimum, but the earliest architecture we can actually see.
+Not a single cell -- not for long, anyway. As the last chapter argued, a lone metabolism can persist where geological fluxes do the recycling, but the moment life intensifies beyond what the planet's plumbing can absorb, biological waste piles up until the system chokes. You need multiple metabolic strategies to close biogeochemical cycles biologically. Simpler partnerships -- a sulfur oxidizer paired with a sulfur reducer, say -- are thermodynamically plausible, but they leave little geological trace. What the rock record actually preserves is something more elaborate: a layered, multi-guild architecture that recycled its own waste.
 
 The earliest answer the rock record preserves, dating to 3.5 billion years ago, is a bacterial mat.[^oldest_stromatolites] A few millimeters thick, slippery, unremarkable to the eye. Green on top. Pink beneath. Dark below. Three zones, multiple metabolic guilds, and a nearly closed material cycle that required no external input beyond sunlight and seawater.
 
@@ -173,7 +173,7 @@ These simplifications are not errors. They are deliberate trades: we sacrifice r
 
 [^anoxygenic_evolution]: Anoxygenic photosynthesis (using electron donors such as H$_2$S, Fe$^{2+}$, or H$_2$ rather than water) predates oxygenic photosynthesis. Robert E. Blankenship, "Early Evolution of Photosynthesis," *Plant Physiology* 154 (2010): 434--438. [@Blankenship2010]
 
-[^h2s_phototrophs]: Green sulfur bacteria (Chlorobiaceae) and purple sulfur bacteria (Chromatiaceae) oxidize hydrogen sulfide during anoxygenic photosynthesis, depositing elemental sulfur either externally or internally depending on the lineage. See Alexandr Markov, *Birth of Complexity: Evolutionary Biology Today* (2010). [@Markov2010]
+[^h2s_phototrophs]: Green sulfur bacteria (Chlorobiaceae) and purple sulfur bacteria (Chromatiaceae) oxidize hydrogen sulfide during anoxygenic photosynthesis, depositing elemental sulfur either externally or internally depending on the lineage. See Madigan et al., *Brock Biology of Microorganisms*, 15th ed. (2018). [@Madigan2018]
 
 [^purple_bacteria]: "Purple bacteria" is an ecological label, not a single taxonomic group. Purple sulfur bacteria (Chromatiaceae, class Gammaproteobacteria) and purple non-sulfur bacteria (scattered across Alpha- and Betaproteobacteria) share the use of bacteriochlorophyll *a* or *b* with absorption maxima at 800--900 nm, enabling them to harvest near-infrared light that green sulfur bacteria do not absorb. See Madigan et al., *Brock Biology of Microorganisms*, 15th ed. (2018). [@Madigan2018]
 
