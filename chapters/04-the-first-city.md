@@ -2,9 +2,9 @@
 title: "The First City"
 ---
 
-What is the minimum community that can sustain itself?
+What does a self-sustaining community look like?
 
-Not a single cell -- not for long, anyway. As the last chapter argued, a lone metabolism can persist where geological fluxes do the recycling, but the moment life intensifies beyond what the planet's plumbing can absorb, biological waste piles up until the system chokes. You need multiple metabolic strategies to close biogeochemical cycles biologically. But how many? And how do they organize themselves? What does the simplest self-sustaining community look like?
+Not a single cell -- not for long, anyway. As the last chapter argued, a lone metabolism can persist where geological fluxes do the recycling, but the moment life intensifies beyond what the planet's plumbing can absorb, biological waste piles up until the system chokes. You need multiple metabolic strategies to close biogeochemical cycles biologically. But how many? And how do they organize themselves? What does the simplest self-sustaining community look like? Simpler partnerships -- a sulfur oxidizer paired with a sulfur reducer, say -- are thermodynamically plausible, but they leave little geological trace. The rock record offers a different answer: not the theoretical minimum, but the earliest architecture we can actually see.
 
 The earliest answer the rock record preserves, dating to 3.5 billion years ago, is a bacterial mat.[^oldest_stromatolites] A few millimeters thick, slippery, unremarkable to the eye. Green on top. Pink beneath. Dark below. Three zones, multiple metabolic guilds, and a nearly closed material cycle that required no external input beyond sunlight and seawater.
 
@@ -124,17 +124,9 @@ But spontaneity says nothing about speed. A reaction can be thermodynamically fa
 
 This is why enzymes exist. They are the difference between a reaction that is possible in principle and a reaction that is fast enough to sustain a living cell.
 
-## What enzymes actually do
+Enzymes are protein catalysts that accelerate specific reactions by factors of 10$^8$ to 10$^{17}$ without being consumed and without altering the thermodynamics -- an enzyme cannot make an unfavorable reaction favorable, it can only speed the approach to equilibrium.[^enzyme_acceleration] Catalysis happens at the **active site**, a pocket whose shape and charge complement the substrate, often assisted by **cofactors** -- metal ions (iron, zinc, molybdenum) or organic molecules (NAD$^+$, FAD, coenzyme A). The deep dependence of modern biochemistry on iron cofactors is likely a molecular fossil of life's origin in an iron-rich, anoxic ocean. Further details on active-site mechanisms and inhibition types are in Appendix A.
 
-Enzymes are protein catalysts that accelerate specific chemical reactions by factors of 10$^8$ to 10$^{17}$ without being consumed.[^enzyme_acceleration] Three properties define them: they are needed in small amounts (one molecule can process thousands of substrates per second); they emerge from each reaction cycle unchanged; and they have no effect on thermodynamics -- an enzyme cannot make an unfavorable reaction favorable, it can only speed the approach to equilibrium.
-
-That last point matters. Enzymes do not push reactions in one direction. They accelerate both forward and reverse reactions equally. The net direction is still dictated by $\Delta G$. The enzyme just ensures that the system reaches its thermodynamic destiny faster.
-
-Catalysis happens at the **active site** -- a pocket whose shape and charge complement the substrate. The enzyme accelerates the reaction by orienting reactive groups, stabilizing the transition state electrostatically, and in some cases physically straining the bonds that need to break. Many enzymes also require **cofactors** -- metal ions (iron, zinc, molybdenum) or organic molecules (NAD$^+$, FAD, coenzyme A) that participate directly in catalysis. The deep dependence of modern biochemistry on iron cofactors is likely a molecular fossil of life's origin in an iron-rich, anoxic ocean. The details of active-site mechanisms, cofactor roles, and inhibition types are in Appendix A.
-
-## Michaelis-Menten kinetics: the speed limit
-
-The rate at which an enzyme works depends on substrate supply. Michaelis and Menten (1913) formalized the relationship:[^michaelis_menten] $V = V_{\max}[\text{S}]/([\text{S}] + K_m)$, where $V_{\max}$ is the maximum rate at full saturation and $K_m$ is the substrate concentration at which the rate is half-maximal.
+How fast? That depends on substrate supply. Michaelis and Menten (1913) formalized the relationship:[^michaelis_menten] $V = V_{\max}[\text{S}]/([\text{S}] + K_m)$, where $V_{\max}$ is the maximum rate at full saturation and $K_m$ is the substrate concentration at which the rate is half-maximal.
 
 At low substrate ($[\text{S}] \ll K_m$), the rate scales linearly with supply -- the enzyme has idle time between encounters. At high substrate ($[\text{S}] \gg K_m$), the rate plateaus at $V_{\max}$ -- every enzyme molecule is busy. In a bacterial mat, substrate concentrations are set not by a lab technician but by the balance between production, consumption, and diffusion. An enzyme with $K_m$ below the local substrate concentration runs near $V_{\max}$; one with $K_m$ above it tracks every fluctuation in supply.
 
@@ -199,7 +191,7 @@ These simplifications are not errors. They are deliberate trades: we sacrifice r
 
 [^methanogens]: Methanogens (domain Archaea) inhabit diverse anoxic environments including sediments, wetlands, animal digestive tracts, and deep subsurface habitats. Their metabolic versatility and reliance on simple substrates (H$_2$/CO$_2$, acetate, methylated compounds) make them globally distributed. [@Thauer1977]
 
-[^mat_stability]: The architectural stability of bacterial mat communities arises from metabolic interdependence: each guild generates substrates or removes wastes for others, creating self-reinforcing feedback loops. See Alexandr Markov, *Birth of Complexity* (2010). [@Markov2010]
+[^mat_stability]: The architectural stability of bacterial mat communities arises from metabolic interdependence: each guild generates substrates or removes wastes for others, creating self-reinforcing feedback loops. The stromatolite record documents mat-built structures persisting from 3.5 Ga through the Proterozoic. Des Marais (1990); Allwood et al. (2006). [@DesMarais1990; @Allwood2006]
 
 [^stromatolite_formation]: Stromatolite formation involves microbial trapping and binding of sediment particles combined with precipitation of calcium carbonate, often induced by photosynthetic CO$_2$ consumption that raises local pH and shifts carbonate equilibrium. [@DesMarais2003]
 
