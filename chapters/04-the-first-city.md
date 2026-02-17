@@ -16,7 +16,7 @@ A bacterial mat is not a uniform film. It is layered, and the layering is not ac
 
 The analogy to a city is more than decorative. A city works because different neighborhoods specialize: one district generates power, another processes waste, a third manufactures goods. The neighborhoods depend on each other. Remove one and the others degrade. A bacterial mat operates on the same principle, except the "districts" are defined by wavelength, chemistry, and metabolic strategy rather than zoning laws.
 
-![Cross-section of an idealized Archean bacterial mat (~5 mm thick). Three zones are shaded: a green canopy of anoxygenic phototrophs at the surface (sunlight in, organic carbon out); a pink middle layer of infrared-harvesting phototrophs working on the wavelengths the canopy transmits; and a dark basement harboring fermenters, sulfate reducers, and methanogens. Arrows trace the internal sulfur cycle: H$_2$S rises from the basement, is oxidized to sulfate by the canopy, and sulfate diffuses back down to be reduced again. Multiple guilds, one closed loop.](../sources/img/ch4_mat_cross_section.png){#fig-mat-cross-section}
+![Cross-section of an idealized Archean bacterial mat. Three zones: a green canopy of anoxygenic phototrophs harvesting far-red light (720--750 nm); a pink middle layer of purple bacteria working the near-infrared the canopy transmits (800--900 nm); and a dark basement where fermenters, sulfate reducers, and methanogens recycle organic carbon. Left: the key reactions in each zone. Right: the internal sulfur cycle -- H$_2$S rises from the basement, is oxidized to sulfate by the canopy, and sulfate diffuses back down to be reduced again.](../sources/img/ch4_mat_cross_section.png){#fig-mat-cross-section}
 
 ### The green canopy
 
