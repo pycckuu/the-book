@@ -4,7 +4,7 @@ title: "The First City"
 
 What did the first self-sustaining communities look like?
 
-Not a single cell -- not for long, anyway. As the last chapter argued, a lone metabolism can persist where geological fluxes do the recycling, but the moment life intensifies beyond what the planet's plumbing can absorb, biological waste piles up until the system chokes. You need multiple metabolic strategies to close biogeochemical cycles biologically. Simpler partnerships -- a sulfur oxidizer paired with a sulfur reducer, say -- are thermodynamically plausible, but they leave little geological trace. What the rock record actually preserves is something more elaborate: a layered, multi-guild architecture that recycled its own waste.
+Not a single cell -- not for long, anyway. As the last chapter argued, a lone metabolism can persist where geological fluxes do the recycling, but the moment life intensifies beyond what the planet's plumbing can absorb, biological waste piles up until the system chokes. You need multiple metabolic strategies to close biogeochemical cycles biologically. Simpler partnerships -- a sulfur oxidizer paired with a sulfur reducer, say -- are thermodynamically plausible, but they often leave little geological trace. What the rock record actually preserves is something more elaborate: a layered, multi-guild architecture that recycled its own waste.
 
 The earliest answer the rock record preserves, dating to 3.5 billion years ago, is a bacterial mat.[^oldest_stromatolites] A few millimeters thick, slippery, unremarkable to the eye. Green on top. Pink beneath. Dark below. Three zones, multiple metabolic guilds, and a nearly closed material cycle that required no external input beyond sunlight and seawater.
 
@@ -20,7 +20,7 @@ The analogy to a city is more than decorative. A city works because different ne
 
 ### The green canopy
 
-The top layer is green, and the green is functional. Here live anoxygenic photosynthetic bacteria -- evolutionary forerunners of the photosynthetic lineage that would later learn the far more aggressive trick of splitting water. But we are still in the early Archean, and that revolution is hundreds of millions of years away.[^anoxygenic_evolution]
+The top layer is green, and the green is functional. Here live anoxygenic photosynthetic bacteria -- representatives of the metabolic repertoire from which oxygenic photosynthesis would later be assembled. But we are still in the early Archean, and that revolution is hundreds of millions of years away.[^anoxygenic_evolution]
 
 These surface-dwellers harvest sunlight across the visible spectrum, but their electron source is not water. It is hydrogen sulfide, H$_2$S -- the same gas that gives rotten eggs their smell.[^h2s_phototrophs] The overall logic is straightforward: capture photons, use their energy to strip electrons from H$_2$S, and feed those electrons into carbon fixation. The waste products are elemental sulfur or sulfate, depending on the species and conditions:
 
@@ -30,7 +30,7 @@ $$
 
 This is a good deal, thermodynamically. Sunlight provides abundant energy, and H$_2$S is plentiful in the anoxic early ocean, venting from hydrothermal systems and recycled from deeper in the mat itself. The top layer is the city's power plant: it captures the primary energy input and converts it into organic carbon that the rest of the community will eventually consume.
 
-But there is a constraint that matters. These bacteria appear green -- partly because carotenoid pigments reflect green wavelengths, partly because of the bacteriochlorophylls themselves -- yet their photosynthetic reaction centers harvest red and far-red light, around 720--750 nm, using bacteriochlorophyll *c*, *d*, or *e*.[^bchl_green] By absorbing these longer wavelengths, the canopy casts a selective shadow: the light that passes through is depleted in the red and far-red but still carries near-infrared photons at 800--900 nm. Whatever lives below must make do with what the canopy transmits.
+But there is a constraint that matters. These bacteria appear green -- partly because carotenoid pigments reflect green wavelengths, partly because of the bacteriochlorophylls themselves -- yet the bulk of their light harvesting is done by bacteriochlorophyll *c*, *d*, or *e* in chlorosome antennae, which absorb in the red and far-red (720--750 nm) and funnel that energy to a reaction center built around bacteriochlorophyll *a* (P840).[^bchl_green] By absorbing these longer wavelengths, the canopy casts a selective shadow: the light that passes through is depleted in the red and far-red but still carries near-infrared photons at 800--900 nm. Whatever lives below must make do with what the canopy transmits.
 
 ### The pink middle
 
@@ -142,7 +142,7 @@ Now we can put the pieces together. The bacterial mat is not just a community of
 
 The phototrophs at the top fix carbon at a rate governed by light intensity and their carbon-fixation enzymes -- the reverse TCA cycle in the green canopy, RuBisCO-based Calvin cycle in some purple bacteria below. The fermenters in the dark layer process the organic carbon at rates governed by their hydrolytic and fermentative enzymes. The sulfate reducers consume H$_2$ at rates dictated by their hydrogenases and dissimilatory sulfite reductases. And the methanogens compete for the same H$_2$ using their own enzymatic machinery.
 
-At every step, Michaelis-Menten kinetics applies. At every step, the rate depends on local substrate concentration, which depends on the rates of the reactions that produce that substrate, which depend on *their* substrate concentrations, and so on. The entire mat is a system of coupled hyperbolas -- each enzyme's rate feeding into the next enzyme's supply.
+At every step, Michaelis-Menten kinetics applies to a first approximation. At every step, the rate depends on local substrate concentration, which depends on the rates of the reactions that produce that substrate, which depend on *their* substrate concentrations, and so on. The entire mat is a system of coupled hyperbolas -- each enzyme's rate feeding into the next enzyme's supply.
 
 This is why the mat can be stable for hundreds of millions of years. It is a system of feedback loops. If the top layer produces more organic matter than the fermenters can process, organic carbon accumulates, fermentation rates increase (moving rightward along the Michaelis-Menten curve), and the excess is eventually consumed. If sulfate becomes scarce, sulfate reduction slows, H$_2$ accumulates, and methanogens gain an advantage. The system self-regulates -- not through any central control, but through the thermodynamics and kinetics of coupled chemical reactions.
 
@@ -185,7 +185,7 @@ These simplifications are not errors. They are deliberate trades: we sacrifice r
 
 [^niche_partitioning]: Resource partitioning by wavelength was likely one of the earliest forms of ecological niche differentiation, allowing multiple photosynthetic guilds to coexist within millimeters of vertical space. This principle operates in modern microbial mats and was likely present in Archean mat communities. [@DesMarais2003]
 
-[^bchl_green]: Chlorobiaceae carry bacteriochlorophyll *c*, *d*, or *e* with in-vivo absorption maxima near 720--750 nm, plus carotenoids (e.g., chlorobactene) that contribute to their green color by reflecting green wavelengths. The name "green sulfur bacteria" refers to their visible color, not to the wavelengths their photosynthetic reaction centers absorb. See Niels-Ulrik Frigaard and Donald A. Bryant, "Seeing Green Bacteria in a New Light: Genomics-Enabled Studies of the Photosynthetic Apparatus in Green Sulfur Bacteria and Filamentous Anoxygenic Phototrophic Bacteria," *Archives of Microbiology* 182 (2004): 265--276. [@Frigaard2004]
+[^bchl_green]: In Chlorobiaceae, bacteriochlorophyll *c*, *d*, or *e* (in-vivo absorption maxima ~720--750 nm) are chlorosome antenna pigments that capture far-red photons and funnel the energy to a reaction center whose special pair is bacteriochlorophyll *a* (P840). Carotenoids (e.g., chlorobactene) contribute to the visible green color by reflecting green wavelengths. The name "green sulfur bacteria" refers to this visible color, not to the wavelengths harvested for photosynthesis. See Niels-Ulrik Frigaard and Donald A. Bryant, "Seeing Green Bacteria in a New Light: Genomics-Enabled Studies of the Photosynthetic Apparatus in Green Sulfur Bacteria and Filamentous Anoxygenic Phototrophic Bacteria," *Archives of Microbiology* 182 (2004): 265--276. [@Frigaard2004]
 
 [^sulfate_reduction]: Sulfate reduction is thermodynamically favorable under anoxic conditions and is catalyzed by dissimilatory sulfate reducers. Bo Barker Jørgensen, "Mineralization of Organic Matter in the Sea Bed---the Role of Sulphate Reduction," *Nature* 296 (1982): 643--645. [@Jorgensen1982]
 
