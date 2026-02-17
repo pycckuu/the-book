@@ -8,7 +8,7 @@ Not an ordinary book -- this one is written in a language you have never seen, a
 
 This is the central paradox of the origin of life, and for decades it stalled progress on the question.
 
-![The chicken-and-egg problem, and one way out. Left panel: DNA and proteins in a circular dependency (DNA needs proteins to replicate, proteins need DNA for instructions -- arrows form a closed loop with a question mark). Right panel: RNA sitting at the center, with arrows pointing both to "stores information" and "catalyzes reactions." RNA offers a way to break the deadlock by doing both jobs.](../sources/img/ch3_rna_world.png){#fig-rna-world}
+![The chicken-and-egg problem, and one way out.](../sources/img/ch3_rna_world.png){#fig-rna-world}
 
 In modern cells, the division of labor is clean. DNA stores the instructions. Proteins do the work -- catalyzing reactions, building structures, transporting molecules across membranes. But proteins cannot copy themselves; they need DNA's blueprint. And DNA cannot do anything useful without the proteins that read it, unwind it, and replicate it. Which came first? The question is not rhetorical. It is a genuine engineering bottleneck: you cannot bootstrap a system that requires two specialized components if each component depends on the other for its existence.
 

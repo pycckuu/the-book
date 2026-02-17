@@ -22,7 +22,11 @@ The analogy to a city is more than decorative. A city works because different ne
 
 The top layer is green, and the green is functional. Here live anoxygenic photosynthetic bacteria -- evolutionary forerunners of the photosynthetic lineage that would later learn the far more aggressive trick of splitting water. But we are still in the early Archean, and that revolution is hundreds of millions of years away.[^anoxygenic_evolution]
 
-These surface-dwellers harvest sunlight across the visible spectrum, but their electron source is not water. It is hydrogen sulfide, H$_2$S -- the same gas that gives rotten eggs their smell.[^h2s_phototrophs] The overall logic is straightforward: capture photons, use their energy to strip electrons from H$_2$S, and feed those electrons into carbon fixation. The waste products are elemental sulfur or sulfate, depending on the species and conditions.
+These surface-dwellers harvest sunlight across the visible spectrum, but their electron source is not water. It is hydrogen sulfide, H$_2$S -- the same gas that gives rotten eggs their smell.[^h2s_phototrophs] The overall logic is straightforward: capture photons, use their energy to strip electrons from H$_2$S, and feed those electrons into carbon fixation. The waste products are elemental sulfur or sulfate, depending on the species and conditions:
+
+$$
+\text{CO}_2 + 2\,\text{H}_2\text{S} \xrightarrow{h\nu} \text{CH}_2\text{O} + 2\,\text{S}^0 + \text{H}_2\text{O}
+$$
 
 This is a good deal, thermodynamically. Sunlight provides abundant energy, and H$_2$S is plentiful in the anoxic early ocean, venting from hydrothermal systems and recycled from deeper in the mat itself. The top layer is the city's power plant: it captures the primary energy input and converts it into organic carbon that the rest of the community will eventually consume.
 
@@ -34,7 +38,7 @@ Below the green canopy, the light is different. The red and far-red photons that
 
 These are phototrophic proteobacteria -- the purple bacteria.[^purple_bacteria] They carry bacteriochlorophyll *a* or *b*, with absorption peaks in the near-infrared (800--900 nm), precisely the wavelengths the green canopy transmits. This is not coincidence; it is niche partitioning driven by the physics of light absorption.[^spectral_niche] If you tried to put another Chlorobiaceae clone here, it would starve -- the far-red photons it needs are already consumed above. The pink layer survives precisely because it uses a different part of the spectrum.
 
-The metabolic logic is similar to the top layer: capture photons, fix carbon, grow. But the energy input per photon is smaller (longer wavelength means lower energy per photon), and the flux is reduced. The pink layer operates on thinner margins. It is the city's secondary industry -- still productive, but working with what the primary sector leaves behind.
+The metabolic logic is similar to the top layer: capture photons, fix carbon, grow. The overall reaction is the same as the canopy's -- CO$_2$ reduced with H$_2$S, yielding organic carbon and sulfur -- but driven by lower-energy photons. The energy input per photon is smaller (longer wavelength means lower energy per photon), and the flux is reduced. The pink layer operates on thinner margins. It is the city's secondary industry -- still productive, but working with what the primary sector leaves behind.
 
 This arrangement -- spectral stratification dictated by pigment absorption -- is one of the oldest examples of resource partitioning in the history of life.[^niche_partitioning] It works because physics makes different wavelengths available at different depths, and evolution filled each niche with organisms tuned to exploit whatever light remained. The principle is the same one that structures a forest canopy, except the "trees" here are single cells and the "forest" is a few millimeters tall.
 

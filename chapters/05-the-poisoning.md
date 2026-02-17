@@ -46,17 +46,17 @@ Hydrogen is easy to oxidize -- the electrons practically fall off -- but it is s
 
 **Hydrogen sulfide.** The workhorse of early photosynthesis. Sulfur bacteria -- the purple and green sulfur clans -- built vast communities around this donor:
 
-$$\text{H}_2\text{S} \longrightarrow \text{SO}_4^{2-} + 8e^-$$
+$$\text{H}_2\text{S} + 4\,\text{H}_2\text{O} \longrightarrow \text{SO}_4^{2-} + 10\,\text{H}^+ + 8e^-$$
 
 More electrons per molecule, and sulfide was abundant in the early oceans. But it was still a local resource, concentrated where volcanic gases met seawater.
 
 **Elemental sulfur.** Some organisms could strip electrons from sulfur deposits directly:
 
-$$\text{S} \longrightarrow \text{SO}_4^{2-} + 6e^-$$
+$$\text{S} + 4\,\text{H}_2\text{O} \longrightarrow \text{SO}_4^{2-} + 8\,\text{H}^+ + 6e^-$$
 
 **Organic compounds.** A few phototrophs could even oxidize simple organics like formaldehyde:
 
-$$\text{CH}_2\text{O} \longrightarrow \text{CO}_2 + 4e^-$$
+$$\text{CH}_2\text{O} + \text{H}_2\text{O} \longrightarrow \text{CO}_2 + 4\,\text{H}^+ + 4e^-$$
 
 All of these share a common limitation. The electron donor is something the organism must *find* -- a molecule delivered by geology, not biology. The phototroph is a tenant paying rent with whatever the environment provides. And in evolutionary terms, a tenant is always vulnerable to eviction.
 
@@ -72,7 +72,7 @@ The prediction sat in the literature, cited occasionally, regarded as plausible 
 
 For weeks, nothing obvious happened. Then a faint pink color appeared in the culture. Pink is the signature of anoxygenic photosynthesis -- the pigments of purple bacteria absorbing light. And when they measured the chemistry, they found exactly what Olson had predicted: nitrite was being oxidized to nitrate (NO$_3^-$), and the energy was powering photosynthetic growth.
 
-$$\text{NO}_2^- \longrightarrow \text{NO}_3^- + 2e^-$$
+$$\text{NO}_2^- + \text{H}_2\text{O} \longrightarrow \text{NO}_3^- + 2\,\text{H}^+ + 2e^-$$
 
 Thirty-seven years from prediction to confirmation. The organism had been there all along, doing what Olson said it should, in some quiet corner of the microbial world. It just needed someone to design the right experiment.
 
