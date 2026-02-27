@@ -10,7 +10,7 @@ The answer matters for everything that comes later. Eukaryotic cells---the kind 
 
 ## The birth of altruism
 
-Cooperative behaviors---shared public goods, coordinated gene expression, programmed cell death that benefits neighbors---are found across deeply divergent bacterial lineages.[^social_evolution] The simplest explanation for that distribution is that cooperation is ancient. It is written in the behavior of modern bacteria, which still carry the molecular toolkits of that social world.
+Cooperative behaviors---shared public goods, coordinated gene expression, programmed cell death that benefits neighbors---are found across deeply divergent bacterial lineages.[^social_evolution] The simplest explanation for that distribution is that cooperation is ancient---or repeatedly reinvented under similar selective pressures. It is written in the behavior of modern bacteria, which still carry the molecular toolkits of that social world.
 
 The foundation of microbial social life is chemical communication. Bacteria secrete small molecules into their environment---signals that diffuse outward and are detected by neighboring cells. Through this chemical "dialogue," microorganisms report their condition and influence their neighbors' behavior.[^social_evolution] The signals are not noise. They encode information: *I am starving*. *I am dividing*. *There are many of us here*. *There are few*.
 
@@ -18,7 +18,7 @@ And from these signals, a pattern emerged that looks, functionally, like altruis
 
 That word---altruism---makes biologists nervous when applied to bacteria, and rightly so. A bacterium does not "decide" to be generous. It carries genetic circuits that, under certain conditions, cause it to produce costly public goods, or to die so that its neighbors may feed. The altruism is encoded, not chosen. But the functional outcome is the same: individual cells pay a fitness cost so that the group benefits. And the evolutionary logic that maintains these behaviors is surprisingly sophisticated.
 
-To see how sophisticated, consider a single species that can grow flagella and swim, assemble into packs, communicate by quorum sensing, share public goods, build spore-forming fortresses, and---when all else fails---murder half its own population. That species is *Bacillus subtilis*.
+To see how sophisticated, consider a single species that can grow flagella and swim, assemble into packs, communicate by quorum sensing, share public goods, build spore-forming fortresses, and---when all else fails---murder a substantial fraction of its own population. That species is *Bacillus subtilis*.
 
 ## *Bacillus subtilis*: the bacterium that does everything
 
@@ -28,7 +28,7 @@ Take it out of the flask. Put it in soil, on a root surface, in a biofilm, or in
 
 When conditions demand it, *B. subtilis* can grow flagella and acquire motility, swimming toward nutrients or away from toxins. It can collect into organized "packs" with consistent, coordinated movement. It can secrete enzymes that break down complex molecules in the environment---a costly investment that benefits all nearby cells, not just the producer. It can form biofilms: dense, structured communities encased in a self-produced matrix of proteins and polysaccharides.[^flemming_biofilm] And it can make "decisions"---or more precisely, its genetic circuits can be triggered into discrete, stable states---based on chemical signals received from relatives.[^social_evolution]
 
-The mechanism that coordinates many of these transitions is **quorum sensing**: a kind of chemical voting, in which bacteria secrete small signaling molecules (autoinducers) into the surrounding medium and simultaneously detect them.[^quorum_sensing_review][^bassler_bacterial] Each cell casts a "vote" by producing signal. Each cell "counts" votes by measuring the local concentration. When a certain critical number of votes accumulates---when the quorum is reached---the behavior of the entire population shifts.
+The mechanism that coordinates many of these transitions is **quorum sensing**: bacteria secrete small signaling molecules (autoinducers) into the surrounding medium and simultaneously detect them.[^quorum_sensing_review][^bassler_bacterial] Each cell contributes signal; each cell measures the local concentration. When the concentration crosses a threshold---when the quorum is reached---the behavior of the entire population shifts. (The process is often described as "voting," though as the sidebar notes, density-sensing or even diffusion-sensing may be more accurate.)
 
 ::: {.callout-note}
 ## Sidebar --- How quorum sensing works
