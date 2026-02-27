@@ -4,7 +4,7 @@ title: "The Poisoning"
 
 For hundreds of millions of years, the mat communities thrived.
 
-Picture Earth around 2.8 billion years ago.[^archean_atmosphere] The atmosphere is a haze of nitrogen, carbon dioxide, methane, and water vapor. There is no ozone layer because there is nothing to make ozone from. Ultraviolet light hammers the surface unfiltered. The oceans are warm, slightly green from dissolved iron, and utterly without free oxygen. None at all.
+Picture Earth around 2.8 billion years ago.[^archean_atmosphere] The atmosphere is a haze of nitrogen, carbon dioxide, methane, and water vapor. There is no ozone layer because there is nothing to make ozone from. Ultraviolet light hammers the surface unfiltered. The oceans are warm, slightly green from dissolved iron, and virtually without free oxygen -- though trace amounts may have flickered locally around photosynthetic mats, the atmosphere held none.
 
 In this world, the bacterial mats we met in the last chapter have built something remarkable: layered communities with stable energy cycles, closed chemical loops, a functioning economy. Sulfate reducers hand off waste to sulfur oxidizers. Methanogens scavenge hydrogen that fermenters discard. Electrons flow between guilds, waste is recycled, and the system is stable.
 
@@ -16,7 +16,7 @@ They learned to split water.
 
 To understand why this was catastrophic, you have to understand what oxygen meant to early life. Not what it means to us -- fuel for our mitochondria, the gas we can't live five minutes without -- but what it meant to *them*.
 
-For all ancient forms of life on Earth -- all, without exception -- oxygen was a dangerous poison.[^markov_poison] It ripped electrons off proteins. It mangled DNA. It generated reactive molecules (what chemists now call "reactive oxygen species") that shredded cell membranes.[^ros_damage] In a world that had evolved without it, oxygen was not a gift. It was a weapon.
+For most ancient forms of life on Earth, oxygen was a dangerous poison.[^oxygen_toxicity] It ripped electrons off proteins. It mangled DNA. It generated reactive molecules (what chemists now call "reactive oxygen species") that shredded cell membranes.[^ros_damage] In a world that had evolved without it, free oxygen was a chemical wrecking ball.
 
 Even the cyanobacteria themselves were not comfortable in their own waste. They had invented the machinery to crack water molecules, but they had not yet invented good defenses against the byproduct. Imagine a factory that produces a spectacular new fuel but vents a corrosive gas into its own workshop. That was the cyanobacterial situation.
 
@@ -26,7 +26,7 @@ Because the prize was independence. Before oxygenic photosynthesis, every photot
 
 Water, on the other hand, was everywhere.
 
-The opportunity to finally break free from hydrogen sulfide dependence outweighed all other considerations.[^markov_selfish] The result was ecologically devastating. Cyanobacteria flooded the environment with a molecule toxic to nearly every other organism — not out of malice, but because the energy payoff was enormous. But in the long run, oxygen opened an entirely new energy regime. Without them, Earth would still be a planet of microbes -- and nothing more.
+The thermodynamic payoff of water-splitting outweighed the cost of the toxic byproduct. The result was ecologically devastating: cyanobacteria flooded the environment with a molecule that most other organisms had no defense against. But in the long run, oxygen opened an entirely new energy regime. Without them, Earth would still be a planet of microbes -- and nothing more.
 
 ## The ladder of electron donors
 
@@ -34,7 +34,7 @@ The transition from ancient photosynthesis to the water-splitting kind did not h
 
 The chassis is simple in concept: capture a photon of light, use its energy to boost an electron to a higher energy state, then pass that excited electron through a chain of proteins to do useful work. The question is: where does that electron come from in the first place?
 
-In the earliest phototrophs, the electron donors were the easiest molecules to crack open:
+In the earliest phototrophs, the electron donors were the easiest molecules to crack open. (The half-reactions below are written as illustrative electron-bookkeeping devices at near-neutral pH; actual in-vivo conditions and coupling partners vary.)
 
 [FIGURE: The electron donor ladder. A vertical scale showing standard reduction potential (E0') on the y-axis, with electron donors arranged from easiest to oxidize (top: H2, Fe2+, H2S) to hardest (bottom: H2O). Each donor is labeled with the number of electrons it yields. An arrow at the bottom marks the "water barrier" -- the energy threshold that required two linked photosystems to breach. Caption: "The history of photosynthesis is the history of climbing this ladder. Water was the last rung."]
 
@@ -60,11 +60,11 @@ $$\text{CH}_2\text{O} + \text{H}_2\text{O} \longrightarrow \text{CO}_2 + 4\,\tex
 
 All of these share a common limitation. The electron donor is something the organism must *find* -- a molecule delivered by geology, not biology. The phototroph is a tenant paying rent with whatever the environment provides. And in evolutionary terms, a tenant is always vulnerable to eviction.
 
-### The missing link: nitrogen photosynthesis
+### An intermediate rung: nitrogen photosynthesis
 
-In 1970, the biochemist John Olson published a theoretical model proposing that the transition from anoxygenic to oxygenic photosynthesis did not happen directly. There should have been an intermediate stage, he argued, in which organisms used nitrogen compounds -- specifically nitrite -- as electron donors.[^olson1970]
+In 1970, the biochemist John Olson published a theoretical model proposing that the transition from anoxygenic to oxygenic photosynthesis did not happen directly. There could have been an intermediate stage, he argued, in which organisms used nitrogen compounds -- specifically nitrite -- as electron donors.[^olson1970]
 
-It was an elegant prediction. Nitrite sits between sulfide and water on the thermodynamic ladder of oxidation difficulty: harder to crack than sulfide, easier than water. An intermediate step through nitrogen would be the evolutionary equivalent of building a smaller bridge before attempting the big one.
+It was an elegant prediction. Nitrite sits between sulfide and water on the thermodynamic ladder of oxidation difficulty: harder to crack than sulfide, easier than water. If such organisms existed, they would represent the evolutionary equivalent of a smaller bridge before the big one.
 
 But for thirty-seven years, no one could find the organism.
 
@@ -118,23 +118,25 @@ And then, around 2.4 billion years ago, the faucet won.[^goe_timing]
 
 Oxygen began to accumulate in the atmosphere. Not much by modern standards -- perhaps 1 to 2 percent of present levels at first -- but enough to fundamentally reshape the chemistry of the planet's surface.[^goe_oxygen_levels] This is the Great Oxidation Event, and it was, in the precise language of geochemistry, a catastrophe.
 
-For the anaerobic communities that had built the living world, free oxygen was lethal. Organisms that had never encountered this molecule -- had never needed defenses against it -- suddenly found their enzymes damaged, their membranes compromised, their DNA under attack. The world's first mass extinction was not caused by an asteroid or a volcanic eruption. It was caused by a microbe's waste product.
+For the anaerobic communities that had built the living world, free oxygen was lethal. Organisms that had never encountered this molecule -- had never needed defenses against it -- suddenly found their enzymes damaged, their membranes compromised, their DNA under attack. What may have been Earth's first mass extinction was not caused by an asteroid or a volcanic eruption. It was caused by a microbe's waste product.
 
 The survivors retreated. They found refuge in the places oxygen could not reach: deep sediments, waterlogged soils, the interiors of organic-rich deposits, the guts of other organisms. Many of the anaerobic metabolisms we study today -- sulfate reduction, methanogenesis, iron reduction -- are practiced by lineages whose ancestors were driven underground by the Great Oxidation Event. They are survivors of the poisoning, confined to anoxic refugia for 2.4 billion years.
+
+The poisoning itself took a few hundred million years. Its consequences are still unfolding. What follows is not the full story -- that would take several chapters -- but a tour of the most important aftershocks: how life learned to breathe the poison, how it coped with the chemical incompatibilities oxygen created, how captured cyanobacteria became the engines of every plant, and how the energy surplus oxygen provided underwrote the complexity of everything that followed.
 
 ## The invention of respiration
 
 Here is where the story takes its most ironic turn.
 
-The same molecular machinery that made oxygen deadly also made oxygen useful. And the organisms that figured this out first were, almost certainly, the cyanobacteria themselves -- or their close relatives.
+The same molecular machinery that made oxygen deadly also made oxygen useful. And the organisms that figured this out first were likely cyanobacteria or their close relatives -- though the evolutionary pathway was probably less clean than a single invention event, with multiple lineages independently recruiting components of the electron transport chain.
 
 The logic is startlingly simple once you see it. Photosynthesis works by passing excited electrons down a chain of protein complexes, harvesting energy at each step. The electron starts at chlorophyll (boosted by light) and ends at a carbon compound (reducing CO$_2$).
 
 Now imagine a small modification. Instead of starting the electron at chlorophyll, start it at an organic molecule -- say, pyruvate, a common product of fermentation. And instead of ending the chain at CO$_2$, end it at oxygen. The electron still passes through the same protein complexes. The energy is still harvested in the same way -- proton pumping, ATP synthesis, the whole apparatus. But now the process runs in reverse conceptual direction: instead of using light to push electrons uphill and fix carbon, it lets electrons roll downhill from organic carbon to oxygen, and captures the energy released.[^respiration_origin]
 
-This is aerobic respiration. And its invention solved two problems at once: it neutralized the dangerous poison (oxygen receives electrons and is converted to harmless water) and it stored enormous amounts of energy in the process.[^markov_respiration]
+This is aerobic respiration. And its invention solved two problems at once: it neutralized the dangerous poison (oxygen receives electrons and is converted to harmless water) and it stored enormous amounts of energy in the process.[^respiration_ancestry]
 
-The deep irony is that respiration is carried out by the same protein complexes as photosynthesis. The cytochrome chains, the proton-pumping machinery, the ATP synthase -- all of it is shared, or at least derived from the same ancestral toolkit. In modern cyanobacteria, photosynthesis and respiration use overlapping components to such an extent that there is a kind of competition between the two processes for the right to use the same proteins.[^markov_competition]
+The deep irony is that respiration is carried out by the same protein complexes as photosynthesis. The cytochrome chains, the proton-pumping machinery, the ATP synthase -- all of it is shared, or at least derived from the same ancestral toolkit. In modern cyanobacteria, photosynthesis and respiration use overlapping components to such an extent that there is a kind of competition between the two processes for the right to use the same proteins.[^shared_complexes]
 
 This is not an accident. It is a record of evolutionary history. Respiration was not invented from scratch. It was photosynthesis repurposed -- the machinery of light-harvesting retooled to run on chemical fuel, with oxygen as the terminal electron acceptor instead of chlorophyll as the starting electron donor.
 
@@ -162,11 +164,11 @@ where $E_a$ is the apparent activation energy.[^middelburg1996] A caveat: the Ar
 
 ## The day shift and the night shift
 
-Oxygen created another problem, one that reveals just how clever microbial solutions can be.
+Oxygen created another problem, one that reveals the precision of microbial adaptation.
 
-Nitrogen fixation -- the conversion of atmospheric N$_2$ into biologically usable ammonia -- is one of the most important reactions in the biosphere. Without it, life would be perpetually starved for nitrogen, the element needed for every protein and every nucleic acid. The enzyme that performs this reaction, nitrogenase, is ancient, elaborate, and spectacularly sensitive. It cannot work in the presence of oxygen.[^markov_nitrogenase]
+Nitrogen fixation -- the conversion of atmospheric N$_2$ into biologically usable ammonia -- is one of the most important reactions in the biosphere. Without it, life would be perpetually starved for nitrogen, the element needed for every protein and every nucleic acid. The enzyme that performs this reaction, nitrogenase, is ancient, elaborate, and spectacularly sensitive. It cannot work in the presence of oxygen.[^nitrogenase_sensitivity]
 
-For anaerobic organisms, this was never a problem. But for cyanobacteria -- organisms that produce oxygen as a byproduct of their core metabolism -- it was an existential dilemma. How do you fix nitrogen when your own photosynthesis is flooding the cell with the one substance that destroys the nitrogen-fixing enzyme?
+For anaerobic organisms, this was never a problem. But for cyanobacteria -- organisms that produce oxygen as a byproduct of their core metabolism -- it was a biochemical incompatibility. How do you fix nitrogen when your own photosynthesis is flooding the cell with the one substance that destroys the nitrogen-fixing enzyme?
 
 Many cyanobacteria solved this with specialized cells called heterocysts: thick-walled compartments that exclude oxygen and dedicate themselves entirely to nitrogen fixation while neighboring cells handle photosynthesis -- a spatial solution to a chemical incompatibility.[^heterocysts]
 
@@ -202,7 +204,7 @@ The cyanobacteria poisoned the world. Then they moved indoors.
 
 The poisoning had one more consequence worth telling, because it created one of the most important symbioses in the living world -- and one that still shapes human civilization.
 
-Plants need nitrogen. They need it for amino acids, for nucleotides, for chlorophyll itself. But most plants cannot fix nitrogen. The triple bond in N$_2$ is one of the strongest in chemistry,[^n2_bond] and nitrogenase -- the only enzyme that can break it -- belongs to bacteria, not to plants. In most terrestrial ecosystems, the lack of available nitrogen is the main factor limiting plant growth. Remove that limitation and productivity explodes.[^markov_nitrogen]
+Plants need nitrogen. They need it for amino acids, for nucleotides, for chlorophyll itself. But most plants cannot fix nitrogen. The triple bond in N$_2$ is one of the strongest in chemistry,[^n2_bond] and nitrogenase -- the only enzyme that can break it -- belongs to bacteria, not to plants. In most terrestrial ecosystems, the lack of available nitrogen is the main factor limiting plant growth. Remove that limitation and productivity explodes.[^nitrogen_limitation]
 
 Evolution's answer was partnership. Across many lineages, plants entered into symbioses with nitrogen-fixing bacteria: cyanobacteria in some cases, actinobacteria in others, and most famously, alpha-proteobacteria of the genus *Rhizobium* in the legumes.[^legume_symbiosis] The arrangement is always the same in principle. The plant builds a specialized structure (a root nodule, a leaf cavity, a thickened stem) that provides a low-oxygen environment -- because nitrogenase still cannot tolerate oxygen, even 2.4 billion years after the poisoning. The bacterium moves in, fixes nitrogen, and shares ammonia with the host. In return, the plant feeds the bacterium sugars produced by photosynthesis.
 
@@ -214,7 +216,7 @@ The Great Oxidation Event did not merely change the atmosphere. It rewrote the e
 
 Consider the numbers. Anaerobic metabolisms -- fermentation, sulfate reduction, methanogenesis -- extract energy from organic molecules, but they leave much of the potential energy locked in the products. Fermentation of glucose to ethanol, for instance, captures only a fraction of the total energy available in the glucose molecule. The ethanol still has electrons to give; the organism simply cannot access them without a more powerful electron acceptor.
 
-Oxygen changes this calculation entirely. As a terminal electron acceptor, oxygen sits at the bottom of the thermodynamic hill -- one of the strongest oxidants in the biological world. An organism that can pass electrons all the way from organic carbon to oxygen extracts far more energy per molecule of food than any anaerobic metabolism can. Roughly 15 to 16 times more ATP per glucose molecule, depending on the organism and the pathway.[^atp_yield]
+Oxygen changes this calculation entirely. As a terminal electron acceptor, oxygen sits at the bottom of the thermodynamic hill -- one of the strongest oxidants in the biological world. An organism that can pass electrons all the way from organic carbon to oxygen extracts far more energy per molecule of food than any anaerobic metabolism can. Where fermentation yields about 2 ATP per glucose, aerobic respiration yields roughly 30--32 -- an increase of more than an order of magnitude, though the exact ratio varies with organism and pathway.[^atp_yield]
 
 This is not a subtle difference. It is the difference between subsistence and surplus. Anaerobic organisms survive; aerobic organisms *thrive*. They grow faster, maintain larger cells, and can afford the energetic overhead of complex internal structures. It is no coincidence that the evolution of large, complex eukaryotic cells -- and eventually multicellular life -- followed the Great Oxidation Event. The energy to build complex life was simply not available until oxygen made aerobic respiration possible.
 
@@ -252,7 +254,7 @@ The molecule that was once the deadliest waste product became the most efficient
 
 [^cyano_evolution]: Cyanobacteria evolved oxygenic photosynthesis between 2.7 and 3.0 Ga, though the exact timing remains debated. Buick (2008) reviews the geological and geochemical evidence for the origin of oxygenic photosynthesis. [@Buick2008]
 
-[^markov_poison]: Molecular oxygen generates reactive oxygen species (superoxide, hydrogen peroxide) that damage proteins, DNA, and cell membranes. For a comprehensive review of oxidative damage pathways, see Imlay (2003). [@Imlay2003]
+[^oxygen_toxicity]: Molecular oxygen generates reactive oxygen species (superoxide, hydrogen peroxide) that damage proteins, DNA, and cell membranes. For a comprehensive review of oxidative damage pathways, see Imlay (2003). [@Imlay2003]
 
 [^ros_damage]: Reactive oxygen species (ROS) include superoxide (O$_2^-$), hydrogen peroxide (H$_2$O$_2$), and hydroxyl radicals (OH$\cdot$). These molecules oxidize iron-sulfur clusters in proteins, abstract hydrogen atoms from lipids, and damage nucleic acids. The chemistry of ROS in biological systems is reviewed in Imlay (2003). [@Imlay2003]
 
@@ -294,20 +296,18 @@ The molecule that was once the deadliest waste product became the most efficient
 
 [^boring_billion]: The Mesoproterozoic "Boring Billion" (1.8-0.8 Ga) was characterized by low, stable atmospheric oxygen levels, muted tectonic activity, and limited biological innovation. Holland (2006) and Lyons et al. (2014) discuss this interval. [@Holland2006; @Lyons2014]
 
-[^markov_selfish]: "Cyanobacteria acted extremely selfishly -- for their own independence they poisoned nearly every living thing on the planet, but in the end they turned out to be useful for the biosphere. Without them, Earth would still remain a planet of microbes." Markov, *Birth of Complexity*. [@Markov2010]
-
 [^olson1970]: J. M. Olson, "The Evolution of Photosynthesis," *Science* 168 (1970): 438--446. Olson proposed that nitrogen compounds served as intermediate electron donors in the evolutionary transition from anoxygenic to oxygenic photosynthesis. [@Olson1970]
 
 [^griffin2007]: B. M. Griffin, J. Schott, and B. Schink, "Nitrite, an Electron Donor for Anoxygenic Photosynthesis," *Science* 316 (2007): 1870. The first demonstration that anoxygenic phototrophs can use nitrite as their sole electron donor, confirming Olson's 37-year-old prediction. [@Griffin2007]
 
-[^markov_respiration]: Castresana and Moreira (1999) demonstrated that respiratory chains share deep evolutionary ancestry with photosynthetic electron transport, supporting the view that aerobic respiration was repurposed from the photosynthetic machinery. [@Castresana1999]
+[^respiration_ancestry]: Castresana and Moreira (1999) demonstrated that respiratory chains share deep evolutionary ancestry with photosynthetic electron transport, supporting the view that aerobic respiration was repurposed from the photosynthetic machinery. [@Castresana1999]
 
-[^markov_competition]: In modern cyanobacteria, the respiratory and photosynthetic electron transport chains share several protein complexes, including the cytochrome *b*$_6$*f* complex and the plastoquinone pool. For a review, see Blankenship (2010). [@Blankenship2010]
+[^shared_complexes]: In modern cyanobacteria, the respiratory and photosynthetic electron transport chains share several protein complexes, including the cytochrome *b*$_6$*f* complex and the plastoquinone pool. For a review, see Blankenship (2010). [@Blankenship2010]
 
-[^markov_nitrogenase]: The nitrogenase enzyme, responsible for biological nitrogen fixation, is irreversibly inactivated by molecular oxygen. For structural and mechanistic details, see Howard and Rees (1996). [@HowardRees1996]
+[^nitrogenase_sensitivity]: The nitrogenase enzyme, responsible for biological nitrogen fixation, is irreversibly inactivated by molecular oxygen. For structural and mechanistic details, see Howard and Rees (1996). [@HowardRees1996]
 
 [^steunou2006]: A.-S. Steunou et al., "In situ analysis of nitrogen fixation and metabolic switching in unicellular thermophilic cyanobacteria inhabiting hot spring microbial mats," *PNAS* 103 (2006): 2398--2403. [@Steunou2006]
 
 [^markov_houses]: "Some biologists say, using metaphorical language, that plants are just comfortable houses for the living of cyanobacteria." Markov, *Birth of Complexity*. [@Markov2010]
 
-[^markov_nitrogen]: Nitrogen limits net primary production in most terrestrial biomes and many marine ecosystems. Vitousek and Howarth (1991) provide a comprehensive analysis of why nitrogen limitation is so pervasive. [@VitousekHowarth1991]
+[^nitrogen_limitation]: Nitrogen limits net primary production in most terrestrial biomes and many marine ecosystems. Vitousek and Howarth (1991) provide a comprehensive analysis of why nitrogen limitation is so pervasive. [@VitousekHowarth1991]
