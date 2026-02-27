@@ -2,25 +2,19 @@
 title: "Cannibals and Voters"
 ---
 
-A population of *Bacillus subtilis* is starving. Nutrients have been declining for hours. The cells have tried everything: ramping up scavenging enzymes, slowing growth, adjusting metabolism. Nothing has worked. Starvation is now severe.
+A population of *Bacillus subtilis* is starving. Instead of dying together, a fraction of the cells kill and eat the rest. The molecular machinery behind this strategy is one of the best-documented social behaviors in microbiology---and it is far from the only one.
 
-Then a transcription factor called Spo0A tips past a threshold in roughly half the cells -- and those cells begin secreting a toxin called SdpC. The other half, lacking immunity, are killed. Their contents -- proteins, lipids, nucleic acids -- spill into the medium. The killers eat the dead.
-
-This is not a laboratory curiosity. It is a population-level survival strategy, encoded in the genome of one of the most studied bacteria on Earth. The molecular machinery has been identified, cloned, knocked out, and put back in. Cannibalism in *B. subtilis* is one of the best-documented social behaviors in microbiology.
-
-And it is far from the only one. Bacteria vote, using quorum-sensing molecules as ballots. They hunt in packs, secreting lytic enzymes cooperatively. They commit suicide for the good of their community. The social life of microbes is not speculation. It is one of the most active fields in modern biology.
-
-This chapter is about that social life. It opens a new part of the book, because we are leaving the physics of energy and electrons behind (temporarily) and asking a different question: **once cells exist and compete, what kinds of relationships do they build?**
+This chapter is about the social life of microbes. It opens a new part of the book, because we are leaving the physics of energy and electrons behind (temporarily) and asking a different question: **once cells exist and compete, what kinds of relationships do they build?**
 
 The answer matters for everything that comes later. Eukaryotic cells---the kind that eventually built animals, plants, and fungi---did not arise from a single lucky mutation. They arose from mergers, and mergers require a prior social infrastructure: communication, cooperation, exploitation, and occasionally, negotiated truces between former enemies. Before we can tell that story (the next chapter), we need to understand the social world that made it possible.
 
 ## The birth of altruism
 
-At the earliest stages of life's development, microbes had to cooperate with each other, unite in complex groups, and jointly solve biochemical tasks that no single cell could manage alone.[^markov_altruism] This is not a theoretical inference drawn from some abstract model of early evolution. It is written in the behavior of modern bacteria, which still carry the molecular toolkits of that ancient social world.
+From early in life's history, microbes appear to have cooperated---forming groups and collectively performing biochemical tasks that single cells could not sustain alone.[^social_evolution] This is not a theoretical inference drawn from some abstract model of early evolution. It is written in the behavior of modern bacteria, which still carry the molecular toolkits of that ancient social world.
 
-The foundation of microbial social life is chemical communication. Bacteria secrete small molecules into their environment---signals that diffuse outward and are detected by neighboring cells. Through this chemical "dialogue," microorganisms report their condition and influence their neighbors' behavior.[^markov_altruism] The signals are not noise. They encode information: *I am starving*. *I am dividing*. *There are many of us here*. *There are few*.
+The foundation of microbial social life is chemical communication. Bacteria secrete small molecules into their environment---signals that diffuse outward and are detected by neighboring cells. Through this chemical "dialogue," microorganisms report their condition and influence their neighbors' behavior.[^social_evolution] The signals are not noise. They encode information: *I am starving*. *I am dividing*. *There are many of us here*. *There are few*.
 
-And from these signals, a pattern emerged that looks, functionally, like altruism---the ability to sacrifice one's own interests for the good of the community.[^markov_altruism]
+And from these signals, a pattern emerged that looks, functionally, like altruism---the ability to sacrifice one's own interests for the good of the community.[^social_evolution]
 
 That word---altruism---makes biologists nervous when applied to bacteria, and rightly so. A bacterium does not "decide" to be generous. It carries genetic circuits that, under certain conditions, cause it to produce costly public goods, or to die so that its neighbors may feed. The altruism is encoded, not chosen. But the functional outcome is the same: individual cells pay a fitness cost so that the group benefits. And the evolutionary logic that maintains these behaviors is surprisingly sophisticated.
 
@@ -32,9 +26,9 @@ To see how sophisticated, consider a single species that can grow flagella and s
 
 Take it out of the flask. Put it in soil, on a root surface, in a biofilm, or in a colony on an agar plate where nutrients are running low. Now it transforms.
 
-When conditions demand it, *B. subtilis* can grow flagella and acquire motility, swimming toward nutrients or away from toxins. It can collect into organized "packs" with consistent, coordinated movement. It can secrete enzymes that break down complex molecules in the environment---a costly investment that benefits all nearby cells, not just the producer. It can form biofilms: dense, structured communities encased in a self-produced matrix of proteins and polysaccharides.[^flemming_biofilm] And it can make "decisions"---or more precisely, its genetic circuits can be triggered into discrete, stable states---based on chemical signals received from relatives.[^markov_altruism]
+When conditions demand it, *B. subtilis* can grow flagella and acquire motility, swimming toward nutrients or away from toxins. It can collect into organized "packs" with consistent, coordinated movement. It can secrete enzymes that break down complex molecules in the environment---a costly investment that benefits all nearby cells, not just the producer. It can form biofilms: dense, structured communities encased in a self-produced matrix of proteins and polysaccharides.[^flemming_biofilm] And it can make "decisions"---or more precisely, its genetic circuits can be triggered into discrete, stable states---based on chemical signals received from relatives.[^social_evolution]
 
-The mechanism that coordinates many of these transitions is **quorum sensing**: a kind of chemical voting, in which bacteria secrete small signaling molecules (autoinducers) into the surrounding medium and simultaneously detect them.[^markov_quorum][^bassler_bacterial] Each cell casts a "vote" by producing signal. Each cell "counts" votes by measuring the local concentration. When a certain critical number of votes accumulates---when the quorum is reached---the behavior of the entire population shifts.
+The mechanism that coordinates many of these transitions is **quorum sensing**: a kind of chemical voting, in which bacteria secrete small signaling molecules (autoinducers) into the surrounding medium and simultaneously detect them.[^quorum_sensing_review][^bassler_bacterial] Each cell casts a "vote" by producing signal. Each cell "counts" votes by measuring the local concentration. When a certain critical number of votes accumulates---when the quorum is reached---the behavior of the entire population shifts.
 
 ::: {.callout-note}
 ## Sidebar --- How quorum sensing works
@@ -47,6 +41,8 @@ Quorum sensing is not a single system. Different bacterial species use different
 4. **Coordinated response**: The activated receptors trigger a transcriptional program that changes the cell's behavior---biofilm formation, toxin production, sporulation, or dozens of other responses.
 
 The elegance is in the coupling: because each cell both produces and detects the signal, the system functions as a distributed sensor for population density. No central authority is needed. The "decision" emerges from the sum of individual contributions, like an election where every ballot is also a ballot counter.
+
+The voting metaphor captures the logic of density-dependent coordination but simplifies: real autoinducer concentrations reflect not just cell number but diffusion geometry, flow regime, and the spatial arrangement of producers---what some researchers call "efficiency sensing" rather than quorum sensing.[^redfield_qs]
 :::
 
 Through quorum sensing and other regulatory circuits, *B. subtilis* populations can assemble into multicellular aggregates approaching the complexity of true multicellular organisms. Biofilms have internal architecture: channels for nutrient transport, differentiated cell types (some produce matrix, some produce enzymes, some are motile scouts), and spatial organization that is not random but functionally structured.
@@ -71,7 +67,7 @@ And then, as a penultimate measure---the step just before the final, irreversibl
 
 Here is how it works.[^ellermeier_cannibalism]
 
-When starvation activates the master sporulation regulator, a transcription factor called Spo0A, something unexpected happens: Spo0A does not activate uniformly across the population. Instead, due to stochastic fluctuations in gene expression and positive feedback loops in the phosphorelay that activates Spo0A, the population splits. Roughly half the cells accumulate high levels of active Spo0A (Spo0A~P). The other half remain with low levels.
+When starvation activates the master sporulation regulator, a transcription factor called Spo0A, something unexpected happens: Spo0A does not activate uniformly across the population. Instead, due to stochastic fluctuations in gene expression and positive feedback loops in the phosphorelay that activates Spo0A, the population splits. A fraction of cells---the exact proportion depends on starvation severity and growth history---accumulate high levels of active Spo0A (Spo0A~P). The remainder stay with low levels.
 
 The high-Spo0A cells begin producing a secreted protein called **SdpC**---a toxin. SdpC is exported into the environment, where it attacks and kills the cells that have *not* activated Spo0A. The low-Spo0A cells, lacking the immunity machinery, are lysed. Their cellular contents---proteins, nucleic acids, lipids, all the organic matter that a starving cell desperately needs---spill into the medium.
 
@@ -85,7 +81,7 @@ The elegant twist: SdpI is not only an immunity protein but also a signal-transd
 
 The cannibalism strategy only works at high population density---which makes sense, because it depends on the toxin reaching enough victims to release enough nutrients to matter. At low density, the few cells that lyse would not provide enough food to justify the energetic cost of toxin production. Quorum sensing, again, sets the stage: the population must be dense enough that cannibalism pays.
 
-The population-level accounting is stark. The population invests in a toxic public good (SdpC), splits itself into killers and victims through a stochastic switch, and recycles roughly half its members. The survivors gain time. If new nutrients arrive during that borrowed time, the entire surviving population benefits. If they do not, the survivors proceed to sporulation---but now with a head start, having fed on the remains of their kin.
+The population-level accounting is stark. The population invests in a toxic public good (SdpC), splits itself into killers and victims through a stochastic switch, and recycles a substantial fraction of its members. The survivors gain time. If new nutrients arrive during that borrowed time, the entire surviving population benefits. If they do not, the survivors proceed to sporulation---but now with a head start, having fed on the remains of their kin.
 
 ## *Myxococcus xanthus*: the social predators
 
@@ -131,23 +127,11 @@ To understand microbial social behavior, we need to understand how a single cell
 
 The machinery that enables these decisions begins with the most fundamental currency of cellular life: **ATP**.
 
-The ATP supply in a typical bacterial cell is approximately one million molecules, and the half-life of that pool is only a second or two.[^karp_atp] This is a breathtaking turnover rate. A cell does not "have" energy the way a battery has charge. The pool is in dynamic equilibrium: every individual molecule is consumed and regenerated on a timescale of seconds, but the total count remains roughly constant because synthesis and consumption are matched.
+The ATP supply in a typical bacterial cell is on the order of a million molecules---the exact count varies with cell size and growth rate---and the pool turns over on a timescale of seconds.[^karp_atp] A cell does not "have" energy the way a battery has charge. The pool is in dynamic equilibrium, synthesis and consumption matched so tightly that the total count stays roughly constant even as individual molecules are consumed and regenerated within seconds.
 
-Because ATP turnover is so fast, bacteria do not store energy as ATP. They store it as polysaccharides and fats---stable, dense, slowly mobilized reserves that can be converted back into ATP when needed. The regulation of this conversion is the metabolic foundation on which all "decision-making" rests.
+The cell tunes its enzymes through phosphorylation, allosteric modulation, and feedback inhibition---layered mechanisms that allow it to continuously adjust its metabolic state in response to internal and external signals.[^monod_allosteric] But the key question for our story is how the cell reads its own energy status.
 
-When ATP levels fall, the cell activates reactions that increase ATP production at the expense of storage reserves. When ATP is abundant, ATP-producing reactions are inhibited. This feedback runs through several layers of molecular control.
-
-**Covalent modification** is the first layer. An enzyme that sits idle in the cell can be activated by the addition of a phosphate group, donated from ATP itself. Protein kinases---enzymes that transfer phosphate groups from ATP to target proteins---are the molecular switches that flip inactive enzymes to their active forms. The work of Edwin Fischer and Edwin Krebs, who discovered this mechanism, earned them a Nobel Prize and revealed a principle that runs through all of cell biology: energy currency doubles as signaling currency.
-
-**Allosteric modulation** is the second layer. Many enzymes have two binding sites: the active site, where the reaction happens, and an allosteric site (from the Greek *allos*, "other," and *stereos*, "solid"), where a regulatory molecule can bind.[^monod_allosteric][^changeux_allosteric] When an inhibitor or stimulator binds the allosteric site, it changes the enzyme's shape and alters its activity---without competing for the active site. This allows the cell to tune enzyme activity in response to signals that have nothing to do with the enzyme's own substrate.
-
-**Feedback inhibition** is the third layer. In many metabolic pathways, the end product of the pathway inhibits the first enzyme in the sequence. When enough of the product has accumulated, the pathway shuts itself down. This is the simplest form of homeostatic regulation: the output controls the input.
-
-Together, these mechanisms create a cell that is constantly adjusting its metabolic state in response to internal and external signals. The key architectural principle is the separation of catabolic and anabolic pathways: pathways that break things down (catabolism, producing ATP) and pathways that build things up (anabolism, consuming ATP) are regulated by different key enzymes that respond to different signals.
-
-When AMP levels are high---which means ATP levels are low, because AMP accumulates when ATP is consumed faster than it is regenerated---catabolic enzymes are activated and the cell ramps up energy production. When ATP levels are high, catabolism is inhibited. The cell reads its own energy state through the ratio of ATP to AMP, and adjusts accordingly.[^hardie_amp]
-
-Why AMP and not ATP? Because AMP is a more sensitive indicator of energy stress. In a cell where the total adenine nucleotide pool (ATP + ADP + AMP) is roughly constant, a small decrease in ATP causes a proportionally larger increase in AMP, amplified by the adenylate kinase reaction ($2\,\text{ADP} \rightleftharpoons \text{ATP} + \text{AMP}$).[^atkinson_energy] A 10% drop in ATP can produce a several-fold increase in AMP. Enzymes that respond to AMP are responding to a magnified version of the cell's energy deficit.
+In bacteria, falling energy charge---sensed directly by metabolic enzymes that respond to the ATP-to-AMP ratio---activates catabolic pathways and suppresses biosynthesis.[^atkinson_energy] AMP is a more sensitive indicator than ATP: a small decrease in ATP causes a proportionally larger increase in AMP, amplified by the adenylate kinase reaction ($2\,\text{ADP} \rightleftharpoons \text{ATP} + \text{AMP}$). When the imbalance is severe, a second alarm fires: the stringent response, mediated by the signaling nucleotides (p)ppGpp, which reprograms transcription wholesale---shutting down ribosome synthesis, activating amino-acid scavenging, and preparing the cell for survival mode.[^stringent_response] (In eukaryotes, an analogous role is played by AMP-activated protein kinase, AMPK.[^hardie_amp])
 
 This metabolic regulation is not "decision-making" in the way we usually mean the phrase. It is feedback control---the same logic that governs a thermostat. But when you layer multiple feedback loops on top of each other, wire them to external signals (like quorum-sensing molecules), and allow them to interact through shared intermediates, the system can produce something more interesting than gradual adjustment.
 
@@ -201,11 +185,11 @@ The outcome resembles a vote: each cell contributes a chemical signal, and the p
 
 The implication is older than it looks.
 
-Altruism, cooperation, voting, and organized social behavior are not human inventions. They are not even animal inventions. They are microbial inventions, and they are old---three billion years old, perhaps older.
+Altruism, cooperation, voting, and organized social behavior are not human inventions. They are not even animal inventions. They are microbial inventions, and the molecular toolkits behind them---quorum-sensing circuits, toxin-immunity systems, programmed cell death---are found across deeply divergent bacterial lineages, suggesting great antiquity.
 
 When we watch a colony of *B. subtilis* split into killers and victims, we are watching a social contract enforced by chemistry: a population-level strategy in which individual sacrifice produces collective survival. When we watch *M. xanthus* swarms hunt prey and build fruiting bodies, we are watching cooperative predation and division of labor---behaviors we associate with wolves and ants, not with single-celled organisms.[^crespi_comparison]
 
-The molecular details differ from anything in the animal world. There are no neurons, no hormones, no immune cells in the mammalian sense. But the functional logic---the game theory, the evolutionary pressures, the tension between cooperation and cheating---is identical. Natural selection does not care whether a social contract is executed by neurons or by transcription factors. It cares only whether the strategy persists.
+The molecular details differ from anything in the animal world. There are no neurons, no hormones, no immune cells in the mammalian sense. But the functional logic---the game theory, the evolutionary pressures, the tension between cooperation and cheating---is analogous. Natural selection does not care whether a social contract is executed by neurons or by transcription factors. It cares only whether the strategy persists.
 
 And these strategies have persisted. The quorum-sensing circuits, the bistable switches, the toxin-immunity systems, the programmed cell death pathways---all of them have been maintained by selection for billions of years, diversified across thousands of lineages, and elaborated into the astonishing variety of microbial social behaviors we observe today.
 
@@ -219,15 +203,15 @@ In the next chapter, we turn from social strategies to the most consequential so
 
 ## Takeaway
 - Bacteria are social organisms: they communicate, cooperate, compete, and make collective "decisions" through chemical signaling.
-- Quorum sensing functions as a distributed voting system, allowing populations to coordinate behavior based on density.
+- Quorum sensing functions as a distributed density-inference system---often described as "voting"---allowing populations to coordinate behavior.
 - *Bacillus subtilis* cannibalism is a population-level survival strategy: bistable circuits split the population, toxin-producing cells kill and consume non-producing siblings, buying time before sporulation.
 - *Myxococcus xanthus* hunts cooperatively and builds multicellular fruiting bodies, with most cells sacrificing themselves so a minority can sporulate.
 - Cellular "decisions" arise from metabolic feedback (ATP/AMP sensing), covalent modification, allosteric regulation, and bistable genetic circuits.
-- Altruism, cooperation, and social behavior are not animal inventions---they are at least three billion years old.
+- Altruism, cooperation, and social behavior are not animal inventions---their molecular toolkits span deeply divergent bacterial lineages, implying deep evolutionary roots.
 
-[^markov_altruism]: For a review of social evolution theory applied to microorganisms -- including cooperation, altruism, and public goods -- see West et al. (2006). [@West2006]
+[^social_evolution]: For a review of social evolution theory applied to microorganisms -- including cooperation, altruism, and public goods -- see West et al. (2006). [@West2006]
 
-[^markov_quorum]: For a comprehensive review of quorum-sensing architectures and their role in coordinating population-level behavior, see Waters and Bassler (2005). [@WatersBassler2005]
+[^quorum_sensing_review]: For a comprehensive review of quorum-sensing architectures and their role in coordinating population-level behavior, see Waters and Bassler (2005). [@WatersBassler2005]
 
 [^ellermeier_cannibalism]: The molecular mechanism of *B. subtilis* cannibalism, including the SdpC/SdpI/SdpR signaling pathway, is detailed in Ellermeier et al. (2006). [@Ellermeier2006]
 
@@ -275,9 +259,11 @@ In the next chapter, we turn from social strategies to the most consequential so
 
 [^monod_allosteric]: The concept of allosteric regulation was formalized by Monod, Changeux, and Jacob (1963), describing how regulatory molecules binding at sites distinct from the active site can modulate enzyme activity. [@MonodChangeuxJacob1963]
 
-[^changeux_allosteric]: Changeux and Edelstein (2005) provide a historical and mechanistic overview of allosteric regulation, from initial models to structural biology. [@ChangeuxEdelstein2005]
+[^hardie_amp]: AMP-activated protein kinase (AMPK) is the master regulator of energy homeostasis in eukaryotes, activated by rising AMP/ATP ratios; see Hardie (2007). In bacteria, energy-charge sensing operates through direct AMP binding to metabolic enzymes rather than through a single master kinase. [@Hardie2007]
 
-[^hardie_amp]: AMP-activated protein kinase (AMPK) is the master regulator of energy homeostasis in eukaryotes, activated by rising AMP/ATP ratios; the bacterial equivalent involves direct AMP binding to metabolic enzymes; see Hardie (2007). [@Hardie2007]
+[^stringent_response]: The stringent response, mediated by (p)ppGpp, is the primary transcriptional reprogramming mechanism bacteria use under nutrient stress. It redirects resources from growth to survival. Hauryliuk et al. (2015) provide a comprehensive review. [@Hauryliuk2015]
+
+[^redfield_qs]: Redfield (2002) argued that quorum sensing may often function as "diffusion sensing" -- measuring how well secreted molecules accumulate locally -- rather than as a true census of cell number. [@Redfield2002]
 
 [^atkinson_energy]: The "energy charge" concept, defined as ([ATP] + 0.5[ADP]) / ([ATP] + [ADP] + [AMP]), was introduced by Atkinson (1968) to describe cellular energy status; AMP is a sensitive indicator because adenylate kinase amplifies small ATP changes. [@Atkinson1968]
 
