@@ -16,9 +16,9 @@ They learned to split water.
 
 To understand why this was catastrophic, you have to understand what oxygen meant to early life. Not what it means to us -- fuel for our mitochondria, the gas we can't live five minutes without -- but what it meant to *them*.
 
-For most ancient forms of life on Earth, oxygen was a dangerous poison.[^oxygen_toxicity] It ripped electrons off proteins. It mangled DNA. It generated reactive molecules (what chemists now call "reactive oxygen species") that shredded cell membranes.[^ros_damage] In a world that had evolved without it, free oxygen was a chemical wrecking ball.
+For most ancient forms of life on Earth, oxygen was a dangerous poison.[^oxygen_toxicity] It ripped electrons off proteins. It mangled DNA. It generated reactive molecules (what chemists now call "reactive oxygen species") that shredded cell membranes.[^ros_damage] In a world that had evolved without it, there was no defense.
 
-Even the cyanobacteria themselves were not comfortable in their own waste. They had invented the machinery to crack water molecules, but they had not yet invented good defenses against the byproduct. Imagine a factory that produces a spectacular new fuel but vents a corrosive gas into its own workshop. That was the cyanobacterial situation.
+Even the cyanobacteria had no good defense against their own byproduct. They had invented the machinery to crack water molecules, but not the enzymes to neutralize the oxygen that resulted.
 
 So why did they do it?
 
@@ -26,7 +26,7 @@ Because the prize was independence. Before oxygenic photosynthesis, every photot
 
 Water, on the other hand, was everywhere.
 
-The thermodynamic payoff of water-splitting outweighed the cost of the toxic byproduct. The result was ecologically devastating: cyanobacteria flooded the environment with a molecule that most other organisms had no defense against. But in the long run, oxygen opened an entirely new energy regime. Without them, Earth would still be a planet of microbes -- and nothing more.
+The payoff was not primarily energetic but ecological: water was everywhere, offering a limitless supply of electrons to any organism that could crack it. The cost was a toxic byproduct. The result was ecologically devastating: cyanobacteria flooded the environment with a molecule that most other organisms had no defense against. But in the long run, oxygen opened an entirely new energy regime. Without them, Earth would still be a planet of microbes -- and nothing more.
 
 ## The ladder of electron donors
 
@@ -34,7 +34,7 @@ The transition from ancient photosynthesis to the water-splitting kind did not h
 
 The chassis is simple in concept: capture a photon of light, use its energy to boost an electron to a higher energy state, then pass that excited electron through a chain of proteins to do useful work. The question is: where does that electron come from in the first place?
 
-In the earliest phototrophs, the electron donors were the easiest molecules to crack open. (The half-reactions below are written as illustrative electron-bookkeeping devices at near-neutral pH; actual in-vivo conditions and coupling partners vary.)
+In the earliest phototrophs, the electron donors were the easiest molecules to crack open. (The half-reactions below are written in standard acid form for electron bookkeeping; actual speciation varies with pH, and in-vivo coupling partners differ.)
 
 [FIGURE: The electron donor ladder. A vertical scale showing standard reduction potential (E0') on the y-axis, with electron donors arranged from easiest to oxidize (top: H2, Fe2+, H2S) to hardest (bottom: H2O). Each donor is labeled with the number of electrons it yields. An arrow at the bottom marks the "water barrier" -- the energy threshold that required two linked photosystems to breach. Caption: "The history of photosynthesis is the history of climbing this ladder. Water was the last rung."]
 
@@ -70,7 +70,7 @@ But for thirty-seven years, no one could find the organism.
 
 The prediction sat in the literature, cited occasionally, regarded as plausible but unconfirmed. Then, in 2007, at the University of Konstanz in Germany, a team of microbiologists ran a patient experiment. They grew photosynthetic bacteria under strictly anoxic conditions -- no oxygen, no sulfide -- and fed them nitrite (NO$_2^-$) as the only available electron donor.[^griffin2007]
 
-For weeks, nothing obvious happened. Then a faint pink color appeared in the culture. Pink is the signature of anoxygenic photosynthesis -- the pigments of purple bacteria absorbing light. And when they measured the chemistry, they found exactly what Olson had predicted: nitrite was being oxidized to nitrate (NO$_3^-$), and the energy was powering photosynthetic growth.
+For weeks, nothing obvious happened. Then a faint pink color appeared in the culture. Pink is the telltale color of purple phototrophs -- bacteriochlorophyll absorbing near-infrared light. And when they measured the chemistry, they found exactly what Olson had predicted: nitrite was being oxidized to nitrate (NO$_3^-$), and the energy was powering photosynthetic growth.
 
 $$\text{NO}_2^- + \text{H}_2\text{O} \longrightarrow \text{NO}_3^- + 2\,\text{H}^+ + 2e^-$$
 
@@ -78,7 +78,7 @@ Thirty-seven years from prediction to confirmation. The organism had been there 
 
 ### The final step: splitting water
 
-With the nitrogen intermediate in place, the full progression becomes visible:
+These known donors can be arranged by oxidation difficulty, though whether evolution climbed them in exactly this order remains uncertain:
 
 $$\text{H}_2 \rightarrow \text{H}_2\text{S} \rightarrow \text{N compounds} \rightarrow \text{H}_2\text{O}$$
 
@@ -196,7 +196,7 @@ Every plant cell that photosynthesizes does so using organelles called chloropla
 
 Sometime between 1.0 and 1.5 billion years ago, a eukaryotic cell engulfed a cyanobacterium and did not digest it.[^endosymbiosis] Instead, over vast stretches of time, the two organisms merged. The cyanobacterium lost most of its genes to the host's nucleus -- stripped of its independence, reduced to an organelle. But it kept the one thing that mattered: the photosynthetic machinery. The water-splitting, oxygen-producing, carbon-fixing apparatus that cyanobacteria had invented a billion years earlier.
 
-Every leaf on every tree, every blade of grass, every strand of kelp in the ocean -- all of them are running cyanobacterial software on cyanobacterial hardware, housed inside eukaryotic cells that provide structure, protection, and logistical support.
+Every leaf on every tree, every blade of grass, every strand of kelp in the ocean -- all of them photosynthesize using the machinery that cyanobacteria invented more than two billion years ago, housed inside eukaryotic cells that provide structure, protection, and nutrient supply.
 
 The cyanobacteria poisoned the world. Then they moved indoors.
 
@@ -244,7 +244,7 @@ The enzyme that fixes nitrogen -- ancient, essential, irreplaceable -- could not
 
 The cyanobacteria themselves were eventually captured, domesticated, and converted into the chloroplasts of every photosynthetic eukaryote on Earth. Their descendants now live inside plant cells, still splitting water, still producing oxygen, still running the same ancient machinery -- but housed, fed, and protected by the organisms that evolved in the world they created.
 
-And the energy surplus that oxygen provided -- the fifteen-fold increase in ATP yield per molecule of food -- made possible the construction of large, complex cells, and eventually large, complex organisms. Every animal alive today runs on aerobic respiration. Every breath you take is a transaction with cyanobacterial legacy.
+And the energy surplus that oxygen provided -- more than an order of magnitude more ATP per molecule of food -- made possible the construction of large, complex cells, and eventually large, complex organisms. Every animal alive today runs on aerobic respiration. Every breath you take is a transaction with cyanobacterial legacy.
 
 The Great Oxidation Event killed much of what lived and confined the survivors to anoxic refugia. Over billions of years, the new redox landscape enabled cells to extract far more energy from their food — enough to build complexity.
 
