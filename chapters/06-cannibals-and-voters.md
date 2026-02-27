@@ -10,7 +10,7 @@ The answer matters for everything that comes later. Eukaryotic cells---the kind 
 
 ## The birth of altruism
 
-From early in life's history, microbes appear to have cooperated---forming groups and collectively performing biochemical tasks that single cells could not sustain alone.[^social_evolution] This is not a theoretical inference drawn from some abstract model of early evolution. It is written in the behavior of modern bacteria, which still carry the molecular toolkits of that ancient social world.
+Cooperative behaviors---shared public goods, coordinated gene expression, programmed cell death that benefits neighbors---are found across deeply divergent bacterial lineages.[^social_evolution] The simplest explanation for that distribution is that cooperation is ancient. It is written in the behavior of modern bacteria, which still carry the molecular toolkits of that social world.
 
 The foundation of microbial social life is chemical communication. Bacteria secrete small molecules into their environment---signals that diffuse outward and are detected by neighboring cells. Through this chemical "dialogue," microorganisms report their condition and influence their neighbors' behavior.[^social_evolution] The signals are not noise. They encode information: *I am starving*. *I am dividing*. *There are many of us here*. *There are few*.
 
@@ -18,7 +18,7 @@ And from these signals, a pattern emerged that looks, functionally, like altruis
 
 That word---altruism---makes biologists nervous when applied to bacteria, and rightly so. A bacterium does not "decide" to be generous. It carries genetic circuits that, under certain conditions, cause it to produce costly public goods, or to die so that its neighbors may feed. The altruism is encoded, not chosen. But the functional outcome is the same: individual cells pay a fitness cost so that the group benefits. And the evolutionary logic that maintains these behaviors is surprisingly sophisticated.
 
-To see how sophisticated, consider a single species that can grow flagella and swim, assemble into packs, communicate by quorum sensing, share public goods, build spore-forming fortresses, and---when all else fails---murder half its own population. That species is *Bacillus subtilis*, and it may be the most versatile social organism on the planet.
+To see how sophisticated, consider a single species that can grow flagella and swim, assemble into packs, communicate by quorum sensing, share public goods, build spore-forming fortresses, and---when all else fails---murder half its own population. That species is *Bacillus subtilis*.
 
 ## *Bacillus subtilis*: the bacterium that does everything
 
@@ -127,7 +127,7 @@ To understand microbial social behavior, we need to understand how a single cell
 
 The machinery that enables these decisions begins with the most fundamental currency of cellular life: **ATP**.
 
-The ATP supply in a typical bacterial cell is on the order of a million molecules---the exact count varies with cell size and growth rate---and the pool turns over on a timescale of seconds.[^karp_atp] A cell does not "have" energy the way a battery has charge. The pool is in dynamic equilibrium, synthesis and consumption matched so tightly that the total count stays roughly constant even as individual molecules are consumed and regenerated within seconds.
+The ATP supply in a typical bacterial cell is on the order of millions of molecules, and the pool turns over on a timescale of seconds---the exact numbers vary with cell size, growth rate, and conditions.[^karp_atp] A cell does not "have" energy the way a battery has charge. The pool is in dynamic equilibrium, synthesis and consumption matched so tightly that the total count stays roughly constant even as individual molecules are consumed and regenerated within seconds.
 
 The cell tunes its enzymes through phosphorylation, allosteric modulation, and feedback inhibition---layered mechanisms that allow it to continuously adjust its metabolic state in response to internal and external signals.[^monod_allosteric] But the key question for our story is how the cell reads its own energy status.
 
