@@ -6,7 +6,7 @@ A population of *Bacillus subtilis* is starving. Instead of dying together, a fr
 
 This chapter is about the social life of microbes. It opens a new part of the book, because we are leaving the physics of energy and electrons behind (temporarily) and asking a different question: **once cells exist and compete, what kinds of relationships do they build?**
 
-The answer matters for everything that comes later. Eukaryotic cells---the kind that eventually built animals, plants, and fungi---did not arise from a single lucky mutation. They arose from mergers, and mergers require a prior social infrastructure: communication, cooperation, exploitation, and occasionally, negotiated truces between former enemies. Before we can tell that story (the next chapter), we need to understand the social world that made it possible.
+The answer matters for everything that comes later. Eukaryotic cells---the kind that eventually built animals, plants, and fungi---did not arise from a single lucky mutation. They arose from mergers, and mergers are easier to stabilize in a world already full of social interactions: communication, exploitation, and occasionally, negotiated truces between former enemies. Before we can tell that story (the next chapter), we need to understand the social world that made it possible.
 
 ## The birth of altruism
 
@@ -40,7 +40,7 @@ Quorum sensing is not a single system. Different bacterial species use different
 3. **Threshold detection**: When the local concentration exceeds a threshold, receptor proteins inside (or on the surface of) each cell become activated.
 4. **Coordinated response**: The activated receptors trigger a transcriptional program that changes the cell's behavior---biofilm formation, toxin production, sporulation, or dozens of other responses.
 
-The elegance is in the coupling: because each cell both produces and detects the signal, the system functions as a distributed sensor for population density. No central authority is needed. The "decision" emerges from the sum of individual contributions, like an election where every ballot is also a ballot counter.
+The elegance is in the coupling: because each cell both produces and detects the signal, the system functions as a distributed sensor for population density. The "decision" emerges from the sum of individual contributions, and no central authority is needed.
 
 The voting metaphor captures the logic of density-dependent coordination but simplifies: real autoinducer concentrations reflect not just cell number but diffusion geometry, flow regime, and the spatial arrangement of producers---what some researchers call "efficiency sensing" rather than quorum sensing.[^redfield_qs]
 :::
@@ -63,7 +63,7 @@ Given this enormous investment of time and energy, it should not surprise us tha
 
 And then, as a penultimate measure---the step just before the final, irreversible commitment to spore formation---it turns to cannibalism.
 
-[FIGURE: The B. subtilis cannibalism decision tree. A population of identical cells (shown as uniform rods) encounters starvation. Spo0A phosphorelay activates stochastically: roughly half the cells cross the threshold (shaded dark, labeled "high Spo0A~P -- toxin producers") and half do not (shaded light, labeled "low Spo0A~P -- victims"). Dark cells secrete SdpC toxin (small dots). Light cells lyse, releasing nutrients (shown as a cloud). Dark cells consume the nutrients and delay sporulation. Caption: "Same genome, same signal, two fates. The stochastic switch is the strategy."]
+[FIGURE: The B. subtilis cannibalism decision tree. A population of identical cells (shown as uniform rods) encounters starvation. Spo0A phosphorelay activates stochastically: a subpopulation of cells crosses the threshold (shaded dark, labeled "high Spo0A~P") and the remainder do not (shaded light, labeled "low Spo0A~P"). Dark cells secrete SdpC toxin (small dots). Light cells lyse, releasing nutrients (shown as a cloud). Dark cells consume the nutrients and delay sporulation. Caption: "Same genome, same signal, two fates. The stochastic switch is the strategy."]
 
 Here is how it works.[^ellermeier_cannibalism]
 
@@ -112,7 +112,7 @@ The resolution involves several mechanisms:
 
 - **Kin selection**: in structured environments (soil, biofilms), cells tend to interact with close relatives. Helping relatives indirectly promotes copies of one's own genes.[^hamilton_kin][^west_kin]
 - **Population structure**: cheaters that destroy the cooperative group they depend on ultimately destroy themselves. In spatially structured environments, cooperative groups can outcompete or outlast cheater-dominated groups.[^griffin_cooperation]
-- **Policing mechanisms**: some cooperative systems include enforcement. In *B. subtilis* cannibalism, for instance, non-cooperators (low-Spo0A cells) are not merely disadvantaged---they are actively killed.[^travisano_policing]
+- **Policing mechanisms**: some cooperative systems include active enforcement against non-kin or non-cooperators---for example, bacteriocins that target competing strains, or contact-dependent inhibition systems that kill unrelated neighbors.[^travisano_policing] (*B. subtilis* cannibalism, by contrast, is better understood as bet-hedging: the "victims" are not cheaters but the other outcome of a stochastic developmental switch.)
 
 The upshot is that microbial cooperation is not naive. It is enforced, policed, and maintained by mechanisms that punish free riders. The "altruism" is real, but it is not unconditional.
 :::
@@ -153,9 +153,9 @@ Both architectures share two properties. First, persistence: once the switch fli
 
 In *B. subtilis* sporulation, the Spo0A phosphorelay exhibits exactly this kind of bistable behavior. Stochastic variation in Spo0A~P levels, amplified by positive feedback, pushes individual cells past the threshold -- or not. The result is a mixed population: some cells with high Spo0A~P (headed for sporulation or cannibalism) and some with low Spo0A~P (destined to be victims or to resume growth if conditions improve).
 
-Bistability explains something that would otherwise be deeply puzzling about the *B. subtilis* cannibalism system. Why does only half the population produce toxin? If starvation is the signal, and all cells are equally starved, why doesn't the entire population activate Spo0A and start killing?
+Bistability explains something that would otherwise be deeply puzzling about the *B. subtilis* cannibalism system. Why does only a fraction of the population produce toxin? If starvation is the signal, and all cells are equally starved, why doesn't the entire population activate Spo0A and start killing?
 
-The answer is that the Spo0A circuit is bistable. Small, random differences in Spo0A~P concentration among individual cells are amplified by positive feedback until the population splits into two distinct subpopulations. This is not a failure of regulation. It is the whole point. The system is designed---evolved---to produce a mixed population in response to a uniform signal, because a mixed population hedges its bets. If conditions improve, the non-sporulating half can resume growth immediately. If conditions worsen, the sporulating half has a head start on spore formation.
+The answer is that the Spo0A circuit is bistable. Small, random differences in Spo0A~P concentration among individual cells are amplified by positive feedback until the population splits into two distinct subpopulations. This is not a failure of regulation. It is the whole point. The system is designed---evolved---to produce a mixed population in response to a uniform signal, because a mixed population hedges its bets. If conditions improve, the non-sporulating cells can resume growth immediately. If conditions worsen, the sporulating fraction has a head start on spore formation.
 
 Bistability shows up far beyond sporulation. It underlies genetic competence (the ability to take up foreign DNA), biofilm formation, motility transitions, and many other developmental switches in bacteria. At a deeper level, it underlies some of the most fundamental decisions in all of biology: the choice between cell division and cell death, the commitment to a particular cell fate during development, the activation of immune responses.[^ferrell_bistable]
 
@@ -191,15 +191,15 @@ When we watch a colony of *B. subtilis* split into killers and victims, we are w
 
 The molecular details differ from anything in the animal world. There are no neurons, no hormones, no immune cells in the mammalian sense. But the functional logic---the game theory, the evolutionary pressures, the tension between cooperation and cheating---is analogous. Natural selection does not care whether a social contract is executed by neurons or by transcription factors. It cares only whether the strategy persists.
 
-And these strategies have persisted. The quorum-sensing circuits, the bistable switches, the toxin-immunity systems, the programmed cell death pathways---all of them have been maintained by selection for billions of years, diversified across thousands of lineages, and elaborated into the astonishing variety of microbial social behaviors we observe today.
+And these strategies have persisted. The quorum-sensing circuits, the bistable switches, the toxin-immunity systems, the programmed cell death pathways---all of them are found across deeply divergent lineages, implying that they have been maintained by selection over vast stretches of time and elaborated into the astonishing variety of microbial social behaviors we observe today.
 
 This has a practical consequence for the rest of the book. When we reach the great mergers described in the next chapter---the endosymbiotic events that produced mitochondria and chloroplasts, the construction of the eukaryotic cell from archaeal and bacterial partners---we will not be describing a sudden, miraculous leap from solitude to cooperation. We will be describing the latest chapter in a social history that was already ancient.
 
-The bacteria had been voting, cooperating, and eating each other for a billion years before the first eukaryote stirred.
+The bacteria had been signaling, cooperating, and consuming each other long before the first eukaryote stirred.
 
 ## Where we go next
 
-In the next chapter, we turn from social strategies to the most consequential social event in the history of life: the merger. One cell swallowing another and, instead of digesting it, keeping it alive. The birth of the eukaryotic cell was not an invention. It was an alliance---forged by organisms that already knew how to cooperate, compete, and kill.
+In the next chapter, we turn from social strategies to the most consequential social event in the history of life: the merger. One cell swallowing another and, instead of digesting it, keeping it alive. The birth of the eukaryotic cell was not an invention. It was an alliance---forged by organisms that already competed, cooperated, and killed.
 
 ## Takeaway
 - Bacteria are social organisms: they communicate, cooperate, compete, and make collective "decisions" through chemical signaling.
