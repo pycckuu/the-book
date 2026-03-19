@@ -18,9 +18,9 @@ The question is: how do you get them?
 
 ## The compartment problem
 
-The answer that evolution found---at least for the two compartments that mattered most---is so strange it took biologists a century to accept it. You do not evolve your power plant or your solar panel from scratch. You swallow another cell and keep it alive inside you.
+The answer that evolution found---at least for the two compartments that mattered most---is so strange it took biologists a century to accept it. You do not evolve your power plant or your solar panel from scratch. One cell takes up residence inside another — and stays.
 
-This is the story of the eukaryotic cell -- the kind of cell that makes up every animal, plant, fungus, and protist on Earth. It is the story of the most consequential merger in the history of life. And it began not with a mutual agreement but with one cell engulfing another.
+This is the story of the eukaryotic cell -- the kind of cell that makes up every animal, plant, fungus, and protist on Earth. It is the story of the most consequential merger in the history of life. And it began not with a mutual agreement but with one cell ending up inside another.
 
 Before we get to the meal, though, we need to understand what the eukaryotic cell actually solved. The word "eukaryote" means "true kernel" -- a reference to the nucleus, the membrane-bound compartment where the genome lives. But the nucleus is only the most visible upgrade. Look inside a eukaryotic cell under an electron microscope and you find a landscape of internal membranes: the endoplasmic reticulum folded into sheets and tubes, the Golgi apparatus stacking its cisternae, lysosomes loaded with digestive enzymes, peroxisomes handling dangerous oxidation reactions, and -- most crucially for our story -- mitochondria and, in photosynthetic lineages, chloroplasts.
 
@@ -51,17 +51,17 @@ The picture that emerges is this: somewhere around 1.8 to 2.2 billion years ago,
 
 That bacterium was an alpha-proteobacterium -- an aerobic organism that could use oxygen to burn organic molecules with extraordinary efficiency. Inside the archaeal host, the swallowed bacterium kept breathing. It kept producing ATP. And over time, what started as a captured meal became something else entirely: a permanent resident, a co-dependent partner, and eventually an organelle.
 
-That organelle is the mitochondrion. Every mitochondrion in every eukaryotic cell on Earth descends from that single, ancient engulfment event.
+That organelle is the mitochondrion. Every mitochondrion in every eukaryotic cell on Earth descends from that single, ancient partnership.
 
 ## The spectrum of integration
 
 The transformation from free-living bacterium to mitochondrion did not happen overnight. It was a long, slow slide from partnership to dependence to irreversible fusion -- a process that took hundreds of millions of years and that we can still watch happening today, frozen at different stages in different organisms.
 
-[FIGURE: The integration spectrum. A horizontal arrow labeled "Independence" on the left and "Organelle" on the right. Four organisms are placed along the spectrum at increasing integration: (1) Ruthia magnifica -- full genome, complete metabolic independence, inside a clam; (2) Elysia chlorotica -- stolen chloroplasts, temporary, non-heritable; (3) Carsonella ruddii -- 160 kb genome, cannot replicate alone; (4) Mitochondrion -- ~16 kb genome, fully integrated organelle. Caption: "The path from symbiont to organelle is a one-way ratchet. Every lost gene tightens the bond."]
+[FIGURE: The integration spectrum. A horizontal arrow labeled "Independence" on the left and "Organelle" on the right. Four organisms are placed along the spectrum at increasing integration: (1) Ruthia magnifica -- full genome, complete metabolic independence, inside a clam; (2) Elysia chlorotica -- stolen chloroplasts, temporary, non-heritable; (3) Carsonella ruddii -- 160 kb genome, cannot replicate alone; (4) Mitochondrion -- ~16 kb genome, fully integrated organelle. Caption: "Genome reduction tightens the bond, but only a handful of symbioses have crossed the threshold to organelle."]
 
 Think of it as a spectrum. At one end, a bacterium lives inside a host cell but retains its full genetic and metabolic independence: it could, in principle, be extracted and grown on its own. At the other end, the bacterium has lost so many genes that it is no longer an organism at all -- it is an organelle, a part of the host, unable to exist independently. Between these extremes lies every shade of partnership, dependence, and dissolution.
 
-The living world is full of symbioses caught at different points on this spectrum. They are windows into the past -- snapshots of the process that produced mitochondria and chloroplasts, still unfolding in real time.
+The living world is full of symbioses caught at different points on this spectrum. They illustrate, at different stages, how symbiotic dependence can deepen -- though only a few have crossed (or will cross) the threshold to true organelle status.
 
 ### The chemist in the dark: *Ruthia magnifica*
 
@@ -144,13 +144,13 @@ In return, the host provided the bacterium with a stable environment and a stead
 
 Over time, the two genomes began to merge. Genes moved from the symbiont to the host nucleus -- a process called endosymbiotic gene transfer that continues to this day in some lineages.[^timmis_transfer] The symbiont shed genes for functions that the host could supply. The host evolved new systems for importing proteins into the symbiont, targeting gene products across the double membrane that still marks the mitochondrion as a descendant of a gram-negative bacterium.
 
-The prokaryotic cells had taken another step towards further strengthening of integration. They merged into a single body, abandoned cellular individuality, and combined their chromosomes into one coordinated genome.[^lane_energetics]
+The two partners became a single body -- though not a single genome. The mitochondrion retained a small chromosome of its own, encoding core components of the electron transport chain, while the host nucleus took over the bulk of the regulatory and biosynthetic instructions.[^lane_energetics]
 
 The result was a new kind of cell. A cell with internal membranes. A cell with a nucleus. A cell with a dedicated energy-producing organelle. A cell that could grow large, because the mitochondria distributed throughout its cytoplasm provided ATP wherever it was needed, breaking the surface-area-to-volume constraint that keeps prokaryotic cells small.
 
 This was the birth of the eukaryotic cell.
 
-Why did this matter for cell size? Prokaryotic cells generate ATP at their cell membrane. As a cell grows larger, its volume (which determines energy demand) increases as the cube of its radius, while its membrane surface area (which determines ATP supply) increases only as the square.[^lane_energetics] Large prokaryotic cells face an energy crisis: demand outpaces supply. Mitochondria solve this by internalizing the energy-producing membranes. A eukaryotic cell can increase its volume and simply add more mitochondria, each with its own chemiosmotic membrane. The internal membrane surface area scales with volume, not with the cell's external surface. The merger did not just add a metabolic capability. It removed a fundamental architectural constraint.[^lane_power]
+Why did this matter for cell size? Prokaryotic cells generate ATP at their cell membrane. As a cell grows larger, its volume (which determines energy demand) increases as the cube of its radius, while its membrane surface area (which determines ATP supply) increases only as the square.[^lane_energetics] In an influential model proposed by Lane and Martin, large prokaryotic cells face an energy bottleneck: demand outpaces supply. Mitochondria solve this by internalizing the energy-producing membranes. A eukaryotic cell can increase its volume and simply add more mitochondria, each with its own chemiosmotic membrane. The internal membrane surface area scales with volume, not with the cell's external surface. If this model is correct, the merger did not just add a metabolic capability -- it relaxed a fundamental constraint on cell size and genomic complexity.[^lane_power]
 
 And then it happened again.
 
@@ -213,14 +213,14 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 ## Takeaway
 
 - Prokaryotic cells are limited by having essentially one or two internal compartments; eukaryotic cells solve this with internal membranes that create many separate reaction chambers.
-- The eukaryotic cell arose from a merger: an archaeal host (likely related to the Asgard archaea) engulfed an alpha-proteobacterium that became the mitochondrion; chloroplasts arose from a later engulfment of a cyanobacterium.
+- The eukaryotic cell arose from a merger: an archaeal host (likely related to the Asgard archaea) acquired an alpha-proteobacterial partner that became the mitochondrion; chloroplasts arose from a later engulfment of a cyanobacterium.
 - Living symbioses -- from *Ruthia* (early, genome intact) to *Carsonella* (late, genome nearly gone) -- show snapshots of the same trajectory that produced organelles: partnership, gene loss, irreversible dependence.
 - Hydrothermal vent ecosystems demonstrate that symbiosis between autotrophs and heterotrophs can sustain entire communities in the absence of sunlight.
 - The creative force behind the most consequential innovations in the history of life -- eukaryotic cells, photosynthetic eukaryotes, multicellularity -- was integration -- the merging of independently evolved capabilities -- not competition alone.
 
 [^markov_compartment]: Markov (2010) notes that prokaryotic cells are limited to one or two compartments (cytoplasm and periplasmic space), constraining the complexity of chemistry they can perform simultaneously. [@Markov2010]
 
-[^spang_loki]: Spang et al. (2015) reported the discovery of *Lokiarchaeota* from deep-sea sediments at Loki's Castle hydrothermal vent field; the genome revealed eukaryotic signature proteins (ESPs) including actin homologs, suggesting phagocytic capacity. [@Spang2015]
+[^spang_loki]: Spang et al. (2015) reported the discovery of *Lokiarchaeota* from deep-sea sediments at Loki's Castle hydrothermal vent field; the genome revealed eukaryotic signature proteins (ESPs) including actin homologs, including actin homologs involved in membrane remodeling in eukaryotes. [@Spang2015]
 
 [^zaremba_asgard]: The Asgard superphylum includes *Lokiarchaeota*, *Thorarchaeota*, *Odinarchaeota*, and *Heimdallarchaeota*, all named after Norse deities; see Zaremba-Niedzwiedzka et al. (2017). [@ZarembaNiedzwiedzka2017]
 
