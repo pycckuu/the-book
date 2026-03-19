@@ -49,7 +49,7 @@ These archaea, dubbed *Lokiarchaeota*, carried genes that no one expected to fin
 
 The picture that emerges is this: somewhere around 1.8 to 2.2 billion years ago, an archaeal cell -- perhaps something like *Lokiarchaeota*, perhaps a close relative -- took a step that prokaryotes had been building toward for billions of years.[^parfrey_timing][^betts_timing] It may have been able to reshape its membrane using actin-like scaffolding. How the association with the bacterium began -- whether by engulfment, by the archaeon extending membrane protrusions around it, or by the bacterium invading -- remains one of the open questions in evolutionary biology.[^imachi_mka] However it started, the bacterium was not digested.
 
-That bacterium was an alpha-proteobacterium -- an aerobic organism that could use oxygen to burn organic molecules with extraordinary efficiency. Inside the archaeal host, the swallowed bacterium kept breathing. It kept producing ATP. And over time, what started as a captured meal became something else entirely: a permanent resident, a co-dependent partner, and eventually an organelle.
+That bacterium was an alpha-proteobacterium -- an aerobic organism that could use oxygen to burn organic molecules with extraordinary efficiency. Inside the archaeal host, the bacterium kept breathing. It kept producing ATP. And over time, what started as a captured meal became something else entirely: a permanent resident, a co-dependent partner, and eventually an organelle.
 
 That organelle is the mitochondrion. Every mitochondrion in every eukaryotic cell on Earth descends from that single, ancient partnership.
 
@@ -122,9 +122,7 @@ The story of *Ruthia* is not an isolated curiosity. At hydrothermal vents and co
 
 ## The pattern
 
-A pattern runs through every example in this chapter. It is the same at every scale, in every environment, repeated across billions of years:
-
-**Partnership forms. Integration deepens. Independence erodes. What was once a relationship between two organisms becomes a single organism with a complex interior.**
+A thread runs through these examples, though not a single trajectory. In every case, a partnership formed. In some, integration deepened and independence eroded until the boundary between host and symbiont blurred. In others -- lichens, kleptoplasts -- the partners remain distinct, the arrangement stable or temporary. **The pattern is not a conveyor belt from symbiont to organelle. It is a landscape of possibilities, most of which stop well short of that destination.**
 
 *Ruthia* still has a complete genome. *Carsonella* has lost most of hers. Mitochondria have transferred the vast majority of their genes to the host nucleus and retained only a handful -- just enough to build the core machinery of the electron transport chain, the very apparatus that made the partnership worthwhile in the first place. Chloroplasts tell the same story: once free-living cyanobacteria, now organelles with shrunken genomes, dependent on the host for most of their proteins.
 
@@ -146,7 +144,7 @@ Over time, the two genomes began to merge. Genes moved from the symbiont to the 
 
 The two partners became a single body -- though not a single genome. The mitochondrion retained a small chromosome of its own, encoding core components of the electron transport chain, while the host nucleus took over the bulk of the regulatory and biosynthetic instructions.[^lane_energetics]
 
-The result was a new kind of cell. A cell with internal membranes. A cell with a nucleus. A cell with a dedicated energy-producing organelle. A cell that could grow large, because the mitochondria distributed throughout its cytoplasm provided ATP wherever it was needed, breaking the surface-area-to-volume constraint that keeps prokaryotic cells small.
+The result was a new kind of cell -- one with a dedicated energy-producing organelle distributed throughout its cytoplasm, providing ATP wherever it was needed.
 
 This was the birth of the eukaryotic cell.
 
@@ -204,7 +202,7 @@ Your mitochondria replicate independently of your cell's division cycle. They ha
 
 If you eat a salad, the chloroplasts in the lettuce leaves tell the same story from a different chapter. They too carry their own circular DNA. They too have bacterial ribosomes. They too descend, in an unbroken line, from a cyanobacterium that was swallowed and never released.
 
-You are, quite literally, a community. Not a metaphorical community -- an actual one. Your cells are chimeras: archaeal information systems running on bacterial power plants, enclosed in membranes whose lipid chemistry reflects both lineages. The merger is not something that happened to a distant ancestor. It is something that is still happening, right now, in every cell, in the continuous conversation between your nuclear genome and your mitochondrial genome, in the import of proteins across the mitochondrial membranes, in the division of mitochondria within your cells.
+You are, quite literally, a community. Not a metaphorical community -- an actual one. Your cells are chimeras: archaeal information systems running on bacterial power plants. The merger is not something that happened to a distant ancestor. It is something that is still happening, right now, in every cell, in the continuous conversation between your nuclear genome and your mitochondrial genome, in the import of proteins across the mitochondrial membranes, in the division of mitochondria within your cells.
 
 Two billion years ago, two prokaryotes merged. They abandoned cellular individuality. They combined their capabilities into a single body. And from that body came everything that followed: the algae, the plants, the fungi, the worms, the clams, the insects, the fish, the mammals, and -- eventually, improbably -- the chemist who now has all the test tubes she needs.
 
@@ -214,7 +212,7 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 
 - Prokaryotic cells are limited by having essentially one or two internal compartments; eukaryotic cells solve this with internal membranes that create many separate reaction chambers.
 - The eukaryotic cell arose from a merger: an archaeal host (likely related to the Asgard archaea) acquired an alpha-proteobacterial partner that became the mitochondrion; chloroplasts arose from a later engulfment of a cyanobacterium.
-- Living symbioses -- from *Ruthia* (early, genome intact) to *Carsonella* (late, genome nearly gone) -- show snapshots of the same trajectory that produced organelles: partnership, gene loss, irreversible dependence.
+- Living symbioses -- from *Ruthia* (early, genome intact) to *Carsonella* (late, genome nearly gone) -- illustrate stages of symbiotic integration -- partnership, gene loss, deepening dependence -- though organellogenesis itself has occurred only a few times.
 - Hydrothermal vent ecosystems demonstrate that symbiosis between autotrophs and heterotrophs can sustain entire communities in the absence of sunlight.
 - The creative force behind the most consequential innovations in the history of life -- eukaryotic cells, photosynthetic eukaryotes, multicellularity -- was integration -- the merging of independently evolved capabilities -- not competition alone.
 
