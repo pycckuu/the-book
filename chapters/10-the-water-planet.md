@@ -2,7 +2,7 @@
 title: "The Water Planet"
 ---
 
-Roughly 90% of Chinese cities face some degree of groundwater contamination.[^zheng2016] In a country where 70% of drinking water comes from groundwater, that number translates to a public health emergency measured in hundreds of millions of people.[^zheng2016_detail]
+Groundwater contamination affects a large share of Chinese cities, and many northern urban systems still depend heavily on groundwater for municipal supply.[^zheng2016] That combination turns water quality into a national public-health problem.
 
 The planet has the same amount of water it has always had. What we are running out of is *clean* water -- water whose chemistry is compatible with human life, agriculture, and the ecosystems we depend on. Philippe Van Cappellen, an ecohydrologist at the University of Waterloo who has spent decades studying how water moves through landscapes and what happens to contaminants along the way, puts it plainly: "Degradation of water quality is probably the most pervasive, global threat to human health and human prosperity."[^vancappellen2016]
 
@@ -10,7 +10,7 @@ And the irony, for a book that has spent nine chapters describing how microbes b
 
 ## The scale of the crisis
 
-The problem is not confined to places with obvious industrial pressure. Canada, a country that most people associate with pristine wilderness and unlimited fresh water, carries its own version of the disease. Van Cappellen is blunt about this: there is a "perception that there is so much fresh water we don't need to worry."[^vancappellen2016] The perception is wrong. Canada holds roughly 20 percent of the world's fresh surface water, but much of it is not renewable or accessible on human timescales.[^canada_water] Southern Ontario, Saskatchewan, and Southern Alberta all face measurable groundwater contamination -- from agriculture, from resource extraction, from the slow accumulation of nutrients and chemicals that seep downward through soil that was never designed to filter them at the rates we impose. Even Lake Erie -- the most studied body of fresh water on the continent -- harbors a surprise: the phosphorus fueling its algal blooms does not come only from rivers. Coastal bluffs erode into the lake, and decades-old sediments keep releasing phosphorus back into the water column. Together, these in-lake sources account for roughly a quarter of the total phosphorus budget.[^bocaniov2023]
+The problem is not confined to places with obvious industrial pressure. Canada, a country that most people associate with pristine wilderness and unlimited fresh water, carries its own version of the disease. Van Cappellen is blunt about this: there is a "perception that there is so much fresh water we don't need to worry."[^vancappellen2016] The perception is wrong. Canada may have access to as much as 20 percent of the world's stock of surface freshwater, but most Canadians live in the south, where only a minority of the country's renewable freshwater is found.[^canada_water] Water-quality pressures still accumulate where people, farms, and industry concentrate. Even Lake Erie -- the most studied body of fresh water on the continent -- harbors a surprise: the phosphorus fueling its algal blooms does not come only from rivers. Coastal bluffs erode into the lake, and decades-old sediments keep releasing phosphorus back into the water column. Together, these in-lake sources account for roughly a quarter of the total phosphorus budget.[^bocaniov2023]
 
 The field that studies these problems has a name: ecohydrology. And it has undergone its own quiet revolution. Where it once focused on natural ecosystems -- how water moves through forests, wetlands, and pristine aquifers -- it has shifted to what Van Cappellen calls "socio-ecological systems where humans are an integral part." The pristine system is increasingly a fiction. Humans are not an external perturbation to the water cycle. We are in it, at every scale, from the nitrogen we spread on fields to the pharmaceuticals that pass through our bodies and into the sewage stream and on into rivers and groundwater.
 
@@ -24,7 +24,7 @@ Water treatment is the same problem.
 
 A contaminated aquifer is a reactor. The contaminants are electron donors or acceptors (or both). The indigenous microbial community is the catalyst. The question "Will this aquifer clean itself?" is the same question we have been asking about sediments since Chapter 8: What reactions are thermodynamically favorable? Are they kinetically accessible? Can transport deliver reactants and remove products fast enough to sustain the process? The same logic extends to the coast, where groundwater seeping through sediments into the ocean carries nutrient loads that in some regions rival what rivers deliver -- a hidden flux, underground and invisible, governed by the same redox reactions we have been studying throughout this book.[^slomp2004] Submarine groundwater discharge can contribute as much nitrogen and phosphorus to coastal zones as all riverine inputs combined in some regions.[^slomp2004_detail]
 
-Van Cappellen sees this clearly: "Gaining understanding at a fundamental level on how natural processes eliminate contaminants from the environment can lead to development of new green technologies or engineered environments for water treatment and conservation."
+Van Cappellen sees this clearly: "Gaining understanding at a fundamental level on how natural processes eliminate contaminants from the environment can lead to development of new green technologies or engineered environments for water treatment and conservation."[^vancappellen2016]
 
 The key phrase is "at a fundamental level." And here is the book's third claim, stated plainly: **water treatment underperforms when it ignores the geomicrobiology — when the biology in the system is treated as a black box rather than a mechanism.**
 
@@ -34,7 +34,7 @@ The geomicrobiology approach starts from the other end. It asks: what organisms 
 
 The distinction determines whether your model works when conditions change, when the system is perturbed, when prediction matters.
 
-And the payoff is not merely academic: "If we can increase the availability of clean water, we can automatically generate economic prosperity." This is the observation that water scarcity is a binding constraint on development in much of the world, and that relaxing that constraint has cascading effects on agriculture, industry, health, and political stability.
+And the payoff is not merely academic: "If we can increase the availability of clean water, we can automatically generate economic prosperity."[^vancappellen2016] This is the observation that water scarcity is a binding constraint on development in much of the world, and that relaxing that constraint has cascading effects on agriculture, industry, health, and political stability.
 
 Canada, Van Cappellen argues, is uniquely positioned. It has both the water resources and the research community -- the people who understand the fundamental science -- to become a frontrunner in water technology. Whether it will is a different question, and one that depends on whether the science gets translated into engineering practice.
 
@@ -102,13 +102,13 @@ We are not there yet. As Arndt and colleagues noted, the mechanistic understandi
 
 Van Cappellen's argument about Canada is worth pausing on, because it illustrates how basic science connects to practical outcomes.
 
-Canada has roughly 20% of the world's fresh surface water (though a smaller fraction is actually renewable and accessible). It has a large and active water research community -- universities, government laboratories, environmental consultancies. And it faces water quality challenges that, while less dramatic than China's in scale, are serious and growing: agricultural contamination in the prairies, legacy industrial contamination in the Great Lakes basin, emerging contaminants (pharmaceuticals, microplastics, PFAS) everywhere.
+Canada may have access to as much as 20% of the world's stock of surface freshwater, though its renewable supply is much smaller and geographically uneven.[^canada_water] It has a large and active water research community -- universities, government laboratories, environmental consultancies. And it faces water quality challenges that, while less dramatic than China's in scale, are serious and growing: agricultural contamination, legacy industrial contamination, and emerging contaminants (pharmaceuticals, microplastics, PFAS).
 
 The scientific tools to address these challenges exist. RTMs can predict contaminant fate. Microbial ecology can identify the organisms doing the work. Geochemistry can characterize the reactions. Isotope proxies can track the sources.
 
 What is often missing is the integration -- the step from understanding individual processes to predicting whole-system behavior. That integration is exactly what RTMs are designed to provide, and it is the integration step that makes RTMs useful.
 
-"If we can increase the availability of clean water, we can automatically generate economic prosperity." Van Cappellen's statement is simple, but the science behind it is not. It requires understanding microbial metabolism (Chapters 3--5), formulating it mathematically (Chapter 8), predicting community behavior (Chapter 9), and applying the models to real systems (this chapter). The chain from fundamental science to societal benefit is long, but every link is necessary.
+"If we can increase the availability of clean water, we can automatically generate economic prosperity."[^vancappellen2016] Van Cappellen's statement is simple, but the science behind it is not. It requires understanding microbial metabolism (Chapters 3--5), formulating it mathematically (Chapter 8), predicting community behavior (Chapter 9), and applying the models to real systems (this chapter). The chain from fundamental science to societal benefit is long, but every link is necessary.
 
 ## The 4.5-billion-year operating manual
 
@@ -140,21 +140,19 @@ The bacterium is still down there, still dividing, still confessing what life re
 
 [^leal2015]: A. M. M. Leal, M. J. Blunt, and T. C. LaForce, "A Chemical Kinetics Algorithm for Geochemical Modelling," *Applied Geochemistry* (2015). [@Leal2015]
 
-[^bocaniov2023]: S. A. Bocaniov, D. Scavia, and P. Van Cappellen, "Long-Term Phosphorus Mass-Balance of Lake Erie (Canada-USA) Reveals a Major Contribution of In-Lake Phosphorus Loading," *Ecological Informatics* (2023). [@Bocaniov2023]
+[^bocaniov2023]: S. A. Bocaniov, D. Scavia, and P. Van Cappellen, "Long-Term Phosphorus Mass-Balance of Lake Erie (Canada-USA) Reveals a Major Contribution of In-Lake Phosphorus Loading," *Ecological Informatics* 77 (2023): 102131. [@Bocaniov2023]
 
-[^slomp2004]: C. P. Slomp and P. Van Cappellen, "Nutrient Inputs to the Coastal Ocean through Submarine Groundwater Discharge: Controls and Potential Impact," *Journal of Hydrology* (2004). [@Slomp2004]
+[^slomp2004]: C. P. Slomp and P. Van Cappellen, "Nutrient Inputs to the Coastal Ocean through Submarine Groundwater Discharge: Controls and Potential Impact," *Journal of Hydrology* 295 (2004): 64--86. [@Slomp2004]
 
-[^vancappellen1996]: P. Van Cappellen and Y. Wang, "Cycling of Iron and Manganese in Surface Sediments: A General Theory for the Coupled Transport and Reaction of Carbon, Oxygen, Nitrogen, Sulfur, Iron, and Manganese," *American Journal of Science* (1996). [@VanCappellen1996]
+[^vancappellen1996]: P. Van Cappellen and Y. Wang, "Cycling of Iron and Manganese in Surface Sediments: A General Theory for the Coupled Transport and Reaction of Carbon, Oxygen, Nitrogen, Sulfur, Iron, and Manganese," *American Journal of Science* 296 (1996): 197--243. [@VanCappellen1996]
 
-[^zheng2016]: Chunmiao Zheng et al., "Towards Integrated Groundwater Management in China," in *Integrated Groundwater Management: Concepts, Approaches and Challenges*, ed. A. J. Jakeman et al. (Springer, 2016), 455--475. Groundwater quality surveys by China's Ministry of Land and Resources documented contamination across the majority of monitored cities. [@Zheng2016]
-
-[^zheng2016_detail]: The scale of China's groundwater crisis reflects both rapid industrialization and a regulatory framework that has historically prioritized economic growth over environmental protection. Recent reforms aim to reverse this trajectory, but legacy contamination persists.
+[^zheng2016]: Chunmiao Zheng et al., "Towards Integrated Groundwater Management in China," in *Integrated Groundwater Management: Concepts, Approaches and Challenges*, ed. A. J. Jakeman et al. (Springer, 2016), 455--475. Zheng et al. review China's groundwater-management challenge, emphasizing both heavy urban dependence on groundwater -- especially in the north -- and widespread contamination documented by national monitoring programs. [@Zheng2016]
 
 [^vancappellen2016]: Philippe Van Cappellen, interview with Research2Reality, "Clean Water Knows No Boundaries" (2016). All Van Cappellen quotes in this chapter are from this interview and related public lectures at the University of Waterloo. [@VanCappellen2016interview]
 
 [^wehrli2013]: Bernhard Wehrli, "Biogeochemistry: Conduits of the carbon cycle," *Nature* 503 (2013): 346--347. [@Wehrli:2013fv]
 
-[^canada_water]: Canada's vast water resources are unevenly distributed -- much of the accessible fresh water is in the north, while most population and agricultural demand is in the south. Climate change is altering both availability and quality across the country.
+[^canada_water]: Statistics Canada, *Freshwater Supply and Demand in Canada* (2010). Statistics Canada notes that Canada may have access to as much as 20% of the world's stock of surface freshwater, but that 98% of Canadians live in the south, which accounts for only 38% of the country's renewable freshwater. [@StatsCan2010Water]
 
 [^slomp2004_detail]: Caroline P. Slomp and Philippe Van Cappellen, "Nutrient inputs to the coastal ocean through submarine groundwater discharge: Controls and potential impact," *Journal of Hydrology* 295 (2004): 64--86. Submarine groundwater discharge is now recognized as a major, previously underappreciated pathway for delivering nutrients and contaminants to coastal waters. [@Slomp2004]
 

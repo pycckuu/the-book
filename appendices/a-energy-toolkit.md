@@ -8,7 +8,7 @@ This appendix collects two sets of tools referenced throughout the book. Section
 
 ## A.1 Linearizing the Michaelis-Menten curve: Lineweaver-Burk
 
-The Michaelis-Menten equation is a hyperbola, which can be awkward to fit by eye. In 1934, Hans Lineweaver and Dean Burk showed that taking the reciprocal of both sides converts it to a straight line:
+The Michaelis-Menten equation is a hyperbola, which can be awkward to fit by eye. In 1934, Hans Lineweaver and Dean Burk showed that taking the reciprocal of both sides converts it to a straight line [@Lineweaver1934]:
 
 $$
 \frac{1}{V} = \frac{K_m}{V_{\max}} \cdot \frac{1}{[\text{S}]} + \frac{1}{V_{\max}}
@@ -20,11 +20,11 @@ Plot $1/V$ against $1/[\text{S}]$ and you get a line with:
 - **x-intercept** = $-1/K_m$
 - **slope** = $K_m/V_{\max}$
 
-This is the Lineweaver-Burk (or double-reciprocal) plot. It was historically important because it allowed $K_m$ and $V_{\max}$ to be extracted from experimental data using a ruler and graph paper. Modern curve-fitting software has made the graphical method less necessary, but the plot remains a powerful diagnostic tool because different types of inhibition produce visually distinct patterns.
+This is the Lineweaver-Burk (or double-reciprocal) plot. It was historically important because it allowed $K_m$ and $V_{\max}$ to be extracted from experimental data using a ruler and graph paper. Modern curve-fitting software has made the graphical method less necessary, but the plot remains a powerful diagnostic tool because different types of inhibition produce visually distinct patterns [@Nelson2017].
 
 ## A.2 Competitive inhibition
 
-A competitive inhibitor is a molecule that resembles the substrate closely enough to bind the active site but cannot be catalyzed. While the inhibitor occupies the active site, the substrate is locked out. The effect: the enzyme appears to have a higher $K_m$ (it needs more substrate to reach half-saturation) but $V_{\max}$ is unchanged -- if you add enough substrate, you can always outcompete the inhibitor.
+A competitive inhibitor is a molecule that resembles the substrate closely enough to bind the active site but cannot be catalyzed. While the inhibitor occupies the active site, the substrate is locked out. The effect: the enzyme appears to have a higher $K_m$ (it needs more substrate to reach half-saturation) but $V_{\max}$ is unchanged -- if you add enough substrate, you can always outcompete the inhibitor [@Nelson2017].
 
 On a Lineweaver-Burk plot, competitive inhibition changes the slope and x-intercept but leaves the y-intercept ($1/V_{\max}$) unchanged. The lines pivot around the y-axis.
 
@@ -32,7 +32,7 @@ On a Lineweaver-Burk plot, competitive inhibition changes the slope and x-interc
 
 A non-competitive inhibitor binds at a site other than the active site (an allosteric site), distorting the enzyme's shape so that catalysis is impaired whether or not substrate is bound. The effect: $V_{\max}$ decreases (fewer functional enzyme molecules) but $K_m$ is unchanged.
 
-The inhibitor dissociation constant is:
+The inhibitor dissociation constant is [@Nelson2017]:
 
 $$
 K_I = \frac{[\text{E}][\text{I}]}{[\text{EI}]}
@@ -46,11 +46,11 @@ $$
 
 The second factor is a simple scaling term: it multiplies the uninhibited rate by the fraction of enzyme molecules not bound to inhibitor.
 
-On a Lineweaver-Burk plot, non-competitive inhibition changes the slope and y-intercept but leaves the x-intercept ($-1/K_m$) unchanged. The lines pivot around the x-axis.
+On a Lineweaver-Burk plot, non-competitive inhibition changes the slope and y-intercept but leaves the x-intercept ($-1/K_m$) unchanged. The lines pivot around the x-axis [@Nelson2017].
 
 ## A.4 Irreversible inhibition
 
-Some inhibitors form covalent bonds with the enzyme, permanently inactivating it. These are not governed by equilibrium binding constants; the effect is time-dependent and cumulative. Many toxins and pharmaceutical drugs work this way -- aspirin, for instance, irreversibly acetylates cyclooxygenase.
+Some inhibitors form covalent bonds with the enzyme, permanently inactivating it. These are not governed by equilibrium binding constants; the effect is time-dependent and cumulative. Many toxins and pharmaceutical drugs work this way -- aspirin, for instance, irreversibly acetylates cyclooxygenase [@Nelson2017].
 
 ## A.5 pH and temperature optima
 
@@ -59,13 +59,13 @@ Every enzyme has a pH and temperature at which it works best. Deviate too far in
 - **Temperature**: increasing temperature raises the kinetic energy of molecules, generally speeding reactions. But proteins are only marginally stable. Beyond the optimum, the enzyme begins to denature -- its three-dimensional structure unfolds, and the active site geometry is lost. The rate curve rises, peaks, then crashes. For most mesophilic enzymes the peak is near 35--40 degrees C. For thermophilic enzymes from hot-spring archaea, the peak can exceed 80 degrees C.
 - **pH**: active-site residues have ionizable groups (histidine, glutamate, lysine) that must be in the correct protonation state for catalysis. Shifting the pH protonates or deprotonates these groups, disrupting substrate binding or transition-state stabilization. Most intracellular enzymes are optimized near pH 7, but enzymes in extreme environments (stomach acid, soda lakes) have shifted optima.
 
-These optima are not arbitrary. They are the result of evolutionary tuning to the conditions the organism actually encounters. Reconstructed ancestral protein sequences suggest thermophilic origins (optimum temperatures of ~60--70°C), with mesophilic optima (~35--37°C) appearing later — though the inference depends on the reconstruction method and remains debated [@Gaucher2008].
+These optima are not arbitrary. They are the result of evolutionary tuning to the conditions the organism actually encounters [@Nelson2017]. Reconstructed ancestral protein sequences suggest thermophilic origins (optimum temperatures of ~60--70°C), with mesophilic optima (~35--37°C) appearing later -- though the inference depends on the reconstruction method and remains debated [@Gaucher2008].
 
 # Geochemical Estimation Tools
 
 ## A.6 The NOSC: a simple proxy for energy content
 
-In 2011, Douglas LaRowe and Philippe Van Cappellen showed that the energetic content of organic compounds scales, to a useful approximation, with a single number: the Nominal Oxidation State of Carbon (NOSC).
+In 2011, Douglas LaRowe and Philippe Van Cappellen showed that the energetic content of organic compounds scales, to a useful approximation, with a single number: the Nominal Oxidation State of Carbon (NOSC) [@LaRowe2011].
 
 The empirical relation is:
 
@@ -73,7 +73,7 @@ $$
 \Delta G_{\text{Cox}}^0 = 60.3 - 28.5 \times \text{NOSC}
 $$
 
-where $\Delta G_{\text{Cox}}^0$ is the standard Gibbs energy of the oxidation half reaction in kJ per mole of carbon.
+where $\Delta G_{\text{Cox}}^0$ is the standard Gibbs energy of the oxidation half reaction in kJ per mole of carbon [@LaRowe2011].
 
 The general oxidation half reaction for organic matter is:
 
