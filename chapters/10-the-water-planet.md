@@ -26,7 +26,7 @@ A contaminated aquifer is a reactor. The contaminants are electron donors or acc
 
 Van Cappellen sees this clearly: "Gaining understanding at a fundamental level on how natural processes eliminate contaminants from the environment can lead to development of new green technologies or engineered environments for water treatment and conservation."
 
-The key phrase is "at a fundamental level." And here is the book's third claim, stated plainly: **water quality is a geomicrobiology problem, and we underperform when we treat it as a pure engineering problem.**
+The key phrase is "at a fundamental level." And here is the book's third claim, stated plainly: **water treatment underperforms when it ignores the geomicrobiology — when the biology in the system is treated as a black box rather than a mechanism.**
 
 The traditional engineering approach to water treatment works like this: characterize the contaminant, design a treatment system, specify operating parameters, build it, run it. The parameters are fixed. The biology is a black box -- you know bacteria are doing something in your bioreactor, but you do not model them as adaptive organisms with thermodynamic constraints. You model them as rate constants. Modern practice has moved well beyond this in many settings, but the black-box legacy persists in enough applications that the problem is real. When conditions change -- a new contaminant arrives, the temperature shifts, the redox environment evolves -- the model breaks, because the rate constants were calibrated for the old conditions and the black box has reorganized itself inside.
 
@@ -82,7 +82,7 @@ Water quality is not a standalone problem. It is entangled with energy (because 
 
 The major greenhouse gases — CO$_2$, methane, nitrous oxide — are all connected to water through microbial metabolism. Wetlands are methane sources. Agricultural runoff is a nitrous oxide source. The ocean is the largest CO$_2$ sink. And all of these fluxes are mediated, at the molecular level, by microbial metabolism operating on the same thermodynamic and kinetic principles we have been developing throughout this book.
 
-An RTM for a contaminated aquifer and a global carbon cycle model are not different kinds of science. They are the same science at different scales. The conservation equation is the same. The rate expressions are conceptually the same (though parameterized differently). The challenge of coupling fast and slow processes is the same. The role of biology as the catalyst that makes thermodynamically favorable reactions actually happen -- the same.
+An RTM for a contaminated aquifer and a global carbon cycle model share the same intellectual scaffolding: conservation equations, rate expressions, and the challenge of coupling fast and slow processes. The practical models differ — in parameterization, spatial resolution, and the biology they resolve — but the underlying logic is the same. In both cases, biology is the catalyst that makes thermodynamically favorable reactions actually happen.
 
 This is the payoff of the physics-first approach we have taken. By grounding everything in energy, transport, and kinetics, we have built a framework that is portable. It works in a sediment core. It works in a treatment wetland. It works in a global climate model. The microbes change, the minerals change, the timescales change -- but the principles do not.
 
@@ -122,7 +122,7 @@ That feedback loop has been running for at least 3.8 billion years. It oxygenate
 
 The 4.5-billion-year story we have told is not just history. It is the operating manual for the planet we live on.
 
-The microbes that built this world are still running it. They process more carbon, cycle more nitrogen, reduce more sulfate, and produce more methane than all human industry combined.[^wehrli2013] The deep subsurface biosphere alone may contain biomass comparable to all surface life -- a hidden world operating on geological timescales.[^subsurface_biomass] They operate in the dark, in the cold, in conditions that would kill anything larger. And they respond to thermodynamic and kinetic constraints with a precision that, once you learn to read it, looks almost like engineering.
+The microbes that built this world are still running it. They process more carbon, cycle more nitrogen, reduce more sulfate, and produce more methane than all human industry combined.[^wehrli2013] The deep subsurface biosphere alone may harbor several billion tons of carbon in microbial biomass — a hidden world, operating on geological timescales, whose total mass rivals that of all surface-dwelling prokaryotes.[^magnabosco2018] They operate in the dark, in the cold, in conditions that would kill anything larger. And they respond to thermodynamic and kinetic constraints with a precision that, once you learn to read it, looks almost like engineering.
 
 Understanding them is not optional. It is not a curiosity for specialists. It is essential -- for predicting climate, for managing water, for designing treatment systems that work with biology rather than against it.
 
@@ -164,4 +164,4 @@ The jar of mud is still sitting on the shelf. It is still confessing. The questi
 
 [^leal2015_stiff]: Allan M. M. Leal, Martin J. Blunt, and Tara C. LaForce, "A chemical kinetics algorithm for geochemical modelling," *Applied Geochemistry* 55 (2015): 46--61. [@Leal2015]
 
-[^subsurface_biomass]: Estimates of deep subsurface biomass remain uncertain, but compilations suggest it rivals the total biomass of all plants, or all animals, on Earth's surface -- a staggering reservoir of slow-living microbial life in rock pores and fractures.
+[^magnabosco2018]: Cara Magnabosco et al., "The biomass and biodiversity of the continental subsurface," *Nature Geoscience* 11 (2018): 707--717. [@Magnabosco2018]
