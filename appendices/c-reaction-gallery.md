@@ -16,7 +16,7 @@ $$
 
 $\Delta G^\circ = -475$ kJ/mol
 
-Yields 15--18 times more ATP per glucose molecule than any anaerobic pathway (Chapter 5). In sediments, aerobic respiration consumes oxygen within the top millimeters to centimeters, creating the anoxic zone below (Chapter 8).
+Yields roughly an order of magnitude more ATP per glucose molecule than anaerobic pathways (Chapter 5). In sediments, aerobic respiration consumes oxygen within the top millimeters to centimeters, creating the anoxic zone below (Chapter 8).
 
 ## C.2 Denitrification
 
@@ -96,7 +96,7 @@ $$
 
 $\Delta G^\circ = -36$ kJ/mol
 
-Methanogens operate on the thinnest energy margins of any heterotrophic metabolism. They lose the competition for hydrogen and acetate wherever sulfate is available, which is why methanogenesis dominates only below the sulfate depletion zone (Chapter 9).
+Methanogens operate on the thinnest energy margins of any major anaerobic metabolism. They lose the competition for hydrogen and acetate wherever sulfate is available, which is why methanogenesis dominates only below the sulfate depletion zone (Chapter 9).
 
 ## C.7 Anaerobic Methane Oxidation (AOM)
 

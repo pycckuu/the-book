@@ -7,7 +7,7 @@ A field guide to the organisms that appear in this book.
 ***Ferroplasma acidiphilum***
 - **Habitat**: Acidic, iron-rich environments; originally discovered in a bioreactor at a metallurgical plant in Tula, Russia
 - **Metabolism**: Iron oxidation (Fe$^{2+}$ to Fe$^{3+}$); no cell wall, just a membrane
-- **Claim to fame**: May represent an accidentally preserved remnant of Earth's earliest iron-based metabolism. Its proteins are unusually iron-rich, its metabolic pathways simple and centered on iron chemistry, and its lifestyle closely matches conditions in the microcavities of pyrite crystals on the early Earth. The metallurgical plant in Tula accidentally recreated iron-age conditions -- and *Ferroplasma* was still there, running the same ancient chemistry.
+- **Claim to fame**: Sometimes cited as a possible analog for early iron-based metabolism. Its proteins are unusually iron-rich and its metabolic pathways are centered on iron chemistry. Whether this reflects genuinely ancient features or convergent adaptation to modern acidic iron-rich environments is unresolved.
 - **Key citation**: Golyshina et al. (2000) [@Golyshina2000]; Ferrer et al. (2007) [@Ferrer2007]
 - **Appears in**: Appendix C
 

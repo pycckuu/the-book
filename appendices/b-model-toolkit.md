@@ -128,19 +128,21 @@ $$
 r_X = \mu_{\max}\,\frac{S}{K + S} \cdot X
 $$
 
-## B.5 Partial equilibrium
+## B.5 Mineral dissolution/precipitation rate laws
 
-When aqueous reactions are much faster than mineral reactions, the partial equilibrium assumption replaces stiff differential equations with algebraic constraints for the fast reactions [@Leal2015]:
+Mineral reactions are commonly expressed using transition-state theory (TST) rate laws [@Leal2015]:
 
 $$
 r = k \cdot a_i \left(1 - \frac{Q}{K}\right)
 $$
 
-With possible adjustments near equilibrium:
+where $k$ is the rate constant, $a_i$ is the activity of a catalytic or inhibiting species, $Q$ is the ion activity product, and $K$ is the equilibrium constant. When $Q/K < 1$ the mineral dissolves; when $Q/K > 1$ it precipitates. Near-equilibrium behavior can be adjusted with empirical exponents:
 
 $$
 r = k \cdot a_i \left[\left(1 - \frac{Q}{K}\right)^\xi\right]^\nu
 $$
+
+When aqueous speciation reactions are much faster than mineral reactions, modelers sometimes replace the fast aqueous reactions with algebraic equilibrium constraints (the partial-equilibrium assumption), solving only the slower mineral kinetics as differential equations.
 
 ## B.6 Software and tools
 

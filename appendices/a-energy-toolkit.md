@@ -59,7 +59,7 @@ Every enzyme has a pH and temperature at which it works best. Deviate too far in
 - **Temperature**: increasing temperature raises the kinetic energy of molecules, generally speeding reactions. But proteins are only marginally stable. Beyond the optimum, the enzyme begins to denature -- its three-dimensional structure unfolds, and the active site geometry is lost. The rate curve rises, peaks, then crashes. For most mesophilic enzymes the peak is near 35--40 degrees C. For thermophilic enzymes from hot-spring archaea, the peak can exceed 80 degrees C.
 - **pH**: active-site residues have ionizable groups (histidine, glutamate, lysine) that must be in the correct protonation state for catalysis. Shifting the pH protonates or deprotonates these groups, disrupting substrate binding or transition-state stabilization. Most intracellular enzymes are optimized near pH 7, but enzymes in extreme environments (stomach acid, soda lakes) have shifted optima.
 
-These optima are not arbitrary. They are the result of evolutionary tuning to the conditions the organism actually encounters. The thermal record preserved in reconstructed ancestral proteins -- 60--70 degrees C for the earliest life, cooling to 35--37 degrees C for modern mesophiles -- is precisely the evolutionary shift in temperature optimum, tracked across billions of years.
+These optima are not arbitrary. They are the result of evolutionary tuning to the conditions the organism actually encounters. Reconstructed ancestral protein sequences suggest thermophilic origins (optimum temperatures of ~60--70°C), with mesophilic optima (~35--37°C) appearing later — though the inference depends on the reconstruction method and remains debated [@Gaucher2008].
 
 # Geochemical Estimation Tools
 
@@ -91,7 +91,7 @@ where $Z$ is the net charge of the organic compound, and $a, b, c, d, e, f$ are 
 
 The NOSC spectrum runs from fully reduced (methane, CH$_4$, NOSC = $-4$) to fully oxidized (carbon dioxide, CO$_2$, NOSC = $+4$). A molecule with a low NOSC is energy-rich: it has many electrons to give away. A molecule with a high NOSC is energy-spent: its carbon has already been stripped.
 
-As Arndt et al. noted: "NOSC has the advantage that it does not require structural information to estimate energetic potential of complex natural organic matter." This makes it particularly useful for the complex, heterogeneous mixtures of natural organic matter found in sediments and soils, where detailed structural characterization is often impossible.
+As Arndt et al. noted: "NOSC has the advantage that it does not require structural information to estimate energetic potential of complex natural organic matter" [@Arndt2013]. This makes it particularly useful for the complex, heterogeneous mixtures of natural organic matter found in sediments and soils, where detailed structural characterization is often impossible.
 
 ## A.7 Isotope fractionation as a biosignature
 
