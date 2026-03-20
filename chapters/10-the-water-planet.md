@@ -122,7 +122,7 @@ That feedback loop has been running for at least 3.8 billion years. It oxygenate
 
 The 4.5-billion-year story we have told is not just history. It is the operating manual for the planet we live on.
 
-The microbes that built this world are still running it. They mediate the bulk of Earth's carbon, nitrogen, and sulfur cycling.[^wehrli2013] The deep subsurface biosphere alone may harbor several billion tons of carbon in microbial biomass — a hidden world, operating on geological timescales, whose total mass rivals that of all surface-dwelling prokaryotes.[^magnabosco2018] They operate in the dark, in the cold, in conditions that would kill anything larger. And they respond to thermodynamic and kinetic constraints with a precision that, once you learn to read it, looks almost like engineering.
+The microbes that built this world are still running it. They are central to Earth's carbon cycle[^wehrli2013] and participate in the cycling of nitrogen, sulfur, and most other biologically active elements. The deep subsurface biosphere alone may harbor several billion tons of carbon in microbial biomass — a hidden world operating on geological timescales.[^magnabosco2018] They operate in the dark, in the cold, in conditions that would kill anything larger. And they respond to thermodynamic and kinetic constraints with a precision that, once you learn to read it, looks almost like engineering.
 
 Understanding them is not optional. It is not a curiosity for specialists. It is essential -- for predicting climate, for managing water, for designing treatment systems that work with biology rather than against it.
 
@@ -131,8 +131,8 @@ The jar of mud is still sitting on the shelf. It is still confessing. The questi
 ## Takeaway
 
 - Degradation of water quality is among the most pervasive global threats to human health and prosperity, affecting both developing nations (China's groundwater crisis) and wealthy ones (Canada's complacency about contamination).
-- The same microbial processes that shaped Earth's atmosphere and sediment chemistry over billions of years are the processes that can clean contaminated water -- if we understand them well enough.
-- The greenhouse gases that drive climate change — CO$_2$, CH$_4$, N$_2$O — are all cycled by the same microbial processes that govern water quality. Water, carbon, and climate are coupled through shared biology.
+- The microbial processes that shaped Earth's atmosphere and sediment chemistry over billions of years are among the processes that can clean contaminated water -- if we understand them well enough.
+- The greenhouse gases that drive climate change — CO$_2$, CH$_4$, N$_2$O — are connected to water quality through shared biogeochemistry. Microbial metabolism is not the whole story in every budget, but it appears on one side or the other of each.
 - Reaction-transport models bridge the gap between mechanistic understanding and system-level prediction, but require better integration of microbial ecology and organic matter chemistry to fulfill their potential.
 - The partial equilibrium approach -- treating fast aqueous reactions as algebraic constraints while solving slow mineral reactions kinetically -- is a practical computational strategy with deep physical justification.
 
