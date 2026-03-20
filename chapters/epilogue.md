@@ -37,11 +37,11 @@ Information without work is a library with no readers. Work without information 
 
 This book began with quantum mechanics and ended with planetary engineering. The same physics operates at every scale.
 
-The same $\Delta G$ that governs electron transfer in a hydrogen atom governs whether a bacterial community three kilometers underground will thrive or slowly starve. The same Michaelis-Menten kinetics that describe the saturation curve of a single purified enzyme describe the metabolism of entire ecosystems when you aggregate billions of cells. The same conservation equation that tracks a solute diffusing through a sediment column tracks carbon moving through the global ocean.
+The same $\Delta G$ that governs electron transfer in a hydrogen atom governs whether a bacterial community three kilometers underground will thrive or slowly starve. The same Michaelis-Menten kinetics that describe the saturation curve of a single purified enzyme describe the metabolism of entire ecosystems when you aggregate billions of cells. The same conservation law that tracks a solute diffusing through a sediment column applies to carbon moving through the global ocean — though the transport operators and boundary conditions change substantially.
 
-The rules do not change. Only the scale changes.
+The underlying physics does not change. The models built on it must.
 
-This is not a simplification. It is an empirical observation, and it is the reason that reaction-transport models work at all. If the physics changed with scale -- if microbial communities invented new thermodynamics -- then every model we built would be an ad hoc curve fit. The fact that they are not, that a model calibrated on porewater sulfate in one fjord can make useful predictions in another, is evidence that the non-equilibrium framework is not just a metaphor. It is the actual mechanism.
+This is not a simplification. It is an empirical observation, and it is the reason that reaction-transport models are portable at all. If the physics changed with scale -- if microbial communities invented new thermodynamics -- then every model would be an ad hoc curve fit. The fact that a model calibrated on porewater sulfate in one fjord can make useful predictions in another — even if recalibration is needed — is evidence that the non-equilibrium framework is not just a metaphor. It is the actual mechanism.
 
 We moved through that framework in five stages:
 
@@ -51,7 +51,7 @@ We moved through that framework in five stages:
 
 *Part III: The Great Mergers* traced how competition, cooperation, and endosymbiosis produced the cellular architectures we see today. Syntrophy turned out to be not an exotic curiosity but a dominant strategy: organisms that cannot survive alone thriving in partnerships where one's waste is another's fuel.
 
-*Part IV: The Equation* built the mathematical machinery: the conservation equation, the transport operators, the rate expressions. One equation, applied at every scale from a sediment pore to the global ocean -- the same mathematical object, with only the parameters changing.
+*Part IV: The Equation* built the mathematical machinery: the conservation equation, the transport operators, the rate expressions. One conservation framework, applied from a sediment pore to the global ocean — the same accounting principle, with different transport operators at each scale.
 
 *Part V: The Hidden World and the Future* brought the story to the present: the deep biosphere, groundwater redox, water treatment, and the open questions that define the frontier of the field.
 
@@ -77,19 +77,19 @@ These are not footnotes. They are the frontier.
 
 The title of this book is a statement of fact. Microbes built the oxygen atmosphere. They regulate the carbon cycle. They mediate the transformation of minerals, the cycling of nitrogen, the fate of sulfur. They created the chemical conditions that made complex life possible, and they continue to maintain those conditions today.
 
-But "invisible architects" is also an invitation to shift perspective. We tend to think of the living world as the part we can see: forests, animals, coral reefs. The actual biological engine of the planet is invisible. It lives in sediment pores, in deep aquifers, in the fractures of basalt kilometers below the seafloor, in the thin films of water coating soil grains. By some estimates, the subsurface biomass rivals the surface biomass.[^magnabosco2018] These organisms are not waiting to be discovered as curiosities. They are running the geochemistry that makes the surface habitable.[^falkowski2008]
+But "invisible architects" is also an invitation to shift perspective. We tend to think of the living world as the part we can see: forests, animals, coral reefs. The actual biological engine of the planet is invisible. It lives in sediment pores, in deep aquifers, in the fractures of basalt kilometers below the seafloor, in the thin films of water coating soil grains. By some estimates, the continental subsurface alone harbors several billion tons of carbon in microbial biomass — comparable to all surface-dwelling prokaryotes.[^magnabosco2018] These organisms are not waiting to be discovered as curiosities. They are running the geochemistry that makes the surface habitable.[^falkowski2008]
 
 ## Three claims
 
 This book has made three claims, nested from the microscopic to the planetary.
 
-First: microbial communities satisfice. They do not optimize growth rate, energy yield, or community structure. They find strategies that cover maintenance costs under local thermodynamic and kinetic constraints, and they hold those strategies until the constraints change. This is why redox zones are fuzzy, why "losing" metabolisms coexist with "winning" ones, and why laboratory rate constants consistently overpredict field rates. The organisms are not underperforming. They are doing exactly what satisficing predicts: the minimum that works.
+First: microbial communities appear to satisfice. They do not optimize growth rate, energy yield, or community structure. They find strategies that cover maintenance costs under local thermodynamic and kinetic constraints, and they hold those strategies until the constraints change. This framework explains fuzzy redox boundaries, the coexistence of "losing" metabolisms, and the gap between laboratory rate constants and field rates. How far the satisficing lens extends — whether it can predict responses to novel perturbations, or whether richer theory is needed — remains an open question (see above). But as a first-order description of what microbial communities actually do, it fits the data better than optimization does.
 
-Second: the conservation equation is scale-invariant. The same mathematical object -- $\partial C / \partial t = -\partial F / \partial x + \Sigma R_i$ -- describes a sediment pore, a treatment wetland, a regional aquifer, and the global ocean. This is not analogy. The equation is identical at every scale; only the parameters change. Reaction-transport models work precisely because the physics does not reinvent itself at new scales. There is no "ecosystem thermodynamics" separate from "molecular thermodynamics." There is only thermodynamics.
+Second: the conservation framework carries across scales. The same accounting principle -- accumulation equals net flux plus net reaction -- applies to a sediment pore, a treatment wetland, a regional aquifer, and the global ocean. The transport operators, boundary conditions, and closure terms change with each setting, but the underlying logic does not. Reaction-transport models work because the physics does not reinvent itself at new scales. There is no "ecosystem thermodynamics" separate from "molecular thermodynamics." There is only thermodynamics.
 
-Third: water quality is a geomicrobiology problem. The same organisms, reactions, and constraints that oxygenated the Archean atmosphere, that cycle sulfur through sediments, that maintain the deep biosphere on maintenance energy alone -- these are the organisms and reactions that clean contaminated groundwater. We fail at prediction not because the science is missing, but because we treat the biology as a black box with fixed parameters instead of as an adaptive community under thermodynamic constraints. The fix is not more data. It is better theory -- the kind of theory this book has tried to provide.
+Third: water treatment underperforms when it ignores the geomicrobiology. The same organisms, reactions, and constraints that oxygenated the Archean atmosphere, that cycle sulfur through sediments, that maintain the deep biosphere on maintenance energy alone -- these are the organisms and reactions that clean contaminated groundwater. Better data will always matter. But data alone cannot fix the problem if the biology is modeled as a black box with fixed parameters rather than as an adaptive community under thermodynamic constraints. The theory in this book is one piece of what is needed.
 
-These three claims are not separate arguments. They are one argument at three scales. Satisficing explains the biology. Scale invariance explains the math. And the water crisis is what happens when we ignore both.
+These three claims are not separate arguments. They are one argument at three scales. Satisficing describes the biology. The conservation framework explains the math. And the water crisis is sharpened when we ignore both.
 
 The invisible architects have not retired. They are still at work -- in every grain of sediment, every drop of groundwater, every square centimeter of your skin. They preceded oxygen, eukaryotes, animals, and thought — and they will outlast us.
 
@@ -121,6 +121,6 @@ The question is whether we will make the effort to understand them.
 
 [^steefel2005]: Carl I. Steefel, Donald J. DePaolo, and Peter C. Lichtner, "Reactive Transport Modeling: An Essential Tool and a New Research Approach for the Earth Sciences," *Earth and Planetary Science Letters* 240 (2005): 539–558. [@Steefel2005]
 
-[^magnabosco2018]: Cara Magnabosco et al., "The Biomass and Biodiversity of the Continental Subsurface," *Nature Geoscience* 11 (2018): 707–717. Subsurface biomass may rival surface biomass globally. [@Magnabosco2018]
+[^magnabosco2018]: Cara Magnabosco et al., "The Biomass and Biodiversity of the Continental Subsurface," *Nature Geoscience* 11 (2018): 707–717. Estimated 2–6 Gt C of prokaryotic biomass in the continental subsurface. [@Magnabosco2018]
 
 [^falkowski2008]: Paul G. Falkowski, Tom Fenchel, and Edward F. Delong, "The Microbial Engines That Drive Earth's Biogeochemical Cycles," *Science* 320 (2008): 1034–1039. Microbes process more carbon than all human industry combined. [@Falkowski2008]
