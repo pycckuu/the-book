@@ -16,7 +16,7 @@ A field guide to the organisms that appear in this book.
 ***Candidatus* Desulforudis audaxviator**
 - **Habitat**: Fracture water in deep gold mines, South Africa, 2.8 km below the surface
 - **Metabolism**: Sulfate reduction with H$_2$ (from radiolysis); fixes CO$_2$ and N$_2$
-- **Claim to fame**: The most isolated organism known -- dominant member of a single-species ecosystem sealed from the surface for at least 20 million years. Has no genes for oxygen use or defense.
+- **Claim to fame**: Among the most isolated organisms known -- dominant member of a community (with ~25 other species) in fracture water sealed from the surface for millions of years. Carries minimal genes for oxygen defense (a lone superoxide dismutase but no catalase or peroxidase).
 - **Key citation**: Chivian et al. (2008), *Science* [@Chivian2008]
 - **Appears in**: Chapter 9
 
@@ -34,7 +34,7 @@ A field guide to the organisms that appear in this book.
 ***Bacillus subtilis***
 - **Habitat**: Soil, plant roots, biofilms
 - **Metabolism**: Aerobic heterotroph (versatile; also ferments)
-- **Claim to fame**: The most socially complex bacterium documented. Communicates via quorum sensing, forms biofilms, and under starvation activates a cannibalism circuit (SdpC toxin) that kills half the population to feed the survivors, delaying sporulation.
+- **Claim to fame**: Among the most socially complex bacteria documented. Communicates via quorum sensing, forms biofilms, and under starvation activates a cannibalism circuit (SdpC toxin) that kills a fraction of the population to feed the survivors, delaying sporulation.
 - **Key citation**: Ellermeier et al. (2006), *Journal of Bacteriology* [@Ellermeier2006]
 - **Appears in**: Chapter 6
 
@@ -85,9 +85,9 @@ A field guide to the organisms that appear in this book.
 
 ---
 
-***Elysia viridis***
-- **Habitat**: Shallow coastal waters of Europe; feeds on algae
-- **Metabolism**: Steals functional chloroplasts from algae and incorporates them into its own digestive cells -- a temporary, non-heritable photosynthesis
-- **Claim to fame**: A living thought experiment for how chloroplast acquisition might have begun. Each generation must acquire chloroplasts anew by feeding. Demonstrates that the boundary between predation and symbiosis can be crossed in a single meal.
-- **Key citation**: Provorov & Dolgikh (2005) [@provorov2005metabolic]
+***Elysia chlorotica***
+- **Habitat**: Tidal marshes and shallow coastal waters of eastern North America; feeds on algae
+- **Metabolism**: Steals functional chloroplasts from the alga *Vaucheria litorea* and retains them in its own digestive cells -- a temporary, non-heritable photosynthesis (kleptoplasty)
+- **Claim to fame**: A living thought experiment for how chloroplast acquisition might have begun. Each generation must acquire chloroplasts anew by feeding. The chloroplasts likely persist on their own long-lived proteins and mRNAs rather than on transferred genes.
+- **Key citation**: Rumpho et al. (2008) [@Rumpho2008]
 - **Appears in**: Chapter 7

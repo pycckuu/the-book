@@ -78,7 +78,7 @@ Sulfate reducers dominated the deep biosphere before the Great Oxidation Event a
 
 ## C.6 Methanogenesis
 
-Carbon dioxide as terminal electron acceptor -- the bottom of the redox ladder for heterotrophic respiration.
+Carbon dioxide as terminal electron acceptor -- the bottom of the redox ladder. Methanogenesis is not heterotrophic respiration but a distinct anaerobic metabolism performed exclusively by archaea.
 
 Hydrogenotrophic methanogenesis (Chapter 4):
 
@@ -221,7 +221,7 @@ A mixture of H$_2$ and Cl$_2$ can sit indefinitely at room temperature (kinetica
 The energy source for the deep biosphere (Chapter 9):
 
 $$
-\text{H}_2\text{O} \xrightarrow{\text{radiation}} \text{H}_2 + \text{H}_2\text{O}_2
+2\text{H}_2\text{O} \xrightarrow{\text{radiation}} 2\text{H}_2 + \text{O}_2
 $$
 
 Uranium and thorium decay in crustal rocks splits water molecules, producing H$_2$ that sustains microbial communities kilometers below the surface -- independent of photosynthesis.

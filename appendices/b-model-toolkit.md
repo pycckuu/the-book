@@ -90,11 +90,13 @@ where $k_{\text{cat}}$ is the turnover number, $[E]$ is enzyme concentration, an
 
 ### Thermodynamic factor
 
+In its simplest schematic form:
+
 $$
-F_T = \frac{1}{\exp\!\left(\frac{\Delta G_r + F\,\Delta\Psi}{RT}\right) + 1}
+F_T = \frac{1}{\exp\!\left(\frac{\Delta G_r}{RT}\right) + 1}
 $$
 
-This factor smoothly transitions from 1 (far from equilibrium) to 0 (at equilibrium), preventing reactions from proceeding past their thermodynamic limit [@Jin2005; @Regnier2011].
+When $\Delta G_r$ is large and negative (far from equilibrium), $F_T \approx 1$. At $\Delta G_r = 0$, this expression gives $F_T = 1/2$, not zero. The full Jin-Bethke treatment adds a term for the energy the cell conserves per reaction (the number of ATPs synthesized), shifting the effective equilibrium threshold into negative $\Delta G_r$ territory so that $F_T$ drops to near zero well before thermodynamic equilibrium [@Jin2005; @Regnier2011]. See Chapter 8 for discussion.
 
 ### Temperature dependence (Arrhenius)
 
