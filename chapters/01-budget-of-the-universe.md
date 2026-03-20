@@ -2,7 +2,7 @@
 title: "The Budget of the Universe"
 ---
 
-Three kilometers below the surface of South Africa, in rock sealed from sunlight for perhaps twenty million years, a bacterium called *Candidatus* Desulforudis audaxviator may divide as rarely as once per century. Its energy source is hydrogen gas, produced atom by atom as uranium in the surrounding rock decays. Its electron acceptor is sulfate, trapped in mineral inclusions since the Archean. The reaction releases just enough free energy to synthesize a handful of ATP molecules---just barely enough to copy a genome, repair a membrane, and divide.[^lin2006_deep]
+2.8 kilometers below the surface of South Africa, in rock sealed from sunlight for perhaps twenty million years, a bacterium called *Candidatus* Desulforudis audaxviator may divide as rarely as once per century. Its energy source is hydrogen gas, produced atom by atom as uranium in the surrounding rock decays. Its electron acceptor is sulfate, trapped in mineral inclusions since the Archean. The reaction releases just enough free energy to synthesize a handful of ATP molecules---just barely enough to copy a genome, repair a membrane, and divide.[^lin2006_deep]
 
 This organism runs on one of the thinnest energy budgets yet measured in the biosphere. To understand how it survives---how *any* microbe survives---you need to understand what "energy budget" means. That requires physics. Not all of physics. Just the rules that govern what reactions can happen, how much energy they release, and why some reactions proceed while others, equally favorable on paper, sit frozen until the right catalyst arrives.
 
@@ -22,7 +22,7 @@ Schrödinger also made a second, remarkably prescient prediction. He argued that
 
 This chapter is about the first half of Schrödinger's insight: the energy rules. Before there was life, before there was an ocean, before there was a planet with liquid water, there were the laws of thermodynamics and quantum mechanics. These laws---discovered in European laboratories with hydrogen atoms, metal plates, and vacuum tubes---constrain every chemical reaction, every metabolic pathway, and every living organism.
 
-They are the budget of the universe---the same rules that keep *D. audaxviator* alive three kilometers underground, harvesting hydrogen atoms released one at a time by radioactive decay.
+They are the budget of the universe---the same rules that keep *D. audaxviator* alive 2.8 kilometers underground, harvesting hydrogen atoms released one at a time by radioactive decay.
 
 ## Energy in packets
 
@@ -38,7 +38,7 @@ $$
 
 Here $\nu$ is the frequency of the radiation and $h$ is a new constant of nature, now called Planck's constant ($h \approx 6.626 \times 10^{-34}$ J$\cdot$s).[^codata2018] The constant is extraordinarily small, which is why the graininess of energy is invisible in everyday life. But at atomic and molecular scales, it is everything.
 
-A chlorophyll molecule absorbs red light at around 680 nm because the energy of a red photon ($E = h\nu = hc/\lambda$) matches a specific electronic transition in chlorophyll.[^blankenship_680] A photon of slightly lower energy, in the infrared, cannot make that jump. A photon of much higher energy, in the ultraviolet, would overshoot and cause damage. The quantization of energy is why biology runs on specific wavelengths and not on a continuous smear. Cyanobacteria---the microbes that invented oxygenic photosynthesis roughly 2.5 billion years ago---exploit exactly this specificity. Their chlorophyll absorbs red photons at 680 nm because that is where the electronic transition sits; a few nanometers in either direction and the reaction center would be blind.
+A chlorophyll molecule absorbs red light at around 680 nm because the energy of a red photon ($E = h\nu = hc/\lambda$) matches a specific electronic transition in chlorophyll.[^blankenship_680] A photon of slightly lower energy, in the infrared, cannot make that jump. A photon of much higher energy, in the ultraviolet, would overshoot and cause damage. The quantization of energy is why biology runs on specific wavelengths and not on a continuous smear. Cyanobacteria---the microbes that invented oxygenic photosynthesis roughly 3 billion years ago---exploit exactly this specificity. Their chlorophyll absorbs red photons at 680 nm because that is where the electronic transition sits; a few nanometers in either direction and the reaction center would be blind.
 
 Five years after Planck's proposal, Albert Einstein pushed the idea further. He showed that light itself behaves as a stream of particles---photons---each carrying exactly one quantum of energy $E = h\nu$. His evidence came from the photoelectric effect: when light strikes a metal surface, it can knock electrons free, but only if each individual photon carries enough energy to overcome the binding force that holds the electron in the metal.[^einstein1905] Below a threshold frequency, nothing happens---no matter how bright the light. Above it, electrons fly out immediately. The energy of the ejected electrons increases linearly with the frequency of the incoming light, exactly as $E = h\nu$ predicts. Einstein received the Nobel Prize for this work in 1921, not for relativity.
 
@@ -212,9 +212,9 @@ Planck showed that energy comes in packets. Einstein showed that light carries t
 
 Gibbs, working half a century before quantum mechanics, already had the thermodynamic framework: enthalpy minus the entropy term gives you the free energy. With the reaction quotient $Q$ adjusting for local conditions, you can calculate the energy available from any reaction in any environment.
 
-The rules they uncovered---quantized energy, Gibbs free energy, chemical equilibrium---are the same rules that govern every metabolic reaction in every living cell that has ever existed. They governed the first autocatalytic cycles in hydrothermal vents 4 billion years ago.[^martinrussell2003] They govern the sulfate-reducing bacteria 3 kilometers underground in a South African gold mine today.[^lin2006_deep] Evolution operates within the Second Law, not outside it. Natural selection can explore an enormous space of molecular strategies, but every strategy must close the Gibbs ledger: find a reaction with $\Delta G < 0$ under local conditions, harvest that energy, and export the resulting entropy.
+The rules they uncovered---quantized energy, Gibbs free energy, chemical equilibrium---are the same rules that govern every metabolic reaction in every living cell that has ever existed. They governed the first autocatalytic cycles in hydrothermal vents 4 billion years ago.[^martinrussell2003] They govern the sulfate-reducing bacteria 2.8 kilometers underground in a South African gold mine today.[^lin2006_deep] Evolution operates within the Second Law, not outside it. Natural selection can explore an enormous space of molecular strategies, but every strategy must close the Gibbs ledger: find a reaction with $\Delta G < 0$ under local conditions, harvest that energy, and export the resulting entropy.
 
-*D. audaxviator*, three kilometers underground, obeys every rule in this chapter. So does every other organism we will meet. The rules were set before the first cell divided.
+*D. audaxviator*, 2.8 kilometers underground, obeys every rule in this chapter. So does every other organism we will meet. The rules were set before the first cell divided.
 
 ## Takeaway
 

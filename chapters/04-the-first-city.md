@@ -197,7 +197,7 @@ These simplifications are not errors. They are deliberate trades: we sacrifice r
 
 [^stromatolite_formation]: Stromatolite formation involves microbial trapping and binding of sediment particles combined with precipitation of calcium carbonate, often induced by photosynthetic CO$_2$ consumption that raises local pH and shifts carbonate equilibrium. [@DesMarais2003]
 
-[^oldest_stromatolites]: The oldest widely accepted stromatolites are from the ~3.48 Ga Dresser Formation (Pilbara, Western Australia). Abigail C. Allwood et al., "Stromatolite Reef from the Early Archaean Era of Australia," *Nature* 441 (2006): 714--718. [@Allwood2006]
+[^oldest_stromatolites]: Among the oldest well-preserved Archean stromatolites are those from the ~3.43 Ga Strelley Pool Formation (Pilbara, Western Australia). Abigail C. Allwood et al., "Stromatolite Reef from the Early Archaean Era of Australia," *Nature* 441 (2006): 714--718. [@Allwood2006]
 
 [^stromatolite_biosignatures]: Biosignatures in ancient stromatolites include lamination patterns consistent with photosynthetic growth cycles, carbon isotope fractionation indicative of autotrophy, and morphologies difficult to produce abiotically. [@Schopf2006]
 

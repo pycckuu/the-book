@@ -2,7 +2,7 @@
 title: "Appendix C — Reaction Gallery"
 ---
 
-This appendix collects the key biogeochemical reactions referenced throughout the book. Reactions are organized by the redox ladder -- from the most energetically favorable electron acceptors to the least -- followed by chemolithotrophic metabolisms, photosynthesis, and abiotic reference reactions. All $\Delta G^\circ$ values are for standard conditions (25°C, 1 atm, unit activities) unless noted. Under environmental conditions, actual $\Delta G$ values differ according to $\Delta G = \Delta G^\circ + RT \ln Q$ (Chapter 1).
+This appendix collects the key biogeochemical reactions referenced throughout the book. Reactions are organized by the redox ladder -- from the most energetically favorable electron acceptors to the least -- followed by chemolithotrophic metabolisms, photosynthesis, and abiotic reference reactions. Standard-state values are reported at 25°C and 1 atm. Most entries use $\Delta G^\circ$; where the main text uses the biochemical standard state at pH 7, values are written as $\Delta G^{\circ\prime}$. Under environmental conditions, actual $\Delta G$ values differ according to $\Delta G = \Delta G^\circ + RT \ln Q$ (Chapter 1).
 
 The organic matter in heterotrophic reactions is represented as CH$_2$O (formaldehyde), the simplest reduced carbon compound. Real organic matter has variable composition and oxidation state; the NOSC framework (Appendix A) provides a way to estimate energy content for arbitrary organic molecules.
 
@@ -72,7 +72,7 @@ $$
 4\text{H}_2 + \text{SO}_4^{2-} + 2\text{H}^+ \rightarrow \text{H}_2\text{S} + 4\text{H}_2\text{O}
 $$
 
-$\Delta G^\circ = -152$ kJ/mol
+$\Delta G^{\circ\prime} = -152$ kJ/mol
 
 Sulfate reduction is ancient, though how widespread it was before the Great Oxidation Event — when ocean sulfate concentrations were far lower — remains debated. In modern marine sediments, where sulfate is abundant (~28 mM in seawater), sulfate reducers are major players. The sulfate-methane transition zone, where sulfate reduction meets methanogenesis, is one of the most studied features in porewater geochemistry (Chapter 8).
 
@@ -86,7 +86,7 @@ $$
 4\text{H}_2 + \text{CO}_2 \rightarrow \text{CH}_4 + 2\text{H}_2\text{O}
 $$
 
-$\Delta G^\circ = -131$ kJ/mol
+$\Delta G^{\circ\prime} = -131$ kJ/mol
 
 Acetoclastic methanogenesis:
 
@@ -214,7 +214,7 @@ $$
 
 $\Delta G^\circ = -191$ kJ/mol
 
-A mixture of H$_2$ and Cl$_2$ can sit indefinitely at room temperature (kinetically inhibited), but a single photon of the right wavelength triggers an explosive chain reaction. Thermodynamics says "yes"; kinetics says "not yet."
+A mixture of H$_2$ and Cl$_2$ can sit indefinitely at room temperature (kinetically inhibited), but a single photon of the right wavelength triggers an explosive chain reaction. Chapter 1 estimated the reaction enthalpy from bond energies (~$-184$ kJ/mol); the standard Gibbs energy is slightly more negative. Thermodynamics says "yes"; kinetics says "not yet."
 
 ### Radiolytic hydrogen production
 

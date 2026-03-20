@@ -14,7 +14,7 @@ A field guide to the organisms that appear in this book.
 ---
 
 ***Candidatus* Desulforudis audaxviator**
-- **Habitat**: Fracture water in deep gold mines, South Africa, 2.8 km below the surface
+- **Habitat**: Fracture water in deep gold mines, South Africa, 2.8 kilometers below the surface
 - **Metabolism**: Sulfate reduction with H$_2$ (from radiolysis); fixes CO$_2$ and N$_2$
 - **Claim to fame**: Among the most isolated organisms known -- dominant member of a community (with ~25 other species) in fracture water sealed from the surface for millions of years. Carries minimal genes for oxygen defense (a lone superoxide dismutase but no catalase or peroxidase).
 - **Key citation**: Chivian et al. (2008), *Science* [@Chivian2008]
@@ -80,7 +80,7 @@ A field guide to the organisms that appear in this book.
 - **Habitat**: Hydrothermal vents, East Pacific Rise
 - **Metabolism**: Entirely dependent on chemoautotrophic endosymbionts (has no mouth, gut, or anus)
 - **Claim to fame**: The iconic tube worm of deep-sea vents. Its trophosome organ is packed with sulfur-oxidizing bacteria that fix carbon, fed by a specialized hemoglobin that transports both O$_2$ and H$_2$S simultaneously.
-- **Key citation**: Cavanaugh et al. (1981), *Science* [@Cavanaugh1981]
+- **Key citation**: Arp et al. (1987), *Journal of Experimental Biology* [@Arp1987]
 - **Appears in**: Chapter 7
 
 ---
