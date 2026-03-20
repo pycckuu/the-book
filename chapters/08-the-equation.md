@@ -2,8 +2,6 @@
 title: "The Equation"
 ---
 
-Here is a curve.
-
 [FIGURE: A porewater profile showing oxygen concentration dropping to zero within the top few centimeters, sulfate declining steadily over the next meter, and methane rising from below. The x-axis is concentration; the y-axis is depth, increasing downward. Three zones are shaded: an oxygen zone (pale blue), a sulfate zone (pale yellow), and a methane zone (pale green). The sulfate-methane transition zone is marked where the two curves cross.]
 
 The x-axis is concentration. The y-axis is depth below the sediment-water interface, increasing downward. The three curves are oxygen, sulfate, and methane, measured in the porewater of a marine sediment core somewhere on a continental margin.
@@ -21,8 +19,6 @@ $$
 The organisms are real. The reaction is real. But the *shape* of the curves -- why oxygen drops fast and sulfate drops slowly, why methane rises from below, why the transition zone sits where it does and not somewhere else -- cannot be explained by biology alone. It requires an equation.
 
 One equation. The same equation. Applied three times -- once for each species -- with different parameters.
-
-This chapter builds that equation.
 
 ## Conservation: the only law you need
 
@@ -128,7 +124,7 @@ Kinetics times thermodynamics. Supply times demand times feasibility.
 
 ## Coupling: one organism's waste is another's substrate
 
-Now here is where it gets interesting. In a real sediment, there are not three independent species obeying three independent equations. There are dozens of species, linked by shared reactions.
+In a real sediment, there are not three independent species obeying three independent equations. There are dozens of species, linked by shared reactions.
 
 When aerobic respiration consumes oxygen and organic carbon, it produces CO$_2$ and water. The CO$_2$ affects pH, which affects carbonate equilibria, which affects calcium concentrations. When sulfate reduction consumes sulfate and organic carbon, it produces sulfide. The sulfide reacts with dissolved iron to precipitate iron sulfide minerals. The iron came from the dissolution of iron oxides, which was mediated by iron-reducing bacteria, which were competing with sulfate reducers for the same organic carbon.
 
@@ -148,11 +144,11 @@ Return to the profile that opened this chapter. We can now read it.
 
 **Methane rises from below** because methanogenesis occurs in the deep, sulfate-depleted zone. Methane diffuses upward, toward lower concentrations. At the sulfate-methane transition zone, it meets the descending sulfate, and the anaerobic oxidation of methane (AOM) consortium consumes both.[^knittel2009] The sharpness of the transition tells you the rate of AOM: a sharper crossing means faster reaction. The AOM consortium itself represents one of the most remarkable syntrophic partnerships in nature -- archaea and bacteria working in obligate association to catalyze a reaction with vanishingly small energy yields.[^knittel2009]
 
-Every feature of this profile -- every bend, every slope change, every crossing -- is the visible signature of the conservation equation doing its work. Transport sets the gradients. Reactions bend the curves. The profile is not a photograph of a static system. It is a solution to a set of differential equations, written in chemistry.
+Every feature of this profile -- every bend, every slope change, every crossing -- is the visible signature of the conservation equation doing its work. Transport sets the gradients. Reactions bend the curves. The profile is a solution to a set of differential equations, written in chemistry.
 
 ## One equation, all scales
 
-This is the second claim of this book, and it needs to be stated without hedging: **the conservation equation does not change with scale.**
+**The conservation equation does not change with scale.**
 
 The same equation that describes oxygen diffusing into a millimeter-thick surface layer of sediment describes sulfate declining over a meter of marine mud. The same equation, with different transport terms (advection-dominated flow instead of diffusion-dominated), describes nitrate attenuation in a kilometer-scale aquifer plume. The same equation, with yet different transport terms (wind-driven mixing instead of molecular diffusion), describes CO$_2$ uptake by the global ocean.
 

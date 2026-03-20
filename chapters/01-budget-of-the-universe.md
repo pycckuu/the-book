@@ -20,7 +20,7 @@ Not by violating the Second Law. By *obeying it creatively*. A living organism m
 
 Schrödinger also made a second, remarkably prescient prediction. He argued that the genetic material---whatever it was---must be a stable, information-bearing structure. He called it an "aperiodic crystal": not a repeating lattice like salt or diamond, but an irregular arrangement capable of encoding instructions. Nine years later, Watson and Crick described the double helix of DNA.[^watsoncrick1953] It was, almost exactly, Schrödinger's aperiodic crystal.
 
-But this chapter is not about DNA. It is about the first half of Schrödinger's insight: the energy rules. Before there was life, before there was an ocean, before there was a planet with liquid water, there were the laws of thermodynamics and quantum mechanics. These laws---discovered in European laboratories with hydrogen atoms, metal plates, and vacuum tubes---constrain every chemical reaction, every metabolic pathway, and every living organism.
+This chapter is about the first half of Schrödinger's insight: the energy rules. Before there was life, before there was an ocean, before there was a planet with liquid water, there were the laws of thermodynamics and quantum mechanics. These laws---discovered in European laboratories with hydrogen atoms, metal plates, and vacuum tubes---constrain every chemical reaction, every metabolic pathway, and every living organism.
 
 They are the budget of the universe---the same rules that keep *D. audaxviator* alive three kilometers underground, harvesting hydrogen atoms released one at a time by radioactive decay.
 
@@ -84,7 +84,7 @@ Every reaction in biochemistry follows the same logic. Enzymes do not change whe
 
 In a marine sediment, a sulfate reducer and a methanogen may both have access to the same pool of dissolved hydrogen---but only the organism whose reaction yields usable energy under local conditions gets to grow. The hydrogen-chlorine cannon illustrates the distinction that decides the winner: the difference between energy that is *released* and energy that is *available to do work*. Not all released energy is useful. Some of it dissipates as disordered heat. Some of it goes into rearranging the surroundings in ways you cannot harness. To understand what a reaction can actually accomplish---whether it can build a molecule, pump an ion across a membrane, or power a flagellar motor---you need a sharper accounting tool.
 
-That tool was invented by Josiah Willard Gibbs in the 1870s, and it is the equation that appears more often than any other in this book.[^gibbs1873]
+That tool was invented by Josiah Willard Gibbs in the 1870s, .[^gibbs1873]
 
 ![Not all energy is equal. Gibbs free energy is the fraction that can do work.](../sources/img/ch1_gibbs_free_energy.png){#fig-gibbs-free-energy}
 
@@ -94,7 +94,7 @@ $$
 
 Read it as a budget. $H$ is enthalpy---roughly, the total energy content of the system (heat plus pressure-volume work). $T$ is temperature. $S$ is entropy---a measure of disorder, or more precisely, the number of microscopic arrangements consistent with the macroscopic state. The product $TS$ is the energy that has been "claimed" by disorder: energy that is spread out so evenly it can no longer drive anything in a particular direction.
 
-$G$, the Gibbs free energy, is what remains. It is what you can actually spend.
+$G$, the Gibbs free energy, is what remains. It is what you can spend.
 
 When a reaction occurs, the change in Gibbs free energy tells you the direction:
 

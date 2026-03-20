@@ -108,7 +108,7 @@ That is the entire invention. The rest is consequences.
 
 ## The Great Oxidation Event
 
-The consequences took time to arrive. Cyanobacteria probably evolved oxygenic photosynthesis somewhere between 2.7 and 3.0 billion years ago -- the exact date is debated, and the geological evidence is maddeningly ambiguous.[^cyano_timing] But for hundreds of millions of years after the invention, free oxygen did not accumulate in the atmosphere. It was consumed as fast as it was produced, mopped up by a planet full of reduced minerals and dissolved iron that reacted with oxygen instantly.[^oxygen_sinks]
+The consequences took time to arrive. Cyanobacteria probably evolved oxygenic photosynthesis somewhere between 2.7 and 3.0 billion years ago -- the exact date is debated, and the geological evidence remains ambiguous.[^cyano_timing] But for hundreds of millions of years after the invention, free oxygen did not accumulate in the atmosphere. It was consumed as fast as it was produced, mopped up by a planet full of reduced minerals and dissolved iron that reacted with oxygen instantly.[^oxygen_sinks]
 
 Think of it as a bathtub with the drain open. The faucet is running -- cyanobacteria are producing oxygen -- but the drain is bigger. Reduced iron in the oceans, sulfide in volcanic gases, reduced minerals on land: all of these were oxygen sinks, chemical sponges that soaked up every molecule of O$_2$ before it could accumulate.
 
@@ -116,7 +116,7 @@ Slowly, over hundreds of millions of years, the sinks filled. The reduced iron p
 
 And then, around 2.4 billion years ago, the faucet won.[^goe_timing]
 
-Oxygen began to accumulate in the atmosphere. Not much by modern standards -- perhaps 1 to 2 percent of present levels at first -- but enough to fundamentally reshape the chemistry of the planet's surface.[^goe_oxygen_levels] This is the Great Oxidation Event, and it was, in the precise language of geochemistry, a catastrophe.
+Oxygen began to accumulate in the atmosphere. Not much by modern standards -- perhaps 1 to 2 percent of present levels at first -- but enough to reshape the chemistry of the planet's surface.[^goe_oxygen_levels] This is the Great Oxidation Event, and it was, in the precise language of geochemistry, a catastrophe.
 
 For the anaerobic communities that had built the living world, free oxygen was lethal. Organisms that had never encountered this molecule -- had never needed defenses against it -- suddenly found their enzymes damaged, their membranes compromised, their DNA under attack. What may have been Earth's first mass extinction was not caused by an asteroid or a volcanic eruption. It was caused by a microbe's waste product.
 
@@ -125,8 +125,6 @@ The survivors retreated. They found refuge in the places oxygen could not reach:
 The poisoning itself took a few hundred million years. Its consequences are still unfolding. What follows is not the full story -- that would take several chapters -- but a tour of the most important aftershocks: how life learned to breathe the poison, how it coped with the chemical incompatibilities oxygen created, how captured cyanobacteria became the engines of every plant, and how the energy surplus oxygen provided underwrote the complexity of everything that followed.
 
 ## The invention of respiration
-
-Here is where the story takes its most ironic turn.
 
 The same molecular machinery that made oxygen deadly also made oxygen useful. And the organisms that figured this out first were likely cyanobacteria or their close relatives -- though the evolutionary pathway was probably less clean than a single invention event, with multiple lineages independently recruiting components of the electron transport chain.
 
@@ -138,7 +136,7 @@ This is aerobic respiration. And its invention solved two problems at once: it n
 
 The deep irony is that respiration is carried out by the same protein complexes as photosynthesis. The cytochrome chains, the proton-pumping machinery, the ATP synthase -- all of it is shared, or at least derived from the same ancestral toolkit. In modern cyanobacteria, photosynthesis and respiration use overlapping components to such an extent that there is a kind of competition between the two processes for the right to use the same proteins.[^shared_complexes]
 
-This is not an accident. It is a record of evolutionary history. Respiration was not invented from scratch. It was photosynthesis repurposed -- the machinery of light-harvesting retooled to run on chemical fuel, with oxygen as the terminal electron acceptor instead of chlorophyll as the starting electron donor.
+It is a record of evolutionary history. Respiration was not invented from scratch. It was photosynthesis repurposed -- the machinery of light-harvesting retooled to run on chemical fuel, with oxygen as the terminal electron acceptor instead of chlorophyll as the starting electron donor.
 
 Purple bacteria, close relatives of the cyanobacteria, found the same solution with what some researchers argue was even greater efficiency. The molecular details differ, but the principle is identical: use the existing electron transport chain, swap the electron source and sink, and suddenly you have a metabolism that thrives on the very poison that was killing everything else.
 
@@ -220,7 +218,7 @@ Oxygen changes this calculation entirely. As a terminal electron acceptor, oxyge
 
 This is not a subtle difference. It is the difference between subsistence and surplus. Anaerobic organisms survive; aerobic organisms *thrive*. They grow faster, maintain larger cells, and can afford the energetic overhead of complex internal structures. It is no coincidence that the evolution of large, complex eukaryotic cells -- and eventually multicellular life -- followed the Great Oxidation Event. The energy to build complex life was simply not available until oxygen made aerobic respiration possible.
 
-The irony is inescapable. The greatest environmental catastrophe in Earth's history -- a mass poisoning that drove most of the biosphere into hiding -- was also the event that made complex life possible. Without oxygenic photosynthesis, there would be no animals, no fungi, no plants. The bacterial mat communities would still be the pinnacle of biological organization, cycling sulfur and methane in their closed loops, stable and productive and utterly unable to build anything larger than a film of slime.
+The irony is inescapable. The greatest environmental catastrophe in Earth's history -- a mass poisoning that drove most of the biosphere into hiding -- was also the event that made complex life possible. Without oxygenic photosynthesis, there would be no animals, no fungi, no plants. The bacterial mat communities would still be the pinnacle of biological organization, cycling sulfur and methane in their closed loops, stable and productive and unable to build anything larger than a film of slime.
 
 ## The long aftermath
 
@@ -234,9 +232,7 @@ Modern Earth is not an oxygen planet that happens to contain some anaerobic pock
 
 ## The ledger
 
-Here is what the cyanobacteria set in motion.
-
-They cracked water, liberating electrons that had been locked in the most abundant molecule on the planet's surface. In doing so, they produced a toxic waste product that drove the majority of existing life into exile.
+The cyanobacteria cracked water, liberating electrons that had been locked in the most abundant molecule on the planet's surface. In doing so, they produced a toxic waste product that drove the majority of existing life into exile.
 
 The same molecular machinery that produced the poison was then repurposed -- by the cyanobacteria themselves, or by their neighbors -- into a mechanism for *consuming* it. Respiration turned the poison into the most efficient electron acceptor biology had ever used.
 

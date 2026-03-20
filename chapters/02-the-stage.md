@@ -12,7 +12,7 @@ And yet, within a billion years, one of those planets was alive, another was a f
 
 Look at the uncertainty bars. Earth is the best-known case: three independent proxies---rock structures,[^fig_allwood] mineral isotopes,[^fig_wilde_zircon] and reconstructed ancient enzymes[^fig_gaucher]---converge on a surface temperature near 25°C. Venus and Mars are far less constrained. Deuterium ratios prove Venus lost its water,[^fig_donahue] but when?[^fig_way] Mars's crustal magnetism proves an early dynamo,[^fig_acuna] but warm-wet or cold-episodic?[^fig_mars_climate] Same raw materials, same physics, three different outcomes.
 
-What sequence of physical accidents turned one ordinary rocky planet into the one place where non-equilibrium chemistry could build a biosphere? The answer is not a single miracle. It is a chain of contingencies--each one physical, each one measurable, and each one specific enough to test.
+What sequence of physical accidents turned one ordinary rocky planet into the one place where non-equilibrium chemistry could build a biosphere? The answer is a chain of contingencies--each one physical, each one measurable, each one specific enough to test.
 
 ## The violence that built the world
 
@@ -102,11 +102,11 @@ Mars is smaller than Earth--about half the diameter, roughly one-tenth the mass.
 
 As the atmosphere thinned, surface pressure dropped. Mars's present-day surface pressure is about 610 Pa---0.6 percent of Earth's. Models suggest it may have started with 0.5 to 1 bar or more; the loss unfolded over hundreds of millions of years as the dynamo faded. Below a certain pressure, liquid water cannot exist regardless of temperature: it either freezes or sublimes directly to vapor. Mars crossed that threshold and its surface water was lost--some to space, some frozen into the regolith and polar caps, some perhaps trapped in subsurface reservoirs that remain liquid (under pressure, in contact with salts) even today.
 
-But here is the tantalizing part: early Mars may have been habitable.
+Early Mars may have been habitable.
 
 During the Hadean eon--the same period when Earth was being pummeled by giant impacts and was arguably less hospitable than it would later become--Mars may have had a thicker atmosphere, warmer surface temperatures, and liquid water flowing on its surface. The evidence is geological: river valleys, lake beds, and mineral deposits that require sustained liquid water to form. Some of these features date to 4.0 to 3.7 billion years ago.
 
-The implication is startling. During the window when life first appeared on Earth (somewhere between 4.0 and 3.5 billion years ago), Mars may have been an equally plausible--perhaps even safer--cradle for life. Mars had liquid water. It had the same basic chemistry. And it may have been less violent than Earth, which was still being heavily bombarded.
+During the window when life first appeared on Earth (somewhere between 4.0 and 3.5 billion years ago), Mars may have been an equally plausible--perhaps even safer--cradle for life. Mars had liquid water. It had the same basic chemistry. And it may have been less violent than Earth, which was still being heavily bombarded.
 
 This raises a possibility that planetary scientists take seriously: that life may have originated on Mars and been transported to Earth inside meteorites blasted off the Martian surface by impacts. We know that Martian meteorites reach Earth--we have them in our collections. We know that some bacteria can survive the conditions of ejection, transit through space, and atmospheric entry. The hypothesis is unproven, but it is not fringe science. It is a direct consequence of the fact that the same chemistry was available on two neighboring planets during the same time window.[^marspanspermia]
 
@@ -126,7 +126,7 @@ The early ocean was not like the modern ocean. It was hotter--perhaps 60 to 80 d
 
 The ancient ocean was laden with dissolved metals that are rare in today's seawater: tungsten, molybdenum, vanadium, nickel, cobalt, iron in soluble form. These are not arbitrary trace elements. They are the metals that sit at the active sites of the oldest enzymes--the metalloprotein cofactors that catalyze the most fundamental biochemical reactions.[^ancient_metals]
 
-This is not a coincidence. It is a fossil written in protein structure. Many of the enzymes that drive the most ancient metabolisms--nitrogen fixation, hydrogen metabolism, carbon fixation in methanogens and acetogens--use metal cofactors that seem oddly exotic by the standards of modern seawater chemistry. Molybdenum in nitrogenase. Tungsten in some archaeal enzymes. Nickel in methyl-coenzyme M reductase. Iron-sulfur clusters in nearly everything ancient.
+It is a fossil written in protein structure. Many of the enzymes that drive the most ancient metabolisms--nitrogen fixation, hydrogen metabolism, carbon fixation in methanogens and acetogens--use metal cofactors that seem oddly exotic by the standards of modern seawater chemistry. Molybdenum in nitrogenase. Tungsten in some archaeal enzymes. Nickel in methyl-coenzyme M reductase. Iron-sulfur clusters in nearly everything ancient.
 
 The explanation is straightforward: life's earliest enzymes evolved in an ocean where these metals were available. As the ocean chemistry changed over billions of years--as oxygen accumulated and changed the solubility of various metals, as sulfide precipitation removed others--the enzymes kept their original metal requirements. Proteins are conservative. They do not easily swap one metal for another, because the entire geometry of the active site is built around a specific ion. The result is that modern organisms still require trace amounts of metals that were abundant in the Hadean ocean but are scarce today. Biology remembers what geology has forgotten.
 
@@ -157,7 +157,7 @@ By reconstructing these ancestral proteins in the laboratory and measuring their
 
 This 30-degree cooling over three billion years is independently supported by oxygen isotope records from marine sediments, which show a similar trend.[^cooling_trend]
 
-The implication for our story is this: the earliest life was not just tolerant of heat. It was adapted to heat, because the planet was hot. The first microbes were thermophiles or even hyperthermophiles--organisms whose enzymes worked best at temperatures that would cook most modern life. As the planet cooled, life followed the temperature downward, adapting its proteins step by step to progressively cooler conditions.
+The implication for our story is this: the earliest life was adapted to heat, because the planet was hot. The first microbes were thermophiles or even hyperthermophiles--organisms whose enzymes worked best at temperatures that would cook most modern life. As the planet cooled, life followed the temperature downward, adapting its proteins step by step to progressively cooler conditions.
 
 This illustrates the non-equilibrium theme from Chapter 1. Life does not set the temperature. The planet sets the temperature, and life adapts its machinery to harvest energy within whatever temperature regime it finds. The thermodynamic rules do not change--$\Delta G$ is $\Delta G$ whether the water is 70 degrees or 35 degrees--but the kinetic landscape changes profoundly, and with it the strategies that pay off.
 

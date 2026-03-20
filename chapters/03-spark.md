@@ -12,7 +12,7 @@ This is the central paradox of the origin of life, and for decades it stalled pr
 
 In modern cells, the division of labor is clean. DNA stores the instructions. Proteins do the work -- catalyzing reactions, building structures, transporting molecules across membranes. But proteins cannot copy themselves; they need DNA's blueprint. And DNA cannot do anything useful without the proteins that read it, unwind it, and replicate it. Which came first? The question is not rhetorical. It is a genuine engineering bottleneck: you cannot bootstrap a system that requires two specialized components if each component depends on the other for its existence.
 
-The answer, when it arrived, came from an unexpected direction. It came from the molecule that everyone had dismissed as a mere intermediary.
+The answer came from the molecule that everyone had dismissed as a mere intermediary.
 
 ## The middleman steps forward
 
@@ -20,7 +20,7 @@ RNA sits between DNA and proteins in every modern cell. It carries the genetic m
 
 Then, in the early 1980s, Thomas Cech and Sidney Altman independently discovered that certain RNA molecules could catalyze chemical reactions.[^cech1986] They were not just carrying information; they were *doing chemistry*. These catalytic RNAs were named ribozymes, and their discovery earned Cech and Altman the Nobel Prize in 1989.[^nobel1989]
 
-The implications were enormous. If RNA can both store information *and* catalyze reactions, then you do not need two separate systems to get life started. You need one. A single type of molecule that reads itself and copies itself -- an autocatalytic loop of replicating RNA, ribozymes catalyzing the synthesis of copies of themselves.[^markov2010a]
+If RNA can both store information *and* catalyze reactions, then you do not need two separate systems to get life started. You need one. A single type of molecule that reads itself and copies itself -- an autocatalytic loop of replicating RNA, ribozymes catalyzing the synthesis of copies of themselves.[^markov2010a]
 
 This is the RNA world hypothesis: the proposal that the earliest life on Earth was not built from DNA and proteins, but from RNA alone -- organisms without the division of labor that modern cells take for granted. The chicken-and-egg paradox becomes tractable, because RNA is both the chicken and the egg.
 
@@ -54,9 +54,7 @@ The transition from mineral catalyst to protein catalyst was gradual.[^mineral_c
 
 ## The recycling problem
 
-Now we arrive at a constraint that reshapes the origin story. It is also counterintuitive.
-
-We have been telling the origin story as if it were about a single lineage: first RNA, then proteins, then DNA, then cells. A lonely molecule in a puddle, gradually becoming more complex. This is the popular version, and it captures something real. But it misses the deepest constraint.
+The origin story is usually told as a single lineage: first RNA, then proteins, then DNA, then cells. A lonely molecule in a puddle, gradually becoming more complex. That version captures something real, but it misses a critical constraint.
 
 Consider what a living system actually does. It takes in raw materials, transforms them, and produces waste. If it is the only living system around, it will eventually exhaust its raw materials or drown in its own waste. This is not a biological problem; it is a thermodynamic one. A single organism, running a single metabolic strategy, will eventually outpace its local supply of raw materials or accumulate waste faster than the environment can absorb it -- unless something external recycles its waste and restocks its inputs.[^markov2010f][^braakman2013]
 
@@ -84,7 +82,7 @@ This is consistent with what the rock record eventually shows. The oldest unambi
 
 ## From spark to city
 
-The chapter began with a paradox: the chicken and the egg, information and machinery, locked in mutual dependence. RNA offered a way out of that paradox by being both at once. But RNA alone does not make a biosphere. A biosphere requires energy capture, waste recycling, and the closing of biogeochemical cycles -- and that requires a community.
+RNA offered a way past the chicken-and-egg paradox by being both information and machinery at once. But RNA alone does not make a biosphere. A biosphere requires energy capture, waste recycling, and the closing of biogeochemical cycles -- and that requires a community.
 
 The next question is: what did those first communities look like? How did they organize themselves physically? And how did their organization shape the planet?
 

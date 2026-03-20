@@ -35,7 +35,7 @@ Information without work is a library with no readers. Work without information 
 
 ## The arc of the book
 
-This book began with quantum mechanics and ended with planetary engineering. That sounds like a leap. It isn't — the same physics operates at every scale.
+This book began with quantum mechanics and ended with planetary engineering. The same physics operates at every scale.
 
 The same $\Delta G$ that governs electron transfer in a hydrogen atom governs whether a bacterial community three kilometers underground will thrive or slowly starve. The same Michaelis-Menten kinetics that describe the saturation curve of a single purified enzyme describe the metabolism of entire ecosystems when you aggregate billions of cells. The same conservation equation that tracks a solute diffusing through a sediment column tracks carbon moving through the global ocean.
 
