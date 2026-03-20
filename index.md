@@ -5,7 +5,7 @@ subtitle: "How Microbes Built the World"
 
 This book began as a stack of handwritten notes in a graduate student office at the University of Waterloo. I was trying to understand how microbes in sediments and groundwater make a living -- what they eat, how they breathe, why they arrange themselves in predictable layers, and what happens when you disturb those arrangements. The notes were dense with equations, short on narrative, and comprehensible mainly to me.
 
-Years later, I realized that the story hiding inside those notes was bigger than any single research problem. It was the story of how invisible organisms -- too small to see, too numerous to count, too ancient to fully trace -- engineered the planet we live on. Not as a metaphor. As a measurable, quantifiable, physically constrained process that has been running for four and a half billion years and shows no sign of stopping.
+Years later, I realized that the story hiding inside those notes was bigger than any single research problem. It was the story of how invisible organisms -- too small to see, too numerous to count, too ancient to fully trace -- engineered the planet we live on. Not as a metaphor. As a measurable, quantifiable, physically constrained process that has been running for nearly four billion years and shows no sign of stopping.
 
 That is the story this book tells.
 

@@ -141,7 +141,7 @@ It is a record of evolutionary history. Respiration was not invented from scratc
 Purple bacteria, close relatives of the cyanobacteria, found the same solution with what some researchers argue was even greater efficiency. The molecular details differ, but the principle is identical: use the existing electron transport chain, swap the electron source and sink, and suddenly you have a metabolism that thrives on the very poison that was killing everything else.
 
 ::: {.callout-note}
-## Sidebar -- Electron transfer energetics and the thermodynamic factor
+## Sidebar --- Electron transfer energetics and the thermodynamic factor
 
 When comparing different metabolisms -- iron reduction versus sulfate reduction, say, or aerobic versus anaerobic respiration -- the temptation is to compare energy yields per mole of reaction. This can be misleading, because different reactions transfer different numbers of electrons. The fair comparison is energy yield **per electron transferred**.[^larowe2011]
 
@@ -157,7 +157,7 @@ Temperature also matters. The Arrhenius relation gives the temperature dependenc
 
 $$k(T) = A\,\exp\!\left(-\frac{E_a}{RT}\right)$$
 
-where $E_a$ is the apparent activation energy.[^middelburg1996] A caveat: the Arrhenius equation was derived for elementary reactions. When applied to complex microbial processes, the fitted $E_a$ values are "apparent" -- empirical summaries of many underlying steps. Arrhenius strictly relates the rate *constant* $k$ to temperature, not the rate itself; the rate also depends on substrate concentrations, biomass, and other factors.[^arndt2013]
+where $E_a$ is the apparent activation energy.[^middelburg1996] A caveat: the Arrhenius equation was derived for elementary reactions. When applied to complex microbial processes, the fitted $E_a$ values are "apparent" -- empirical summaries of many underlying steps. Arrhenius strictly relates the rate *constant* $k$ to temperature, not the rate itself; the rate also depends on substrate concentrations, biomass, and other factors.[^arndt2013_poisoning]
 :::
 
 ## The day shift and the night shift
@@ -278,7 +278,7 @@ The molecule that was once the deadliest waste product became the most efficient
 
 [^middelburg1996]: Middelburg et al. (1996) compiled apparent activation energies for organic matter mineralization in marine sediments, finding values typically between 40-100 kJ/mol. [@Middelburg1996]
 
-[^arndt2013]: Arndt et al. (2013) critically examine temperature dependencies in diagenetic models, noting that apparent activation energies aggregate multiple temperature-sensitive processes. [@Arndt2013]
+[^arndt2013_poisoning]: Sandra Arndt et al., "Quantifying the Degradation of Organic Matter in Marine Sediments: A Review and Synthesis," *Earth-Science Reviews* 123 (2013): 53--86. Apparent activation energies in diagenetic models aggregate multiple temperature-sensitive processes. [@Arndt2013]
 
 [^heterocysts]: Heterocysts are specialized cells in filamentous cyanobacteria that provide an anoxic microenvironment for nitrogen fixation. They have thickened cell walls to limit oxygen diffusion and lack photosystem II. Adams (2000) reviews heterocyst structure and function. [@Adams2000]
 

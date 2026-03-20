@@ -10,7 +10,7 @@ And yet, within a billion years, one of those planets was alive, another was a f
 
 ![Three planets, one outcome. Temperature and atmospheric evolution of Venus, Earth, and Mars from formation to ~3.5 billion years ago. Uncertainty bars reflect the state of knowledge: Earth is well constrained; Venus and Mars are not.](../sources/img/ch2_planetary_divergence.png){#fig-planetary-divergence}
 
-Look at the uncertainty bars. Earth is the best-known case: three independent proxies---rock structures,[^fig_allwood] mineral isotopes,[^fig_wilde_zircon] and reconstructed ancient enzymes[^fig_gaucher]---converge on a surface temperature near 25°C. Venus and Mars are far less constrained. Deuterium ratios prove Venus lost its water,[^fig_donahue] but when?[^fig_way] Mars's crustal magnetism proves an early dynamo,[^fig_acuna] but warm-wet or cold-episodic?[^fig_mars_climate] Same raw materials, same physics, three different outcomes.
+Look at the uncertainty bars. Earth is the best-known case: rock structures,[^fig_allwood] mineral isotopes,[^fig_wilde_zircon] and reconstructed ancient enzymes[^fig_gaucher] all show that liquid water was present early and that the planet cooled substantially over time, even if exact surface temperatures remain debated. Venus and Mars are far less constrained. Deuterium ratios prove Venus lost its water,[^fig_donahue] but when?[^fig_way] Mars's crustal magnetism proves an early dynamo,[^fig_acuna] but warm-wet or cold-episodic?[^fig_mars_climate] Same raw materials, same physics, three different outcomes.
 
 What sequence of physical accidents turned one ordinary rocky planet into the one place where non-equilibrium chemistry could build a biosphere? The answer is a chain of contingencies--each one physical, each one measurable, each one specific enough to test.
 
@@ -162,7 +162,7 @@ The implication for our story is this: the earliest life was adapted to heat, be
 This illustrates the non-equilibrium theme from Chapter 1. Life does not set the temperature. The planet sets the temperature, and life adapts its machinery to harvest energy within whatever temperature regime it finds. The thermodynamic rules do not change--$\Delta G$ is $\Delta G$ whether the water is 70 degrees or 35 degrees--but the kinetic landscape changes profoundly, and with it the strategies that pay off.
 
 ::: {.callout-note}
-## Sidebar: Reading Earth's diary -- isotope proxies
+## Sidebar --- Reading Earth's diary -- isotope proxies
 
 How do we know the temperature of an ocean that evaporated three billion years ago? How do we detect the breath of organisms that left no fossils? The answer, in almost every case, is isotopes.
 
@@ -227,7 +227,7 @@ The stage is set: a warm, wet, metal-rich, geologically active planet bathed in 
 
 And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen gas and carbon monoxide into warm, metal-rich water---an environment saturated with the electron donors and carbon sources that will underwrite the first microbial metabolisms. If thermodynamic models and recent vent-fluid analyses are right, trace hydrogen cyanide is in the mix as well.[^hcn_vents] The thermodynamics are favorable. The raw materials are abundant. The planet has time. What it does not yet have is a molecule that can copy itself.
 
-## Takeaways
+## Takeaway
 
 - Earth, Venus, and Mars formed from the same solar nebula with similar starting chemistry. The divergence in their fates was driven by physical parameters: orbital distance, planetary mass, and the presence or absence of a large moon.
 - Venus lost its water through a runaway greenhouse, recorded in its extreme deuterium-to-hydrogen ratio. Earth's cold trap--a consequence of its greater distance from the Sun--prevented the same catastrophe.

@@ -2,7 +2,7 @@
 title: "Cities Without Sunlight"
 ---
 
-Somewhere in the Earth's crust, a cell divides once per century. Its energy source is hydrogen gas, produced by the radioactive decay of uranium in the surrounding rock. Its electron acceptor is sulfate, trapped in mineral inclusions since the Archean. No photon has reached it in at least twenty million years. It has no genes for oxygen use, almost no genes for oxygen defense. By every measure that laboratory microbiologists use to define "alive," it barely qualifies -- and yet it persists, and it reproduces, on a timescale measured in centuries.
+Somewhere in the Earth's crust, a cell divides once per century. Its energy source is hydrogen gas, produced by the radioactive decay of uranium in the surrounding rock. Its electron acceptor is sulfate, trapped in mineral inclusions since the Archean. No photon has reached it in millions of years. It has no genes for oxygen use, almost no genes for oxygen defense. By every measure that laboratory microbiologists use to define "alive," it barely qualifies -- and yet it persists, and it reproduces, on a timescale measured in centuries.
 
 The organism is *Candidatus* Desulforudis audaxviator. It was discovered in 2006, when a drilling crew at the Mponeng gold mine in South Africa punched through rock at 2.8 kilometers below the surface and hit water.
 
@@ -64,7 +64,7 @@ The practical consequence is stark: "Most redox reactions do not take place spon
 
 ## Respiration in the deep
 
-The rate expressions from Chapter 8 — dual-Monod kinetics throttled by both electron donor and acceptor — apply here without modification.[^jin2005][^thullner2007] What changes is the context.
+The rate expressions from Chapter 8 — dual-Monod kinetics throttled by both electron donor and acceptor — apply here without modification.[^jin2005_deep][^thullner2007_deep] What changes is the context.
 
 In shallow, oxygenated environments, aerobic respiration dominates so thoroughly that it accounts for 90--95 percent of all degraded organic carbon.[^rabouille1991] But the deep subsurface is almost never oxygenated. In anoxic, nitrate-depleted settings, a division of labor emerges: fermentative microorganisms first break complex organic molecules into simpler ones -- acetate, formate, hydrogen -- and then respiring bacteria use those simpler compounds as electron donors, passing the electrons to whatever terminal acceptor remains.[^lovley1995] The fermenters and the respirers are partners, not competitors, linked by the small molecules that one produces and the other consumes.
 
@@ -74,15 +74,15 @@ No single organism can do everything. That constraint -- the inability of any on
 
 The deep subsurface pushes microbial life to its energetic limits. How slow can metabolism get before it ceases to be metabolism?
 
-The answer is extraordinarily slow. Douglas LaRowe and Jan Amend compiled data on microbial turnover times across a range of natural settings and found that in aquifers, sedimentary rocks, marine sediments, and ice cores, biomass turnover times can exceed 1,000 years.[^larowe2015] In Antarctic photosynthetic communities -- admittedly a surface environment, but one where conditions are extreme -- biomass turnover times reach up to 19,000 years.
+The answer is extraordinarily slow. Douglas LaRowe and Jan Amend compiled data on microbial turnover times across a range of natural settings and found that in aquifers, sedimentary rocks, marine sediments, and ice cores, biomass turnover times can exceed 1,000 years.[^larowe2015_deep] In Antarctic photosynthetic communities -- admittedly a surface environment, but one where conditions are extreme -- biomass turnover times reach up to 19,000 years.
 
 Consider what that means. A community that turns over its biomass once every thousand years is not dead — it is metabolically active, on aggregate, but so slowly that its existence plays out on a geological timescale. Whether individual cells are continuously active at vanishing rates or cycling between dormancy and rare bursts of activity remains an open question.
 
-The range of metabolic rates across Earth's biosphere is staggering. LaRowe and Amend found that catabolic rates vary over twelve orders of magnitude, from approximately $6 \times 10^{-9}$ to $6.66 \times 10^{3}$ nmol cm$^{-3}$ day$^{-1}$.[^larowe2015] Twelve orders of magnitude. The fastest microbial communities metabolize a trillion times faster than the slowest. And yet the slowest are still alive.
+The range of metabolic rates across Earth's biosphere is staggering. LaRowe and Amend found that catabolic rates vary over twelve orders of magnitude, from approximately $6 \times 10^{-9}$ to $6.66 \times 10^{3}$ nmol cm$^{-3}$ day$^{-1}$.[^larowe2015_deep] Twelve orders of magnitude. The fastest microbial communities metabolize a trillion times faster than the slowest. And yet the slowest are still alive.
 
-This raises a fundamental question about maintenance energy -- the minimum energy flux a cell needs just to stay alive without growing. In laboratory cultures, maintenance energy can be measured: you starve a culture, track its decline, and calculate the energy cost of keeping the lights on. But in deep subsurface settings, per-cell energy fluxes are "several orders of magnitude lower than maintenance energies predicted from laboratory cultures".[^larowe2015]
+This raises a fundamental question about maintenance energy -- the minimum energy flux a cell needs just to stay alive without growing. In laboratory cultures, maintenance energy can be measured: you starve a culture, track its decline, and calculate the energy cost of keeping the lights on. But in deep subsurface settings, per-cell energy fluxes are "several orders of magnitude lower than maintenance energies predicted from laboratory cultures".[^larowe2015_deep]
 
-Either the cells are dying and being replaced by slow turnover — possible, but hard to reconcile with such low energy fluxes — or our laboratory-derived maintenance estimates are wrong for these conditions. LaRowe and Amend argue for the latter: maintenance energy is not a constant. It depends on growth conditions, temperature, community structure, and the specific stresses a cell faces. It should be treated as a variable, not a parameter.[^larowe2015]
+Either the cells are dying and being replaced by slow turnover — possible, but hard to reconcile with such low energy fluxes — or our laboratory-derived maintenance estimates are wrong for these conditions. LaRowe and Amend argue for the latter: maintenance energy is not a constant. It depends on growth conditions, temperature, community structure, and the specific stresses a cell faces. It should be treated as a variable, not a parameter.[^larowe2015_deep]
 
 The implication reshapes how we model deep life. A cell in a laboratory flask, bathed in rich media at 37 degrees, has a "maintenance bill" that includes the cost of dealing with rapid environmental fluctuations, repairing damage from reactive oxygen species, and competing with neighbors. A cell in a fracture at 2.8 kilometers depth, in stable, anoxic water that changes on geological timescales, has shed most of those costs. It has not optimized for speed or yield. It has satisficed -- found the minimal metabolic strategy that covers the minimal maintenance cost under its specific constraints, and held that position for geological time.
 
@@ -110,17 +110,17 @@ $$
 \frac{d[B]}{dt} = Y \cdot R_{\text{resp}} - \mu_{\text{dec}} \cdot [B]
 $$
 
-Biomass grows in proportion to the respiration rate (scaled by the yield coefficient $Y$) and decays at a rate proportional to the current biomass (scaled by the decay constant $\mu_{\text{dec}}$).[^thullner2007][^dale2010]
+Biomass grows in proportion to the respiration rate (scaled by the yield coefficient $Y$) and decays at a rate proportional to the current biomass (scaled by the decay constant $\mu_{\text{dec}}$).[^thullner2007_deep][^dale2010]
 
 The yield coefficient $Y$ — the fraction of catabolic energy converted into new biomass — is not a constant. It scales with the available Gibbs energy, but shallowly: even large changes in energy produce only modest changes in yield, because biosynthesis has irreducible costs.[^larowe2011_yield] Theoretical frameworks derive yield from thermodynamic first principles;[^rittmann2001][^heijnen1992] empirical approaches fit it to data across metabolic types.[^larowe2011_yield]
 
-But in the deep subsurface, growth is only half the story. Much of the biomass at any given time may be dormant — alive but metabolically inactive. Models that explicitly track dormant and active cell fractions show that the transition between states can dramatically affect community dynamics and apparent geochemical rates.[^stolpovsky2011] Cells do not respond instantaneously to environmental changes; there is a lag phase between perturbation and metabolic response.[^blanch1981] For stable deep subsurface settings, quasi-steady-state assumptions may hold. For perturbed systems, they do not.
+But in the deep subsurface, growth is only half the story. Much of the biomass at any given time may be dormant — alive but metabolically inactive. Models that explicitly track dormant and active cell fractions show that the transition between states can dramatically affect community dynamics and apparent geochemical rates.[^stolpovsky2011] Cells do not respond instantaneously to environmental changes; there is a lag phase between perturbation and metabolic response.[^blanch1981_deep] For stable deep subsurface settings, quasi-steady-state assumptions may hold. For perturbed systems, they do not.
 
 The honest summary: yield, growth rate, and maintenance energy are not constants. They are functions of thermodynamics, environment, and history.
 
 ## The scale of the hidden world
 
-How much life is down there? The estimates have grown with every decade of exploration. Current assessments suggest that the deep subsurface -- the rock, the sediments, the aquifers below the reach of sunlight -- may harbor a significant fraction of Earth's total microbial biomass. The numbers are uncertain, but even conservative estimates place billions of tons of carbon in subsurface microorganisms.[^magnabosco2018]
+How much life is down there? The estimates have grown with every decade of exploration. Current assessments suggest that the deep subsurface -- the rock, the sediments, the aquifers below the reach of sunlight -- may harbor a significant fraction of Earth's total microbial biomass. The numbers are uncertain, but even conservative estimates place billions of tons of carbon in subsurface microorganisms.[^magnabosco2018_deep]
 
 Life down here looks nothing like a forest or a coral reef. Cells are distributed through rock at low densities -- perhaps a few thousand cells per cubic centimeter of rock, compared to billions per cubic centimeter in surface soil. But the volume of habitable rock is enormous, and thin populations summed over vast volumes become significant.
 
@@ -152,15 +152,15 @@ The brave wanderer descended into the dark and found a way to live there. The eq
 
 [^lovley1995]: Derek R. Lovley and Francis H. Chapelle, "Deep Subsurface Microbial Processes," *Reviews of Geophysics* 33 (1995): 365--381. [@Lovley1995]
 
-[^larowe2015]: Douglas E. LaRowe and Jan P. Amend, "Catabolic rates, population sizes and doubling/replacement times of microorganisms in natural settings," *American Journal of Science* 315 (2015): 167--203. Comprehensive compilation of metabolic rates spanning twelve orders of magnitude across Earth's biosphere. [@LaRowe:2015dt]
+[^larowe2015_deep]: Douglas E. LaRowe and Jan P. Amend, "Catabolic rates, population sizes and doubling/replacement times of microorganisms in natural settings," *American Journal of Science* 315 (2015): 167--203. Comprehensive compilation of metabolic rates spanning twelve orders of magnitude across Earth's biosphere. [@LaRowe:2015dt]
 
 [^bethke2011]: Craig M. Bethke et al., "The thermodynamic ladder in geomicrobiology," *American Journal of Science* 311 (2011): 183--210. [@Bethke2011]
 
 [^lovley1995_serpentin]: Serpentinization -- the hydration of ultramafic rocks -- produces molecular hydrogen abiotically and has been recognized as a key energy source for deep subsurface chemosynthetic ecosystems. [@Lovley1995]
 
-[^jin2005]: Qusheng Jin and Craig M. Bethke, "Predicting the Rate of Microbial Respiration in Geochemical Environments," *Geochimica et Cosmochimica Acta* 69 (2005): 1133--1143. [@Jin2005]
+[^jin2005_deep]: Qusheng Jin and Craig M. Bethke, "Predicting the Rate of Microbial Respiration in Geochemical Environments," *Geochimica et Cosmochimica Acta* 69 (2005): 1133--1143. [@Jin2005]
 
-[^thullner2007]: Martin Thullner, Pierre Regnier, and Philippe Van Cappellen, "Modeling Microbially Induced Carbon Degradation in Redox-Stratified Subsurface Environments: Concepts and Open Questions," *Geomicrobiology Journal* 24 (2007): 139--155. [@Thullner2007]
+[^thullner2007_deep]: Martin Thullner, Pierre Regnier, and Philippe Van Cappellen, "Modeling Microbially Induced Carbon Degradation in Redox-Stratified Subsurface Environments: Concepts and Open Questions," *Geomicrobiology Journal* 24 (2007): 139--155. [@Thullner2007]
 
 [^rabouille1991]: C. Rabouille and J.-F. Gaillard, "A coupled model representing the deep-sea organic carbon mineralization and oxygen consumption in surficial sediments," *Journal of Geophysical Research* 96 (1991): 2761--2776. [@Rabouille1991]
 
@@ -174,7 +174,7 @@ The brave wanderer descended into the dark and found a way to live there. The eq
 
 [^stolpovsky2011]: Konstantin Stolpovsky et al., "Incorporating dormancy in dynamic microbial community models," *Ecological Modelling* 222 (2011): 3092--3102. [@Stolpovsky2011]
 
-[^blanch1981]: Harvey W. Blanch, "Invited Review: Microbial Growth Kinetics," *Biotechnology and Bioengineering* 23 (1981): 1691--1722. [@Blanch1981]
+[^blanch1981_deep]: Harvey W. Blanch, "Invited Review: Microbial Growth Kinetics," *Biotechnology and Bioengineering* 23 (1981): 1691--1722. [@Blanch1981]
 
-[^magnabosco2018]: Cara Magnabosco et al., "The biomass and biodiversity of the continental subsurface," *Nature Geoscience* 11 (2018): 707--717. [@Magnabosco2018]
+[^magnabosco2018_deep]: Cara Magnabosco et al., "The biomass and biodiversity of the continental subsurface," *Nature Geoscience* 11 (2018): 707--717. [@Magnabosco2018]
 
