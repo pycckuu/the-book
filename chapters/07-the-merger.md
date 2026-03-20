@@ -47,7 +47,17 @@ These archaea, dubbed *Lokiarchaeota*, carried genes that no one expected to fin
 *Lokiarchaeota* was the first discovered member of what is now called the Asgard superphylum -- a group of archaea named after figures from Norse mythology (Loki, Thor, Odin, Heimdall).[^zaremba_asgard] Phylogenetic analyses consistently place eukaryotes *within* the Asgard archaea, not as their sister group.[^eme_archaea] This means that eukaryotes did not diverge from archaea; they emerged from within them. The "three domains of life" model (Bacteria, Archaea, Eukarya) may need to be revised to a "two domains" model, with eukaryotes as a highly derived branch of the Archaea. The discovery did not answer every question about eukaryotic origins, but it narrowed the search space dramatically.
 :::
 
-The picture that emerges is this: somewhere around 1.6 to 2.7 billion years ago — with most molecular clock estimates favoring roughly 2 billion years ago — an archaeal cell, perhaps something like *Lokiarchaeota* or a close relative, took a step that prokaryotes had been building toward for billions of years.[^parfrey_timing][^betts_timing] It may have been able to reshape its membrane using actin-like scaffolding. How the association with the bacterium began -- whether by engulfment, by the archaeon extending membrane protrusions around it, or by the bacterium invading -- remains one of the open questions in evolutionary biology.[^imachi_mka] However it started, the bacterium was not digested.
+## Genes that travel without bodies
+
+Long before one cell moved inside another for good, prokaryotes had already evolved a looser form of merger. They exchange genes sideways.
+
+Biologists call this horizontal gene transfer: DNA moving by transformation, conjugation, transduction, and the quieter mechanisms that make microbial evolution look less like a clean tree and more like a web.[^sand2018] In bacteria, the effect is enormous. A lineage can acquire an enzyme set, a resistance cassette, or an entire metabolic shortcut without waiting for those genes to evolve from scratch. Viral infection spreads genes. Plasmids spread genes. Pieces of dead cells spread genes. The microbial world is full of partial mergers that stop at the genome.
+
+Even minerals get involved. DNA adsorbed to clay and oxide surfaces can survive longer than naked DNA in water, turning sediments into reservoirs of genetic possibilities.[^sand2018] That ties evolution back to geomicrobiology. Rock does not only host microbial evolution. Minerals can help move metabolic innovation through the biosphere.
+
+By the time endosymbiosis appears, biology is already comfortable with hybridization. Whole-cell merger is unusual. Gene traffic is not.
+
+Somewhere around 1.6 to 2.7 billion years ago -- with most molecular clock estimates favoring roughly 2 billion years ago -- an archaeal cell, perhaps something like *Lokiarchaeota* or a close relative, took a step that prokaryotes had been building toward for billions of years.[^parfrey_timing][^betts_timing] It may have been able to reshape its membrane using actin-like scaffolding. How the association with the bacterium began -- whether by engulfment, by the archaeon extending membrane protrusions around it, or by the bacterium invading -- remains one of the open questions in evolutionary biology.[^imachi_mka] However it started, the bacterium was not digested.
 
 That bacterium was an alpha-proteobacterium -- an aerobic organism that could use oxygen to burn organic molecules with extraordinary efficiency. Inside the archaeal host, the bacterium kept breathing. It kept producing ATP. And over time, what started as a captured meal became something else entirely: a permanent resident, a co-dependent partner, and eventually an organelle.
 
@@ -156,6 +166,14 @@ A eukaryotic cell -- already carrying its mitochondrial passengers -- engulfed a
 
 This second merger gave rise to the photosynthetic eukaryotes: the green algae that would eventually crawl onto land and become plants. Every leaf on every tree, every blade of grass, every strand of kelp carries the descendants of that engulfed cyanobacterium -- a free-living organism that became a permanent component of another cell, billions of years ago.[^archibald_plastid]
 
+## A merger we can still watch
+
+Mitochondria and chloroplasts can make organellogenesis look ancient and finished. Tyler Coale and colleagues changed that view in 2024 when they showed that the nitrogen-fixing symbiont UCYN-A inside the marine alga *Braarudosphaera bigelowii* has crossed the threshold into something better described as an organelle: the nitroplast.[^coale2024]
+
+The evidence fits an organelle in the making. The host cell encodes and imports a substantial fraction of the nitroplast's proteins. The nitroplast divides in synchrony with the host. Its genome is drastically reduced. The partnership no longer reads as ecological convenience. It sits inside the cell's architecture and inheritance. This appears to be a rare, modern example of primary endosymbiosis before deep time polished away the intermediate steps.[^massana2024]
+
+The nitroplast matters for more than novelty. The process that produced chloroplasts was not a one-time event locked in the Precambrian. Under the right constraints, mergers can still deepen into anatomy.
+
 ## The architecture of consequences
 
 What did the merger make possible?
@@ -213,6 +231,7 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 - Prokaryotic cells are limited by having essentially one or two internal compartments; eukaryotic cells solve this with internal membranes that create many separate reaction chambers.
 - The eukaryotic cell arose from a merger: an archaeal host (likely related to the Asgard archaea) acquired an alpha-proteobacterial partner that became the mitochondrion; chloroplasts arose from a later engulfment of a cyanobacterium.
 - Living symbioses -- from *Ruthia* (early, genome intact) to *Carsonella* (late, genome nearly gone) -- illustrate stages of symbiotic integration -- partnership, gene loss, deepening dependence -- though organellogenesis itself has occurred only a few times.
+- Horizontal gene transfer made microbial evolution collaborative long before whole cells merged, and the 2024 nitroplast discovery shows that organellogenesis is not only an ancient event but an observable process.
 - Hydrothermal vent ecosystems demonstrate that symbiosis between autotrophs and heterotrophs can sustain entire communities in the absence of sunlight.
 - The creative force behind the most consequential innovations in the history of life -- eukaryotic cells, photosynthetic eukaryotes, multicellularity -- was integration -- the merging of independently evolved capabilities -- not competition alone.
 
@@ -255,3 +274,9 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 [^grosberg_multicell]: Grosberg and Strathmann (2007) document that complex multicellularity evolved independently at least 25 times, always in eukaryotes; prokaryotic multicellularity is limited to simple forms. [@Grosberg2007]
 
 [^imachi_mka]: Imachi et al. (2020) cultured *Candidatus Prometheoarchaeum syntrophicum*, the first Asgard archaeon grown in the laboratory. Rather than a phagocyte, it was a small, slow-growing organism that extended long membrane protrusions, suggesting that the initial archaeon-bacterium association may not have required engulfment. [@Imachi2020]
+
+[^sand2018]: Karina Krarup Sand and Stanislav Jelavić, "Mineral facilitated horizontal gene transfer: A new principle for evolution of life?" *Frontiers in Microbiology* 9 (2018): 2217. Minerals can preserve environmental DNA and extend the time window over which horizontal gene transfer remains possible. [@SandJelavic2018]
+
+[^coale2024]: Tyler H. Coale et al., "Nitrogen-fixing organelle in a marine alga," *Science* 384 (2024): 217--222. The authors identify UCYN-A inside *Braarudosphaera bigelowii* as a bona fide organelle, the nitroplast. [@Coale2024]
+
+[^massana2024]: Ramon Massana, "The nitroplast: A nitrogen-fixing organelle," *Science* 384 (2024): 160--161. A short perspective on why the nitroplast qualifies as an organelle and why it matters for understanding organellogenesis. [@Massana2024]

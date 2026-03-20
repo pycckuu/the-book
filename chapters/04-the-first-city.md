@@ -16,6 +16,8 @@ A bacterial mat is not a uniform film. It is layered, and the layering is not ac
 
 The analogy to a city is more than decorative. A city works because different neighborhoods specialize: one district generates power, another processes waste, a third manufactures goods. The neighborhoods depend on each other. Remove one and the others degrade. A bacterial mat operates on the same principle, except the "districts" are defined by wavelength, chemistry, and metabolic strategy rather than zoning laws.
 
+The metaphor has limits. A mat has no mayor, no planner, no hierarchy issuing instructions from the top. Gradients sort the organisms. Metabolism reshapes the gradients. Local interactions build the order.
+
 ![Cross-section of an idealized Archean bacterial mat. Three zones: a green canopy of anoxygenic phototrophs harvesting far-red light (720--750 nm); a pink middle layer of purple bacteria working the near-infrared the canopy transmits (800--900 nm); and a dark basement where fermenters, sulfate reducers, and methanogens recycle organic carbon. Left: the key reactions in each zone. Right: the internal sulfur cycle -- H$_2$S rises from the basement, is oxidized to sulfate by the canopy, and sulfate diffuses back down to be reduced again.](../sources/img/ch4_mat_cross_section.png){#fig-mat-cross-section}
 
 ### The green canopy
@@ -112,6 +114,16 @@ The quantitative framework for isotope fractionation -- the $\delta^{13}$C scale
 
 Microbial mats did not merely inhabit the early Earth -- they reshaped it. Photosynthesis raises local pH and drives carbonate precipitation; sulfate reduction generates sulfide minerals; iron-oxidizing bacteria leave behind iron oxides. The sedimentary rock record is, to a remarkable degree, a record of microbial metabolism.[^microbial_geology] The relationship between life and geology is bidirectional: the planet shaped the first communities, and those communities shaped the planet back.
 
+## Biomineralization: when metabolism becomes rock
+
+Here the title turns literal. Microbes do more than alter water chemistry. They build minerals.
+
+Sometimes they do it indirectly. Cyanobacterial photosynthesis consumes CO$_2$, raises local pH, and pushes carbonate minerals out of solution, helping to build stromatolites layer by layer. Sulfate reducers alter alkalinity and sulfide availability in ways that favor carbonate and sulfide precipitation. Iron oxidizers and iron reducers shift iron between soluble and insoluble forms, helping to create the mineral patterns that later geologists read back as environmental history.[^konhauser2007_biomineral]
+
+Some microbes build more directly. Magnetotactic bacteria precipitate chains of magnetite or greigite crystals inside their own cells, using the minerals as internal compass needles.[^konhauser2007_biomineral] Other microbes coat themselves in iron oxides or nucleate manganese minerals on their surfaces. In each case, the cell is manufacturing part of the mineral world around it.
+
+Banded iron formations, stromatolitic carbonates, and many other sedimentary structures are not background scenery for the history of life. Metabolism built them. The earliest biosphere did not just leave traces in rock. It helped make the rock in the first place.
+
 ## The first metabolisms
 
 The earliest metabolisms were likely chemoautotrophic. Phylogenetic reconstruction places methanogenesis -- CO$_2$ + 4 H$_2$ $\rightarrow$ CH$_4$ + 2 H$_2$O -- among the most ancient archaeal metabolisms, though its exact position in the tree remains debated.[^methanogenesis_ancient] Both substrates were abundant on the early Earth, produced abiotically by volcanic outgassing and water-rock reactions. No light required. No complex organic substrates. Just two simple gases and enzymes sophisticated enough to catalyze the reaction at biologically useful rates.
@@ -164,6 +176,7 @@ These simplifications are not errors. They are deliberate trades: we sacrifice r
 - The three-layer architecture (phototrophs, secondary phototrophs, dark-zone recyclers) was dictated by physics -- light attenuation, chemical gradients, and thermodynamic competition.
 - Stromatolites are the fossil record of these communities, preserved in layered carbonate structures dating to 3.5 billion years ago.
 - Carbon isotope fractionation by autotrophic fixation enzymes (RuBisCO, reverse TCA cycle, and others) provides a durable biosignature, detectable in rocks 3.8 billion years old.
+- Microbial communities do not merely leave traces in rocks; they help build the rocks themselves through biomineralization, from carbonate crusts to iron minerals to intracellular magnetite.
 - Enzymes accelerate reactions by 10$^8$ to 10$^{17}$-fold; Michaelis-Menten kinetics ($V = V_{\max}[\text{S}]/([\text{S}] + K_m)$) describes the speed-versus-supply tradeoff governing every metabolic reaction in the mat.
 - The mat satisfices: it finds a steady state dictated by constraints, not optimization. Competing metabolisms coexist wherever both can cover maintenance costs.
 
@@ -214,6 +227,8 @@ These simplifications are not errors. They are deliberate trades: we sacrifice r
 [^nitrogenase]: Nitrogenase catalyzes the reduction of atmospheric N$_2$ to NH$_3$, the only biological pathway for nitrogen fixation. The enzyme also fractionates nitrogen isotopes, preferentially incorporating ^14^N. James B. Howard and Douglas C. Rees, "Structural Basis of Biological Nitrogen Fixation," *Chemical Reviews* 96 (1996): 2965--2982. [@HowardRees1996]
 
 [^microbial_geology]: Microbial metabolism drives mineral precipitation, dissolution, and transformation. Photosynthesis alters pH and carbonate chemistry; sulfate reduction generates sulfide minerals; iron oxidation produces iron oxides. Kurt Konhauser, *Introduction to Geomicrobiology* (Blackwell, 2007), provides a comprehensive treatment of microbe--mineral interactions across geological time. [@Konhauser2007]
+
+[^konhauser2007_biomineral]: Kurt Konhauser, *Introduction to Geomicrobiology* (Blackwell, 2007). Konhauser's treatment of carbonate precipitation, iron mineral formation, magnetotactic bacteria, and other microbe-mineral systems remains one of the clearest geomicrobiological overviews of how microbes literally build minerals. [@Konhauser2007]
 
 [^methanogenesis_ancient]: Methanogenesis is phylogenetically deep within the Archaea, suggesting it is among the most ancient metabolisms. Eric Bapteste et al., "Higher-Level Classification of the Archaea: Evolution of Methanogenesis and Methanogens," *Archaea* 1 (2005): 353--363. [@Bapteste2005]
 

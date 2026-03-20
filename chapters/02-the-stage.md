@@ -2,9 +2,9 @@
 title: "The Stage"
 ---
 
-Three planets formed from the same cloud of dust.
+Three planets formed from broadly similar raw materials.
 
-They orbited the same young star, caught roughly the same rain of water and carbon, and obeyed identical physics. If you had visited the inner solar system 4.5 billion years ago, you would have had trouble telling them apart: three balls of molten rock, each venting steam into a thin, violent atmosphere, each bombarded by leftover debris. The raw materials were almost identical. The thermodynamic rules--established in the previous chapter--were exactly the same.
+They orbited the same young star, caught roughly the same rain of water and carbon, and obeyed identical physics. If you had visited the inner solar system 4.5 billion years ago, you would have seen three balls of molten rock, each venting steam into a violent atmosphere, each bombarded by leftover debris. The starting chemistry was close enough to make the later divergence meaningful.
 
 And yet, within a billion years, one of those planets was alive, another was a furnace, and the third was a frozen desert.
 
@@ -12,7 +12,7 @@ And yet, within a billion years, one of those planets was alive, another was a f
 
 Look at the uncertainty bars. Earth is the best-known case: rock structures,[^fig_allwood] mineral isotopes,[^fig_wilde_zircon] and reconstructed ancient enzymes[^fig_gaucher] all show that liquid water was present early and that the planet cooled substantially over time, even if exact surface temperatures remain debated. Venus and Mars are far less constrained. Deuterium ratios prove Venus lost its water,[^fig_donahue] but when?[^fig_way] Mars's crustal magnetism proves an early dynamo,[^fig_acuna] but warm-wet or cold-episodic?[^fig_mars_climate] Same raw materials, same physics, three different outcomes.
 
-What sequence of physical accidents turned one ordinary rocky planet into the one place where non-equilibrium chemistry could build a biosphere? The answer is a chain of contingencies--each one physical, each one measurable, each one specific enough to test.
+This chapter is not here to turn the book into a survey of planetary science. It is here to establish the minimum stage the later biology requires: liquid water that persists, an atmosphere that does not vanish, access to reduced chemicals, and a crust-ocean system that keeps the planet out of equilibrium long enough for chemistry to become evolution.
 
 ## The violence that built the world
 
@@ -213,6 +213,14 @@ By roughly 4 billion years ago--perhaps earlier--the Earth had assembled a remar
 
 Every item on this list is physical. Every one is measurable. And every one distinguishes Earth from its two nearest neighbors: Venus lost its water, Mars lost its atmosphere, and neither maintained the geological recycling that keeps the chemical gradients fresh.
 
+## Why this comparison matters again
+
+For a long time, the comparison between Earth, Venus, and Mars served mainly as reconstruction: one planet crossed the threshold into biology, two did not. Astrobiology has made the comparison more immediate by turning speculation into fieldwork.
+
+Cassini's sampling of Enceladus changed the stakes. The plume erupting from that moon's subsurface ocean contains salts, organics, molecular hydrogen, and now direct evidence of sodium phosphates -- the missing phosphorus piece in the CHNOPS inventory.[^postberg2023] Europa has moved from a literary possibility to an active mission target: Europa Clipper launched in 2024, tested its ice-penetrating radar at Mars in 2025, and is now on its way to Jupiter.[^europaclipper2025] On Mars, Perseverance has begun to find exactly the kinds of redox-coupled mineral associations a geomicrobiologist would want to inspect first: iron phosphates, iron sulfides, organics, and textures that look less like barren dust and more like the aftermath of chemistry that once had structure.[^hurowitz2025]
+
+None of this proves life beyond Earth. It does sharpen the question. The issue is no longer whether habitable chemistry is conceivable elsewhere. The issue is where the same combination of solvent, redox disequilibrium, mineral surfaces, and elemental inventory may still be running right now.
+
 ## Same rules, one stage
 
 The laws of thermodynamics operate everywhere. The quantum mechanics that determines bond energies and reaction rates is the same on Venus, Earth, and Mars. Gibbs free energy is Gibbs free energy whether you calculate it for a reaction in Earth's ocean or in a hypothetical Martian puddle.
@@ -223,7 +231,7 @@ Earth provided all of these. Not because it was designed to, and not because roc
 
 Venus shows what happens when the distance is wrong. Mars shows what happens when the mass is wrong. Both had water. Both had carbon. Both had the same thermodynamic rules. Neither became a living world.
 
-The stage is set: a warm, wet, metal-rich, geologically active planet bathed in energy, with the thermodynamic rules of Chapter 1 operating in every drop of its ancient ocean.
+The chapter needs only that much stage-setting: a warm, wet, metal-rich, geologically active planet bathed in energy, with the thermodynamic rules of Chapter 1 operating in every drop of its ancient ocean.
 
 And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen gas and carbon monoxide into warm, metal-rich water---an environment saturated with the electron donors and carbon sources that will underwrite the first microbial metabolisms. If thermodynamic models and recent vent-fluid analyses are right, trace hydrogen cyanide is in the mix as well.[^hcn_vents] The thermodynamics are favorable. The raw materials are abundant. The planet has time. What it does not yet have is a molecule that can copy itself.
 
@@ -236,6 +244,7 @@ And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen
 - The early ocean was rich in dissolved metals (tungsten, molybdenum, nickel, iron) that became the catalytic cores of the first enzymes--a chemical memory preserved in modern protein structures.
 - The earliest isotopic evidence of life (carbon isotope fractionation in 3.8-billion-year-old graphite from Greenland) indicates that biological carbon fixation was occurring by the early Archean.
 - Resurrected ancestral proteins indicate that the earliest organisms preferred temperatures of 60 to 70 degrees Celsius; the planet has been cooling, and life has been adapting, for over three billion years.
+- The comparison is newly practical, not just historical: ocean worlds, Mars sample caching, and current missions now make geomicrobiology directly relevant to astrobiology.
 
 
 [^wilde2001_hadean]: Simon A. Wilde et al., "Evidence from Detrital Zircons for the Existence of Continental Crust and Oceans on the Earth 4.4 Gyr Ago," *Nature* 409 (2001): 175–178. [@Wilde2001]
@@ -289,3 +298,9 @@ And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen
 [^wilde_zircon]: Simon A. Wilde et al., "Evidence from Detrital Zircons for the Existence of Continental Crust and Oceans on the Earth 4.4 Gyr Ago," *Nature* 409 (2001): 175–178. [@Wilde2001]
 
 [^hcn_vents]: H$_2$ and CO in vent fluids are well established. HCN at vents is thermodynamically predicted and has been detected in some fluid analyses; see Niklas G. Holm and Astrid Neubeck, "Reduction of Nitrogen Compounds in Oceanic Basement and Its Implications for HCN Formation and Abiotic Organic Synthesis," *Geochemical Transactions* 10 (2009): 9 [@HolmNeubeck2009]; for prebiotic chemistry context, John D. Sutherland, "The Origin of Life---Out of the Blue," *Angewandte Chemie International Edition* 55 (2016): 104--121. [@Sutherland2016]
+
+[^postberg2023]: Frank Postberg et al., "Detection of phosphates originating from Enceladus's ocean," *Nature* 618 (2023): 489--493. Cassini plume grains revealed sodium phosphates, completing a key piece of the elemental inventory for Enceladus habitability. [@Postberg2023]
+
+[^europaclipper2025]: NASA Jet Propulsion Laboratory, "NASA's Europa Clipper radar instrument proves itself at Mars" (2025). Europa Clipper launched in 2024 and successfully tested the REASON radar during its 2025 Mars flyby. [@NASAEuropaClipper2025]
+
+[^hurowitz2025]: Joel A. Hurowitz et al., "Redox-driven mineral and organic associations in Jezero Crater, Mars," *Nature* (2025). Perseverance has begun to find iron phosphates, iron sulfides, and organics in low-temperature redox contexts that are directly relevant to biosignature interpretation. [@Hurowitz2025]

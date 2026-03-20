@@ -6,20 +6,77 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: book-publish-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      book_version: ${{ steps.bump_version.outputs.book_version }}
+      tag_name: ${{ steps.bump_version.outputs.tag_name }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+
+      - name: Bump book version
+        id: bump_version
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          from pathlib import Path
+
+          path = Path("_quarto.yml")
+          text = path.read_text()
+          match = re.search(r'(?m)^  version:\s*"?(?P<major>\d+)\.(?P<minor>\d+)"?\s*$', text)
+          if not match:
+              raise SystemExit("Expected `book.version` in _quarto.yml with format major.minor")
+
+          major = int(match.group("major"))
+          minor = int(match.group("minor"))
+          book_version = f"{major}.{minor + 1}"
+          tag_name = f"v{book_version}"
+
+          start, end = match.span()
+          updated = text[:start] + f'  version: "{book_version}"' + text[end:]
+          path.write_text(updated)
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              output.write(f"book_version={book_version}\n")
+              output.write(f"tag_name={tag_name}\n")
+          PY
+
+      - name: Ensure release tag is available
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          TAG_NAME: ${{ steps.bump_version.outputs.tag_name }}
+        run: |
+          git fetch --force --tags origin
+          if git rev-parse -q --verify "refs/tags/${TAG_NAME}" >/dev/null; then
+            echo "Tag ${TAG_NAME} already exists."
+            exit 1
+          fi
+
+      - name: Commit version bump and push tag
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          BOOK_VERSION: ${{ steps.bump_version.outputs.book_version }}
+          TAG_NAME: ${{ steps.bump_version.outputs.tag_name }}
+        run: |
+          git add _quarto.yml
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Bump book version to ${BOOK_VERSION}"
+          git tag "${TAG_NAME}"
+          git push --atomic origin HEAD:${{ github.ref_name }} "${TAG_NAME}"
 
       - name: Set up Quarto (with TinyTeX for PDF)
         uses: quarto-dev/quarto-actions/setup@v2
@@ -71,4 +128,26 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  release:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download PDF + EPUB
+        uses: actions/download-artifact@v4
+        with:
+          name: downloads
+          path: dist
+
+      - name: Create GitHub Release and upload assets
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ needs.build.outputs.tag_name }}
+          name: ${{ needs.build.outputs.tag_name }}
+          generate_release_notes: true
+          fail_on_unmatched_files: true
+          files: |
+            dist/*.pdf
+            dist/*.epub
 

@@ -35,7 +35,7 @@ Information without work is a library with no readers. Work without information 
 
 ## The arc of the book
 
-This book began with quantum mechanics and ended with planetary engineering. The same physics operates at every scale.
+This book began with a bacterium in the dark and the energy accounting it forces on us, and it ended with planetary engineering. The same physics operates at every scale.
 
 The same $\Delta G$ that governs electron transfer in a hydrogen atom governs whether a bacterial community 2.8 kilometers underground will thrive or slowly starve. The Michaelis-Menten kinetics that describe a single purified enzyme reappear, in effective form, as the rate laws of entire ecosystems — not because the enzyme and the ecosystem are the same system, but because saturation logic applies at both levels. The same conservation law that tracks a solute diffusing through a sediment column applies to carbon moving through the global ocean — though the transport operators and boundary conditions change substantially.
 
@@ -45,13 +45,13 @@ The claim is empirical, and it is the reason that reaction-transport models are 
 
 We moved through that framework in five stages:
 
-*Part I: The Rules of the Game* established the physics: free energy, electron transfer, kinetics, and the costs that every living system must pay. The planetary stage on which that physics played out - three planets with the same starting materials; only one outcome well constrained. The point was to show that the constraints come first, and biology responds to them.
+*Part I: The Rules of the Game* established the minimum accounting that the rest of the story needs: free energy, kinetics, and the planetary boundary conditions that kept Earth wet, reactive, and open long enough for chemistry to become biology.
 
 *Part II: The First Society* introduced the organisms, but in their most ancient and minimal forms: the first metabolisms, the first communities, the first catastrophic success (oxygen). Here the emphasis was on how life does not merely inhabit environments but reshapes them -- sometimes constructively, sometimes catastrophically.
 
 *Part III: The Great Mergers* traced how competition, cooperation, and endosymbiosis produced the cellular architectures we see today. Syntrophy turned out to be not an exotic curiosity but a dominant strategy: organisms that cannot survive alone thriving in partnerships where one's waste is another's fuel.
 
-*Part IV: The Equation* built the mathematical machinery: the conservation equation, the transport operators, the rate expressions. One conservation framework, applied from a sediment pore to the global ocean — the same accounting principle, with different transport operators at each scale.
+*Part IV: Modeling the Invisible* turned that machinery into a way of reading real systems: the conservation equation, the transport operators, the rate expressions, and the practical art of explaining a profile rather than merely admiring it.
 
 *Part V: The Hidden World and the Future* brought the story to the present: the deep biosphere, groundwater redox, water treatment, and the open questions that define the frontier of the field.
 
@@ -60,6 +60,8 @@ We moved through that framework in five stages:
 A book that pretends to have all the answers is advertising. Here are questions that remain open, drawn from the same source literature that informed every chapter:
 
 **How did the transition from inorganic catalysts to protein enzymes occur?** We know that mineral surfaces can catalyze many of the reactions that enzymes perform today.[^wachtershauser1988] We know that ribozymes can catalyze a subset of reactions using RNA alone.[^cech1986_ep] But the mechanistic path from mineral-catalyzed chemistry to the protein-dominated metabolism of modern cells remains sketchy. The gap is not just historical curiosity -- it determines how we think about the likelihood of life elsewhere.
+
+**What would count as convincing evidence of life elsewhere now that ocean worlds and Mars are back on the table?** Enceladus has phosphates, organics, and hydrogen. Europa is finally being surveyed with instruments designed for habitability rather than mythology. Mars has begun yielding redox-sensitive minerals and organics in settings that look, to a geomicrobiologist, uncomfortably familiar. But none of these observations is self-interpreting. We still do not know what combination of isotopes, minerals, textures, and disequilibria would amount to a persuasive biosignature rather than an intriguing chemical story.
 
 **How far does satisficing take us?** This book has argued that microbial communities satisfice rather than optimize -- covering maintenance costs under local constraints rather than maximizing growth or yield.[^simon1956_ep] The framework explains fuzzy redox boundaries and the coexistence of "losing" metabolisms. But the limits of this view remain untested. Can satisficing predict community response to novel perturbations -- a sudden pulse of nitrate, a temperature shift, an introduced species? Or will we need richer theory that accounts for gene regulation, lag phases, and evolutionary dynamics on ecological timescales?
 

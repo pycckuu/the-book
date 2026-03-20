@@ -50,11 +50,13 @@ The theoretical foundations were laid in the 1990s, when Van Cappellen and Wang 
 
 RTMs handle this coupling naturally. They solve the conservation equation for each species simultaneously, with transport (diffusion, advection, dispersion) and reaction (kinetic rate laws, thermodynamic constraints) woven together. The output is not a single number but a profile -- concentration as a function of space and time -- which can be compared directly to measurements.
 
-This is what makes RTMs powerful as diagnostic tools. Given a measured porewater profile, an RTM can infer the biogeochemical reaction rates consistent with it — subject to the chosen model structure and assumptions.
+RTMs become powerful diagnostic tools at this point. Given a measured porewater profile, an RTM can infer the biogeochemical reaction rates consistent with it, subject to the chosen model structure and assumptions.
 
 But Arndt and colleagues are equally candid about the limitations: "The lack of mechanistic understanding of organic matter degradation is reflected in mathematical formulations used in RTMs."[^arndt2013_water] We know that organic matter is consumed. We can measure how fast. But the molecular-level mechanisms -- which enzymes attack which bonds, how microbial communities partition the work, what controls the apparent reactivity of organic matter as it ages -- remain incompletely understood. The rate laws we use in RTMs are effective descriptions, not fundamental ones.[^arndt2013_detail]
 
-"Incorporating the complex interplay of different factors and proposing a consistent predictive algorithm represents a major challenge for future generations of RTMs."[^arndt2013_water] That sentence captures both the achievement and the gap. The tools exist. The framework is sound. What is needed is better mechanistic understanding -- the kind that comes from integrating microbiology, geochemistry, and transport physics at a level that current models only approximate.
+"Incorporating the complex interplay of different factors and proposing a consistent predictive algorithm represents a major challenge for future generations of RTMs."[^arndt2013_water] Arndt and colleagues state the problem cleanly. The framework works. Mechanistic understanding still lags. Modelers still need tighter links between microbiology, geochemistry, and transport physics than current rate laws can provide.
+
+Modelers now work in a different tooling landscape. PHREEQC, EQ6, and the Geochemist's Workbench still matter, but many groups now build around interoperable and high-performance frameworks. PFLOTRAN and CrunchFlow are routinely coupled into larger multiphysics environments, and interfaces such as Alquimia were built to make that coupling systematic rather than improvised.[^molins2025] Machine-learning surrogates and physics-informed neural networks have started to compress some of the most expensive parts of the calculation, not by replacing conservation laws but by solving them faster.[^adhikari2026]
 
 The need, in practical terms, is for better quantification of past, present, and future benthic carbon turnover. "Benthic" means "at the bottom" -- the sediment-water interface, the place where organic matter arrives and is processed. Getting the rates right at this interface determines whether we predict accurate fluxes of CO$_2$ and methane to the atmosphere, accurate nutrient recycling to the water column, and accurate contaminant attenuation in groundwater systems. The stakes are as high as the modeling is difficult.
 
@@ -76,15 +78,25 @@ For water treatment applications, this matters directly. When we model a treatme
 
 ## The water-energy-carbon nexus
 
-This is where the chapter's threads converge.
+The chapter's threads meet here.
 
-Water quality is not a standalone problem. It is entangled with energy (because energy extraction contaminates water and water treatment requires energy), with carbon (because organic carbon is both the contaminant in many water systems and the electron donor that drives microbial remediation), and with climate (because changing precipitation patterns alter both the delivery of contaminants and the capacity of natural systems to process them).
+Water quality does not stand alone. Energy extraction contaminates water. Water treatment consumes energy. Organic carbon acts both as contaminant and as electron donor in many remediation settings. Shifts in rainfall and thaw change both the delivery of contaminants and the ability of natural systems to process them.
 
 The major greenhouse gases — CO$_2$, methane, nitrous oxide — are all connected to water. Wetlands are methane sources. Agricultural runoff is a nitrous oxide source. The ocean is the largest CO$_2$ sink — driven by physical gas exchange and carbonate chemistry, but with biology shaping the net flux through photosynthesis, respiration, and carbonate precipitation. Microbial metabolism is not the whole story in every case, but it appears on one side or the other of every budget.
 
+Permafrost makes the link concrete. Permafrost soils hold an immense carbon reservoir, and the Arctic tundra has shifted from long-term sink to net source as warming, wildfire, and thaw expose organic matter to microbial attack.[^noaa2024] A 2024 isotope study argued that most of the record methane growth from 2020 to 2022 came from microbial sources rather than fossil leakage.[^michel2024] Another 2024 study found that thawing-permafrost microbes can metabolize polyphenols once treated as relatively protected carbon, implying that some current emission estimates may still be conservative.[^northen2024]
+
 An RTM for a contaminated aquifer and a global carbon cycle model share the same intellectual scaffolding: conservation equations, rate expressions, and the challenge of coupling fast and slow processes. The practical models differ — in parameterization, spatial resolution, and the biology they resolve — but the underlying logic is the same. In both cases, biology is the catalyst that makes thermodynamically favorable reactions actually happen.
 
-This is the payoff of the physics-first approach we have taken. By grounding everything in energy, transport, and kinetics, we have built a framework that is portable. It works in a sediment core. It works in a treatment wetland. It works in a global climate model. The microbes change, the minerals change, the timescales change -- but the principles do not.
+The framework travels. Ground it in energy, transport, and kinetics, and it works in a sediment core, a treatment wetland, or a global climate model. The microbes change. The minerals change. The timescales change. The principles do not.
+
+## The missing trophic layer: viruses
+
+Viruses belong in the modern picture. Leave them out, and the biology looks cleaner than it is. Microbes do not run the planet alone.
+
+In the ocean, phages kill a substantial fraction of microbial cells every day, short-circuiting the path from biomass to grazers and sending that carbon back into the dissolved pool -- the process marine ecologists call the viral shunt.[^suttle2007] That makes viruses active participants in biogeochemistry rather than mere passengers on it. They regulate who dominates, who crashes, and how much carbon stays in circulation long enough to be respired.
+
+They also reprogram metabolism from the inside. Many viruses carry auxiliary metabolic genes that tweak host carbon, sulfur, or methane pathways during infection. A 2024 survey found that viral genes with the potential to modulate methane metabolism are widespread but strongly habitat-dependent, which means greenhouse-gas budgets can carry a hidden viral term.[^chen2024viral] Viruses redirect traffic, crash lineages, and sometimes lend hosts new machinery.
 
 ## What the microbes are still doing
 
@@ -104,6 +116,8 @@ Van Cappellen's argument about Canada is worth pausing on, because it illustrate
 
 Canada may have access to as much as 20% of the world's stock of surface freshwater, though its renewable supply is much smaller and geographically uneven.[^canada_water] It has a large and active water research community -- universities, government laboratories, environmental consultancies. And it faces water quality challenges that, while less dramatic than China's in scale, are serious and growing: agricultural contamination, legacy industrial contamination, and emerging contaminants (pharmaceuticals, microplastics, PFAS).
 
+But the real story is not national self-congratulation. Canada is one node in a much larger network of hydrogeologists, geomicrobiologists, modelers, and environmental engineers working on the same coupled problems in the Netherlands, Germany, China, Scandinavia, the United States, and many other places. Waterloo matters here because it is a useful vantage point, not because the science stops at its borders.
+
 The scientific tools to address these challenges exist. RTMs can predict contaminant fate. Microbial ecology can identify the organisms doing the work. Geochemistry can characterize the reactions. Isotope proxies can track the sources.
 
 What is often missing is the integration -- the step from understanding individual processes to predicting whole-system behavior. That integration is exactly what RTMs are designed to provide, and it is the integration step that makes RTMs useful.
@@ -118,7 +132,7 @@ Since then, we have traveled from the quantum-mechanical basis of redox reaction
 
 The story has a single through-line: **life is a way of harvesting chemical gradients, and the harvesting reshapes the gradients, which reshapes the opportunities for life.**
 
-That feedback loop has been running for at least 3.8 billion years. It oxygenated the atmosphere. It drew down CO$_2$ through weathering and biological sequestration, and released it through degassing and organic matter oxidation. It created the redox structure of sediments and soils. It continues to operate, right now, in every aquifer, every ocean margin, every wetland, every wastewater treatment plant.
+The feedback loop has been running for at least 3.8 billion years. It oxygenated the atmosphere. It drew down CO$_2$ through weathering and biological sequestration, and released it through degassing and organic matter oxidation. It created the redox structure of sediments and soils. It still operates in every aquifer, every ocean margin, every wetland, every wastewater treatment plant.
 
 The 4.5-billion-year story we have told is not just history. It is the operating manual for the planet we live on.
 
@@ -134,6 +148,7 @@ The bacterium is still down there, still dividing, still confessing what life re
 - The microbial processes that shaped Earth's atmosphere and sediment chemistry over billions of years are among the processes that can clean contaminated water -- if we understand them well enough.
 - The greenhouse gases that drive climate change — CO$_2$, CH$_4$, N$_2$O — are connected to water quality through shared biogeochemistry. Microbial metabolism is not the whole story in every budget, but it appears on one side or the other of each.
 - Reaction-transport models bridge the gap between mechanistic understanding and system-level prediction, but require better integration of microbial ecology and organic matter chemistry to fulfill their potential.
+- Modern biogeochemical modeling is moving toward interoperable solver ecosystems, ML-assisted surrogates, and explicit treatment of overlooked biological actors such as viruses.
 - The partial equilibrium approach -- treating fast aqueous reactions as algebraic constraints while solving slow mineral reactions kinetically -- is a practical computational strategy with deep physical justification.
 
 [^arndt2013_water]: Sandra Arndt et al., "Quantifying the Degradation of Organic Matter in Marine Sediments: A Review and Synthesis," *Earth-Science Reviews* 123 (2013): 53--86. [@Arndt2013]
@@ -163,3 +178,17 @@ The bacterium is still down there, still dividing, still confessing what life re
 [^leal2015_stiff]: Allan M. M. Leal, Martin J. Blunt, and Tara C. LaForce, "A chemical kinetics algorithm for geochemical modelling," *Applied Geochemistry* 55 (2015): 46--61. [@Leal2015]
 
 [^magnabosco2018_water]: Cara Magnabosco et al., "The biomass and biodiversity of the continental subsurface," *Nature Geoscience* 11 (2018): 707--717. [@Magnabosco2018]
+
+[^molins2025]: Sergi Molins et al., "Alquimia v1.0: a generic interface to biogeochemical codes - a tool for interoperable development, prototyping and benchmarking for multiphysics simulators," *Geoscientific Model Development* 18 (2025): 3241--3263. Alquimia was designed to let multiphysics codes use mature geochemical engines without bespoke rewrites for every coupling. [@Molins2025]
+
+[^adhikari2026]: Kripa Adhikari et al., "Reactive transport modeling with physics-informed machine learning for critical minerals applications," *Transport in Porous Media* 153 (2026): 45. A recent example of physics-informed machine learning being used to accelerate reactive-transport calculations rather than replace their governing equations. [@Adhikari2026]
+
+[^noaa2024]: Twila A. Moon, Matthew L. Druckenmiller, and Rick L. Thoman, eds., *Arctic Report Card 2024* (NOAA, 2024). The report documents the Arctic tundra's transition from long-term carbon sink to net source. [@ArcticReportCard2024]
+
+[^michel2024]: Sylvia Michel, Xin Lan, and colleagues, "Rapid shift in methane carbon isotopes suggests microbial emissions drove record high atmospheric methane growth in 2020-2022," *PNAS* 121 (2024). The isotopic evidence points strongly toward microbial sources behind the recent methane surge. [@Michel2024]
+
+[^northen2024]: Bridget B. McGivern et al., "Microbial polyphenol metabolism is part of the thawing permafrost carbon cycle," *Nature Microbiology* 9 (2024): 1454--1466. The study weakens the idea that polyphenols remain largely protected during thaw and strengthens the case for larger microbial carbon losses. [@McGivern2024]
+
+[^suttle2007]: Curtis A. Suttle, "Marine viruses - major players in the global ecosystem," *Nature Reviews Microbiology* 5 (2007): 801--812. A classic review of the viral shunt and the scale at which marine viruses regulate microbial mortality and carbon recycling. [@Suttle2007]
+
+[^chen2024viral]: Zhi-Ping Zhong et al., "Viral potential to modulate microbial methane metabolism varies by habitat," *Nature Communications* (2024). Viral auxiliary metabolic genes affecting methane pathways are widespread enough to matter for how we think about microbial greenhouse-gas budgets. [@Zhong2024]

@@ -10,23 +10,23 @@ Years later, I realized that the story hiding inside those notes was bigger than
 
 That is the story this book tells.
 
-The approach is chronological and technical, but story-driven. Every equation earns its place by answering a question that the narrative raises. If a formula appears, it is because the words ran out of precision and the math picked up where they left off. The source material spans geomicrobiology, biogeochemistry, thermodynamics, quantum physics, and environmental science -- fields that rarely share a bookshelf but that describe different views of the same system.
+The approach is chronological, story-driven, and quantitatively serious. Every equation earns its place by answering a question that the narrative raises. If a formula appears, it is because the words ran out of precision and the math picked up where they left off. The source material spans geomicrobiology, biogeochemistry, thermodynamics, quantum physics, and environmental science -- fields that rarely share a bookshelf but that describe different views of the same system.
 
 The book is organized in five parts.
 
-**Part I: The Rules of the Game** establishes the thermodynamic and quantum constraints -- using organisms as entry points to the physics. Free energy, electron transfer, kinetics, and the costs of staying alive -- these are the rules that every microbe on Earth must obey, and they set the stage for everything that follows.
+**Part I: The Rules of the Game** establishes only the physics the story actually needs: the energy budget of life and the planetary conditions that kept Earth wet, reactive, and out of equilibrium long enough for microbes to emerge.
 
 **Part II: The First Society** introduces the earliest metabolisms, the first microbial communities, and the catastrophe that changed the atmosphere forever: the rise of oxygen. Here the emphasis shifts from physics to history, though the physics never leaves.
 
 **Part III: The Great Mergers** traces how competition and cooperation among microbes produced the cellular architectures and metabolic partnerships that dominate life today. Syntrophy -- organisms surviving together on reactions that neither could manage alone -- turns out to be not an exception but a rule.
 
-**Part IV: The Equation** builds the mathematical machinery: the conservation equation, transport operators, and rate expressions that unify the biology into a single quantitative framework.
+**Part IV: Modeling the Invisible** turns that machinery into a practical language for reading the hidden world: porewater profiles, transport, rate laws, and the conservation logic that lets us ask why a boundary sits where it does.
 
 **Part V: The Hidden World and the Future** brings the story to the present. The deep biosphere, groundwater redox, water treatment, and the open questions that define the frontier of the field. The book ends not with answers but with an honest accounting of what we still do not know.
 
-Throughout, *Sidebar* callouts offer the mathematical machinery for readers who want to see the derivations, check the units, and run their own back-of-the-envelope estimates. You can skip them without losing the narrative thread, or read them exclusively if equations are your preferred language. Five appendices -- an energy toolkit, a model toolkit, a reaction gallery, a math refresher, and a field guide to the organisms -- provide the full reference set.
+Throughout, *Sidebar* callouts offer the mathematical machinery for readers who want to see the derivations, check the units, and run their own back-of-the-envelope estimates. You can skip them without losing the narrative thread. Five appendices -- an energy toolkit, a model toolkit, a reaction gallery, a math refresher, and a field guide to the organisms -- hold the deeper technical scaffolding for readers who want the full apparatus.
 
-This book is not a textbook, though it can be used as one. It is not a popular science book, though I hope it is readable. It is an attempt to tell a true story about the planet in a way that respects both the science and the reader.
+This book is meant to be read straight through as narrative first. It can also be used as a technical companion, but the appendices and sidebars are there so the main text does not have to behave like a textbook every time it wants to be precise.
 
 My hope is simple: that by the last page, you will look at the ground beneath your feet and see not dirt, but a reactor. Not silence, but metabolism. Not emptiness, but the invisible architects, still at work.
 
@@ -37,6 +37,7 @@ Book website: https://pycckuu.github.io/the-book/
 
 ## Download
 
+- Every merge to `main` publishes the site, bumps `book.version` in `_quarto.yml`, and creates a new GitHub Release with the latest **PDF/EPUB**.
 - **PDF/EPUB** are available from the repository's **Releases**.
 - The latest **PDF/EPUB** are also available as an artifact named `downloads` in the most recent GitHub Actions run.
 

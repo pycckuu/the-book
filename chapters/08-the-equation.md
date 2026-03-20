@@ -1,24 +1,26 @@
 ---
-title: "The Equation"
+title: "Modeling the Invisible"
 ---
 
 [FIGURE: A porewater profile showing oxygen concentration dropping to zero within the top few centimeters, sulfate declining steadily over the next meter, and methane rising from below. The x-axis is concentration; the y-axis is depth, increasing downward. Three zones are shaded: an oxygen zone (pale blue), a sulfate zone (pale yellow), and a methane zone (pale green). The sulfate-methane transition zone is marked where the two curves cross.]
 
-The x-axis is concentration. The y-axis is depth below the sediment-water interface, increasing downward. The three curves are oxygen, sulfate, and methane, measured in the porewater of a marine sediment core somewhere on a continental margin.
+A sediment core can look, at first glance, like three quiet curves on a page. The x-axis is concentration. The y-axis is depth below the sediment-water interface, increasing downward. The curves are oxygen, sulfate, and methane, measured in the porewater of a marine sediment somewhere on a continental margin.
 
-Oxygen drops from near-saturation at the interface to zero within the first few centimeters. Sulfate holds steady through the oxygen zone, then declines -- gradually at first, then steeply -- over the next meter. Methane is absent at the top, barely detectable through the sulfate zone, and then rises sharply from below, increasing with depth until it reaches concentrations limited only by solubility and pressure.
+Oxygen drops from near-saturation at the interface to zero within the first few centimeters. Sulfate holds steady through the oxygen zone, then declines over the next meter. Methane is absent at the top, barely detectable through the sulfate zone, and then rises sharply from below, increasing with depth until it reaches concentrations limited only by solubility and pressure.
 
-Where the sulfate curve and the methane curve cross, there is a narrow band -- a few centimeters wide -- where both are present at low concentrations. This is the sulfate-methane transition zone, and it is one of the most studied features in marine geochemistry. Something is consuming both sulfate and methane at this depth. Something is pulling both curves toward zero at the same horizon.
+Where the sulfate curve and the methane curve cross, there is a narrow band -- a few centimeters wide -- where both are present at low concentrations. This is the sulfate-methane transition zone, one of the most studied features in marine geochemistry. Something is consuming both sulfate and methane at this depth. Something is pulling both curves toward zero at the same horizon.
 
-That something is biology. A consortium of anaerobic methanotrophic archaea and sulfate-reducing bacteria, working together, oxidizing methane with sulfate in a reaction that is thermodynamically marginal and kinetically slow:
+That something is biology: a consortium of anaerobic methanotrophic archaea and sulfate-reducing bacteria, working together to oxidize methane with sulfate in a reaction that is thermodynamically marginal and kinetically slow:
 
 $$
 \text{CH}_4 + \text{SO}_4^{2-} \longrightarrow \text{HCO}_3^- + \text{HS}^- + \text{H}_2\text{O}
 $$
 
-The organisms are real. The reaction is real. But the *shape* of the curves -- why oxygen drops fast and sulfate drops slowly, why methane rises from below, why the transition zone sits where it does and not somewhere else -- cannot be explained by biology alone. It requires an equation.
+The organisms are real. The reaction is real. But the *shape* of the curves -- why oxygen drops fast and sulfate drops slowly, why methane rises from below, why the transition zone sits here and not somewhere else -- cannot be explained by intuition alone. It requires bookkeeping.
 
-One equation. The same equation. Applied three times -- once for each species -- with different parameters.
+This chapter is about that bookkeeping: how to turn a porewater profile into a quantitative story. The same conservation law, written once and applied species by species, lets us ask practical questions. Why does this boundary sit where it does? How far would it move if organic matter delivery doubled? How much methane escapes if transport outruns biology?
+
+One equation is enough to begin.
 
 ## Conservation: the only law you need
 
