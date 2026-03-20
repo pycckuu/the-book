@@ -41,7 +41,7 @@ The same $\Delta G$ that governs electron transfer in a hydrogen atom governs wh
 
 The underlying physics does not change. The models built on it must.
 
-This is not a simplification. It is an empirical observation, and it is the reason that reaction-transport models are portable at all. If the physics changed with scale -- if microbial communities invented new thermodynamics -- then every model would be an ad hoc curve fit. The fact that a model calibrated on porewater sulfate in one fjord can make useful predictions in another — even if recalibration is needed — is evidence that the non-equilibrium framework is not just a metaphor. It is the actual mechanism.
+The claim is empirical, and it is the reason that reaction-transport models are portable at all. If the physics changed with scale -- if microbial communities invented new thermodynamics -- then every model would be an ad hoc curve fit. The fact that a model calibrated on porewater sulfate in one fjord can make useful predictions in another — even if recalibration is needed — is evidence that the non-equilibrium framework is not just a metaphor. It is the actual mechanism.
 
 We moved through that framework in five stages:
 
@@ -57,7 +57,7 @@ We moved through that framework in five stages:
 
 ## What we still do not know
 
-A book that pretends to have all the answers is not science. It is advertising. Here are some of the questions that remain genuinely open, drawn from the same source literature that informed every chapter:
+A book that pretends to have all the answers is advertising. Here are questions that remain open, drawn from the same source literature that informed every chapter:
 
 **How did the transition from inorganic catalysts to protein enzymes occur?** We know that mineral surfaces can catalyze many of the reactions that enzymes perform today.[^wachtershauser1988] We know that ribozymes can catalyze a subset of reactions using RNA alone.[^cech1986] But the mechanistic path from mineral-catalyzed chemistry to the protein-dominated metabolism of modern cells remains sketchy. The gap is not just historical curiosity -- it determines how we think about the likelihood of life elsewhere.
 

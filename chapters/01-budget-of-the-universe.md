@@ -122,7 +122,7 @@ $$
 \Delta G^\circ = -RT \ln K_{\text{eq}}
 $$
 
-This is not a separate equation. It is a special case of the one above, evaluated at the point where the reaction has no net tendency to move in either direction.
+The expression is a special case of the one above, evaluated at the point where the reaction has no net tendency to move in either direction.
 
 For biochemical reactions, a modified convention is often used: $\Delta G^{\circ\prime}$, where the prime indicates standard conditions at pH 7 rather than the chemist's convention of pH 0. Since most biology operates near neutral pH, this keeps the reference point close to reality.[^karp2008]
 
@@ -143,7 +143,7 @@ Both are exergonic at standard conditions, but in real sediment $Q$ does the wor
 
 Because the methanogen's $\Delta G^{\circ\prime}$ is smaller to begin with, its $\Delta G$ crosses the viability threshold at a higher H$_2$ concentration. Field measurements confirm the prediction: sulfate reducers draw H$_2$ down to roughly 1--1.5 nM; methanogens stall at roughly 7--10 nM.[^lovley1988] Where sulfate is available, sulfate reducers pull H$_2$ below the methanogen's threshold and win by default. Methanogens dominate only where sulfate is exhausted and no one else is pulling H$_2$ lower.
 
-This is not a hand-waving story. Plug the concentrations into $\Delta G = \Delta G^{\circ\prime} + RT \ln Q$, and the guild boundaries fall out of the arithmetic. The physics predicts the zonation; the microbes confirm it.
+You can check this yourself. Plug the concentrations into $\Delta G = \Delta G^{\circ\prime} + RT \ln Q$, and the guild boundaries fall out of the arithmetic. The physics predicts the zonation; the microbes confirm it.
 :::
 
 ::: {.callout-note}

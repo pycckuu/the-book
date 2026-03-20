@@ -32,7 +32,7 @@ The traditional engineering approach to water treatment works like this: charact
 
 The geomicrobiology approach starts from the other end. It asks: what organisms are present? What reactions are thermodynamically favorable under local conditions? What are the kinetic constraints? How does the community adapt when conditions change? The biology is not a black box. It is the mechanism. And because the mechanism is understood -- because it rests on the same thermodynamic and kinetic principles we have been developing throughout this book -- the model can generalize. A model calibrated on one aquifer can make useful predictions for another, not because the organisms are the same, but because the constraints are the same.
 
-This is not an academic distinction. It determines whether your model works when you need it most: when conditions are changing, when the system is perturbed, when prediction matters.
+The distinction determines whether your model works when conditions change, when the system is perturbed, when prediction matters.
 
 And the payoff is not merely academic: "If we can increase the availability of clean water, we can automatically generate economic prosperity." This is the observation that water scarcity is a binding constraint on development in much of the world, and that relaxing that constraint has cascading effects on agriculture, industry, health, and political stability.
 
