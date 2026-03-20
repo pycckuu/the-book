@@ -106,13 +106,13 @@ $$
 
 where $[B]$ is biomass concentration, and both electron donor (TED) and acceptor (TEA) act as independent rate-limiting factors.[^thullner2007]
 
-**The thermodynamic factor** $F_T$, which throttles the reaction as it approaches equilibrium:
+**The thermodynamic factor** $F_T$, which throttles the reaction as it approaches equilibrium. In its simplest form:
 
 $$
 F_T = \frac{1}{\exp\left(\frac{\Delta G_r}{RT}\right) + 1}
 $$
 
-When $\Delta G_r$ is large and negative (far from equilibrium), $F_T \approx 1$ and the reaction runs at its full kinetic rate.[^jin2005_eq] As $\Delta G_r \to 0$ (approaching equilibrium), $F_T \to 0$ and the reaction stalls. This is how thermodynamics and kinetics meet: kinetics sets the maximum speed; thermodynamics sets the boundary beyond which the reaction cannot proceed.
+This is a schematic version. The full Jin-Bethke treatment includes a term for the energy the cell conserves per reaction (the number of ATPs synthesized), which shifts the equilibrium threshold.[^jin2005_eq] But the logic is the same: when $\Delta G_r$ is large and negative (far from equilibrium), $F_T \approx 1$ and the reaction runs at its full kinetic rate. As $\Delta G_r \to 0$ (approaching equilibrium), $F_T \to 0$ and the reaction stalls.
 
 The full rate expression for a microbially mediated reaction is then:
 
@@ -140,29 +140,29 @@ Return to the profile that opened this chapter. We can now read it.
 
 **Oxygen drops steeply** because aerobic respiration is fast (high $k_{\max}$, high yield) and the organic matter supply at the sediment surface is abundant. The rate of oxygen consumption exceeds the rate of oxygen diffusion from the overlying water within the first few centimeters. The oxygen penetration depth is set by the balance between diffusive supply from above and microbial consumption below. Where consumption wins, oxygen goes to zero.
 
-**Sulfate declines gradually** because sulfate reduction is slower than aerobic respiration (lower $k_{\max}$) and because sulfate is present at much higher initial concentrations (~28 mM in seawater) than oxygen (~0.2 mM).[^millero2013] It takes a longer distance -- and a longer time -- for biological consumption to draw sulfate down. The concavity of the sulfate curve tells you the rate: a more concave curve means faster consumption at that depth.[^berner1980]
+**Sulfate declines gradually** because sulfate reduction is slower than aerobic respiration (lower $k_{\max}$) and because sulfate is present at much higher initial concentrations (~28 mM in seawater) than oxygen (~0.2 mM).[^millero2013] It takes a longer distance -- and a longer time -- for biological consumption to draw sulfate down. The concavity of the sulfate curve reflects the balance between consumption and transport: a more concave curve means the reaction rate is large relative to diffusive resupply at that depth.[^berner1980]
 
-**Methane rises from below** because methanogenesis occurs in the deep, sulfate-depleted zone. Methane diffuses upward, toward lower concentrations. At the sulfate-methane transition zone, it meets the descending sulfate, and the anaerobic oxidation of methane (AOM) consortium consumes both.[^knittel2009] The sharpness of the transition tells you the rate of AOM: a sharper crossing means faster reaction. The AOM consortium itself represents one of the most remarkable syntrophic partnerships in nature -- archaea and bacteria working in obligate association to catalyze a reaction with vanishingly small energy yields.[^knittel2009]
+**Methane rises from below** because methanogenesis occurs in the deep, sulfate-depleted zone. Methane diffuses upward, toward lower concentrations. At the sulfate-methane transition zone, it meets the descending sulfate, and the anaerobic oxidation of methane (AOM) consortium consumes both.[^knittel2009] The sharpness of the transition reflects how fast AOM is relative to the diffusive fluxes delivering its substrates: a sharper crossing means the reaction outpaces transport over a narrower zone. The AOM consortium itself represents one of the most remarkable syntrophic partnerships in nature -- archaea and bacteria working in obligate association to catalyze a reaction with vanishingly small energy yields.[^knittel2009]
 
 Every feature of this profile -- every bend, every slope change, every crossing -- is the visible signature of the conservation equation doing its work. Transport sets the gradients. Reactions bend the curves. The profile is a solution to a set of differential equations, written in chemistry.
 
 ## One equation, all scales
 
-**The conservation equation does not change with scale.**
+**The conservation framework does not change with scale.**
 
-The same equation that describes oxygen diffusing into a millimeter-thick surface layer of sediment describes sulfate declining over a meter of marine mud. The same equation, with different transport terms (advection-dominated flow instead of diffusion-dominated), describes nitrate attenuation in a kilometer-scale aquifer plume. The same equation, with yet different transport terms (wind-driven mixing instead of molecular diffusion), describes CO$_2$ uptake by the global ocean.
+The same conservation principle that describes oxygen diffusing into a millimeter-thick surface layer of sediment describes sulfate declining over a meter of marine mud. The same principle, expressed through different transport operators (advection-dominated flow instead of diffusion-dominated), describes nitrate attenuation in a kilometer-scale aquifer plume. The same principle, with yet different operators (wind-driven mixing instead of molecular diffusion), describes CO$_2$ uptake by the global ocean.
 
 $$
 \frac{\partial \hat{C}}{\partial t} = -\frac{\partial F}{\partial x} + \sum R_i
 $$
 
-The $F$ changes. The $R_i$ changes. The parameters change. The equation does not.
+The $F$ changes -- not just its parameters but its mathematical form. The $R_i$ changes. The geometry changes. What persists is the conservation law itself: accumulation equals net flux plus net reaction.
 
-This is not analogy. It is not "the ocean is *like* a sediment column." It is mathematical identity: the same conservation law, applied to the same physical quantities, producing the same class of solutions. A model that reproduces the sulfate profile in a sediment core and a model that reproduces the CO$_2$ drawdown in the Southern Ocean are solving the same equation. The organisms differ. The minerals differ. The timescales differ by factors of millions. The equation is the same.
+This is more than analogy. The conservation law is the same physical principle in each case. But the transport operators, boundary conditions, and closure terms differ enough between a sediment pore and the Southern Ocean that calling the models "identical" would overstate the case. What is identical is the accounting: mass in, mass out, mass transformed. The organisms differ. The minerals differ. The timescales differ by factors of millions. The bookkeeping does not.
 
 Why? Because conservation of mass is not a biological principle, or a geological principle, or a chemical principle. It is a physical principle. It does not care whether the reacting species is sulfate in a pore or CO$_2$ in the atmosphere. It does not care whether the transport mechanism is molecular diffusion or ocean circulation. It cares only that matter is neither created nor destroyed, and that the accounting balances.
 
-This identity is the reason that reaction-transport models are portable. A model calibrated on one fjord's sediment can make useful predictions for another fjord[^boudreau1997] -- not because the organisms are identical, but because the equation is identical and the parameters are constrained by the same thermodynamic and kinetic principles. A model built for early diagenesis can be adapted for groundwater contamination, because the coupling between transport and reaction works the same way in both settings.
+This shared accounting is the reason that reaction-transport models are portable. A model calibrated on one fjord's sediment can make useful predictions for another fjord[^boudreau1997] -- not because the organisms are identical, but because the framework is the same and the parameters are constrained by the same thermodynamic and kinetic principles. A model built for early diagenesis can be adapted for groundwater contamination, because the coupling between transport and reaction works the same way in both settings.
 
 The portability is not infinite. Parameters must be recalibrated. Biology adapts. New reactions become important at new scales. But the framework -- the conservation equation, the transport operators, the rate expressions -- carries across. It is the scaffold on which all the site-specific details hang.
 
@@ -188,7 +188,7 @@ These are real limitations, and we state them here so that the equation earns no
 - Transport has two components: molecular diffusion (Fick's law, $F \propto -D \, \partial C / \partial x$) and advection ($F \propto u \cdot C$). The diffusion timescale $\tau \sim L^2/D$ explains why most chemical action in sediments occurs in the top meter.
 - Reaction terms combine Michaelis-Menten kinetics (supply limitation), dual-Monod kinetics (donor + acceptor limitation), and the thermodynamic factor $F_T$ (equilibrium limitation).
 - Coupling between species arises naturally: shared reaction terms link the equations for oxygen, sulfate, methane, iron, and all other species into a system that must be solved simultaneously.
-- The conservation equation is scale-invariant: the same mathematical object describes a sediment pore, an aquifer, and the global ocean — mathematical identity, not analogy — and it is why reaction-transport models are portable across settings.
+- The conservation law carries across scales: the same accounting principle — accumulation equals flux plus reaction — applies whether the system is a sediment pore, an aquifer, or the global ocean. The transport operators and closure terms change, but the framework is portable.
 - The model assumes steady-state biology, effective rate constants, continuum averaging, and one-dimensionality. These assumptions define the current frontier; relaxing them is the work of the next generation of models.
 
 [^berner1980]: Robert A. Berner, *Early Diagenesis: A Theoretical Approach* (Princeton University Press, 1980). The conservation equation framework for sediment geochemistry. [@Berner1980Early]
