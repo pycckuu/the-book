@@ -2,7 +2,7 @@
 title: "Appendix B — Model Toolkit"
 ---
 
-This appendix collects the mathematical machinery behind the reaction--transport models discussed in Chapters 8 and 9. Readers who skipped the Deep Dive sidebars can find the full framework here; readers who followed every sidebar can use this as a concise reference.
+This appendix collects the mathematical machinery behind the reaction--transport models discussed in Chapters 8 and 9. Readers who skipped the Sidebar callouts can find the full framework here; readers who followed every sidebar can use this as a concise reference.
 
 ## B.1 The diagenetic equation
 

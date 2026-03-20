@@ -2,7 +2,7 @@
 title: "Appendix D --- Math Without Pain"
 ---
 
-This appendix collects the quantum-mechanical derivations and detailed mathematical treatments that support the main text. Readers who want the full machinery will find it here; readers who skipped the Deep Dives can return to these sections when curiosity strikes.
+This appendix collects the quantum-mechanical derivations and detailed mathematical treatments that support the main text. Readers who want the full machinery will find it here; readers who skipped the Sidebars can return to these sections when curiosity strikes.
 
 ## D.1 The Schrödinger equation: from waves to energy levels
 

@@ -218,7 +218,7 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 
 [^markov_compartment]: Markov (2010) notes that prokaryotic cells are limited to one or two compartments (cytoplasm and periplasmic space), constraining the complexity of chemistry they can perform simultaneously. [@Markov2010]
 
-[^spang_loki]: Spang et al. (2015) reported the discovery of *Lokiarchaeota* from deep-sea sediments at Loki's Castle hydrothermal vent field; the genome revealed eukaryotic signature proteins (ESPs) including actin homologs, including actin homologs involved in membrane remodeling in eukaryotes. [@Spang2015]
+[^spang_loki]: Spang et al. (2015) reported the discovery of *Lokiarchaeota* from deep-sea sediments at Loki's Castle hydrothermal vent field; the genome revealed eukaryotic signature proteins (ESPs) including actin homologs involved in membrane remodeling in eukaryotes. [@Spang2015]
 
 [^zaremba_asgard]: The Asgard superphylum includes *Lokiarchaeota*, *Thorarchaeota*, *Odinarchaeota*, and *Heimdallarchaeota*, all named after Norse deities; see Zaremba-Niedzwiedzka et al. (2017). [@ZarembaNiedzwiedzka2017]
 

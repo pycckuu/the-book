@@ -127,7 +127,7 @@ This is not a separate equation. It is a special case of the one above, evaluate
 For biochemical reactions, a modified convention is often used: $\Delta G^{\circ\prime}$, where the prime indicates standard conditions at pH 7 rather than the chemist's convention of pH 0. Since most biology operates near neutral pH, this keeps the reference point close to reality.[^karp2008]
 
 ::: {.callout-note}
-## Equation Corner --- The hydrogen threshold
+## Sidebar --- The hydrogen threshold
 
 Two guilds compete for dissolved H$_2$ in marine sediment: sulfate reducers and methanogens. Their net reactions:
 
@@ -147,7 +147,7 @@ This is not a hand-waving story. Plug the concentrations into $\Delta G = \Delta
 :::
 
 ::: {.callout-note}
-## Equation Corner --- Oxidation state as an energy proxy
+## Sidebar --- Oxidation state as an energy proxy
 
 A powerful shortcut for estimating how much free energy an organic molecule contains: look at the **average oxidation state of its carbon atoms**.
 
