@@ -2,7 +2,7 @@
 title: "Cities Without Sunlight"
 ---
 
-Somewhere in the Earth's crust, a cell divides once per century. Its energy source is hydrogen gas, produced by the radioactive decay of uranium in the surrounding rock. Its electron acceptor is sulfate, trapped in mineral inclusions since the Archean. No photon has reached it in at least twenty million years. It has no genes for oxygen use, no genes for oxygen defense. By every measure that laboratory microbiologists use to define "alive," it barely qualifies -- and yet it persists, and it reproduces, on a timescale measured in centuries.
+Somewhere in the Earth's crust, a cell divides once per century. Its energy source is hydrogen gas, produced by the radioactive decay of uranium in the surrounding rock. Its electron acceptor is sulfate, trapped in mineral inclusions since the Archean. No photon has reached it in at least twenty million years. It has no genes for oxygen use, almost no genes for oxygen defense. By every measure that laboratory microbiologists use to define "alive," it barely qualifies -- and yet it persists, and it reproduces, on a timescale measured in centuries.
 
 The organism is *Candidatus* Desulforudis audaxviator. It was discovered in 2006, when a drilling crew at the Mponeng gold mine in South Africa punched through rock at 2.8 kilometers below the surface and hit water.
 
@@ -52,7 +52,7 @@ $$
 \text{O}_2 > \text{NO}_3^- > \text{Mn(IV)} > \text{Fe(III)} > \text{SO}_4^{2-} > \text{CO}_2
 $$
 
-[FIGURE: The terminal electron acceptor hierarchy shown as a vertical column. Depth increases downward. At the top, O2 is consumed first (narrow zone). Below it, NO3- disappears. Then Mn(IV) and Fe(III) reduction zones. Then a broad SO4-2 reduction zone. At the bottom, CO2 reduction (methanogenesis). Each zone is labeled with the dominant metabolism and the Gibbs energy yield per mole of electron donor. The energy yield decreases with depth. Caption: "The redox ladder, expressed in sediment. Each zone represents the cheapest electron acceptor still available."]
+<!-- FIGURE: The terminal electron acceptor hierarchy shown as a vertical column. Depth increases downward. At the top, O2 is consumed first (narrow zone). Below it, NO3- disappears. Then Mn(IV) and Fe(III) reduction zones. Then a broad SO4-2 reduction zone. At the bottom, CO2 reduction (methanogenesis). Each zone is labeled with the dominant metabolism and the Gibbs energy yield per mole of electron donor. The energy yield decreases with depth. Caption: "The redox ladder, expressed in sediment. Each zone represents the cheapest electron acceptor still available." -->
 
 Each acceptor supports a distinct metabolic community: aerobic respirers, denitrifiers, manganese reducers, iron reducers, sulfate reducers, methanogens. These are the Terminal Electron Accepting Processes, or TEAPs, and in an idealized system they appear in sequence as the more energetically favorable acceptors are exhausted.[^lovley1995] Iron and sulfate reducers typically conserve four to five times more energy per mole of electron donor than methanogens -- a difference that has profound implications for community structure and biomass yields.[^bethke2011]
 
@@ -76,7 +76,7 @@ The deep subsurface pushes microbial life to its energetic limits. How slow can 
 
 The answer is extraordinarily slow. Douglas LaRowe and Jan Amend compiled data on microbial turnover times across a range of natural settings and found that in aquifers, sedimentary rocks, marine sediments, and ice cores, biomass turnover times can exceed 1,000 years.[^larowe2015] In Antarctic photosynthetic communities -- admittedly a surface environment, but one where conditions are extreme -- biomass turnover times reach up to 19,000 years.
 
-Consider what that means. A cell that turns over its biomass once every thousand years is not dormant. It is metabolically active, but so slowly that its existence plays out on a geological timescale.
+Consider what that means. A community that turns over its biomass once every thousand years is not dead — it is metabolically active, on aggregate, but so slowly that its existence plays out on a geological timescale. Whether individual cells are continuously active at vanishing rates or cycling between dormancy and rare bursts of activity remains an open question.
 
 The range of metabolic rates across Earth's biosphere is staggering. LaRowe and Amend found that catabolic rates vary over twelve orders of magnitude, from approximately $6 \times 10^{-9}$ to $6.66 \times 10^{3}$ nmol cm$^{-3}$ day$^{-1}$.[^larowe2015] Twelve orders of magnitude. The fastest microbial communities metabolize a trillion times faster than the slowest. And yet the slowest are still alive.
 
@@ -88,7 +88,7 @@ The implication reshapes how we model deep life. A cell in a laboratory flask, b
 
 This is the satisficing principle. *D. audaxviator* does not maximize anything. It persists. It runs sulfate reduction with hydrogen not because that reaction yields the most energy per electron (it doesn't -- aerobic respiration would yield far more, if oxygen were available), but because it is the reaction its enzymes can catalyze with the substrates its environment provides. The "choice" is not a choice at all. It is the intersection of thermodynamic possibility and enzymatic capability, filtered through billions of years of genome erosion in which every unnecessary gene was lost. What remains is the minimal toolkit for the minimal strategy that covers the minimal cost. Optimization would imply that the organism surveyed its options and selected the best one. Satisficing means it kept the one that worked and discarded the rest.
 
-The deep subsurface also harbors metabolic capabilities broader than current conditions demand. *D. audaxviator*'s genome contains genes for flagellar motility, chemotaxis, and sporulation — capabilities it may not have used for millions of years, carried forward because the cost of keeping them is lower than the cost of losing them and needing them later.
+The genome also contains surprises: genes for flagellar motility, chemotaxis, and sporulation — capabilities with no obvious role in a sealed fracture. Whether these genes are maintained by cryptic selection, retained by chance, or simply not yet lost is unclear. But their presence is a reminder that even a minimal genome can encode more than its current environment demands.
 
 ## Competing or cooperating?
 
@@ -120,7 +120,7 @@ The honest summary: yield, growth rate, and maintenance energy are not constants
 
 ## The scale of the hidden world
 
-How much life is down there? The estimates have grown with every decade of exploration. Current assessments suggest that the deep subsurface -- the rock, the sediments, the aquifers below the reach of sunlight -- may harbor a significant fraction of Earth's total microbial biomass. The numbers are uncertain, but even conservative estimates place billions of tons of carbon in subsurface microorganisms.
+How much life is down there? The estimates have grown with every decade of exploration. Current assessments suggest that the deep subsurface -- the rock, the sediments, the aquifers below the reach of sunlight -- may harbor a significant fraction of Earth's total microbial biomass. The numbers are uncertain, but even conservative estimates place billions of tons of carbon in subsurface microorganisms.[^magnabosco2018]
 
 This is not life as we encounter it in a forest or a coral reef. It is life distributed through rock at vanishingly low densities -- perhaps a few thousand cells per cubic centimeter of rock, compared to billions per cubic centimeter in surface soil. But the volume of habitable rock is enormous, and thin populations summed over vast volumes become significant.
 
@@ -175,4 +175,6 @@ The brave wanderer descended into the dark and found a way to live there. The eq
 [^stolpovsky2011]: Konstantin Stolpovsky et al., "Incorporating dormancy in dynamic microbial community models," *Ecological Modelling* 222 (2011): 3092--3102. [@Stolpovsky2011]
 
 [^blanch1981]: Harvey W. Blanch, "Invited Review: Microbial Growth Kinetics," *Biotechnology and Bioengineering* 23 (1981): 1691--1722. [@Blanch1981]
+
+[^magnabosco2018]: Cara Magnabosco et al., "The biomass and biodiversity of the continental subsurface," *Nature Geoscience* 11 (2018): 707--717. [@Magnabosco2018]
 
