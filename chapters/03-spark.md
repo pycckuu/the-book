@@ -6,7 +6,7 @@ Imagine you find a book.
 
 Not an ordinary book -- this one is written in a language you have never seen, and the ink is a protein that degrades unless it is continuously recopied by a machine. The machine, in turn, is built from instructions contained in the book. Without the machine, the book decays. Without the book, the machine cannot be assembled. Each depends entirely on the other, and neither can exist first.
 
-This is the central paradox of the origin of life, and for decades it stalled progress on the question.
+That paradox sits at the center of origin-of-life research, and for decades it stalled progress.
 
 ![The chicken-and-egg problem, and one way out.](../sources/img/ch3_rna_world.png){#fig-rna-world}
 
@@ -22,7 +22,7 @@ Then, in the early 1980s, Thomas Cech and Sidney Altman independently discovered
 
 If RNA can both store information *and* catalyze reactions, then you do not need two separate systems to get life started. You need one. A single type of molecule that reads itself and copies itself -- an autocatalytic loop of replicating RNA, ribozymes catalyzing the synthesis of copies of themselves.[^markov2010a]
 
-This is the RNA world hypothesis: the proposal that the earliest life on Earth was not built from DNA and proteins, but from RNA alone -- organisms without the division of labor that modern cells take for granted. The chicken-and-egg paradox becomes tractable, because RNA is both the chicken and the egg.
+The RNA world hypothesis makes that move explicit: the earliest life on Earth was not built from DNA and proteins, but from RNA alone -- organisms without the division of labor that modern cells take for granted. The chicken-and-egg paradox softens, because RNA is both the chicken and the egg.
 
 The standard RNA alphabet is small: four nucleotides -- adenosine (A), guanosine (G), cytidine (C), and uridine (U) -- plus a handful of modified variants like inosine.[^markov2010b][^rna_bases] With just these letters, RNA can fold into elaborate three-dimensional shapes, creating pockets and surfaces that behave like primitive enzymes. Not as efficient as proteins, not as stable as DNA, but enough. Enough to get the process started.
 
@@ -36,11 +36,13 @@ Before RNA can copy itself, RNA must exist. And building RNA from scratch requir
 
 RNA's backbone is not made of the nucleotide bases themselves. The bases are the informational part -- the letters. The backbone, the structural spine that holds the letters in order, is a chain of sugar molecules linked by phosphate bridges. Without phosphate, there is no polymer. Without a polymer, there is no information storage. The RNA world hypothesis requires an early habitat rich in reactive phosphorus.[^orgel2004]
 
-Where did it come from? In 2005, Matthew Pasek and Dante Lauretta proposed a striking answer: iron meteorites.[^pasek2005]
+Where did it come from? In 2005, Matthew Pasek and Dante Lauretta proposed one striking answer: iron meteorites.[^pasek2005]
 
-The early Earth was under heavy bombardment.[^lhb] Meteorites arrived constantly, and among them were iron-rich bodies containing the mineral schreibersite -- an iron-nickel phosphide.[^schreibersite] When schreibersite corrodes in water, it releases reactive phosphorus compounds. Not the stable, locked-up phosphorus of terrestrial rocks, but forms that can participate in organic chemistry. Pasek and Lauretta showed that this corrosion proceeds readily in aqueous conditions, providing a "highly reactive source of prebiotic phosphorus on the surface of the early Earth."[^pasek2005]
+The early Earth was under heavy bombardment.[^lhb] Meteorites arrived constantly, and among them were iron-rich bodies containing the mineral schreibersite -- an iron-nickel phosphide.[^schreibersite] When schreibersite corrodes in water, it releases reactive phosphorus compounds. Not the stable, locked-up phosphorus of terrestrial rocks, but forms that can participate in organic chemistry. Pasek and Lauretta showed that this corrosion proceeds readily in aqueous conditions, providing a highly reactive source of prebiotic phosphorus on the surface of the early Earth.[^pasek2005]
 
-The chemistry of life did not arise in isolation from geology. Meteorites provided phosphorus. Minerals provided surfaces. The ocean provided the solvent. Life did not invent its raw materials; it inherited them from the planet's early bombardment.
+Researchers no longer have to lean on the meteorite pathway alone. Experiments and geochemical models now point to several routes to reactive phosphorus on the early Earth. Ferruginous sediments heated under anhydrous conditions can generate phosphite and short-chain polyphosphates.[^baidya2024] Carbonate-rich soda lakes can concentrate dissolved phosphate to levels orders of magnitude above seawater, turning the old phosphate problem into a question of setting rather than an absolute barrier.[^tonercatling2020][^haas2024] Lightning may have helped too, reducing phosphorus into more reactive forms before runoff carried those compounds into surface waters.[^hess2021]
+
+The chemistry of life did not arise in isolation from geology. Meteorites provided one route. Hot rocks provided another. Evaporative lakes may have provided yet another. Minerals provided surfaces. Water provided the solvent. Life did not invent its raw materials; it inherited them from a planet with more than one way of making them available.
 
 ## An ocean laced with metal
 
@@ -51,6 +53,16 @@ Many of the enzymes that drive modern biochemistry are not pure protein. They ar
 Why would proteins evolve to depend on metals? One compelling answer is that they did not "choose" metals -- they inherited them. In the earliest stages of chemical evolution, before proteins existed, the catalysts were the metals themselves. Iron-sulfur clusters, nickel surfaces, molybdenum compounds -- these inorganic materials can catalyze many of the same reactions that enzymes catalyze today, just less efficiently.[^ironsulfur_world]
 
 The transition from mineral catalyst to protein catalyst was gradual.[^mineral_catalyst] The first proteins, clumsy and short, would have naturally incorporated iron atoms from their iron-rich environment. Those that happened to fold around a metal ion in a useful way gained a catalytic advantage. Over time, proteins became better scaffolds for the metals, and the metals became more precisely positioned within the proteins. But the metals came first. The proteins grew around them like a house built around a hearth.[^markov2010e]
+
+## LUCA was early, and not alone
+
+The faster this chapter moves, the stranger the timeline becomes. If life was already leaving isotopic traces by 3.8 billion years ago, the interval between a habitable planet and a functioning biosphere was short. A 2024 phylogenomic reconstruction pushes that compression even further: the last universal common ancestor, LUCA, may have lived roughly 4.2 billion years ago -- only a few hundred million years after Earth formed.[^moody2024]
+
+LUCA no longer looks like a barely assembled protocell. It looks more like a prokaryote-grade anaerobe: metabolically capable, genetically substantial, and already embedded in an ecosystem. Moody and colleagues reconstruct a genome of at least about 2.5 megabases encoding around 2,600 proteins, with a metabolism consistent with hydrogen- and CO$_2$-fed acetogenesis.[^moody2024] LUCA also appears to have possessed an early immune system. By 4.2 billion years ago, life had already drawn predators.
+
+Viruses belong in the story here. A cell does not evolve immune machinery in a vacuum. If LUCA really carried one, then replicators that preyed on other replicators were already part of the early biosphere. The first communities were not only metabolic networks. They were ecological systems: cells exchanging metabolites, competing for resources, and defending themselves against genetic parasites.
+
+The lonely-puddle version of the origin story misses that shift. By the time we can plausibly speak of LUCA, life had already crossed from chemistry into ecology.
 
 ## The recycling problem
 
@@ -66,7 +78,7 @@ There is a significant caveat: an organism that plugs into established geochemic
 
 But for anything more ambitious -- for life that grows, diversifies, and reshapes its environment -- biological recycling is not an optional add-on. It is a structural requirement that arises early.
 
-This shifts the popular narrative. In the standard story, life begins as a solitary replicator and only later learns to cooperate. The biogeochemical argument compresses the timeline: networked communities were not a late luxury but an early necessity, because a biosphere that does not recycle its waste runs down. A single metabolic strategy, running alone, is a geological niche player. Multiple strategies, running together and recycling each other's output, are a cycle. And cycles can persist.
+The popular narrative usually starts with a solitary replicator and adds cooperation later. The biogeochemical argument shortens that sequence. Networked communities were an early necessity, because a biosphere that does not recycle its waste runs down. A single metabolic strategy can occupy a geological niche. Multiple strategies recycling each other's output can sustain a cycle.
 
 The earliest communities may have been simple. Perhaps methanogenic archaea reduced CO$_2$ to CH$_4$ using hydrogen, while other organisms oxidized the methane or consumed other waste products. Perhaps sulfate reducers and sulfur oxidizers formed the first recycling pair. The details are debated and may never be fully resolved. But the principle is clear: the network -- not the individual cell -- was what allowed early life to outgrow its initial geological niche and sustain metabolism at a scale that could reshape the planet's chemistry.
 
@@ -76,9 +88,9 @@ We can see this through the lens we built in the first two chapters. Think of th
 
 Each metabolic type is a different wire connecting a different pair of terminals. Methanogens connect the CO$_2$/CH$_4$ couple. Sulfate reducers connect the SO$_4^{2-}$/H$_2$S couple. Iron oxidizers connect the Fe$^{2+}$/Fe$^{3+}$ couple. No single wire carries enough current to matter for long. But wire them together -- let the products of one reaction become the reactants of another -- and you get a circuit with multiple loops. Current flows continuously, because every product has somewhere to go.
 
-This is what "community" means in thermodynamic terms. It is not a word about feelings or altruism (though those will come later). It is a word about closing circuits. About making sure that the electrons, once moved, have a path back to the beginning.
+In thermodynamic terms, "community" names a closed circuit. Electrons move, products accumulate, and other organisms keep the flow going by taking those products up and feeding them back into the system.
 
-This is consistent with what the rock record eventually shows. The oldest unambiguous traces of life are the layered structures called stromatolites, dating back more than 3.4 billion years[^stromatolites] -- hundreds of millions of years after life likely began. They do not tell us directly what the first organisms looked like. But what they preserve is not a solitary cell. It is a community:[^microbial_mats] a layered, multi-species mat of cooperating microbes, each occupying a different niche, each performing a different metabolic trick, and each depending on the others to keep the cycles turning. The thermodynamic argument says communities had to emerge early; the stromatolites show that, by the time the record becomes clear, communities are already what we find.
+The rock record points the same way. The oldest unambiguous traces of life are the layered structures called stromatolites, dating back more than 3.4 billion years[^stromatolites] -- hundreds of millions of years after life likely began. They do not tell us what the first organisms looked like. They do preserve a community:[^microbial_mats] a layered, multi-species mat with different niches, different metabolisms, and shared cycles. The thermodynamic argument says communities had to emerge early. Stromatolites show that once the record clears, communities already fill it.
 
 ## From spark to city
 
@@ -143,3 +155,13 @@ The spark has caught. Now it builds.
 [^damer2020]: Bruce Damer and David Deamer, "The Hot Spring Hypothesis for an Origin of Life," *Astrobiology* 20 (2020): 429-452. Wet-dry cycling in terrestrial hot springs drives polymerization of nucleotides and self-assembly of lipid vesicles, providing both longer RNA chains and primitive compartments. [@Damer2020]
 
 [^markov2010f]: Markov (2010). A stable, growing biosphere requires relatively closed biogeochemical cycles. A single organism in a flow-through geological setting can persist, but diversification and intensification of metabolism require biological recycling partners. [@Markov2010]
+
+[^baidya2024]: Abu Saeed Baidya, Matthew A. Pasek, and Eva Elisabeth Stueeken, "Moderate and high-temperature metamorphic conditions produced diverse phosphorous species for the origin of life," *Communications Earth & Environment* (2024). Ferruginous, anhydrous systems can generate phosphite and short-chain polyphosphates over geologically plausible temperature ranges. [@Baidya2024]
+
+[^tonercatling2020]: Jonathan D. Toner and David C. Catling, "A carbonate-rich lake solution to the phosphate problem of the origin of life," *PNAS* 117 (2020): 883--888. Carbonate-rich soda lakes can concentrate phosphate to levels orders of magnitude above seawater. [@TonerCatling2020]
+
+[^haas2024]: Joshua Haas, Neil Sinclair, and David C. Catling, "Biogeochemical explanations for the world's most phosphate-rich lake, an origin-of-life analog," *Communications Earth & Environment* (2024). Last Chance Lake reaches roughly 37 mM dissolved phosphate because biological and geochemical sinks are unusually weak. [@Haas2024]
+
+[^hess2021]: Benjamin L. Hess, Sandra Piazolo, and Jason Harvey, "Lightning strikes as a major facilitator of prebiotic phosphorus reduction on early Earth," *Nature Communications* 12 (2021): 1535. Lightning offered another route to reactive reduced phosphorus on the early Earth. [@Hess2021]
+
+[^moody2024]: Edmund R. R. Moody et al., "The nature of the last universal common ancestor and its impact on the early Earth system," *Nature Ecology & Evolution* 8 (2024): 1654--1666. Moody and colleagues reconstruct LUCA as a metabolically capable anaerobe living about 4.2 billion years ago, with an early immune system and a genome in the prokaryotic range. [@Moody2024]

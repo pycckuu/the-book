@@ -36,7 +36,7 @@ The chassis is simple in concept: capture a photon of light, use its energy to b
 
 In the earliest phototrophs, the electron donors were the easiest molecules to crack open. (The half-reactions below are written in standard acid form for electron bookkeeping; actual speciation varies with pH, and in-vivo coupling partners differ.)
 
-[FIGURE: The electron donor ladder. A vertical scale showing standard reduction potential (E0') on the y-axis, with electron donors arranged from easiest to oxidize (top: H2, Fe2+, H2S) to hardest (bottom: H2O). Each donor is labeled with the number of electrons it yields. An arrow at the bottom marks the "water barrier" -- the energy threshold that required two linked photosystems to breach. Caption: "The history of photosynthesis is the history of climbing this ladder. Water was the last rung."]
+![The electron donor ladder. Standard reduction potential runs from easy donors near the top to water at the bottom. Each rung shows the electrons yielded per molecule, and the red arrow marks the water barrier that required two linked photosystems to cross.](../sources/img/ch5_electron_donor_ladder.png){#fig-electron-donor-ladder}
 
 **Hydrogen gas.** The simplest donor. One molecule of H$_2$ yields two protons and two electrons:
 
@@ -118,6 +118,8 @@ And then, around 2.4 billion years ago, the faucet won.[^goe_timing]
 
 Oxygen began to accumulate in the atmosphere. Not much by modern standards -- perhaps 1 to 2 percent of present levels at first -- but enough to reshape the chemistry of the planet's surface.[^goe_oxygen_levels] This is the Great Oxidation Event, and it was, in the precise language of geochemistry, a catastrophe.
 
+But the phrase "the Great Oxidation Event" is slightly misleading if it sounds too singular. The rise of oxygen was not a clean flip from off to on. Geochemical proxies preserve hints of earlier oxygen "whiffs," and the interval after the main rise appears to have included repeated oscillations between more oxic and more reducing states before the atmosphere settled into a new regime.[^goe_whiffs][^ratnayake2025] The surface ocean, the deep ocean, and the atmosphere did not oxygenate in lockstep. The poisoning was staggered, uneven, and regionally messy -- which is exactly what you would expect from a planet whose sinks, sources, and microbial communities were all changing together.
+
 For the anaerobic communities that had built the living world, free oxygen was lethal. Organisms that had never encountered this molecule -- had never needed defenses against it -- suddenly found their enzymes damaged, their membranes compromised, their DNA under attack. What may have been Earth's first mass extinction was not caused by an asteroid or a volcanic eruption. It was caused by a microbe's waste product.
 
 The survivors retreated. They found refuge in the places oxygen could not reach: deep sediments, waterlogged soils, the interiors of organic-rich deposits, the guts of other organisms. Many of the anaerobic metabolisms we study today -- sulfate reduction, methanogenesis, iron reduction -- are practiced by lineages whose ancestors were driven underground by the Great Oxidation Event. They are survivors of the poisoning, confined to anoxic refugia for 2.4 billion years.
@@ -132,7 +134,7 @@ The logic is startlingly simple once you see it. Photosynthesis works by passing
 
 Now imagine a small modification. Instead of starting the electron at chlorophyll, start it at an organic molecule -- say, pyruvate, a common product of fermentation. And instead of ending the chain at CO$_2$, end it at oxygen. The electron still passes through the same protein complexes. The energy is still harvested in the same way -- proton pumping, ATP synthesis, the whole apparatus. But now the process runs in reverse conceptual direction: instead of using light to push electrons uphill and fix carbon, it lets electrons roll downhill from organic carbon to oxygen, and captures the energy released.[^respiration_origin]
 
-This is aerobic respiration. And its invention solved two problems at once: it neutralized the dangerous poison (oxygen receives electrons and is converted to harmless water) and it stored enormous amounts of energy in the process.[^respiration_ancestry]
+Aerobic respiration comes from that reversal. It solved two problems at once: oxygen received electrons and turned into water, while the cell captured a large energy gain in the process.[^respiration_ancestry]
 
 The deep irony is that respiration is carried out by the same protein complexes as photosynthesis. The cytochrome chains, the proton-pumping machinery, the ATP synthase -- all of it is shared, or at least derived from the same ancestral toolkit. In modern cyanobacteria, photosynthesis and respiration use overlapping components to such an extent that there is a kind of competition between the two processes for the right to use the same proteins.[^shared_complexes]
 
@@ -206,7 +208,7 @@ Plants need nitrogen. They need it for amino acids, for nucleotides, for chlorop
 
 Evolution's answer was partnership. Across many lineages, plants entered into symbioses with nitrogen-fixing bacteria: cyanobacteria in some cases, actinobacteria in others, and most famously, alpha-proteobacteria of the genus *Rhizobium* in the legumes.[^legume_symbiosis] The arrangement is always the same in principle. The plant builds a specialized structure (a root nodule, a leaf cavity, a thickened stem) that provides a low-oxygen environment -- because nitrogenase still cannot tolerate oxygen, even 2.4 billion years after the poisoning. The bacterium moves in, fixes nitrogen, and shares ammonia with the host. In return, the plant feeds the bacterium sugars produced by photosynthesis.
 
-This is the deal that makes agriculture possible. Every soybean field, every clover pasture, every acacia tree in the savanna is running on a partnership between a plant and a bacterium that figured out how to fix nitrogen in a world full of the gas that destroys the enzyme needed to do it. The entire arrangement is a workaround for the consequences of the Great Oxidation Event. The root nodule is, in essence, a shelter from a poison released 2.4 billion years ago.
+Agriculture runs on that deal. Every soybean field, every clover pasture, every acacia tree in the savanna depends on a partnership between a plant and a bacterium that can fix nitrogen in a world full of the gas that destroys the enzyme needed to do it. The whole arrangement works around the consequences of the Great Oxidation Event. The root nodule shelters nitrogenase from a poison released 2.4 billion years ago.
 
 ## The energetics of a new world
 
@@ -216,7 +218,7 @@ Consider the numbers. Anaerobic metabolisms -- fermentation, sulfate reduction, 
 
 Oxygen changes this calculation entirely. As a terminal electron acceptor, oxygen sits at the bottom of the thermodynamic hill -- one of the strongest oxidants in the biological world. An organism that can pass electrons all the way from organic carbon to oxygen extracts far more energy per molecule of food than any anaerobic metabolism can. Where fermentation yields about 2 ATP per glucose, aerobic respiration yields roughly 30--32 -- an increase of more than an order of magnitude, though the exact ratio varies with organism and pathway.[^atp_yield]
 
-This is not a subtle difference. It is the difference between subsistence and surplus. Anaerobic organisms survive; aerobic organisms *thrive*. They grow faster, maintain larger cells, and can afford the energetic overhead of complex internal structures. It is no coincidence that the evolution of large, complex eukaryotic cells -- and eventually multicellular life -- followed the Great Oxidation Event. The energy to build complex life was simply not available until oxygen made aerobic respiration possible.
+The difference is large. Anaerobic organisms survive; aerobic organisms *thrive*. They grow faster, maintain larger cells, and can afford the energetic overhead of complex internal structures. The rise of large, complex eukaryotic cells -- and later multicellular life -- tracks that shift. Oxygen made far more energy available per molecule of food, and complex life spent it.
 
 The irony is inescapable. The greatest environmental catastrophe in Earth's history -- a mass poisoning that drove most of the biosphere into hiding -- was also the event that made complex life possible. Without oxygenic photosynthesis, there would be no animals, no fungi, no plants. The bacterial mat communities would still be the pinnacle of biological organization, cycling sulfur and methane in their closed loops, stable and productive and unable to build anything larger than a film of slime.
 
@@ -224,9 +226,11 @@ The irony is inescapable. The greatest environmental catastrophe in Earth's hist
 
 The transition was not clean. The Great Oxidation Event was followed by hundreds of millions of years of fluctuation -- periods when oxygen rose, crashed, and rose again. The "Boring Billion," as some geologists call the period from roughly 1.8 to 0.8 billion years ago, saw oxygen levels stabilize at a fraction of modern values -- enough to sustain aerobic life in surface waters, not enough to oxygenate the deep ocean.[^boring_billion] The deep waters remained anoxic, or at best "ferruginous" (iron-rich and oxygen-free), for most of this interval.
 
+Researchers now treat the delay as a systems problem, not a single missing switch. Oxygenic photosynthesis may have originated hundreds of millions of years before atmospheric oxygen finally broke through, with photochemical destruction, nutrient bottlenecks, and ocean chemistry all suppressing the signal.[^horne2025] A recent proposal adds another constraint: high nickel and urea concentrations in Archean oceans may have held cyanobacterial productivity below the threshold needed to oxygenate the atmosphere at scale.[^ratnayake2025] Cyanobacteria did not invent oxygen one day and transform the planet the next. Geology, ocean chemistry, and nutrient supply kept pushing back.
+
 This means that for over a billion years, Earth was chemically partitioned. The surface was a new world -- oxygenated, dangerous to anaerobes, open to aerobic innovation. The deep ocean and the sediments remained an old world -- anoxic, sulfidic or ferruginous, still running on the ancient metabolisms. The two worlds coexisted, separated by a chemical boundary that shifted with the seasons, the currents, and the slow rhythms of plate tectonics.
 
-That boundary is still with us. In every stratified lake, every oxygen-minimum zone in the ocean, every waterlogged soil, there is a depth where oxygen disappears and the old metabolisms take over. The sulfate reducers, the methanogens, the iron reducers -- they never left. They were just pushed into the margins by a gas that their ancestors never evolved to handle.
+You can still see that boundary. In every stratified lake, every oxygen-minimum zone in the ocean, every waterlogged soil, there is a depth where oxygen disappears and the old metabolisms take over. The sulfate reducers, the methanogens, the iron reducers -- they never left. Oxygen pushed them to the margins.
 
 Modern Earth is not an oxygen planet that happens to contain some anaerobic pockets. It is a planet where two worlds -- one oxidized, one reduced -- have coexisted since the Great Oxidation Event, separated by gradients that microbes both create and exploit. The porewater profiles that geochemists measure in sediments today are the living record of that 2.4-billion-year-old partition.
 
@@ -291,6 +295,12 @@ The molecule that was once the deadliest waste product became the most efficient
 [^atp_yield]: Aerobic respiration of one glucose molecule yields ~30-32 ATP via glycolysis, the citric acid cycle, and oxidative phosphorylation. Fermentation yields only 2 ATP per glucose. The energetic basis is discussed in Lane (2005). [@Lane2005]
 
 [^boring_billion]: The Mesoproterozoic "Boring Billion" (1.8-0.8 Ga) was characterized by low, stable atmospheric oxygen levels, muted tectonic activity, and limited biological innovation. Holland (2006) and Lyons et al. (2014) discuss this interval. [@Holland2006; @Lyons2014]
+
+[^goe_whiffs]: Ariel D. Anbar et al., "A whiff of oxygen before the Great Oxidation Event?" *Science* 317 (2007): 1903--1906. Redox-sensitive metal enrichments in the Mount McRae Shale suggest transient oxygenation before permanent atmospheric oxygen buildup. [@Anbar2007]
+
+[^ratnayake2025]: Dilan M. Ratnayake et al., "Biogeochemical impact of nickel and urea in the Great Oxidation Event," *Communications Earth & Environment* (2025). The study proposes that high nickel and urea concentrations in Archean oceans may have helped delay cyanobacterial expansion and therefore delayed oxygenation. [@Ratnayake2025]
+
+[^horne2025]: Julia Elizabeth Horne, Colin Goldblatt, and Lee Kump, "An early origin of oxygenic photosynthesis delays the Great Oxidation," *Philosophical Transactions of the Royal Society B* (2025). The EONS model shows that an early origin of oxygenic photosynthesis is compatible with a delayed GOE once nutrient and redox feedbacks are included. [@Horne2025]
 
 [^olson1970]: J. M. Olson, "The Evolution of Photosynthesis," *Science* 168 (1970): 438--446. Olson proposed that nitrogen compounds served as intermediate electron donors in the evolutionary transition from anoxygenic to oxygenic photosynthesis. [@Olson1970]
 

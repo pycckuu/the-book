@@ -26,6 +26,10 @@ Alongside *D. audaxviator*, the community includes roughly 25 other species, amo
 
 The fracture water community made its journey underground millions of years ago -- noble gas dating suggests residence times of 3 to 25 million years, depending on the fracture system. Since then, it has survived on the thin trickle of chemical energy that radioactive decay and water-rock reactions provide. No sunlight. No organic rain from above. No seasonal pulse of nutrients. Just rock, water, heat, and the patient rearrangement of electrons.
 
+*D. audaxviator* no longer looks like a South African oddity. Closely related populations have now been found deep underground on multiple continents, including a 975-meter-deep fracture system in Sweden where the organism again dominates the community.[^westmeijer2024] The species still looks strange. Its strategy now looks broader. The brave wanderer may represent a repeatable solution to one of Earth's harshest habitats.
+
+The old phrase "single-species ecosystem" also needs caution. The Mponeng fracture was dominated by one genome, spectacularly so, but the broader deep biosphere keeps reminding us that dominance is not solitude. Even very spare communities contain supporting cast, phages, relic DNA, and metabolic side paths that a first dramatic description can miss.
+
 ## What counts as "deep"
 
 The Mponeng discovery is dramatic, but it is not an isolated curiosity. By the mid-1990s, evidence was accumulating that microbial life extends far deeper into the Earth's crust than anyone had assumed. The question was how to think about it systematically.
@@ -69,6 +73,14 @@ The rate expressions from Chapter 8 — dual-Monod kinetics throttled by both el
 In shallow, oxygenated environments, aerobic respiration dominates so thoroughly that it accounts for 90--95 percent of all degraded organic carbon.[^rabouille1991] But the deep subsurface is almost never oxygenated. In anoxic, nitrate-depleted settings, a division of labor emerges: fermentative microorganisms first break complex organic molecules into simpler ones -- acetate, formate, hydrogen -- and then respiring bacteria use those simpler compounds as electron donors, passing the electrons to whatever terminal acceptor remains.[^lovley1995] The fermenters and the respirers are partners, not competitors, linked by the small molecules that one produces and the other consumes.
 
 No single organism can do everything. That constraint -- the inability of any one species to completely oxidize complex organic matter using a given terminal electron acceptor -- is what forces the community to be a community. Even in the Mponeng fracture, where *D. audaxviator* dominates, those 25 other species are not bystanders. They fill niches that the brave wanderer cannot. *D. audaxviator* is self-sufficient for its own metabolism — but the fracture ecosystem as a whole runs on a broader set of reactions than any single genome encodes.
+
+## When the electrons move directly
+
+Not every partnership in the subsurface is mediated by a diffusible molecule like hydrogen or acetate. In some communities, the electrons themselves are exchanged directly.
+
+Electromicrobiology studies that exchange. *Geobacter* and related lineages can transfer electrons to iron and manganese minerals outside the cell, using conductive pili and cytochromes to push respiration beyond the cell membrane.[^rotaru2014] In mixed communities, that capacity can become a social technology. Rather than releasing hydrogen for a partner to consume, one organism can pass electrons directly to another -- a process called direct interspecies electron transfer, or DIET.[^rotaru2014]
+
+DIET extends the syntrophic logic from Chapters 7 and 8 into literal electrical contact. One organism's waste is still another's fuel, but the handoff can be a current rather than a molecule diffusing through porewater. In sedimentary environments the same principle appears at larger scales in cable bacteria, which link sulfide oxidation at depth to oxygen reduction near the surface by moving electrons across centimeter distances. The old redox ladder is still there. More wires connect it than we once knew.
 
 ## Life at the thermodynamic edge
 
@@ -143,6 +155,7 @@ The brave wanderer descended into the dark and found a way to live there. The eq
 - The deep biosphere hosts microbial communities that survive without any connection to photosynthesis, powered instead by geological energy sources like radiolysis and water-rock reactions.
 - "Deep" is defined by hydrological isolation, not depth: intermediate and regional flow systems where surface inputs are negligible.
 - The terminal electron acceptor hierarchy governs energy metabolism in the subsurface, but biology is not a passive catalyst -- organisms determine which thermodynamically favorable reactions actually occur.
+- Electromicrobiology extends syntrophy beyond shared metabolites: some subsurface communities exchange electrons directly through minerals, pili, or conductive filaments.
 - Life at the thermodynamic edge operates over twelve orders of magnitude in metabolic rate, with turnover times exceeding thousands of years and maintenance energies far below laboratory predictions.
 - Quantitative models (dual-Monod kinetics, biomass growth-decay equations, yield coefficients) connect the biology to measurable geochemical processes -- but parameters like yield and maintenance energy must be treated as variables, not constants.
 
@@ -177,4 +190,8 @@ The brave wanderer descended into the dark and found a way to live there. The eq
 [^blanch1981_deep]: Harvey W. Blanch, "Invited Review: Microbial Growth Kinetics," *Biotechnology and Bioengineering* 23 (1981): 1691--1722. [@Blanch1981]
 
 [^magnabosco2018_deep]: Cara Magnabosco et al., "The biomass and biodiversity of the continental subsurface," *Nature Geoscience* 11 (2018): 707--717. [@Magnabosco2018]
+
+[^westmeijer2024]: George Westmeijer et al., "Candidatus Desulforudis audaxviator dominates a 975 m deep groundwater community in central Sweden," *Communications Biology* 7 (2024): 1332. A modern deep-groundwater study showing that *D. audaxviator* is not restricted to the original South African site. [@Westmeijer2024]
+
+[^rotaru2014]: Alexandra-Elena Rotaru et al., "Direct interspecies electron transfer between Geobacter metallireducens and Methanosarcina barkeri," *Applied and Environmental Microbiology* 80 (2014): 4599--4605. A key experimental demonstration of DIET between a metal-reducing bacterium and a methanogen. [@Rotaru2014]
 
