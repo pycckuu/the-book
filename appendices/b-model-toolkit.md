@@ -32,13 +32,13 @@ where $B$ is the amount per unit volume of solids [@Boudreau1997Diagenetic].
 
 ### Steady state
 
-At steady state relative to the sediment--water interface ($\partial \hat{C}/\partial t = 0$), changes are observed only when following a layer downward:
+At steady state relative to the sediment--water interface ($\partial \hat{C}/\partial t = 0$), changes in a solid-phase species are observed only when following a sediment layer downward (i.e., in the reference frame of the solid phase):
 
 $$
 \frac{D\hat{C}}{Dt} = w\,\frac{\partial \hat{C}}{\partial x}
 $$
 
-where $w$ is the burial velocity of solids.
+where $w$ is the burial velocity of solids and $D/Dt$ is the material derivative following the solid phase.
 
 ## B.2 Transport terms
 

@@ -74,7 +74,7 @@ $$
 
 $\Delta G^\circ = -152$ kJ/mol
 
-Sulfate reducers dominated the deep biosphere before the Great Oxidation Event and remain major players in marine sediments, where sulfate is abundant (~28 mM in seawater). The sulfate-methane transition zone, where sulfate reduction meets methanogenesis, is one of the most studied features in porewater geochemistry (Chapter 8).
+Sulfate reduction is ancient, though how widespread it was before the Great Oxidation Event — when ocean sulfate concentrations were far lower — remains debated. In modern marine sediments, where sulfate is abundant (~28 mM in seawater), sulfate reducers are major players. The sulfate-methane transition zone, where sulfate reduction meets methanogenesis, is one of the most studied features in porewater geochemistry (Chapter 8).
 
 ## C.6 Methanogenesis
 

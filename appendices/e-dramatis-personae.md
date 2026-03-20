@@ -70,7 +70,7 @@ A field guide to the organisms that appear in this book.
 ***Lokiarchaeota* (Asgard archaea)**
 - **Habitat**: Deep-sea sediments near Loki's Castle hydrothermal vent field, Mid-Atlantic Ridge, 3,283 m depth
 - **Metabolism**: Not yet cultured; predicted from genomic data
-- **Claim to fame**: The closest known prokaryotic relative of eukaryotes. Carries genes for actin-like cytoskeletal proteins and membrane remodeling -- capabilities once thought exclusive to eukaryotes. Phylogenetic evidence places eukaryotes *within* the Asgard archaea, not as their sister group.
+- **Claim to fame**: One of the Asgard archaea, the broader clade that phylogenetic analyses place as the closest prokaryotic relatives of eukaryotes. Its genome encodes actin-like cytoskeletal proteins and membrane-remodeling machinery -- capabilities once thought exclusive to eukaryotes. Most analyses place eukaryotes *within* the Asgard archaea, not as their sister group, though the exact branching order among Asgard lineages is still being resolved.
 - **Key citation**: Spang et al. (2015), *Nature* [@Spang2015]
 - **Appears in**: Chapter 7
 
@@ -80,7 +80,7 @@ A field guide to the organisms that appear in this book.
 - **Habitat**: Hydrothermal vents, East Pacific Rise
 - **Metabolism**: Entirely dependent on chemoautotrophic endosymbionts (has no mouth, gut, or anus)
 - **Claim to fame**: The iconic tube worm of deep-sea vents. Its trophosome organ is packed with sulfur-oxidizing bacteria that fix carbon, fed by a specialized hemoglobin that transports both O$_2$ and H$_2$S simultaneously.
-- **Key citation**: Discussed in multiple vent ecology reviews
+- **Key citation**: Cavanaugh et al. (1981), *Science* [@Cavanaugh1981]
 - **Appears in**: Chapter 7
 
 ---
