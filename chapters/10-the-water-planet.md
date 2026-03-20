@@ -112,7 +112,7 @@ What is often missing is the integration -- the step from understanding individu
 
 ## The 4.5-billion-year operating manual
 
-We began this book with a sealed jar of mud. We said that left alone, it would confess what it really is: a non-equilibrium system, maintained by microbial metabolism, visible as gradients in chemistry and color.
+We began this book with a bacterium dividing once per century, three kilometers underground, on an energy budget thinner than a candle flame. That organism — *Candidatus* Desulforudis audaxviator — was not a curiosity. It was an existence proof: life is a non-equilibrium system, maintained by microbial metabolism, visible as gradients in chemistry.
 
 Since then, we have traveled from the quantum-mechanical basis of redox reactions to the planetary-scale cycling of carbon, nitrogen, and sulfur. We have built a mathematical framework -- conservation equations, transport operators, rate laws, thermodynamic constraints -- that can describe what happens in a porewater profile, a treatment wetland, or the global ocean. We have met the organisms that do the work: methanogens in the deep subsurface, sulfate reducers at the sulfate-methane transition, iron reducers in aquifer sediments, nitrifiers and denitrifiers in soils and treatment systems.
 
@@ -126,7 +126,7 @@ The microbes that built this world are still running it. They are central to Ear
 
 Understanding them is not optional. It is not a curiosity for specialists. It is essential -- for predicting climate, for managing water, for designing treatment systems that work with biology rather than against it.
 
-The jar of mud is still sitting on the shelf. It is still confessing. The question is whether we are listening.
+The bacterium is still down there, still dividing, still confessing what life really requires. The question is whether we are listening.
 
 ## Takeaway
 
