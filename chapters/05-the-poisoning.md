@@ -180,7 +180,7 @@ The answer turned out to be time.[^steunou2006]
 
 By dawn, they switch back.
 
-This is not a crude on-off toggle. The researchers found a precisely choreographed sequence of gene expression: photosynthesis genes ramping down in the evening, fermentation genes ramping up (to provide the ATP needed for nitrogen fixation in the absence of light), nitrogenase genes peaking in the dark hours, and then the whole program reversing at sunrise. A single cell, running two incompatible metabolisms, separated not by walls but by the clock.
+The switch is graded, not binary. The researchers found a tightly choreographed sequence of gene expression: photosynthesis genes ramping down in the evening, fermentation genes ramping up (to provide the ATP needed for nitrogen fixation in the absence of light), nitrogenase genes peaking in the dark hours, and then the whole program reversing at sunrise. A single cell, running two incompatible metabolisms, separated not by walls but by the clock.
 
 The discovery explained something that had bothered microbiologists for years. Scientists had believed that combining photosynthesis and nitrogen fixation in the same cell -- without heterocysts -- was impossible. *Synechococcus* proved that impossibility is sometimes just a failure of imagination. Time is a compartment too.
 

@@ -73,7 +73,7 @@ The high-Spo0A cells begin producing a secreted protein called **SdpC**---a toxi
 
 The killers eat the dead.
 
-This is not a metaphor. The nutrients released by the lysed cells are taken up by the surviving, toxin-producing population. Fed by the remains of their siblings, the cannibals can delay sporulation---sometimes avoiding it altogether if the influx of nutrients is sufficient to restart growth.
+The nutrients released by the lysed cells are taken up by the surviving, toxin-producing population. Fed by the remains of their siblings, the cannibals can delay sporulation---sometimes avoiding it altogether if the influx of nutrients is sufficient to restart growth.
 
 The cannibalism system requires a precise answer to a lethal question: how does a toxin-producing cell avoid killing itself? The answer is a three-protein signaling pathway that couples toxin production to immunity. SdpC is the toxic protein, exported by cells with high Spo0A~P. SdpI is the immunity protein, a polytopic membrane protein that protects the cell from SdpC. And SdpR is an autorepressor that, in the absence of SdpC, blocks transcription of the immunity gene -- keeping defenses low when no threat is present.[^ellermeier_cannibalism]
 

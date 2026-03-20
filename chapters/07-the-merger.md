@@ -28,7 +28,7 @@ Most of this internal architecture -- the nucleus, the ER, the Golgi, the lysoso
 
 Each of these compartments is a separate reaction chamber. Each maintains its own internal chemistry, buffered from the rest of the cell by a lipid bilayer. The endoplasmic reticulum can fold proteins under conditions that would wreck the cytoplasm's redox balance. Lysosomes can run acid hydrolysis at pH 5 while the cytoplasm holds steady at pH 7. Mitochondria can maintain a proton gradient across their inner membrane precisely because that membrane is sealed -- a private reservoir of electrochemical potential, insulated from the larger cell.
 
-This is what compartmentalization buys you: **the ability to run incompatible processes simultaneously**. Not by compromising, not by time-sharing, but by physical separation. The chemist's dream: a laboratory with as many test tubes as you need.
+Compartmentalization buys you **the ability to run incompatible processes simultaneously**, each sealed behind its own membrane. A laboratory with as many test tubes as you need.
 
 The prokaryotic cell had none of this internal architecture. It was the open-plan office of biology -- everything in one room, everyone hearing everyone else's conversations. Efficient, in a way. Fast, certainly. But limited in the complexity of chemistry it could orchestrate.
 
@@ -104,7 +104,7 @@ Between the deep-sea vent and the psyllid gut, there are stranger partnerships. 
 
 When *E. chlorotica* feeds, it does something unusual. It punctures algal cells and sucks out the contents, digesting most of the cellular material. But it does not digest the chloroplasts -- the photosynthetic organelles. Instead, it captures them intact and incorporates them into the cells lining its own digestive tract. There, surrounded by animal tissue, the stolen chloroplasts continue to function. They absorb light, split water, fix carbon. The sea slug photosynthesizes.[^rumpho_kleptoplasty]
 
-The chloroplasts are not inherited. They do not reproduce inside the slug. Each generation of *E. chlorotica* must acquire them anew by feeding on algae. This is not a permanent merger but a temporary theft -- kleptoplasty -- that hints at how the permanent acquisition of photosynthesis might have begun, billions of years ago, when an ancient eukaryote engulfed a cyanobacterium and never let go.
+The chloroplasts are not inherited. They do not reproduce inside the slug. Each generation of *E. chlorotica* must acquire them anew by feeding on algae. The arrangement is a temporary theft -- kleptoplasty -- that hints at how the permanent acquisition of photosynthesis might have begun, billions of years ago, when an ancient eukaryote engulfed a cyanobacterium and never let go.
 
 *E. chlorotica* is a living thought experiment: what does the early stage of chloroplast acquisition look like? Perhaps something like this -- a predator that learns to keep its prey's machinery running, harvesting the products, and gradually becoming dependent on them.
 
@@ -114,7 +114,7 @@ If *Ruthia* is the early stage and *Carsonella* is the late stage, then lichens 
 
 A lichen is not a single organism. It is a composite: a fungus (the mycobiont) that provides the structural scaffold, intertwined with one or more photosynthetic partners. In the simplest lichens, the partner is a green alga that performs photosynthesis, converting light and CO$_2$ into organic carbon that feeds the fungus. But in the most sophisticated lichens, there is a third partner: a cyanobacterium that fixes atmospheric nitrogen, supplying the nutrient that neither the fungus nor the alga can obtain on its own.[^nash_lichen]
 
-Each partner retains its own genome, its own cellular identity, its own metabolic autonomy. The lichen persists not because its members have lost the ability to live alone, but because the partnership is so productive that breaking it would be a catastrophic downgrade for everyone involved.[^markov_compartment][^nash_lichen] This is not the deepest integration on the spectrum, but it may be the most balanced.
+Each partner retains its own genome, its own cellular identity, its own metabolic autonomy. The lichen persists not because its members have lost the ability to live alone, but because the partnership is so productive that breaking it would be a catastrophic downgrade for everyone involved.[^markov_compartment][^nash_lichen] The integration is shallow compared to mitochondria, but it may be the most balanced partnership on the spectrum.
 
 ## Oases in the dark
 
