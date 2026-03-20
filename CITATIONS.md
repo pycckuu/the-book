@@ -21,7 +21,7 @@ On GitHub, this reads like an ordinary footnote. In Quarto output, it also conne
 - Put citation density in:
   - short “Further reading” lists, or
   - appendices/notes sections, or
-  - Equation Corner callouts (when a specific equation/history needs attribution).
+  - Sidebar callouts (when a specific equation/history needs attribution).
 
 ## BibTeX source of truth
 - All references live in `sources/bibliograph.bib`.

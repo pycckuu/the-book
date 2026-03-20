@@ -27,7 +27,7 @@ A physics‑minded, story‑driven guide to how microbes survive on tight energy
 
 ## Three‑layer reading (so nobody gets lost)
 - **Main text**: story + intuition; minimal equations; emphasize constraints and "what would happen if…"
-- **Equation Corner / Sidebar callouts**: 1–3 key equations, with units and meaning; one small back‑of‑the‑envelope estimate when helpful. Cap at 2 callouts per chapter.
+- **Sidebar callouts**: 1–3 key equations, with units and meaning; one small back‑of‑the‑envelope estimate when helpful. Cap at 2 callouts per chapter.
 - **Appendices**: clean derivations, extra math, and "if you want the full machinery" details
   - **Appendix A** (Energy Toolkit): Lineweaver-Burk, inhibition types, pH/temperature optima
   - **Appendix B** (Model Toolkit): diagenetic equation, transport terms, rate expressions, partial equilibrium, growth/yield/decay, software tools
@@ -84,7 +84,7 @@ Prefer consistency over completeness.
 ## Repeating chapter pattern (consistent rhythm)
 - Hook scene (1–2 pages)
 - Concept: the biological/chemical rule
-- Model: the minimal equation(s) that capture it (Equation Corner)
+- Model: the minimal equation(s) that capture it (Sidebar)
 - Data: what you’d measure to test it
 - Take‑home summary (5 bullets)
 

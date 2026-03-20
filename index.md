@@ -23,7 +23,7 @@ The book is organized in five parts.
 
 **Part V: The Hidden World and the Future** brings the story to the present. The deep biosphere, groundwater redox, water treatment, and the open questions that define the frontier of the field. The book ends not with answers but with an honest accounting of what we still do not know.
 
-Throughout, *Deep Dive* sidebars offer the mathematical machinery for readers who want to see the derivations, check the units, and run their own back-of-the-envelope estimates. You can skip them without losing the narrative thread, or read them exclusively if equations are your preferred language. Five appendices -- an energy toolkit, a model toolkit, a reaction gallery, a math refresher, and a field guide to the organisms -- provide the full reference set.
+Throughout, *Sidebar* callouts offer the mathematical machinery for readers who want to see the derivations, check the units, and run their own back-of-the-envelope estimates. You can skip them without losing the narrative thread, or read them exclusively if equations are your preferred language. Five appendices -- an energy toolkit, a model toolkit, a reaction gallery, a math refresher, and a field guide to the organisms -- provide the full reference set.
 
 This book is not a textbook, though it can be used as one. It is not a popular science book, though I hope it is readable. It is an attempt to tell a true story about the planet in a way that respects both the science and the reader.
 
