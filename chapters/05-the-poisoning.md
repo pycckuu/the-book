@@ -104,6 +104,8 @@ But there is a catch. If the electron departs chlorophyll and travels down the c
 
 In anoxygenic phototrophs, the refill comes from sulfide, or hydrogen, or one of the other donors we listed. In cyanobacteria, the refill comes from water. And when you rip an electron from water, the leftovers are protons and molecular oxygen.
 
+Viruses now sit inside this machinery too. About four out of five sequenced cyanophage genomes carry `psbA`, the gene for the D1 core protein of Photosystem II, and many carry `psbD` as well.[^slesak2022] A phage that knocks out photosynthesis too soon cuts its own replication short, so it carries the parts that keep the host's light reactions running during infection. Some researchers argue that this long gene traffic between cyanobacteria and their phages may have helped shape the early history of oxygenic photosynthesis. The evidence does not make viruses the prime mover. It does make them part of the story.
+
 That is the entire invention. The rest is consequences.
 
 ## The Great Oxidation Event
@@ -153,7 +155,7 @@ $$F_T = \frac{1}{\exp\!\left(\frac{\Delta G_r}{RT}\right) + 1}$$
 
 where $\Delta G_r$ is the in-situ Gibbs energy of the reaction.[^jin2005][^dale2006][^regnier2011]
 
-Read $F_T$ as a smooth switch. Far from equilibrium ($\Delta G_r$ is large and negative), $F_T \approx 1$ and the reaction proceeds at its full kinetic rate. In this simplified form, $F_T$ reaches $1/2$ at equilibrium ($\Delta G_r = 0$). The full Jin-Bethke treatment adds a term for the energy the cell conserves per reaction (ATP synthesis), which shifts the effective cutoff into negative $\Delta G_r$ territory — so that in practice, the reaction throttles to near zero well before thermodynamic equilibrium. There is no sharp cutoff, just a gradual throttle, which is exactly how real microbial communities behave. See Chapter 8 for the full treatment.
+Read $F_T$ as a smooth switch. Far from equilibrium ($\Delta G_r$ is large and negative), $F_T \approx 1$ and the reaction proceeds at its full kinetic rate. In this simplified form, $F_T$ reaches $1/2$ at equilibrium ($\Delta G_r = 0$). The full Jin-Bethke treatment adds a term for the energy the cell conserves per reaction (ATP synthesis), which shifts the effective cutoff into negative $\Delta G_r$ territory -- so that in practice, the reaction throttles to near zero well before thermodynamic equilibrium. There is no sharp cutoff, just a gradual throttle, which is exactly how real microbial communities behave. See Chapter 8 for the full treatment.
 
 Temperature also matters. The Arrhenius relation gives the temperature dependence of the rate constant:
 
@@ -246,7 +248,7 @@ The cyanobacteria themselves were eventually captured, domesticated, and convert
 
 And the energy surplus that oxygen provided -- more than an order of magnitude more ATP per molecule of food -- made possible the construction of large, complex cells, and eventually large, complex organisms. Every animal alive today runs on aerobic respiration. Every breath you take is a transaction with cyanobacterial legacy.
 
-The Great Oxidation Event killed much of what lived and confined the survivors to anoxic refugia. Over billions of years, the new redox landscape enabled cells to extract far more energy from their food — enough to build complexity.
+The Great Oxidation Event killed much of what lived and confined the survivors to anoxic refugia. Over billions of years, the new redox landscape enabled cells to extract far more energy from their food -- enough to build complexity.
 
 The molecule that was once the deadliest waste product became the most efficient electron acceptor in biology. And the cyanobacteria that produced it became, as chloroplasts, the photosynthetic engines inside every plant cell on Earth.
 
@@ -259,6 +261,8 @@ The molecule that was once the deadliest waste product became the most efficient
 [^ros_damage]: Reactive oxygen species (ROS) include superoxide (O$_2^-$), hydrogen peroxide (H$_2$O$_2$), and hydroxyl radicals (OH$\cdot$). These molecules oxidize iron-sulfur clusters in proteins, abstract hydrogen atoms from lipids, and damage nucleic acids. The chemistry of ROS in biological systems is reviewed in Imlay (2003). [@Imlay2003]
 
 [^water_splitting]: The evolution of oxygenic photosynthesis required linking two photosystems in series to generate sufficient reduction potential to split water. Blankenship (2010) provides a comprehensive review of photosynthetic evolution. [@Blankenship2010]
+
+[^slesak2022]: Iwona Slesak and Halina Slesak, "Cyanophages as an important factor in the early evolution of oxygenic photosynthesis," *Scientific Reports* 12 (2022). The paper surveys cyanophage `psbA` and `psbD` genes and argues that phage-host gene traffic belongs in the longer history of Photosystem II. [@Slesak2022]
 
 [^cyano_timing]: Molecular clock estimates and biomarker evidence suggest cyanobacteria evolved between 2.7 and 3.0 Ga, but free oxygen did not accumulate until ~2.4 Ga. The timing and environmental context are reviewed in Buick (2008) and Lyons et al. (2014). [@Buick2008; @Lyons2014]
 

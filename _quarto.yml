@@ -28,11 +28,9 @@ book:
       chapters:
         - chapters/06-cannibals-and-voters.md
         - chapters/07-the-merger.md
-    - part: "Part IV: Modeling the Invisible"
+    - part: "Part IV: The Hidden World and the Future"
       chapters:
         - chapters/08-the-equation.md
-    - part: "Part V: The Hidden World and the Future"
-      chapters:
         - chapters/09-cities-without-sunlight.md
         - chapters/10-the-water-planet.md
         - chapters/epilogue.md

@@ -60,7 +60,9 @@ The faster this chapter moves, the stranger the timeline becomes. If life was al
 
 LUCA no longer looks like a barely assembled protocell. It looks more like a prokaryote-grade anaerobe: metabolically capable, genetically substantial, and already embedded in an ecosystem. Moody and colleagues reconstruct a genome of at least about 2.5 megabases encoding around 2,600 proteins, with a metabolism consistent with hydrogen- and CO$_2$-fed acetogenesis.[^moody2024] LUCA also appears to have possessed an early immune system. By 4.2 billion years ago, life had already drawn predators.
 
-Viruses belong in the story here. A cell does not evolve immune machinery in a vacuum. If LUCA really carried one, then replicators that preyed on other replicators were already part of the early biosphere. The first communities were not only metabolic networks. They were ecological systems: cells exchanging metabolites, competing for resources, and defending themselves against genetic parasites.
+Viruses belong in the story. A cell does not evolve immune machinery in a vacuum. If LUCA really carried one, then genetic parasites were part of the early biosphere. Krupovic, Dolja, and Koonin argue that LUCA likely lived with a complex virome rather than facing some rare, isolated threat.[^krupovic2020] The first communities were ecological systems: cells exchanging metabolites, competing for resources, and defending themselves against infection.
+
+Some researchers push the entanglement further. Forterre has argued that viruses may have helped install DNA itself into cellular evolution, making the first DNA genomes part of an arms race rather than a clean cellular invention.[^forterre2006] The proposal remains contested. It clarifies the scale of the problem. By the time LUCA enters the story, infection and heredity are tangled together.
 
 The lonely-puddle version of the origin story misses that shift. By the time we can plausibly speak of LUCA, life had already crossed from chemistry into ecology.
 
@@ -165,3 +167,7 @@ The spark has caught. Now it builds.
 [^hess2021]: Benjamin L. Hess, Sandra Piazolo, and Jason Harvey, "Lightning strikes as a major facilitator of prebiotic phosphorus reduction on early Earth," *Nature Communications* 12 (2021): 1535. Lightning offered another route to reactive reduced phosphorus on the early Earth. [@Hess2021]
 
 [^moody2024]: Edmund R. R. Moody et al., "The nature of the last universal common ancestor and its impact on the early Earth system," *Nature Ecology & Evolution* 8 (2024): 1654--1666. Moody and colleagues reconstruct LUCA as a metabolically capable anaerobe living about 4.2 billion years ago, with an early immune system and a genome in the prokaryotic range. [@Moody2024]
+
+[^krupovic2020]: Mart Krupovic, Valerian V. Dolja, and Eugene V. Koonin, "The LUCA and its complex virome," *Nature Reviews Microbiology* 18 (2020). Krupovic and colleagues argue that viruses and mobile genetic elements were part of cellular life from the start rather than late additions to it. [@Krupovic2020]
+
+[^forterre2006]: Patrick Forterre, "The origin of viruses and their possible roles in major evolutionary transitions," *Virus Research* 117 (2006): 5--16. Forterre's review includes the proposal that viruses may have helped drive the transition from RNA genomes to DNA genomes in early evolution. [@Forterre2006]

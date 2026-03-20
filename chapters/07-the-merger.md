@@ -4,7 +4,7 @@ title: "The Merger"
 
 Imagine you are a chemist, and you have exactly one test tube.
 
-Not one test tube on the bench while your equipment cupboard holds dozens more. One test tube — that's it. Every reaction you run has to happen in that single vessel. Acid and base, oxidation and reduction, synthesis and degradation -- all dumped together in the same pot, all at the same time. Whatever you make is immediately exposed to whatever else is in there. If one reaction produces something fragile, the next reaction may destroy it before you can use it.
+Not one test tube on the bench while your equipment cupboard holds dozens more. One test tube -- that's it. Every reaction you run has to happen in that single vessel. Acid and base, oxidation and reduction, synthesis and degradation -- all dumped together in the same pot, all at the same time. Whatever you make is immediately exposed to whatever else is in there. If one reaction produces something fragile, the next reaction may destroy it before you can use it.
 
 That is the prokaryotic cell. For roughly two billion years, bacteria and archaea ran the planet's chemistry inside a single compartment: the cytoplasm. To be fair, some had a second compartment -- gram-negative bacteria carry a periplasmic space between their two membranes. So call it two test tubes for those. "But two tubes is certainly not enough for a good chemical laboratory!"[^markov_compartment]
 
@@ -18,7 +18,7 @@ The question is: how do you get them?
 
 ## The compartment problem
 
-The answer that evolution found---at least for the two compartments that mattered most---is so strange it took biologists a century to accept it. You do not evolve your power plant or your solar panel from scratch. One cell takes up residence inside another — and stays.
+The answer that evolution found---at least for the two compartments that mattered most---is so strange it took biologists a century to accept it. You do not evolve your power plant or your solar panel from scratch. One cell takes up residence inside another -- and stays.
 
 This is the story of the eukaryotic cell -- the kind of cell that makes up every animal, plant, fungus, and protist on Earth. It is the story of the most consequential merger in the history of life. And it began not with a mutual agreement but with one cell ending up inside another.
 
@@ -46,6 +46,12 @@ These archaea, dubbed *Lokiarchaeota*, carried genes that no one expected to fin
 ## The Asgard archaea
 *Lokiarchaeota* was the first discovered member of what is now called the Asgard superphylum -- a group of archaea named after figures from Norse mythology (Loki, Thor, Odin, Heimdall).[^zaremba_asgard] Phylogenetic analyses consistently place eukaryotes *within* the Asgard archaea, not as their sister group.[^eme_archaea] This means that eukaryotes did not diverge from archaea; they emerged from within them. The "three domains of life" model (Bacteria, Archaea, Eukarya) may need to be revised to a "two domains" model, with eukaryotes as a highly derived branch of the Archaea. The discovery did not answer every question about eukaryotic origins, but it narrowed the search space dramatically.
 :::
+
+## A rival story about the nucleus
+
+The mitochondrion is firm. The nucleus is not. Few events in cell evolution carry evidence as clean as the alpha-proteobacterial origin of mitochondria. The nucleus draws rival explanations.
+
+One of them gives viruses a central role. Takemura argues that giant-virus factories offer a plausible template for the nucleus because they separate DNA replication from ribosome-rich cytoplasm and control traffic across that boundary.[^takemura2020_nucleus] Medusavirus sharpened the case by carrying histones and other signs of long exchange with eukaryotic lineages. The proposal remains a minority view. It belongs in the chapter because it widens the cast: viral infection may have shaped not only gene traffic in microbial worlds but the architecture of the eukaryotic cell itself.
 
 ## Genes that travel without bodies
 
@@ -243,6 +249,8 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 
 [^eme_archaea]: Eme et al. (2017) review phylogenetic evidence placing eukaryotes within the Asgard archaea, supporting a two-domain tree of life (Bacteria and Archaea, with eukaryotes as derived archaea). [@Eme2017]
 
+[^takemura2020_nucleus]: Masaharu Takemura, "Medusavirus ancestor in a proto-eukaryotic cell: updating the hypothesis for the viral origin of the nucleus," *Frontiers in Microbiology* 11 (2020). Takemura argues that giant-virus factories provide a serious template for one route to nuclear origin. [@Takemura2020]
+
 [^parfrey_timing]: Molecular clock estimates for the origin of eukaryotes range from 1.6 to 2.7 Ga, with most analyses converging on ~2.0 Ga; see Parfrey et al. (2011). [@Parfrey2011]
 
 [^betts_timing]: Betts et al. (2018) estimate the last eukaryotic common ancestor (LECA) at 1.84 Ga using a calibrated molecular clock. [@Betts2018]
@@ -263,7 +271,7 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 
 [^timmis_transfer]: Endosymbiotic gene transfer (EGT) moves genes from organellar genomes to the nucleus; thousands of genes have been transferred from the mitochondrial ancestor to the eukaryotic nucleus; see Timmis et al. (2004). [@Timmis2004]
 
-[^lane_energetics]: Lane and Martin (2010) argue that the energetic advantage of mitochondria—internalized ATP-producing membranes—explains the 200,000-fold genome size difference between prokaryotes and eukaryotes. [@LaneMartin2010]
+[^lane_energetics]: Lane and Martin (2010) argue that the energetic advantage of mitochondria -- internalized ATP-producing membranes -- explains the 200,000-fold genome size difference between prokaryotes and eukaryotes. [@LaneMartin2010]
 
 [^lane_power]: Lane (2005) provides an accessible account of mitochondrial bioenergetics and the surface-area-to-volume constraint on prokaryotic cell size. [@Lane2005]
 

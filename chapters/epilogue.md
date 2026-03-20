@@ -37,13 +37,13 @@ Information without work is a library with no readers. Work without information 
 
 This book began with a bacterium in the dark and the energy accounting it forces on us, and it ended with planetary engineering. The same physics operates at every scale.
 
-The same $\Delta G$ that governs electron transfer in a hydrogen atom governs whether a bacterial community 2.8 kilometers underground will thrive or slowly starve. The Michaelis-Menten kinetics that describe a single purified enzyme reappear, in effective form, as the rate laws of entire ecosystems — not because the enzyme and the ecosystem are the same system, but because saturation logic applies at both levels. The same conservation law that tracks a solute diffusing through a sediment column applies to carbon moving through the global ocean — though the transport operators and boundary conditions change substantially.
+The same $\Delta G$ that governs electron transfer in a hydrogen atom governs whether a bacterial community 2.8 kilometers underground will thrive or slowly starve. The Michaelis-Menten kinetics that describe a single purified enzyme reappear, in effective form, as the rate laws of entire ecosystems -- not because the enzyme and the ecosystem are the same system, but because saturation logic applies at both levels. The same conservation law that tracks a solute diffusing through a sediment column applies to carbon moving through the global ocean -- though the transport operators and boundary conditions change substantially.
 
 The underlying physics does not change. The models built on it must.
 
-The claim is empirical, and it is the reason that reaction-transport models are portable at all. If the physics changed with scale -- if microbial communities invented new thermodynamics -- then every model would be an ad hoc curve fit. The fact that a model calibrated on porewater sulfate in one fjord can make useful predictions in another — even if recalibration is needed — is evidence that the non-equilibrium framework is not just a metaphor. It is the actual mechanism.
+The claim is empirical, and it is the reason that reaction-transport models are portable at all. If the physics changed with scale -- if microbial communities invented new thermodynamics -- then every model would be an ad hoc curve fit. The fact that a model calibrated on porewater sulfate in one fjord can make useful predictions in another -- even if recalibration is needed -- is evidence that the non-equilibrium framework is not just a metaphor. It is the actual mechanism.
 
-We moved through that framework in five stages:
+We moved through that framework in four stages:
 
 *Part I: The Rules of the Game* established the minimum accounting that the rest of the story needs: free energy, kinetics, and the planetary boundary conditions that kept Earth wet, reactive, and open long enough for chemistry to become biology.
 
@@ -51,9 +51,7 @@ We moved through that framework in five stages:
 
 *Part III: The Great Mergers* traced how competition, cooperation, and endosymbiosis produced the cellular architectures we see today. Syntrophy turned out to be not an exotic curiosity but a dominant strategy: organisms that cannot survive alone thriving in partnerships where one's waste is another's fuel.
 
-*Part IV: Modeling the Invisible* turned that machinery into a way of reading real systems: the conservation equation, the transport operators, the rate expressions, and the practical art of explaining a profile rather than merely admiring it.
-
-*Part V: The Hidden World and the Future* brought the story to the present: the deep biosphere, groundwater redox, water treatment, and the open questions that define the frontier of the field.
+*Part IV: The Hidden World and the Future* opened by turning that machinery into a way of reading real systems: the conservation equation, the transport operators, the rate expressions, and the practical art of explaining a profile rather than merely admiring it. It then carried the story into the deep biosphere, groundwater redox, water treatment, climate feedbacks, and the open questions that define the frontier of the field.
 
 ## What we still do not know
 
@@ -63,7 +61,7 @@ A book that pretends to have all the answers is advertising. Here are questions 
 
 **What would count as convincing evidence of life elsewhere now that ocean worlds and Mars are back on the table?** Enceladus has phosphates, organics, and hydrogen. Europa is finally being surveyed with instruments designed for habitability rather than mythology. Mars has begun yielding redox-sensitive minerals and organics in settings that look, to a geomicrobiologist, uncomfortably familiar. But none of these observations is self-interpreting. We still do not know what combination of isotopes, minerals, textures, and disequilibria would amount to a persuasive biosignature rather than an intriguing chemical story.
 
-**How far does satisficing take us?** This book has argued that microbial communities satisfice rather than optimize -- covering maintenance costs under local constraints rather than maximizing growth or yield.[^simon1956_ep] The framework explains fuzzy redox boundaries and the coexistence of "losing" metabolisms. But the limits of this view remain untested. Can satisficing predict community response to novel perturbations -- a sudden pulse of nitrate, a temperature shift, an introduced species? Or will we need richer theory that accounts for gene regulation, lag phases, and evolutionary dynamics on ecological timescales?
+**How far does satisficing take us?** This book has argued that microbial communities satisfice rather than optimize. I have used Simon's term as an extension to microbial systems, not as established geomicrobiological doctrine.[^simon1956_ep][^carmel2005_ep][^brennanlo2012_ep] The framework explains fuzzy redox boundaries and the coexistence of "losing" metabolisms. Critics of satisficing argue that the concept can collapse into optimization once you price search or information costs into the objective function.[^callebaut2007_ep] Microbial communities may resist that reduction because no agent surveys the whole reaction landscape and no shared objective joins unrelated lineages into one maximization problem. That defense is not enough by itself. The framework has to earn its place by predicting field behavior that optimization stories miss.
 
 **How do we model the lag phase?** Every microbiologist knows that cells do not respond instantaneously to a new substrate or a new environment. There is a lag -- sometimes minutes, sometimes weeks -- during which gene expression shifts, enzymes are synthesized, and the population adjusts.[^blanch1981_ep] Most reaction-transport models ignore this entirely. Whether that matters depends on the timescale you care about, but for predicting transient responses to environmental change, the lag phase may be the largest unmodeled source of error.
 
@@ -79,13 +77,13 @@ These are not footnotes. They are the frontier.
 
 The title of this book is a statement of fact. Microbes built the oxygen atmosphere. They regulate the carbon cycle. They mediate the transformation of minerals, the cycling of nitrogen, the fate of sulfur. They created the chemical conditions that made complex life possible, and they continue to maintain those conditions today.
 
-But "invisible architects" is also an invitation to shift perspective. We tend to think of the living world as the part we can see: forests, animals, coral reefs. The actual biological engine of the planet is invisible. It lives in sediment pores, in deep aquifers, in the fractures of basalt kilometers below the seafloor, in the thin films of water coating soil grains. By some estimates, the continental subsurface alone harbors on the order of 10$^{29}$ cells — a substantial fraction of all prokaryotic life on Earth.[^magnabosco2018_ep] These organisms are not waiting to be discovered as curiosities. They are running the geochemistry that makes the surface habitable.[^falkowski2008]
+But "invisible architects" is also an invitation to shift perspective. We tend to think of the living world as the part we can see: forests, animals, coral reefs. The actual biological engine of the planet is invisible. It lives in sediment pores, in deep aquifers, in the fractures of basalt kilometers below the seafloor, in the thin films of water coating soil grains. By some estimates, the continental subsurface alone harbors on the order of 10$^{29}$ cells -- a substantial fraction of all prokaryotic life on Earth.[^magnabosco2018_ep] These organisms are not waiting to be discovered as curiosities. They are running the geochemistry that makes the surface habitable.[^falkowski2008]
 
 ## Three claims
 
 This book has made three claims, nested from the microscopic to the planetary.
 
-First: microbial communities appear to satisfice. They do not optimize growth rate, energy yield, or community structure. They find strategies that cover maintenance costs under local thermodynamic and kinetic constraints, and they hold those strategies until the constraints change. This framework explains fuzzy redox boundaries, the coexistence of "losing" metabolisms, and the gap between laboratory rate constants and field rates. How far the satisficing lens extends — whether it can predict responses to novel perturbations, or whether richer theory is needed — remains an open question (see above). But as a first-order description of what microbial communities actually do, it fits the data better than optimization does.
+First: microbial communities appear to satisfice. I use Simon's term as a lens for microbial systems, not as settled geomicrobiological doctrine. The claim is that communities cover maintenance costs under local thermodynamic and kinetic constraints rather than maximizing growth rate, energy yield, or community structure. This framework explains fuzzy redox boundaries, the coexistence of "losing" metabolisms, and the gap between laboratory rate constants and field rates. How far the lens extends remains an open question. It earns a place in the book only if it keeps explaining field behavior that optimization stories miss.
 
 Second: the conservation framework carries across scales. The same accounting principle -- accumulation equals net flux plus net reaction -- applies to a sediment pore, a treatment wetland, a regional aquifer, and the global ocean. The transport operators, boundary conditions, and closure terms change with each setting, but the underlying logic does not. Reaction-transport models work because the physics does not reinvent itself at new scales. There is no "ecosystem thermodynamics" separate from "molecular thermodynamics." There is only thermodynamics.
 
@@ -93,7 +91,7 @@ Third: water treatment underperforms when it ignores the geomicrobiology. The sa
 
 These three claims are not separate arguments. They are one argument at three scales. Satisficing describes the biology. The conservation framework explains the math. And the water crisis is sharpened when we ignore both.
 
-The invisible architects have not retired. They are still at work -- in every grain of sediment, every drop of groundwater, every square centimeter of your skin. They preceded oxygen, eukaryotes, animals, and thought — and they will outlast us.
+The invisible architects have not retired. They are still at work -- in every grain of sediment, every drop of groundwater, every square centimeter of your skin. They preceded oxygen, eukaryotes, animals, and thought -- and they will outlast us.
 
 The question is whether we will make the effort to understand them.
 
@@ -116,6 +114,12 @@ The question is whether we will make the effort to understand them.
 [^cech1986_ep]: Thomas R. Cech, "A Model for the RNA-Catalyzed Replication of RNA," *Proceedings of the National Academy of Sciences* 83 (1986): 4360–4363. Discovery that RNA can catalyze reactions without protein enzymes. [@Cech1986]
 
 [^simon1956_ep]: Herbert A. Simon, "Rational Choice and the Structure of the Environment," *Psychological Review* 63 (1956): 129–138. The satisficing framework: organisms find strategies that are good enough, not optimal. [@Simon1956]
+
+[^carmel2005_ep]: Yohay Carmel and Yakov Ben-Haim, "Info-gap robust-satisficing model of foraging behavior: do foragers optimize or satisfice?," *The American Naturalist* 166 (2005). Carmel and Ben-Haim provide one of the clearest empirical defenses of satisficing against optimal-foraging predictions. [@CarmelBenHaim2005]
+
+[^brennanlo2012_ep]: Thomas J. Brennan and Andrew W. Lo, "An evolutionary model of bounded rationality and intelligence," *PLOS ONE* 7 (2012): e50310. Brennan and Lo show how bounded strategies can persist under selection when cognition and information carry costs. [@BrennanLo2012]
+
+[^callebaut2007_ep]: Werner Callebaut, "Herbert Simon's silent revolution," *Biological Theory* 2 (2007): 76--86. Callebaut reviews the attempt to fold bounded rationality back into optimization and argues that the reduction misses Simon's target. [@Callebaut2007]
 
 [^blanch1981_ep]: Harvey W. Blanch, "Invited Review: Microbial Growth Kinetics," *Biotechnology and Bioengineering* 23 (1981): 1691–1722. Lag phase dynamics and the limitations of unstructured models in microbial kinetics. [@Blanch1981]
 
