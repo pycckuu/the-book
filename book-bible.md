@@ -5,11 +5,11 @@ A physics‑minded, story‑driven guide to how microbes survive on tight energy
 
 ## Central thesis (three claims, nested)
 
-1. **Satisficing, not optimizing.** Microbial communities do not maximize growth rate or energy yield. They satisfice -- they find strategies that cover maintenance costs under local thermodynamic and kinetic constraints. The distinction matters because optimization models predict sharp redox zonation and competitive exclusion, while satisficing models predict the fuzzy coexistence, overlap, and apparent inefficiency that field data actually show.
+1. **Satisficing, not optimizing.** Microbial communities appear to satisfice -- they find strategies that cover maintenance costs under local thermodynamic and kinetic constraints rather than maximizing growth rate or energy yield. This framework explains fuzzy redox boundaries, the coexistence of "losing" metabolisms, and the gap between laboratory rate constants and field rates. How far the satisficing lens extends remains an open question.
 
-2. **One equation, all scales.** The conservation equation $\partial C / \partial t = -\partial F / \partial x + \Sigma R_i$ describes a sediment pore, an aquifer, and the global ocean. This is not analogy. The math is identical; only the parameters change. The book demonstrates this identity explicitly, from millimeters to the planet.
+2. **One conservation framework, all scales.** The conservation law — accumulation equals net flux plus net reaction — applies from a sediment pore to the global ocean. The transport operators, boundary conditions, and closure terms change with each setting, but the underlying accounting does not. The book demonstrates this portability explicitly, from millimeters to the planet.
 
-3. **Water quality is geomicrobiology.** Contaminated groundwater is a bioreactor. The same organisms, reactions, and constraints that shaped the Archean atmosphere operate in every aquifer plume today. We underperform at prediction because we treat water treatment as a pure engineering problem (fixed parameters, black-box biology) rather than a geomicrobiology problem (adaptive communities, thermodynamic constraints, coupled transport). The fix is not more data. It is better theory.
+3. **Water treatment underperforms when it ignores geomicrobiology.** The same broad classes of metabolism and constraints that shaped the Archean atmosphere operate in every aquifer plume today. Better data will always matter. But data alone cannot fix the problem if the biology is modeled as a black box with fixed parameters rather than as an adaptive community under thermodynamic constraints.
 
 ## Target reader
 - Graduate students and working scientists in environmental science, geochemistry, and microbial ecology who want the conceptual bridge between microbiology and reactive transport modeling
@@ -31,9 +31,9 @@ A physics‑minded, story‑driven guide to how microbes survive on tight energy
 - **Appendices**: clean derivations, extra math, and "if you want the full machinery" details
   - **Appendix A** (Energy Toolkit): Lineweaver-Burk, inhibition types, pH/temperature optima
   - **Appendix B** (Model Toolkit): diagenetic equation, transport terms, rate expressions, partial equilibrium, growth/yield/decay, software tools
-  - **Appendix C** (Reaction Gallery): placeholder
+  - **Appendix C** (Reaction Gallery): balanced equations, ΔG° values, and brief context for each major metabolism (aerobic respiration through radiolysis)
   - **Appendix D** (Math Without Pain): Schrödinger equation derivation, molecular energy hierarchy, partition functions
-  - **Appendix E** (Dramatis Personae): One-page cards for key organisms (*D. audaxviator*, *Synechococcus*, *B. subtilis*, *M. xanthus*, *Ruthia magnifica*, *Carsonella ruddii*, *Lokiarchaeota*, *Riftia pachyptila*, *Elysia viridis*)
+  - **Appendix E** (Dramatis Personae): One-page cards for key organisms (*Ferroplasma acidiphilum*, *D. audaxviator*, *Synechococcus*, *B. subtilis*, *M. xanthus*, *Ruthia magnifica*, *Carsonella ruddii*, *Lokiarchaeota*, *Riftia pachyptila*, *Elysia chlorotica*)
 
 ## Physics‑forward mental models (recurring)
 ### Microbe as a battery + circuit
@@ -72,7 +72,7 @@ Prefer consistency over completeness.
 5. The Poisoning -- oxygen, GOE, redox consequences
 6. Cannibals and Voters -- microbial social behavior, quorum sensing, bistability
 7. The Merger -- endosymbiosis, eukaryotic cell
-8. The Equation -- conservation law, transport, rate expressions, scale invariance (Claim 2)
+8. The Equation -- conservation law, transport, rate expressions, conservation framework across scales (Claim 2)
 9. Cities Without Sunlight -- deep biosphere, satisficing, maintenance energy (Claim 1)
 10. The Water Planet -- water quality, RTM applications, geomicrobiology vs engineering (Claim 3)
 - Epilogue: What Is Life? -- three definitions, three claims, open questions
