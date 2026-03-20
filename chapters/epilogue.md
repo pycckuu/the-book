@@ -77,7 +77,7 @@ These are not footnotes. They are the frontier.
 
 The title of this book is a statement of fact. Microbes built the oxygen atmosphere. They regulate the carbon cycle. They mediate the transformation of minerals, the cycling of nitrogen, the fate of sulfur. They created the chemical conditions that made complex life possible, and they continue to maintain those conditions today.
 
-But "invisible architects" is also an invitation to shift perspective. We tend to think of the living world as the part we can see: forests, animals, coral reefs. The actual biological engine of the planet is invisible. It lives in sediment pores, in deep aquifers, in the fractures of basalt kilometers below the seafloor, in the thin films of water coating soil grains. By some estimates, the continental subsurface alone harbors several billion tons of carbon in microbial biomass — comparable to all surface-dwelling prokaryotes.[^magnabosco2018] These organisms are not waiting to be discovered as curiosities. They are running the geochemistry that makes the surface habitable.[^falkowski2008]
+But "invisible architects" is also an invitation to shift perspective. We tend to think of the living world as the part we can see: forests, animals, coral reefs. The actual biological engine of the planet is invisible. It lives in sediment pores, in deep aquifers, in the fractures of basalt kilometers below the seafloor, in the thin films of water coating soil grains. By some estimates, the continental subsurface alone harbors on the order of 10$^{29}$ cells — a substantial fraction of all prokaryotic life on Earth.[^magnabosco2018] These organisms are not waiting to be discovered as curiosities. They are running the geochemistry that makes the surface habitable.[^falkowski2008]
 
 ## Three claims
 
@@ -121,6 +121,6 @@ The question is whether we will make the effort to understand them.
 
 [^steefel2005]: Carl I. Steefel, Donald J. DePaolo, and Peter C. Lichtner, "Reactive Transport Modeling: An Essential Tool and a New Research Approach for the Earth Sciences," *Earth and Planetary Science Letters* 240 (2005): 539–558. [@Steefel2005]
 
-[^magnabosco2018]: Cara Magnabosco et al., "The Biomass and Biodiversity of the Continental Subsurface," *Nature Geoscience* 11 (2018): 707–717. Estimated 2–6 Gt C of prokaryotic biomass in the continental subsurface. [@Magnabosco2018]
+[^magnabosco2018]: Cara Magnabosco et al., "The Biomass and Biodiversity of the Continental Subsurface," *Nature Geoscience* 11 (2018): 707–717. Estimated 2–6 × 10$^{29}$ cells in the continental subsurface; combined with other estimates, total global prokaryotic biomass of ~23–31 Pg C. [@Magnabosco2018]
 
 [^falkowski2008]: Paul G. Falkowski, Tom Fenchel, and Edward F. Delong, "The Microbial Engines That Drive Earth's Biogeochemical Cycles," *Science* 320 (2008): 1034–1039. Review of microbial contributions to global biogeochemical cycling. [@Falkowski2008]
