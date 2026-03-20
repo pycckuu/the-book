@@ -22,7 +22,7 @@ The answer that evolution found---at least for the two compartments that mattere
 
 This is the story of the eukaryotic cell -- the kind of cell that makes up every animal, plant, fungus, and protist on Earth. It is the story of the most consequential merger in the history of life. And it began not with a mutual agreement but with one cell ending up inside another.
 
-Before we get to the meal, though, we need to understand what the eukaryotic cell actually solved. The word "eukaryote" means "true kernel" -- a reference to the nucleus, the membrane-bound compartment where the genome lives. But the nucleus is only the most visible upgrade. Look inside a eukaryotic cell under an electron microscope and you find a landscape of internal membranes: the endoplasmic reticulum folded into sheets and tubes, the Golgi apparatus stacking its cisternae, lysosomes loaded with digestive enzymes, peroxisomes handling dangerous oxidation reactions, and -- most crucially for our story -- mitochondria and, in photosynthetic lineages, chloroplasts.
+The word "eukaryote" means "true kernel" -- a reference to the nucleus, the membrane-bound compartment where the genome lives. But the nucleus is only the most visible upgrade. Look inside a eukaryotic cell under an electron microscope and you find a landscape of internal membranes: the endoplasmic reticulum folded into sheets and tubes, the Golgi apparatus stacking its cisternae, lysosomes loaded with digestive enzymes, peroxisomes handling dangerous oxidation reactions, and -- most crucially for our story -- mitochondria and, in photosynthetic lineages, chloroplasts.
 
 Most of this internal architecture -- the nucleus, the ER, the Golgi, the lysosomes -- appears to have arisen from the host cell's own membranes, elaborated through invagination and specialization. But the two organelles that changed the game -- mitochondria and chloroplasts -- arrived from outside: captured cells that never left.
 
@@ -30,7 +30,7 @@ Each of these compartments is a separate reaction chamber. Each maintains its ow
 
 This is what compartmentalization buys you: **the ability to run incompatible processes simultaneously**. Not by compromising, not by time-sharing, but by physical separation. The chemist's dream: a laboratory with as many test tubes as you need.
 
-The prokaryotic cell had none of this internal architecture. It was the open-plan office of biology -- everything in one room, everyone hearing everyone else's conversations. Efficient, in a way. Fast, certainly. But fundamentally limited in the complexity of chemistry it could orchestrate.
+The prokaryotic cell had none of this internal architecture. It was the open-plan office of biology -- everything in one room, everyone hearing everyone else's conversations. Efficient, in a way. Fast, certainly. But limited in the complexity of chemistry it could orchestrate.
 
 ## A bridge between worlds
 
@@ -202,7 +202,7 @@ Your mitochondria replicate independently of your cell's division cycle. They ha
 
 If you eat a salad, the chloroplasts in the lettuce leaves tell the same story from a different chapter. They too carry their own circular DNA. They too have bacterial ribosomes. They too descend, in an unbroken line, from a cyanobacterium that was swallowed and never released.
 
-You are, quite literally, a community. Not a metaphorical community -- an actual one. Your cells are chimeras: archaeal information systems running on bacterial power plants. The merger is not something that happened to a distant ancestor. It is something that is still happening, right now, in every cell, in the continuous conversation between your nuclear genome and your mitochondrial genome, in the import of proteins across the mitochondrial membranes, in the division of mitochondria within your cells.
+You are a community. Not a metaphorical community -- an actual one. Your cells are chimeras: archaeal information systems running on bacterial power plants. The merger is not something that happened to a distant ancestor. It is something that is still happening, right now, in every cell, in the continuous conversation between your nuclear genome and your mitochondrial genome, in the import of proteins across the mitochondrial membranes, in the division of mitochondria within your cells.
 
 Two billion years ago, two prokaryotes merged. They abandoned cellular individuality. They combined their capabilities into a single body. And from that body came everything that followed: the algae, the plants, the fungi, the worms, the clams, the insects, the fish, the mammals, and -- eventually, improbably -- the chemist who now has all the test tubes she needs.
 

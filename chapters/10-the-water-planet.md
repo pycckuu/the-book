@@ -8,8 +8,6 @@ The planet has the same amount of water it has always had. What we are running o
 
 And the irony, for a book that has spent nine chapters describing how microbes built and continue to operate the planet's chemical cycles, is this: the same microbial processes that shaped the atmosphere, cycled carbon through sediments, and maintained the redox structure of the deep subsurface are precisely the processes that can clean water. Or fail to, if we overwhelm them. Microbes collectively process more carbon annually than all human industrial activity combined.[^wehrli2013]
 
-This final chapter is about that connection. Not as an abstraction, but as the most practical consequence of everything we have discussed.
-
 ## The scale of the crisis
 
 The problem is not confined to places with obvious industrial pressure. Canada, a country that most people associate with pristine wilderness and unlimited fresh water, carries its own version of the disease. Van Cappellen is blunt about this: there is a "perception that there is so much fresh water we don't need to worry."[^vancappellen2016] The perception is wrong. Canada holds roughly 20 percent of the world's fresh surface water, but much of it is not renewable or accessible on human timescales.[^canada_water] Southern Ontario, Saskatchewan, and Southern Alberta all face measurable groundwater contamination -- from agriculture, from resource extraction, from the slow accumulation of nutrients and chemicals that seep downward through soil that was never designed to filter them at the rates we impose. Even Lake Erie -- the most studied body of fresh water on the continent -- harbors a surprise: the phosphorus fueling its algal blooms does not come only from rivers. Coastal bluffs erode into the lake, and decades-old sediments keep releasing phosphorus back into the water column. Together, these in-lake sources account for roughly a quarter of the total phosphorus budget.[^bocaniov2023]
@@ -18,13 +16,11 @@ The field that studies these problems has a name: ecohydrology. And it has under
 
 ## What microbes have to do with it
 
-Here is where the book circles back on itself.
-
 In Chapter 1, we described life as a non-equilibrium trick: organisms maintain chemical gradients by spending energy, continuously. In Chapters 2 through 5, we built the currency system -- electrons falling from donors to acceptors, priced in Gibbs energy, organized into a redox ladder that emerges wherever transport is limited and biology is present. In Chapter 8, we turned that biology into equations: conservation laws, transport operators, rate expressions. In Chapter 9, we asked how microbes "choose" among available reactions and showed that competition, thermodynamic constraints, and yield considerations produce predictable community structures.
 
 All of that machinery -- every equation, every sidebar, every porewater profile -- describes what happens when organic matter and oxidants meet in the presence of microbial communities.
 
-Water treatment is, at its core, exactly the same problem.
+Water treatment is the same problem.
 
 A contaminated aquifer is a reactor. The contaminants are electron donors or acceptors (or both). The indigenous microbial community is the catalyst. The question "Will this aquifer clean itself?" is the same question we have been asking about sediments since Chapter 8: What reactions are thermodynamically favorable? Are they kinetically accessible? Can transport deliver reactants and remove products fast enough to sustain the process? The same logic extends to the coast, where groundwater seeping through sediments into the ocean carries nutrient loads that in some regions rival what rivers deliver -- a hidden flux, underground and invisible, governed by the same redox reactions we have been studying throughout this book.[^slomp2004] Submarine groundwater discharge can contribute as much nitrogen and phosphorus to coastal zones as all riverine inputs combined in some regions.[^slomp2004_detail]
 
@@ -224,7 +220,7 @@ Canada has roughly 20% of the world's fresh surface water (though a smaller frac
 
 The scientific tools to address these challenges exist. RTMs can predict contaminant fate. Microbial ecology can identify the organisms doing the work. Geochemistry can characterize the reactions. Isotope proxies can track the sources.
 
-What is often missing is the integration -- the step from understanding individual processes to predicting whole-system behavior. That integration is exactly what RTMs are designed to provide, and it is exactly what this book has been building toward.
+What is often missing is the integration -- the step from understanding individual processes to predicting whole-system behavior. That integration is exactly what RTMs are designed to provide, and it is the integration step that makes RTMs useful.
 
 "If we can increase the availability of clean water, we can automatically generate economic prosperity." Van Cappellen's statement is simple, but the science behind it is not. It requires understanding microbial metabolism (Chapters 3--5), formulating it mathematically (Chapter 8), predicting community behavior (Chapter 9), and applying the models to real systems (this chapter). The chain from fundamental science to societal benefit is long, but every link is necessary.
 

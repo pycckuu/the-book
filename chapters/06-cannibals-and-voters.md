@@ -4,13 +4,13 @@ title: "Cannibals and Voters"
 
 A population of *Bacillus subtilis* is starving. Instead of dying together, a fraction of the cells kill and eat the rest. The molecular machinery behind this strategy is one of the best-documented social behaviors in microbiology---and it is far from the only one.
 
-This chapter is about the social life of microbes. It opens a new part of the book, because we are leaving the physics of energy and electrons behind (temporarily) and asking a different question: **once cells exist and compete, what kinds of relationships do they build?**
+We are leaving the physics of energy and electrons behind (temporarily) and asking a different question: **once cells exist and compete, what kinds of relationships do they build?**
 
 The answer matters for everything that comes later. Eukaryotic cells---the kind that eventually built animals, plants, and fungi---did not arise from a single lucky mutation. They arose from mergers, and mergers are easier to stabilize in a world already full of social interactions: communication, exploitation, and occasionally, negotiated truces between former enemies. Before we can tell that story (the next chapter), we need to understand the social world that made it possible.
 
 ## The birth of altruism
 
-Cooperative behaviors---shared public goods, coordinated gene expression, programmed cell death that benefits neighbors---are found across deeply divergent bacterial lineages.[^social_evolution] The simplest explanation for that distribution is that cooperation is ancient---or repeatedly reinvented under similar selective pressures. It is written in the behavior of modern bacteria, which still carry the molecular toolkits of that social world.
+Cooperative behaviors---shared public goods, coordinated gene expression, programmed cell death that benefits neighbors---are found across divergent bacterial lineages.[^social_evolution] The simplest explanation for that distribution is that cooperation is ancient---or repeatedly reinvented under similar selective pressures. It is written in the behavior of modern bacteria, which still carry the molecular toolkits of that social world.
 
 The foundation of microbial social life is chemical communication. Bacteria secrete small molecules into their environment---signals that diffuse outward and are detected by neighboring cells. Through this chemical "dialogue," microorganisms report their condition and influence their neighbors' behavior.[^social_evolution] The signals are not noise. They encode information: *I am starving*. *I am dividing*. *There are many of us here*. *There are few*.
 
@@ -47,7 +47,7 @@ The voting metaphor captures the logic of density-dependent coordination but sim
 
 Through quorum sensing and other regulatory circuits, *B. subtilis* populations can assemble into multicellular aggregates approaching the complexity of true multicellular organisms. Biofilms have internal architecture: channels for nutrient transport, differentiated cell types (some produce matrix, some produce enzymes, some are motile scouts), and spatial organization that is not random but functionally structured.
 
-But the most dramatic social behavior of *B. subtilis* is not cooperation. It is cannibalism.
+The most dramatic social behavior of *B. subtilis* is cannibalism.
 
 ## The cannibalism strategy
 
@@ -55,11 +55,11 @@ Imagine a population of *B. subtilis* in soil. Nutrients have been declining for
 
 The cell has one remaining option that guarantees survival: sporulation. A *B. subtilis* spore is one of nature's most resilient structures---resistant to heat, desiccation, UV radiation, and chemical assault.[^setlow_spore] A spore can wait for decades, even centuries, and germinate when conditions improve.
 
-But sporulation is not free. It is, in fact, enormously expensive.
+But sporulation is expensive.
 
 The decision to commit to spore formation is not taken lightly.[^ellermeier_cannibalism] Sporulation requires the coordinated activation of approximately 500 genes over a period of 6 to 8 hours.[^stragier_sporulation] The process involves a complete reorganization of the cell: an asymmetric division that produces a smaller forespore and a larger mother cell, followed by engulfment of the forespore by the mother cell, assembly of a multi-layered protective coat, and finally, programmed death of the mother cell to release the mature spore. The commitment becomes irreversible after roughly 2 hours---once the cell passes that point, it *will* sporulate or it will die trying.[^ellermeier_cannibalism]
 
-Given this enormous investment of time and energy, it should not surprise us that *B. subtilis* treats sporulation as a last resort. Before committing, the cell exhausts every alternative. It searches for new nutrients. It adjusts its metabolism. It waits.
+Given this investment of time and energy, it should not surprise us that *B. subtilis* treats sporulation as a last resort. Before committing, the cell exhausts every alternative. It searches for new nutrients. It adjusts its metabolism. It waits.
 
 And then, as a penultimate measure---the step just before the final, irreversible commitment to spore formation---it turns to cannibalism.
 
@@ -153,7 +153,7 @@ Both architectures share two properties. First, persistence: once the switch fli
 
 In *B. subtilis* sporulation, the Spo0A phosphorelay exhibits exactly this kind of bistable behavior. Stochastic variation in Spo0A~P levels, amplified by positive feedback, pushes individual cells past the threshold -- or not. The result is a mixed population: some cells with high Spo0A~P (headed for sporulation or cannibalism) and some with low Spo0A~P (destined to be victims or to resume growth if conditions improve).
 
-Bistability explains something that would otherwise be deeply puzzling about the *B. subtilis* cannibalism system. Why does only a fraction of the population produce toxin? If starvation is the signal, and all cells are equally starved, why doesn't the entire population activate Spo0A and start killing?
+Bistability explains something that would otherwise be puzzling about the *B. subtilis* cannibalism system. Why does only a fraction of the population produce toxin? If starvation is the signal, and all cells are equally starved, why doesn't the entire population activate Spo0A and start killing?
 
 The answer is that the Spo0A circuit is bistable. Small, random differences in Spo0A~P concentration among individual cells are amplified by positive feedback until the population splits into two distinct subpopulations. This is not a failure of regulation. It is the whole point. The system is designed---evolved---to produce a mixed population in response to a uniform signal, because a mixed population hedges its bets. If conditions improve, the non-sporulating cells can resume growth immediately. If conditions worsen, the sporulating fraction has a head start on spore formation.
 
@@ -183,15 +183,13 @@ The outcome resembles a vote: each cell contributes a chemical signal, and the p
 
 ## The ancient social contract
 
-The implication is older than it looks.
-
-Altruism, cooperation, voting, and organized social behavior are not human inventions. They are not even animal inventions. They are microbial inventions, and the molecular toolkits behind them---quorum-sensing circuits, toxin-immunity systems, programmed cell death---are found across deeply divergent bacterial lineages, suggesting great antiquity.
+Altruism, cooperation, voting, and organized social behavior are not human inventions. They are not even animal inventions. They are microbial inventions, and the molecular toolkits behind them---quorum-sensing circuits, toxin-immunity systems, programmed cell death---are found across divergent bacterial lineages, suggesting great antiquity.
 
 When we watch a colony of *B. subtilis* split into killers and victims, we are watching a social contract enforced by chemistry: a population-level strategy in which individual sacrifice produces collective survival. When we watch *M. xanthus* swarms hunt prey and build fruiting bodies, we are watching cooperative predation and division of labor---behaviors we associate with wolves and ants, not with single-celled organisms.[^crespi_comparison]
 
 The molecular details differ from anything in the animal world. There are no neurons, no hormones, no immune cells in the mammalian sense. But the functional logic---the game theory, the evolutionary pressures, the tension between cooperation and cheating---is analogous. Natural selection does not care whether a social contract is executed by neurons or by transcription factors. It cares only whether the strategy persists.
 
-And these strategies have persisted. The quorum-sensing circuits, the bistable switches, the toxin-immunity systems, the programmed cell death pathways---all of them are found across deeply divergent lineages, implying that they have been maintained by selection over vast stretches of time and elaborated into the astonishing variety of microbial social behaviors we observe today.
+And these strategies have persisted. The quorum-sensing circuits, the bistable switches, the toxin-immunity systems, the programmed cell death pathways---all of them are found across divergent lineages, implying that they have been maintained by selection over vast stretches of time and elaborated into the astonishing variety of microbial social behaviors we observe today.
 
 This has a practical consequence for the rest of the book. When we reach the great mergers described in the next chapter---the endosymbiotic events that produced mitochondria and chloroplasts, the construction of the eukaryotic cell from archaeal and bacterial partners---we will not be describing a sudden, miraculous leap from solitude to cooperation. We will be describing the latest chapter in a social history that was already ancient.
 
@@ -207,7 +205,7 @@ In the next chapter, we turn from social strategies to the most consequential so
 - *Bacillus subtilis* cannibalism is a population-level survival strategy: bistable circuits split the population, toxin-producing cells kill and consume non-producing siblings, buying time before sporulation.
 - *Myxococcus xanthus* hunts cooperatively and builds multicellular fruiting bodies, with most cells sacrificing themselves so a minority can sporulate.
 - Cellular "decisions" arise from metabolic feedback (ATP/AMP sensing), covalent modification, allosteric regulation, and bistable genetic circuits.
-- Altruism, cooperation, and social behavior are not animal inventions---their molecular toolkits span deeply divergent bacterial lineages, implying deep evolutionary roots.
+- Altruism, cooperation, and social behavior are not animal inventions---their molecular toolkits span divergent bacterial lineages, implying deep evolutionary roots.
 
 [^social_evolution]: For a review of social evolution theory applied to microorganisms -- including cooperation, altruism, and public goods -- see West et al. (2006). [@West2006]
 
