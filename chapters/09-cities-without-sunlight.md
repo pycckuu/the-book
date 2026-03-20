@@ -18,11 +18,11 @@ Life, in this place, was not borrowing from the sun. It was borrowing from the E
 
 The organism that dominated that fracture water -- comprising over 99.9 percent of the community -- received one of the more literary names in microbiology: *Candidatus* Desulforudis audaxviator. The name comes from a Latin phrase in Jules Verne's *Journey to the Center of the Earth*: "Descende, audax viator, et terrestre centrum attinges" -- "Descend, brave traveler, and you will reach the center of the Earth".[^chivian2008]
 
-The name was earned. When Dylan Chivian and colleagues reconstructed the organism's genome from metagenomic data, they found a cell prepared for total independence. *D. audaxviator* carries a complete genetic toolkit for life in extreme isolation: it fixes its own carbon from CO$_2$, fixes atmospheric nitrogen (there is no "atmosphere" down there, but trace dissolved N$_2$ suffices), and harvests energy by reducing sulfate with molecular hydrogen. Thermodynamic calculations confirm that under the conditions of the Mponeng fracture water -- the specific concentrations of H$_2$, sulfate, and products present -- this metabolism is the most energetically favorable option available.[^lin2006] The calculated Gibbs energy yield is just barely sufficient to support ATP synthesis, placing this organism at the thermodynamic edge of life.[^chivian2008]
+The name was earned. When Dylan Chivian and colleagues reconstructed the organism's genome from metagenomic data, they found a cell equipped for remarkable self-sufficiency. *D. audaxviator* carries a complete genetic toolkit for life in extreme isolation: it fixes its own carbon from CO$_2$, fixes atmospheric nitrogen (there is no "atmosphere" down there, but trace dissolved N$_2$ suffices), and harvests energy by reducing sulfate with molecular hydrogen. Thermodynamic calculations confirm that under the conditions of the Mponeng fracture water -- the specific concentrations of H$_2$, sulfate, and products present -- this metabolism is the most energetically favorable option available.[^lin2006] The calculated Gibbs energy yield is just barely sufficient to support ATP synthesis, placing this organism at the thermodynamic edge of life.[^chivian2008]
 
 What the genome does *not* contain is equally telling. There are zero genes for oxygen use. Minimal genes for oxygen defense -- a lone superoxide dismutase but no catalase, no peroxidase, little of the protective machinery that aerobic or even facultatively anaerobic organisms carry as insurance. This organism has not dealt with oxygen for a very long time.[^chivian2008]
 
-Alongside *D. audaxviator*, the community includes roughly 25 other species, among them four methanogenic archaea. But the brave wanderer is the keystone -- the organism that, more than any other, demonstrates that a living system can persist for geological time without any connection to the surface biosphere. Lin and colleagues called it "the first proven case of autonomous long existence of living organisms in the bowels of the earth, without any connection with the big biosphere".[^lin2006]
+Alongside *D. audaxviator*, the community includes roughly 25 other species, among them four methanogenic archaea. But the brave wanderer is the keystone -- the organism that, more than any other, demonstrates how little a cell needs from its environment to persist for geological time. Lin and colleagues called it "the first proven case of autonomous long existence of living organisms in the bowels of the earth, without any connection with the big biosphere".[^lin2006]
 
 The fracture water community made its journey underground millions of years ago -- noble gas dating suggests residence times of 3 to 25 million years, depending on the fracture system. Since then, it has survived on the thin trickle of chemical energy that radioactive decay and water-rock reactions provide. No sunlight. No organic rain from above. No seasonal pulse of nutrients. Just rock, water, heat, and the patient rearrangement of electrons.
 
@@ -62,21 +62,13 @@ The reason is that thermodynamic favorability is necessary but not sufficient. A
 
 The practical consequence is stark: "Most redox reactions do not take place spontaneously but require microorganisms to catalyze them".[^lovley1995] In the deep subsurface, the biology is not a detail layered on top of the chemistry. The biology *is* the chemistry, or at least the part of it that actually happens on observable timescales.
 
-## Respiration in equations
+## Respiration in the deep
 
-To model these communities, we need a mathematical expression for respiration rate. The standard approach uses a dual-Monod kinetic form:
-
-$$
-R_{\text{resp}} = k_{\text{resp}} \cdot [B] \cdot \frac{[\text{TED}]}{[\text{TED}] + K_{m,\text{TED}}} \cdot \frac{[\text{TEA}]}{[\text{TEA}] + K_{m,\text{TEA}}}
-$$
-
-where $[B]$ is biomass concentration, $[\text{TED}]$ and $[\text{TEA}]$ are the concentrations of the terminal electron donor and acceptor, $K_m$ values are half-saturation constants, and $k_{\text{resp}}$ is the maximum specific rate.[^jin2005][^thullner2007]
-
-The dual-Monod form captures something important: respiration slows when *either* the donor *or* the acceptor becomes scarce. A sulfate reducer with plenty of hydrogen but vanishing sulfate will slow down just as surely as one with plenty of sulfate but no hydrogen. The two Monod terms act as independent throttles.
+The rate expressions from Chapter 8 — dual-Monod kinetics throttled by both electron donor and acceptor — apply here without modification.[^jin2005][^thullner2007] What changes is the context.
 
 In shallow, oxygenated environments, aerobic respiration dominates so thoroughly that it accounts for 90--95 percent of all degraded organic carbon.[^rabouille1991] But the deep subsurface is almost never oxygenated. In anoxic, nitrate-depleted settings, a division of labor emerges: fermentative microorganisms first break complex organic molecules into simpler ones -- acetate, formate, hydrogen -- and then respiring bacteria use those simpler compounds as electron donors, passing the electrons to whatever terminal acceptor remains.[^lovley1995] The fermenters and the respirers are partners, not competitors, linked by the small molecules that one produces and the other consumes.
 
-No single organism can do everything. That constraint -- the inability of any one species to completely oxidize complex organic matter using a given terminal electron acceptor -- is what forces the community to be a community. Even in the Mponeng fracture, where *D. audaxviator* dominates, those 25 other species are not bystanders. They fill niches that the brave wanderer cannot.
+No single organism can do everything. That constraint -- the inability of any one species to completely oxidize complex organic matter using a given terminal electron acceptor -- is what forces the community to be a community. Even in the Mponeng fracture, where *D. audaxviator* dominates, those 25 other species are not bystanders. They fill niches that the brave wanderer cannot. *D. audaxviator* is self-sufficient for its own metabolism — but the fracture ecosystem as a whole runs on a broader set of reactions than any single genome encodes.
 
 ## Life at the thermodynamic edge
 
@@ -90,89 +82,13 @@ The range of metabolic rates across Earth's biosphere is staggering. LaRowe and 
 
 This raises a fundamental question about maintenance energy -- the minimum energy flux a cell needs just to stay alive without growing. In laboratory cultures, maintenance energy can be measured: you starve a culture, track its decline, and calculate the energy cost of keeping the lights on. But in deep subsurface settings, per-cell energy fluxes are "several orders of magnitude lower than maintenance energies predicted from laboratory cultures".[^larowe2015]
 
-Either the cells are dying (but they aren't -- they persist for millions of years), or our laboratory-derived maintenance estimates are wrong for these conditions. LaRowe and Amend argue for the latter: maintenance energy is not a constant. It depends on growth conditions, temperature, community structure, and the specific stresses a cell faces. It should be treated as a variable, not a parameter.[^larowe2015]
+Either the cells are dying and being replaced by slow turnover — possible, but hard to reconcile with such low energy fluxes — or our laboratory-derived maintenance estimates are wrong for these conditions. LaRowe and Amend argue for the latter: maintenance energy is not a constant. It depends on growth conditions, temperature, community structure, and the specific stresses a cell faces. It should be treated as a variable, not a parameter.[^larowe2015]
 
 The implication reshapes how we model deep life. A cell in a laboratory flask, bathed in rich media at 37 degrees, has a "maintenance bill" that includes the cost of dealing with rapid environmental fluctuations, repairing damage from reactive oxygen species, and competing with neighbors. A cell in a fracture at 2.8 kilometers depth, in stable, anoxic water that changes on geological timescales, has shed most of those costs. It has not optimized for speed or yield. It has satisficed -- found the minimal metabolic strategy that covers the minimal maintenance cost under its specific constraints, and held that position for geological time.
 
 This is the satisficing principle. *D. audaxviator* does not maximize anything. It persists. It runs sulfate reduction with hydrogen not because that reaction yields the most energy per electron (it doesn't -- aerobic respiration would yield far more, if oxygen were available), but because it is the reaction its enzymes can catalyze with the substrates its environment provides. The "choice" is not a choice at all. It is the intersection of thermodynamic possibility and enzymatic capability, filtered through billions of years of genome erosion in which every unnecessary gene was lost. What remains is the minimal toolkit for the minimal strategy that covers the minimal cost. Optimization would imply that the organism surveyed its options and selected the best one. Satisficing means it kept the one that worked and discarded the rest.
 
-::: {.callout-note}
-## Sidebar -- The diagenetic equation
-
-The mathematical framework for describing how chemical species change in sediments and subsurface environments rests on a conservation law first formalized by Robert Berner and later refined by Bernard Boudreau [@Berner1980Early; @Boudreau1997Diagenetic].
-
-The starting point is a **bulk concentration**: an average taken over a volume element that is larger than individual grain diameters but smaller than the scale of macroscopic gradients. This averaging smooths out the pore-scale chaos while preserving the gradients we care about.
-
-The reference frame is Cartesian and moves with the accumulating sediment -- a choice that simplifies the math for systems where material is continuously buried.
-
-At **steady state**, the time derivative vanishes ($\partial C / \partial t = 0$), and the substantial derivative reduces to:
-
-$$
-\frac{DC}{Dt} = w \frac{\partial C}{\partial x}
-$$
-
-where $w$ is the burial velocity.
-
-The general conservation equation is:
-
-$$
-\frac{\partial \hat{C}}{\partial t} = -\frac{\partial F}{\partial x} + \sum R_i
-$$
-
-The left side is the rate of change of bulk concentration $\hat{C}$. The right side balances two terms: the divergence of the flux $F$ (how much stuff moves in and out of a volume element) and the sum of all reactions $R_i$ (how much stuff is created or destroyed).
-
-For **solutes** (dissolved species), the bulk concentration is $\hat{C} = \phi \cdot C$, where $\phi$ is porosity and $C$ is the porewater concentration.
-
-For **solids** (minerals, organic particles, biomass), the bulk concentration is $\hat{C} = (1 - \phi) \cdot B$, where $B$ is the concentration per unit volume of solid.
-
-This equation is the bookkeeping device that makes reaction-transport models possible. Everything else -- the specific rate laws, the transport terms, the boundary conditions -- plugs into this frame.
-:::
-
-## The dark photosynthesizer
-
-In 2016, a group of American chemists reported something that sounded like science fiction. They took *Moorella thermoacetica*, a non-photosynthetic, anaerobic bacterium -- a species that has never, in its evolutionary history, used light for energy -- and turned it into a kind of solar cell.
-
-The trick was cadmium sulfide nanoparticles. The researchers dissolved cadmium and sulfide precursors in the growth medium. The bacterium, doing what *Moorella* does naturally, precipitated cadmium sulfide crystals on its own cell surface. These nanoparticles acted as light-harvesting antennae: when illuminated, they generated excited electrons that the bacterium captured and used to reduce CO$_2$ into acetic acid and other organic molecules.
-
-The bacterium built its own solar panels.
-
-This is remarkable not because it is natural -- it is thoroughly artificial -- but because it reveals the metabolic flexibility hiding inside organisms we thought we understood. *Moorella thermoacetica* can grow as a heterotroph (eating organic carbon), as a chemoautotroph (fixing CO$_2$ using hydrogen), and even as an "electrotroph" -- fed electrons directly from an electrode. Adding nanoparticle-mediated photosynthesis to its repertoire did not require genetic engineering. It required only the right chemistry in the right place.
-
-The deep subsurface harbors organisms whose metabolic capabilities are far broader than their current environment demands. *D. audaxviator* fixes carbon, fixes nitrogen, and reduces sulfate -- but its genome also contains genes for flagellar motility, chemotaxis, and sporulation. These are capabilities it may not have used for millions of years. They are evolutionary memories, carried forward because the cost of keeping them is lower than the cost of losing them and needing them later.
-
-::: {.callout-note}
-## Sidebar -- How stuff moves: transport in sediments
-
-In the deep subsurface and in sediments generally, chemistry means nothing without transport. A reaction can be thermodynamically favorable and enzymatically possible, but if the reactants cannot reach the organisms, nothing happens.
-
-**Advective flux** for solutes (dissolved species carried by flowing porewater):
-
-$$
-F_A = \phi \cdot u \cdot C
-$$
-
-where $\phi$ is porosity, $u$ is the porewater velocity, and $C$ is concentration.
-
-**Advective flux** for solids (particles, minerals, biomass carried by sediment burial):
-
-$$
-F_A = (1 - \phi) \cdot w \cdot B
-$$
-
-where $w$ is the burial velocity and $B$ is the solid-phase concentration.
-
-**Compaction** creates a subtlety that trips up newcomers. As sediment is buried and compressed, porosity decreases. Porewater is squeezed upward relative to the grains -- but it still moves downward relative to the sediment-water interface. The porewater velocity $u$ and the solid velocity $w$ are generally not equal, and their difference is what drives compaction-related porewater flow.
-
-**Darcy flow** through porous media:
-
-$$
-u_x = -\frac{k}{\phi \cdot \mu} \cdot \frac{\partial p'}{\partial x}
-$$
-
-where $k$ is permeability, $\mu$ is dynamic viscosity, and $\partial p'/\partial x$ is the pressure gradient driving flow.
-
-There is also a **biological conveyor belt**: head-down deposit feeders (worms, in shallow marine settings) that ingest sediment at depth and excrete it at the surface, effectively pumping particles upward. This "bioturbation" can dominate transport in the upper few centimeters of marine sediment. In the deep subsurface, where such organisms cannot live, this term disappears -- and transport becomes purely physical: advection, diffusion, and pressure-driven flow.
-:::
+The deep subsurface also harbors metabolic capabilities broader than current conditions demand. *D. audaxviator*'s genome contains genes for flagellar motility, chemotaxis, and sporulation — capabilities it may not have used for millions of years, carried forward because the cost of keeping them is lower than the cost of losing them and needing them later.
 
 ## Competing or cooperating?
 
@@ -184,11 +100,11 @@ One possible resolution is that the organisms are not simply maximizing their ow
 
 But there is a third possibility, and it is the one most consistent with the data we have seen throughout this book: neither individual optimization nor collective optimization, but satisficing. Each organism runs the metabolism its enzymes permit, at the rate the local concentrations support, without reference to any global objective. The community structure that results is not optimal in any formal sense -- it is merely *viable*. Every guild covers its maintenance costs. No guild is excluded unless its reaction is thermodynamically impossible under local conditions. The coexistence of iron reducers, sulfate reducers, and methanogens in the same aquifer is not paradoxical under this view. It is expected: all three can cover costs, so all three persist. The boundaries are fuzzy because the constraints are fuzzy.
 
-This is an active area of research, and the models are not yet settled. But the satisficing view has a practical advantage over both the competitive-exclusion and collective-optimization views: it predicts the messy coexistence that field data actually show, without requiring mechanisms (altruism, group selection, global coordination) for which there is no evidence in prokaryotic communities. Over geological time, communities may converge toward configurations where relatively little energy is wasted -- not because any organism optimizes, and not because the community optimizes, but because evolution in a closed system eliminates strategies that cannot cover maintenance. What survives is what works, not what is best.
+This is an active area of research, and the models are not yet settled. But the satisficing view has a practical advantage over both the competitive-exclusion and collective-optimization views: it predicts the messy coexistence that field data actually show, without requiring community-wide optimization — the kind of global coordination across unrelated lineages for which there is no evidence in these settings. Over geological time, communities may converge toward configurations where relatively little energy is wasted -- not because any organism optimizes, and not because the community optimizes, but because evolution in a closed system eliminates strategies that cannot cover maintenance. What survives is what works, not what is best.
 
 ## Growth, decay, and the meaning of yield
 
-To connect all of this to quantitative models, we need an equation for biomass. The standard form is deceptively simple:
+To connect microbial energetics to quantitative models, we need an equation for biomass:
 
 $$
 \frac{d[B]}{dt} = Y \cdot R_{\text{resp}} - \mu_{\text{dec}} \cdot [B]
@@ -196,25 +112,11 @@ $$
 
 Biomass grows in proportion to the respiration rate (scaled by the yield coefficient $Y$) and decays at a rate proportional to the current biomass (scaled by the decay constant $\mu_{\text{dec}}$).[^thullner2007][^dale2010]
 
-The yield coefficient $Y$ is the fraction of energy from respiration that gets converted into new biomass. It is the efficiency of the organism as a machine: how much of the fuel becomes structure rather than heat?
+The yield coefficient $Y$ — the fraction of catabolic energy converted into new biomass — is not a constant. It scales with the available Gibbs energy, but shallowly: even large changes in energy produce only modest changes in yield, because biosynthesis has irreducible costs.[^larowe2011_yield] Theoretical frameworks derive yield from thermodynamic first principles;[^rittmann2001][^heijnen1992] empirical approaches fit it to data across metabolic types.[^larowe2011_yield]
 
-Several approaches exist for estimating $Y$. Theoretical frameworks, such as those developed by Rittmann and McCarty or by Heijnen and Van Dijken, derive yield from thermodynamic first principles -- partitioning the Gibbs energy of the catabolic reaction between the energy needed for biosynthesis and the energy dissipated.[^rittmann2001][^heijnen1992] Empirical approaches fit yield to experimental data and find relationships that scale with the available Gibbs energy.[^larowe2011_yield] The more energy available per mole of reaction, the higher the yield -- but the relationship is shallow. Even large changes in available energy produce only modest changes in yield, because biosynthesis has irreducible costs.
+But in the deep subsurface, growth is only half the story. Much of the biomass at any given time may be dormant — alive but metabolically inactive. Models that explicitly track dormant and active cell fractions show that the transition between states can dramatically affect community dynamics and apparent geochemical rates.[^stolpovsky2011] Cells do not respond instantaneously to environmental changes; there is a lag phase between perturbation and metabolic response.[^blanch1981] For stable deep subsurface settings, quasi-steady-state assumptions may hold. For perturbed systems, they do not.
 
-For the standard Monod growth model, the rate of biomass production is:
-
-$$
-r_X = \mu_{\max} \cdot \frac{S}{K + S} \cdot X
-$$
-
-where $\mu_{\max}$ is the maximum specific growth rate, $S$ is the limiting substrate, $K$ is the half-saturation constant, and $X$ is biomass. This is the workhorse of microbial ecology modeling. It captures the essential behavior: growth accelerates with substrate availability, saturates when substrate is abundant, and scales with the amount of biomass present.
-
-But in the deep subsurface, growth is only half the story. Much of the biomass at any given time may be dormant -- alive but metabolically inactive, waiting for conditions to improve. Stolpovsky and colleagues developed models that explicitly track dormant and active cell fractions, showing that the transition between states can dramatically affect community dynamics and the apparent rates of geochemical processes.[^stolpovsky2011]
-
-Three approaches to estimating yield deserve comparison. Rittmann and McCarty partition catabolic energy into a growth fraction and a dissipated fraction, based on the energetics of biosynthesis from available carbon and nitrogen sources.[^rittmann2001] Heijnen and Van Dijken use a correlation between the Gibbs energy dissipated per C-mol of biomass produced and the degree of reduction of the substrate.[^heijnen1992] Empirical approaches fit yield directly to experimental data across a range of metabolic types and environmental conditions.[^larowe2011_yield]
-
-A deeper issue: cells do not respond instantaneously to environmental changes. There is a **lag phase** -- a delay between a change in conditions and the metabolic response.[^blanch1981] Simple unstructured models assume quasi-steady state. For stable deep subsurface settings, this may be acceptable. For perturbed systems -- aquifers receiving a pulse of contaminant, sediments exposed to sudden changes -- "simple unstructured models are not adequate descriptors".[^blanch1981] Additional complications arise from substrate and product inhibition, and from activity coefficient corrections in high-ionic-strength porewaters.[^blanch1981]
-
-The honest summary: yield and growth rate are not constants. They are functions of thermodynamics, environment, and history. Models that treat them as fixed parameters work in narrow conditions; models that let them vary work more broadly, at the cost of more parameters to constrain.
+The honest summary: yield, growth rate, and maintenance energy are not constants. They are functions of thermodynamics, environment, and history.
 
 ## The scale of the hidden world
 
