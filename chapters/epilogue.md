@@ -37,7 +37,7 @@ Information without work is a library with no readers. Work without information 
 
 This book began with quantum mechanics and ended with planetary engineering. The same physics operates at every scale.
 
-The same $\Delta G$ that governs electron transfer in a hydrogen atom governs whether a bacterial community three kilometers underground will thrive or slowly starve. The same Michaelis-Menten kinetics that describe the saturation curve of a single purified enzyme describe the metabolism of entire ecosystems when you aggregate billions of cells. The same conservation law that tracks a solute diffusing through a sediment column applies to carbon moving through the global ocean — though the transport operators and boundary conditions change substantially.
+The same $\Delta G$ that governs electron transfer in a hydrogen atom governs whether a bacterial community three kilometers underground will thrive or slowly starve. The Michaelis-Menten kinetics that describe a single purified enzyme reappear, in effective form, as the rate laws of entire ecosystems — not because the enzyme and the ecosystem are the same system, but because saturation logic applies at both levels. The same conservation law that tracks a solute diffusing through a sediment column applies to carbon moving through the global ocean — though the transport operators and boundary conditions change substantially.
 
 The underlying physics does not change. The models built on it must.
 
@@ -87,7 +87,7 @@ First: microbial communities appear to satisfice. They do not optimize growth ra
 
 Second: the conservation framework carries across scales. The same accounting principle -- accumulation equals net flux plus net reaction -- applies to a sediment pore, a treatment wetland, a regional aquifer, and the global ocean. The transport operators, boundary conditions, and closure terms change with each setting, but the underlying logic does not. Reaction-transport models work because the physics does not reinvent itself at new scales. There is no "ecosystem thermodynamics" separate from "molecular thermodynamics." There is only thermodynamics.
 
-Third: water treatment underperforms when it ignores the geomicrobiology. The same organisms, reactions, and constraints that oxygenated the Archean atmosphere, that cycle sulfur through sediments, that maintain the deep biosphere on maintenance energy alone -- these are the organisms and reactions that clean contaminated groundwater. Better data will always matter. But data alone cannot fix the problem if the biology is modeled as a black box with fixed parameters rather than as an adaptive community under thermodynamic constraints. The theory in this book is one piece of what is needed.
+Third: water treatment underperforms when it ignores the geomicrobiology. The same broad classes of metabolism and the same thermodynamic and kinetic constraints that shaped the Archean atmosphere, that cycle sulfur through sediments, that maintain the deep biosphere on maintenance energy alone -- these are the processes that clean contaminated groundwater. Better data will always matter. But data alone cannot fix the problem if the biology is modeled as a black box with fixed parameters rather than as an adaptive community under thermodynamic constraints. The theory in this book is one piece of what is needed.
 
 These three claims are not separate arguments. They are one argument at three scales. Satisficing describes the biology. The conservation framework explains the math. And the water crisis is sharpened when we ignore both.
 
@@ -123,4 +123,4 @@ The question is whether we will make the effort to understand them.
 
 [^magnabosco2018]: Cara Magnabosco et al., "The Biomass and Biodiversity of the Continental Subsurface," *Nature Geoscience* 11 (2018): 707–717. Estimated 2–6 Gt C of prokaryotic biomass in the continental subsurface. [@Magnabosco2018]
 
-[^falkowski2008]: Paul G. Falkowski, Tom Fenchel, and Edward F. Delong, "The Microbial Engines That Drive Earth's Biogeochemical Cycles," *Science* 320 (2008): 1034–1039. Microbes process more carbon than all human industry combined. [@Falkowski2008]
+[^falkowski2008]: Paul G. Falkowski, Tom Fenchel, and Edward F. Delong, "The Microbial Engines That Drive Earth's Biogeochemical Cycles," *Science* 320 (2008): 1034–1039. Review of microbial contributions to global biogeochemical cycling. [@Falkowski2008]
