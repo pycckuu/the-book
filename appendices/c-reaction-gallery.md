@@ -2,7 +2,7 @@
 title: "Appendix C — Reaction Gallery"
 ---
 
-This appendix collects the key biogeochemical reactions referenced throughout the book. Reactions are organized by the redox ladder -- from the most energetically favorable electron acceptors to the least -- followed by chemolithotrophic metabolisms, photosynthesis, and abiotic reference reactions. Standard-state values are reported at 25°C and 1 atm. Most entries use $\Delta G^\circ$; where the main text uses the biochemical standard state at pH 7, values are written as $\Delta G^{\circ\prime}$. Under environmental conditions, actual $\Delta G$ values differ according to $\Delta G = \Delta G^\circ + RT \ln Q$ (Chapter 1).
+This appendix collects the key biogeochemical reactions referenced throughout the book. Reactions are organized by the redox ladder -- from the most energetically favorable electron acceptors to the least -- followed by chemolithotrophic metabolisms, photosynthesis, and abiotic reference reactions. Standard-state values are reported at 25°C and 1 atm. Most entries use $\Delta G^\circ$; where the main text uses the biochemical standard state at pH 7, values are written as $\Delta G^{\circ\prime}$. Under environmental conditions, actual $\Delta G$ values differ according to $\Delta G = \Delta G^\circ + RT \ln Q$ (Chapter 1). The values here are representative standard-state benchmarks drawn from classic biochemical and geochemical thermodynamic sources; exact numbers vary with pH, speciation, and reaction convention [@Thauer1977; @Stumm1995; @Bethke2011].
 
 The organic matter in heterotrophic reactions is represented as CH$_2$O (formaldehyde), the simplest reduced carbon compound. Real organic matter has variable composition and oxidation state; the NOSC framework (Appendix A) provides a way to estimate energy content for arbitrary organic molecules.
 
@@ -52,7 +52,7 @@ $$
 
 $\Delta G^\circ = -114$ kJ/mol
 
-Iron reducers yield 4--5 times more energy per electron than methanogens, giving them a competitive advantage where ferric iron is available (Chapter 9). The released Fe$^{2+}$ can precipitate as pyrite (FeS$_2$) or siderite (FeCO$_3$), linking the iron and sulfur cycles.
+Iron reducers yield 4--5 times more energy per electron than methanogens, giving them a competitive advantage where ferric iron is available (Chapter 9) [@Bethke2011]. Where ferric iron is supplied as mineral surfaces or colloids, the kinetics of cell-mineral attachment can become part of the rate limitation [@Bonneville2006]. The released Fe$^{2+}$ can precipitate as pyrite (FeS$_2$) or siderite (FeCO$_3$), linking the iron and sulfur cycles.
 
 ## C.5 Sulfate Reduction
 
@@ -108,7 +108,7 @@ $$
 
 $\Delta G^\circ = -17$ kJ/mol
 
-Among the least energetically favorable reactions in the microbial repertoire. AOM consumes an estimated 90% of the methane produced in marine sediments before it can reach the water column, making it one of the most important biological filters on Earth's greenhouse gas budget.
+Among the least energetically favorable reactions in the microbial repertoire. AOM consumes an estimated 90% of the methane produced in marine sediments before it can reach the water column, making it one of the most important biological filters on Earth's greenhouse gas budget [@Knittel2009].
 
 ## C.8 Nitrification
 
@@ -142,7 +142,7 @@ $$
 
 $\Delta G^\circ = -358$ kJ/mol
 
-Discovered in the 1990s, anammox removes bioavailable nitrogen without requiring oxygen. Significant in oxygen-minimum zones of the ocean and in wastewater treatment.
+Discovered in the late 1990s, anammox removes bioavailable nitrogen without requiring oxygen [@Strous1999]. It is now recognized as a major route of fixed-nitrogen loss in both oxygen-minimum zones and engineered wastewater systems.
 
 ## C.10 Iron Oxidation
 
@@ -154,7 +154,7 @@ $$
 
 $\Delta G^\circ = -44$ kJ/mol (per mol Fe, at pH 7)
 
-*Ferroplasma acidiphilum* (Appendix E) represents a modern organism that may preserve an ancient iron-dependent metabolism. In acidic environments the abiotic rate is slow, giving iron-oxidizing bacteria a kinetic window.
+*Ferroplasma acidiphilum* (Appendix E) illustrates a modern iron-dependent metabolism. In acidic environments the abiotic rate is slow enough to leave iron-oxidizing microorganisms a kinetic window [@Golyshina2000].
 
 ## C.11 Sulfide Oxidation
 
@@ -180,7 +180,7 @@ $$
 
 $\Delta G^\circ = +2870$ kJ/mol (endergonic; driven by light energy)
 
-The reaction that oxygenated the atmosphere. The electron donor is water; the waste product is molecular oxygen (Chapter 5).
+The reaction that oxygenated the atmosphere. The electron donor is water; the waste product is molecular oxygen (Chapter 5) [@Buick2008; @Blankenship2010].
 
 ### Anoxygenic photosynthesis
 
@@ -190,7 +190,7 @@ $$
 \text{CO}_2 + 2\text{H}_2\text{S} + \text{light} \rightarrow \text{CH}_2\text{O} + 2\text{S}^0 + \text{H}_2\text{O}
 $$
 
-Preceded oxygenic photosynthesis by at least several hundred million years. No oxygen is produced; elemental sulfur is the waste product.
+Preceded oxygenic photosynthesis by at least several hundred million years. No oxygen is produced; elemental sulfur is the waste product [@Blankenship2010].
 
 ## C.13 Abiotic Reference Reactions
 
@@ -202,7 +202,7 @@ $$
 \text{CaSiO}_3 + \text{CO}_2 \rightarrow \text{CaCO}_3 + \text{SiO}_2
 $$
 
-Consumes CO$_2$; rate enhanced by plant roots and microbial activity in soils.
+Consumes CO$_2$; rate enhanced by plant roots and microbial activity in soils [@Walker1981; @Berner1983].
 
 ### Hydrogen-chlorine reaction
 
