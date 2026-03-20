@@ -26,7 +26,7 @@ A contaminated aquifer is a reactor. The contaminants are electron donors or acc
 
 Van Cappellen sees this clearly: "Gaining understanding at a fundamental level on how natural processes eliminate contaminants from the environment can lead to development of new green technologies or engineered environments for water treatment and conservation."[^vancappellen2016]
 
-The key phrase is "at a fundamental level." And here is the book's third claim, stated plainly: **water treatment underperforms when it ignores the geomicrobiology — when the biology in the system is treated as a black box rather than a mechanism.**
+The key phrase is "at a fundamental level." And here is the book's third claim, stated plainly: **water treatment underperforms when it ignores the geomicrobiology -- when the biology in the system is treated as a black box rather than a mechanism.**
 
 The traditional engineering approach to water treatment works like this: characterize the contaminant, design a treatment system, specify operating parameters, build it, run it. The parameters are fixed. The biology is a black box -- you know bacteria are doing something in your bioreactor, but you do not model them as adaptive organisms with thermodynamic constraints. You model them as rate constants. Modern practice has moved well beyond this in many settings, but the black-box legacy persists in enough applications that the problem is real. When conditions change -- a new contaminant arrives, the temperature shifts, the redox environment evolves -- the model breaks, because the rate constants were calibrated for the old conditions and the black box has reorganized itself inside.
 
@@ -78,29 +78,41 @@ For water treatment applications, this matters directly. When we model a treatme
 
 ## The water-energy-carbon nexus
 
-The chapter's threads meet here.
+Water quality does not stand alone. Energy extraction contaminates water. Water treatment consumes energy. Organic carbon acts as contaminant and electron donor in many remediation settings. Shifts in rainfall and thaw change both the delivery of contaminants and the capacity of natural systems to process them.
 
-Water quality does not stand alone. Energy extraction contaminates water. Water treatment consumes energy. Organic carbon acts both as contaminant and as electron donor in many remediation settings. Shifts in rainfall and thaw change both the delivery of contaminants and the ability of natural systems to process them.
+The major greenhouse gases, CO$_2$, methane, and nitrous oxide, move through the same microbial machinery that governs water quality. Wetlands produce methane. Agricultural runoff drives nitrous oxide. The ocean absorbs CO$_2$ through gas exchange and carbonate chemistry, but biology shapes the net balance through photosynthesis, respiration, calcification, and remineralization.
 
-The major greenhouse gases — CO$_2$, methane, nitrous oxide — are all connected to water. Wetlands are methane sources. Agricultural runoff is a nitrous oxide source. The ocean is the largest CO$_2$ sink — driven by physical gas exchange and carbonate chemistry, but with biology shaping the net flux through photosynthesis, respiration, and carbonate precipitation. Microbial metabolism is not the whole story in every case, but it appears on one side or the other of every budget.
+Soil is the crowded interface in that story. Mineral surfaces, porewater, roots, fungi, bacteria, archaea, and viruses meet there. If you want to watch water, carbon, nutrients, and microbes push on one another at once, soil is the place to look.
 
-Permafrost makes the link concrete. Permafrost soils hold an immense carbon reservoir, and the Arctic tundra has shifted from long-term sink to net source as warming, wildfire, and thaw expose organic matter to microbial attack.[^noaa2024] A 2024 isotope study argued that most of the record methane growth from 2020 to 2022 came from microbial sources rather than fossil leakage.[^michel2024] Another 2024 study found that thawing-permafrost microbes can metabolize polyphenols once treated as relatively protected carbon, implying that some current emission estimates may still be conservative.[^northen2024]
+Permafrost makes the link concrete. Permafrost soils hold an immense carbon reservoir, and the Arctic tundra has shifted from long-term sink to net source as warming, wildfire, and thaw expose organic matter to microbial attack.[^noaa2024] Isotope evidence points to microbial sources behind most of the methane surge from 2020 to 2022.[^michel2024] McGivern and colleagues showed that thaw also opens substrates once treated as protected: thawing-permafrost microbes can metabolize polyphenols that many carbon budgets had treated as slow or inert.[^northen2024] Urich and colleagues then showed why the story refuses a single slogan. Across the pan-Arctic, thaw does not hand victory to methanogens in every case. Drying can favor methanotrophs, while waterlogged thaw favors methane production.[^urich2025] Hydrology decides which guild wins.
 
-An RTM for a contaminated aquifer and a global carbon cycle model share the same intellectual scaffolding: conservation equations, rate expressions, and the challenge of coupling fast and slow processes. The practical models differ — in parameterization, spatial resolution, and the biology they resolve — but the underlying logic is the same. In both cases, biology is the catalyst that makes thermodynamically favorable reactions actually happen.
+Wetlands push the same chemistry into the open. Kuhn and colleagues estimate that boreal-Arctic wetlands and lakes emit about 34 teragrams of methane per year, with warming driving a steep rise through this century.[^kuhn2025] Lee and colleagues found the same logic in a brackish coastal wetland: warming speeds sulfate reduction, strips away the sulfate pool that feeds anaerobic methane oxidation, and tips the balance toward methane release.[^lee2025] One warming world produces both stories at once: more wet ground that feeds methanogens and weaker chemical buffers that once consumed part of their product.
+
+Soils do not answer warming with one response. Sun and colleagues found that long-term warming cuts bacterial diversity and soil organic carbon on a global scale.[^sun2025] Liu and colleagues found a different response after a decade of warming in a subtropical forest: microbial networks reorganized, K-strategy taxa rose, and carbon-use efficiency stopped falling with temperature in the expected way.[^liu2025] Microbes can amplify warming in one soil and buffer it in another. A climate model that treats the soil community as a fixed rate constant misses that branch point.
+
+The ocean pushes back in its own way. Lehmann and Bach report that reduced biotic calcification has left about 20 teramoles of extra alkalinity in surface waters over the past three decades, which increases CO$_2$ uptake by a modest amount.[^lehmannbach2025] That negative feedback helps. It does not erase the larger fact that climate, biology, and carbonate chemistry now move together.
+
+An RTM for a contaminated aquifer and a global carbon cycle model share the same intellectual scaffolding: conservation equations, rate expressions, and the challenge of coupling fast and slow processes. The practical models differ in parameterization, spatial resolution, and biological detail. The logic is the same. In both cases, biology is the catalyst that makes thermodynamically favorable reactions happen on the timescales that matter.
 
 The framework travels. Ground it in energy, transport, and kinetics, and it works in a sediment core, a treatment wetland, or a global climate model. The microbes change. The minerals change. The timescales change. The principles do not.
 
+Tara Oceans turned that shared scaffold into a planetary map. Sunagawa and colleagues showed that temperature structures much of the upper-ocean microbiome and built a gene catalog large enough to treat marine microbial biogeography as Earth-system data rather than local anecdote.[^sunagawa2015] Viral ecology rides on that host landscape.
+
 ## The missing trophic layer: viruses
 
-Viruses belong in the modern picture. Leave them out, and the biology looks cleaner than it is. Microbes do not run the planet alone.
+Viruses belong in the modern picture. Leave them out, and the biology looks cleaner than it is.
 
-In the ocean, phages kill a substantial fraction of microbial cells every day, short-circuiting the path from biomass to grazers and sending that carbon back into the dissolved pool -- the process marine ecologists call the viral shunt.[^suttle2007] That makes viruses active participants in biogeochemistry rather than mere passengers on it. They regulate who dominates, who crashes, and how much carbon stays in circulation long enough to be respired.
+In the ocean, phages kill a substantial fraction of microbial cells each day, short-circuit the path from biomass to grazers, and send carbon back into dissolved pools. Suttle named that process the viral shunt.[^suttle2007] Talmy and colleagues make the modeling problem plain: planetary-scale ocean biogeochemical models still omit viral infection even though infection changes nutrient retention, carbon export, and primary production.[^talmy2025]
 
-They also reprogram metabolism from the inside. Many viruses carry auxiliary metabolic genes that tweak host carbon, sulfur, or methane pathways during infection. A 2024 survey found that viral genes with the potential to modulate methane metabolism are widespread but strongly habitat-dependent, which means greenhouse-gas budgets can carry a hidden viral term.[^chen2024viral] Viruses redirect traffic, crash lineages, and sometimes lend hosts new machinery.
+Viruses also change chemistry from inside the cell. Many carry auxiliary metabolic genes that alter host carbon, sulfur, or methane pathways during infection. Zhong and colleagues showed that viral genes with the potential to modulate methane metabolism are widespread and habitat-dependent.[^chen2024viral] Gilbert and colleagues then tied seasonal enhancement of the viral shunt to a subsurface oxygen maximum in the Sargasso Sea, linking viral lysis to oxygen structure rather than carbon recycling alone.[^gilbert2025]
+
+Cold seeps push the same point into sediments. A 2025 survey of the Haima cold seep recovered 4,272 viral operational taxonomic units, most of them novel, with auxiliary metabolic genes tied to carbon and sulfur cycling across seep development.[^haima2025] Soils pose the same problem on land. Hazard and colleagues identify the missing infection-rate and host-range measurements that keep soil viruses out of most carbon and nitrogen budgets, even though the ecological case for including them keeps growing.[^hazard2025]
+
+Microbes do not run the planet alone. Their parasites redirect carbon, reshape oxygen profiles, move genes, and alter which metabolisms dominate. A biogeochemical model that omits viruses does not simplify the system. It drops a trophic layer.
 
 ## What the microbes are still doing
 
-It would be easy, at this point, to treat microbes as abstract reaction catalysts -- black boxes that convert inputs to outputs according to rate laws. We have spent considerable effort in this book arguing against that reduction, and it is worth restating why.
+You could treat microbes as abstract reaction catalysts -- black boxes that convert inputs to outputs according to rate laws. That reduction would break the argument of this book, so it is worth stating the problem one more time.
 
 Microbes are not passive. They respond to their environment. They regulate gene expression, adjust their metabolic machinery, form communities with complementary capabilities, and compete for shared resources. The "choices" they make -- which we showed in the preceding chapters are better described as emergent consequences of thermodynamic and kinetic constraints -- determine which reactions dominate in a given environment.
 
@@ -126,7 +138,7 @@ What is often missing is the integration -- the step from understanding individu
 
 ## The 4.5-billion-year operating manual
 
-We began this book with a bacterium dividing once per century, 2.8 kilometers underground, on an energy budget thinner than a candle flame. That organism — *Candidatus* Desulforudis audaxviator — was not a curiosity. It was an existence proof: life is a non-equilibrium system, maintained by microbial metabolism, visible as gradients in chemistry.
+We began this book with a bacterium dividing once per century, 2.8 kilometers underground, on an energy budget thinner than a candle flame. That organism -- *Candidatus* Desulforudis audaxviator -- was not a curiosity. It was an existence proof: life is a non-equilibrium system, maintained by microbial metabolism, visible as gradients in chemistry.
 
 Since then, we have traveled from the quantum-mechanical basis of redox reactions to the planetary-scale cycling of carbon, nitrogen, and sulfur. We have built a mathematical framework -- conservation equations, transport operators, rate laws, thermodynamic constraints -- that can describe what happens in a porewater profile, a treatment wetland, or the global ocean. We have met the organisms that do the work: methanogens in the deep subsurface, sulfate reducers at the sulfate-methane transition, iron reducers in aquifer sediments, nitrifiers and denitrifiers in soils and treatment systems.
 
@@ -136,7 +148,7 @@ The feedback loop has been running for at least 3.8 billion years. It oxygenated
 
 The 4.5-billion-year story we have told is not just history. It is the operating manual for the planet we live on.
 
-The microbes that built this world are still running it. They are central to Earth's carbon cycle[^wehrli2013] and participate in the cycling of nitrogen, sulfur, and most other biologically active elements. The deep subsurface biosphere alone may harbor several billion tons of carbon in microbial biomass — a hidden world operating on geological timescales.[^magnabosco2018_water] They operate in the dark, in the cold, in conditions that would kill anything larger. And they respond to thermodynamic and kinetic constraints with a precision that, once you learn to read it, looks almost like engineering.
+The microbes that built this world are still running it. They are central to Earth's carbon cycle[^wehrli2013] and participate in the cycling of nitrogen, sulfur, and most other biologically active elements. The deep subsurface biosphere alone may harbor several billion tons of carbon in microbial biomass -- a hidden world operating on geological timescales.[^magnabosco2018_water] They operate in the dark, in the cold, in conditions that would kill anything larger. And they respond to thermodynamic and kinetic constraints with a precision that, once you learn to read it, looks almost like engineering.
 
 Understanding them is not optional. It is not a curiosity for specialists. It is essential -- for predicting climate, for managing water, for designing treatment systems that work with biology rather than against it.
 
@@ -146,9 +158,9 @@ The bacterium is still down there, still dividing, still confessing what life re
 
 - Degradation of water quality is among the most pervasive global threats to human health and prosperity, affecting both developing nations (China's groundwater crisis) and wealthy ones (Canada's complacency about contamination).
 - The microbial processes that shaped Earth's atmosphere and sediment chemistry over billions of years are among the processes that can clean contaminated water -- if we understand them well enough.
-- The greenhouse gases that drive climate change — CO$_2$, CH$_4$, N$_2$O — are connected to water quality through shared biogeochemistry. Microbial metabolism is not the whole story in every budget, but it appears on one side or the other of each.
+- The greenhouse gases that drive climate change -- CO$_2$, CH$_4$, N$_2$O -- are connected to water quality through shared biogeochemistry. Permafrost, wetlands, soils, and the surface ocean all turn microbial ecology into climate feedback.
 - Reaction-transport models bridge the gap between mechanistic understanding and system-level prediction, but require better integration of microbial ecology and organic matter chemistry to fulfill their potential.
-- Modern biogeochemical modeling is moving toward interoperable solver ecosystems, ML-assisted surrogates, and explicit treatment of overlooked biological actors such as viruses.
+- Modern biogeochemical modeling is moving toward interoperable solver ecosystems, ML-assisted surrogates, and explicit treatment of overlooked biological actors such as viruses, which many planetary models still omit.
 - The partial equilibrium approach -- treating fast aqueous reactions as algebraic constraints while solving slow mineral reactions kinetically -- is a practical computational strategy with deep physical justification.
 
 [^arndt2013_water]: Sandra Arndt et al., "Quantifying the Degradation of Organic Matter in Marine Sediments: A Review and Synthesis," *Earth-Science Reviews* 123 (2013): 53--86. [@Arndt2013]
@@ -192,3 +204,25 @@ The bacterium is still down there, still dividing, still confessing what life re
 [^suttle2007]: Curtis A. Suttle, "Marine viruses - major players in the global ecosystem," *Nature Reviews Microbiology* 5 (2007): 801--812. A classic review of the viral shunt and the scale at which marine viruses regulate microbial mortality and carbon recycling. [@Suttle2007]
 
 [^chen2024viral]: Zhi-Ping Zhong et al., "Viral potential to modulate microbial methane metabolism varies by habitat," *Nature Communications* (2024). Viral auxiliary metabolic genes affecting methane pathways are widespread enough to matter for how we think about microbial greenhouse-gas budgets. [@Zhong2024]
+
+[^urich2025]: Tim Urich and others, "Methane-cycling microbiomes in soils of the pan-Arctic and their response to permafrost degradation," *Communications Earth & Environment* 6 (2025). Urich and colleagues show that thaw response depends on which methane-cycling guilds take over under wet versus dry post-thaw conditions. [@Urich2025]
+
+[^kuhn2025]: McKenzie Kuhn and others, "Current and future methane emissions from boreal-Arctic wetlands and lakes," *Nature Climate Change* 15 (2025): 986--995. Kuhn and colleagues estimate the present methane budget of boreal-Arctic wetlands and lakes and project a strong warming-driven rise. [@Kuhn2025]
+
+[^lee2025]: Jaehyun Lee, Yerang Yang, Hojeong Kang, Genevieve L. Noyce, and J. Patrick Megonigal, "Climate-induced shifts in sulfate dynamics regulate anaerobic methane oxidation in a coastal wetland," *Science Advances* 11 (2025). Lee and colleagues show how warming weakens sulfate-dependent methane consumption in a brackish wetland. [@Lee2025]
+
+[^sun2025]: Yuan Sun, Han Y. H. Chen, Xin Chen, Masumi Hisano, Xinli Chen, and Peter B. Reich, "Rising global temperatures reduce soil microbial diversity over the long term," *PNAS* 122 (2025). Sun and colleagues link long-term warming to declines in microbial diversity and soil organic carbon. [@Sun2025]
+
+[^liu2025]: Juxiu Liu and others, "Robust microbial interactions, not diversity, dominate metabolic thermal adjustment following decadal warming in a subtropical forest," *Science Advances* 11 (2025). Liu and colleagues show that long warming can reorganize microbial networks and change carbon-use efficiency rather than driving a single fixed response. [@Liu2025]
+
+[^lehmannbach2025]: N. Lehmann and L. T. Bach, "Global carbonate chemistry gradients reveal a negative feedback on ocean alkalinity enhancement," *Nature Geoscience* 18 (2025). Lehmann and Bach identify a surface-ocean alkalinity increase tied to reduced biotic calcification under acidification. [@LehmannBach2025]
+
+[^sunagawa2015]: Sunagawa and colleagues, "Structure and function of the global ocean microbiome," *Science* 348 (2015). The Tara Oceans synthesis showed that temperature structures much of the upper-ocean microbiome and established a global microbial gene catalog. [@Sunagawa2015]
+
+[^talmy2025]: David Talmy, Cristina Howard-Varona, Damien Eveillard, Markus Covert, and Matthew B. Sullivan, "Viruses in multi-scale ocean models: challenges and opportunities," *Frontiers in Marine Science* 12 (2025). Talmy and colleagues argue that marine biogeochemical models still omit viruses despite their impact on primary production and elemental flux. [@Talmy2025]
+
+[^gilbert2025]: Naomi E. Gilbert and others, "Seasonal enhancement of the viral shunt catalyzes a subsurface oxygen maximum in the Sargasso Sea," *Nature Communications* 16 (2025). Gilbert and colleagues link viral lysis to oxygen structure in the oligotrophic ocean. [@Gilbert2025]
+
+[^haima2025]: A 2025 Haima cold seep viral survey recovered 4,272 viral operational taxonomic units and showed that many carry auxiliary metabolic genes tied to carbon and sulfur cycling across seep development. [@HaimaColdSeep2025]
+
+[^hazard2025]: Catherine Hazard, Karthik Anantharaman, Lauren S. Hillary, Umberto Neri, Simon Roux, Gabrielle Trubl, Kristin Williamson, Jennifer Pett-Ridge, Graeme W. Nicol, and Joanne B. Emerson, "Beneath the surface: Unsolved questions in soil virus ecology," *Soil Biology and Biochemistry* 205 (2025): 109780. Hazard and colleagues map the main measurement gaps that keep soil viruses out of many biogeochemical budgets. [@Hazard2025]
