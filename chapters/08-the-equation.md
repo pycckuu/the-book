@@ -2,7 +2,7 @@
 title: "The Equation"
 ---
 
-[FIGURE: A porewater profile showing oxygen concentration dropping to zero within the top few centimeters, sulfate declining steadily over the next meter, and methane rising from below. The x-axis is concentration; the y-axis is depth, increasing downward. Three zones are shaded: an oxygen zone (pale blue), a sulfate zone (pale yellow), and a methane zone (pale green). The sulfate-methane transition zone is marked where the two curves cross.]
+<!-- FIGURE: A porewater profile showing oxygen concentration dropping to zero within the top few centimeters, sulfate declining steadily over the next meter, and methane rising from below. The x-axis is concentration; the y-axis is depth, increasing downward. Three zones are shaded: an oxygen zone (pale blue), a sulfate zone (pale yellow), and a methane zone (pale green). The sulfate-methane transition zone is marked where the two curves cross. -->
 
 The x-axis is concentration. The y-axis is depth below the sediment-water interface, increasing downward. The three curves are oxygen, sulfate, and methane, measured in the porewater of a marine sediment core somewhere on a continental margin.
 
@@ -112,7 +112,7 @@ $$
 F_T = \frac{1}{\exp\left(\frac{\Delta G_r}{RT}\right) + 1}
 $$
 
-This is a schematic version. The full Jin-Bethke treatment includes a term for the energy the cell conserves per reaction (the number of ATPs synthesized), which shifts the equilibrium threshold.[^jin2005_eq] But the logic is the same: when $\Delta G_r$ is large and negative (far from equilibrium), $F_T \approx 1$ and the reaction runs at its full kinetic rate. As $\Delta G_r \to 0$ (approaching equilibrium), $F_T \to 0$ and the reaction stalls.
+This is a schematic version. In this simplified form, $F_T$ reaches $1/2$ at equilibrium ($\Delta G_r = 0$) and approaches $1$ when $\Delta G_r$ is large and negative (far from equilibrium). The full Jin-Bethke treatment adds a term for the energy the cell must conserve per reaction (the number of ATPs synthesized), which shifts the threshold into negative $\Delta G_r$ territory: the cell stops gaining energy, and $F_T$ drops toward zero, well before the reaction reaches thermodynamic equilibrium.[^jin2005_eq]
 
 The full rate expression for a microbially mediated reaction is then:
 
