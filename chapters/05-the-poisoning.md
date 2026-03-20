@@ -147,11 +147,11 @@ When comparing different metabolisms -- iron reduction versus sulfate reduction,
 
 This matters practically because microbial rate laws in reactive transport models need to respect thermodynamics. A reaction that is thermodynamically favorable on paper may stall if local concentrations push it close to equilibrium. The **thermodynamic factor** $F_T$ captures this:
 
-$$F_T = \frac{1}{\exp\!\left(\frac{\Delta G_r + F\,\Delta\Psi}{RT}\right) + 1}$$
+$$F_T = \frac{1}{\exp\!\left(\frac{\Delta G_r}{RT}\right) + 1}$$
 
-where $\Delta G_r$ is the in-situ Gibbs energy of the reaction and $F\,\Delta\Psi$ accounts for any membrane potential.[^jin2005][^dale2006][^regnier2011]
+where $\Delta G_r$ is the in-situ Gibbs energy of the reaction.[^jin2005][^dale2006][^regnier2011]
 
-Read $F_T$ as a smooth switch. Far from equilibrium ($\Delta G_r$ is large and negative), $F_T \approx 1$ and the reaction proceeds at its full kinetic rate. Near equilibrium ($\Delta G_r \to 0$), $F_T \to 0$ and the reaction grinds to a halt. There is no sharp cutoff -- just a gradual throttle, which is exactly how real microbial communities behave.
+Read $F_T$ as a smooth switch. Far from equilibrium ($\Delta G_r$ is large and negative), $F_T \approx 1$ and the reaction proceeds at its full kinetic rate. In this simplified form, $F_T$ reaches $1/2$ at equilibrium ($\Delta G_r = 0$). The full Jin-Bethke treatment adds a term for the energy the cell conserves per reaction (ATP synthesis), which shifts the effective cutoff into negative $\Delta G_r$ territory — so that in practice, the reaction throttles to near zero well before thermodynamic equilibrium. There is no sharp cutoff, just a gradual throttle, which is exactly how real microbial communities behave. See Chapter 8 for the full treatment.
 
 Temperature also matters. The Arrhenius relation gives the temperature dependence of the rate constant:
 

@@ -14,7 +14,7 @@ Throughout this journey, three definitions of life have kept surfacing. Each one
 
 **Life is the process of maintaining non-equilibrium conditions by extracting energy from the environment.**[^luisi1998]
 
-In Chapter 1, this was a refrigerator metaphor and a formula: $\Delta G = \Delta G^\circ + RT \ln Q$. By the time we reached the deep biosphere, it was something you could measure with an electrode and a gas chromatograph. The Gibbs budget that seemed abstract in the opening pages became the accounting system for every metabolism we encountered -- from aerobic respiration's generous payoff to the razor-thin margins of anaerobic methane oxidation.[^knittel2009] We learned that "maintaining non-equilibrium" is not a poetic description. It is a quantitative claim. It means spending maintenance energy, continuously, just to keep enzymes folded, membranes intact, and gradients from collapsing. Maintenance energy is not an abstraction. It is the first law of microbial existence.[^larowe2015]
+In Chapter 1, this was a bacterium dividing once per century and a formula: $\Delta G = \Delta G^\circ + RT \ln Q$. By the time we reached the deep biosphere, it was something you could measure with an electrode and a gas chromatograph. The Gibbs budget that seemed abstract in the opening pages became the accounting system for every metabolism we encountered -- from aerobic respiration's generous payoff to the razor-thin margins of anaerobic methane oxidation.[^knittel2009] We learned that "maintaining non-equilibrium" is not a poetic description. It is a quantitative claim. It means spending maintenance energy, continuously, just to keep enzymes folded, membranes intact, and gradients from collapsing. Maintenance energy is not an abstraction. It is the first law of microbial existence.[^larowe2015]
 
 **Life is inseparable from the concept of the organism -- discrete units that reproduce.**[^cleland2002]
 
@@ -107,7 +107,7 @@ The question is whether we will make the effort to understand them.
 
 [^knittel2009]: Katrin Knittel and Antje Boetius, "Anaerobic Oxidation of Methane: Progress with an Unknown Process," *Annual Review of Microbiology* 63 (2009): 311–334. The energetics of AOM at the sulfate-methane transition demonstrate life operating at the thermodynamic edge. [@Knittel2009]
 
-[^larowe2015]: Douglas E. LaRowe and Jan P. Amend, "Catabolic Rates, Population Sizes and Doubling/Replacement Times of Microorganisms in Natural Settings," *American Journal of Science* 315 (2015): 167–203. Maintenance energy varies over twelve orders of magnitude across Earth's biosphere. [@LaRowe:2015dt]
+[^larowe2015]: Douglas E. LaRowe and Jan P. Amend, "Catabolic Rates, Population Sizes and Doubling/Replacement Times of Microorganisms in Natural Settings," *American Journal of Science* 315 (2015): 167–203. Catabolic rates vary over twelve orders of magnitude across Earth's biosphere. [@LaRowe:2015dt]
 
 [^wachtershauser1988]: Günter Wächtershäuser, "Before Enzymes and Templates: Theory of Surface Metabolism," *Microbiological Reviews* 52 (1988): 452–484. The iron-sulfur world hypothesis posits that mineral surfaces catalyzed the first metabolic cycles. [@Wachtershauser1988]
 
