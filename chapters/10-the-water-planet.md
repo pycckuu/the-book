@@ -6,7 +6,7 @@ Roughly 90% of Chinese cities face some degree of groundwater contamination.[^zh
 
 The planet has the same amount of water it has always had. What we are running out of is *clean* water -- water whose chemistry is compatible with human life, agriculture, and the ecosystems we depend on. Philippe Van Cappellen, an ecohydrologist at the University of Waterloo who has spent decades studying how water moves through landscapes and what happens to contaminants along the way, puts it plainly: "Degradation of water quality is probably the most pervasive, global threat to human health and human prosperity."[^vancappellen2016]
 
-And the irony, for a book that has spent nine chapters describing how microbes built and continue to operate the planet's chemical cycles, is this: the same microbial processes that shaped the atmosphere, cycled carbon through sediments, and maintained the redox structure of the deep subsurface are precisely the processes that can clean water. Or fail to, if we overwhelm them. Microbes collectively process more carbon annually than all human industrial activity combined.[^wehrli2013]
+And the irony, for a book that has spent nine chapters describing how microbes built and continue to operate the planet's chemical cycles, is this: the same microbial processes that shaped the atmosphere, cycled carbon through sediments, and maintained the redox structure of the deep subsurface are precisely the processes that can clean water. Or fail to, if we overwhelm them.
 
 ## The scale of the crisis
 
@@ -80,7 +80,7 @@ This is where the chapter's threads converge.
 
 Water quality is not a standalone problem. It is entangled with energy (because energy extraction contaminates water and water treatment requires energy), with carbon (because organic carbon is both the contaminant in many water systems and the electron donor that drives microbial remediation), and with climate (because changing precipitation patterns alter both the delivery of contaminants and the capacity of natural systems to process them).
 
-The major greenhouse gases — CO$_2$, methane, nitrous oxide — are all connected to water through microbial metabolism. Wetlands are methane sources. Agricultural runoff is a nitrous oxide source. The ocean is the largest CO$_2$ sink. And all of these fluxes are mediated, at the molecular level, by microbial metabolism operating on the same thermodynamic and kinetic principles we have been developing throughout this book.
+The major greenhouse gases — CO$_2$, methane, nitrous oxide — are all connected to water. Wetlands are methane sources. Agricultural runoff is a nitrous oxide source. The ocean is the largest CO$_2$ sink — driven by physical gas exchange and carbonate chemistry, but with biology shaping the net flux through photosynthesis, respiration, and carbonate precipitation. Microbial metabolism is not the whole story in every case, but it appears on one side or the other of every budget.
 
 An RTM for a contaminated aquifer and a global carbon cycle model share the same intellectual scaffolding: conservation equations, rate expressions, and the challenge of coupling fast and slow processes. The practical models differ — in parameterization, spatial resolution, and the biology they resolve — but the underlying logic is the same. In both cases, biology is the catalyst that makes thermodynamically favorable reactions actually happen.
 
@@ -122,7 +122,7 @@ That feedback loop has been running for at least 3.8 billion years. It oxygenate
 
 The 4.5-billion-year story we have told is not just history. It is the operating manual for the planet we live on.
 
-The microbes that built this world are still running it. They process more carbon, cycle more nitrogen, reduce more sulfate, and produce more methane than all human industry combined.[^wehrli2013] The deep subsurface biosphere alone may harbor several billion tons of carbon in microbial biomass — a hidden world, operating on geological timescales, whose total mass rivals that of all surface-dwelling prokaryotes.[^magnabosco2018] They operate in the dark, in the cold, in conditions that would kill anything larger. And they respond to thermodynamic and kinetic constraints with a precision that, once you learn to read it, looks almost like engineering.
+The microbes that built this world are still running it. They mediate the bulk of Earth's carbon, nitrogen, and sulfur cycling.[^wehrli2013] The deep subsurface biosphere alone may harbor several billion tons of carbon in microbial biomass — a hidden world, operating on geological timescales, whose total mass rivals that of all surface-dwelling prokaryotes.[^magnabosco2018] They operate in the dark, in the cold, in conditions that would kill anything larger. And they respond to thermodynamic and kinetic constraints with a precision that, once you learn to read it, looks almost like engineering.
 
 Understanding them is not optional. It is not a curiosity for specialists. It is essential -- for predicting climate, for managing water, for designing treatment systems that work with biology rather than against it.
 
