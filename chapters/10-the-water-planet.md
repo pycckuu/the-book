@@ -26,9 +26,9 @@ A contaminated aquifer is a reactor. The contaminants are electron donors or acc
 
 Van Cappellen sees this clearly: "Gaining understanding at a fundamental level on how natural processes eliminate contaminants from the environment can lead to development of new green technologies or engineered environments for water treatment and conservation."
 
-The key phrase is "at a fundamental level." And here is the book's third claim, stated plainly: **water quality is a geomicrobiology problem, and we underperform because we treat it as a pure engineering problem.**
+The key phrase is "at a fundamental level." And here is the book's third claim, stated plainly: **water quality is a geomicrobiology problem, and we underperform when we treat it as a pure engineering problem.**
 
-The engineering approach to water treatment works like this: characterize the contaminant, design a treatment system, specify operating parameters, build it, run it. The parameters are fixed. The biology is a black box -- you know bacteria are doing something in your bioreactor, but you do not model them as adaptive organisms with thermodynamic constraints. You model them as rate constants. When conditions change -- a new contaminant arrives, the temperature shifts, the redox environment evolves -- the model breaks, because the rate constants were calibrated for the old conditions and the black box has reorganized itself inside.
+The traditional engineering approach to water treatment works like this: characterize the contaminant, design a treatment system, specify operating parameters, build it, run it. The parameters are fixed. The biology is a black box -- you know bacteria are doing something in your bioreactor, but you do not model them as adaptive organisms with thermodynamic constraints. You model them as rate constants. Modern practice has moved well beyond this in many settings, but the black-box legacy persists in enough applications that the problem is real. When conditions change -- a new contaminant arrives, the temperature shifts, the redox environment evolves -- the model breaks, because the rate constants were calibrated for the old conditions and the black box has reorganized itself inside.
 
 The geomicrobiology approach starts from the other end. It asks: what organisms are present? What reactions are thermodynamically favorable under local conditions? What are the kinetic constraints? How does the community adapt when conditions change? The biology is not a black box. It is the mechanism. And because the mechanism is understood -- because it rests on the same thermodynamic and kinetic principles we have been developing throughout this book -- the model can generalize. A model calibrated on one aquifer can make useful predictions for another, not because the organisms are the same, but because the constraints are the same.
 
@@ -38,99 +38,19 @@ And the payoff is not merely academic: "If we can increase the availability of c
 
 Canada, Van Cappellen argues, is uniquely positioned. It has both the water resources and the research community -- the people who understand the fundamental science -- to become a frontrunner in water technology. Whether it will is a different question, and one that depends on whether the science gets translated into engineering practice.
 
-## Trees, rocks, and the long carbon cycle
-
-To understand why water quality and atmospheric chemistry are connected -- and why microbes sit at the center of both -- we need to step back to a puzzle that occupied geochemists for decades.
-
-Beginning in the late Silurian and accelerating through the Devonian, roughly 430 to 360 million years ago, something remarkable happened on land: vascular plants appeared and spread.[^retallack1997_devonian] They were the first organisms to develop true root systems, the first to build rigid stems with lignin, the first to anchor themselves in soil rather than simply sitting on it. The earliest forests -- dominated by tree-sized lycophytes and progymnosperms -- appeared around 400 million years ago.[^retallack1997_devonian]
-
-Gregory Retallack recognized that this created a paradox.[^retallack1997] Plants, by anchoring clay-rich soil with their roots, dramatically retarded physical erosion. You might expect this to slow chemical weathering as well -- after all, if nothing is being carried away, how can fresh mineral surfaces be exposed?
-
-But Retallack showed the opposite. Plants *enhanced* chemical weathering even as they retarded erosion. The mechanism is beautifully physical: roots hold soil in place, allowing water to percolate slowly through a thick, stable regolith. That long contact time between water and minerals increases the extent of chemical reaction. The clay-rich soil acts like a chromatography column -- water moves through slowly, reacting as it goes. Enhanced weathering, but nothing washed away.[^retallack1997]
-
-The consequence for the atmosphere was profound. Chemical weathering of silicate minerals consumes CO$_2$:
-
-$$
-\text{CaSiO}_3 + \text{CO}_2 \longrightarrow \text{CaCO}_3 + \text{SiO}_2
-$$
-
-More weathering means more CO$_2$ drawn out of the atmosphere. So the rise of vascular plants should have been a massive carbon sink. And it was. But this raises the obvious question: if plants accelerated CO$_2$ consumption, why didn't atmospheric CO$_2$ drop to zero?
-
-The answer is a set of feedbacks -- negative feedbacks that stabilize the system, and they operate on both the sink side and the source side.
-
-**On the sink side**: lower CO$_2$ leads to lower temperatures (less greenhouse warming), which leads to less precipitation and less river runoff, which slows weathering. If the temperature drop is large enough, glaciation sets in, vegetation dies back or goes dormant, and CO$_2$ consumption plummets. The sink weakens precisely when it is most "successful."
-
-**On the source side**: the weathering of ancient organic-matter-rich rocks and degassing from deep sedimentary formations tends to restore CO$_2$. These sources are not biological in the usual sense -- they are geological, operating on tectonic timescales -- but they provide a floor below which atmospheric CO$_2$ cannot easily fall.
-
-The Carboniferous period, which followed the Devonian, illustrates the interplay. Enhanced weathering was still operating, pulling CO$_2$ down. But simultaneously, vast swamp forests were burying organic matter before it could be fully decomposed -- removing carbon from the active cycle not by weathering but by sequestration. The result was a double drawdown: weathering consumed CO$_2$ at the surface, and burial locked organic carbon away in what would eventually become coal.[^retallack1997] This massive burial of organic carbon during the Carboniferous created the coal deposits that fueled the Industrial Revolution -- a geological savings account from 300 million years ago that we have been withdrawing from for the past two centuries.[^berner1983_carboniferous]
-
-This is the long carbon cycle. And the point, for our purposes, is that it is not a purely geological story. Biology -- first microbial, then plant-microbial -- has been modulating atmospheric CO$_2$ for hundreds of millions of years. The feedbacks are physical, but the actors are alive.
-
-## The atmosphere as a balance sheet
-
-The long carbon cycle operates over millions of years. But the atmosphere also has a short-term budget, and understanding it requires the same source-and-sink thinking applied to much faster processes.
-
-Consider the major greenhouse gases and their atmospheric budgets as assessed in the early 1990s, a snapshot that remains instructive even as the numbers have been updated.[^watson1992]
-
-**Carbon dioxide.** Sources include fossil fuel combustion and land-use change (deforestation, agriculture). Sinks include ocean uptake and the terrestrial biosphere (plant growth and soil storage). The net imbalance -- what accumulates in the atmosphere each year -- was estimated at $3.9 \pm 1.4$ Gt C/yr. That imbalance is small compared to the gross fluxes, which means the system is nearly balanced. "Nearly" is doing a lot of work in that sentence; it is the small residual that drives the entire climate problem.[^watson1992]
-
-**Methane.** Sources are a revealing mix: fossil carbon (natural gas leaks, coal mining), wetlands, rice paddies, and animal waste. The biological sources dominate. Sinks include the hydroxyl radical (OH) in the troposphere -- the atmosphere's main oxidizing agent -- photochemical removal in the stratosphere, and microbial oxidation in soils. Source and sink fluxes are roughly 381 and 394 Tg C/yr, respectively -- close to balanced, but the source mix has shifted dramatically since the industrial revolution.[^watson1992]
-
-**Nitrous oxide.** Sources include soils (both natural and fertilized), forests, and combustion. Sinks are dominated by photodissociation in the stratosphere. Soil microbial processes show up on both sides of the ledger -- as both producers and consumers of N$_2$O -- which is a recurring theme: microbes are not unidirectional. They are opportunistic, and the same community can be a net source or net sink depending on local redox conditions.
-
-**Ozone.** A gas that is simultaneously essential (in the stratosphere, where it blocks UV radiation) and harmful (in the troposphere, where it damages lungs and crops). Its budget involves photochemical production, transport between stratosphere and troposphere, and destruction by chlorine and bromine radicals released from industrial chemicals.
-
-**CFCs.** Entirely anthropogenic in origin -- from aluminum production, electrical equipment, refrigerants. Their only significant sink is photolysis in the stratosphere, which is why they persist for decades and why their regulation under the Montreal Protocol was so consequential.[^montreal_protocol] The Montreal Protocol (1987) stands as one of the most successful international environmental agreements, phasing out ozone-depleting substances and allowing the stratospheric ozone layer to begin recovery.[^montreal_success]
-
-The pattern across all of these is the same: sources and sinks, rates and residence times, feedbacks and imbalances. The atmosphere is a reactor, just like a sediment column -- only the transport is faster (wind instead of diffusion) and the spatial scale is planetary.
-
-::: {.callout-note}
-## Box models for atmospheric chemistry
-
-The simplest useful model for any atmospheric constituent treats the atmosphere as a single well-mixed box. Let $n$ be the total amount of the species (in moles or mass), $a$ be the source rate, and $k$ be the first-order removal rate constant. The governing equation is:
-
-$$
-\frac{dn}{dt} = a - kn, \quad n(0) = n_0
-$$
-
-This is a linear ODE with constant coefficients. Its solution is:
-
-$$
-n(t) = \frac{a}{k} + \left(n_0 - \frac{a}{k}\right) e^{-kt}
-$$
-
-At steady state ($t \to \infty$), the exponential dies and we get:
-
-$$
-n_{\text{ss}} = \frac{a}{k}
-$$
-
-Sources balance sinks. The amount in the box adjusts until removal exactly matches input. The **residence time** is:
-
-$$
-\tau = \frac{1}{k}
-$$
-
-which tells you how long, on average, a molecule stays in the atmosphere before being removed.
-
-For CO$_2$, $\tau$ is on the order of centuries (removal is slow). For methane, $\tau \approx 10$ years (OH is relatively efficient). For CFCs, $\tau$ can exceed 100 years (photolysis in the stratosphere is the only exit).
-
-The policy implication is immediate: reducing emissions of a short-lived species (methane) produces atmospheric benefits within a decade. Reducing emissions of a long-lived species (CO$_2$, CFCs) takes much longer to register. The box model, for all its simplicity, captures this asymmetry exactly.
-:::
-
 ## The modeling challenge
 
-Atmospheric box models work because the atmosphere is, to a first approximation, well-mixed. Sediments and aquifers are not. And that is where reaction-transport models -- RTMs -- become essential.
+The atmosphere can be modeled as a well-mixed box, but sediments and aquifers cannot. They have spatial structure -- gradients in concentration, redox zones, transport limitations. And that is where reaction-transport models -- RTMs -- become essential.
 
 We built the mathematical machinery for RTMs in Chapter 8. The conservation equation, the transport operators, the rate expressions -- all of that was preparation for this. And water quality is perhaps the most consequential application of all.
 
 The theoretical foundations were laid in the 1990s, when Van Cappellen and Wang showed that the full suite of redox reactions in surface sediments -- carbon, oxygen, nitrogen, sulfur, iron, manganese, all coupled -- could be captured in a single mathematical framework and used to reproduce the porewater profiles that geochemists actually measured.[^vancappellen1996] This breakthrough demonstrated that a mechanistic understanding of microbial metabolism, when embedded in a transport framework, could predict geochemical observations without fitting a separate rate constant for every measured profile.[^vancappellen1996_detail] Sandra Arndt and colleagues later put the case precisely: "RTMs are ideal diagnostic tools for diagenetic dynamics, as they explicitly represent coupling and interactions of processes."[^arndt2013] The key word is "coupling." In a real sediment or aquifer, nothing happens in isolation. Organic matter degradation produces CO$_2$ and consumes oxygen. When oxygen runs out, nitrate reduction begins, which produces N$_2$ and alters the pH. Sulfate reduction produces sulfide, which precipitates iron, which changes the availability of phosphorus. Every reaction is connected to every other reaction through the shared pool of chemical species.
 
-[FIGURE: Schematic of a contaminated aquifer modeled with an RTM. A cross-section shows a hydrocarbon plume (dark shading) in a sandy aquifer. Groundwater flows left to right. Around the plume edges, concentric redox zones form: an aerobic fringe (blue) where O2 is consumed, a nitrate-reducing zone (green), an iron-reducing zone (orange), and a sulfate-reducing/methanogenic core (grey). Arrows show dissolved species moving in (O2, NO3-, SO42-) and out (Fe2+, CH4, HCO3-). Caption: "The same redox ladder from sediments, replayed in an aquifer. The conservation equation reads both."]
+<!-- FIGURE: Schematic of a contaminated aquifer modeled with an RTM. A cross-section shows a hydrocarbon plume (dark shading) in a sandy aquifer. Groundwater flows left to right. Around the plume edges, concentric redox zones form: an aerobic fringe (blue) where O2 is consumed, a nitrate-reducing zone (green), an iron-reducing zone (orange), and a sulfate-reducing/methanogenic core (grey). Arrows show dissolved species moving in (O2, NO3-, SO42-) and out (Fe2+, CH4, HCO3-). Caption: "The same redox ladder from sediments, replayed in an aquifer. The conservation equation reads both." -->
 
 RTMs handle this coupling naturally. They solve the conservation equation for each species simultaneously, with transport (diffusion, advection, dispersion) and reaction (kinetic rate laws, thermodynamic constraints) woven together. The output is not a single number but a profile -- concentration as a function of space and time -- which can be compared directly to measurements.
 
-This is what makes RTMs powerful as diagnostic tools. Given a measured porewater profile, an RTM can extract the biogeochemical reaction rates that produced it.
+This is what makes RTMs powerful as diagnostic tools. Given a measured porewater profile, an RTM can infer the biogeochemical reaction rates consistent with it — subject to the chosen model structure and assumptions.
 
 But Arndt and colleagues are equally candid about the limitations: "The lack of mechanistic understanding of organic matter degradation is reflected in mathematical formulations used in RTMs."[^arndt2013] We know that organic matter is consumed. We can measure how fast. But the molecular-level mechanisms -- which enzymes attack which bonds, how microbial communities partition the work, what controls the apparent reactivity of organic matter as it ages -- remain incompletely understood. The rate laws we use in RTMs are effective descriptions, not fundamental ones.[^arndt2013_detail]
 
@@ -154,47 +74,13 @@ The partial equilibrium approach is not just a computational convenience. It ref
 
 For water treatment applications, this matters directly. When we model a treatment wetland, a permeable reactive barrier, or the natural attenuation of a contaminant plume, we need to get the aqueous chemistry right (pH, speciation, complexation) while tracking the slow reactions (mineral dissolution, microbial metabolism) that actually control contaminant fate. Partial equilibrium lets us do both without drowning in computational expense.
 
-## Reading the past through rust
-
-There is a beautiful connection between the geochemistry of water quality and the geochemistry of ancient atmospheres, and it runs through one of the most common minerals on Earth: goethite.
-
-Goethite ($\alpha$-FeOOH) is an iron oxyhydroxide -- the mineral that gives rust its color. It forms wherever iron meets oxygen and water, which is to say, almost everywhere on Earth's surface. And it has a remarkable property: when goethite forms, it incorporates trace amounts of carbonate into its crystal structure, and the carbon isotope ratio of that carbonate ($\delta^{13}$C) reflects the isotopic composition of the CO$_2$ in the soil gas at the time of formation.
-
-Crayton Yapp recognized that this creates a proxy for ancient atmospheric CO$_2$.[^yapp1992] The relationship between the carbon isotope composition of goethite carbonate and the mole fraction of CO$_2$ in soil gas ($X$) is:
-
-$$
-\delta^{13}\text{C} = 0.0162 \cdot \left(\frac{1}{X}\right) - 20.1 \quad (r = 0.98)
-$$
-
-This is an empirical calibration, but the correlation is striking.[^yapp1992][^yapp1996eh] And the mole fraction $X$ can be related to the partial pressure of atmospheric CO$_2$ through a second relationship involving temperature:[^yapp1987]
-
-$$
-\log P_{\text{CO}_2} = \log(X) + 6.04 - \frac{1570}{T}
-$$
-
-where $T$ is the temperature in Kelvin.
-
-If you know the ancient temperature -- which you can estimate from oxygen isotope ratios in the same goethite samples -- then you can back-calculate the atmospheric CO$_2$ concentration at the time the goethite formed. The mineral becomes a recording device, a chemical memory of the atmosphere preserved in rust.
-
-This is relevant to the water story because it illustrates a principle that recurs throughout this book: the same geochemical processes that operate in modern aquifers and soils -- mineral formation, isotope fractionation, microbially mediated redox reactions -- also operated in the deep past. The tools we build to understand modern water quality are, with appropriate modifications, the same tools we use to reconstruct Earth's atmospheric history. The science is one science, applied at different timescales.
-
-## The Devonian puzzle, revisited
-
-With these tools in hand, we can return to the Devonian CO$_2$ puzzle and see it more completely.
-
-Retallack's insight about vascular plants was a piece of the story: enhanced weathering drawing down CO$_2$. But the goethite proxy gives us actual numbers -- estimates of how much CO$_2$ was in the atmosphere at different points in Earth's history. And the box model thinking we introduced for atmospheric chemistry gives us the framework to ask: given measured sources and sinks, does the budget close?
-
-The answer, as with most interesting questions in Earth science, is "almost." The long-term carbon cycle involves sources and sinks that are difficult to measure independently -- volcanic degassing, metamorphic release, organic carbon burial, silicate weathering. Each has its own timescale, its own dependence on temperature and biology, its own spatial heterogeneity. The box model gives us the scaffolding. The RTM gives us the spatial resolution. The isotope proxies give us the calibration points. And the microbiology -- the organisms that mediate weathering, that decompose organic matter, that produce and consume methane -- gives us the mechanism.
-
-No single approach is sufficient. But taken together, they form a coherent picture: the atmosphere is a managed system, managed not by intent but by the coupled operation of physical, chemical, and biological processes that have been running for billions of years.
-
 ## The water-energy-carbon nexus
 
 This is where the chapter's threads converge.
 
 Water quality is not a standalone problem. It is entangled with energy (because energy extraction contaminates water and water treatment requires energy), with carbon (because organic carbon is both the contaminant in many water systems and the electron donor that drives microbial remediation), and with climate (because changing precipitation patterns alter both the delivery of contaminants and the capacity of natural systems to process them).
 
-The atmospheric budgets we reviewed -- CO$_2$, methane, nitrous oxide -- are all connected to water. Wetlands are methane sources. Agricultural runoff is a nitrous oxide source. The ocean is the largest CO$_2$ sink. And all of these fluxes are mediated, at the molecular level, by microbial metabolism operating on the same thermodynamic and kinetic principles we have been developing throughout this book.
+The major greenhouse gases — CO$_2$, methane, nitrous oxide — are all connected to water through microbial metabolism. Wetlands are methane sources. Agricultural runoff is a nitrous oxide source. The ocean is the largest CO$_2$ sink. And all of these fluxes are mediated, at the molecular level, by microbial metabolism operating on the same thermodynamic and kinetic principles we have been developing throughout this book.
 
 An RTM for a contaminated aquifer and a global carbon cycle model are not different kinds of science. They are the same science at different scales. The conservation equation is the same. The rate expressions are conceptually the same (though parameterized differently). The challenge of coupling fast and slow processes is the same. The role of biology as the catalyst that makes thermodynamically favorable reactions actually happen -- the same.
 
@@ -232,7 +118,7 @@ Since then, we have traveled from the quantum-mechanical basis of redox reaction
 
 The story has a single through-line: **life is a way of harvesting chemical gradients, and the harvesting reshapes the gradients, which reshapes the opportunities for life.**
 
-That feedback loop has been running for at least 3.8 billion years. It oxygenated the atmosphere. It drew down CO$_2$ when vascular plants enhanced weathering and drew it back up through degassing and organic matter oxidation. It created the redox structure of sediments and soils. It continues to operate, right now, in every aquifer, every ocean margin, every wetland, every wastewater treatment plant.
+That feedback loop has been running for at least 3.8 billion years. It oxygenated the atmosphere. It drew down CO$_2$ through weathering and biological sequestration, and released it through degassing and organic matter oxidation. It created the redox structure of sediments and soils. It continues to operate, right now, in every aquifer, every ocean margin, every wetland, every wastewater treatment plant.
 
 The 4.5-billion-year story we have told is not just history. It is the operating manual for the planet we live on.
 
@@ -246,23 +132,13 @@ The jar of mud is still sitting on the shelf. It is still confessing. The questi
 
 - Degradation of water quality is among the most pervasive global threats to human health and prosperity, affecting both developing nations (China's groundwater crisis) and wealthy ones (Canada's complacency about contamination).
 - The same microbial processes that shaped Earth's atmosphere and sediment chemistry over billions of years are the processes that can clean contaminated water -- if we understand them well enough.
-- The long carbon cycle (plant-enhanced weathering, organic matter burial, degassing feedbacks) and the short-term atmospheric budget (source-sink balances for CO$_2$, CH$_4$, N$_2$O) are both governed by the principles developed throughout this book: thermodynamics, kinetics, transport, and microbial metabolism.
+- The greenhouse gases that drive climate change — CO$_2$, CH$_4$, N$_2$O — are all cycled by the same microbial processes that govern water quality. Water, carbon, and climate are coupled through shared biology.
 - Reaction-transport models bridge the gap between mechanistic understanding and system-level prediction, but require better integration of microbial ecology and organic matter chemistry to fulfill their potential.
 - The partial equilibrium approach -- treating fast aqueous reactions as algebraic constraints while solving slow mineral reactions kinetically -- is a practical computational strategy with deep physical justification.
-
-[^retallack1997]: G. J. Retallack, "Early Forest Soils and Their Role in Devonian Global Change," *Science* (1997). [@Retallack:1997fi]
-
-[^watson1992]: R. T. Watson et al., "Greenhouse Gases: Sources and Sinks," in *Climate Change 1992: The Supplementary Report to the IPCC Scientific Assessment* (1992). [@Watson:1992ty]
 
 [^arndt2013]: S. Arndt et al., "Quantifying the Degradation of Organic Matter in Marine Sediments: A Review and Synthesis," *Earth-Science Reviews* (2013). [@Arndt2013]
 
 [^leal2015]: A. M. M. Leal, M. J. Blunt, and T. C. LaForce, "A Chemical Kinetics Algorithm for Geochemical Modelling," *Applied Geochemistry* (2015). [@Leal2015]
-
-[^yapp1987]: C. J. Yapp, "Oxygen and Hydrogen Isotope Variations among Goethites and the Determination of Paleotemperatures," *Geochimica et Cosmochimica Acta* (1987). [@Yapp:1987cv]
-
-[^yapp1992]: C. J. Yapp and H. Poths, "Ancient Atmospheric CO$_2$ Pressures Inferred from Natural Goethites," *Nature* (1992). [@Yapp:1992ca]
-
-[^yapp1996eh]: C. J. Yapp, "The Abundance of Fe(CO$_3$)OH in Goethite and a Possible Constraint on Minimum Atmospheric Oxygen Partial Pressures in the Phanerozoic," *Geochimica et Cosmochimica Acta* (1996). [@Yapp:1996eh]
 
 [^bocaniov2023]: S. A. Bocaniov, D. Scavia, and P. Van Cappellen, "Long-Term Phosphorus Mass-Balance of Lake Erie (Canada-USA) Reveals a Major Contribution of In-Lake Phosphorus Loading," *Ecological Informatics* (2023). [@Bocaniov2023]
 
@@ -281,14 +157,6 @@ The jar of mud is still sitting on the shelf. It is still confessing. The questi
 [^canada_water]: Canada's vast water resources are unevenly distributed -- much of the accessible fresh water is in the north, while most population and agricultural demand is in the south. Climate change is altering both availability and quality across the country.
 
 [^slomp2004_detail]: Caroline P. Slomp and Philippe Van Cappellen, "Nutrient inputs to the coastal ocean through submarine groundwater discharge: Controls and potential impact," *Journal of Hydrology* 295 (2004): 64--86. Submarine groundwater discharge is now recognized as a major, previously underappreciated pathway for delivering nutrients and contaminants to coastal waters. [@Slomp2004]
-
-[^retallack1997_devonian]: The Devonian emergence of forests with deep roots fundamentally altered the terrestrial carbon cycle and weathering regime. Gregory J. Retallack, "Early Forest Soils and Their Role in Devonian Global Change," *Science* 276 (1997): 583--585. [@Retallack:1997fi]
-
-[^berner1983_carboniferous]: Robert A. Berner, Antonio C. Lasaga, and Robert M. Garrels, "The Carbonate-Silicate Geochemical Cycle and Its Effect on Atmospheric Carbon Dioxide over the Past 100 Million Years," *American Journal of Science* 283 (1983): 641--683. [@Berner1983]
-
-[^montreal_protocol]: The Montreal Protocol on Substances that Deplete the Ozone Layer (1987) demonstrated that international cooperation can successfully address global atmospheric chemistry problems when the science is clear and the economic alternatives are viable.
-
-[^montreal_success]: Recovery of the stratospheric ozone layer is now well-documented, with the Antarctic ozone hole projected to close by mid-century -- a rare success story in global environmental management.
 
 [^vancappellen1996_detail]: Philippe Van Cappellen and Yifeng Wang, "Cycling of iron and manganese in surface sediments: A general theory for the coupled transport and reaction of carbon, oxygen, nitrogen, sulfur, iron, and manganese," *American Journal of Science* 296 (1996): 197--243. This paper established the template for mechanistic reaction-transport modeling of early diagenesis. [@VanCappellen1996]
 
