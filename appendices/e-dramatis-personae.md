@@ -1,4 +1,4 @@
-# Appendix E: Dramatis Personae
+# Dramatis Personae
 
 A field guide to the organisms that appear in this book.
 

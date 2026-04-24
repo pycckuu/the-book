@@ -1,12 +1,12 @@
 ---
-title: "Appendix C — Reaction Gallery"
+title: "Reaction Gallery"
 ---
 
 This appendix collects the key biogeochemical reactions referenced throughout the book. Reactions are organized by the redox ladder -- from the most energetically favorable electron acceptors to the least -- followed by chemolithotrophic metabolisms, photosynthesis, and abiotic reference reactions. Standard-state values are reported at 25°C and 1 atm. Most entries use $\Delta G^\circ$; where the main text uses the biochemical standard state at pH 7, values are written as $\Delta G^{\circ\prime}$. Under environmental conditions, actual $\Delta G$ values differ according to $\Delta G = \Delta G^\circ + RT \ln Q$ (Chapter 1). The values here are representative standard-state benchmarks drawn from classic biochemical and geochemical thermodynamic sources; exact numbers vary with pH, speciation, and reaction convention [@Thauer1977; @Stumm1995; @Bethke2011].
 
 The organic matter in heterotrophic reactions is represented as CH$_2$O (formaldehyde), the simplest reduced carbon compound. Real organic matter has variable composition and oxidation state; the NOSC framework (Appendix A) provides a way to estimate energy content for arbitrary organic molecules.
 
-## C.1 Aerobic Respiration
+## Aerobic Respiration
 
 The most energetically favorable heterotrophic metabolism. Dominates wherever oxygen is available.
 
@@ -18,7 +18,7 @@ $\Delta G^\circ = -475$ kJ/mol
 
 Yields roughly an order of magnitude more ATP per glucose molecule than anaerobic pathways (Chapter 5). In sediments, aerobic respiration consumes oxygen within the top millimeters to centimeters, creating the anoxic zone below (Chapter 8).
 
-## C.2 Denitrification
+## Denitrification
 
 Nitrate as terminal electron acceptor. First anaerobic metabolism in the redox sequence.
 
@@ -30,7 +30,7 @@ $\Delta G^\circ = -453$ kJ/mol (per mol CH$_2$O)
 
 Produces dinitrogen gas (N$_2$), removing bioavailable nitrogen from the system. Environmentally significant in groundwater remediation and wastewater treatment (Chapter 10).
 
-## C.3 Manganese Reduction
+## Manganese Reduction
 
 Manganese(IV) oxides as terminal electron acceptor.
 
@@ -42,7 +42,7 @@ $\Delta G^\circ = -349$ kJ/mol
 
 Often quantitatively minor in marine sediments because MnO$_2$ concentrations are low, but important in specific environments (Chapter 8, Chapter 9).
 
-## C.4 Iron Reduction
+## Iron Reduction
 
 Ferric iron as terminal electron acceptor.
 
@@ -54,7 +54,7 @@ $\Delta G^\circ = -114$ kJ/mol
 
 Iron reducers yield 4--5 times more energy per electron than methanogens, giving them a competitive advantage where ferric iron is available (Chapter 9) [@Bethke2011]. Where ferric iron is supplied as mineral surfaces or colloids, the kinetics of cell-mineral attachment can become part of the rate limitation [@Bonneville2006]. The released Fe$^{2+}$ can precipitate as pyrite (FeS$_2$) or siderite (FeCO$_3$), linking the iron and sulfur cycles.
 
-## C.5 Sulfate Reduction
+## Sulfate Reduction
 
 Sulfate as terminal electron acceptor.
 
@@ -76,7 +76,7 @@ $\Delta G^{\circ\prime} = -152$ kJ/mol
 
 Sulfate reduction is ancient, though how widespread it was before the Great Oxidation Event — when ocean sulfate concentrations were far lower — remains debated. In modern marine sediments, where sulfate is abundant (~28 mM in seawater), sulfate reducers are major players. The sulfate-methane transition zone, where sulfate reduction meets methanogenesis, is one of the most studied features in porewater geochemistry (Chapter 8).
 
-## C.6 Methanogenesis
+## Methanogenesis
 
 Carbon dioxide as terminal electron acceptor -- the bottom of the redox ladder. Methanogenesis is not heterotrophic respiration but a distinct anaerobic metabolism performed exclusively by archaea.
 
@@ -98,7 +98,7 @@ $\Delta G^\circ = -36$ kJ/mol
 
 Methanogens operate on the thinnest energy margins of any major anaerobic metabolism. They lose the competition for hydrogen and acetate wherever sulfate is available, which is why methanogenesis dominates only below the sulfate depletion zone (Chapter 9).
 
-## C.7 Anaerobic Methane Oxidation (AOM)
+## Anaerobic Methane Oxidation (AOM)
 
 Sulfate-driven anaerobic methane oxidation, carried out by consortia of anaerobic methanotrophic archaea and sulfate-reducing bacteria (Chapter 8):
 
@@ -110,7 +110,7 @@ $\Delta G^\circ = -17$ kJ/mol
 
 Among the least energetically favorable reactions in the microbial repertoire. AOM consumes an estimated 90% of the methane produced in marine sediments before it can reach the water column, making it one of the most important biological filters on Earth's greenhouse gas budget [@Knittel2009].
 
-## C.8 Nitrification
+## Nitrification
 
 A two-step chemolithotrophic process: ammonia oxidation followed by nitrite oxidation.
 
@@ -132,7 +132,7 @@ $\Delta G^\circ = -76$ kJ/mol
 
 Nitrification links the reduced and oxidized ends of the nitrogen cycle. It is strictly aerobic, which is why nitrate production ceases at the oxygen boundary in sediments.
 
-## C.9 Anammox
+## Anammox
 
 Anaerobic ammonium oxidation -- ammonium oxidized with nitrite as the electron acceptor.
 
@@ -144,7 +144,7 @@ $\Delta G^\circ = -358$ kJ/mol
 
 Discovered in the late 1990s, anammox removes bioavailable nitrogen without requiring oxygen [@Strous1999]. It is now recognized as a major route of fixed-nitrogen loss in both oxygen-minimum zones and engineered wastewater systems.
 
-## C.10 Iron Oxidation
+## Iron Oxidation
 
 Chemolithotrophic oxidation of ferrous iron.
 
@@ -156,7 +156,7 @@ $\Delta G^\circ = -44$ kJ/mol (per mol Fe, at pH 7)
 
 *Ferroplasma acidiphilum* (Appendix E) illustrates a modern iron-dependent metabolism. In acidic environments the abiotic rate is slow enough to leave iron-oxidizing microorganisms a kinetic window [@Golyshina2000].
 
-## C.11 Sulfide Oxidation
+## Sulfide Oxidation
 
 Chemolithotrophic oxidation of hydrogen sulfide.
 
@@ -168,7 +168,7 @@ $\Delta G^\circ = -798$ kJ/mol
 
 Energetically generous. Sulfide-oxidizing bacteria thrive at redox interfaces where H$_2$S from below meets O$_2$ from above -- the same interface that defines the boundary between the sulfate and oxygen zones in sediment profiles.
 
-## C.12 Photosynthesis
+## Photosynthesis
 
 ### Oxygenic photosynthesis
 
@@ -192,7 +192,7 @@ $$
 
 Preceded oxygenic photosynthesis by at least several hundred million years. No oxygen is produced; elemental sulfur is the waste product [@Blankenship2010].
 
-## C.13 Abiotic Reference Reactions
+## Abiotic Reference Reactions
 
 ### Silicate weathering
 
@@ -226,7 +226,7 @@ $$
 
 Uranium and thorium decay in crustal rocks splits water molecules, producing H$_2$ that sustains microbial communities kilometers below the surface -- independent of photosynthesis.
 
-## C.14 The Redox Ladder (Summary)
+## The Redox Ladder (Summary)
 
 The terminal electron acceptor sequence, ordered by decreasing energy yield per electron transferred from organic matter:
 

@@ -1,10 +1,10 @@
 ---
-title: "Appendix D --- Math Without Pain"
+title: "Math Without Pain"
 ---
 
 This appendix collects the quantum-mechanical derivations and detailed mathematical treatments that support the main text. Readers who want the full machinery will find it here; readers who skipped the Sidebars can return to these sections when curiosity strikes.
 
-## D.1 The Schrödinger equation: from waves to energy levels
+## The Schrödinger equation: from waves to energy levels
 
 Planck and Einstein showed that light carries energy in packets. But the discreteness runs deeper. Particles themselves behave as waves---a fact confirmed experimentally in the 1920s[^davisson1927] and formalized by the Schrödinger equation. Electrons confined to an atom cannot have arbitrary energies, for the same reason a guitar string cannot vibrate at arbitrary frequencies: the boundary conditions select only certain standing-wave patterns, and each pattern corresponds to a specific energy. From these discrete energy levels come all bond energies, activation barriers, and spectroscopic signatures that appear throughout this book.
 
@@ -62,7 +62,7 @@ $$
 
 The probability interpretation matters too. $|\Psi|^2$ gives the probability of finding the particle at a given location. Before measurement, the electron does not have a definite position; it has a probability distribution. As physicists learned to say: in the absence of a measurement, there is no single trajectory---only a spread of possibilities weighted by $|\Psi|^2$.
 
-## D.2 How molecules store energy: the hierarchy
+## How molecules store energy: the hierarchy
 
 Molecules store energy in four quantized modes, forming a hierarchy by the size of their energy gaps:
 

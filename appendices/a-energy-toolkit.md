@@ -1,12 +1,12 @@
 ---
-title: "Appendix A --- Energy Toolkit"
+title: "Energy Toolkit"
 ---
 
 This appendix collects two sets of tools referenced throughout the book. Sections A.1--A.5 cover enzyme kinetics: the graphical methods, inhibition types, and environmental dependencies that extend the Michaelis-Menten framework introduced in Chapter 4. Sections A.6--A.7 cover geochemical estimation tools: methods for assessing the energy content of organic matter and detecting ancient metabolism in the rock record.
 
-# Enzyme Kinetics and Regulation
+**Enzyme Kinetics and Regulation**
 
-## A.1 Linearizing the Michaelis-Menten curve: Lineweaver-Burk
+## Linearizing the Michaelis-Menten curve: Lineweaver-Burk
 
 The Michaelis-Menten equation is a hyperbola, which can be awkward to fit by eye. In 1934, Hans Lineweaver and Dean Burk showed that taking the reciprocal of both sides converts it to a straight line [@Lineweaver1934]:
 
@@ -22,13 +22,13 @@ Plot $1/V$ against $1/[\text{S}]$ and you get a line with:
 
 This is the Lineweaver-Burk (or double-reciprocal) plot. It was historically important because it allowed $K_m$ and $V_{\max}$ to be extracted from experimental data using a ruler and graph paper. Modern curve-fitting software has made the graphical method less necessary, but the plot remains a powerful diagnostic tool because different types of inhibition produce visually distinct patterns [@Nelson2017].
 
-## A.2 Competitive inhibition
+## Competitive inhibition
 
 A competitive inhibitor is a molecule that resembles the substrate closely enough to bind the active site but cannot be catalyzed. While the inhibitor occupies the active site, the substrate is locked out. The effect: the enzyme appears to have a higher $K_m$ (it needs more substrate to reach half-saturation) but $V_{\max}$ is unchanged -- if you add enough substrate, you can always outcompete the inhibitor [@Nelson2017].
 
 On a Lineweaver-Burk plot, competitive inhibition changes the slope and x-intercept but leaves the y-intercept ($1/V_{\max}$) unchanged. The lines pivot around the y-axis.
 
-## A.3 Non-competitive inhibition
+## Non-competitive inhibition
 
 A non-competitive inhibitor binds at a site other than the active site (an allosteric site), distorting the enzyme's shape so that catalysis is impaired whether or not substrate is bound. The effect: $V_{\max}$ decreases (fewer functional enzyme molecules) but $K_m$ is unchanged.
 
@@ -48,11 +48,11 @@ The second factor is a simple scaling term: it multiplies the uninhibited rate b
 
 On a Lineweaver-Burk plot, non-competitive inhibition changes the slope and y-intercept but leaves the x-intercept ($-1/K_m$) unchanged. The lines pivot around the x-axis [@Nelson2017].
 
-## A.4 Irreversible inhibition
+## Irreversible inhibition
 
 Some inhibitors form covalent bonds with the enzyme, permanently inactivating it. These are not governed by equilibrium binding constants; the effect is time-dependent and cumulative. Many toxins and pharmaceutical drugs work this way -- aspirin, for instance, irreversibly acetylates cyclooxygenase [@Nelson2017].
 
-## A.5 pH and temperature optima
+## pH and temperature optima
 
 Every enzyme has a pH and temperature at which it works best. Deviate too far in either direction and the rate drops, often sharply.
 
@@ -61,9 +61,9 @@ Every enzyme has a pH and temperature at which it works best. Deviate too far in
 
 These optima are not arbitrary. They are the result of evolutionary tuning to the conditions the organism actually encounters [@Nelson2017]. Reconstructed ancestral protein sequences suggest thermophilic origins (optimum temperatures of ~60--70°C), with mesophilic optima (~35--37°C) appearing later -- though the inference depends on the reconstruction method and remains debated [@Gaucher2008].
 
-# Geochemical Estimation Tools
+**Geochemical Estimation Tools**
 
-## A.6 The NOSC: a simple proxy for energy content
+## The NOSC: a simple proxy for energy content
 
 In 2011, Douglas LaRowe and Philippe Van Cappellen showed that the energetic content of organic compounds scales, to a useful approximation, with a single number: the Nominal Oxidation State of Carbon (NOSC) [@LaRowe2011].
 
@@ -93,7 +93,7 @@ The NOSC spectrum runs from fully reduced (methane, CH$_4$, NOSC = $-4$) to full
 
 As Arndt et al. noted: "NOSC has the advantage that it does not require structural information to estimate energetic potential of complex natural organic matter" [@Arndt2013]. This makes it particularly useful for the complex, heterogeneous mixtures of natural organic matter found in sediments and soils, where detailed structural characterization is often impossible.
 
-## A.7 Isotope fractionation as a biosignature
+## Isotope fractionation as a biosignature
 
 Isotope ratios are among the most durable biosignatures available to geologists. The logic is simple:
 

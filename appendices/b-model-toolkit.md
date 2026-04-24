@@ -1,10 +1,10 @@
 ---
-title: "Appendix B — Model Toolkit"
+title: "Model Toolkit"
 ---
 
 This appendix collects the mathematical machinery behind the reaction--transport models discussed in Chapters 8 and 9. Readers who skipped the Sidebar callouts can find the full framework here; readers who followed every sidebar can use this as a concise reference.
 
-## B.1 The diagenetic equation
+## The diagenetic equation
 
 The conservation (balance) equation for any species in one-dimensional sediment is Berner's diagenetic equation [@Berner1980Early]:
 
@@ -40,7 +40,7 @@ $$
 
 where $w$ is the burial velocity of solids and $D/Dt$ is the material derivative following the solid phase.
 
-## B.2 Transport terms
+## Transport terms
 
 ### Advection
 
@@ -70,7 +70,7 @@ $$
 
 where $k$ is permeability, $\mu$ is dynamic viscosity, and $p'$ is the reduced pressure [@Boudreau1997Diagenetic].
 
-## B.3 Reaction rate expressions
+## Reaction rate expressions
 
 ### Respiration (dual-Monod)
 
@@ -106,7 +106,7 @@ $$
 
 Note: The Arrhenius equation is semi-empirical, derived for elementary reactions. Apparent $E_a$ values are generally calculated from rate measurements [@Arndt2013; @Leal2015].
 
-## B.4 Growth, yield, and decay
+## Growth, yield, and decay
 
 Standard biomass model [@Thullner2007; @Dale2010]:
 
@@ -128,7 +128,7 @@ $$
 r_X = \mu_{\max}\,\frac{S}{K + S} \cdot X
 $$
 
-## B.5 Mineral dissolution/precipitation rate laws
+## Mineral dissolution/precipitation rate laws
 
 Mineral reactions are commonly expressed using transition-state theory (TST) rate laws [@Leal2015]:
 
@@ -144,7 +144,7 @@ $$
 
 When aqueous speciation reactions are much faster than mineral reactions, modelers sometimes replace the fast aqueous reactions with algebraic equilibrium constraints (the partial-equilibrium assumption), solving only the slower mineral kinetics as differential equations.
 
-## B.6 Software and tools
+## Software and tools
 
 Several geochemical modeling codes implement the frameworks described above:
 

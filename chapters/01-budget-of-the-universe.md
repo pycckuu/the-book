@@ -4,11 +4,9 @@ title: "The Budget of the Universe"
 
 2.8 kilometers below the surface of South Africa, in rock sealed off from sunlight for perhaps twenty million years, a bacterium called *Candidatus* Desulforudis audaxviator may divide as rarely as once per century. Its energy source is hydrogen gas, produced atom by atom as uranium in the surrounding rock decays. Its electron acceptor is sulfate, trapped in mineral inclusions since the Archean. The reaction releases just enough free energy to synthesize a handful of ATP molecules -- just barely enough to copy a genome, repair a membrane, and divide.[^lin2006_deep]
 
-This organism matters because it strips the problem to its minimum. No sunlight. No plants. No food web. Just a vanishingly small chemical gradient and a cell living on it. If you want to understand how microbes built the world, you can start here, with a question so narrow it becomes universal: how little energy can life survive on?
+This organism matters because it strips the problem to its minimum: no sunlight, no plants, no food web, only a vanishingly small chemical gradient and a cell living on it. If you want to understand how microbes built the world, you can start here, with a question so narrow it becomes universal: how little energy can life survive on?
 
-The question does require physics, but not the full lecture course. You only need three ideas.
-
-First: a reaction must actually pay. It must release usable free energy under the conditions where the cell lives, not under imaginary textbook conditions. Second: a favorable reaction can still be too slow to matter unless an enzyme lowers the barrier. Third: the local environment -- the concentrations of reactants and products, the temperature, the pH -- changes the arithmetic continuously. The same metabolism that works in one pore can fail in the next.
+The question does require physics, but not the full lecture course. You only need three ideas: a reaction must actually pay under the conditions where the cell lives, not under imaginary textbook defaults; a favorable reaction can still be too slow to matter unless an enzyme lowers the barrier; and the local environment -- the concentrations of reactants and products, the temperature, the pH -- changes the arithmetic continuously, so that the same metabolism that works in one pore can fail in the next.
 
 Erwin Schrödinger saw the problem early.[^schrodinger1944][^schrodinger_lectures] In 1943, he asked what physical rules a living system must obey simply to persist. His answer was austere and still correct: life does not evade thermodynamics. It survives by obeying thermodynamics in a way that keeps its own internal order from collapsing. A cell stays organized only by spending energy and exporting disorder to the surroundings. The accounting always balances.
 
@@ -16,7 +14,7 @@ This chapter keeps only the pieces of that accounting we will actually use in th
 
 ## The budget: Gibbs free energy
 
-In a marine sediment, a sulfate reducer and a methanogen may both have access to the same pool of dissolved hydrogen -- but only the organism whose reaction yields usable energy under local conditions gets to grow. That is the distinction that decides the winner: the difference between energy that is *released* and energy that is *available to do work*. Not all released energy is useful. Some of it dissipates as disordered heat. Some of it goes into rearranging the surroundings in ways you cannot harness. To understand what a reaction can actually accomplish -- whether it can build a molecule, pump an ion across a membrane, or power a flagellar motor -- you need a sharper accounting tool.
+In a marine sediment, a sulfate reducer and a methanogen may both have access to the same pool of dissolved hydrogen -- but only the organism whose reaction yields usable energy under local conditions gets to grow. That is the distinction that decides the winner: the difference between energy that is *released* and energy that is *available to do work*. Not all released energy is useful: some of it dissipates as disordered heat, and some of it goes into rearranging the surroundings in ways you cannot harness. To understand what a reaction can actually accomplish -- whether it can build a molecule, pump an ion across a membrane, or power a flagellar motor -- you need a sharper accounting tool.
 
 Josiah Willard Gibbs built that tool in the 1870s.[^gibbs1873]
 
@@ -26,9 +24,7 @@ $$
 G = H - TS
 $$
 
-Read it as a budget. $H$ is enthalpy---roughly, the total energy content of the system (heat plus pressure-volume work). $T$ is temperature. $S$ is entropy---a measure of disorder, or more precisely, the number of microscopic arrangements consistent with the macroscopic state. The product $TS$ is the energy that has been "claimed" by disorder: energy that is spread out so evenly it can no longer drive anything in a particular direction.
-
-$G$, the Gibbs free energy, is what remains. It is what you can spend.
+Read it as a budget. $H$ is enthalpy---roughly, the total energy content of the system (heat plus pressure-volume work). $T$ is temperature. $S$ is entropy---a measure of disorder, or more precisely, the number of microscopic arrangements consistent with the macroscopic state. The product $TS$ is the energy that has been "claimed" by disorder: energy that is spread out so evenly it can no longer drive anything in a particular direction. $G$, the Gibbs free energy, is what remains, and it is what you can spend.
 
 When a reaction occurs, the change in Gibbs free energy tells you the direction:
 
@@ -38,11 +34,11 @@ When a reaction occurs, the change in Gibbs free energy tells you the direction:
 
 Think of enthalpy as gross income and $TS$ as the tax the universe collects; $G$ is what remains to spend on maintenance, growth, or reproduction.
 
-Microbes do not optimize. They cover costs. A bacterium in a sediment pore does not search for the reaction with the largest $\Delta G$; it runs whatever reaction its existing enzymes can catalyze, provided the return exceeds the minimum cost of staying alive. I borrow Simon's term for a narrower claim: microbial communities often settle into states that cover maintenance costs under local constraints rather than states that maximize any obvious quantity.[^simon1956] Microbes do not deliberate. The pattern still fits the distinction. Redox zones overlap instead of forming sharp boundaries, and supposedly outcompeted metabolisms persist in the "wrong" zone. Optimization models predict sharp exclusion. The satisficing lens predicts the fuzzy coexistence and apparent inefficiency that field measurements keep showing. The physics sets the menu. The microbes use what they can afford, not what looks cheapest on paper.
+Microbes do not optimize; they cover costs. A bacterium in a sediment pore does not search for the reaction with the largest $\Delta G$ but runs whatever reaction its existing enzymes can catalyze, provided the return exceeds the minimum cost of staying alive. I borrow Simon's term for a narrower claim: microbial communities often settle into states that cover maintenance costs under local constraints rather than states that maximize any obvious quantity.[^simon1956] They do not deliberate, but the pattern still fits the distinction: redox zones overlap instead of forming sharp boundaries, and supposedly outcompeted metabolisms persist in the "wrong" zone. Optimization models predict sharp exclusion, whereas the satisficing lens predicts the fuzzy coexistence and apparent inefficiency that field measurements keep showing. The physics sets the menu, and the microbes use what they can afford rather than what looks cheapest on paper.
 
 ### Real conditions, not standard ones
 
-The standard Gibbs energy $\Delta G^\circ$ is a reference point, measured under a specific set of conditions (typically 1 mol/L concentrations, 1 atm pressure, 25$^\circ$C). Real environments are nothing like this. A bacterium in a sediment pore faces concentrations that are orders of magnitude different from standard conditions. To know the actual energy available, you need the master equation:
+The standard Gibbs energy $\Delta G^\circ$ is a reference point, measured under a specific set of conditions (typically 1 mol/L concentrations, 1 atm pressure, 25$^\circ$C). Real environments are nothing like this: a bacterium in a sediment pore faces concentrations that are orders of magnitude different from standard conditions, so to know the actual energy available you need the master equation:
 
 $$
 \Delta G = \Delta G^\circ + RT \ln Q
@@ -96,23 +92,23 @@ In any sediment core, the reactivity of organic carbon drops with depth---a patt
 
 ## Why favorable reactions still stall
 
-A negative $\Delta G$ is permission, not speed. It tells you that a reaction can proceed. It does not tell you whether the reaction will proceed fast enough to matter for a cell.
+A negative $\Delta G$ is permission, not speed: it tells you that a reaction can proceed, not whether it will proceed fast enough to matter for a cell.
 
 The second half of the microbial energy problem appears here. A sulfate reducer can, in principle, earn a living by coupling hydrogen oxidation to sulfate reduction. But the reactants still have to cross an activation barrier before any useful chemistry occurs. Without a catalyst, that barrier can make a favorable reaction effectively inert on biological timescales.
 
-Enzymes solve this problem without rewriting the thermodynamics. They do not make an unfavorable reaction favorable. They do not change the final balance in the Gibbs ledger. They change the path: stabilizing intermediate states, lowering the activation cost, and making a reaction that would otherwise be geologically slow run on the timescale of metabolism.
+Enzymes solve this problem without rewriting the thermodynamics. They do not make an unfavorable reaction favorable or change the final balance in the Gibbs ledger; they change the path, stabilizing intermediate states, lowering the activation cost, and making a reaction that would otherwise be geologically slow run on the timescale of metabolism.
 
-The deeper reason molecules have specific bond energies, activation barriers, and wavelength thresholds is quantum-mechanical, and the full argument belongs in Appendix D.[^atkins2010] For the purposes of this book, two facts are enough. Chemical bonds have definite energetic costs. And life survives only because enzymes turn thermodynamic permission into biological speed.
+The deeper reason molecules have specific bond energies, activation barriers, and wavelength thresholds is quantum-mechanical, and the full argument belongs in Appendix D.[^atkins2010] For the purposes of this book, two facts are enough: chemical bonds have definite energetic costs, and life survives only because enzymes turn thermodynamic permission into biological speed.
 
 ## The rules before the game
 
-Planck showed that energy comes in packets. Einstein showed that light carries these packets as particles. The wave nature of matter --- confirmed experimentally in the 1920s and formalized by the Schrödinger equation --- explains why atoms and molecules have discrete energy levels. From those energy levels come bond energies, activation barriers, and the electronic transitions that make photosynthesis and respiration possible.
+Planck showed that energy comes in packets,[^planck1901] Einstein that light carries these packets as particles,[^einstein1905] and the wave nature of matter --- confirmed experimentally in the 1920s and formalized by the Schrödinger equation --- explains why atoms and molecules have discrete energy levels. From those energy levels come bond energies, activation barriers, and the electronic transitions that make photosynthesis and respiration possible.
 
 Gibbs, working half a century before quantum mechanics, already had the thermodynamic framework: enthalpy minus the entropy term gives you the free energy. With the reaction quotient $Q$ adjusting for local conditions, you can calculate the energy available from any reaction in any environment.
 
-The rules they uncovered---quantized energy, Gibbs free energy, chemical equilibrium---are the same rules that govern every metabolic reaction in every living cell that has ever existed. They governed the first autocatalytic cycles in hydrothermal vents 4 billion years ago.[^martinrussell2003] They govern the sulfate-reducing bacteria 2.8 kilometers underground in a South African gold mine today.[^lin2006_deep] Evolution operates within the Second Law, not outside it. Natural selection can explore an enormous space of molecular strategies, but every strategy must close the Gibbs ledger: find a reaction with $\Delta G < 0$ under local conditions, harvest that energy, and export the resulting entropy.
+The rules they uncovered---quantized energy, Gibbs free energy, chemical equilibrium---are the same rules that govern every metabolic reaction in every living cell that has ever existed. They governed the first autocatalytic cycles in hydrothermal vents 4 billion years ago.[^martinrussell2003] They govern the sulfate-reducing bacteria 2.8 kilometers underground in a South African gold mine today.[^lin2006_deep] Evolution operates within the Second Law, not outside it: natural selection can explore an enormous space of molecular strategies, but every strategy must close the Gibbs ledger by finding a reaction with $\Delta G < 0$ under local conditions, harvesting that energy, and exporting the resulting entropy.
 
-*D. audaxviator*, 2.8 kilometers underground, obeys every rule in this chapter. So does every other organism we will meet. The rules were set before the first cell divided.
+*D. audaxviator*, 2.8 kilometers underground, obeys every rule in this chapter, and so does every other organism we will meet. The rules were set before the first cell divided.
 
 ## Takeaway
 
@@ -135,16 +131,6 @@ The rules they uncovered---quantized energy, Gibbs free energy, chemical equilib
 [^atkins2010]: Peter Atkins and Loretta Jones, *Chemical Principles: The Quest for Insight* (2010). [@Atkins2010]
 
 [^schrodinger_lectures]: The three lectures were delivered 5, 12, and 19 February 1943 at Trinity College Dublin. See Erwin Schrödinger, *What Is Life?* (Cambridge University Press, 1944), preface. [@Schrodinger1944]
-
-[^watsoncrick1953]: James D. Watson and Francis H. C. Crick, "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid," *Nature* 171 (1953): 737–738. [@WatsonCrick1953]
-
-[^codata2018]: Fundamental constants from Eite Tiesinga et al., "CODATA Recommended Values of the Fundamental Physical Constants: 2018," *Reviews of Modern Physics* 93 (2021): 025010. [@CODATA2018]
-
-[^blankenship_680]: 680 nm refers to the P680 reaction center of Photosystem II; chlorophyll *a* in solution absorbs maximally at ~664 nm. See Robert E. Blankenship, "Early Evolution of Photosynthesis," *Plant Physiology* 154 (2010): 434–438. [@Blankenship2010]
-
-[^cyano_timing_ch1]: Roger Buick, "When Did Oxygenic Photosynthesis Evolve?" *Philosophical Transactions of the Royal Society B* 363 (2008): 2731–2743. Review of the geochemical and phylogenetic evidence placing the origin of oxygenic photosynthesis before the Great Oxidation Event, plausibly in the late Archean. [@Buick2008]
-
-[^haynes_bonds]: Bond dissociation energies from William M. Haynes, ed., *CRC Handbook of Chemistry and Physics*, 93rd ed. (CRC Press, 2012). [@haynes2012crc]
 
 [^stumm_redox]: The oxidation-state framework for organic carbon is developed in Werner Stumm and James J. Morgan, *Aquatic Chemistry*, 3rd ed. (Wiley, 1996), ch. 8. [@stumm1996aquatic]
 
