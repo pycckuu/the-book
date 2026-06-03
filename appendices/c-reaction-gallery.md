@@ -52,7 +52,7 @@ $$
 
 $\Delta G^\circ = -114$ kJ/mol
 
-Iron reducers yield 4--5 times more energy per electron than methanogens, giving them a competitive advantage where ferric iron is available (Chapter 9) [@Bethke2011]. Where ferric iron is supplied as mineral surfaces or colloids, the kinetics of cell-mineral attachment can become part of the rate limitation [@Bonneville2006]. The released Fe$^{2+}$ can precipitate as pyrite (FeS$_2$) or siderite (FeCO$_3$), linking the iron and sulfur cycles.
+Iron reducers yield 4--5 times more energy per mole of electron donor than methanogens, giving them a competitive advantage where ferric iron is available (Chapter 9) [@Bethke2011]. Where ferric iron is supplied as mineral surfaces or colloids, the kinetics of cell-mineral attachment can become part of the rate limitation [@Bonneville2006]. The released Fe$^{2+}$ can precipitate as pyrite (FeS$_2$) or siderite (FeCO$_3$), linking the iron and sulfur cycles.
 
 ## Sulfate Reduction
 
@@ -228,7 +228,7 @@ Uranium and thorium decay in crustal rocks splits water molecules, producing H$_
 
 ## The Redox Ladder (Summary)
 
-The terminal electron acceptor sequence, ordered by decreasing energy yield per electron transferred from organic matter:
+The terminal electron acceptor sequence, ordered by decreasing energy yield per mole of CH$_2$O oxidized:
 
 | Electron Acceptor | Product | $\Delta G^\circ$ (kJ/mol CH$_2$O) | Chapter |
 |---|---|---|---|
@@ -238,5 +238,7 @@ The terminal electron acceptor sequence, ordered by decreasing energy yield per 
 | Fe(OH)$_3$ | Fe$^{2+}$ | $-114$ | 8, 9 |
 | SO$_4^{2-}$ | H$_2$S | $-77$ | 4, 8 |
 | CO$_2$ | CH$_4$ | $-36$ | 4, 8 |
+
+Values are per mole of CH$_2$O oxidized, except the methanogenesis entry, which is the acetoclastic figure (per mole acetate) listed above; hydrogenotrophic CO$_2$ reduction (CO$_2$ + 4H$_2$) yields $-131$ kJ/mol per reaction. The bottom rung is therefore approximate and not on the identical per-mol-CH$_2$O basis as the rows above it.
 
 This is the sequence that produces the layered porewater profiles in Chapter 8 and the predictable community structures in Chapter 9. It emerges wherever transport is limited and biology is present -- in sediments, in aquifers, and in contaminated groundwater (Chapter 10).

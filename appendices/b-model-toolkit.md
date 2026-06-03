@@ -153,7 +153,7 @@ Several geochemical modeling codes implement the frameworks described above:
 - **EQ6** (Wolery and Daveler, 1992)
 - **CHESS** (van der Lee and Windt, 2002)
 - **CrunchFlow** for multicomponent reactive transport in porous media [@Steefel2005]
-- **PFLOTRAN** for massively parallel subsurface flow and reactive transport [@Molins2025]
+- **PFLOTRAN** for massively parallel subsurface flow and reactive transport [@Hammond2014]
 
 Increasingly, modelers do not choose a single monolithic code and stay inside it forever. They couple solvers. **Alquimia v1.0** is one example: a generic interface designed to let multiphysics simulators talk to mature geochemical engines such as PFLOTRAN and CrunchFlow without rewriting the chemistry each time [@Molins2025].
 
