@@ -2,7 +2,7 @@
 title: "What Is Life?"
 ---
 
-In 1944, a physicist who had never cultured a bacterium or cored a sediment sat down in Dublin and asked a question that biologists had been circling for centuries: *What is life?*
+In 1943, a physicist who had never cultured a bacterium or cored a sediment sat down in Dublin and asked a question that biologists had been circling for centuries: *What is life?*
 
 Erwin Schrödinger's little book did not answer its own title. What it did was more lasting. It reframed the question in the language of physics -- order, entropy, free energy, information -- and insisted that the answer, whatever it turned out to be, must not violate the laws that govern everything else.[^schrodinger1944_ep]
 

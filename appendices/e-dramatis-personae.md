@@ -61,7 +61,7 @@ A field guide to the organisms that appear in this book.
 ***Candidatus* Carsonella ruddii**
 - **Habitat**: Specialized cells (bacteriocytes) inside psyllid insects
 - **Metabolism**: Amino acid biosynthesis for the host (cannot replicate independently)
-- **Claim to fame**: Possesses the smallest genome of any known cellular organism (160 kb) -- so reduced that some biologists question whether it is still a living organism or has become an organelle. Represents a late stage of symbiont-to-organelle evolution.
+- **Claim to fame**: Possesses one of the smallest genomes of any known cellular organism (160 kb -- the smallest known at its 2006 discovery, since surpassed by symbionts such as *Nasuia*) -- so reduced that some biologists question whether it is still a living organism or has become an organelle. Represents a late stage of symbiont-to-organelle evolution.
 - **Key citation**: Nakabachi et al. (2006), *Science* [@Nakabachi2006]
 - **Appears in**: Chapter 7
 
@@ -88,6 +88,6 @@ A field guide to the organisms that appear in this book.
 ***Elysia chlorotica***
 - **Habitat**: Tidal marshes and shallow coastal waters of eastern North America; feeds on algae
 - **Metabolism**: Steals functional chloroplasts from the alga *Vaucheria litorea* and retains them in its own digestive cells -- a temporary, non-heritable photosynthesis (kleptoplasty)
-- **Claim to fame**: A living thought experiment for how chloroplast acquisition might have begun. Each generation must acquire chloroplasts anew by feeding. The chloroplasts likely persist on their own long-lived proteins and mRNAs rather than on transferred genes.
+- **Claim to fame**: A living thought experiment for how chloroplast acquisition might have begun. Each generation must acquire chloroplasts anew by feeding. The chloroplasts likely persist on their own long-lived proteins and mRNAs; genome-scale analyses have not confirmed functional gene transfer to the slug (see Chapter 7).
 - **Key citation**: Rumpho et al. (2008) [@Rumpho2008]
 - **Appears in**: Chapter 7

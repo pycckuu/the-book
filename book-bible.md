@@ -86,7 +86,7 @@ Prefer consistency over completeness.
 - Concept: the biological/chemical rule
 - Model: the minimal equation(s) that capture it (Sidebar)
 - Data: what you’d measure to test it
-- Take‑home summary (5 bullets)
+- Take‑home summary (5–8 bullets)
 
 ## Visual program (simple but frequent)
 - Line‑drawn figures (zones, ladders, profiles, flux cartoons)

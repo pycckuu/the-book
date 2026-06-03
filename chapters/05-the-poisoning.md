@@ -236,21 +236,14 @@ You can still see that boundary. In every stratified lake, every oxygen-minimum 
 
 Modern Earth is not an oxygen planet that happens to contain some anaerobic pockets. It is a planet where two worlds -- one oxidized, one reduced -- have coexisted since the Great Oxidation Event, separated by gradients that microbes both create and exploit. The porewater profiles that geochemists measure in sediments today are the living record of that 2.4-billion-year-old partition.
 
-## The ledger
+## Takeaway
 
-The cyanobacteria cracked water, liberating electrons that had been locked in the most abundant molecule on the planet's surface. In doing so, they produced a toxic waste product that drove the majority of existing life into exile.
-
-The same molecular machinery that produced the poison was then repurposed -- by the cyanobacteria themselves, or by their neighbors -- into a mechanism for *consuming* it. Respiration turned the poison into the most efficient electron acceptor biology had ever used.
-
-The enzyme that fixes nitrogen -- ancient, essential, irreplaceable -- could not tolerate the new atmosphere. So organisms compartmentalized: some in space (heterocysts), some in time (the day-night switch of *Synechococcus*). Later, plants built shelters for nitrogen-fixing bacteria in their roots, recreating pockets of the pre-oxygen world inside their own tissues.
-
-The cyanobacteria themselves were eventually captured, domesticated, and converted into the chloroplasts of every photosynthetic eukaryote on Earth. Their descendants now live inside plant cells, still splitting water, still producing oxygen, still running the same ancient machinery -- but housed, fed, and protected by the organisms that evolved in the world they created.
-
-And the energy surplus that oxygen provided -- more than an order of magnitude more ATP per molecule of food -- made possible the construction of large, complex cells, and eventually large, complex organisms. Every animal alive today runs on aerobic respiration. Every breath you take is a transaction with cyanobacterial legacy.
-
-The Great Oxidation Event killed much of what lived and confined the survivors to anoxic refugia. Over billions of years, the new redox landscape enabled cells to extract far more energy from their food -- enough to build complexity.
-
-The molecule that was once the deadliest waste product became the most efficient electron acceptor in biology. And the cyanobacteria that produced it became, as chloroplasts, the photosynthetic engines inside every plant cell on Earth.
+- Cyanobacteria learned to split water, freeing electrons from the most abundant molecule on the planet's surface -- and releasing oxygen, a waste product toxic to nearly all existing life, which drove the anaerobic majority into exile.
+- The same electron-transport machinery was repurposed -- by the cyanobacteria or their neighbors -- into aerobic respiration, turning the poison into the most efficient electron acceptor in biology.
+- Nitrogenase cannot tolerate oxygen, so organisms compartmentalized nitrogen fixation: in space (heterocysts), in time (the day--night switch of *Synechococcus*), and later in the plant root nodules that recreate the pre-oxygen world.
+- The cyanobacteria themselves were captured and domesticated into the chloroplasts of every photosynthetic eukaryote -- still splitting water inside plant cells today.
+- Oxygen's energy surplus -- more than an order of magnitude more ATP per molecule of food -- underwrote large, complex cells and, eventually, complex organisms; every animal alive runs on aerobic respiration.
+- The rise of oxygen was staggered and uneven (early "whiffs," the Boring Billion), leaving Earth chemically partitioned into an oxidized surface and an anoxic deep -- a 2.4-billion-year-old boundary still visible in every porewater profile.
 
 [^archean_atmosphere]: The Archean atmosphere (3.8-2.5 Ga) was reducing, dominated by N$_2$, CO$_2$, CH$_4$, and H$_2$O vapor, with negligible free oxygen. The absence of ozone allowed intense UV radiation to reach the surface. See Kasting (1993) for atmospheric evolution models. [@Kasting1993]
 

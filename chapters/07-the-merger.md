@@ -43,7 +43,7 @@ These archaea, dubbed *Lokiarchaeota*, carried genes that no one expected to fin
 *Lokiarchaeota* did not have a nucleus. They did not have mitochondria. But they had the genetic toolkit that could, in principle, lead to both. They were closer to eukaryotes than any other prokaryote ever found -- a bridge between the two great domains of cellular life.
 
 ::: {.callout-note}
-## The Asgard archaea
+## Sidebar --- The Asgard archaea
 *Lokiarchaeota* was the first discovered member of what is now called the Asgard superphylum -- a group of archaea named after figures from Norse mythology (Loki, Thor, Odin, Heimdall).[^zaremba_asgard] Phylogenetic analyses consistently place eukaryotes *within* the Asgard archaea, not as their sister group.[^eme_archaea] This means that eukaryotes did not diverge from archaea; they emerged from within them. The "three domains of life" model (Bacteria, Archaea, Eukarya) may need to be revised to a "two domains" model, with eukaryotes as a highly derived branch of the Archaea. The discovery did not answer every question about eukaryotic origins, but it narrowed the search space dramatically.
 :::
 
@@ -108,7 +108,7 @@ But look at *Carsonella*'s genome, and you see something startling. At just 160 
 *Carsonella* is so reduced that some biologists have questioned whether it should still be called a living organism. It is closer to an organelle -- a piece of cellular machinery, maintained by the host, performing a specific biochemical task, unable to exist in any other context.
 
 ::: {.callout-note}
-## How small can a genome get?
+## Sidebar --- How small can a genome get?
 Genome reduction in obligate symbionts follows a ratchet-like logic. Once a function is reliably supplied by the host, the symbiont's gene for it drifts and decays. Each loss deepens dependence, and there is no going back. *Carsonella*'s 160-kilobase genome illustrates a late stage.
 
 But genome shrinkage alone does not make an organelle. That transition requires additional steps -- establishment of a protein-import apparatus, coordinated gene transfer to the host nucleus, integration into host cell division -- that have occurred only a few times in the history of life. Mitochondria and plastids crossed that threshold; most reduced symbionts (including *Buchnera*, *Wigglesworthia*, and others that have been shrinking for over 100 million years) have not. Genome erosion is common; organellogenesis is rare.
@@ -204,7 +204,7 @@ The same logic runs through every example in this chapter. The tube worm and its
 
 This is not to say that competition is unimportant. Symbiotic partnerships must still compete with other organisms and other partnerships for resources and space. Selection still acts. But the raw material that selection acts on -- the new forms, the new metabolic capabilities, the new body plans -- comes disproportionately from mergers.
 
-Lynn Margulis, who spent decades championing the endosymbiotic theory against fierce resistance from the biological establishment, put it simply: "Life did not take over the globe by combat, but by networking."
+Lynn Margulis, who spent decades championing the endosymbiotic theory against fierce resistance from the biological establishment, put it simply: "Life did not take over the globe by combat, but by networking."[^margulis_networking]
 
 ## The deep continuity
 
@@ -243,6 +243,8 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 
 [^markov_compartment]: Markov (2010) notes that prokaryotic cells are limited to one or two compartments (cytoplasm and periplasmic space), constraining the complexity of chemistry they can perform simultaneously. [@Markov2010]
 
+[^margulis_networking]: Lynn Margulis and Dorion Sagan, *Microcosmos: Four Billion Years of Evolution from Our Microbial Ancestors* (Summit Books, 1986). The "networking, not combat" formulation recurs throughout Margulis's writing on symbiogenesis. [@MargulisSagan1986]
+
 [^spang_loki]: Spang et al. (2015) reported the discovery of *Lokiarchaeota* from deep-sea sediments at Loki's Castle hydrothermal vent field; the genome revealed eukaryotic signature proteins (ESPs) including actin homologs involved in membrane remodeling in eukaryotes. [@Spang2015]
 
 [^zaremba_asgard]: The Asgard superphylum includes *Lokiarchaeota*, *Thorarchaeota*, *Odinarchaeota*, and *Heimdallarchaeota*, all named after Norse deities; see Zaremba-Niedzwiedzka et al. (2017). [@ZarembaNiedzwiedzka2017]
@@ -259,7 +261,7 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 
 [^nakabachi_carsonella]: Nakabachi et al. (2006) reported the 160-kb genome of *Carsonella ruddii*, the smallest bacterial genome known at the time, lacking genes for DNA repair, cell wall synthesis, and most regulatory functions. [@Nakabachi2006]
 
-[^rumpho_kleptoplasty]: Rumpho et al. (2008) describe kleptoplasty in *Elysia chlorotica*, where stolen chloroplasts remain photosynthetically active for months. Early reports suggested algal genes had transferred to the slug's nuclear genome, but subsequent genome-scale analyses found no confirmed functional transfers (Bhatt et al. 2014; Chan et al. 2018). The chloroplasts likely persist on their own long-lived proteins and mRNAs. [@Rumpho2008]
+[^rumpho_kleptoplasty]: Rumpho et al. (2008) describe kleptoplasty in *Elysia chlorotica*, where stolen chloroplasts remain photosynthetically active for months. Early reports suggested algal genes had transferred to the slug's nuclear genome, but subsequent genome-scale analyses found no confirmed functional transfers (Bhatt et al. 2014; Chan et al. 2018). The chloroplasts likely persist on their own long-lived proteins and mRNAs. [@Rumpho2008; @Bhatt2014; @Chan2018]
 
 [^nash_lichen]: Nash (2008) provides a comprehensive treatment of lichen biology, including tripartite lichens with fungal, algal, and cyanobacterial partners. [@Nash2008]
 
@@ -271,7 +273,7 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 
 [^timmis_transfer]: Endosymbiotic gene transfer (EGT) moves genes from organellar genomes to the nucleus; thousands of genes have been transferred from the mitochondrial ancestor to the eukaryotic nucleus; see Timmis et al. (2004). [@Timmis2004]
 
-[^lane_energetics]: Lane and Martin (2010) argue that the energetic advantage of mitochondria -- internalized ATP-producing membranes -- explains the 200,000-fold genome size difference between prokaryotes and eukaryotes. [@LaneMartin2010]
+[^lane_energetics]: Lane and Martin (2010) argue that the energetic advantage of mitochondria -- internalized ATP-producing membranes -- gives eukaryotes on the order of 200,000-fold more energy per gene than prokaryotes, relaxing the constraint on genome size and complexity. [@LaneMartin2010]
 
 [^lane_power]: Lane (2005) provides an accessible account of mitochondrial bioenergetics and the surface-area-to-volume constraint on prokaryotic cell size. [@Lane2005]
 
