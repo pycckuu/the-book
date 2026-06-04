@@ -9,7 +9,7 @@ book:
   subtitle: "How Microbes Built the World"
   author: "Igor Markelov"
   date: "February 1, 2026"
-  version: "0.52"
+  version: "0.53"
   search: true
   output-file: the-invisible-architects
   downloads: [pdf, epub]
