@@ -56,7 +56,7 @@ $$
 \text{O}_2 > \text{NO}_3^- > \text{Mn(IV)} > \text{Fe(III)} > \text{SO}_4^{2-} > \text{CO}_2
 $$
 
-[FIGURE: The terminal electron acceptor hierarchy shown as a vertical column. Depth increases downward. At the top, O2 is consumed first (narrow zone). Below it, NO3- disappears. Then Mn(IV) and Fe(III) reduction zones. Then a broad SO4-2 reduction zone. At the bottom, CO2 reduction (methanogenesis). Each zone is labeled with the dominant metabolism and the Gibbs energy yield per mole of electron donor. The energy yield decreases with depth. Caption: "The redox ladder, expressed in sediment. Each zone represents the cheapest electron acceptor still available."]
+![The redox ladder, expressed in sediment. Each zone represents the cheapest electron acceptor still available.](../sources/img/ch9_redox_ladder.png){#fig-redox-ladder}
 
 Each acceptor supports a distinct metabolic community: aerobic respirers, denitrifiers, manganese reducers, iron reducers, sulfate reducers, methanogens. These are the Terminal Electron Accepting Processes, or TEAPs, and in an idealized system they appear in sequence as the more energetically favorable acceptors are exhausted.[^lovley1995] Iron and sulfate reducers typically conserve four to five times more energy per mole of electron donor than methanogens -- a difference that has profound implications for community structure and biomass yields.[^bethke2011]
 

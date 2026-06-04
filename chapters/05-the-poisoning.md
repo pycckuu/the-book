@@ -36,7 +36,7 @@ The chassis is simple in concept: capture a photon of light, use its energy to b
 
 In the earliest phototrophs, the electron donors were the easiest molecules to crack open. (The half-reactions below are written in standard acid form for electron bookkeeping; actual speciation varies with pH, and in-vivo coupling partners differ.)
 
-![The electron donor ladder. Standard reduction potential runs from easy donors near the top to water at the bottom. Each rung shows the electrons yielded per molecule, and the red arrow marks the water barrier that required two linked photosystems to cross.](../sources/img/ch5_electron_donor_ladder.png){#fig-electron-donor-ladder}
+![The electron donor ladder. Standard reduction potential runs from easy donors near the top to water at the bottom. Each rung shows the electrons yielded per molecule, and the red dashed line marks the water-oxidation barrier that required two linked photosystems to cross.](../sources/img/ch5_electron_donor_ladder.png){#fig-electron-donor-ladder}
 
 **Hydrogen gas.** The simplest donor. One molecule of H$_2$ yields two protons and two electrons:
 

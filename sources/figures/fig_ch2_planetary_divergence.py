@@ -3,6 +3,8 @@ Figure: Planetary divergence at ~3.5 Ga
 Chapter 2, The Stage
 """
 
+from pathlib import Path
+
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
@@ -46,7 +48,7 @@ planets = [
         'temp_best': None,
         'pressure': '0.5--2 atm(?)',
         'atmosphere': 'CO$_2$, N$_2$',
-        'magnetic': 'Recently lost',
+        'magnetic': '~4 Ga: lost',
         'water': 'Rivers, lakes,\npossibly ocean',
         'note': 'Late Noachian;\nwarm-wet vs.\ncold-with-thaw debated',
     },
@@ -78,10 +80,19 @@ for ax, p in zip(axes, planets):
                 xy=(bar_x, p['temp_high']),
                 xytext=(bar_x + 0.32, p['temp_high']),
                 fontsize=8, color='#444444', va='center')
+
+    # Nudge the low-range label off any reference line it would land on
+    # (Venus/Earth lows sit exactly at the 0°C dashed line, which would
+    # otherwise bisect the text). Drop it just below the line (va='top') so
+    # the dashed line no longer crosses the text and it clears the
+    # best-estimate label above it (Earth: 25°C dot sits just above 0°C).
+    low_on_ref = p['temp_low'] in (0, 100)
+    low_va = 'top' if low_on_ref else 'center'
+    low_y = p['temp_low'] - 8 if low_on_ref else p['temp_low']
     ax.annotate(f"{p['temp_low']}°C",
                 xy=(bar_x, p['temp_low']),
-                xytext=(bar_x + 0.32, p['temp_low']),
-                fontsize=8, color='#444444', va='center')
+                xytext=(bar_x + 0.32, low_y),
+                fontsize=8, color='#444444', va=low_va)
 
     # Planet name
     ax.set_title(p['name'], fontsize=16, fontweight='bold', color=p['color'], pad=12)
@@ -124,11 +135,19 @@ for ax, p in zip(axes, planets):
 axes[0].set_ylabel('Surface temperature (°C)', fontsize=11)
 axes[0].set_ylim(-120, 500)
 
-# Add 0°C and 100°C reference labels (on right side of last panel to avoid overlap)
-axes[2].text(2.35, 0, '0°C\n(freezing)', fontsize=7, color='#999999',
-             va='center', ha='left', transform=axes[2].transData)
-axes[2].text(2.35, 100, '100°C\n(boiling)', fontsize=7, color='#999999',
-             va='center', ha='left', transform=axes[2].transData)
+# Add 0°C and 100°C reference labels near the y-axis (Venus panel) so the
+# water-stability reference is read where the temperature scale is. They are
+# right-aligned into the left margin (ending before the bar at x=0.3) and given
+# an opaque white bbox so the dashed reference line and the bar edge do not run
+# through the text.
+ref_bbox = dict(boxstyle='round,pad=0.25', facecolor='white',
+                edgecolor='none', alpha=1.0)
+axes[0].text(0.27, 100, '100°C\n(boiling)', fontsize=7, color='#999999',
+             va='center', ha='right', linespacing=1.25,
+             transform=axes[0].transData, bbox=ref_bbox, zorder=4)
+axes[0].text(0.27, 0, '0°C\n(freezing)', fontsize=7, color='#999999',
+             va='center', ha='right', linespacing=1.25,
+             transform=axes[0].transData, bbox=ref_bbox, zorder=4)
 
 # Suptitle
 fig.suptitle('The divergence at ~3.5 Ga', fontsize=14, fontweight='bold',
@@ -140,8 +159,11 @@ fig.suptitle('The divergence at ~3.5 Ga', fontsize=14, fontweight='bold',
 #          ha='center', fontsize=10, style='italic', color='#555555')
 
 plt.tight_layout(rect=[0.02, 0.04, 0.98, 0.94])
-plt.savefig('/Users/igor/git/the-book/sources/img/ch2_planetary_divergence.png',
-            dpi=300, bbox_inches='tight', facecolor='white')
-plt.savefig('/Users/igor/git/the-book/sources/img/ch2_planetary_divergence.pdf',
-            bbox_inches='tight', facecolor='white')
-print("Figure saved.")
+
+out_dir = Path(__file__).resolve().parents[1] / "img"
+out_dir.mkdir(parents=True, exist_ok=True)
+base = out_dir / "ch2_planetary_divergence"
+plt.savefig(base.with_suffix(".png"), dpi=300, bbox_inches="tight",
+            facecolor="white")
+plt.savefig(base.with_suffix(".pdf"), bbox_inches="tight", facecolor="white")
+print(f"Saved {base.with_suffix('.png')} and {base.with_suffix('.pdf')}")

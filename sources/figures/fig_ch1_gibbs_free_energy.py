@@ -4,6 +4,8 @@ Chapter 1, The Budget of the Universe
 Clean minimal style — bars, text, arrows. Matched palette to other figures.
 """
 
+from pathlib import Path
+
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch, FancyBboxPatch, Rectangle
 import numpy as np
@@ -11,7 +13,7 @@ import numpy as np
 fig, ax = plt.subplots(figsize=(10, 5.5))
 fig.patch.set_facecolor('white')
 ax.set_xlim(-0.8, 10.8)
-ax.set_ylim(-0.5, 6.0)
+ax.set_ylim(-0.9, 6.4)
 ax.set_aspect('equal')
 ax.axis('off')
 
@@ -82,35 +84,41 @@ ax.text(bx - 0.6, mid, r'$\Delta H$',
 
 # ═══════════════════════════════════════════════════════════
 #  WAVY HEAT LINES (radiate right from TΔS block)
+#  Deterministic fan: a few clean, non-crossing damped wavelets.
 # ═══════════════════════════════════════════════════════════
-np.random.seed(11)
-n_waves = 5
-wave_origins_y = np.linspace(ts_bot + 0.2, ts_top - 0.2, n_waves)
+x0 = bar_left + bar_w + 0.1
+# Fan strokes out from a common pivot so they never cross.
+# Each stroke: fixed launch angle (monotonic), modest length, gentle wiggle.
+wave_specs = [
+    {'y0': ts_bot + 0.30, 'angle': -16.0, 'length': 1.45, 'freq': 6.5, 'amp': 0.085},
+    {'y0': ts_bot + 0.95, 'angle': -5.0,  'length': 1.60, 'freq': 6.5, 'amp': 0.085},
+    {'y0': ts_top - 0.55, 'angle':  6.0,  'length': 1.60, 'freq': 6.5, 'amp': 0.085},
+    {'y0': ts_top - 0.05, 'angle': 16.0,  'length': 1.45, 'freq': 6.5, 'amp': 0.085},
+]
 
-for y0 in wave_origins_y:
-    x0 = bar_left + bar_w + 0.1
-    angle = np.random.uniform(-20, 20)
-    length = np.random.uniform(1.2, 1.8)
-    freq = np.random.uniform(6.0, 8.0)
-    amp  = np.random.uniform(0.08, 0.12)
-    rad  = np.radians(angle)
+for spec in wave_specs:
+    y0 = spec['y0']
+    rad = np.radians(spec['angle'])
+    length = spec['length']
+    freq = spec['freq']
+    amp = spec['amp']
 
-    t = np.linspace(0, length, 100)
-    # Damped sine wave
-    damping = np.exp(-1.5 * t / length) 
-    # Actually we want it to start strong and fade, but amplitude constant or growing?
-    # Let's keep amplitude constant but fade alpha
-    
-    wx = x0 + t * np.cos(rad) - amp * np.sin(freq * t) * np.sin(rad)
-    wy = y0 + t * np.sin(rad) + amp * np.sin(freq * t) * np.cos(rad)
+    t = np.linspace(0, length, 120)
+    # Wiggle amplitude ramps from 0 so each stroke leaves the bar smoothly,
+    # keeping the launch points apart and the strokes from tangling.
+    ramp = np.clip(t / 0.35, 0.0, 1.0)
+    wiggle = amp * ramp * np.sin(freq * t)
 
-    alpha = np.linspace(0.6, 0.0, len(t))
+    wx = x0 + t * np.cos(rad) - wiggle * np.sin(rad)
+    wy = y0 + t * np.sin(rad) + wiggle * np.cos(rad)
+
+    alpha = np.linspace(0.65, 0.0, len(t))
     for j in range(len(t) - 1):
         ax.plot(wx[j:j+2], wy[j:j+2],
                 color=red, alpha=float(alpha[j]), lw=1.8,
                 solid_capstyle='round', zorder=1)
 
-ax.text(bar_left + bar_w + 1.5, ts_top + 0.2,
+ax.text(bar_left + bar_w + 1.5, ts_top + 0.45,
         'dissipated as heat',
         fontsize=10, ha='center', va='center', color=red, style='italic')
 
@@ -130,31 +138,43 @@ ax.text((arr_x0 + arr_x1) / 2, dg_cy + 0.35,
 
 # ═══════════════════════════════════════════════════════════
 #  ION PUMP & MEMBRANE
+#  Cluster is centred on the bar's vertical centre (fig_cy) for balance.
+#  Membrane is symmetric about the pump and ends cleanly INSIDE the axes.
 # ═══════════════════════════════════════════════════════════
-# Membrane as two parallel lines (bilayer)
+pump_cy = fig_cy
+
+# Membrane as two parallel lines (bilayer), sized to sit inside the axes
+# with a symmetric margin top and bottom.
 mem_w = 0.4
-mem_h = 5.2 # Taller than bar
+mem_margin = 0.45  # gap between membrane end and the axis limits
+# Symmetric about the pump, sized to span a little past the bar yet stay
+# inside the axes with a clean margin top and bottom.
+mem_half = min(pump_cy - (ax.get_ylim()[0] + mem_margin),
+               (ax.get_ylim()[1] - mem_margin) - pump_cy,
+               bar_h / 2 + 0.45)
+mem_top = pump_cy + mem_half
+mem_bot = pump_cy - mem_half
 mem_x = pump_cx - mem_w / 2
 
 # Background for membrane
-ax.add_patch(Rectangle((mem_x, dg_cy - mem_h/2), mem_w, mem_h,
+ax.add_patch(Rectangle((mem_x, mem_bot), mem_w, mem_top - mem_bot,
              fc='#F0E8D8', ec='none', zorder=1))
 
 # Two vertical lines
-ax.plot([mem_x, mem_x], [dg_cy - mem_h/2, dg_cy + mem_h/2],
+ax.plot([mem_x, mem_x], [mem_bot, mem_top],
         color='#B8A888', lw=2, zorder=2)
-ax.plot([mem_x + mem_w, mem_x + mem_w], [dg_cy - mem_h/2, dg_cy + mem_h/2],
+ax.plot([mem_x + mem_w, mem_x + mem_w], [mem_bot, mem_top],
         color='#B8A888', lw=2, zorder=2)
 
-ax.text(pump_cx, dg_cy + mem_h / 2 + 0.25,
+ax.text(pump_cx, mem_top + 0.18,
         'membrane', fontsize=10, ha='center', va='bottom',
         color='#999977', style='italic')
 
 # Pump
 pump_r = 0.7
-ax.add_patch(plt.Circle((pump_cx, dg_cy), pump_r,
+ax.add_patch(plt.Circle((pump_cx, pump_cy), pump_r,
              fc=green_bg, ec=green, lw=2.5, zorder=3))
-ax.text(pump_cx, dg_cy, 'pump',
+ax.text(pump_cx, pump_cy, 'pump',
         fontsize=12, fontweight='bold', ha='center', va='center',
         color=green, zorder=4)
 
@@ -167,24 +187,24 @@ ion_kw = dict(arrowstyle='->', mutation_scale=18, linewidth=2, zorder=4)
 
 # Left arrow (in)
 ax.add_patch(FancyArrowPatch(
-    (pump_cx - ion_dx, dg_cy + ion_dy_label - 0.2),
-    (pump_cx - pump_r - 0.1, dg_cy + ion_dy_tip),
+    (pump_cx - ion_dx, pump_cy + ion_dy_label - 0.2),
+    (pump_cx - pump_r - 0.1, pump_cy + ion_dy_tip),
     connectionstyle='arc3,rad=-0.15', color=green, **ion_kw))
 
 # Right arrow (out)
 ax.add_patch(FancyArrowPatch(
-    (pump_cx + pump_r + 0.1, dg_cy + ion_dy_tip),
-    (pump_cx + ion_dx, dg_cy + ion_dy_label - 0.2),
+    (pump_cx + pump_r + 0.1, pump_cy + ion_dy_tip),
+    (pump_cx + ion_dx, pump_cy + ion_dy_label - 0.2),
     connectionstyle='arc3,rad=-0.15', color=green, **ion_kw))
 
-ax.text(pump_cx - ion_dx, dg_cy + ion_dy_label,
+ax.text(pump_cx - ion_dx, pump_cy + ion_dy_label,
         'ion', fontsize=11, fontweight='bold', ha='center', va='center', color=green)
-ax.text(pump_cx + ion_dx, dg_cy + ion_dy_label,
+ax.text(pump_cx + ion_dx, pump_cy + ion_dy_label,
         'ion', fontsize=11, fontweight='bold', ha='center', va='center', color=green)
 
-ax.text(pump_cx - ion_dx, dg_cy - 0.6,
+ax.text(pump_cx - ion_dx, pump_cy - 0.6,
         'low\nconc.', fontsize=9, ha='center', va='center', color='#888888', linespacing=1.2)
-ax.text(pump_cx + ion_dx, dg_cy - 0.6,
+ax.text(pump_cx + ion_dx, pump_cy - 0.6,
         'high\nconc.', fontsize=9, ha='center', va='center', color='#888888', linespacing=1.2)
 
 # ═══════════════════════════════════════════════════════════
@@ -195,8 +215,13 @@ ax.text(pump_cx + ion_dx, dg_cy - 0.6,
 #          ha='center', fontsize=11, style='italic', color='#666666')
 
 plt.tight_layout(rect=[0.0, 0.05, 1.0, 0.98])
-plt.savefig('/Users/igor/git/the-book/sources/img/ch1_gibbs_free_energy.png',
-            dpi=300, bbox_inches='tight', facecolor='white')
-plt.savefig('/Users/igor/git/the-book/sources/img/ch1_gibbs_free_energy.pdf',
-            bbox_inches='tight', facecolor='white')
-print("Figure saved.")
+
+out_dir = Path(__file__).resolve().parents[1] / "img"
+out_dir.mkdir(parents=True, exist_ok=True)
+base = out_dir / "ch1_gibbs_free_energy"
+plt.savefig(base.with_suffix(".png"),
+            dpi=300, bbox_inches="tight", facecolor="white")
+plt.savefig(base.with_suffix(".pdf"),
+            bbox_inches="tight", facecolor="white")
+plt.close(fig)
+print(f"Saved {base.with_suffix('.png')} and {base.with_suffix('.pdf')}")

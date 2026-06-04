@@ -29,7 +29,7 @@ donors = [
     },
     {
         "name": r"H$_2$S",
-        "electrons": r"8 e$^-$",
+        "electrons": r"2 e$^-$",
         "y": -0.27,
         "fc": sand_bg,
         "ec": sand,
@@ -219,7 +219,7 @@ ax.plot(
 ax.text(
     8.92,
     0.59,
-    "water barrier",
+    "water-oxidation barrier",
     ha="left",
     va="bottom",
     fontsize=12,
@@ -230,7 +230,7 @@ ax.text(
 ax.text(
     8.92,
     0.69,
-    "two linked photosystems\nrequired",
+    "(conceptual: needs two\nlinked photosystems)",
     ha="left",
     va="top",
     fontsize=9.5,
