@@ -63,7 +63,7 @@ Given this investment of time and energy, it should not surprise us that *B. sub
 
 And then, as a penultimate measure---the step just before the final, irreversible commitment to spore formation---it turns to cannibalism.
 
-[FIGURE: The B. subtilis cannibalism decision tree. A population of identical cells (shown as uniform rods) encounters starvation. Spo0A phosphorelay activates stochastically: a subpopulation of cells crosses the threshold (shaded dark, labeled "high Spo0A~P") and the remainder do not (shaded light, labeled "low Spo0A~P"). Dark cells secrete SdpC toxin (small dots). Light cells lyse, releasing nutrients (shown as a cloud). Dark cells consume the nutrients and delay sporulation. Caption: "Same genome, same signal, two fates. The stochastic switch is the strategy."]
+![Same genome, same signal, two fates. The stochastic switch is the strategy.](../sources/img/ch6_cannibalism.png){#fig-cannibalism}
 
 Here is how it works.[^ellermeier_cannibalism]
 

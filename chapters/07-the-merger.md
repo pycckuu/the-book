@@ -73,7 +73,7 @@ That organelle is the mitochondrion. Every mitochondrion in every eukaryotic cel
 
 The transformation from free-living bacterium to mitochondrion did not happen overnight. It was a long, slow slide from partnership to dependence to irreversible fusion -- a process that took hundreds of millions of years and that we can still watch happening today, frozen at different stages in different organisms.
 
-[FIGURE: The integration spectrum. A horizontal arrow labeled "Independence" on the left and "Organelle" on the right. Four organisms are placed along the spectrum at increasing integration: (1) Ruthia magnifica -- full genome, complete metabolic independence, inside a clam; (2) Elysia chlorotica -- stolen chloroplasts, temporary, non-heritable; (3) Carsonella ruddii -- 160 kb genome, cannot replicate alone; (4) Mitochondrion -- ~16 kb genome, fully integrated organelle. Caption: "Genome reduction tightens the bond, but only a handful of symbioses have crossed the threshold to organelle."]
+![Genome reduction tightens the bond, but only a handful of symbioses have crossed the threshold to organelle.](../sources/img/ch7_integration_spectrum.png){#fig-integration-spectrum}
 
 Think of it as a spectrum. At one end, a bacterium lives inside a host cell but retains its full genetic and metabolic independence: it could, in principle, be extracted and grown on its own. At the other end, the bacterium has lost so many genes that it is no longer an organism at all -- it is an organelle, a part of the host, unable to exist independently. Between these extremes lies every shade of partnership, dependence, and dissolution.
 

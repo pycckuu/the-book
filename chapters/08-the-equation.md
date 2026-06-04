@@ -2,7 +2,7 @@
 title: "Modeling the Invisible"
 ---
 
-[FIGURE: A porewater profile showing oxygen concentration dropping to zero within the top few centimeters, sulfate declining steadily over the next meter, and methane rising from below. The x-axis is concentration; the y-axis is depth, increasing downward. Three zones are shaded: an oxygen zone (pale blue), a sulfate zone (pale yellow), and a methane zone (pale green). The sulfate-methane transition zone is marked where the two curves cross.]
+![Oxygen vanishes within the top few centimeters, sulfate declines over the next meter, and methane rises from below; the sulfate-methane transition is marked where the curves cross.](../sources/img/ch8_porewater_profile.png){#fig-porewater-profile}
 
 A sediment core can look, at first glance, like three quiet curves on a page. The x-axis is concentration. The y-axis is depth below the sediment-water interface, increasing downward. The curves are oxygen, sulfate, and methane, measured in the porewater of a marine sediment somewhere on a continental margin.
 
