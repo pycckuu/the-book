@@ -1,0 +1,256 @@
+{
+  "revision": "AD-EN-PORTABILITY-3",
+  "disposition": "ENGLISH_SOURCE_FROZEN_NOTATION_ONLY_SUCCESSOR_RENDERED_ACCEPTANCE_PENDING",
+  "base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+  "freeze_manifest_sha256": "6848f884efcdc7c65840a9e264309136a265797b38c184e791b384d7c9e4d198",
+  "files": 96,
+  "owner_manifest_payloads": 88,
+  "owner_zip_exact_members": 89,
+  "integrated_markdown_routes": [
+    [
+      "courses/advection-dispersion/en/pilot-protocol-en.md",
+      "curriculum-en.md"
+    ],
+    [
+      "courses/advection-dispersion/en/pilot-protocol-en.md",
+      "student-packet-en.qmd"
+    ],
+    [
+      "courses/advection-dispersion/en/curriculum-en.md",
+      "student-packet-en.qmd"
+    ],
+    [
+      "courses/advection-dispersion/en/curriculum-en.md",
+      "worked-answers-en.qmd"
+    ],
+    [
+      "courses/advection-dispersion/en/curriculum-en.md",
+      "pilot-protocol-en.md"
+    ],
+    [
+      "courses/advection-dispersion/en/curriculum-en.md",
+      "exercise-outcome-map.json"
+    ],
+    [
+      "courses/advection-dispersion/en/README.md",
+      "student-packet-en.qmd"
+    ],
+    [
+      "courses/advection-dispersion/en/README.md",
+      "worked-answers-en.qmd"
+    ],
+    [
+      "courses/advection-dispersion/en/README.md",
+      "curriculum-en.md"
+    ],
+    [
+      "courses/advection-dispersion/en/README.md",
+      "exercise-outcome-map.json"
+    ],
+    [
+      "courses/advection-dispersion/en/README.md",
+      "pilot-protocol-en.md"
+    ],
+    [
+      "courses/advection-dispersion/en/README.md",
+      "../model/README.md"
+    ],
+    [
+      "courses/advection-dispersion/en/README.md",
+      "../model/no-python-readback.md"
+    ],
+    [
+      "courses/advection-dispersion/en/README.md",
+      "worksheets/"
+    ],
+    [
+      "courses/advection-dispersion/en/README.md",
+      "dependencies.json"
+    ],
+    [
+      "courses/advection-dispersion/en/README.md",
+      "evidence/editor-numerical-acceptance-r1.json"
+    ],
+    [
+      "courses/advection-dispersion/en/README.md",
+      "evidence/editor-numerical-chronology-reconciliation-r1.json"
+    ],
+    [
+      "courses/advection-dispersion/en/README.md",
+      "provenance.json"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "worked-answers-en.qmd"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "curriculum-en.md"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "pilot-protocol-en.md"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/model-interface.md"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/metric-definitions.json"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/case-manifest.json"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/README.md"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/no-python-readback.md"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/SHA256SUMS.json"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/conservative-profiles.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/conservative-pulse-budget.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "worksheets/e03-budget-input.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/reactive-pulse-budget.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/reactive-profiles.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/steady-reference-profiles.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/steady-spatial.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/periodic-time.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/periodic-spreading.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/independent-refinement.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "worksheets/e04-scenario-worksheet.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "worksheets/e05-residual-worksheet.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/observations-synthetic.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/k0-synthetic-source-series.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/k1-synthetic-source-series.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/k2-synthetic-source-series.csv"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/results/synthetic-provenance.json"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/synthetic-inference-proposal.md"
+    ],
+    [
+      "courses/advection-dispersion/en/student-packet-en.qmd",
+      "../model/contract-and-evidence/primary-boundary-and-e06-readback.md"
+    ],
+    [
+      "courses/advection-dispersion/en/worked-answers-en.qmd",
+      "student-packet-en.qmd"
+    ],
+    [
+      "courses/advection-dispersion/en/worked-answers-en.qmd",
+      "curriculum-en.md"
+    ],
+    [
+      "courses/advection-dispersion/en/worked-answers-en.qmd",
+      "../model/results/verification.json"
+    ],
+    [
+      "courses/advection-dispersion/en/worked-answers-en.qmd",
+      "evidence/editor-numerical-acceptance-r1.json"
+    ],
+    [
+      "courses/advection-dispersion/en/worked-answers-en.qmd",
+      "evidence/editor-numerical-chronology-reconciliation-r1.json"
+    ],
+    [
+      "courses/advection-dispersion/en/worked-answers-en.qmd",
+      "../model/results/candidate-residuals-open-answers.csv"
+    ],
+    [
+      "courses/advection-dispersion/README.md",
+      "en/README.md"
+    ],
+    [
+      "courses/advection-dispersion/README.md",
+      "model/README.md"
+    ],
+    [
+      "courses/advection-dispersion/README.md",
+      "model/contract-and-evidence/model-contract.md"
+    ]
+  ],
+  "shared_model_payloads_unchanged": 67,
+  "teaching_corrections": [
+    "AD-TEACHING-R3-01 CLOSED",
+    "AD-TEACHING-R3-02 CLOSED at source; rendering pending",
+    "AD-TEACHING-R3-03 CLOSED"
+  ],
+  "source_checks": "PASS exact forward replacement and unchanged model bytes; scientific notation owner readback requested",
+  "exercise_ids": [
+    "AD-E01",
+    "AD-E02",
+    "AD-E03",
+    "AD-E04",
+    "AD-E05",
+    "AD-E06"
+  ],
+  "rubric_points": 100,
+  "planned_minutes": 270,
+  "rendered_acceptance": false,
+  "Russian_acceptance": false,
+  "learner_execution": false,
+  "remote_action": false,
+  "numerical_rerun": false,
+  "predecessor_receipt_sha256": "7f0548a7d562aaf65c40db114f749d417bb139b13c3d8e0adac3608dd7641711",
+  "notation_delta_sha256": "b6829d8d14ceb028a0f3a98290ed87cb5207aa74cf8e393920ae0b6782602d9f",
+  "portability_delta": "Local companion file links remain active in HTML; PDF/EPUB print their filenames instead of unresolved local URIs. External URLs, in-document fragments and reading text/math remain intact."
+}

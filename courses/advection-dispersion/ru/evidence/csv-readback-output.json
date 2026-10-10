@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "scope": "Independent saved-table readback, not independent solver or field validation",
+  "readback_code_sha256": "377cba5e995589b62ede49137a207e70a5d80f9f7c15b7ac9c6a5b894e9f3690",
+  "core_cases": [
+    {
+      "case_id": "conservative",
+      "step_budget_abs_mol_m2": 9.935548571399418e-17,
+      "cumulative_budget_reassembled_mol_m2": -3.4958147487884617e-14,
+      "expected_input_error_mol_m2": 0.0,
+      "increment_reassembly_max_error_mol_m2": 1.3552527156068805e-20,
+      "face_component_sum_max_error_mol_m2_s": 2.117582368135751e-22,
+      "profile_storage_max_error_mol_m2": 1.734723475976807e-18
+    },
+    {
+      "case_id": "reactive",
+      "step_budget_abs_mol_m2": 6.792526610621685e-17,
+      "cumulative_budget_reassembled_mol_m2": 4.3222370127438126e-14,
+      "expected_input_error_mol_m2": 0.0,
+      "increment_reassembly_max_error_mol_m2": 6.776263578034403e-21,
+      "face_component_sum_max_error_mol_m2_s": 2.117582368135751e-22,
+      "profile_storage_max_error_mol_m2": 4.336808689942018e-19
+    },
+    {
+      "case_id": "faster-flow",
+      "step_budget_abs_mol_m2": 2.29751969470335e-16,
+      "cumulative_budget_reassembled_mol_m2": -9.377221221740228e-14,
+      "expected_input_error_mol_m2": 0.0,
+      "increment_reassembly_max_error_mol_m2": 5.421010862427522e-20,
+      "face_component_sum_max_error_mol_m2_s": 4.235164736271502e-22,
+      "profile_storage_max_error_mol_m2": 1.3877787807814457e-17
+    },
+    {
+      "case_id": "more-dispersion",
+      "step_budget_abs_mol_m2": 3.0040531694142114e-16,
+      "cumulative_budget_reassembled_mol_m2": 2.9562463588206356e-13,
+      "expected_input_error_mol_m2": 0.0,
+      "increment_reassembly_max_error_mol_m2": 1.3552527156068805e-20,
+      "face_component_sum_max_error_mol_m2_s": 2.117582368135751e-22,
+      "profile_storage_max_error_mol_m2": 3.469446951953614e-18
+    }
+  ],
+  "synthetic_intervals": [
+    {
+      "source": "truth_refined",
+      "interval_prediction_reassembly_max_error_mol_m3": 1.3877787807814457e-17
+    },
+    {
+      "source": "k0",
+      "interval_prediction_reassembly_max_error_mol_m3": 0.0
+    },
+    {
+      "source": "k1",
+      "interval_prediction_reassembly_max_error_mol_m3": 1.3877787807814457e-17
+    },
+    {
+      "source": "k2",
+      "interval_prediction_reassembly_max_error_mol_m3": 3.469446951953614e-18
+    }
+  ],
+  "scores": [
+    {
+      "candidate": "k0",
+      "RMSE_reassembled": 0.07452914958843618,
+      "error": 0.0
+    },
+    {
+      "candidate": "k1",
+      "RMSE_reassembled": 0.0002667392450206385,
+      "error": 0.0
+    },
+    {
+      "candidate": "k2",
+      "RMSE_reassembled": 0.03142759839437012,
+      "error": 0.0
+    }
+  ]
+}

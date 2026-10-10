@@ -1,0 +1,17 @@
+{
+  "status": "PASS_HASH_READ_ONLY_NO_OXYGEN_EXECUTION",
+  "files": {
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/oxygen-module-v1/oxygen_model.py": {
+      "expected": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9",
+      "actual": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9"
+    },
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/oxygen-module-v1/model-contract.md": {
+      "expected": "c32fae949f07a137fe652188fe3e8bdf78b7ab152dbdacd0860c3918b889bd67",
+      "actual": "c32fae949f07a137fe652188fe3e8bdf78b7ab152dbdacd0860c3918b889bd67"
+    },
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/oxygen-module-v1/results/verification.json": {
+      "expected": "e49735eaca2669430e975a507e445eb1ca24c1138c0f589423a74d24e59027b5",
+      "actual": "e49735eaca2669430e975a507e445eb1ca24c1138c0f589423a74d24e59027b5"
+    }
+  }
+}

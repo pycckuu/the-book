@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "scope": "Saved-export learner arithmetic, no solver run",
+  "comparison_tolerance": "1e-10 absolute/relative; arithmetic readback only, not PDE accuracy",
+  "core_metrics": {
+    "conservative": {
+      "input_mol_m2": 0.060000000000000005,
+      "peak_C": 0.22366651707715934,
+      "peak_time_s": 87300.0,
+      "t10_s": 63338.79104370371,
+      "t50_s": 102018.56441622657,
+      "t90_s": 166862.78491317105,
+      "mean_time_s": 109999.85811759441,
+      "width_time_s": 43165.60890170387,
+      "export_fraction": 0.9999997289456295,
+      "loss_fraction": 0.0,
+      "storage_fraction": 2.710537878799312e-07
+    },
+    "reactive": {
+      "input_mol_m2": 0.060000000000000005,
+      "peak_C": 0.10799374630391803,
+      "peak_time_s": 78800.0,
+      "t10_s": 57583.04444665522,
+      "t50_s": 89707.27844393134,
+      "t90_s": 141112.3494561265,
+      "mean_time_s": 95586.80712275904,
+      "width_time_s": 34496.12780027453,
+      "export_fraction": 0.397559418568762,
+      "loss_fraction": 0.6024405806656313,
+      "storage_fraction": 7.66327084615617e-10
+    },
+    "faster-flow": {
+      "input_mol_m2": 0.12000000000000001,
+      "peak_C": 0.5170120535884459,
+      "peak_time_s": 54500.0,
+      "t10_s": 40371.29454997855,
+      "t50_s": 58033.125803137555,
+      "t90_s": 82077.9300619767,
+      "mean_time_s": 59999.99999999631,
+      "width_time_s": 16776.71998267753,
+      "export_fraction": 0.9999999999992185,
+      "loss_fraction": 0.0,
+      "storage_fraction": 9.615312707166232e-25
+    },
+    "more-dispersion": {
+      "input_mol_m2": 0.060000000000000005,
+      "peak_C": 0.19299953699709893,
+      "peak_time_s": 73600.0,
+      "t10_s": 52527.74082803266,
+      "t50_s": 96776.7124365339,
+      "t90_s": 184432.24857064657,
+      "mean_time_s": 109982.41260897365,
+      "width_time_s": 57047.83052745902,
+      "export_fraction": 0.9999675331369628,
+      "loss_fraction": 0.0,
+      "storage_fraction": 3.2466867964292965e-05
+    }
+  },
+  "steady_observed_orders": [
+    0.9807037847416575,
+    0.9903305868881075,
+    0.995159868848057
+  ]
+}

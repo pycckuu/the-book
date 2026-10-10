@@ -1,0 +1,85 @@
+{
+  "revision": "AD-RU-ALIGNED-2",
+  "source_revision": "AD-EN-PORTABILITY-3",
+  "language_owner": "BOOK Russian Editor",
+  "disposition": "Russian source translation/alignment completed; EIC integration and final acceptance pending",
+  "exact_input_map_sha256": "371abe845a2ea11501c77d52727513090f0cd80f3ad99979e69fc0f61066b8b4",
+  "english_freeze_receipt_sha256": "20ec02046092afd4307743b68a20b22ccc9712208c6f36de7aa27ca212539954",
+  "english_freeze_manifest_sha256": "6848f884efcdc7c65840a9e264309136a265797b38c184e791b384d7c9e4d198",
+  "nine_inputs_exact": true,
+  "translated_source_documents": 7,
+  "aligned_blocks": 217,
+  "math_occurrences_preserved": 412,
+  "math_number_citation_footnote_code_block_sequences": "PASS all aligned blocks",
+  "derived_combined_reading": "ru/module-reading-ru.qmd",
+  "glossary_entries": 47,
+  "glossary_owner_status": "Russian language checked; Scientist/Learning Designer separate owner review pending",
+  "exercise_ids": [
+    "AD-E01",
+    "AD-E02",
+    "AD-E03",
+    "AD-E04",
+    "AD-E05",
+    "AD-E06"
+  ],
+  "outcome_ids": [
+    "AD-LO1",
+    "AD-LO2",
+    "AD-LO3",
+    "AD-LO4",
+    "AD-LO5",
+    "AD-LO6"
+  ],
+  "points": 100,
+  "planned_minutes": 270,
+  "optional_bridge_minutes": 20,
+  "open_answers": true,
+  "attempt_first": true,
+  "shared_model_payloads_exact": 68,
+  "worksheets_exact": 3,
+  "source_routes_checked": 71,
+  "broken_source_routes": 0,
+  "solver_duplicate_added": false,
+  "solver_build_learner_or_outreach_execution": false,
+  "shared_source_or_remote_writes": false,
+  "rendered_acceptance": false,
+  "natural_validation": false,
+  "learner_pilot": "planned, not executed",
+  "provenance": "block-alignment.json, symbol-alignment.tsv, claim-alignment.json, shared-support-checks.json, route-checks.json",
+  "source_outputs": [
+    {
+      "path": "ru/fragments/chapter08-advection-insertion-ru.md",
+      "sha256": "d807857586e178706b2897f1ee95fe337dee25d7f4d65bfcfb700b9a74fe85ac"
+    },
+    {
+      "path": "ru/fragments/chapter10-advection-bridge-ru.md",
+      "sha256": "3c2070a8d95e502de51c2036f397ba18107139805ed4e9ea659fa5d3330640fc"
+    },
+    {
+      "path": "ru/fragments/appendix-b-advection-addition-ru.md",
+      "sha256": "86a82e3fd61f22f35b6a33455919c03835607de56d79d66072a73e8e6de19602"
+    },
+    {
+      "path": "ru/student-packet-ru.qmd",
+      "sha256": "212e954109991d8b2b955dbb53fced2f006b00fd293e88779b46d789c27a7856"
+    },
+    {
+      "path": "ru/worked-answers-ru.qmd",
+      "sha256": "712ba428abadc3d128d3e61bd554b5a07a8906c80aca7d4d78522d75f0995660"
+    },
+    {
+      "path": "ru/curriculum-ru.md",
+      "sha256": "1b76e87931e555662e708dae8c6f016047ffee5e6d66d8aed8e0f25052370e89"
+    },
+    {
+      "path": "ru/pilot-protocol-ru.md",
+      "sha256": "f011dc443ff26785a990934f4e887a35c24e567856ad28b3751adb6c61e425aa"
+    }
+  ],
+  "predecessor_receipt_sha256": "412cffac3bed6f0a62250c09eb9808c3c33b9e8023f6d2171df8db8c55671e13",
+  "scientific_notation_equivalence_receipt_sha256": "6289876b24ed2182a3a6f319c85bcf6e1d673a1277d6c296239e869ace3ad50c",
+  "english_build_acceptance_receipt_sha256": "5717bf76809de45d88e446c54348a683241d68682ab80b4dfdbacbcf7a075674",
+  "notation_only_replacements": 42,
+  "source_authority_bindings": "provenance/russian-translation-inputs.json",
+  "historical_gate_reconciliation": "R3 source receipt historical pending rendering/notation fields superseded only by exact linked English build and scientist equivalence receipts. Russian rendered and final integration gates remain pending."
+}

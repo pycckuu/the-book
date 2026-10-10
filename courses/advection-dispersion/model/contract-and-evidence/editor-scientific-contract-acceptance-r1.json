@@ -1,0 +1,91 @@
+{
+  "id": "AD-CONTRACT-ACCEPTANCE-R1",
+  "created_at_utc": "2026-10-10T15:58:35.829191+00:00",
+  "disposition": "ACCEPTED_FOR_BOUNDED_IMPLEMENTATION",
+  "owner_revision": "AD-CONTRACT-0.1",
+  "base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+  "contract_sha256": "d890ac5b46c239a9b64bfadf1cf4a1af5bdb2ec7e97a56f34deb3333166df75e",
+  "owner_manifest_sha256": "1faa5767578e39b769a534d84991418d9fd17170b46eeb82f4b5b968060a81c2",
+  "archive_sha256": "57ce10cb610b3d7283543940938dfc2b6923e11525d8bc03d2bfe9a66c969d8f",
+  "verified": {
+    "manifest_payloads": 9,
+    "archive_exact_payloads": 10,
+    "source_pins": 7,
+    "archive_crc": "PASS",
+    "shared_checkout": "CLEAN_AT_BASE",
+    "algebra": "Editor independently inspected dimensional balance, finite steady roots/BCs, characteristic pulse, periodic eigenvalue/phase, positivity matrix and backward-Euler long-wave diffusion sign; no solver evaluated."
+  },
+  "accepted_choices": {
+    "finite_column": "resident porewater C, constant mobile=total phi, u porewater velocity, Darcy flux phi*u, combined D_L excludes phi; bulk sink -phi*k*C",
+    "initial_state": "zero interior concentration",
+    "inlet": "known total flux phi*u*C_in, with exact time-interval pulse overlap",
+    "outlet": "zero dispersive gradient with retained advective export",
+    "scales": {
+      "L_m": 1,
+      "phi": 0.3,
+      "u_m_per_s": 1e-05,
+      "D_L_m2_per_s": 1e-06,
+      "C_ref_mol_per_m3_porewater": 1,
+      "k_per_s": [
+        0,
+        1e-05
+      ],
+      "T_p_s": 20000,
+      "tau_a_s": 100000,
+      "Pe": 10,
+      "Da_a": [
+        0,
+        1
+      ],
+      "input_mol_per_m2": 0.06
+    },
+    "scheme": "first-order upwind advection, centered dispersion, conservative FV with backward Euler; standard-library implementation in owner artifact root",
+    "benchmarks": "B01-B08 and separately labeled steady/hyperbolic/periodic/closed tests",
+    "verification_targets": "benchmark-plan.md residual, positivity, convergence, refinement and spreading targets accepted as pre-run targets, not measured passes",
+    "E06_primary_claim": "P02 Gouze2021Dispersion: constant-D_L single-region closure has bounded scale/regime applicability; study is pore-scale numerical evidence, not empirical validation of this teaching model"
+  },
+  "required_contract_corrections": [],
+  "implementation_requirements": [
+    "Implement only accepted single-species scope in own artifacts; keep shared checkout and accepted oxygen bytes untouched.",
+    "Record exact code/input/contract hashes and failed as well as passed numerical checks; no clipping or adjusted physical D_L to conceal error.",
+    "Declare explicit peak/time/profile observable definitions and near-zero absolute criteria before using them to choose final teaching resolution; independently refine grid/time.",
+    "Provide canonical model command, no-Python profiles/face flux/budgets/check exports, case metadata, synthetic-observation generation provenance and held-out-perturbation limits.",
+    "Optional Pe=100 is outside core learning workload; report any accuracy/cost failure rather than expand methods or claim verification from mass alone.",
+    "Use portable TeX notation and source titles/rendered references in eventual manuscript."
+  ],
+  "accepted_evidence_scope": [
+    {
+      "key": "vanGenuchtenParker1984",
+      "doi": "10.2136/sssaj1984.03615995004800040002x",
+      "editor_access": "Full USDA PDF extracted text inspected for Eq3/16/27, boundary assumptions and finite mass accounting; screenshot tool requested but image unavailable in returned payload. No visual page certification claimed."
+    },
+    {
+      "key": "Gouze2021Dispersion",
+      "doi": "10.3389/frwa.2021.766338",
+      "editor_access": "Publisher methods and conclusions inspected; generated media/Stokes/TDRW and pre-asymptotic limitation retained; no raw data downloaded."
+    },
+    {
+      "key": "Currle2025",
+      "doi": "10.5194/hess-29-5383-2025",
+      "editor_access": "Publisher solute/colloid distinction and analytic verification/illustrative application sections inspected; no microbial extension of this module accepted."
+    },
+    {
+      "key": "Hasani2024",
+      "doi": "10.1016/j.jappgeo.2024.105438",
+      "editor_access": "Owner indexed-abstract-only status retained; not newly full-text checked or accepted for methods, parameters or calibration."
+    }
+  ],
+  "remaining_gates": [
+    "Executed independent numerical verification and default-resolution acceptance",
+    "Pinned synthetic scenarios/inference and final exercises/open answers",
+    "English scientific/editorial/teaching freeze",
+    "Russian alignment",
+    "Repository/rendered independent readiness review"
+  ],
+  "not_claimed": [
+    "Executed solver or numerical verification",
+    "Empirical validation or learner execution",
+    "Final student-ready numerical values/resolution",
+    "Repository publication or new merge authority"
+  ]
+}

@@ -1,0 +1,153 @@
+---
+title: "Flowing water, spreading and loss: exercises"
+lang: en
+---
+
+All model scales and observations are illustrative or synthetic. The supplied numerical resolution and inputs have been accepted for this bounded module. Keep a first attempt before consulting the separately titled [OPEN worked answers](worked-answers-en.qmd). The [curriculum](curriculum-en.md) gives the prerequisite map and assessment; the [learner-pilot protocol](pilot-protocol-en.md) is a plan, with no learner outcomes yet.
+
+## Reading and starting point
+
+Read “Modeling the Invisible”: “Conservation: the only law you need”, “What moves: transport”, and “What we sacrificed”. For the groundwater bridge use “The Water Planet”: “What microbes have to do with it” and “The modeling challenge”. Refer by these titles and rendered headings, not source-file chapter numbering. The integrated section “Let the water move” and appendix “Advection, dispersion and parent loss” introduce this pulse experiment. The appendix headings “Advection” and “Externally impressed flow (Darcy)” supply context; the accepted module contract controls the calculation.
+
+Carry forward oxygen outcomes on inventory/flux (O2-LO1/2), verification (O2-LO3), controlled comparisons and residuals (O2-LO4/5), and provenance/critique (O2-LO6/7). Entry diagnostic: distinguish $C$ from $\phi C$; explain the sign of a diffusive flux; state first-order $k$ units; distinguish synthetic verification from natural validity. Two uncertain items trigger the optional 20-minute oxygen bridge outside the nominal workload. Darcy versus porewater velocity is new learning.
+
+Attempt each exercise before reading its openly available worked answer. Save your first prediction; after consulting the answer, identify what changed and why. Answers are separate readings for pacing, not restricted materials. A self-marked solution is not evidence of unaided mastery.
+
+## Accepted setting and notation
+
+A saturated, rigid, constant-area column has $x$ increasing with steady flow from $0$ to $L$. $C$ is resident concentration per modeled porewater volume; $\phi C$ is inventory per bulk volume. The modeled mobile porosity equals total saturated porosity by assumption. Mean porewater velocity $u$ is distinct from Darcy volumetric flux $v_D=\phi u=Q/A$. $D_L$ is the combined longitudinal hydrodynamic dispersion coefficient, without an extra porosity factor; it already represents the included molecular and mechanical spreading. Aggregate parent disappearance has porewater rate $kC$ and signed bulk source $-\phi kC$.
+
+Accepted illustrative scales: $L=1\,\mathrm{m}$, $\phi=0.30$, $u=10^{-5}\,\mathrm{m\,s^{-1}}$, $D_L=10^{-6}\,\mathrm{m^2\,s^{-1}}$, $C_{\mathrm{ref}}=1\,\mathrm{mol\,m^{-3}}$ water, and $T_p=20000\,\mathrm{s}$. Use $k=0$ first and $k=10^{-5}\,\mathrm{s^{-1}}$ for the hypothetical disappearing parent. This does not turn a conservative tracer into a reactive species. The accepted supplied resolution is $N=400$, $\Delta t=100\,\mathrm{s}$, with observation window $T=600000\,\mathrm{s}$.
+
+Initially $C=0$ inside. Feed concentration $C_{\mathrm{in}}$ is $C_{\mathrm{ref}}$ for $0\le t<T_p$ and zero otherwise. The inlet fixes total molar flux $F(0,t)=v_D C_{\mathrm{in}}(t)$, not resident $C(0,t)$. The outlet has $C_x(L,t)=0$ and allows advective export. Resident and flux-normalized concentration $C_F=F/v_D$ are distinct observables; at this outlet they coincide in the continuum closure.
+
+## AD-E01 / AD-LO1: predict transport before loss (10 points)
+
+At $k=0$, sketch profiles before and after the pulse ends, and an outlet concentration signal. Annotate input versus resident concentration and explain why dispersion broadens transport relative to the separate $D_L=0$ reference. Do not identify first detected arrival with $L/u$ without an observation/detection definition.
+
+Define $u$, $v_D$ and $Q/A$ with units. Compare two thought experiments: changing constant $\phi$ while holding $u,D_L,k$ fixed, versus changing $\phi$ while holding measured $v_D$ fixed. State which quantities must change in the second case. Record your predictions before viewing exports.
+
+Evidence: one annotated sketch and brief velocity/porosity explanation. Rubric: velocity basis/units 3; sketch 4; reasoned prediction 3.
+
+## AD-E02 / AD-LO2: derive total-flux conservation (20 points)
+
+Draw a slab with inflow, outflow, storage and parent disappearance. Construct $F$ from advective and dispersive transport, derive the bulk balance, then reduce it to the concentration equation for constant coefficients. Define units and explain each occurrence of $\phi$. State initial and both boundary conditions; explain why $C(0,t)=C_{\mathrm{in}}$ cannot also be imposed on this known-flux experiment.
+
+Integrate over the column per unit bulk area to define storage $M$ and cumulative input $I$, export $O$ and disappeared parent $B$. Derive the finite-time budget. Explain why zero dispersive gradient is not a sealed exit, why incomplete recovery is not automatically disappearance, and why this parent ledger does not establish elemental conservation of an unspecified reaction. A concentration reservoir is a possible different experiment; it needs its actual total inlet flux.
+
+Evidence: labeled slab, derivation and units. Rubric: slab/terms 8; basis/units 5; boundaries/initial state 4; assumptions 3.
+
+## AD-E03 / AD-LO3: conservation, accuracy and artificial spreading (25 points)
+
+Use the pinned accepted package in `../model/`. Analyse supplied summaries, not every owner benchmark. (a) Inspect the conservative uniform steady reference and one pulse budget, retaining final storage. Reconstruct one step and the cumulative balance from supplied update-consistent increments. (b) Inspect a finite-domain steady cell-average comparison with its actual inlet/outlet, not a mismatched semi-infinite reference. (c) Compare one grid-refinement series at fixed physical coefficients and controlled time error, and one time-refinement series at a fixed grid against the exact semidiscrete periodic reference. Explain any continuum-error plateau. (d) Use the separately tagged smooth pure-advection periodic reference to identify artificial amplitude decay, together with the zero-dispersion delayed pulse illustration.
+
+Explain why smooth periodic checks and hyperbolic pulse checks have different boundaries from the core dispersive pulse. A discontinuous edge does not justify smooth pointwise convergence claims. Upwind/backward-Euler coupled transport has first-order targets, not the oxygen module's second-order spatial claim. Never change physical $D_L$ to disguise mesh error. Report minima and any negative values; balance or positivity alone is not proof of accuracy. Do not apply a ratio of numerical diffusion to physical $D_L$ at $D_L=0$.
+
+Evidence: compact annotated verification sheet, one reconstructed ledger and two refinement comparisons. Rubric: budget 7; reference checks 6; spreading/refinement 8; positivity/limits 4.
+
+## AD-E04 / AD-LO4: transport and disappearance comparisons (20 points)
+
+Use these four physical cases; all other scales and the physical feed duration remain fixed:
+
+| Case ID | $u$ ($\mathrm{m\,s^{-1}}$) | $D_L$ ($\mathrm{m^2\,s^{-1}}$) | $k$ ($\mathrm{s^{-1}}$) |
+| --- | ---: | ---: | ---: |
+| conservative | $10^{-5}$ | $10^{-6}$ | $0$ |
+| reactive | $10^{-5}$ | $10^{-6}$ | $10^{-5}$ |
+| faster-flow | $2\times10^{-5}$ | $10^{-6}$ | $0$ |
+| more-dispersion | $10^{-5}$ | $2\times10^{-6}$ | $0$ |
+
+Make predictions, then compare the accepted $k=0$ and positive-$k$ cases and one bounded change each in $u$ and $D_L$. Keep $L,\phi,C_{\mathrm{ref}}$ and physical $T_p$ fixed; list other fixed inputs. Changing $u$ therefore changes $v_D$ and the injected amount in these cases. Normalize recovery by each case's own input. This is not a constant-dose velocity experiment.
+
+Use the defined outlet peak, exported-mass median time and temporal width. State whether each uses resident concentration, exported concentration or molar flux, and the window over which it is calculated. Retain any storage at the observation end. Show how entry, export, disappearance and storage explain a lower peak or incomplete recovery. A widened profile does not measure pore-scale mixing between unmodeled reactants. Treat any extra domain or high-Pe study as owner evidence, not another compulsory task.
+
+Evidence: one prediction/comparison sheet with ledger interpretation. Rubric: predictions 6; quantified comparisons 8; loss/inventory 4; limits 2.
+
+## AD-E05 / AD-LO5: conditional inference from synthetic observations (15 points)
+
+Use the eight supplied noiseless interval observations and the three fixed-transport candidates, differing only in $k$. Compute signed residuals (prediction minus observation) in the observed quantity and on matching support. Report the declared comparison score; do not invent noise, interpolation, time support or sampling weights. Distinguish a resident sample from an effluent sample. No optimizer is required.
+
+Use conservative-pulse information with independently known flow, geometry and feed schedule to condition the positive-k comparison. State what is assumed known and why this comparison does not independently identify every rate or a loss mechanism. Show algebraically why simultaneous scaling ($u,D_L,k$) by a positive factor preserves steady resident concentrations with the same feed concentration. Explain how independent timing or absolute flux/flow information could break that ambiguity without claiming that any single observation guarantees practical identifiability. Propose one discriminating independent observation. A held-out synthetic perturbation is still synthetic.
+
+Evidence: residual worksheet and short inference argument. Rubric: observable/provenance 3; residuals 5; inference/conditions 5; independent observation 2.
+
+## AD-E06 / AD-LO6: a bounded groundwater-transfer critique (10 points)
+
+Read the selected methods/conclusion passages in [Gouze et al. (2021), “Modeling Longitudinal Dispersion in Variable Porosity Porous Media: Control of Velocity Distribution and Microstructures”](https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2021.766338/full), sections 2.1 to 2.3 and 4 (P02, Gouze2021Dispersion). In about 150 words, identify the evidence type and one constraint on using a constant $D_L$ over an observation scale/regime. Support it with a section locator, propose a discriminating observation and explain the limit of the claim.
+
+The accepted reading concerns pore-scale numerical experiments in generated sandstone-like media and persistent pre-asymptotic behavior in that setting. It is not measured validation of this teaching column. Do not transfer its pore-scale Pe or scaling parameters into this module. Do not reproduce a pore-scale method, make the abstract-only P03 a methods task, or equate a successful numerical check/synthetic fit with aquifer validity or safe water.
+
+Evidence: the critique only; no new simulation. Rubric: supported critique 4; independent test 3; prediction/limit 3.
+
+## Workload and assessment
+
+Unchanged plan: 30-minute prework (diagnostic 5, oxygen refresh 10, focused reading 15); 180-minute session (E01 15, E02 30, E03 40, break 10, E04 35, E05 30, E06 20); follow-up 60 (E03 20, E05 25, E06 15). Total 270; optional prerequisite bridge adds 20. All timings are planned, not measured.
+
+Total 100 points. Proposed mastery: at least 70 plus consistent velocity/volume/flux accounting, physical versus numerical spreading, and no verification/synthetic-to-natural-validity claim. A failed gate requires targeted revision. Credit a correct method despite a disclosed arithmetic error without repeated penalties for propagation. No learner attempts or feedback exist for this module yet.
+
+Both routes calculate and interpret: the documented Python command or spreadsheet analysis of pinned exports. The latter must say “analysed supplied outputs”, not “independently ran the solver”. The companion worksheets and worked answers below use the same accepted pinned exports. No additional solver or learner task is introduced.
+
+
+## File route for the six existing exercises
+
+Start with [model interface](../model/model-interface.md), [metric definitions](../model/metric-definitions.json) and [case manifest](../model/results/case-manifest.json). The [model README](../model/README.md) and [no-Python guide](../model/no-python-readback.md) describe the same scientific data. All supplied files are pinned by [model hashes](../model/SHA256SUMS.json). A previously failed auxiliary periodic check is retained in `../model/run-history`; corrected current verification is a distinct record. The initial short-window limitation is documented separately from that formal failure. No empirical or learner validation is asserted.
+
+For the code route, from this English course directory:
+
+```sh
+cd ../model
+```
+
+Then run the canonical single-case command:
+
+```sh
+python3 advection_model.py --out my-reactive-case --k 0.00001
+```
+
+This is a single illustrative core case, not the full verification suite. Use the pinned existing four-case exports for the comparison; a full verification rerun is not compulsory. No-Python users analyse those exports and explicitly report that route.
+
+- AD-E01: plot [conservative profiles](../model/results/conservative-profiles.csv) and [outlet ledger](../model/results/conservative-pulse-budget.csv) only after recording predictions. Profiles are resident cell averages; outlet $C$ is a right-endpoint terminal-cell approximation. It is not an independently measured trace.
+- AD-E02: use the same manifest and interface to set units/boundaries; derive $I_{\mathrm{total}}=\phi u C_{\mathrm{ref}}T_p$. The inlet component split, if consulted, is a labeled half-cell diagnostic, not a second boundary constraint or a measured inlet state.
+- AD-E03: use [one-step inputs](worksheets/e03-budget-input.csv) for the reactive interval ending at $100000\,\mathrm{s}$; reconstruct its input/export/disappearance increments and balance. Sum the full [reactive ledger](../model/results/reactive-pulse-budget.csv) to retain finite-time storage. At $100000\,\mathrm{s}$ check storage from [reactive profiles](../model/results/reactive-profiles.csv). Inspect [finite steady cell averages](../model/results/steady-reference-profiles.csv), calculate the three orders from [steady spatial errors](../model/results/steady-spatial.csv), and the $k=0$ orders from [periodic time errors](../model/results/periodic-time.csv). Contrast the grid-only and time-only series in [auxiliary spreading](../model/results/periodic-spreading.csv); inspect the declared [independent core refinements](../model/results/independent-refinement.csv). These are selected analyses within E03, not new simulations or exercises.
+- AD-E04: complete the blank [four-case sheet](worksheets/e04-scenario-worksheet.csv) from each case's pulse ledger. Calculate injected dose, peak, $t_{50}$, temporal width, and export/disappearance/storage fractions. Use the manifest for all physical controls. Calculate $t_{10}$ and $t_{90}$ with the same formula if needed to explain the width; they are companion diagnostics, not a new assignment. All cases use the same physical $T_p$, and faster-flow has a different injected dose. Use the observation window written in the manifest.
+- AD-E05: complete the [residual sheet](worksheets/e05-residual-worksheet.csv) using [eight raw observations](../model/results/observations-synthetic.csv) and the raw [k0](../model/results/k0-synthetic-source-series.csv), [k1](../model/results/k1-synthetic-source-series.csv), [k2](../model/results/k2-synthetic-source-series.csv) output series. Truth generation and known conditions are in [synthetic provenance](../model/results/synthetic-provenance.json) and [inference description](../model/synthetic-inference-proposal.md). Only $k$ differs between candidates; all other physical inputs are known. Calculate equal-weight RMSE in the original concentration units. No noise, sigma, optimizer or confidence interval is supplied.
+- AD-E06: retain the P02 methods/conclusion reading and bounded critique above. Use the [source appraisal](../model/contract-and-evidence/primary-boundary-and-e06-readback.md); neither a synthetic match nor published numerical evidence validates this column against nature.
+
+## Spreadsheet formulas shared by the two routes
+
+CSV headers retain their machine-readable names. Concentrations have $\mathrm{mol\,m^{-3}}$ of modeled water; fluxes have $\mathrm{mol\,m^{-2}\,s^{-1}}$ of bulk cross-sectional area. The supplied $F_{\mathrm{in}}$ is the known total inlet flux averaged over the interval, with exact overlap of that interval and the half-open feed $[0,T_p)$; outlet, internal transport and loss use the right endpoint. Profiles are cell averages.
+
+For each ledger row, $\Delta t=t_r-t_l$, $\Delta I=\Delta t F_{\mathrm{in}}$, $\Delta O=\Delta t F_{\mathrm{out}}$, $\Delta B=\Delta t kM_{\mathrm{next}}$. The step balance is $M_{\mathrm{next}}-M_{\mathrm{previous}}-\Delta I+\Delta O+\Delta B$. Cumulate these increments; do not use trapezoidal export/loss. Amounts have $\mathrm{mol\,m^{-2}}$ of bulk area.
+
+For exported-mass quantile $p$, locate the first interval with cumulative export at least $pO(T)$. With $O_l$ accumulated before that interval and $w=\Delta O>0$:
+
+$$
+t_p=t_l+(t_r-t_l)\frac{pO(T)-O_l}{w}.
+$$
+
+Use $p=0.1,0.5,0.9$; quantiles are undefined if $O(T)=0$. They condition on exported mass in $T$, not injected mass. For temporal width, reconstruct constant flux within each supplied time interval. With $W=\sum_n w_n=O(T)$:
+
+$$
+\mu_t=\frac{1}{W}\sum_n w_n\frac{t_{l,n}+t_{r,n}}{2},\qquad
+\sigma_t^2=\frac{1}{W}\sum_n w_n\frac{t_{l,n}^2+t_{l,n}t_{r,n}+t_{r,n}^2}{3}-\mu_t^2.
+$$
+
+Take the square root for temporal width. These moments are undefined for zero export and depend on the observation window. Width has seconds; resident spatial width has metres and conditions on remaining inventory. Do not replace either with first detected arrival.
+
+For an observation interval $[a,b]$, each source row contributes overlap $\ell=\max(0,\min(b,t_r)-\max(a,t_l))$. Its predicted interval concentration is
+
+$$
+\widehat y=\frac{\sum \ell C_{{\mathrm{out}},r}}{b-a},\qquad
+r_j=\widehat y_j-y_j,\qquad
+\mathrm{RMSE}=\sqrt{\frac18\sum_{j=1}^{8}r_j^2}.
+$$
+
+The refined noiseless truth uses $N=800$ and $\Delta t=50\,\mathrm{s}$; candidates use the coarser provided grid. A matching-$k$ residual need not be exactly zero. Explain why, rather than invent measurement noise.
+
+The resident spatial diagnostic uses snapshot weights $m_i=\phi h_i C_i$. At nonzero storage:
+
+$$
+\bar x=\frac{\sum_i m_i x_i}{\sum_i m_i},\qquad
+\sigma_x^2=\frac{\sum_i m_i\left[(x_i-\bar x)^2+h_i^2/12\right]}{\sum_i m_i}.
+$$
+
+It includes within-cell variance and is undefined when storage is zero. This is a separate resident statistic, not an effluent time width. For E03 refinement orders, use $p=\log(e_{\mathrm{coarse}}/e_{\mathrm{fine}})/\log 2$ only within the specified series and its fixed controls.

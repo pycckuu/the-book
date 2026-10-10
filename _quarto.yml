@@ -45,6 +45,11 @@ book:
     - courses/oxygen-diffusion/en/instructor-packet-en.md
     - courses/oxygen-diffusion/optional-observed-data/data-comparison-task.md
     - courses/oxygen-diffusion/optional-observed-data/data-comparison-solutions.md
+    - courses/advection-dispersion/en/student-packet-en.qmd
+    - courses/advection-dispersion/en/worked-answers-en.qmd
+
+filters:
+  - filters/companion-links.lua
 
 bibliography: sources/bibliograph.bib
 suppress-bibliography: true

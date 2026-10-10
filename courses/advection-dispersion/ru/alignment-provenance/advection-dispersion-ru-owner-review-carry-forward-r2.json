@@ -1,0 +1,81 @@
+{
+  "id": "AD-RU-OWNER-REVIEW-CARRY-FORWARD-R2",
+  "language_owner": "BOOK Russian Editor",
+  "current_revision": "AD-RU-ALIGNED-2",
+  "source_revision": "AD-EN-PORTABILITY-3",
+  "source_alignment_receipt_sha256": "3b6dd0c22cc2de572684233266681d421c2a87c080dc59b0887f92dc3008259b",
+  "scientific_owner_review": {
+    "path": "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-russian-scientific-terminology-r1.json",
+    "sha256": "a29ce1f66a690d17ac2dd0901373b15ab393e82ee0a9a39f51ec84fe7d1221a6",
+    "reviewed_revision": "AD-RU-ALIGNED-1",
+    "accepted_scientific_terms": 44,
+    "required_corrections": []
+  },
+  "teaching_owner_review": {
+    "path": "/Users/openclaw/.bloks/artifacts/472bf7b3-5d12-4b2a-9e2d-9c6f5c59ec9f/advection-dispersion-russian-teaching-review-r1.json",
+    "sha256": "5b6bf287f05db526f2a42ee0acef7fc1f7d213f738d871848fb959c3d9ea8e17",
+    "reviewed_revision": "AD-RU-ALIGNED-1",
+    "disposition": "ACCEPTED_FOR_TEACHING_SEMANTICS_AND_GLOSSARY_TEACHING_SCOPE",
+    "required_corrections": [],
+    "glossary_rows_reviewed": 47,
+    "reserved_teaching_terms": [
+      "analytic rubric",
+      "open worked answers",
+      "unaided mastery"
+    ]
+  },
+  "actual_r2_carry_forward_checks": [
+    {
+      "path": "ru/student-packet-ru.qmd",
+      "reviewed_r1_sha256": "0b7f32be5f9726282e290e7b1d1e2ca49d2ec01fb59e40b9e8300ead15ba223c",
+      "r2_sha256": "212e954109991d8b2b955dbb53fced2f006b00fd293e88779b46d789c27a7856",
+      "carry_forward_check": "Only 17 accepted equivalent roman-label replacements"
+    },
+    {
+      "path": "ru/worked-answers-ru.qmd",
+      "reviewed_r1_sha256": "88b11b8d818f47fdee3caca0d4c76583e4c903d95a9a293b0e137e8e8e427326",
+      "r2_sha256": "712ba428abadc3d128d3e61bd554b5a07a8906c80aca7d4d78522d75f0995660",
+      "carry_forward_check": "Only 7 accepted equivalent roman-label replacements"
+    },
+    {
+      "path": "ru/curriculum-ru.md",
+      "reviewed_r1_sha256": "1b76e87931e555662e708dae8c6f016047ffee5e6d66d8aed8e0f25052370e89",
+      "r2_sha256": "1b76e87931e555662e708dae8c6f016047ffee5e6d66d8aed8e0f25052370e89",
+      "carry_forward_check": "Byte-identical"
+    },
+    {
+      "path": "ru/pilot-protocol-ru.md",
+      "reviewed_r1_sha256": "f011dc443ff26785a990934f4e887a35c24e567856ad28b3751adb6c61e425aa",
+      "r2_sha256": "f011dc443ff26785a990934f4e887a35c24e567856ad28b3751adb6c61e425aa",
+      "carry_forward_check": "Byte-identical"
+    },
+    {
+      "path": "ru/exercise-outcome-map.json",
+      "reviewed_r1_sha256": "3ef1f90fba8c3299dafb2562a6e51d608923c8f3c9b8ff431435f844145850b9",
+      "r2_sha256": "98493a39579e23e123ee420b37ad7a4295467fe56392110025b7f16b6f66bdb1",
+      "carry_forward_check": "Only revision/source-revision metadata changed; outcomes, IDs, dependencies, rubric and points unchanged"
+    },
+    {
+      "path": "ru/glossary.tsv",
+      "reviewed_r1_sha256": "1835606cfc920fee81c44f749a6d39a70fad3b10f050796ddf8d470cbbc3de6d",
+      "r2_sha256": "1835606cfc920fee81c44f749a6d39a70fad3b10f050796ddf8d470cbbc3de6d",
+      "carry_forward_check": "Byte-identical"
+    },
+    {
+      "path": "ru/README.md",
+      "reviewed_r1_sha256": "9fa840dc8265cd5fe25bef822bccb5a61cf592929c7b95205cdd5fc9839104d3",
+      "r2_sha256": "71f978f69d18db267cf0afdd7c0753ccdb9c2fcdb2f2bfcc331f9bdcb7045007",
+      "carry_forward_check": "Only revision/source-revision labels changed"
+    }
+  ],
+  "glossary_owner_reviews_complete_for_r1_definitions": true,
+  "r2_glossary_identical_to_reviewed_r1": true,
+  "r2_scope": "Accepted R1 scientific and teaching meanings carried forward through notation-only and revision metadata changes; not a newly asserted full independent R2 review.",
+  "historical_pending_status_cells": "Retained in frozen source; owner receipts and this additive reconciliation record supersede only terminology-review pending state.",
+  "remaining_gates": [
+    "EIC final integration acceptance",
+    "Russian rendered-readiness acceptance / independent Reviewer"
+  ],
+  "solver_build_learner_execution": false,
+  "frozen_sources_archives_or_receipts_modified": false
+}

@@ -1,0 +1,47 @@
+{
+  "revision": "AD-RU-INTEGRATED-1",
+  "owner_archive_sha256": "d0f9159ec5017dff4c00e866cb3d8d18da7205379e097955c4655114424a441f",
+  "source_scope": "frozen R1 translation carried through accepted meaning-equivalent roman-label correction",
+  "changes": [
+    {
+      "path": "courses/advection-dispersion/ru/fragments/appendix-b-advection-addition-ru.md",
+      "before_sha256": "8358a9598718a94f4c8d4d6aa224ef5f740bd892b4f313b70ec4d2cc310916cd",
+      "after_sha256": "86a82e3fd61f22f35b6a33455919c03835607de56d79d66072a73e8e6de19602",
+      "roman_label_replacements": 18,
+      "other_change": null
+    },
+    {
+      "path": "courses/advection-dispersion/ru/module-reading-ru.qmd",
+      "before_sha256": "d8001e4bcff96a3d3a9bcbca395eee685f0be8fcf1888745151117e4ccf238d8",
+      "after_sha256": "fb0999e0b5697c430975abf8d803e552150707d6e1e715ca37011e346291502d",
+      "roman_label_replacements": 18,
+      "other_change": "bibliography route only"
+    },
+    {
+      "path": "courses/advection-dispersion/ru/student-packet-ru.qmd",
+      "before_sha256": "0b7f32be5f9726282e290e7b1d1e2ca49d2ec01fb59e40b9e8300ead15ba223c",
+      "after_sha256": "212e954109991d8b2b955dbb53fced2f006b00fd293e88779b46d789c27a7856",
+      "roman_label_replacements": 17,
+      "other_change": null
+    },
+    {
+      "path": "courses/advection-dispersion/ru/worked-answers-ru.qmd",
+      "before_sha256": "88b11b8d818f47fdee3caca0d4c76583e4c903d95a9a293b0e137e8e8e427326",
+      "after_sha256": "712ba428abadc3d128d3e61bd554b5a07a8906c80aca7d4d78522d75f0995660",
+      "roman_label_replacements": 7,
+      "other_change": null
+    }
+  ],
+  "owner_originals_preserved": true,
+  "scientific_glossary_owner_review": "ACCEPTED_R1_UNCHANGED_DEFINITIONS_CARRY_FORWARD",
+  "teaching_glossary_owner_review": "ACCEPTED_R1_UNCHANGED_DEFINITIONS_CARRY_FORWARD",
+  "rendered_acceptance": "PASS_BOUNDED_EDITOR_R2; independent review pending",
+  "owner_current_revision": "AD-RU-ALIGNED-2",
+  "owner_current_archive_sha256": "d1f69b35eb510db776567f243187086e66fcc4363b27058f29fa0bdc12288e13",
+  "source_alignment": "R2 seven accepted source bodies carried forward; notation matches R3 English source",
+  "table_header_language_delta": "ACCEPTED",
+  "owner_receipts": {
+    "alignment-provenance/advection-dispersion-ru-handoff-reconciliation-r2.json": "ef53291285425f48aee6d87a544b05ab4400b443c0d5c69874199507af82607a",
+    "alignment-provenance/advection-dispersion-ru-table-header-reconciliation-r2.json": "099671590cdbb109ee8d5e833bc7c7094a03a41b27a92cd80f88455f71aaa005"
+  }
+}

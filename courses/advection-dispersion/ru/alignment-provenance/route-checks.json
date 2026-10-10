@@ -1,0 +1,361 @@
+{
+  "source_routes": [
+    {
+      "from": "ru/README.md",
+      "ref": "module-reading-ru.qmd",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/README.md",
+      "ref": "student-packet-ru.qmd",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/README.md",
+      "ref": "worked-answers-ru.qmd",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/README.md",
+      "ref": "curriculum-ru.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/README.md",
+      "ref": "exercise-outcome-map.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/README.md",
+      "ref": "pilot-protocol-ru.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/README.md",
+      "ref": "glossary.tsv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/README.md",
+      "ref": "reading-map.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/README.md",
+      "ref": "worksheets/",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/curriculum-ru.md",
+      "ref": "student-packet-ru.qmd",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/curriculum-ru.md",
+      "ref": "worked-answers-ru.qmd",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/curriculum-ru.md",
+      "ref": "pilot-protocol-ru.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/curriculum-ru.md",
+      "ref": "exercise-outcome-map.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/fragments/appendix-b-advection-addition-ru.md",
+      "ref": "../../model/results/scenario-summary.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/fragments/appendix-b-advection-addition-ru.md",
+      "ref": "../../model/results/steady-reference-profiles.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/fragments/appendix-b-advection-addition-ru.md",
+      "ref": "../../model/results/steady-spatial.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/fragments/appendix-b-advection-addition-ru.md",
+      "ref": "../../model/results/periodic-time.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/fragments/appendix-b-advection-addition-ru.md",
+      "ref": "../../model/results/verification.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/fragments/appendix-b-advection-addition-ru.md",
+      "ref": "../../model/results/observations-synthetic.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/fragments/appendix-b-advection-addition-ru.md",
+      "ref": "../../model/results/candidate-scores-open-answers.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/fragments/appendix-b-advection-addition-ru.md",
+      "ref": "../../model/no-python-readback.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/fragments/chapter08-advection-insertion-ru.md",
+      "ref": "../../model/results/scenario-summary.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/fragments/chapter08-advection-insertion-ru.md",
+      "ref": "appendix-b-advection-addition-ru.md#advection-dispersion-and-parent-loss",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/module-reading-ru.qmd",
+      "ref": "reading-map.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/module-reading-ru.qmd",
+      "ref": "curriculum-ru.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/module-reading-ru.qmd",
+      "ref": "../model/results/scenario-summary.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/module-reading-ru.qmd",
+      "ref": "#advection-dispersion-and-parent-loss",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/module-reading-ru.qmd",
+      "ref": "../model/results/scenario-summary.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/module-reading-ru.qmd",
+      "ref": "../model/results/steady-reference-profiles.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/module-reading-ru.qmd",
+      "ref": "../model/results/steady-spatial.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/module-reading-ru.qmd",
+      "ref": "../model/results/periodic-time.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/module-reading-ru.qmd",
+      "ref": "../model/results/verification.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/module-reading-ru.qmd",
+      "ref": "../model/results/observations-synthetic.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/module-reading-ru.qmd",
+      "ref": "../model/results/candidate-scores-open-answers.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/module-reading-ru.qmd",
+      "ref": "../model/no-python-readback.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/pilot-protocol-ru.md",
+      "ref": "curriculum-ru.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/pilot-protocol-ru.md",
+      "ref": "student-packet-ru.qmd",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "worked-answers-ru.qmd",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "curriculum-ru.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "pilot-protocol-ru.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/model-interface.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/metric-definitions.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/case-manifest.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/README.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/no-python-readback.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/SHA256SUMS.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/conservative-profiles.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/conservative-pulse-budget.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "worksheets/e03-budget-input.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/reactive-pulse-budget.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/reactive-profiles.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/steady-reference-profiles.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/steady-spatial.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/periodic-time.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/periodic-spreading.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/independent-refinement.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "worksheets/e04-scenario-worksheet.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "worksheets/e05-residual-worksheet.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/observations-synthetic.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/k0-synthetic-source-series.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/k1-synthetic-source-series.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/k2-synthetic-source-series.csv",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/results/synthetic-provenance.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/synthetic-inference-proposal.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/student-packet-ru.qmd",
+      "ref": "../model/contract-and-evidence/primary-boundary-and-e06-readback.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/worked-answers-ru.qmd",
+      "ref": "student-packet-ru.qmd",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/worked-answers-ru.qmd",
+      "ref": "curriculum-ru.md",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/worked-answers-ru.qmd",
+      "ref": "../model/results/verification.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/worked-answers-ru.qmd",
+      "ref": "evidence/editor-numerical-acceptance-r1.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/worked-answers-ru.qmd",
+      "ref": "evidence/editor-numerical-chronology-reconciliation-r1.json",
+      "exists_and_explicit_anchor_if_present": true
+    },
+    {
+      "from": "ru/worked-answers-ru.qmd",
+      "ref": "../model/results/candidate-residuals-open-answers.csv",
+      "exists_and_explicit_anchor_if_present": true
+    }
+  ],
+  "broken": [],
+  "rendered_routes_not_claimed": true
+}

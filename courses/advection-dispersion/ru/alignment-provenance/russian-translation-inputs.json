@@ -1,0 +1,78 @@
+{
+  "revision": "AD-RU-ALIGNED-2",
+  "source_revision": "AD-EN-PORTABILITY-3",
+  "inputs": {
+    "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r2/provenance/english-inputs/chapter08-advection-insertion.md": "ebadd829985b4d99d6678ca9fd1e4c222f248ea65bc29ebc721b644d090d6393",
+    "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r2/provenance/english-inputs/chapter10-advection-bridge.md": "4c72d10b8d404143b8a20a1873d47f178a1016a456b74c8903a1f3964726645f",
+    "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r2/provenance/english-inputs/appendix-b-advection-addition.md": "8dc6445ed904f904b5116d90299fed9aa7b4740425b2274208f8c1338d675c63",
+    "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r2/provenance/english-inputs/student-packet-en.qmd": "48416a6eb1045b5a7877afc1d5b6b9ab6ffbb2d78d33682f1f08e94065da86e5",
+    "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r2/provenance/english-inputs/worked-answers-en.qmd": "85692dc3c7fa5240a28ade8cc018f47260e1e5d947daf7d68077f6fe3e11fc0e",
+    "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r2/provenance/english-inputs/curriculum-en.md": "2046fc690eeb2e44daaba94b1f3bfa104a60a073bd17767b2dc9647f8d4b40ee",
+    "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r2/provenance/english-inputs/pilot-protocol-en.md": "1bd01dd3ea5b9bcc268a26f0da253d1c3828c3029900fca9f793f83f861250f3",
+    "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r2/provenance/english-inputs/exercise-outcome-map.json": "7ca08e33273142f8875678406f5688df8b6576ece66ca45a15d1c9cfe3461581",
+    "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r2/provenance/english-inputs/dependencies.json": "cbd5318670d72a27221c1fd39d70056de17b2c28419bedf926f733a7e3f35c0d"
+  },
+  "source_bindings": [
+    {
+      "input": "chapter08-advection-insertion.md",
+      "authority_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r3/source/chapters/08-the-equation.md",
+      "authority_sha256": "c8b5b4279aa6bc5013538f297610879d6e903feb2e24d92c7e0c1ae72c4daaf1",
+      "kind": "Original accepted scoped fragment, with R2 notation transform if applicable; exact contiguous R3 manuscript text",
+      "original_fragment_sha256": "ebadd829985b4d99d6678ca9fd1e4c222f248ea65bc29ebc721b644d090d6393",
+      "notation_replacements": 0
+    },
+    {
+      "input": "chapter10-advection-bridge.md",
+      "authority_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r3/source/chapters/10-the-water-planet.md",
+      "authority_sha256": "f97850823f880fefdb63a2d8880bb3512667cd09ca9fc7fae21fd8ace40155aa",
+      "kind": "Original accepted scoped fragment, with R2 notation transform if applicable; exact contiguous R3 manuscript text",
+      "original_fragment_sha256": "4c72d10b8d404143b8a20a1873d47f178a1016a456b74c8903a1f3964726645f",
+      "notation_replacements": 0
+    },
+    {
+      "input": "appendix-b-advection-addition.md",
+      "authority_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r3/source/appendices/b-model-toolkit.md",
+      "authority_sha256": "98cbf5d463d6c5a09068f0651cda578576dae8c80d9da465208b02858dc43c2e",
+      "kind": "Original accepted scoped fragment, with R2 notation transform if applicable; exact contiguous R3 manuscript text",
+      "original_fragment_sha256": "4d19a524bca93e7166bd1a5a70e724c43e80250b8a11ed370ab50dd5a4845c08",
+      "notation_replacements": 18
+    },
+    {
+      "input": "student-packet-en.qmd",
+      "authority_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r3/source/courses/advection-dispersion/en/student-packet-en.qmd",
+      "authority_sha256": "48416a6eb1045b5a7877afc1d5b6b9ab6ffbb2d78d33682f1f08e94065da86e5",
+      "kind": "Exact R3 teaching source"
+    },
+    {
+      "input": "worked-answers-en.qmd",
+      "authority_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r3/source/courses/advection-dispersion/en/worked-answers-en.qmd",
+      "authority_sha256": "85692dc3c7fa5240a28ade8cc018f47260e1e5d947daf7d68077f6fe3e11fc0e",
+      "kind": "Exact R3 teaching source"
+    },
+    {
+      "input": "curriculum-en.md",
+      "authority_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r3/source/courses/advection-dispersion/en/curriculum-en.md",
+      "authority_sha256": "2046fc690eeb2e44daaba94b1f3bfa104a60a073bd17767b2dc9647f8d4b40ee",
+      "kind": "Exact R3 teaching source"
+    },
+    {
+      "input": "pilot-protocol-en.md",
+      "authority_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r3/source/courses/advection-dispersion/en/pilot-protocol-en.md",
+      "authority_sha256": "1bd01dd3ea5b9bcc268a26f0da253d1c3828c3029900fca9f793f83f861250f3",
+      "kind": "Exact R3 teaching source"
+    },
+    {
+      "input": "exercise-outcome-map.json",
+      "authority_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r3/source/courses/advection-dispersion/en/exercise-outcome-map.json",
+      "authority_sha256": "7ca08e33273142f8875678406f5688df8b6576ece66ca45a15d1c9cfe3461581",
+      "kind": "Exact unchanged R3 machine map"
+    },
+    {
+      "input": "dependencies.json",
+      "authority_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r3/source/courses/advection-dispersion/en/dependencies.json",
+      "authority_sha256": "cbd5318670d72a27221c1fd39d70056de17b2c28419bedf926f733a7e3f35c0d",
+      "kind": "Exact unchanged R3 machine map"
+    }
+  ],
+  "predecessor_input_map_sha256": "a26f6dcb324a771f34367b75b8c515524f68678a9f62581fdd036337f63befbb"
+}

@@ -1,0 +1,36 @@
+{
+  "revision": "AD-CONTRACT-TEACHING-R1",
+  "status": "DRAFT_RECONCILED_FOR_EDITOR_CONTRACT_ACCEPTANCE",
+  "date": "2026-10-10",
+  "base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+  "input_sha256": {
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-contract-v0.1/README.md": "a28501c1b3661972b7d3045cbdeff76fcb95e688f29c0d48945c77cec15f7572",
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-contract-v0.1/analytical-checks.md": "a408fe1f73b51d34f4fc71002077aa45a1f05b6469ab45d872b9949bce27beb7",
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-contract-v0.1/benchmark-plan.md": "b6478ffc092a48e2ff60c2a7e9ed7297adc9b3cb3ae82a7d266611d176692ac7",
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-contract-v0.1/model-contract.md": "d890ac5b46c239a9b64bfadf1cf4a1af5bdb2ec7e97a56f34deb3333166df75e",
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-contract-v0.1/open-questions.md": "b892f8d946a36a29a9d7e7226231e6023b5eb078922c164eadbe9f717104de14",
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-contract-v0.1/proposed-additions.bib": "61f1985f1b6b2eea853f5ff52b8c7858b65720ef9c3bd26957780aa3c75c1454",
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-contract-v0.1/provenance.json": "8dfd46da1849ef2ffc0ffd5fdc9c017b067faf8079350bfe655ea93ba6ca87ef",
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-contract-v0.1/search-and-access.md": "eec531efe13549463db567b6d64226ab5d44a46539ddb96cf5d6827dbd567415",
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-contract-v0.1/source-to-claim.csv": "36bfbe22f9c66697af0833632a89409cc79ff8442112da1bb5e6502b01824614",
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-contract-v0.1/SHA256SUMS.json": "1faa5767578e39b769a534d84991418d9fd17170b46eeb82f4b5b968060a81c2",
+    "/Users/openclaw/.bloks/artifacts/472bf7b3-5d12-4b2a-9e2d-9c6f5c59ec9f/advection-dispersion-teaching-draft-v0.1/advection-dispersion-teaching-draft.md": "70169fc4b0c175a070aaeb22621aa59592f110d356709fa3e1928dff5b7fa38e",
+    "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/editor-preliminary-contract-readback.json": "dbb7c65bbee93fe774c299e86173ecbabb328b7eca233a7775e8544e30c59d73",
+    "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/teaching-intake-r1/editor-teaching-intake-r1.json": "cf2c99dc9922e635c30e810fde69f49639c44899e1966e206e0c4811b7657c2e"
+  },
+  "checks": {
+    "original_contract_files_unchanged": true,
+    "teaching_exact_hash_matches": true,
+    "six_exercise_dependency_reconciliation": true,
+    "interval_feed_and_scheme_budget_defined": true,
+    "spatial_and_temporal_observable_support_separated": true,
+    "synthetic_inference_residual_basis_defined": true,
+    "finite_boundary_and_auxiliary_references_distinguished": true,
+    "primary_boundary_and_E06_reopened": true
+  },
+  "solver_implemented": false,
+  "numerical_execution": false,
+  "field_validation": false,
+  "teaching_or_translation_frozen": false,
+  "implementation_authorized": false
+}

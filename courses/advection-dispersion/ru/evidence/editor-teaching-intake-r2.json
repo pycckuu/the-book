@@ -1,0 +1,53 @@
+{
+  "id": "AD-EDITOR-TEACHING-INTAKE-R2",
+  "created_at_utc": "2026-10-10T16:04:49.049474+00:00",
+  "owner_revision": "AD-TEACHING-DRAFT-0.2",
+  "disposition": "ACCEPTED_AS_CONTRACT_ALIGNED_PROMPT_AND_SYMBOLIC_DERIVATION_DRAFT",
+  "base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+  "contract_sha256": "d890ac5b46c239a9b64bfadf1cf4a1af5bdb2ec7e97a56f34deb3333166df75e",
+  "contract_acceptance_sha256": "f631b7406e415a49b153c55155d1b16cd31248f2389c613a4d3770590d3f8a5f",
+  "payload_hashes": {
+    "exercise-outcome-map.json": "bcae763067987cfb5662e6f998c3fabf1e509bbe45512308b3cc8a022f944be2",
+    "export-request.json": "e413699a77d4fb6bd7605895e4b3c07959901661296715c64347ebed0ea69131",
+    "open-derivation-notes-draft.md": "d0aa92bc574590897ae82c6c6cd2ecd10fcffc2d2e5bfdb7c1c40f9dd4beb57a",
+    "provenance.json": "3d90549a219c4b762906460745e40b53a780be02c1a0bbe17caee20effc80f55",
+    "student-prompts-draft.md": "516a730afaf529c49b177337ad3c1f8d13d510efd7c6eea82b0bd3e70efc5bea"
+  },
+  "independent_checks": {
+    "five_payload_hashes": "PASS",
+    "five_contract_dependency_pins": "PASS",
+    "six_exercise_outcome_IDs": "PASS",
+    "prerequisite_DAG": "PASS",
+    "rubric_100_points": "PASS",
+    "planned_270_minutes": "PASS_UNMEASURED",
+    "actual_frontmatter_title_anchors": "PASS",
+    "volume_velocity_flux_and_boundary_alignment": "PASS",
+    "update_consistent_budget_and_separate_auxiliary_references": "PASS",
+    "fixed_physical_pulse_and_own_dose_scenarios": "PASS",
+    "conditional_inference_and_steady_rescaling": "PASS",
+    "P02_numerical_generated_medium_scope": "PASS",
+    "open_attempt_first_and_no_Python_analysis_route": "PASS",
+    "shared_checkout": "CLEAN_AT_BASE"
+  },
+  "required_draft_corrections": [],
+  "publication_requirements": [
+    "Typeset mathematical symbols, powers and units with portable TeX in final Quarto readings; draft prose notation is not render acceptance.",
+    "Bound numerical tables and worksheets to the accepted executed package, with metric/tolerance definitions and matching observation support.",
+    "Supply actionable export paths/commands with the final companion archive and label spreadsheet analysis as supplied-output analysis."
+  ],
+  "pending": [
+    "Executed numerical verification and accepted default resolution",
+    "Verified numerical keys and metric/tolerance definitions",
+    "Complete runnable/source and no-Python companion assets",
+    "English freeze and Russian alignment",
+    "Independent rendered integration acceptance"
+  ],
+  "scope_exclusions": [
+    "Numerical result acceptance",
+    "Final student readiness",
+    "Empirical or learner validation",
+    "Translation freeze",
+    "Repository publication"
+  ],
+  "owner_export_coordination": "Learning Designer already delivered AD-EXPORT-REQUEST-0.2 to Scientist; not resent or treated as received acknowledgment."
+}

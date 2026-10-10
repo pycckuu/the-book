@@ -1,0 +1,38 @@
+{
+  "predecessor_revision": "AD-RU-ALIGNED-1",
+  "successor_revision": "AD-RU-ALIGNED-2",
+  "source_revision": "AD-EN-PORTABILITY-3",
+  "english_manifest_files_readback": 96,
+  "changed_translations": [
+    {
+      "path": "ru/fragments/appendix-b-advection-addition-ru.md",
+      "replacements": 18,
+      "before_sha256": "8358a9598718a94f4c8d4d6aa224ef5f740bd892b4f313b70ec4d2cc310916cd",
+      "after_sha256": "86a82e3fd61f22f35b6a33455919c03835607de56d79d66072a73e8e6de19602",
+      "all_other_bytes_unchanged": true
+    },
+    {
+      "path": "ru/student-packet-ru.qmd",
+      "replacements": 17,
+      "before_sha256": "0b7f32be5f9726282e290e7b1d1e2ca49d2ec01fb59e40b9e8300ead15ba223c",
+      "after_sha256": "212e954109991d8b2b955dbb53fced2f006b00fd293e88779b46d789c27a7856",
+      "all_other_bytes_unchanged": true
+    },
+    {
+      "path": "ru/worked-answers-ru.qmd",
+      "replacements": 7,
+      "before_sha256": "88b11b8d818f47fdee3caca0d4c76583e4c903d95a9a293b0e137e8e8e427326",
+      "after_sha256": "712ba428abadc3d128d3e61bd554b5a07a8906c80aca7d4d78522d75f0995660",
+      "all_other_bytes_unchanged": true
+    }
+  ],
+  "replacement_total": 42,
+  "derived_combined_reading_replacements": 18,
+  "notation_owner_receipt_sha256": "6289876b24ed2182a3a6f319c85bcf6e1d673a1277d6c296239e869ace3ad50c",
+  "english_build_receipt_sha256": "5717bf76809de45d88e446c54348a683241d68682ab80b4dfdbacbcf7a075674",
+  "seven_translation_bodies_otherwise_unchanged": true,
+  "glossary_symbol_claim_text_unchanged": true,
+  "numerical_execution": false,
+  "source_build_execution": false,
+  "Russian_rendered_acceptance": false
+}

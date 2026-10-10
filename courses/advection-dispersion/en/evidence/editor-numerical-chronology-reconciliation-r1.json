@@ -1,0 +1,18 @@
+{
+  "id": "AD-NUMERICAL-CHRONOLOGY-RECONCILIATION-R1",
+  "created_at_utc": "2026-10-10T16:35:24.537350+00:00",
+  "owner_revision": "AD-NUMERICS-1",
+  "accepted_receipt": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/numerical-intake-r1/editor-numerical-acceptance-r1.json",
+  "accepted_receipt_sha256": "93f9dea86f0009bf5c2d56b410693d1fa6ddc7ab48e843ea2c149a5eb4bb4664",
+  "owner_chronology_original": "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-supplement-to-numerics-reconciliation-v1.json",
+  "owner_chronology_sha256": "7fe39097c626322f88d6ea6e9c46470d2c8c2d05fc888f9e2fe014bc6aa67eb3",
+  "disposition": "NUMERICAL_DEFAULT_AND_TEACHING_INPUT_ACCEPTANCE_ALREADY_EFFECTIVE",
+  "history": "First formal FAIL was B04. The initial window checker passed baseline conservative/reactive only. More-dispersion storage excess at400000s was a diagnosed limitation, not a separately logged FAIL. Current all-four-case600000/800000 gate passes.",
+  "superseded_pending_scope": "Owner chronology pending-numerical/default statements are superseded by the separately pinned Editor numerical acceptance; original owner receipt retained unchanged.",
+  "next_gate": "English manuscript and teaching package source acceptance; then Russian alignment and final rendered independent review.",
+  "native_handoffs": {
+    "Learning Designer": "queued in existing task80b5cb01-521e-4843-abc9-91821c420220, no recipient readback claimed",
+    "Modeling Scientist": "queued in existing taske4c34916-aa52-4438-b241-fd03044cbf99, no recipient readback claimed"
+  },
+  "new_runs_or_source_changes": false
+}

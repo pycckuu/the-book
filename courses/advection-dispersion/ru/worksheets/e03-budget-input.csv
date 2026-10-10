@@ -1,0 +1,2 @@
+case_id,t_left_s,t_right_s,F_in_interval_average,F_out_right_endpoint,M_previous,M_next,k_s_inv
+reactive,99900.0,100000.0,0.0,2.5727811468430794e-07,0.012875836847720366,0.012837271764487465,1e-5

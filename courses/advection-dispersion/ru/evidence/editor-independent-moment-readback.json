@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "scope": "Saved outlet interval moments reconstructed with midpoint variance plus interval dt^2/12, and own cumulative quantile sums; no solver invocation",
+  "cases": [
+    {
+      "case": "conservative",
+      "mean_time_s": 109999.85811759441,
+      "width_time_s": 43165.60890170388,
+      "quantiles": {
+        "0.1": 63338.79104370371,
+        "0.5": 102018.56441622657,
+        "0.9": 166862.78491317105
+      }
+    },
+    {
+      "case": "reactive",
+      "mean_time_s": 95586.80712275904,
+      "width_time_s": 34496.12780027453,
+      "quantiles": {
+        "0.1": 57583.04444665522,
+        "0.5": 89707.27844393134,
+        "0.9": 141112.3494561265
+      }
+    },
+    {
+      "case": "faster-flow",
+      "mean_time_s": 59999.99999999631,
+      "width_time_s": 16776.71998267754,
+      "quantiles": {
+        "0.1": 40371.29454997855,
+        "0.5": 58033.125803137555,
+        "0.9": 82077.9300619767
+      }
+    },
+    {
+      "case": "more-dispersion",
+      "mean_time_s": 109982.41260897365,
+      "width_time_s": 57047.83052745902,
+      "quantiles": {
+        "0.1": 52527.74082803266,
+        "0.5": 96776.7124365339,
+        "0.9": 184432.24857064657
+      }
+    }
+  ]
+}

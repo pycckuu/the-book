@@ -1,0 +1,161 @@
+{
+  "id": "AD-RU-SCIENTIFIC-TERMINOLOGY-R1",
+  "created_at_utc": "2026-10-10T17:08:08.858906+00:00",
+  "reviewed_revision": "AD-RU-ALIGNED-1",
+  "english_dependency": "AD-EN-INTEGRATED-1",
+  "disposition": "ACCEPTED_FOR_BOUNDED_SCIENTIFIC_TERMINOLOGY_AND_CLAIM_ALIGNMENT",
+  "source_root": "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r1",
+  "pins": {
+    "ru/glossary.tsv": "1835606cfc920fee81c44f749a6d39a70fad3b10f050796ddf8d470cbbc3de6d",
+    "provenance/symbol-alignment.tsv": "58e9ce621d1f40bcccff9b62041093fd2682a1faab71abb3632517c828942d93",
+    "provenance/claim-alignment.json": "bcfe5c2665bdcd651ef116c4e7715aca307848659a75e677bc7c88bde9caf60f",
+    "provenance/block-alignment.json": "54b20b3d3c07905ae1db5c260029300ff97be996989eddde3dbc068d85601e72",
+    "provenance/russian-translation-inputs.json": "a26f6dcb324a771f34367b75b8c515524f68678a9f62581fdd036337f63befbb",
+    "SHA256SUMS.json": "1158c8b7edfe2700c1f337ec6b4c7a5e6758537e0e012939afc1248383db1a73",
+    "RUSSIAN-ALIGNMENT-RECEIPT.json": "412cffac3bed6f0a62250c09eb9808c3c33b9e8023f6d2171df8db8c55671e13"
+  },
+  "scientific_glossary_terms_accepted": [
+    "advection",
+    "hydrodynamic dispersion",
+    "longitudinal dispersion coefficient",
+    "spreading",
+    "porewater velocity",
+    "Darcy flux",
+    "resident concentration",
+    "flux-normalized concentration",
+    "bulk volume",
+    "bulk cross-sectional area",
+    "mobile porosity",
+    "total solute flux",
+    "known total-flux inlet",
+    "zero-gradient outlet",
+    "boundary closure",
+    "parent",
+    "aggregate parent disappearance",
+    "loss constant",
+    "signed bulk source",
+    "inventory / storage",
+    "injected dose",
+    "cumulative export",
+    "recovery",
+    "half-open pulse",
+    "interval-average inlet flux",
+    "update-consistent increments",
+    "finite-volume cell average",
+    "upwind scheme",
+    "backward Euler",
+    "semidiscrete reference",
+    "continuum reference",
+    "numerical diffusion",
+    "exported-mass quantile",
+    "temporal width",
+    "resident spatial width",
+    "washout",
+    "observation support",
+    "signed residual",
+    "equal-weight RMSE",
+    "conditional inference",
+    "structural ambiguity",
+    "pre-asymptotic behavior",
+    "numerical verification",
+    "independent validation"
+  ],
+  "scientific_terms_count": 44,
+  "terms_reserved_to_learning_designer": [
+    "analytic rubric",
+    "open worked answers",
+    "unaided mastery"
+  ],
+  "assessments": [
+    "Resident C is per modeled water volume, phi*C and -phi*k*C per bulk volume; inventory and total molar flux use bulk area.",
+    "u differs from v_D=phi*u; D_L is combined and excludes phi; k is parent-loss constant, distinct from legacy permeability.",
+    "Flux-normalized C_F is defined for positive Darcy flux and equals resident concentration only at the adopted zero-gradient outlet.",
+    "Known total-flux inlet, half-open feed and exact interval overlap preserve dose; BE increments, remaining storage and own-dose normalization retained.",
+    "Parent disappearance is distinct from mineralization, products, elemental conservation, microbial attribution and water safety.",
+    "Conditional export quantiles/time widths and resident inventory widths have different supports; zero normalization remains undefined.",
+    "Synthetic three-k comparison, residual sign, grid-generation mismatch, scaling ambiguity and bounded Gouze numerical evidence retain their limits.",
+    "B04 formal first failure and earlier more-dispersion storage/window limitation remain correctly distinguished."
+  ],
+  "manual_claim_scope": "Read all three scientific fragments and scientific blocks named by claim-alignment.json in student/answer readings. The seven-document hashes and math sequences were also independently checked. This is not a full teaching/rubric or linguistic review.",
+  "documents": [
+    {
+      "english_input": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/scientific-manuscript-intake-r1/frozen-owner-package/chapter08-advection-insertion.md",
+      "english_sha256": "ebadd829985b4d99d6678ca9fd1e4c222f248ea65bc29ebc721b644d090d6393",
+      "russian_output": "ru/fragments/chapter08-advection-insertion-ru.md",
+      "russian_sha256": "d807857586e178706b2897f1ee95fe337dee25d7f4d65bfcfb700b9a74fe85ac",
+      "trimmed_block_hashes": "PASS",
+      "aligned_blocks": 12,
+      "exact_math_occurrences": 21
+    },
+    {
+      "english_input": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/scientific-manuscript-intake-r1/frozen-owner-package/chapter10-advection-bridge.md",
+      "english_sha256": "4c72d10b8d404143b8a20a1873d47f178a1016a456b74c8903a1f3964726645f",
+      "russian_output": "ru/fragments/chapter10-advection-bridge-ru.md",
+      "russian_sha256": "3c2070a8d95e502de51c2036f397ba18107139805ed4e9ea659fa5d3330640fc",
+      "trimmed_block_hashes": "PASS",
+      "aligned_blocks": 4,
+      "exact_math_occurrences": 0
+    },
+    {
+      "english_input": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/scientific-manuscript-intake-r1/frozen-owner-package/appendix-b-advection-addition.md",
+      "english_sha256": "4d19a524bca93e7166bd1a5a70e724c43e80250b8a11ed370ab50dd5a4845c08",
+      "russian_output": "ru/fragments/appendix-b-advection-addition-ru.md",
+      "russian_sha256": "8358a9598718a94f4c8d4d6aa224ef5f740bd892b4f313b70ec4d2cc310916cd",
+      "trimmed_block_hashes": "PASS",
+      "aligned_blocks": 51,
+      "exact_math_occurrences": 131
+    },
+    {
+      "english_input": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r1/source/courses/advection-dispersion/en/student-packet-en.qmd",
+      "english_sha256": "afc490a5dddbcfb830be8181d17d2a5e20f11d5f3404a5b75b3aa93983663015",
+      "russian_output": "ru/student-packet-ru.qmd",
+      "russian_sha256": "0b7f32be5f9726282e290e7b1d1e2ca49d2ec01fb59e40b9e8300ead15ba223c",
+      "trimmed_block_hashes": "PASS",
+      "aligned_blocks": 62,
+      "exact_math_occurrences": 120
+    },
+    {
+      "english_input": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r1/source/courses/advection-dispersion/en/worked-answers-en.qmd",
+      "english_sha256": "ffab7ad227894941f24b0fd05b093723c20ddde3e75511985111de68bddcbae9",
+      "russian_output": "ru/worked-answers-ru.qmd",
+      "russian_sha256": "88b11b8d818f47fdee3caca0d4c76583e4c903d95a9a293b0e137e8e8e427326",
+      "trimmed_block_hashes": "PASS",
+      "aligned_blocks": 54,
+      "exact_math_occurrences": 135
+    },
+    {
+      "english_input": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r1/source/courses/advection-dispersion/en/curriculum-en.md",
+      "english_sha256": "2046fc690eeb2e44daaba94b1f3bfa104a60a073bd17767b2dc9647f8d4b40ee",
+      "russian_output": "ru/curriculum-ru.md",
+      "russian_sha256": "1b76e87931e555662e708dae8c6f016047ffee5e6d66d8aed8e0f25052370e89",
+      "trimmed_block_hashes": "PASS",
+      "aligned_blocks": 19,
+      "exact_math_occurrences": 4
+    },
+    {
+      "english_input": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r1/source/courses/advection-dispersion/en/pilot-protocol-en.md",
+      "english_sha256": "1bd01dd3ea5b9bcc268a26f0da253d1c3828c3029900fca9f793f83f861250f3",
+      "russian_output": "ru/pilot-protocol-ru.md",
+      "russian_sha256": "f011dc443ff26785a990934f4e887a35c24e567856ad28b3751adb6c61e425aa",
+      "trimmed_block_hashes": "PASS",
+      "aligned_blocks": 15,
+      "exact_math_occurrences": 1
+    }
+  ],
+  "totals": {
+    "pinned_documents": 7,
+    "aligned_trimmed_blocks": 217,
+    "exact_math_occurrences": 412
+  },
+  "required_scientific_corrections": [],
+  "notation_successor": "English R2 changes 42 roman-label spellings only, separately accepted in AD-SCIENTIFIC-NOTATION-EQUIVALENCE-R2. Carry forward these definitions; apply the equivalent scoped mathrm spellings and update Russian provenance before claiming alignment to R2. This receipt pins R1, not a not-yet-inspected Russian successor.",
+  "not_claimed": [
+    "Final EIC Russian acceptance",
+    "Rendered glyph/readiness acceptance",
+    "Learning Designer terminology/rubric acceptance",
+    "Learner outcomes",
+    "Empirical validation"
+  ],
+  "numerical_execution": false,
+  "shared_or_frozen_source_edits": false
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "case_id": "conservative",
+    "coefficients": {
+      "L_m": 1.0,
+      "phi_dimensionless": 0.3,
+      "u_m_s_porewater": 1e-05,
+      "v_D_m_s_bulk_area": 3e-06,
+      "D_L_m2_s_excluding_phi": 1e-06,
+      "k_s_inv": 0.0,
+      "C_ref_mol_m3_water": 1.0,
+      "T_p_s": 20000.0
+    },
+    "coefficient_record_sha256": "7050a84b6c8b0d7922591657e3919d68378fb7caef449ee748a2f397e82a90ed",
+    "N": 400,
+    "h_m": 0.0025,
+    "dt_s": 100.0,
+    "end_s": 600000.0,
+    "IC": "zero cell averages",
+    "inlet": "known total mass flux; exact rectangular feed overlap",
+    "outlet": "zero dispersive gradient; advective export",
+    "synthetic": true,
+    "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+    "contract_sha256": "d890ac5b46c239a9b64bfadf1cf4a1af5bdb2ec7e97a56f34deb3333166df75e",
+    "metric_definitions_sha256": "a0489e5a7be6ac402dbd1983fbd6035cbda34e7cde2bf0cdf68221acbab79ed0",
+    "output_sha256": {
+      "conservative-face-fluxes.csv": "906306f345caa0fd2d72d1671af59a2a84481dbc6c9328fa0fc94f02269776d0",
+      "conservative-profiles.csv": "44af1239236c0e3b1acbec8a158b77946c3a8f12af276adbe86f4f1c0a20019d",
+      "conservative-pulse-budget.csv": "5614d38435ef3dee9fc10fc9d66d9c483233df26fcde0feb7d746ded462cb4fd"
+    }
+  },
+  {
+    "case_id": "reactive",
+    "coefficients": {
+      "L_m": 1.0,
+      "phi_dimensionless": 0.3,
+      "u_m_s_porewater": 1e-05,
+      "v_D_m_s_bulk_area": 3e-06,
+      "D_L_m2_s_excluding_phi": 1e-06,
+      "k_s_inv": 1e-05,
+      "C_ref_mol_m3_water": 1.0,
+      "T_p_s": 20000.0
+    },
+    "coefficient_record_sha256": "0a4a58e4e299222fdbe26ad257e01bca7a4b56354953ff8fe1973dd614e99ba6",
+    "N": 400,
+    "h_m": 0.0025,
+    "dt_s": 100.0,
+    "end_s": 600000.0,
+    "IC": "zero cell averages",
+    "inlet": "known total mass flux; exact rectangular feed overlap",
+    "outlet": "zero dispersive gradient; advective export",
+    "synthetic": true,
+    "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+    "contract_sha256": "d890ac5b46c239a9b64bfadf1cf4a1af5bdb2ec7e97a56f34deb3333166df75e",
+    "metric_definitions_sha256": "a0489e5a7be6ac402dbd1983fbd6035cbda34e7cde2bf0cdf68221acbab79ed0",
+    "output_sha256": {
+      "reactive-face-fluxes.csv": "7de9e53b6911499af0935726b55a1edb34ec41bfcb6507a057e8bf4dd885871a",
+      "reactive-profiles.csv": "a3317c399baa035722a9c19a8bbbd968b2a188923488fa93f93f377710e51b25",
+      "reactive-pulse-budget.csv": "f67a57a7bedd5090084490bc5e72bf9e2ce6d378f13c39944c75a588415cf025"
+    }
+  },
+  {
+    "case_id": "faster-flow",
+    "coefficients": {
+      "L_m": 1.0,
+      "phi_dimensionless": 0.3,
+      "u_m_s_porewater": 2e-05,
+      "v_D_m_s_bulk_area": 6e-06,
+      "D_L_m2_s_excluding_phi": 1e-06,
+      "k_s_inv": 0.0,
+      "C_ref_mol_m3_water": 1.0,
+      "T_p_s": 20000.0
+    },
+    "coefficient_record_sha256": "1fc8c803e53ec1caf0be7930556f22f981573ec97ac7646f525dc7d2f0425aec",
+    "N": 400,
+    "h_m": 0.0025,
+    "dt_s": 100.0,
+    "end_s": 600000.0,
+    "IC": "zero cell averages",
+    "inlet": "known total mass flux; exact rectangular feed overlap",
+    "outlet": "zero dispersive gradient; advective export",
+    "synthetic": true,
+    "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+    "contract_sha256": "d890ac5b46c239a9b64bfadf1cf4a1af5bdb2ec7e97a56f34deb3333166df75e",
+    "metric_definitions_sha256": "a0489e5a7be6ac402dbd1983fbd6035cbda34e7cde2bf0cdf68221acbab79ed0",
+    "output_sha256": {
+      "faster-flow-face-fluxes.csv": "9cada9db3109fbc33770c8a2ba3e42a7e9aa997d95505df57109fccd54298b0d",
+      "faster-flow-profiles.csv": "0b93e02ff1d63112bb9a69d2f1f1a20b296230ec0d08ef0db517613fb699e6dd",
+      "faster-flow-pulse-budget.csv": "a953ed775834f50383cf6da4b66342c9c6d53a47b5861f4e05f70b5a512dd270"
+    }
+  },
+  {
+    "case_id": "more-dispersion",
+    "coefficients": {
+      "L_m": 1.0,
+      "phi_dimensionless": 0.3,
+      "u_m_s_porewater": 1e-05,
+      "v_D_m_s_bulk_area": 3e-06,
+      "D_L_m2_s_excluding_phi": 2e-06,
+      "k_s_inv": 0.0,
+      "C_ref_mol_m3_water": 1.0,
+      "T_p_s": 20000.0
+    },
+    "coefficient_record_sha256": "5962391b79014d937424e197750f61babdc5f6af7d97ba716bc3657a27f8e659",
+    "N": 400,
+    "h_m": 0.0025,
+    "dt_s": 100.0,
+    "end_s": 600000.0,
+    "IC": "zero cell averages",
+    "inlet": "known total mass flux; exact rectangular feed overlap",
+    "outlet": "zero dispersive gradient; advective export",
+    "synthetic": true,
+    "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+    "contract_sha256": "d890ac5b46c239a9b64bfadf1cf4a1af5bdb2ec7e97a56f34deb3333166df75e",
+    "metric_definitions_sha256": "a0489e5a7be6ac402dbd1983fbd6035cbda34e7cde2bf0cdf68221acbab79ed0",
+    "output_sha256": {
+      "more-dispersion-face-fluxes.csv": "2f7df7f1a322f12262aa45947e7cb6514a614bcc29917678c79420152baec599",
+      "more-dispersion-profiles.csv": "e26b6a2e3ae6ed21aae7b931e7421ec8bc5eb5e8987578fb3e2b0e4a4522db9d",
+      "more-dispersion-pulse-budget.csv": "9cbd99c5bcb9214ba71f24b568cf1b8b84750c7b09c0f630d5259dfdaee2cf8a"
+    }
+  }
+]

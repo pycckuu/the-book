@@ -1,0 +1,9 @@
+observation_id,synthetic_truth_case_id,t_left_s,t_right_s,observable,y,units,synthetic_flag,noise_definition,sigma
+S1,reactive-refined,30000.0,40000.0,outlet interval-mean flux-normalized concentration,0.006719627392032368,mol m^-3 porewater,True,none; deterministic FV/BE reference,
+S2,reactive-refined,50000.0,60000.0,outlet interval-mean flux-normalized concentration,0.06123065939811325,mol m^-3 porewater,True,none; deterministic FV/BE reference,
+S3,reactive-refined,70000.0,80000.0,outlet interval-mean flux-normalized concentration,0.10645718977361177,mol m^-3 porewater,True,none; deterministic FV/BE reference,
+S4,reactive-refined,90000.0,100000.0,outlet interval-mean flux-normalized concentration,0.09375048017945811,mol m^-3 porewater,True,none; deterministic FV/BE reference,
+S5,reactive-refined,110000.0,120000.0,outlet interval-mean flux-normalized concentration,0.061055895330644185,mol m^-3 porewater,True,none; deterministic FV/BE reference,
+S6,reactive-refined,140000.0,150000.0,outlet interval-mean flux-normalized concentration,0.02475059425048662,mol m^-3 porewater,True,none; deterministic FV/BE reference,
+S7,reactive-refined,180000.0,190000.0,outlet interval-mean flux-normalized concentration,0.005997608102495209,mol m^-3 porewater,True,none; deterministic FV/BE reference,
+S8,reactive-refined,240000.0,250000.0,outlet interval-mean flux-normalized concentration,0.0006029558023780767,mol m^-3 porewater,True,none; deterministic FV/BE reference,

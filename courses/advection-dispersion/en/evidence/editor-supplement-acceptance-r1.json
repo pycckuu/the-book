@@ -1,0 +1,46 @@
+{
+  "id": "AD-CONTRACT-TEACHING-SUPPLEMENT-ACCEPTANCE-R1",
+  "created_at_utc": "2026-10-10T16:09:04.894097+00:00",
+  "disposition": "ACCEPTED_FOR_BOUNDED_IMPLEMENTATION_AND_EXPORTS",
+  "base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+  "contract_revision": "AD-CONTRACT-0.1",
+  "contract_sha256": "d890ac5b46c239a9b64bfadf1cf4a1af5bdb2ec7e97a56f34deb3333166df75e",
+  "prior_implementation_acceptance_sha256": "f631b7406e415a49b153c55155d1b16cd31248f2389c613a4d3770590d3f8a5f",
+  "supplement": "AD-CONTRACT-TEACHING-R1",
+  "manifest_sha256": "4cacd8c732d2ecb36613355136da75cfed748dc3d72a2c35c361e8143ec05965",
+  "LD_reconciliation_sha256": "0a589d8952235ac63fee7f6a57e9b66929b43aa6be21a91cf98ef8efd51a242d",
+  "checks": {
+    "manifest_payloads": 5,
+    "archive_payloads": 6,
+    "input_pins": 13,
+    "archive_crc": "PASS",
+    "LD_source_pins": "PASS",
+    "checkout": "CLEAN_AT_BASE"
+  },
+  "chronology": "Original contract was already accepted for bounded implementation. Supplement statements that implementation is unauthorized/pending are predecessor status, superseded by the prior Editor receipt and this additive acceptance. Immutable owner documents preserved unchanged.",
+  "accepted_definitions": [
+    "Half-open pulse and exact interval overlap; scheme-compatible right-endpoint outlet/loss budgets.",
+    "Known total inlet required; inlet advective/dispersive split null unless a declared boundary reconstruction is supplied.",
+    "Exported-mass quantiles and interval-reconstructed temporal moments conditional on window/exported amount; no sharp first-arrival metric for positive dispersion.",
+    "Reconstructed resident spatial centroid/variance includes cell internal h^2/12 term, undefined at zero storage; distinct from breakthrough temporal width.",
+    "Recovery/loss/storage normalized by each actual dose, retaining absolute dose and remaining storage.",
+    "Four illustrative core scenarios: conservative and reactive baseline; conservative 2u and 2D_L, fixed physical pulse duration and other physical inputs.",
+    "E05 only candidate k changes with fixed known transport/feed and identical observation intervals; synthetic truth/noise provenance explicit.",
+    "Export schema and bounded P02 E06 scope compatible with teaching0.2; no workload/ID/rubric change."
+  ],
+  "accepted_pre_run_targets": {
+    "metric_refinement": "abs(refined-base)<=0.02*max(abs(refined),floor); floors 0.01*C_ref peak, 0.01*tau_a time/temporal width, 0.01*L spatial width.",
+    "fraction_accuracy": "Absolute refinement change <=0.005 for recovery/loss/storage fractions; distinct from algebraic budget residual.",
+    "conservative_washout": "Storage/input <=0.001 plus quantile/width stability under extended window. Otherwise label finite-window metrics.",
+    "original_gates": "Retain original B01-B08 residual/positivity/smooth-order and independent grid/time/profile accuracy gates. Declare profile norm/normalization and zero branch before default selection.",
+    "qualification": "Targets are verification requirements, not observed passes. No mesh/time/window default is accepted yet; record failures and cost."
+  },
+  "required_draft_corrections": [],
+  "next_required_deliverable": "One frozen implemented and executed scientific package with code, inputs, profiles/flux/budgets/checks, independent refinements, bounded scenarios and synthetic observation/residual support.",
+  "not_claimed": [
+    "Executed solver or numerical pass",
+    "Student-ready numerical keys or English/Russian freeze",
+    "Field or learner validation",
+    "New repository publication or merge authority"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "command": [
+    "python3",
+    "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-model-v1/advection_model.py",
+    "--out",
+    "/Users/openclaw/.bloks/workspaces/aebf6c99-2109-4153-972e-63c58e71bd8f/tmp/advection-cli-smoke-v1",
+    "--n",
+    "20",
+    "--dt",
+    "7000",
+    "--end",
+    "42000",
+    "--k",
+    "0.00001"
+  ],
+  "exit_code": 0,
+  "scope": "Documented single-case CLI smoke, finite flux/open boundary, partial window; not full default verification",
+  "report": {
+    "parameters": {
+      "L": 1.0,
+      "phi": 0.3,
+      "u": 1e-05,
+      "D": 1e-06,
+      "k": 1e-05,
+      "C_ref": 1.0,
+      "Tp": 20000.0
+    },
+    "report": {
+      "initial_inventory": 0.0,
+      "final_inventory": 0.04095984499899319,
+      "input": 0.060000000000000005,
+      "export": 0.0019457145525973638,
+      "disappeared": 0.017094440448409486,
+      "min_C": 0.0,
+      "max_C": 0.6836032066646516,
+      "negative_value_count": 0,
+      "nonzero_amount_scale": 0.3,
+      "max_step_residual": 1.235990476633475e-17,
+      "max_cumulative_residual": 3.382710778154774e-17,
+      "max_step_residual_scaled": 4.119968255444917e-17,
+      "max_cumulative_residual_scaled": 1.1275702593849246e-16,
+      "max_linear_residual_scaled": 1.1690304598755942e-16,
+      "grid_n": 20,
+      "dt_s": 7000.0,
+      "end_s": 42000.0,
+      "step_count": 7,
+      "boundary": "finite_flux_inlet_open_exit"
+    },
+    "metrics": {
+      "peak_C": 0.04207849049597343,
+      "peak_time_s": 42000.0,
+      "input_mol_m2": 0.060000000000000005,
+      "export_fraction": 0.03242857587662273,
+      "loss_fraction": 0.2849073408068247,
+      "storage_fraction": 0.6826640833165531,
+      "quantile_normalization": "mass exported within reported observation window",
+      "t10_s": 20978.58958930487,
+      "t50_s": 33908.387136214245,
+      "t90_s": 40430.250656983495,
+      "mean_time_s": 31925.50627655598,
+      "width_time_s": 7719.48954340261
+    }
+  }
+}
