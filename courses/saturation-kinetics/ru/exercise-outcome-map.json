@@ -1,0 +1,137 @@
+{
+  "revision": "SK-TEACHING-1.0-RU-ALIGNED-1",
+  "status": "ALIGNED_TO_SAT_EN_SOURCE_FREEZE_1_RUSSIAN_OWNER_INTEGRATION_RENDER_GATES_PENDING",
+  "source_base": "c7593acde2386107fc85105df54ee9f493e03e6f",
+  "exercises": [
+    {
+      "id": "SK-E01",
+      "outcome_id": "SK-LO01",
+      "outcome": "Различить механистическую, эмпирическую интерпретации и интерпретацию с постоянной предельной скоростью для отклика с насыщением.",
+      "points": 15,
+      "rubric": {
+        "response_observable": 6,
+        "mechanistic_empirical_claim": 6,
+        "fixed_capacity_scope": 3
+      },
+      "dependencies": [],
+      "session_minutes": 20,
+      "student_path": "student-packet.md",
+      "answer_path": "OPEN-worked-answers.md",
+      "required_cases": []
+    },
+    {
+      "id": "SK-E02",
+      "outcome_id": "SK-LO02",
+      "outcome": "Интерпретировать полунасыщение, предельные режимы и принятые единицы скорости/концентрации/количества.",
+      "points": 20,
+      "rubric": {
+        "curve_half_saturation": 5,
+        "limits": 6,
+        "units_basis": 6,
+        "parameter_meaning": 3
+      },
+      "dependencies": [
+        "SK-E01"
+      ],
+      "session_minutes": 25,
+      "student_path": "student-packet.md",
+      "answer_path": "OPEN-worked-answers.md",
+      "required_cases": []
+    },
+    {
+      "id": "SK-E03",
+      "outcome_id": "SK-LO03",
+      "outcome": "Вывести и интерпретировать расходование субстрата и накопленное потребление в закрытой системе.",
+      "points": 25,
+      "rubric": {
+        "signed_inventory": 9,
+        "cumulative_accounting": 6,
+        "controlled_predictions": 7,
+        "ledger_limits": 3
+      },
+      "dependencies": [
+        "SK-E02"
+      ],
+      "session_minutes": 25,
+      "student_path": "student-packet.md",
+      "answer_path": "OPEN-worked-answers.md",
+      "required_cases": [
+        "low",
+        "high"
+      ]
+    },
+    {
+      "id": "SK-E04",
+      "outcome_id": "SK-LO04",
+      "outcome": "Оценить сохранённые обновления, аналитические сравнения, уточнение точности и неотрицательность.",
+      "points": 25,
+      "rubric": {
+        "saved_ledger": 8,
+        "analytical_comparison": 7,
+        "refinement": 6,
+        "positivity_failures": 4
+      },
+      "dependencies": [
+        "SK-E03"
+      ],
+      "session_minutes": 30,
+      "student_path": "student-packet.md",
+      "answer_path": "OPEN-worked-answers.md",
+      "required_cases": [
+        "low"
+      ]
+    },
+    {
+      "id": "SK-E05",
+      "outcome_id": "SK-LO05",
+      "outcome": "Разобрать информацию о параметрах, утверждения о механизме и перенос на природные системы.",
+      "points": 15,
+      "rubric": {
+        "mechanism_growth": 5,
+        "parameter_information": 5,
+        "independent_measurement": 3,
+        "natural_validity": 2
+      },
+      "dependencies": [
+        "SK-E04"
+      ],
+      "session_minutes": 15,
+      "student_path": "student-packet.md",
+      "answer_path": "OPEN-worked-answers.md",
+      "required_cases": []
+    }
+  ],
+  "required_prerequisites": [
+    "концентрация и количество",
+    "единицы скорости и знак расходования",
+    "производные и экспоненциальное убывание",
+    "арифметика и графики в электронной таблице"
+  ],
+  "optional_previous_outcomes": [
+    "O2-LO1",
+    "O2-LO2",
+    "O2-LO3",
+    "AD-LO2",
+    "AD-LO3"
+  ],
+  "total_points": 100,
+  "planned_minutes": {
+    "prework": 25,
+    "session_with_break": 125,
+    "followup": 60,
+    "total": 210,
+    "optional_bridge_extra": 15
+  },
+  "mastery_proposal": {
+    "points_at_least": 70,
+    "gates": [
+      "база отнесения скорости и объёма со знаком расходования",
+      "механизм, эмпирическая форма и постоянная предельная скорость различаются",
+      "верификация не устанавливает обоснованность в природных условиях"
+    ]
+  },
+  "open_answers": true,
+  "numerical_keys": "BOUND_TO_ACCEPTED_SAT_NUMERICS_1",
+  "learner_evidence": "НЕТ; пилот не проведён",
+  "numerical_acceptance_sha256": "1389a73c043b00bcd8094e8ea755f0b7252fa9a78d0458f37a28c71bca6fa181"
+}

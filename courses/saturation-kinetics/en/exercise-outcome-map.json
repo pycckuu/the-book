@@ -1,0 +1,137 @@
+{
+  "revision": "SK-TEACHING-1.0-EN-SOURCE-CANDIDATE",
+  "status": "NUMERICAL_INPUTS_ACCEPTED_ENGLISH_INTEGRATION_RENDERING_PENDING",
+  "source_base": "c7593acde2386107fc85105df54ee9f493e03e6f",
+  "exercises": [
+    {
+      "id": "SK-E01",
+      "outcome_id": "SK-LO01",
+      "outcome": "Distinguish mechanistic, empirical and fixed-capacity interpretations of a saturating response.",
+      "points": 15,
+      "rubric": {
+        "response_observable": 6,
+        "mechanistic_empirical_claim": 6,
+        "fixed_capacity_scope": 3
+      },
+      "dependencies": [],
+      "session_minutes": 20,
+      "student_path": "student-packet.md",
+      "answer_path": "OPEN-worked-answers.md",
+      "required_cases": []
+    },
+    {
+      "id": "SK-E02",
+      "outcome_id": "SK-LO02",
+      "outcome": "Interpret half-saturation, limiting regimes and accepted rate/concentration/amount units.",
+      "points": 20,
+      "rubric": {
+        "curve_half_saturation": 5,
+        "limits": 6,
+        "units_basis": 6,
+        "parameter_meaning": 3
+      },
+      "dependencies": [
+        "SK-E01"
+      ],
+      "session_minutes": 25,
+      "student_path": "student-packet.md",
+      "answer_path": "OPEN-worked-answers.md",
+      "required_cases": []
+    },
+    {
+      "id": "SK-E03",
+      "outcome_id": "SK-LO03",
+      "outcome": "Derive and interpret closed-system substrate depletion and cumulative consumption.",
+      "points": 25,
+      "rubric": {
+        "signed_inventory": 9,
+        "cumulative_accounting": 6,
+        "controlled_predictions": 7,
+        "ledger_limits": 3
+      },
+      "dependencies": [
+        "SK-E02"
+      ],
+      "session_minutes": 25,
+      "student_path": "student-packet.md",
+      "answer_path": "OPEN-worked-answers.md",
+      "required_cases": [
+        "low",
+        "high"
+      ]
+    },
+    {
+      "id": "SK-E04",
+      "outcome_id": "SK-LO04",
+      "outcome": "Assess saved updates, analytical comparisons, accuracy refinement and nonnegativity.",
+      "points": 25,
+      "rubric": {
+        "saved_ledger": 8,
+        "analytical_comparison": 7,
+        "refinement": 6,
+        "positivity_failures": 4
+      },
+      "dependencies": [
+        "SK-E03"
+      ],
+      "session_minutes": 30,
+      "student_path": "student-packet.md",
+      "answer_path": "OPEN-worked-answers.md",
+      "required_cases": [
+        "low"
+      ]
+    },
+    {
+      "id": "SK-E05",
+      "outcome_id": "SK-LO05",
+      "outcome": "Critique parameter information, mechanism claims and transfer to natural systems.",
+      "points": 15,
+      "rubric": {
+        "mechanism_growth": 5,
+        "parameter_information": 5,
+        "independent_measurement": 3,
+        "natural_validity": 2
+      },
+      "dependencies": [
+        "SK-E04"
+      ],
+      "session_minutes": 15,
+      "student_path": "student-packet.md",
+      "answer_path": "OPEN-worked-answers.md",
+      "required_cases": []
+    }
+  ],
+  "required_prerequisites": [
+    "concentration versus amount",
+    "rate units and depletion sign",
+    "derivatives and exponential decay",
+    "spreadsheet arithmetic and plotting"
+  ],
+  "optional_previous_outcomes": [
+    "O2-LO1",
+    "O2-LO2",
+    "O2-LO3",
+    "AD-LO2",
+    "AD-LO3"
+  ],
+  "total_points": 100,
+  "planned_minutes": {
+    "prework": 25,
+    "session_with_break": 125,
+    "followup": 60,
+    "total": 210,
+    "optional_bridge_extra": 15
+  },
+  "mastery_proposal": {
+    "points_at_least": 70,
+    "gates": [
+      "rate and volume basis with depletion sign",
+      "mechanism versus empirical shape and fixed capacity",
+      "verification does not establish natural validity"
+    ]
+  },
+  "open_answers": true,
+  "numerical_keys": "BOUND_TO_ACCEPTED_SAT_NUMERICS_1",
+  "learner_evidence": "NONE; pilot not executed",
+  "numerical_acceptance_sha256": "1389a73c043b00bcd8094e8ea755f0b7252fa9a78d0458f37a28c71bca6fa181"
+}
