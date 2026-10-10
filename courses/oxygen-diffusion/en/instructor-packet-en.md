@@ -1,4 +1,4 @@
-# Oxygen diffusion and consumption: instructor solutions and rubric
+# Oxygen: instructor solutions and rubric
 
 Revision O2-TEACHING-1.0.1-EN. Instructor use only. Do not distribute with the student packet. Solutions below refer to the same accepted model and synthetic inputs as the student packet. This packet supplies the answer key and point allocation; it does not report any learner attempt or outcome.
 
@@ -42,7 +42,7 @@ Rubric: slab derivation 4; units/volume basis 4; porosity and sign/conditions 3;
 
 ## O2-E03 expected response (20 points)
 
-Checked run: Python 3.9.6, scientist code SHA256 `aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9`. The model was independently rerun in an isolated output directory. All model assertions passed. The course checker independently compares the cosh formula to the verified model's exponential form, integrates the analytic sink by Simpson quadrature, and evaluates the sensitivity/fit tables. Full machine-readable evidence and runnable checker are in the instructor bundle.
+Checked run: Python 3.9.6, model code SHA256 is recorded in [provenance.json](provenance.json). The model was independently rerun in an isolated output directory. All model assertions passed. The course checker independently compares the cosh formula to the verified model's exponential form, integrates the analytic sink by Simpson quadrature, and evaluates the sensitivity/fit tables. Full machine-readable evidence and runnable checker are in the instructor bundle.
 
 Baseline ell = 0.010 m, Da = 9, diffusion scale L2/D_s = 900000 s (10.4167 days) and reaction scale 1/k = 100000 s (1.15741 days). Exact bottom C = 0.01986558548 mol/m3 water; M_ss = 0.001592087606 mol/m2; F(0) = 1.592087606e-8 mol/m2/s = 1.375563691 mmol/m2/day. Quadrature sink = 1.592087605899486e-8 mol/m2/s, relative difference from analytic flux 4.5014e-13.
 
@@ -96,15 +96,29 @@ Rubric: reproducibility/provenance 3; matched-position profile/error 4; spatial 
 
 Checked by `check_teaching.py` using the accepted finite-domain solution. Fluxes and profiles refer to each case's own physical inputs, with phi held independent of D_s for the stated controlled test. A blank threshold means "not reached in the domain", not zero.
 
-| Case | ell (mm) | C(L)/C_0 | F(0) (mol/m2/s) | F(0) (mmol/m2/day) | C at fixed x = 10 mm (mol/m3) | 5% depth (mm) |
-|---|---:|---:|---:|---:|---:|---:|
-| baseline | 10.000000 | 0.099327927 | 1.59208761e-08 | 1.375563691 | 0.074738220 |  |
-| double_k | 7.071068 | 0.028733259 | 2.26180745e-08 | 1.954201634 | 0.048783139 | 21.854707 |
-| double_Ds | 14.142136 | 0.236350243 | 2.19863354e-08 | 1.899619378 | 0.102962842 |  |
-| double_C0 | 10.000000 | 0.099327927 | 3.18417521e-08 | 2.751127383 | 0.149476440 |  |
-| phi_0.6_Ds_fixed | 10.000000 | 0.099327927 | 1.1940657e-08 | 1.031672769 | 0.074738220 |  |
-| L_equals_ell0 | 10.000000 | 0.648054274 | 1.21855065e-08 | 1.052827761 | 0.129610855 |  |
-| double_L | 10.000000 | 0.004957474 | 1.59998034e-08 | 1.382383013 | 0.073578776 | 29.981929 |
+Concentration comparison. The columns use ell in mm and C(10 mm) in mol/m3.
+
+| Case | ell | C(L)/C_0 | C(10 mm) |
+|---|---:|---:|---:|
+| baseline | 10.000000 | 0.099327927 | 0.074738220 |
+| double_k | 7.071068 | 0.028733259 | 0.048783139 |
+| double_Ds | 14.142136 | 0.236350243 | 0.102962842 |
+| double_C0 | 10.000000 | 0.099327927 | 0.149476440 |
+| phi_0.6_Ds_fixed | 10.000000 | 0.099327927 | 0.074738220 |
+| L_equals_ell0 | 10.000000 | 0.648054274 | 0.129610855 |
+| double_L | 10.000000 | 0.004957474 | 0.073578776 |
+
+Flux and threshold comparison. Flux units are shown in the headings; threshold depth is in mm. Blank cells retain the meaning "not reached in the domain".
+
+| Case | F(0) (mol/m2/s) | F(0) (mmol/m2/day) | 5% depth |
+|---|---:|---:|---:|
+| baseline | 1.59208761e-08 | 1.375563691 |  |
+| double_k | 2.26180745e-08 | 1.954201634 | 21.854707 |
+| double_Ds | 2.19863354e-08 | 1.899619378 |  |
+| double_C0 | 3.18417521e-08 | 2.751127383 |  |
+| phi_0.6_Ds_fixed | 1.1940657e-08 | 1.031672769 |  |
+| L_equals_ell0 | 1.21855065e-08 | 1.052827761 |  |
+| double_L | 1.59998034e-08 | 1.382383013 | 29.981929 |
 
 For baseline, the exponential shortcut would predict 29.9573 mm for a 5% crossing. That shortcut is invalid here: the sealed bottom remains at 9.93279% and no 5% crossing occurs. The double-k and 60 mm cases do cross the threshold, at 21.85471 and 29.98193 mm respectively. At L = 10 mm the bottom remains at 64.80543%; the boundary choice visibly affects the near-surface profile. A 1 micromol/L absolute threshold is also not reached in the baseline. Allow 0.5% rounding tolerance on nonzero numeric values, but absence/existence of crossing must be correct.
 
