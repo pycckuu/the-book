@@ -255,7 +255,7 @@ And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen
 
 [^isua_graphite]: Manfred Schidlowski, "A 3,800-Million-Year Isotopic Record of Life from Carbon in Sedimentary Rocks," *Nature* 333 (1988): 313–318. [@Schidlowski:1988de]
 
-[^isua_isotopes]: The δ¹³C values of −20 to −30‰ in Isua graphite are consistent with RuBisCO-mediated carbon fixation. Manfred Schidlowski, "A 3,800-Million-Year Isotopic Record of Life from Carbon in Sedimentary Rocks," *Nature* 333 (1988): 313–318. [@Schidlowski:1988de]
+[^isua_isotopes]: The $\delta^{13}\mathrm{C}$ values of −20 to −30‰ in Isua graphite are consistent with RuBisCO-mediated carbon fixation. Manfred Schidlowski, "A 3,800-Million-Year Isotopic Record of Life from Carbon in Sedimentary Rocks," *Nature* 333 (1988): 313–318. [@Schidlowski:1988de]
 
 [^isua_debate]: The Isua biosignature interpretation remains contested. See Aivo Lepland et al., "Questioning the Evidence for Earth's Earliest Life—Akilia Revisited," *Geology* 33 (2005): 77–79 [@Lepland2005]; and Mark A. van Zuilen, Aivo Lepland, and Gustaf Arrhenius, "Reassessing the Evidence for the Earliest Traces of Life," *Nature* 418 (2002): 627–630. [@vanZuilen2002]
 
@@ -273,11 +273,11 @@ And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen
 
 [^nacre_structure]: Ian C. Olson et al., "Mollusk Shell Nacre Ultrastructure Correlates with Environmental Temperature and Pressure," *Journal of the American Chemical Society* 134 (2012): 7351–7358. [@Olson:2012hh]
 
-[^yapp_goethite]: Crayton J. Yapp and Harald Poths, "Ancient Atmospheric CO₂ Pressures Inferred from Natural Goethites," *Nature* 355 (1992): 342–344 [@Yapp:1992ca]; Crayton J. Yapp, "The Abundance of Fe(CO₃)OH in Goethite," *Geochimica et Cosmochimica Acta* 60 (1996): 4905–4916 [@Yapp:1996eh]; Crayton J. Yapp and Harald Poths, "Carbon Isotopes in Continental Weathering Environments and Variations in Ancient Atmospheric CO₂ Pressure," *Earth and Planetary Science Letters* 137 (1996): 71–82. [@Yapp:1996jq]
+[^yapp_goethite]: Crayton J. Yapp and Harald Poths, "Ancient Atmospheric $\mathrm{CO}_{2}$ Pressures Inferred from Natural Goethites," *Nature* 355 (1992): 342–344 [@Yapp:1992ca]; Crayton J. Yapp, "The Abundance of $\mathrm{Fe}(\mathrm{CO}_{3})\mathrm{OH}$ in Goethite," *Geochimica et Cosmochimica Acta* 60 (1996): 4905–4916 [@Yapp:1996eh]; Crayton J. Yapp and Harald Poths, "Carbon Isotopes in Continental Weathering Environments and Variations in Ancient Atmospheric $\mathrm{CO}_{2}$ Pressure," *Earth and Planetary Science Letters* 137 (1996): 71–82. [@Yapp:1996jq]
 
 [^yapp_validation]: Paul A. Schroeder and Nathan D. Melear, "Stable Carbon Isotope Signatures Preserved in Authigenic Gibbsite from a Forested Granitic Regolith: Panola Mt., Georgia, USA," *Geoderma* 91 (1999): 59–76. [@Schroeder:1999jd]
 
-[^yapp_pco2]: Crayton J. Yapp, "Oxygen and Hydrogen Isotope Variations among Goethites (α-FeOOH) and the Determination of Paleotemperatures," *Geochimica et Cosmochimica Acta* 51 (1987): 355–364. [@Yapp:1987cv]
+[^yapp_pco2]: Crayton J. Yapp, "Oxygen and Hydrogen Isotope Variations among Goethites ($\alpha$-FeOOH) and the Determination of Paleotemperatures," *Geochimica et Cosmochimica Acta* 51 (1987): 355–364. [@Yapp:1987cv]
 
 [^fig_gaucher]: Eric A. Gaucher et al., "Palaeotemperature Trend for Precambrian Life Inferred from Resurrected Proteins," *Nature* 451 (2008): 704–707. Ancestral protein reconstruction suggests early Archean organisms preferred 60–70°C. [@Gaucher2008]
 
