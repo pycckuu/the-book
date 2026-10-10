@@ -5,6 +5,7 @@ function Callout(node)
   local blocks = pandoc.Blocks({})
   if node.title then
     blocks:insert(pandoc.Para({pandoc.Strong(quarto.utils.as_inlines(node.title))}))
+    blocks:insert(pandoc.RawBlock('latex', '\\nopagebreak[4]'))
   end
   blocks:extend(quarto.utils.as_blocks(node.content))
   return pandoc.BlockQuote(blocks)
