@@ -42,7 +42,7 @@ Rubric: slab derivation 4; units/volume basis 4; porosity and sign/conditions 3;
 
 ## O2-E03 expected response (20 points)
 
-Checked run: Python 3.9.6, model code SHA256 is recorded in [provenance.json](provenance.json). The model was independently rerun in an isolated output directory. All model assertions passed. The course checker independently compares the cosh formula to the verified model's exponential form, integrates the analytic sink by Simpson quadrature, and evaluates the sensitivity/fit tables. Full machine-readable evidence and runnable checker are in the instructor bundle.
+Checked run: Python 3.9.6, model code SHA256 is recorded in `provenance.json`. The model was independently rerun in an isolated output directory. All model assertions passed. The course checker independently compares the cosh formula to the verified model's exponential form, integrates the analytic sink by Simpson quadrature, and evaluates the sensitivity/fit tables. Full machine-readable evidence and runnable checker are in the instructor bundle.
 
 Baseline ell = 0.010 m, Da = 9, diffusion scale L2/D_s = 900000 s (10.4167 days) and reaction scale 1/k = 100000 s (1.15741 days). Exact bottom C = 0.01986558548 mol/m3 water; M_ss = 0.001592087606 mol/m2; F(0) = 1.592087606e-8 mol/m2/s = 1.375563691 mmol/m2/day. Quadrature sink = 1.592087605899486e-8 mol/m2/s, relative difference from analytic flux 4.5014e-13.
 
