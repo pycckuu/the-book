@@ -22,9 +22,9 @@ The initial PDF attempt failed because the existing BasicTeX installation lacked
 
 ## Bilingual course reading outputs
 
-Private review overlays rendered the English and Russian student/instructor readings separately in HTML, PDF and EPUB. All 12 commands exited 0. Their internal references resolve; all seven exercise IDs are present. Student outputs contain no instructor solutions, completed sensitivity/residual tables, checker or pilot protocol. The main book explicitly excludes `courses/**` from copied resources. Repository visibility itself is not access control.
+Private review overlays rendered the English and Russian student/instructor readings separately in HTML, PDF and EPUB. All 12 commands exited 0. Their internal references resolve; all seven exercise IDs are present. Student outputs contain no instructor solutions, completed sensitivity/residual tables, checker or pilot protocol. The default book now includes the English core exercises and worked answers, plus the optional measured-data task and answers, as four appendices. The `courses/**` resource exclusion applies to raw companion files, not to these explicitly configured reading pages. Answers and numerical keys are intentionally public.
 
-Course PDFs/EPUBs are reading outputs. E03/E05 require the companion `model/` and `data/` assets, or their documented no-Python route. Optional measured-data handouts and provenance files are identified as companion files rather than dead EPUB links. Supply the learner assets listed in each language README separately from instructor material.
+Course PDFs/EPUBs are reading outputs. E03/E05 require the companion `model/` and `data/` assets, or their documented no-Python route. Optional measured-data handouts and provenance files are identified as companion files rather than dead EPUB links. Supply the model/data assets listed in each language README alongside the reading outputs. Solutions remain separately titled for self-study pacing, with open access.
 
 The existing book configuration is English only. A full Russian book build is not configured; the Russian course overlays do not establish one. HTML references and stored math were checked, and changed HTML was sampled visually. EPUB XHTML/MathML and links were checked, but visual behavior in a physical e-reader was not tested.
 
@@ -33,3 +33,9 @@ Independent scientific, teaching and Russian reviews were reconciled with the re
 ## Hosted CI and release boundary
 
 No workflow runs on pull-request events. Existing publication workflows run on main or manual dispatch and can deploy the site, so they were not dispatched for validation. Local builds are passing; no GitHub CI result or deployed behavior is claimed. This pull request neither merges main nor publishes the book.
+
+## Open worked answers
+
+The book includes the exercises before their worked answers in HTML, PDF and EPUB. English and Russian guidance asks readers to make an independent attempt before consulting solutions. This is a reading sequence, not a confidentiality or access-control boundary. Open numerical keys and original answer-bearing source history are intentional.
+
+All three book formats and twelve English/Russian reading-format checks passed after inclusion. Internal output references and EPUB CRCs were checked; the new book answer tables and optional-answer PDF pages were visually inspected. Source math/code blocks, exercise IDs and every numeric table cell remain unchanged. Full English book configuration is supported; a full Russian book is not configured. The existing Russian reading overlays remain available.

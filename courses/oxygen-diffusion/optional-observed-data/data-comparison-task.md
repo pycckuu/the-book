@@ -14,4 +14,4 @@ Downloaded 2026-10-10. Files under `data/` are byte-preserved originals. The unp
 
 The article and archived versions do not agree in every aggregate or input description. Detecting this is an outcome of the exercise. The archive descriptions retain an older reciprocal ratio. Do not silently substitute that description for the spreadsheet calculation. The reported article D5 2019 profile has a disturbance caveat; the B5 2019 DOU/OPD are absent. Do not infer a faunal fraction as an exact 1 − DOU/TOU biological measurement.
 
-Instructor answers are in a separate file. Do not distribute them with the student task.
+Worked answers are openly included after this task in the book. Try the calculations and record your reasoning before consulting them.
