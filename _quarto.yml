@@ -3,6 +3,7 @@ project:
   output-dir: _book
   resources:
     - sources/img
+    - "!courses/**"
 
 book:
   title: "The Invisible Architects"
