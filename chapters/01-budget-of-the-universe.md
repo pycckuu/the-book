@@ -68,12 +68,14 @@ $$4\text{H}_2 + \text{SO}_4^{2-} + 2\text{H}^+ \longrightarrow \text{H}_2\text{S
 
 $$4\text{H}_2 + \text{CO}_2 \longrightarrow \text{CH}_4 + 2\text{H}_2\text{O}$$
 
-As H$_2$ is consumed, the reaction quotient rises and the forward reaction becomes less favorable, with the other activities held fixed. A cell needs both sufficient energy per reaction and a sufficient rate of energy supply. Apparent minimum reaction energies estimated in one marine sediment were about $-19$ kJ per mol sulfate and $-11$ kJ per mol methane; these are condition-dependent field estimates, not a universal single-ion price.[^hoehler2001]
+As H$_2$ is consumed, the reaction quotient rises and the forward reaction becomes less favorable, with the other activities held fixed. A cell needs both sufficient energy per reaction and a sufficient rate of energy supply. Apparent minimum reaction energies estimated in one marine sediment were about $-19$ kJ per mol sulfate and $-11$ kJ per mol methane; these are condition-dependent field estimates, not a universal single-ion price.
 
-Lovley and Goodwin reported steady-state H$_2$ concentrations of roughly 1 to 1.5 nM in sediments dominated by sulfate reduction and 7 to 10 nM where methane production predominated.[^lovley1988] Those associations illustrate competition for shared hydrogen; they are not universal stopping concentrations. Methanogenesis can coexist with sulfate reduction when substrates do not impose the same competition.[^oremland1982]
+Lovley and Goodwin reported steady-state H$_2$ concentrations of roughly 1 to 1.5 nM in sediments dominated by sulfate reduction and 7 to 10 nM where methane production predominated. Those associations illustrate competition for shared hydrogen; they are not universal stopping concentrations. Methanogenesis can coexist with sulfate reduction when substrates do not impose the same competition.
 
 Calculating a hydrogen threshold requires the other reactant and product activities, temperature, a minimum-yield criterion, and consistent thermodynamic reference data. The H$_2$ ranges alone do not reproduce a boundary or uniquely predict sediment zonation.
 :::
+
+The sediment examples above are documented by Hoehler and colleagues,[^hoehler2001] Lovley and Goodwin,[^lovley1988] and Oremland and Polcin.[^oremland1982]
 
 ::: {.callout-note}
 ## Sidebar --- Oxidation state as an energy proxy
@@ -84,10 +86,12 @@ Methane (CH$_4$) carbon is $-4$, glucose (C$_6$H$_{12}$O$_6$) averages 0, and ca
 
 Long-chain fatty acids are relatively reduced carboxylic acids; specified short-chain acids can be more oxidized. Fatty acids and carboxylic acids are not opposing categories.
 
-The shortcut has a precise limit: LaRowe and Van Cappellen relate nominal carbon oxidation state to an oxidation-half-reaction energy estimate.[^larowe2011] That estimate can help screen compounds; the complete donor-acceptor reaction still requires its own Gibbs accounting.
+The shortcut has a precise limit: a thermodynamic analysis relates nominal carbon oxidation state to an oxidation-half-reaction energy estimate. That estimate can help screen compounds; the complete donor-acceptor reaction still requires its own Gibbs accounting.
 
 Buried-carbon reactivity also depends on accessibility and the environment. Oxidation state alone is not a universal depth or freshness index.
 :::
+
+The oxidation-half-reaction analysis is developed by LaRowe and Van Cappellen.[^larowe2011]
 
 ## Why favorable reactions still stall
 
