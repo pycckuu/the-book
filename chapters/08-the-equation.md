@@ -2,15 +2,15 @@
 title: "Modeling the Invisible"
 ---
 
-![Oxygen vanishes within the top few centimeters, sulfate declines over the next meter, and methane rises from below; the sulfate-methane transition is marked where the curves cross.](../sources/img/ch8_porewater_profile.png){#fig-porewater-profile}
+![Schematic porewater profiles, drawn from analytic functions rather than measured data. Each curve uses a relative concentration scale; their plotted crossing illustrates a transition and does not locate a measured sulfate-methane transition.](../sources/img/ch8_porewater_profile.png){#fig-porewater-profile}
 
-A sediment core can look, at first glance, like three quiet curves on a page. The x-axis is concentration. The y-axis is depth below the sediment-water interface, increasing downward. The curves are oxygen, sulfate, and methane, measured in the porewater of a marine sediment somewhere on a continental margin.
+A sediment core can look, at first glance, like three quiet curves on a page. The x-axis is concentration. The y-axis is depth below the sediment-water interface, increasing downward. The curves are oxygen, sulfate, and methane in an imagined marine sediment. This is a thought experiment: the figure uses smooth analytic functions, not measurements from a core.
 
-Oxygen drops from near-saturation at the interface to zero within the first few centimeters. Sulfate holds steady through the oxygen zone, then declines over the next meter. Methane is absent at the top, barely detectable through the sulfate zone, and then rises sharply from below, increasing with depth until it reaches concentrations limited only by solubility and pressure.
+In the sketch, oxygen falls steeply below the interface. Sulfate stays high near the surface and declines farther down. Methane rises from below. The relative scales show a possible arrangement, not concentrations or detection limits measured at a particular site.
 
-Where the sulfate curve and the methane curve cross, there is a narrow band -- a few centimeters wide -- where both are present at low concentrations. This is the sulfate-methane transition zone, one of the most studied features in marine geochemistry. Something is consuming both sulfate and methane at this depth. Something is pulling both curves toward zero at the same horizon.
+The sketch places sulfate falling and methane rising around a transition horizon. In a measured core, we would locate the sulfate-methane transition from actual concentrations and the processes that connect them, not from the crossing of separately scaled curves. Neither its width nor its reaction rate can be read from this drawing.
 
-That something is biology: a consortium of anaerobic methanotrophic archaea and sulfate-reducing bacteria, working together to oxidize methane with sulfate in a reaction that is thermodynamically marginal and kinetically slow:
+A familiar biological explanation is anaerobic oxidation of methane by archaea associated with sulfate-reducing bacteria. One balanced net reaction is:
 
 $$
 \text{CH}_4 + \text{SO}_4^{2-} \longrightarrow \text{HCO}_3^- + \text{HS}^- + \text{H}_2\text{O}
@@ -32,11 +32,11 @@ $$
 \frac{\partial \hat{C}}{\partial t} = -\frac{\partial F}{\partial x} + \sum R_i
 $$
 
-Three terms. Each one does exactly one job.
+Three terms. Each one does exactly one job. Here $\hat{C}$ is in mol per cubic meter of bulk sediment, $F$ in mol per square meter of sediment per second, and each $R_i$ in mol per cubic meter of bulk sediment per second. A porewater rate must be multiplied by porosity before it enters this bulk balance.
 
 **The left side** ($\partial \hat{C} / \partial t$) is the rate of accumulation. If the concentration in the slab is increasing, this term is positive. If it is decreasing, this term is negative. At steady state -- when the profile is not changing with time -- this term is zero.
 
-**The first term on the right** ($-\partial F / \partial x$) is the divergence of flux. $F$ is the flux of the species -- the amount moving through a unit area per unit time. If more stuff flows into the slab from above than flows out below, the concentration increases. If more flows out than in, it decreases. The minus sign and the derivative handle the bookkeeping automatically.
+**The first term on the right** ($-\partial F / \partial x$) is the negative divergence of flux. $F$ is the flux of the species -- the amount moving through a unit area per unit time. If more stuff flows into the slab from above than flows out below, the concentration increases. If more flows out than in, it decreases. The minus sign and the derivative handle the bookkeeping automatically.
 
 **The second term** ($\sum R_i$) is the sum of all reactions that produce or consume the species. A reaction that produces the species contributes a positive $R_i$. A reaction that consumes it contributes a negative $R_i$. If there are multiple reactions acting on the same species -- which there always are -- you add them all up.
 
@@ -54,7 +54,7 @@ $$
 F_{\text{diff}} = -\phi \cdot D_s \cdot \frac{\partial C}{\partial x}
 $$
 
-where $\phi$ is porosity (the fraction of the sediment that is porewater), $D_s$ is the effective diffusion coefficient in the sediment (smaller than in free water, because the pore network is tortuous), and $C$ is the porewater concentration. The minus sign means stuff moves from high concentration to low. This is Fick's first law, applied to a porous medium.[^fick1855] The relationship between the sediment diffusion coefficient and the free-solution value involves both porosity and tortuosity -- a geometric correction that accounts for the increased path length molecules must travel through the pore network.[^boudreau1997]
+where $\phi$ is porosity (the fraction of the sediment that is porewater), $D_s$ is the effective diffusion coefficient in the sediment (smaller than in free water, because the pore network is tortuous), and $C$ is the porewater concentration. The minus sign means stuff moves from high concentration to low. This is Fick's first law, applied to a porous medium.[^fick1855] Here $D_s$ includes the tortuosity correction, but not the separate porosity prefactor already present in the flux. Some conventions absorb porosity into a bulk diffusion coefficient; mixing the two conventions would count porosity twice.[^boudreau1997]
 
 A useful intuition: the timescale for diffusion to operate over a distance $L$ is:
 
@@ -62,7 +62,7 @@ $$
 \tau_{\text{diff}} \sim \frac{L^2}{D_s}
 $$
 
-For $D_s \approx 10^{-5}$ cm$^2$/s (a typical value for ions in sediment[^ligregory1974]) and $L = 1$ cm, $\tau \approx 10^5$ seconds -- about a day. For $L = 1$ m, $\tau \approx 10^{9}$ seconds -- about 30 years. Diffusion is fast over millimeters and geological over meters. This single scaling explains why most of the action in a sediment profile happens in the top meter: below that, diffusion is too slow to deliver reactants from the interface.
+For $D_s \approx 10^{-5}$ cm$^2$/s (a typical value for ions in sediment[^ligregory1974]) and $L = 1$ cm, $\tau \approx 10^5$ seconds -- about a day. For $L = 1$ m, $\tau \approx 10^{9}$ seconds -- about 30 years. Diffusion acts quickly over millimeters and can take decades over meters. This scaling compares distances, but it does not set a universal depth of biological activity. Supply, consumption and boundary conditions must be considered together. Permeable beaches provide a useful counterexample to transferring a diffusion-only picture without checking flow.[^auer2025_eq]
 
 **Advection** moves material with the flowing medium. For dissolved species, the flux is:
 
@@ -97,32 +97,59 @@ We built the kinetic framework for these reactions in earlier chapters. The key 
 **Michaelis-Menten kinetics**[^michaelis1913_eq] for a single-substrate reaction:
 
 $$
-R = V_{\max} \cdot \frac{[S]}{[S] + K_m}
+r = V_{\max} \cdot \frac{[S]}{[S] + K_m}
 $$
 
 **Dual-Monod kinetics** for respiration limited by both electron donor and acceptor:
 
 $$
-R = k_{\max} \cdot [B] \cdot \frac{[\text{TED}]}{[\text{TED}] + K_{m,\text{TED}}} \cdot \frac{[\text{TEA}]}{[\text{TEA}] + K_{m,\text{TEA}}}
+r = k_{\max} \cdot [B] \cdot \frac{[\text{TED}]}{[\text{TED}] + K_{m,\text{TED}}} \cdot \frac{[\text{TEA}]}{[\text{TEA}] + K_{m,\text{TEA}}}
 $$
 
 where $[B]$ is biomass concentration, and both electron donor (TED) and acceptor (TEA) act as independent rate-limiting factors.[^thullner2007]
 
-**The thermodynamic factor** $F_T$, which throttles the reaction as it approaches equilibrium. In its simplest form:
+**The thermodynamic factor** $F_T$ requires an explicit energy convention. A net rate must vanish when the coupled process has no driving force. A logistic gate $1/(1+\exp(\Delta G_r/(RT)))$ would still give $1/2$ at chemical equilibrium, so we will not use it as that law.
+
+For one published formulation, define the remaining drive $f=-\Delta G_r-m\Delta G_p$, where $m$ is the ATP conserved per reaction and $\Delta G_p$ is the phosphorylation free energy. The factor is:
 
 $$
-F_T = \frac{1}{\exp\left(\frac{\Delta G_r}{RT}\right) + 1}
+F_T=1-\exp\left(-\frac{f}{\chi RT}\right)
 $$
 
-This is a schematic version. In this simplified form, $F_T$ reaches $1/2$ at equilibrium ($\Delta G_r = 0$) and approaches $1$ when $\Delta G_r$ is large and negative (far from equilibrium). The full Jin-Bethke treatment adds a term for the energy the cell must conserve per reaction (the number of ATPs synthesized), which shifts the threshold into negative $\Delta G_r$ territory: the cell stops gaining energy, and $F_T$ drops toward zero, well before the reaction reaches thermodynamic equilibrium.[^jin2005_eq]
-
-The full rate expression for a microbially mediated reaction is then:
+Here $\chi$ reflects the reaction mechanism. All energies and stoichiometric quantities must use a consistent reaction basis. This expression reaches zero at $f=0$, not generally at $\Delta G_r=0$. Its application needs an explicit domain and treatment of regulation or reverse flux; it is not a universal sediment rate law.[^jin2003_eq] The oxygen teaching model below uses a first-order sink without a thermodynamic factor.
+A rate expression for a microbially mediated reaction can then be written:
 
 $$
-R = k_{\max} \cdot [B] \cdot \frac{[\text{TED}]}{[\text{TED}] + K_{m,\text{TED}}} \cdot \frac{[\text{TEA}]}{[\text{TEA}] + K_{m,\text{TEA}}} \cdot F_T
+r = k_{\max} \cdot [B] \cdot \frac{[\text{TED}]}{[\text{TED}] + K_{m,\text{TED}}} \cdot \frac{[\text{TEA}]}{[\text{TEA}] + K_{m,\text{TEA}}} \cdot F_T
 $$
 
-Kinetics times thermodynamics. Supply times demand times feasibility.
+Kinetics times thermodynamics. Supply times demand times feasibility. Let $r$ denote reaction progress on a stated volume basis. The substrate-only expressions give a positive forward rate; with an energetic factor, the net rate may be signed. For species $j$, $R_j=\nu_j r$ when $r$ is per bulk sediment volume, or $R_j=\phi\nu_j r$ when it is per porewater volume. The stoichiometric coefficient $\nu_j$ is negative for a reactant and positive for a product. $V_{\max}$ and $k_{\max}[B]$ must have the units of $r$. A positive respiration rate is not itself a positive source of oxygen. The biomass-specific rate constant $k_{\max}$ is distinct from the oxygen pilot's first-order $k$.
+
+## Start with one species
+
+Before coupling an ecosystem, try a single curve. Imagine a dark, fully saturated sediment, with oxygen held at $C_0$ at the surface and no flux through a lower boundary at depth $L$. Let depth $x$ increase downward. Keep porosity $\phi$ and diffusivity $D_s$ constant. Start with no oxygen in the interior and turn on the surface supply at $t=0$.
+
+For this teaching example, let the porewater consumption rate be $q=kC$, where $k$ has units s$^{-1}$. The bulk sink is then $R=-\phi kC$:
+
+$$
+\frac{\partial(\phi C)}{\partial t}
+=\frac{\partial}{\partial x}\left(\phi D_s\frac{\partial C}{\partial x}\right)-\phi kC.
+$$
+
+With constant porosity, $\partial C/\partial t=D_s\partial^2C/\partial x^2-kC$. At steady state the solution is:
+
+$$
+C_*(x)=C_0\frac{\cosh((L-x)/\ell)}{\cosh(L/\ell)},\qquad
+\ell=\sqrt{\frac{D_s}{k}}.
+$$
+
+The length $\ell$ compares diffusive delivery with consumption. More rapid consumption makes the profile thinner. In a deep domain it approaches an exponential near the surface. At a finite sealed lower boundary, it flattens. Oxygen approaches low values without an exact zero at finite depth; a reported penetration depth needs a stated detection threshold.
+
+Use $L=0.03$ m, $D_s=10^{-9}$ m$^2$/s, $k=10^{-5}$ s$^{-1}$, $\phi=0.8$, and $C_0=0.2$ mol/m$^3$ of porewater. These are illustrative choices, not observations from a field site. They give $\ell=0.01$ m and a steady inward oxygen flux of about 1.376 mmol/m$^2$/day. The bottom still contains about 19.87 $\mu$M oxygen. A 1 $\mu$M threshold would not be crossed inside this chosen domain.
+
+Now we can ask whether a computer reproduces something we know. The companion finite-volume model compares its steady solution with this curve, checks that inflow balances consumption and accumulation, refines its grid and time step, and rejects negative concentrations without clipping them. These checks verify the calculation. They do not validate the first-order assumption against nature.
+
+A steady profile alone identifies $k/D_s$, not $k$ and $D_s$ separately. An independent diffusivity or an additional flux or transient observation is needed to separate them. The companion fit therefore estimates only this ratio from clearly labeled synthetic observations. Its separate measured-data exercise asks which archived flux corresponds to the model and whether the data version is reproducible. The distinction matters: solving an equation correctly and choosing the right equation for a core are different tasks.
 
 ## Coupling: one organism's waste is another's substrate
 
@@ -140,13 +167,13 @@ This is what reaction-transport models do.[^steefel2005] Classic early-diageneti
 
 Return to the profile that opened this chapter. We can now read it.
 
-**Oxygen drops steeply** because aerobic respiration is fast (high $k_{\max}$, high yield) and the organic matter supply at the sediment surface is abundant. The rate of oxygen consumption exceeds the rate of oxygen diffusion from the overlying water within the first few centimeters. The oxygen penetration depth is set by the balance between diffusive supply from above and microbial consumption below. Where consumption wins, oxygen goes to zero.
+**Oxygen drops steeply** where net demand competes with resupply. Aerobic organic-matter respiration can contribute, but reduced inorganic compounds, sulfur oxidation linked to cable bacteria, and fauna can also matter. The O$_2$ profile alone does not apportion these sinks. A diffusion-only surface flux should be compared with diffusive oxygen uptake, rather than automatically equated with total chamber uptake.[^oxygen_sinks_eq] In the first-order example, a thin curve reflects the ratio $k/D_s$ and a stated boundary condition, not a unique biological mechanism.
 
-**Sulfate declines gradually** because sulfate reduction is slower than aerobic respiration (lower $k_{\max}$) and because sulfate is present at much higher initial concentrations (~28 mM in seawater) than oxygen (~0.2 mM).[^millero2013] It takes a longer distance -- and a longer time -- for biological consumption to draw sulfate down. The concavity of the sulfate curve reflects the balance between consumption and transport: a more concave curve means the reaction rate is large relative to diffusive resupply at that depth.[^berner1980]
+**Sulfate declines gradually** in this sketch. Seawater sulfate can start at much higher concentrations than oxygen, but concentration alone does not establish a universally smaller rate constant for sulfate reduction. Both supply and net consumption shape a measured profile; the typical seawater concentrations provide context, not measurements represented by this drawing.[^millero2013] Under steady, constant-coefficient diffusion with a positive consumption rate $q$, the relation is $D_s C_{xx}=q$. Curvature can then constrain net consumption if $D_s$ is known. Advection, variable porosity, nonlocal exchange and changing concentrations alter that interpretation.[^berner1980]
 
-**Methane rises from below** because methanogenesis occurs in the deep, sulfate-depleted zone. Methane diffuses upward, toward lower concentrations. At the sulfate-methane transition zone, it meets the descending sulfate, and the anaerobic oxidation of methane (AOM) consortium consumes both.[^knittel2009] The sharpness of the transition reflects how fast AOM is relative to the diffusive fluxes delivering its substrates: a sharper crossing means the reaction outpaces transport over a narrower zone. The AOM consortium itself represents one of the most remarkable syntrophic partnerships in nature -- archaea and bacteria working in obligate association to catalyze a reaction with vanishingly small energy yields.[^knittel2009] The same coupled reaction-transport logic has been used to estimate methane escape from passive and active continental margins, where small changes in bioenergetics or transport shift the seafloor methane flux substantially.[^dale2008_eq]
+**Methane rises from below** in the sketch, suggesting a deeper source such as methanogenesis in sulfate-depleted sediment. Methane diffuses upward, toward lower concentrations. At the sulfate-methane transition zone, it meets the descending sulfate, and the anaerobic oxidation of methane (AOM) consortium consumes both.[^knittel2009] In a measured profile, the width of the overlap zone can constrain reaction relative to transport, given actual concentrations, transport coefficients and boundary conditions. The graphical crossing in this sketch supplies none of those constraints. The classic AOM consortium illustrates a syntrophic partnership: archaea and bacteria associated in methane oxidation under a limited energy budget. This example does not establish an obligatory partnership for every methane-oxidation pathway.[^knittel2009] The same coupled reaction-transport logic has been used to estimate methane escape from passive and active continental margins, where small changes in bioenergetics or transport shift the seafloor methane flux substantially.[^dale2008_eq]
 
-Every feature of this profile -- every bend, every slope change, every crossing -- is the visible signature of the conservation equation doing its work. Transport sets the gradients. Reactions bend the curves. The profile is a solution to a set of differential equations, written in chemistry.
+A measured profile can become a test of this bookkeeping. Transport and reactions together shape its gradients and curvature. Our opening sketch only illustrates that idea; it is not a solution of a coupled system. The oxygen curve we have just derived is a solution we can check.
 
 ## One equation, all scales
 
@@ -164,7 +191,7 @@ This is more than analogy. The conservation law is the same physical principle i
 
 Why? Because conservation of mass is not a biological principle, or a geological principle, or a chemical principle. It is a physical principle. It does not care whether the reacting species is sulfate in a pore or CO$_2$ in the atmosphere. It does not care whether the transport mechanism is molecular diffusion or ocean circulation. It cares only that matter is neither created nor destroyed, and that the accounting balances.
 
-This shared accounting is the reason that reaction-transport models are portable. A model calibrated on one fjord's sediment can make useful predictions for another fjord[^boudreau1997] -- not because the organisms are identical, but because the framework is the same and the parameters are constrained by the same thermodynamic and kinetic principles. A model built for early diagenesis can be adapted for groundwater contamination, because the coupling between transport and reaction works the same way in both settings.
+This shared accounting is the reason that reaction-transport models are portable. A model calibrated on one fjord's sediment can provide a starting framework for another fjord[^boudreau1997]. Useful predictions still require checking the new site's transport, boundary conditions, reaction parameters and independent observations. A model built for early diagenesis can be adapted for groundwater contamination, because the coupling between transport and reaction works the same way in both settings.
 
 The portability is not infinite. Parameters must be recalibrated. Biology adapts. New reactions become important at new scales. But the framework -- the conservation equation, the transport operators, the rate expressions -- carries across. It is the scaffold on which all the site-specific details hang.
 
@@ -174,7 +201,7 @@ The equation we have built is powerful. It is also wrong -- in the precise, usef
 
 Here is what we assumed and what we set aside:
 
-**Steady-state biology.** The rate expressions treat the microbial community as a fixed catalyst: a set of rate constants and half-saturation constants that do not change with time. Real communities adapt. They shift their gene expression, change their community composition, and enter dormancy.[^stolpovsky2011_eq] For systems near steady state -- which includes most marine sediments -- the assumption is defensible. For perturbed systems -- a contaminated aquifer receiving a fresh plume, a sediment exposed to a sudden change in overlying water chemistry -- it is not. Modeling the lag phase and community adaptation remains an open problem.
+**Steady-state biology.** The rate expressions treat the microbial community as a fixed catalyst: a set of rate constants and half-saturation constants that do not change with time. Real communities adapt. They shift their gene expression, change their community composition, and enter dormancy.[^stolpovsky2011_eq] For a particular core near steady state, fixed effective rates may be a useful approximation, provided the measurement period and conditions support it. For perturbed systems -- a contaminated aquifer receiving a fresh plume, a sediment exposed to a sudden change in overlying water chemistry -- it is not. Modeling the lag phase and community adaptation remains an open problem.
 
 **No explicit objective function.** The rate laws in this chapter do not tell microbes to maximize growth, yield, or community energy harvest. They encode local constraints: substrate supply, electron acceptors, thermodynamic throttling, biomass, decay. That matters for the argument of this book. The equations already behave more like bookkeeping systems than like optimization problems. A formal satisficing model would need stronger machinery than this chapter provides. What this framework can do, already, is represent overlapping viable metabolisms without pretending that any guild is solving for a global best state.
 
@@ -189,8 +216,8 @@ These are real limitations, and we state them here so that the equation earns no
 ## Takeaway
 
 - The conservation equation $\partial \hat{C} / \partial t = -\partial F / \partial x + \sum R_i$ is the single equation on which all reaction-transport models rest. It says: accumulation = transport + reaction.
-- Transport has two components: molecular diffusion (Fick's law, $F \propto -D \, \partial C / \partial x$) and advection ($F \propto u \cdot C$). The diffusion timescale $\tau \sim L^2/D$ explains why most chemical action in sediments occurs in the top meter.
-- Reaction terms combine Michaelis-Menten kinetics (supply limitation), dual-Monod kinetics (donor + acceptor limitation), and the thermodynamic factor $F_T$ (equilibrium limitation).
+- Transport has two components: molecular diffusion (Fick's law, $F \propto -D \, \partial C / \partial x$) and advection ($F \propto u \cdot C$). The diffusion timescale $\tau \sim L^2/D$ must be compared with consumption and the actual boundary and flow conditions.
+- Reaction terms combine Michaelis-Menten kinetics (supply limitation), dual-Monod kinetics (donor + acceptor limitation), and the thermodynamic factor $F_T$ (limitation by a specified coupled driving force).
 - Coupling between species arises naturally: shared reaction terms link the equations for oxygen, sulfate, methane, iron, and all other species into a system that must be solved simultaneously.
 - The conservation law carries across scales: the same accounting principle -- accumulation equals flux plus reaction -- applies whether the system is a sediment pore, an aquifer, or the global ocean. The transport operators and closure terms change, but the framework is portable.
 - The model assumes steady-state biology, effective rate constants, continuum averaging, and one-dimensionality. These assumptions define the current frontier; relaxing them is the work of the next generation of models.
@@ -220,3 +247,9 @@ These are real limitations, and we state them here so that the equation earns no
 [^dale2008_eq]: A. W. Dale, Philippe Van Cappellen, D. R. Aguilera, and Pierre Regnier, "Methane Efflux from Marine Sediments in Passive and Active Margins: Estimations from Bioenergetic Reaction-Transport Simulations," *Earth and Planetary Science Letters* 265 (2008): 329--344. [@Dale2008]
 
 [^stolpovsky2011_eq]: Konstantin Stolpovsky et al., "Incorporating Dormancy in Dynamic Microbial Community Models," *Ecological Modelling* 222 (2011): 3092--3102. [@Stolpovsky2011]
+
+[^jin2003_eq]: Qusheng Jin and Craig M. Bethke, "A New Rate Law Describing Microbial Respiration," *Applied and Environmental Microbiology* 69 (2003): 2340--2348, equations 6 and 11. [@Jin2003]
+
+[^oxygen_sinks_eq]: Laurine D. W. Burdorf et al., "Electrogenic Sulfur Oxidation by Cable Bacteria in Two Seasonally Hypoxic Coastal Systems," *Estuarine, Coastal and Shelf Science* 297 (2024): 108615; Hannah Beck and Kanchan Maiti, "The Importance of Fauna-Mediated Sediment O2 Consumption in the NGOM Hypoxic Zone," *Frontiers in Marine Science* 12 (2025): 1532999. Attribution depends on the study design and its assumptions. [@Burdorf2024; @BeckMaiti2025]
+
+[^auer2025_eq]: F. Auer et al., "Extensive Oxygen Consumption in the Intertidal Infiltration Zone of Beach Aquifers: The Impact of Seasonal Input, Filtration Efficiency, and Morphodynamics," *Journal of Geophysical Research: Biogeosciences* 130 (2025): e2024JG008291. [@Auer2025]

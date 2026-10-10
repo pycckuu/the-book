@@ -105,7 +105,7 @@ ax.plot(smt_x, smt_depth, "o", color=red, markersize=9,
 
 # SMT label at the LEFT end of the red dashed line (the dashed line itself is
 # the connector to the crossing marker), in clear space off both curves.
-ax.text(0.04, smt_depth - 1.5, "sulfate–methane\ntransition (SMT)",
+ax.text(0.04, smt_depth - 1.5, "illustrative SMT\nmarker",
         ha="left", va="bottom", fontsize=9, fontweight="bold", color=red,
         linespacing=1.18, zorder=8)
 

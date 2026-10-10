@@ -1,0 +1,137 @@
+{
+  "parameters": {
+    "L": 0.03,
+    "D": 1e-09,
+    "k": 1e-05,
+    "phi": 0.8,
+    "C0": 0.2
+  },
+  "parameter_status": "all illustrative, not literature estimates",
+  "python": "3.9.6",
+  "verification": {
+    "grid": [
+      {
+        "n": 20,
+        "max_absolute_error": 0.000506549059175937,
+        "flux": 1.587584377245713e-08,
+        "integrated_sink": 1.5875843772457022e-08,
+        "balance_residual": 1.0918784085699965e-22
+      },
+      {
+        "n": 40,
+        "max_absolute_error": 0.0001335984115251876,
+        "flux": 1.5909582563379785e-08,
+        "integrated_sink": 1.5909582563379742e-08,
+        "balance_residual": 4.301339185275744e-23
+      },
+      {
+        "n": 80,
+        "max_absolute_error": 3.427638673483835e-05,
+        "flux": 1.591805046136988e-08,
+        "integrated_sink": 1.591805046137024e-08,
+        "balance_residual": -3.6065074707312007e-22
+      },
+      {
+        "n": 160,
+        "max_absolute_error": 8.678999273287191e-06,
+        "flux": 1.592016952045086e-08,
+        "integrated_sink": 1.5920169520445902e-08,
+        "balance_residual": 4.956466230417742e-21
+      }
+    ],
+    "grid_orders": [
+      1.9227991461405038,
+      1.9626159143361093,
+      1.9816144266312947
+    ],
+    "time_dt_s": [
+      1000,
+      500,
+      250,
+      125
+    ],
+    "time_max_errors": [
+      2.497275663912446e-05,
+      1.2534077386681941e-05,
+      6.279042140650004e-06,
+      3.14253184790364e-06
+    ],
+    "time_orders": [
+      0.9944992775700464,
+      0.9972394057683248,
+      0.9986171290592317
+    ],
+    "smooth_continuum_max_errors": [
+      2.497903619630426e-05,
+      2.195079149991397e-05,
+      2.199991944196178e-05,
+      2.2024554042765487e-05
+    ],
+    "pure_decay_concentrations": [
+      0.1639088940674591,
+      0.1638277721359176,
+      0.1637870241538403
+    ],
+    "pure_decay_continuum_errors": [
+      0.0001627434518627069,
+      8.162152032120673e-05,
+      4.0873538243918484e-05
+    ],
+    "analytic_limits": [
+      "k=0 uniform steady",
+      "D=0 pure decay",
+      "k approaches zero",
+      "deep-domain exponential",
+      "surface scaling",
+      "D,k common-scaling invariance"
+    ]
+  },
+  "calibration": {
+    "alpha_true_m_minus2": 10000.0,
+    "alpha_fit_m_minus2": 9671.84068539087,
+    "bootstrap_95_percentile_interval_m_minus2": [
+      9372.1770982053,
+      10033.395874961776
+    ],
+    "bootstrap_replicates": 200,
+    "noise_sigma_mol_m3": 0.002,
+    "seed": 20261010,
+    "conditional_k_s_minus1": 9.67184068539087e-06,
+    "conditional_log_alpha_standard_error": 0.01846812845154222,
+    "caveat": "Synthetic recovery only; interval conditions on known C0,L,sigma and exact model. No empirical validation."
+  },
+  "step_run_10000": {
+    "max_balance_residual_mol_m2_s": 2.8537731133079455e-22,
+    "cumulative_balance_residual_mol_m2": -2.981555974335137e-19,
+    "min_concentration_mol_m3": 0.0,
+    "max_concentration_mol_m3": 0.19239011117103,
+    "final_inventory_mol_m2": 0.0005441866378115165,
+    "inflow_mol_m2": 0.0005826683683044341,
+    "consumption_mol_m2": 3.848173049291731e-05
+  },
+  "step_run_100000": {
+    "max_balance_residual_mol_m2_s": 1.9008610476468576e-21,
+    "cumulative_balance_residual_mol_m2": 2.168404344971009e-17,
+    "min_concentration_mol_m3": 0.0,
+    "max_concentration_mol_m3": 0.19605751577595912,
+    "final_inventory_mol_m2": 0.0013455259417198978,
+    "inflow_mol_m2": 0.0023530130324389007,
+    "consumption_mol_m2": 0.0010074870907190246
+  },
+  "step_run_1000000": {
+    "max_balance_residual_mol_m2_s": 2.9977025398921723e-21,
+    "cumulative_balance_residual_mol_m2": 3.8163916471489756e-16,
+    "min_concentration_mol_m3": 0.0,
+    "max_concentration_mol_m3": 0.1962692052166002,
+    "final_inventory_mol_m2": 0.0015918023902118015,
+    "inflow_mol_m2": 0.016737351150017794,
+    "consumption_mol_m2": 0.015145548759806374
+  },
+  "analytic_steady": {
+    "ell_m": 0.01,
+    "Damkohler": 9.0,
+    "inventory_mol_m2": 0.001592087605898769,
+    "surface_flux_mol_m2_s": 1.5920876058987693e-08,
+    "bottom_C_mol_m3": 0.019865585483886644
+  }
+}
