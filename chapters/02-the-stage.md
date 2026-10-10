@@ -4,13 +4,11 @@ title: "The Stage"
 
 Three planets formed from broadly similar raw materials.
 
-They orbited the same young star, caught roughly the same rain of water and carbon, and obeyed identical physics. If you had visited the inner solar system 4.5 billion years ago, you would have seen three balls of molten rock, each venting steam into a violent atmosphere, each bombarded by leftover debris. The starting chemistry was close enough to make the later divergence meaningful.
+They orbited the same young star and obeyed identical physics. Their rock and volatile inventories came from a common solar system, but their initial supplies of water and carbon need not have been equal. The starting chemistry was related enough to make the later divergence meaningful.
 
-And yet, within a billion years, one of those planets was alive, another was a furnace, and the third was a frozen desert.
+And yet their histories diverged. Earth became a living world; Venus and Mars present very different conditions today. Whether either neighbor ever supported life remains unknown.
 
-![Three planets, one outcome. Temperature and atmospheric evolution of Venus, Earth, and Mars from formation to ~3.5 billion years ago. Uncertainty bars reflect the state of knowledge: Earth is well constrained; Venus and Mars are not.](../sources/img/ch2_planetary_divergence.png){#fig-planetary-divergence}
-
-Look at the uncertainty bars. Earth is the best-known case: rock structures,[^fig_allwood] mineral isotopes,[^fig_wilde_zircon] and reconstructed ancient enzymes[^fig_gaucher] all show that liquid water was present early and that the planet cooled substantially over time, even if exact surface temperatures remain debated. Venus and Mars are far less constrained. Deuterium ratios prove Venus lost its water,[^fig_donahue] but when?[^fig_way] Mars's crustal magnetism proves an early dynamo,[^fig_acuna] but warm-wet or cold-episodic?[^fig_mars_climate] Same raw materials, same physics, three different outcomes.
+Earth is the best-known case: rock structures,[^fig_allwood] mineral isotopes,[^fig_wilde_zircon] and reconstructed ancient enzymes[^fig_gaucher] give us different kinds of evidence, rather than a single thermometer. Zircons support early water interaction; ancient proteins offer a conditional reconstruction of environments inhabited by selected lineages. Venus and Mars are less constrained. Deuterium enrichment supports water loss on Venus,[^fig_donahue] but does not fix its ocean history.[^fig_way] Mars's crustal magnetism supports an early dynamo,[^fig_acuna] while its climate history remains debated.[^fig_mars_climate] Related raw materials, the same physics, different histories.
 
 This chapter is not here to turn the book into a survey of planetary science. It is here to establish the minimum stage the later biology requires: liquid water that persists, an atmosphere that does not vanish, access to reduced chemicals, and a crust-ocean system that keeps the planet out of equilibrium long enough for chemistry to become evolution.
 
@@ -20,99 +18,99 @@ The solar system did not assemble gently. It condensed from a disk of gas and du
 
 The process was not orderly. It was a series of collisions in which the survivors were simply the bodies that absorbed the most impacts without fragmenting. Earth accreted over tens of millions of years, each impact delivering kinetic energy that converted to heat on arrival. The growing planet was partly or entirely molten for much of this period--a magma ocean hundreds of kilometers deep, with an atmosphere of rock vapor and steam above it.
 
-Venus and Mars went through the same process. So did a number of other bodies that no longer exist as independent planets, because they were absorbed or ejected. The starting chemistry was not special. All three surviving inner planets received water vapor, carbon dioxide, nitrogen, sulfur compounds, and a grab-bag of metals delivered by the same population of impactors. The differences that would later matter--the differences between a dead world and a living one--were not written into the ingredients. They emerged from the physics of what happened next.
+Venus and Mars went through the same process. So did a number of other bodies that no longer exist as independent planets, because they were absorbed or ejected. Earth, Venus, and Mars are the three cases compared here, not the only surviving inner planets. Their related starting materials did not guarantee equal volatile inventories. The differences that would later matter emerged from both those inventories and the physics of what happened next.
 
-The first 700 to 800 million years of Earth's history left almost no direct record in the crust. The oldest surviving minerals--tiny crystals of zircon from Western Australia--are about 4.4 billion years old. Everything before that was recycled: melted, subducted, destroyed by impacts, or simply overwritten by the planet's own geological activity. This period, the Hadean eon, is named after the Greek underworld, and the name is apt. We know the Earth existed. We know it was hot. We know it was hit, repeatedly, by objects large enough to re-melt the surface. But we have almost no rocks from that time to read.[^wilde2001_hadean]
+The first 700 to 800 million years of Earth's history left almost no direct record in the crust. The oldest surviving minerals--tiny crystals of zircon from Western Australia--are about 4.4 billion years old. Much of the earlier record was reworked or erased by later geological activity. This period, the Hadean eon, is named after the Greek underworld, and the name is apt. We know the Earth existed. We know it was hot. We know it was hit, repeatedly, by objects large enough to re-melt the surface. But we have almost no rocks from that time to read.[^wilde2001_hadean]
 
 What we do have is physics. And physics, combined with isotope geochemistry and careful modeling, lets us reconstruct quite a lot from very little direct evidence.
 
 ## The blow that made the Moon
 
-Sometime during the first hundred million years, Earth was struck by another planet.
+Near the end of Earth's accretion, a giant collision probably contributed to the formation of the Moon.
 
-Not a small asteroid. Not a glancing blow. A body roughly the size of Mars--or possibly larger--collided with the young Earth in an impact so violent that it partially vaporized both objects. The debris from this collision--a disk of molten and vaporized rock orbiting what remained of Earth--coalesced -- perhaps within centuries, perhaps faster -- into a new body: the Moon.[^canup_moon]
+Not a small asteroid. In a widely studied scenario, a body roughly the size of Mars collided with the young Earth in a large, off-center impact. The debris formed an orbiting disk from which the Moon assembled.[^canup_moon] The impact geometry and subsequent assembly time depend on the model.
 
-The evidence for this is not speculative. The Moon's bulk composition is strikingly similar to Earth's mantle (not to the average solar system), which means it formed from Earth material. The Moon is depleted in volatile elements, consistent with formation from a superheated debris disk. The angular momentum of the Earth-Moon system is consistent with a giant impact. And the Moon is large relative to its planet--unusually large--which is hard to explain by capture but straightforward if it was born from the planet itself.
+The giant-impact hypothesis explains several important features together: the Moon's small iron core, its volatile depletion, and the angular momentum of the Earth-Moon system. Similarities between lunar and terrestrial material constrain the models; they do not, by themselves, prove that the Moon was made exclusively from Earth's mantle.
 
 What did this catastrophe give us?
 
-First, it gave Earth a fast spin. The impact transferred enormous angular momentum, and the young Earth may have rotated with a day as short as five or six hours. Over billions of years, tidal interaction with the Moon has slowed this rotation to our current 24-hour day. But the important thing is that the day-night cycle existed from the start: a rhythm of heating and cooling, light and dark, that would later become one of the fundamental environmental oscillations driving biological evolution.
+First, a giant impact can change Earth's spin. Tidal interaction with the Moon subsequently slows that rotation. Rotation itself produces the day-night cycle: a rhythm of heating and cooling, light and dark, that would later become a fundamental environmental oscillation for biology. The impact did not create the existence of day and night.
 
-Second, it stabilized Earth's axial tilt. Without the Moon's gravitational influence, Earth's obliquity would wander chaotically over millions of years, driven by gravitational perturbations from Jupiter and the other planets. Mars, which has no large moon, shows exactly this behavior: its axial tilt has varied between roughly 10 and 60 degrees over geological time. Earth's tilt, pinned near 23.5 degrees by the Moon, gives us stable, predictable seasons. This matters less for the origin of life and more for its long-term persistence--a world with wildly swinging seasons is a harder place to sustain complex biogeochemical cycles.
+Second, the Moon helps limit variations in Earth's axial tilt. It does not pin the tilt at a single value. Calculations of a hypothetical moonless Earth also show that large tilt swings are not inevitable under every set of initial conditions.[^moonless_earth] Seasons arise from axial tilt and orbital motion; the Moon modifies their long-term variability.
 
-Third--and perhaps most importantly--the giant impact stripped away much of Earth's original atmosphere and resurfaced the planet. Whatever primordial atmosphere the young Earth had accumulated was largely blown off. The atmosphere that grew back was secondary: outgassed from the interior through volcanism and delivered by later impacts. This secondary atmosphere was dominated by carbon dioxide, nitrogen, and water vapor--the same gases that, under the right conditions, would become the feedstock for life.
+Third, a giant impact can rework the surface and remove atmosphere. How much atmosphere escapes depends on the impact and the state of the surface, including whether an ocean is present.[^impact_atmosphere] Later outgassing and impacts can replenish volatiles. That history cannot be reduced to a single event that necessarily removed most of the atmosphere and created the particular mixture life would later use.
 
 ## The divergence: Venus, Earth, and Mars
 
-"Same starting materials, different outcomes" is a slogan until you pin numbers to it.
+"Related starting materials, different outcomes" becomes useful when we separate measurements of the planets today from reconstructions of their past.
 
 ### Venus: the greenhouse that ate itself
 
 Venus today is uninhabitable. Surface temperature: 460 degrees Celsius. Surface pressure: 92 atmospheres--equivalent to being 900 meters underwater on Earth. The atmosphere is 96.5 percent carbon dioxide, with clouds of sulfuric acid. No liquid water exists on the surface or anywhere in the atmosphere where it could persist.
 
-And yet Venus is nearly Earth's twin in size and mass. It formed from the same part of the solar nebula. It almost certainly received similar amounts of water. There is even suggestive evidence that Venus may have had surface oceans early in its history.
+And yet Venus is nearly Earth's twin in size and mass. It formed from the same part of the solar nebula. Its initial water inventory is uncertain. Whether it ever had a surface ocean remains a model-dependent question.
 
 So what happened?
 
-The answer is written in isotopes. When planetary scientists compare the nitrogen, carbon, and oxygen isotope ratios of Venus's atmosphere to Earth's, they find striking similarities--consistent with both planets starting from the same mix of volatiles. But one ratio is dramatically different: the deuterium-to-hydrogen ratio (D/H). Venus's atmosphere has a D/H ratio roughly 100 to 150 times higher than Earth's.
+One clue is written in hydrogen isotopes. Venus's atmosphere has a deuterium-to-hydrogen ratio roughly 100 to 150 times the terrestrial value.[^fig_donahue] That enrichment is an observation; the initial volatile inventory must still be reconstructed.
 
-That ratio records catastrophic water loss. Deuterium (D, or $^2$H) is the heavy isotope of hydrogen. It is chemically almost identical to ordinary hydrogen ($^1$H) but twice as massive. When water molecules are broken apart in the upper atmosphere by ultraviolet radiation, the lighter $^1$H escapes to space more easily than the heavier D. Over time, preferential loss of light hydrogen enriches the remaining hydrogen in deuterium. The more water you lose, the higher the D/H ratio climbs.
+That enrichment supports substantial water loss. Deuterium (D, or $^2$H) is the heavy isotope of hydrogen. It is chemically almost identical to ordinary hydrogen ($^1$H) but twice as massive. When water molecules are broken apart in the upper atmosphere by ultraviolet radiation, the lighter $^1$H escapes to space more easily than the heavier D. Over time, preferential loss of light hydrogen enriches the remaining hydrogen in deuterium. The more water you lose, the higher the D/H ratio climbs.
 
-Venus's extreme D/H ratio means it lost nearly all of its hydrogen--and therefore nearly all of its water--to space.
+The enrichment supports preferential loss of hydrogen, but the fraction of the original water lost depends on its initial isotope ratio, replenishment, and the escape process. D/H alone does not establish that nearly all initial water escaped, or that an ocean existed first.
 
-The mechanism is a runaway greenhouse, and it proceeds in steps that are individually straightforward but collectively devastating:
+A runaway greenhouse is one possible route to a dry surface. A **moist greenhouse** is different: the upper atmosphere becomes wet enough for appreciable water loss while surface liquid water can still remain. A **runaway greenhouse** occurs when absorbed energy cannot be balanced by outgoing thermal radiation in the liquid-water climate.[^water_loss_models] The following steps describe a possible pathway, not a uniquely observed history of Venus:
 
-1. Venus is closer to the Sun than Earth (0.72 AU versus 1.00 AU). By the inverse-square law, it receives about 2,600 W/m$^2$ of solar flux compared to Earth's 1,361 W/m$^2$---nearly twice as much energy per unit area. At some point in its early history--perhaps when the Sun was slightly brighter, or when some other perturbation tipped the balance--surface temperatures likely crossed a critical threshold---models place it in the range of 70 to 80 degrees Celsius, though the exact value remains debated.
+1. Venus is closer to the Sun than Earth (0.72 AU versus 1.00 AU). Today, by the inverse-square law, it receives about 2,600 W/m$^2$ of solar flux compared to Earth's 1,361 W/m$^2$, nearly twice as much at the top of the atmosphere. These are present-day fluxes, not the absorbed energy of the young planets. A runaway threshold depends on atmospheric composition, clouds, rotation, and water inventory; it is not a universal surface temperature.
 
-2. Above that threshold, the oceans began to evaporate massively. Water moved from the surface into the atmosphere:
+2. In a sufficiently hot scenario, surface water evaporates into the atmosphere:
 
 $$\text{H}_2\text{O}(\ell) \longrightarrow \text{H}_2\text{O}(g)$$
 
-3. Water vapor is a powerful greenhouse gas. More water in the atmosphere trapped more infrared radiation, which raised surface temperatures further, which evaporated more water. This is a positive feedback loop--a thermal runaway.
+3. Water vapor is a powerful greenhouse gas. More water in the atmosphere trapped more infrared radiation, which raised surface temperatures further, which evaporated more water. This is positive feedback. A radiative runaway requires that outgoing thermal radiation cannot balance the absorbed energy.
 
-4. With the oceans now in the atmosphere, solar ultraviolet radiation could reach the water vapor. The net result of UV photolysis was the decomposition of water:
+4. Water reaching the upper atmosphere is exposed to solar ultraviolet radiation. The net result of UV photolysis can be written as:
 
 $$2\,\text{H}_2\text{O}(g) \xrightarrow{UV} 2\,\text{H}_2(g) + \text{O}_2(g)$$
 
 (This is the net stoichiometry; the actual mechanism proceeds through OH and H radicals in multiple steps.)
 
-5. The liberated hydrogen, being the lightest gas, escaped from the top of the atmosphere into space. The oxygen was consumed by reactions with surface rocks and volcanic gases.
+5. Hydrogen can escape from the upper atmosphere. Oxygen can react with surface rocks and volcanic gases, or itself be lost. The balance among these processes depends on the atmospheric and surface history.
 
-6. With the hydrogen gone, there was no way to reconstitute water. The loss was irreversible.
+6. Escaped hydrogen is no longer available to make water on the planet. Whether later delivery or outgassing replenishes water is a separate part of the inventory.
 
-The entire process may have taken as little as a few hundred million years. By the time it was over, Venus had no water, no ocean, no possibility of the liquid-phase chemistry that life requires. The carbon dioxide that would have dissolved into oceans on a cooler planet remained in the atmosphere instead, thickening the greenhouse blanket further. Venus became what it is today: a cautionary tale written in isotope ratios.
+Venus is dry at the surface today. That does not tell us whether it lost an earlier ocean or whether its atmosphere prevented an ocean from condensing. Models have explored both histories.[^fig_way] The present climate is a cautionary tale, but isotope ratios do not supply a unique timetable or a verdict on all past habitability.
 
 ### Why Earth kept its water
 
-Earth sits only about 38 percent farther from the Sun than Venus. That modest difference in orbital distance was enough--but just barely--to prevent the same runaway.
+Earth sits about 38 percent farther from the Sun than Venus. That difference matters, together with clouds, atmospheric composition, rotation, and water inventory. Distance alone does not establish how close early Earth was to a runaway threshold.
 
-The key is what atmospheric scientists call the **cold trap**. On Earth, the tropopause (roughly 12 km altitude) is very cold: around minus 60 degrees Celsius. At that temperature the saturation vapor pressure of water is only about 1 Pa---orders of magnitude lower than at the surface. Water vapor rising from below condenses and falls back as rain long before it reaches the altitudes where ultraviolet radiation could break it apart. The tropopause acts as a cold lid, trapping water in the lower atmosphere where it is shielded from photolysis.
+The key is what atmospheric scientists call the **cold trap**. In a sufficiently cold atmospheric layer, much of the rising water vapor condenses, restricting how much reaches the upper atmosphere where photolysis and escape can remove hydrogen. Its effectiveness depends on the atmospheric temperature profile and the amount of noncondensing gas.[^water_loss_models]
 
-On Venus, the greater solar flux pushed temperatures high enough that no cold trap could form. Water vapor mixed freely into the upper atmosphere, where UV radiation destroyed it molecule by molecule.
+A warm, wet upper atmosphere weakens that protection. Whether Venus ever sustained an effective cold trap and a surface ocean remains uncertain; hot-start and ocean-start models need not follow the same history.
 
-This is a knife-edge. Earth's cold trap works today, and has worked for most of Earth's history, but it is not guaranteed by any deep principle. It is a consequence of Earth's specific distance from the Sun, its atmospheric composition, and its surface temperature. Move Earth 10 to 15 percent closer to the Sun, and models suggest the cold trap fails, the runaway begins, and we join Venus.
+Earth's cold trap is a consequence of its atmospheric and surface conditions, not a guarantee for every possible climate. The point at which it becomes ineffective is model-dependent; a fixed 10 to 15 percent orbital shift cannot serve as a universal boundary.
 
-Same physics. Same starting materials. A difference of a few tens of millions of kilometers--less than a third of the distance from the Earth to the Sun--and the outcome is a lifeless furnace versus a habitable world.
+Same physics. Related materials. Different orbital and atmospheric histories, and very different surface conditions.
 
 ### Mars: the planet that lost its shield
 
-Mars tells the opposite cautionary tale. Where Venus got too hot and lost its water upward, Mars got too cold and lost its atmosphere outward.
+Mars tells a different cautionary tale. Its surface and atmospheric histories record water and major atmospheric loss, but those changes cannot be assigned to one cause.
 
-Mars is smaller than Earth--about half the diameter, roughly one-tenth the mass. Its lower mass meant lower internal heat, which meant its core cooled faster, which meant it lost its global magnetic field earlier. Without a magnetic field, the solar wind--a stream of charged particles from the Sun--could interact directly with the upper atmosphere, stripping it away molecule by molecule over hundreds of millions of years.
+Mars is smaller than Earth, about half the diameter and roughly one-tenth the mass. Size affects both thermal evolution and atmospheric retention. Crustal magnetization supports an ancient dynamo,[^fig_acuna] and MAVEN measurements of argon isotopes support substantial atmospheric loss through sputtering.[^mars_escape] Those observations do not establish a single sequence in which core cooling switched off a shield and the solar wind then removed the entire atmosphere.
 
-As the atmosphere thinned, surface pressure dropped. Mars's present-day surface pressure is about 610 Pa---0.6 percent of Earth's. Models suggest it may have started with 0.5 to 1 bar or more; the loss unfolded over hundreds of millions of years as the dynamo faded. Below a certain pressure, liquid water cannot exist regardless of temperature: it either freezes or sublimes directly to vapor. Mars crossed that threshold and its surface water was lost--some to space, some frozen into the regolith and polar caps, some perhaps trapped in subsurface reservoirs that remain liquid (under pressure, in contact with salts) even today.
+Mars's present-day surface pressure averages about 610 Pa, roughly 0.6 percent of Earth's, and varies with elevation and season. Below the triple-point pressure of pure water, an equilibrium bulk liquid phase is not stable. Exposed liquid can evaporate or boil; ice can sublime. This is not a universal prohibition on brines or liquid under subsurface pressure. Nor does it establish that liquid reservoirs exist today. Reconstructing earlier pressure and the division of water among ice, minerals, subsurface storage, and space remains a separate problem.
 
 Early Mars may have been habitable.
 
-During the Hadean eon--the same period when Earth was being pummeled by giant impacts and was arguably less hospitable than it would later become--Mars may have had a thicker atmosphere, warmer surface temperatures, and liquid water flowing on its surface. The evidence is geological: river valleys, lake beds, and mineral deposits that require sustained liquid water to form. Some of these features date to 4.0 to 3.7 billion years ago.
+During the late Hadean and early Archean interval on Earth, Mars may have had a thicker atmosphere and episodes of surface liquid water. River valleys, lake deposits, and alteration minerals constrain that history.[^fig_mars_climate] Features dating to about 4.0 to 3.7 billion years ago do not by themselves establish a continuously warm, wet global climate.
 
-During the window when life first appeared on Earth (somewhere between 4.0 and 3.5 billion years ago), Mars may have been an equally plausible--perhaps even safer--cradle for life. Mars had liquid water. It had the same basic chemistry. And it may have been less violent than Earth, which was still being heavily bombarded.
+Early Mars is therefore a plausible place to ask about habitability. That does not establish that it was a safer cradle for life than Earth, or that their habitable intervals and the origin of life can be dated precisely.
 
-This raises a possibility that planetary scientists take seriously: that life may have originated on Mars and been transported to Earth inside meteorites blasted off the Martian surface by impacts. We know that Martian meteorites reach Earth--we have them in our collections. We know that some bacteria can survive the conditions of ejection, transit through space, and atmospheric entry. The hypothesis is unproven, but it is not fringe science. It is a direct consequence of the fact that the same chemistry was available on two neighboring planets during the same time window.[^marspanspermia]
+This raises a possibility: life might have been transported between planets in rocks. Martian meteorites reach Earth, but delivery of a rock is not delivery of a living system. Experiments test particular stages under particular conditions. One orbital experiment recovered viable thermophilic bacteria from some basalt cavities after reentry; it did not test the complete chain of natural ejection, interplanetary transit, and entry.[^marspanspermia] Panspermia remains a hypothesis, not a consequence of shared chemistry.
 
 ## The first ocean
 
-Wherever life originated, it needed liquid water. Not as a decorative feature, but as a physical requirement: water is the solvent in which biochemical reactions occur, the medium through which reactants diffuse to meet each other, and a participant in countless hydrolysis and condensation reactions. Without liquid water, the thermodynamic rules from Chapter 1 are real but irrelevant--there is no medium in which to run the chemistry.
+Life as we know it needs liquid water. Not as a decorative feature, but as a physical requirement: water is the solvent in which biochemical reactions occur, the medium through which reactants diffuse to meet each other, and a participant in countless hydrolysis and condensation reactions. Without liquid water, the thermodynamic rules from Chapter 1 are real but irrelevant--there is no medium in which to run the chemistry.
 
 The evidence that Earth's hydrosphere appeared very early comes from those ancient zircon crystals mentioned above. Zircons (zirconium silicate, ZrSiO$_4$) are extraordinarily durable minerals. They resist weathering, metamorphism, and even partial melting of the rocks that contain them. Some zircon crystals from the Jack Hills of Western Australia have been dated to 4.4 billion years ago--only about 150 million years after the Earth formed.[^wilde_zircon]
 
@@ -122,55 +120,55 @@ If the ocean existed that early, then the stage for life was set far sooner than
 
 ### An exotic soup
 
-The early ocean was not like the modern ocean. It was hotter--perhaps 60 to 80 degrees Celsius according to isotope proxies, though estimates vary. It was more acidic, with a lower pH driven by dissolved carbon dioxide. And it was chemically richer in ways that matter for biology.
+The early ocean was not like the modern ocean, but its temperature and chemistry are harder to reconstruct than a single description of hot, acidic water suggests. Temperature estimates depend on the proxy and its preservation; different approaches need not agree.[^cooling_trend] Acidity also depends on atmospheric composition and local water-rock reactions.
 
-The ancient ocean was laden with dissolved metals that are rare in today's seawater: tungsten, molybdenum, vanadium, nickel, cobalt, iron in soluble form. These are not arbitrary trace elements. They are the metals that sit at the active sites of the oldest enzymes--the metalloprotein cofactors that catalyze the most fundamental biochemical reactions.[^ancient_metals]
+Dissolved metals matter because they sit at the active sites of many enzymes. Their availability depends on redox conditions, mineral sources, sulfide, and ligands; it was not necessarily higher for every metal in the ancient ocean. Phylogenomic comparisons connect the history of metal use with changing ocean chemistry, but do not measure Hadean seawater concentrations.[^ancient_metals]
 
 It is a fossil written in protein structure. Many of the enzymes that drive the most ancient metabolisms--nitrogen fixation, hydrogen metabolism, carbon fixation in methanogens and acetogens--use metal cofactors that seem oddly exotic by the standards of modern seawater chemistry. Molybdenum in nitrogenase. Tungsten in some archaeal enzymes. Nickel in methyl-coenzyme M reductase. Iron-sulfur clusters in nearly everything ancient.
 
-The explanation is straightforward: life's earliest enzymes evolved in an ocean where these metals were available. As the ocean chemistry changed over billions of years--as oxygen accumulated and changed the solubility of various metals, as sulfide precipitation removed others--the enzymes kept their original metal requirements. Proteins are conservative. They do not easily swap one metal for another, because the entire geometry of the active site is built around a specific ion. The result is that modern organisms still require trace amounts of metals that were abundant in the Hadean ocean but are scarce today. Biology remembers what geology has forgotten.
+Modern metal requirements preserve clues to biochemical history, but they are not a direct inventory of the Hadean ocean. Active-site structure constrains metal use, while enzymes and metal-binding families can evolve. The reconstruction from modern proteins to ancient availability is an inference, with assumptions about evolutionary history. Biology can preserve a memory of geology without recording every original concentration.
 
 ## The first signatures of life
 
-When did life actually appear? The honest answer is: we are not certain, because the earliest evidence is indirect and debated. But the best current evidence points to life being present on Earth by at least 3.8 billion years ago, and possibly earlier.
+When did life actually appear? The honest answer is: we are not certain. Some of the oldest proposed evidence is indirect and debated. Greenland carbon records near 3.8 billion years ago are among those debated cases; by about 3.43 billion years ago, Australian stromatolite assemblages provide a stronger, though still interpreted, line of evidence for microbial communities.[^fig_allwood]
 
-The evidence comes from Greenland. In the Isua supracrustal belt of southwestern Greenland, rocks dating to approximately 3.8 billion years old contain grains of apatite (calcium phosphate) with tiny inclusions of graphite. That graphite has a carbon isotope composition that is difficult to explain without biology.[^isua_graphite]
+The Greenland arguments involve several localities and mineral settings. Isua and Akilia should not be folded into one apatite-graphite occurrence. Reports of isotopically light carbon prompted biological interpretations, while later studies questioned particular occurrences and their geological histories.[^isua_graphite][^isua_debate]
 
-Here is how the argument works. Carbon has two stable isotopes: $^{12}$C (six protons, six neutrons, about 98.9 percent of all carbon) and $^{13}$C (six protons, seven neutrons, about 1.1 percent). When organisms fix carbon dioxide into organic matter--when they build biomass from CO$_2$--the enzymes involved (particularly RuBisCO in modern autotrophs) preferentially incorporate the lighter isotope, $^{12}$C. This is not a choice; it is a consequence of the slightly lower activation energy for reactions involving the lighter isotope. The result is that biogenic organic matter is enriched in $^{12}$C relative to the CO$_2$ it came from, and the residual inorganic carbon (in carbonates, for instance) is correspondingly enriched in $^{13}$C.
+Here is how the argument works. Carbon has two stable isotopes: $^{12}$C (six protons, six neutrons, about 98.9 percent of all carbon) and $^{13}$C (six protons, seven neutrons, about 1.1 percent). When organisms fix carbon dioxide into organic matter--when they build biomass from CO$_2$--the enzymes involved (particularly RuBisCO in modern autotrophs) preferentially incorporate the lighter isotope, $^{12}$C. This is not a choice: isotope-dependent reaction kinetics produce fractionation, with a magnitude that depends on the pathway and conditions. The result is that biogenic organic matter is enriched in $^{12}$C relative to the CO$_2$ it came from, and the residual inorganic carbon (in carbonates, for instance) is correspondingly enriched in $^{13}$C.
 
-The graphite inclusions in the Isua apatite grains show exactly this signature: an enrichment in $^{12}$C consistent with biological carbon fixation. The magnitude of the enrichment--typically expressed as $\delta^{13}$C values of roughly $-$20 to $-$30 per mil relative to a standard--falls squarely within the range produced by autotrophic organisms.[^isua_isotopes]
+Isotopically light carbon can be consistent with biological fixation. A $\delta^{13}\mathrm{C}$ value of roughly $-20$ to $-30$ per mil is not, by itself, an identification of an organism or of RuBisCO. Its interpretation requires the source carbon, mineral setting, and later alteration history.[^isua_isotopes]
 
-This is not the only possible interpretation. Abiotic processes can also fractionate carbon isotopes, although typically not to the same degree or with the same consistency. The debate continues.[^isua_debate] But the Isua signature, combined with similar findings from other early Archean localities, forms a coherent picture: by 3.8 billion years ago, something on Earth was fixing carbon from CO$_2$ into organic matter, using the same isotopic discrimination that biological enzymes produce today.
+Abiotic processes also fractionate carbon isotopes. The debate concerns both the isotope signal and whether the carbon is original to the rock.[^isua_debate] These questions cannot be settled by treating a familiar biological range as proof of biological fixation by 3.8 billion years ago.
 
-If life was already fixing carbon by 3.8 billion years ago, then the origin of life must have occurred even earlier--during the Hadean, during the bombardment, during the period from which we have almost no rock record. The stage was set, and the actors appeared almost as soon as the stage was habitable. The geological time scale that frames this story has been refined over decades of stratigraphic and geochronologic work.[^geologic_timescale]
+If a proposed biological signal is accepted, the origin of life must predate that signal. It does not follow that it occurred during the Hadean: 3.8 billion years ago is already Archean, whereas the Hadean ends at 4.0 billion years ago.[^geologic_timescale] The fragmentary record does not tell us how quickly life followed the first habitable conditions.
 
 ## The cooling planet
 
-Life did not appear on a world like ours. It appeared on a world that was significantly hotter, and it has been adapting to a cooling planet ever since.
+Was early life adapted to a hotter world? Ancient proteins give us one way to ask, but their thermal stability and the temperature of an entire ocean are different observables.
 
 The most striking evidence for this comes from an ingenious approach: resurrecting ancient proteins. Eric Gaucher and colleagues reconstructed the likely amino acid sequences of ancestral elongation factors--proteins involved in translation, the process by which ribosomes read messenger RNA and build proteins. Because elongation factors are universal (present in all domains of life) and essential (you cannot live without them), their phylogenetic tree extends deep into evolutionary history.[^gaucher_proteins]
 
-By reconstructing these ancestral proteins in the laboratory and measuring their thermal stability, Gaucher's team inferred the temperatures at which the organisms carrying those proteins likely lived. The results trace a clear cooling trend:
+By reconstructing these proteins in the laboratory and measuring their thermal stability, Gaucher's team inferred a temperature trend for the environments of the sampled bacterial lineages. That inference requires a link between protein stability and the conditions in which the ancestral organisms lived.[^gaucher_proteins]
 
-- The earliest common ancestors, dating to the early Archean (roughly 3.5 billion years ago), appear to have preferred temperatures of approximately 60 to 70 degrees Celsius--solidly thermophilic.
-- By the late Proterozoic (roughly 500 million years ago), the preferred temperatures had dropped to approximately 35 to 37 degrees Celsius--close to the body temperature of modern mammals.
+- The reconstructed elongation factors span an inferred interval from roughly 3.5 to 0.5 billion years ago.
+- Their thermal stability suggests a cooling trend of about 30 degrees Celsius across that interval; the youngest endpoint, about 500 million years ago, lies in the Cambrian, not the late Proterozoic.
 
-This 30-degree cooling over three billion years is independently supported by oxygen isotope records from marine sediments, which show a similar trend.[^cooling_trend]
+The authors compared that trend with oxygen-isotope reconstructions of seawater temperature. Such reconstructions also depend on the isotope composition of the water and preservation of the minerals; agreement does not make either method a direct measurement of the global ancient ocean.[^cooling_trend]
 
-The implication for our story is this: the earliest life was adapted to heat, because the planet was hot. The first microbes were thermophiles or even hyperthermophiles--organisms whose enzymes worked best at temperatures that would cook most modern life. As the planet cooled, life followed the temperature downward, adapting its proteins step by step to progressively cooler conditions.
+The implication for our story is bounded: selected ancestral proteins support adaptation to changing temperatures. They do not establish that the first organisms were all thermophiles or hyperthermophiles, or that their temperature preferences equal the temperature of the whole ocean.
 
-This illustrates the non-equilibrium theme from Chapter 1. Life does not set the temperature. The planet sets the temperature, and life adapts its machinery to harvest energy within whatever temperature regime it finds. The thermodynamic rules do not change--$\Delta G$ is $\Delta G$ whether the water is 70 degrees or 35 degrees--but the kinetic landscape changes profoundly, and with it the strategies that pay off.
+This illustrates the theme from Chapter 1. Organisms adapt their machinery to the conditions in which they harvest energy. The thermodynamic laws do not change, but the value of $\Delta G$ depends on temperature, pressure, and chemical activities. Reaction rates also change with conditions, and with them the strategies that pay off.
 
 ::: {.callout-note}
 ## Sidebar --- Reading Earth's diary -- isotope proxies
 
-How do we know the temperature of an ocean that evaporated three billion years ago? How do we detect the breath of organisms that left no fossils? The answer, in almost every case, is isotopes.
+How do we know the temperature of an ocean three billion years ago? How do we detect the breath of organisms that left no fossils? The answer, in almost every case, is isotopes.
 
-Different physical and biological processes fractionate isotopes--preferring lighter or heavier versions of the same element--in predictable ways. By measuring isotope ratios in ancient minerals, we can reconstruct conditions that no instrument ever recorded.
+Different physical and biological processes fractionate isotopes--preferring lighter or heavier versions of the same element--in predictable ways. By measuring isotope ratios in ancient minerals, we can reconstruct conditions that no instrument ever recorded. The delta notation is a relative difference, not the isotope ratio itself: $\delta = R_{\mathrm{sample}}/R_{\mathrm{reference}} - 1$, where $R$ is the heavy-to-light isotope ratio. Delta is dimensionless; its numerical value in per mil is $1000\delta$. Carbon values are commonly reported relative to VPDB. Oxygen values require the stated scale, commonly VSMOW for water and silicates or VPDB for carbonates.[^isotope_scales]
 
-**Carbon isotopes and the signature of life.** The carbon isotope ratio $\delta^{13}$C is the workhorse proxy for ancient biological activity. Autotrophic organisms preferentially fix $^{12}$C from CO$_2$, leaving the residual inorganic carbon pool enriched in $^{13}$C. A persistent offset between carbonate $\delta^{13}$C and organic carbon $\delta^{13}$C in the sedimentary record--maintained for over 3.5 billion years--is one of the strongest lines of evidence that life has been continuously active on Earth since the early Archean.[^carbon_isotope_record]
+**Carbon isotopes and the signature of life.** The relative isotope difference $\delta^{13}$C is the workhorse proxy for ancient biological activity. Autotrophic organisms preferentially fix $^{12}$C from CO$_2$, leaving the residual inorganic carbon pool enriched in $^{13}$C. A persistent offset between carbonate $\delta^{13}$C and organic carbon $\delta^{13}$C in the sedimentary record--maintained for over 3.5 billion years--supports a long history of biological carbon cycling. At the oldest sites, the mineral context and possible abiotic fractionation still need to be checked.[^carbon_isotope_record]
 
-**Oxygen isotopes as a thermometer.** When organisms build calcium carbonate shells (or when carbonate precipitates abiotically), the $^{18}$O/$^{16}$O ratio of the mineral depends on temperature. Colder water produces carbonate with higher $\delta^{18}$O. This relationship has been calibrated in modern organisms and applied, with appropriate caution, to ancient carbonates to reconstruct ocean temperatures spanning hundreds of millions of years.
+**Oxygen isotopes as a thermometer.** When organisms build calcium carbonate shells (or when carbonate precipitates abiotically), the $^{18}$O/$^{16}$O ratio of the mineral depends on temperature. For a fixed water isotope composition, colder formation conditions generally produce carbonate with higher $\delta^{18}$O. The water's own isotope composition and later alteration must also be considered. This relationship has been calibrated in modern organisms and applied, with appropriate caution, to ancient carbonates to reconstruct ocean temperatures spanning hundreds of millions of years.
 
 **Trace element ratios in biominerals.** Beyond isotopes, the chemical composition of biogenic minerals carries environmental information:
 
@@ -178,46 +176,36 @@ Different physical and biological processes fractionate isotopes--preferring lig
 - **Mg/Ca ratios** in foraminiferal calcite serve as temperature proxies, though the relationship is complicated by biological controls on biomineralization. Recent work has developed new models for how trace elements are incorporated into foraminiferal tests.[^mg_ca_proxy]
 - **Shell nanostructure**: the ultrastructure of nacre (mother-of-pearl) in mollusk shells correlates with the temperature and pressure conditions during growth, providing yet another independent environmental record.[^nacre_structure]
 
-**Goethite and ancient CO$_2$.** One of the more remarkable proxy systems involves goethite ($\alpha$-FeOOH), an iron oxyhydroxide mineral that forms during weathering. Carbon from atmospheric CO$_2$ is incorporated into goethite during its formation, and the carbon isotope composition of this trapped carbon reflects the CO$_2$ concentration of the atmosphere at the time of mineral formation.
-
-Yapp and colleagues established a quantitative relationship between the carbon isotope composition of goethite-hosted carbonate and the mole fraction $X$ of CO$_2$ in soil gas:[^yapp_goethite]
-
-$$\delta^{13}\text{C} = \frac{0.0162}{X} - 20.1$$
-
-This relationship, with a correlation coefficient of $r = 0.98$, has been validated against independent measurements.[^yapp_validation] Combined with the relationship between soil CO$_2$ mole fraction and atmospheric partial pressure:[^yapp_pco2]
-
-$$P_{\text{CO}_2} = \log(X) + 6.04 - \frac{1570}{T}$$
-
-and an independent estimate of paleotemperature (from oxygen isotopes, for instance), one can estimate the atmospheric CO$_2$ concentration at the time the goethite formed. This approach has provided some of the best constraints on Phanerozoic CO$_2$ levels.
+**Goethite and ancient CO$_2$.** Goethite ($\alpha$-FeOOH) can preserve occluded carbonate whose abundance and isotope composition constrain the CO$_2$ present during formation.[^yapp_goethite] In soils, that CO$_2$ is a mixture of atmospheric and respired carbon. Inferring atmospheric partial pressure therefore requires a temperature-dependent mineral calibration and a model of soil gas, with their assumptions and uncertainties stated.
 
 The common thread across all these proxies is the same: physical and chemical processes leave isotopic fingerprints, and those fingerprints are preserved in minerals that survive for billions of years. The diary is not easy to read--each proxy has assumptions, calibration uncertainties, and potential for alteration after deposition. But taken together, these proxies give us a remarkably detailed picture of conditions on a planet that left almost no other record of its youth.
 :::
 
 ## The inventory, assembled
 
-By roughly 4 billion years ago--perhaps earlier--the Earth had assembled a remarkable inventory. Consider what was in place:
+The surviving record lets us assemble a working inventory for early Earth. The items are not all dated by the same evidence, and their amounts and histories remain partly reconstructed:
 
 **Liquid water**, cycling between ocean, atmosphere, and crust, providing the solvent and reaction medium that aqueous chemistry requires.
 
-**An atmosphere** rich in carbon dioxide and nitrogen, with trace amounts of methane, ammonia, hydrogen sulfide, and other reduced gases from volcanic outgassing. This atmosphere was not oxidizing (there was virtually no free oxygen), which is important because many of the chemical reactions that build biological molecules are more favorable under reducing conditions.
+**An atmosphere** supplying carbon and nitrogen. Its composition and the abundance of reduced gases depended on outgassing, escape, and chemical reactions. An oxygen-poor atmosphere is not automatically strongly reducing; the distinction matters for prebiotic chemistry.
 
-**Dissolved metals**--iron, nickel, molybdenum, tungsten, cobalt, manganese, vanadium--available in the ocean at concentrations far higher than today. These would become the catalytic hearts of the first enzymes.
+**Available metals**, supplied by minerals and water-rock reactions. Their dissolved concentrations and usefulness as catalysts depended on local chemistry; modern enzyme cofactors do not establish that every metal was more abundant in Hadean seawater.
 
 **Energy sources**: sunlight (ultraviolet radiation was particularly intense, since there was no ozone layer to block it), geothermal heat from a planet still cooling from accretion, chemical energy from the interaction of water with freshly exposed rock (serpentinization reactions that produce hydrogen gas), and electrical energy from lightning.
 
-**Temperature**: hot by modern standards (perhaps 60 to 80 degrees Celsius in the ocean according to isotope proxies, likely higher near hydrothermal vents), but within the range where organic chemistry can proceed and where proteins, once they exist, can fold and function.
+**A range of temperatures**, including hot hydrothermal settings and water cool enough to remain liquid. Ancient global ocean temperatures are debated; local hot environments need not describe the whole ocean.
 
-**A day-night cycle and seasons**, courtesy of the Moon-forming impact, providing environmental oscillations that drive mixing, temperature cycling, and periodic changes in light availability.
+**A day-night cycle and seasons**, arising from rotation and axial tilt. The Moon influences rotation and long-term tilt variability, but did not create those cycles.
 
-**Geological recycling**: plate tectonics (or some proto-tectonic process) cycling material between the surface and the interior, preventing the planet from reaching a static chemical equilibrium. This is critical. A planet that stops recycling its crust eventually reaches a surface chemistry equilibrium and becomes geochemically dead. Earth's tectonics have kept the surface out of equilibrium for over four billion years--providing a continuous supply of reduced material from the mantle to the oxidized surface.
+**Geological recycling**: volcanism, deformation, weathering, and exchanges between water and rock renewed chemical gradients. We do not need to assume that modern plate tectonics operated unchanged for four billion years, or that its absence alone makes a planet chemically inactive.
 
-Every item on this list is physical. Every one is measurable. And every one distinguishes Earth from its two nearest neighbors: Venus lost its water, Mars lost its atmosphere, and neither maintained the geological recycling that keeps the chemical gradients fresh.
+Every item on this list is physical, but not every early inventory is directly measured. The surviving observations and the reconstructions must be kept separate when we compare Earth with Venus and Mars.
 
 ## Why this comparison matters again
 
-For a long time, the comparison between Earth, Venus, and Mars served mainly as reconstruction: one planet crossed the threshold into biology, two did not. Astrobiology has made the comparison more immediate by turning speculation into fieldwork.
+For a long time, the comparison between Earth, Venus, and Mars served mainly as reconstruction: Earth supports life; the biological histories of the other two remain unknown. Astrobiology has made the comparison more immediate by turning speculation into fieldwork.
 
-Cassini's sampling of Enceladus changed the stakes. The plume erupting from that moon's subsurface ocean contains salts, organics, molecular hydrogen, and now direct evidence of sodium phosphates -- the missing phosphorus piece in the CHNOPS inventory.[^postberg2023] Europa has moved from a literary possibility to an active mission target: Europa Clipper launched in 2024, tested its ice-penetrating radar at Mars in 2025, and is now on its way to Jupiter.[^europaclipper2025] On Mars, Perseverance has begun to find exactly the kinds of redox-coupled mineral associations a geomicrobiologist would want to inspect first: iron phosphates, iron sulfides, organics, and textures that look less like barren dust and more like the aftermath of chemistry that once had structure.[^hurowitz2025]
+Cassini's sampling of Enceladus changed the stakes. The plume erupting from that moon's subsurface ocean contains salts, organics, molecular hydrogen, and now direct evidence of sodium phosphates -- the missing phosphorus piece in the CHNOPS inventory.[^postberg2023] Europa has moved from a literary possibility to an active mission target: Europa Clipper launched in 2024, tested its ice-penetrating radar at Mars in 2025.[^europaclipper2025] On Mars, Perseverance has begun to find exactly the kinds of redox-coupled mineral associations a geomicrobiologist would want to inspect first: iron phosphates, iron sulfides, organics, and textures that look less like barren dust and more like the aftermath of chemistry that once had structure.[^hurowitz2025]
 
 None of this proves life beyond Earth. It does sharpen the question. The issue is no longer whether habitable chemistry is conceivable elsewhere. The issue is where the same combination of solvent, redox disequilibrium, mineral surfaces, and elemental inventory may still be running right now.
 
@@ -227,45 +215,45 @@ The laws of thermodynamics operate everywhere. The quantum mechanics that determ
 
 But laws alone do not produce outcomes. You also need conditions: the right temperature range, the right solvent, the right inventory of elements in accessible forms, the right energy sources, and--crucially--enough time for the slow, improbable process of chemical evolution to produce self-replicating systems.
 
-Earth provided all of these. Not because it was designed to, and not because rocky planets commonly do. Earth provided them because of a specific sequence of physical accidents: the right distance from the Sun (preserving the cold trap), a giant impact (giving it a stabilizing moon and a secondary atmosphere), the right mass (retaining atmosphere but allowing tectonic recycling), and an ocean that appeared early and persisted.
+Earth provided conditions in which life could persist. Its distance from the Sun, atmospheric history, mass, geological activity, and long-lived water all contributed. Their roles are reconstructed in interacting physical models; a giant impact or the presence of a large moon is not, by itself, proof that a living planet must follow.
 
-Venus shows what happens when the distance is wrong. Mars shows what happens when the mass is wrong. Both had water. Both had carbon. Both had the same thermodynamic rules. Neither became a living world.
+Venus and Mars show how rocky planets can follow different histories under the same thermodynamic rules. Mars preserves evidence of past surface water, while Venus's water history is less certain. Neither has confirmed evidence of life. That is a statement about our evidence, not a complete account of their past.
 
-The chapter needs only that much stage-setting: a warm, wet, metal-rich, geologically active planet bathed in energy, with the thermodynamic rules of Chapter 1 operating in every drop of its ancient ocean.
+The chapter needs only that much stage-setting: a planet with persistent liquid water, accessible metals, and geological activity bathed in energy, with the thermodynamic rules of Chapter 1 operating in every drop of its ancient ocean.
 
-And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen gas and carbon monoxide into warm, metal-rich water---an environment saturated with the electron donors and carbon sources that will underwrite the first microbial metabolisms. If thermodynamic models and recent vent-fluid analyses are right, trace hydrogen cyanide is in the mix as well.[^hcn_vents] The thermodynamics are favorable. The raw materials are abundant. The planet has time. What it does not yet have is a molecule that can copy itself.
+At hydrothermal vents, water-rock reactions can supply hydrogen and other reduced compounds, creating local energy and carbon sources for chemistry. Thermodynamic calculations also predict HCN under specified conditions; the cited review does not establish its detection in natural vent fluids.[^hcn_vents] A favorable calculated reaction is not proof of its rate or product abundance. The planet offers possible settings. What we still need to explain is a system that can reproduce.
 
 ## Takeaway
 
-- Earth, Venus, and Mars formed from the same solar nebula with similar starting chemistry. The divergence in their fates was driven by physical parameters: orbital distance, planetary mass, and the presence or absence of a large moon.
-- Venus lost its water through a runaway greenhouse, recorded in its extreme deuterium-to-hydrogen ratio. Earth's cold trap--a consequence of its greater distance from the Sun--prevented the same catastrophe.
-- Mars lost its atmosphere to solar wind stripping after its magnetic field died, a consequence of its smaller mass and faster core cooling.
-- Earth's ocean appeared within the first few hundred million years, as recorded by 4.4-billion-year-old zircon crystals from Western Australia.
-- The early ocean was rich in dissolved metals (tungsten, molybdenum, nickel, iron) that became the catalytic cores of the first enzymes--a chemical memory preserved in modern protein structures.
-- The earliest isotopic evidence of life (carbon isotope fractionation in 3.8-billion-year-old graphite from Greenland) indicates that biological carbon fixation was occurring by the early Archean.
-- Resurrected ancestral proteins indicate that the earliest organisms preferred temperatures of 60 to 70 degrees Celsius; the planet has been cooling, and life has been adapting, for over three billion years.
-- The comparison is newly practical, not just historical: ocean worlds, Mars sample caching, and current missions now make geomicrobiology directly relevant to astrobiology.
+- Earth, Venus, and Mars formed in the same solar system, but their initial volatile inventories need not have been equal.
+- Venus's deuterium enrichment supports water loss without uniquely establishing an earlier ocean. Moist and runaway greenhouse regimes are distinct, and their thresholds depend on conditions.
+- Mars's crustal magnetism and atmospheric isotopes constrain different parts of its history; they do not demonstrate a single switch that removed its entire atmosphere.
+- Ancient zircons support water interaction by about 4.4 billion years ago, without measuring the extent or temperature of a global ocean.
+- Modern metal cofactors provide clues to biochemical history, not a direct concentration inventory of Hadean seawater.
+- Isotopically light ancient carbon can be consistent with life, but the oldest Greenland records remain debated. Younger stromatolite assemblages offer a different line of evidence.
+- Resurrected proteins measure thermal stability. Environmental temperatures inferred from them depend on evolutionary and physiological assumptions.
+- Ocean worlds, Mars samples, and planetary missions make these distinctions practical: habitable chemistry and potential biosignatures require testing, and neither establishes extraterrestrial life.
 
 
 [^wilde2001_hadean]: Simon A. Wilde et al., "Evidence from Detrital Zircons for the Existence of Continental Crust and Oceans on the Earth 4.4 Gyr Ago," *Nature* 409 (2001): 175–178. [@Wilde2001]
 
-[^marspanspermia]: The hypothesis of panspermia from Mars to Earth is discussed in Alexandr Markov, *Birth of Complexity: Evolutionary Biology Today: Unexpected Discoveries and New Questions* (2010). Experimental work on bacterial survival in space bolsters the plausibility. [@Markov2010]
+[^marspanspermia]: Alexander Slobodkin et al., "Spore-Forming Thermophilic Bacterium within Artificial Meteorite Survives Entry into the Earth's Atmosphere on FOTON-M4 Satellite," *PLoS ONE* 10 (2015): e0132611. This orbital experiment tests particular protected samples and reentry conditions, not a complete natural Mars-to-Earth transfer. [@Slobodkin2015Reentry]
 
-[^ancient_metals]: Christophe L. Dupont et al., "History of Biological Metal Utilization Inferred through Phylogenomic Analysis of Protein Structures," *Proceedings of the National Academy of Sciences* 107 (2010): 10567–10572. [@Dupont2010]
+[^ancient_metals]: Christopher L. Dupont et al., "History of Biological Metal Utilization Inferred through Phylogenomic Analysis of Protein Structures," *Proceedings of the National Academy of Sciences* 107 (2010): 10567–10572. [@Dupont2010]
 
 [^isua_graphite]: Manfred Schidlowski, "A 3,800-Million-Year Isotopic Record of Life from Carbon in Sedimentary Rocks," *Nature* 333 (1988): 313–318. [@Schidlowski:1988de]
 
-[^isua_isotopes]: The δ¹³C values of −20 to −30‰ in Isua graphite are consistent with RuBisCO-mediated carbon fixation. Manfred Schidlowski, "A 3,800-Million-Year Isotopic Record of Life from Carbon in Sedimentary Rocks," *Nature* 333 (1988): 313–318. [@Schidlowski:1988de]
+[^isua_isotopes]: A negative $\delta^{13}\mathrm{C}$ value is consistent with several biological pathways and some abiotic processes. It does not uniquely identify RuBisCO in an ancient sample. Renée Z. Wang et al., "Carbon Isotope Fractionation by an Ancestral Rubisco Suggests That Biological Proxies for CO2 through Geologic Time Should Be Reevaluated," *Proceedings of the National Academy of Sciences* 120 (2023): e2300466120, [doi:10.1073/pnas.2300466120](https://doi.org/10.1073/pnas.2300466120), measured distinct enzyme and whole-cell fractionation in a reconstructed-rubisco strain [@Wang2023Rubisco]; that experiment does not identify an ancient organism from a rock. For the historical synthesis, see Manfred Schidlowski, "A 3,800-Million-Year Isotopic Record of Life from Carbon in Sedimentary Rocks," *Nature* 333 (1988): 313--318. [@Schidlowski:1988de]
 
-[^isua_debate]: The Isua biosignature interpretation remains contested. See Aivo Lepland et al., "Questioning the Evidence for Earth's Earliest Life—Akilia Revisited," *Geology* 33 (2005): 77–79 [@Lepland2005]; and Mark A. van Zuilen, Aivo Lepland, and Gustaf Arrhenius, "Reassessing the Evidence for the Earliest Traces of Life," *Nature* 418 (2002): 627–630. [@vanZuilen2002]
+[^isua_debate]: The localities and claims are distinct. Aivo Lepland et al., "Questioning the Evidence for Earth's Earliest Life: Akilia Revisited," *Geology* 33 (2005): 77--79 [@Lepland2005], addresses Akilia. Mark A. van Zuilen, Aivo Lepland, and Gustaf Arrhenius, "Reassessing the Evidence for the Earliest Traces of Life," *Nature* 418 (2002): 627--630 [@vanZuilen2002], discusses reassessment of ancient carbon evidence. These references should not be treated as one Isua apatite occurrence.
 
-[^geologic_timescale]: Felix M. Gradstein et al., *A Geologic Time Scale 2004* (Cambridge University Press, 2004). [@Gradstein2004]
+[^geologic_timescale]: International Commission on Stratigraphy, *International Chronostratigraphic Chart*, version 2024/12. The Hadean ends at 4.0 Ga; 500 Ma lies in the Cambrian. [@ICSChart2024]
 
 [^gaucher_proteins]: Eric A. Gaucher et al., "Palaeotemperature Trend for Precambrian Life Inferred from Resurrected Proteins," *Nature* 451 (2008): 704–707. [@Gaucher2008]
 
-[^cooling_trend]: The cooling trend is supported by multiple independent proxies. Eric A. Gaucher et al., "Palaeotemperature Trend for Precambrian Life Inferred from Resurrected Proteins," *Nature* 451 (2008): 704–707. [@Gaucher2008]
+[^cooling_trend]: Gaucher et al. compared their protein-based inference with oxygen-isotope reconstructions [@Gaucher2008]. Different temperature estimates illustrate the dependence on mineral preservation and the assumed water isotope composition; see Michael T. Hren, Michael M. Tice, and C. Page Chamberlain, "Oxygen and Hydrogen Isotope Evidence for a Temperate Climate 3.42 Billion Years Ago," *Nature* 462 (2009): 205--208 [@Hren2009Temperate]. Agreement between particular reconstructions does not establish a unique global ocean temperature.
 
-[^carbon_isotope_record]: Manfred Schidlowski, "A 3,800-Million-Year Isotopic Record of Life from Carbon in Sedimentary Rocks," *Nature* 333 (1988): 313–318. The persistent 25–30‰ offset between organic and inorganic carbon through 3.5+ billion years of the sedimentary record is one of the most robust biosignatures. [@Schidlowski:1988de]
+[^carbon_isotope_record]: Manfred Schidlowski, "A 3,800-Million-Year Isotopic Record of Life from Carbon in Sedimentary Rocks," *Nature* 333 (1988): 313--318. This historical synthesis discusses biological interpretations of the carbon record; particular oldest samples still require geological context and checks for abiotic alternatives. [@Schidlowski:1988de]
 
 [^sr_ca_proxy]: Alberto Pérez-Huerta et al., "El Niño Impact on Mollusk Biomineralization—Implications for Trace Element Proxy Reconstructions and the Paleo-Archaeological Record," *PLoS ONE* 8 (2013): e54274. [@PerezHuerta:2013bu]
 
@@ -273,19 +261,15 @@ And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen
 
 [^nacre_structure]: Ian C. Olson et al., "Mollusk Shell Nacre Ultrastructure Correlates with Environmental Temperature and Pressure," *Journal of the American Chemical Society* 134 (2012): 7351–7358. [@Olson:2012hh]
 
-[^yapp_goethite]: Crayton J. Yapp and Harald Poths, "Ancient Atmospheric CO₂ Pressures Inferred from Natural Goethites," *Nature* 355 (1992): 342–344 [@Yapp:1992ca]; Crayton J. Yapp, "The Abundance of Fe(CO₃)OH in Goethite," *Geochimica et Cosmochimica Acta* 60 (1996): 4905–4916 [@Yapp:1996eh]; Crayton J. Yapp and Harald Poths, "Carbon Isotopes in Continental Weathering Environments and Variations in Ancient Atmospheric CO₂ Pressure," *Earth and Planetary Science Letters* 137 (1996): 71–82. [@Yapp:1996jq]
+[^yapp_goethite]: Crayton J. Yapp and Harald Poths, "Ancient Atmospheric $\mathrm{CO}_{2}$ Pressures Inferred from Natural Goethites," *Nature* 355 (1992): 342–344 [@Yapp:1992ca]; Crayton J. Yapp, "The Abundance of $\mathrm{Fe}(\mathrm{CO}_{3})\mathrm{OH}$ in Goethite," *Geochimica et Cosmochimica Acta* 60 (1996): 4905–4916 [@Yapp:1996eh]; Crayton J. Yapp and Harald Poths, "Carbon Isotopes in Continental Weathering Environments and Variations in Ancient Atmospheric $\mathrm{CO}_{2}$ Pressure," *Earth and Planetary Science Letters* 137 (1996): 71–82. [@Yapp:1996jq]
 
-[^yapp_validation]: Paul A. Schroeder and Nathan D. Melear, "Stable Carbon Isotope Signatures Preserved in Authigenic Gibbsite from a Forested Granitic Regolith: Panola Mt., Georgia, USA," *Geoderma* 91 (1999): 59–76. [@Schroeder:1999jd]
+[^fig_gaucher]: Eric A. Gaucher et al., "Palaeotemperature Trend for Precambrian Life Inferred from Resurrected Proteins," *Nature* 451 (2008): 704--707. Thermal stability of reconstructed elongation factors supports a conditional temperature trend for sampled lineages, not a global ocean thermometer. [@Gaucher2008]
 
-[^yapp_pco2]: Crayton J. Yapp, "Oxygen and Hydrogen Isotope Variations among Goethites (α-FeOOH) and the Determination of Paleotemperatures," *Geochimica et Cosmochimica Acta* 51 (1987): 355–364. [@Yapp:1987cv]
+[^fig_donahue]: Thomas M. Donahue et al., "Venus Was Wet: A Measurement of the Ratio of Deuterium to Hydrogen," *Science* 216 (1982): 630--633. Deuterium enrichment supports hydrogen loss; its conversion to an initial water inventory requires escape and replenishment assumptions. [@Donahue1982]
 
-[^fig_gaucher]: Eric A. Gaucher et al., "Palaeotemperature Trend for Precambrian Life Inferred from Resurrected Proteins," *Nature* 451 (2008): 704–707. Ancestral protein reconstruction suggests early Archean organisms preferred 60–70°C. [@Gaucher2008]
+[^fig_way]: Michael J. Way et al., "Was Venus the First Habitable World of Our Solar System?" *Geophysical Research Letters* 43 (2016): 8376--8383 [@Way2016], modeled assumed ocean-bearing climates at selected epochs, including 715 Ma. This is not an observed date of ocean loss. Martin Turbet et al., "Day-Night Cloud Asymmetry Prevents Early Oceans on Venus but Not on Earth," *Nature* 598 (2021): 276--280 [@Turbet2021Cloud], instead modeled hot-start atmospheres and found conditions preventing condensation. Their contrasting initial states limit a unique historical inference.
 
-[^fig_donahue]: Thomas M. Donahue et al., "Venus Was Wet: A Measurement of the Ratio of Deuterium to Hydrogen," *Science* 216 (1982): 630–633. The D/H ratio in Venus's atmosphere is ~150× Earth's, indicating catastrophic water loss. [@Donahue1982]
-
-[^fig_way]: Michael J. Way et al., "Was Venus the First Habitable World of Our Solar System?" *Geophysical Research Letters* 43 (2016): 8376–8383. Models suggest Venus may have had surface liquid water until 715 Ma. [@Way2016]
-
-[^fig_mars_climate]: James W. Head III and Bethany L. Carr, "The Noachian Epoch on Mars," *Journal of Geophysical Research* 115 (2010): E03005 [@CarrHead2010]; Robin Wordsworth et al., "Comparison of 'Warm and Wet' and 'Cold and Icy' Scenarios for Early Mars in a 3-D Climate Model," *Journal of Geophysical Research* 120 (2015): 1201–1219. [@Wordsworth2016]
+[^fig_mars_climate]: Michael H. Carr and James W. Head, "Geologic History of Mars," *Earth and Planetary Science Letters* 294 (2010): 185--203 [@CarrHead2010]; Robin D. Wordsworth et al., "Comparison of 'Warm and Wet' and 'Cold and Icy' Scenarios for Early Mars in a 3-D Climate Model," *Journal of Geophysical Research: Planets* 120 (2015): 1201--1219 [@Wordsworth2015Comparison]. The latter compares modeled climate endmembers and their relationship to geological patterns; neither endmember is a direct observation of a global early climate.
 
 [^fig_acuna]: Mario H. Acuña et al., "Global Distribution of Crustal Magnetization Discovered by the Mars Global Surveyor MAG/ER Experiment," *Science* 284 (1999): 790–793. Crustal magnetic remnants indicate Mars lost its global dynamo early. [@Acuna1999]
 
@@ -297,10 +281,20 @@ And at the bottom of that ocean, hydrothermal vents are already pumping hydrogen
 
 [^wilde_zircon]: Simon A. Wilde et al., "Evidence from Detrital Zircons for the Existence of Continental Crust and Oceans on the Earth 4.4 Gyr Ago," *Nature* 409 (2001): 175–178. [@Wilde2001]
 
-[^hcn_vents]: H$_2$ and CO in vent fluids are well established. HCN at vents is thermodynamically predicted and has been detected in some fluid analyses; see Niklas G. Holm and Astrid Neubeck, "Reduction of Nitrogen Compounds in Oceanic Basement and Its Implications for HCN Formation and Abiotic Organic Synthesis," *Geochemical Transactions* 10 (2009): 9 [@HolmNeubeck2009]; for prebiotic chemistry context, John D. Sutherland, "The Origin of Life---Out of the Blue," *Angewandte Chemie International Edition* 55 (2016): 104--121. [@Sutherland2016]
+[^hcn_vents]: Nils G. Holm and Anna Neubeck, "Reduction of Nitrogen Compounds in Oceanic Basement and Its Implications for HCN Formation and Abiotic Organic Synthesis," *Geochemical Transactions* 10 (2009): 9 [@HolmNeubeck2009], reviews thermodynamic predictions and experimental context. It does not substantiate the claimed HCN detection in natural vent fluids. For broader prebiotic chemistry context, see John D. Sutherland, "The Origin of Life: Out of the Blue," *Angewandte Chemie International Edition* 55 (2016): 104--121 [@Sutherland2016].
 
 [^postberg2023]: Frank Postberg et al., "Detection of phosphates originating from Enceladus's ocean," *Nature* 618 (2023): 489--493. Cassini plume grains revealed sodium phosphates, completing a key piece of the elemental inventory for Enceladus habitability. [@Postberg2023]
 
 [^europaclipper2025]: NASA Jet Propulsion Laboratory, "NASA's Europa Clipper radar instrument proves itself at Mars" (2025). Europa Clipper launched in 2024 and successfully tested the REASON radar during its 2025 Mars flyby. [@NASAEuropaClipper2025]
 
 [^hurowitz2025]: Joel A. Hurowitz et al., "Redox-driven mineral and organic associations in Jezero Crater, Mars," *Nature* (2025). Perseverance has begun to find iron phosphates, iron sulfides, and organics in low-temperature redox contexts that are directly relevant to biosignature interpretation. [@Hurowitz2025]
+
+[^moonless_earth]: Jack J. Lissauer, Jason W. Barnes, and John E. Chambers, "Obliquity Variations of a Moonless Earth," *Icarus* 217 (2012): 77--87. Calculations of hypothetical moonless configurations do not establish a necessary condition for life. [@Lissauer2012Moonless]
+
+[^impact_atmosphere]: Hidenori Genda and Yutaka Abe, "Enhanced Atmospheric Loss on Protoplanets at the Giant Impact Phase in the Presence of Oceans," *Nature* 433 (2005): 842--844. Atmospheric loss is a conditional impact-model result. [@GendaAbe2005]
+
+[^water_loss_models]: Robin D. Wordsworth and Raymond T. Pierrehumbert, "Water Loss from Terrestrial Planets with CO2-Rich Atmospheres," *The Astrophysical Journal* 778 (2013): 154. The cold trap and escape depend on the thermal profile and atmospheric inventory. [@Wordsworth2013Water]
+
+[^mars_escape]: Bruce M. Jakosky et al., "Mars' Atmospheric History Derived from Upper-Atmosphere Measurements of 38Ar/36Ar," *Science* 355 (2017): 1408--1410. Argon-isotope measurements and an escape model constrain atmospheric loss; the inference is not a measured loss of every atmospheric species. [@Jakosky2017Argon]
+
+[^isotope_scales]: IUPAC, *Compendium of Chemical Terminology*, "relative isotope-ratio difference" [@IUPACDelta2025]; NIST, *Reference Material 8540: IAEA-CH-7*, reporting guidance [@NIST8540]; CIAAW, "Oxygen Isotope Reference Materials" [@CIAAWOxygen]. State the reference scale whenever reporting a delta value.
