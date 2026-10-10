@@ -8,7 +8,7 @@ Downloaded 2026-10-10. Files under `data/` are byte-preserved originals. The unp
 
 1. From `optional-observed-data/`, run `python3 ../en/model/oxygen_model.py --out results`, then `python3 compare_measured.py`. Inspect `results/measured-version-comparison.csv`. Identify which record the article links and whether its file equals the latest record. Record the DOI and file hashes used in your answer.
 2. For C6 in July 2019 (row 4), compare DOU, TOU and penetration depth between versions. Compute DOU/TOU from v2, explaining what each flux measures. Never treat missing DOU as zero.
-3. Convert the illustrative model's analytic surface flux to mmol m⁻² d⁻¹. Compare it descriptively with v2 C6 DOU. Explain why a discrepancy does not by itself identify a faulty solver or provide a fitted value for k.
+3. Convert the illustrative model's analytic surface flux to mmol $m^{-2} d^{-1}$. Compare it descriptively with v2 C6 DOU. Explain why a discrepancy does not by itself identify a faulty solver or provide a fitted value for k.
 4. Compute the mean station DOU/TOU for the seven rows with paired fluxes, and the ratio of their summed DOU to summed TOU. Explain the distinction. Compare them with the article's reported mean ratio without altering the archived table to make it match. Inspect article Section 4.1 for the chamber water-respiration correction.
 5. State why these summaries are insufficient to fit a depth profile or validate the first-order closure. Specify a minimum additional dataset and a genuinely independent validation design.
 
