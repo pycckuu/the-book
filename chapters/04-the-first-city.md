@@ -162,7 +162,7 @@ These couplings suggest feedback loops that can buffer changes in supply. Their 
 
 This is the satisficing lens used in this book: ask whether a community can cover maintenance costs under local constraints, rather than assuming a community-wide objective. A steady state in a selected kinetic model does not establish that organisms never optimize. Coexistence alone does not distinguish these interpretations. The material loops and the conditions that sustain them must be checked, rather than inferred from the saturation curve.
 
-If you assume optimization -- that sulfate reducers outcompete methanogens everywhere sulfate is present, that redox zones are sharp, that one reaction dominates per depth interval -- you get a model that is elegant and wrong. Real mats show overlap, coexistence, and zones where "losing" reactions persist at low rates. The satisficing view explains this: organisms do not compete to extinction when both can cover their costs. They coexist in the fuzzy margin where $\Delta G$ is negative for both, and the boundary between them is not a line but a gradient.
+A model that assumes sulfate reducers always exclude methanogens wherever sulfate is present, or that one reaction dominates each depth interval, can miss overlap and coexistence. Those observations call for checking substrate use, transport, and local energy conditions. The satisficing lens asks whether each guild can cover its costs in that setting. Negative $\Delta G$ for both reactions is a starting condition to examine, not sufficient evidence for coexistence or a test that rules out optimization.
 
 ## What we sacrificed
 
