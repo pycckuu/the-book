@@ -7,18 +7,18 @@
   "learner_pilot": "prepared, not executed",
   "model_sha256": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9",
   "files": {
-    "README.md": "bfffef3f629eedb4aadf79e57129b5d9302cda63fa98092e630282f23199b758",
+    "README.md": "c4b697bf19debf6bf9532af3fbeff4fc6ebeda766d5d98f6a24eba24cba3321c",
     "appendices/b-model-toolkit.ru.md": "09eaf66c423e7bfcc7d4f98f0a7222364277c4e9efe5d75505734ccacf8e3691",
     "chapters/08-the-equation.ru.md": "1bf4fa1474fa264844927b803f84ee37115687b53f3e871952133b833ea3b9df",
     "course-references.bib": "9ae9952aa26758db89293bf73a0955e433e9f68cd0f0db040282bfcbf70be827",
-    "curriculum-ru.md": "c44420652b140904b54f5fd8842dc74e9d20e2f02d5f5b82de6532eff6accf2c",
+    "curriculum-ru.md": "aa1a28d2b6e446de0bc26be8eb6465b6af6904d343715ec5add2975ef3a7708a",
     "data/synthetic-profile.csv": "b8e56c78c459e0292905b043b0494be16f7417b6d2796cbfc224c0adb2952ebd",
     "evidence/fit-residuals.csv": "7db901f01e07fc1c36c7ba549f29a7e6fd0154d08f829f1a5df49127e7bdf48a",
     "evidence/profiles.csv": "24e95fb0fe0b44484fc479cc17dc904ab70b5cd3e6dad31ed7e7ca30857c9ded",
     "evidence/sensitivity.csv": "14abe80e8c81f579da42a4ff0f94238d30f80503c1874f1773dc05dfe2b5f0c2",
     "evidence/teaching-checks.json": "962c859800cc13300d427ab32634d91ad088716c99192b6db05ee143d11f4b8f",
     "evidence/verification.json": "e49735eaca2669430e975a507e445eb1ca24c1138c0f589423a74d24e59027b5",
-    "instructor-packet-ru.md": "aa44717aefdc845456acf8af452b99d4ea33ffbc9dfc4ffaaacbe9f12922624e",
+    "instructor-packet-ru.md": "1535de01b09eb637f7dd80a1ad81ece67ba45b2244b97ddfe1eb4a95704707ef",
     "model/README.md": "f69dc7ea74f9004418065f2970a514f7e0d8286cc63e4fd87c26a82f796033e3",
     "model/model-contract.md": "c32fae949f07a137fe652188fe3e8bdf78b7ab152dbdacd0860c3918b889bd67",
     "model/oxygen_model.py": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9",
@@ -29,7 +29,7 @@
     "sources/figures/fig_ch8_porewater_profile.ru.py": "f0889d9f023b535fd3e19fca44dd70376aa7593a7ecd6f55195e480cafb38695",
     "sources/img/ch8_porewater_profile.pdf": "1ba0b2e018d35f6f08cd4a2f75afb158174f8c005ee2613122bb24e203a5ee6f",
     "sources/img/ch8_porewater_profile.png": "22898bd251f2509bc4c8004a0aa199970ec2037ceb3446d7864db9937e670822",
-    "student-packet-ru.md": "94a6e9916cbdbce403fb41487ef658222ba07ee28cdc00064cc3ecaa81f568c7",
+    "student-packet-ru.md": "1ee59a52aa95cb1fbcab7921ba4b088dfcec11fb4a573dd1080cb78e2002df5a",
     "verification-methods.md": "5798301daab5c09e553ccf0e554f9fbdd595f6404b1d61f32026fca2cefbee61"
   }
 }

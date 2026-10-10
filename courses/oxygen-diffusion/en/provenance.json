@@ -7,7 +7,7 @@
   "learner_pilot": "prepared, not executed",
   "model_sha256": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9",
   "files": {
-    "README.md": "d70b6d68e5d5e20d7bd7fc8792bf9b4b20c54a6e61640975b0d4206ed8e758cc",
+    "README.md": "79191df595e25c02dd2bcaeef70904b84e23909b79159273c856ce3e376c46ae",
     "check_teaching.py": "2a5eafeb571331a7f84e805fd5fd3f6cc79a01925898954bad1fe932b34c97e6",
     "course-references.bib": "9ae9952aa26758db89293bf73a0955e433e9f68cd0f0db040282bfcbf70be827",
     "curriculum-en.md": "f21d8a34424a1c822c7657130c9f3cfae2de3a95dbe5bd1bddb5a27d2cd13d18",
@@ -29,8 +29,8 @@
     "model-snapshot/results/profiles.csv": "24e95fb0fe0b44484fc479cc17dc904ab70b5cd3e6dad31ed7e7ca30857c9ded",
     "model-snapshot/results/synthetic-profile.csv": "b8e56c78c459e0292905b043b0494be16f7417b6d2796cbfc224c0adb2952ebd",
     "model-snapshot/results/verification.json": "e49735eaca2669430e975a507e445eb1ca24c1138c0f589423a74d24e59027b5",
-    "pilot-protocol-en.md": "e37e734353604007b8bbb8a44c88b80fd54878de26150e9b0c3144ceec9f0df6",
-    "student-packet-en.md": "38e2b2101f9e21a9b6db011e31c6f940b057a1d9ee5c2b520eac60ed1817225c",
+    "pilot-protocol-en.md": "222e1783c61f1516905d82a70eafac032352dc00ff6486eb78bd4a98b8b61860",
+    "student-packet-en.md": "5375327ac9d652c76e9c5ae917e10064855a445c50d0cb3bec5cdd3c1be24d16",
     "verification-methods.md": "6b79e04da1083b0bd4be29e46bcb17e39b7a80c78e6b00d2680ff53a19d3629d"
   }
 }

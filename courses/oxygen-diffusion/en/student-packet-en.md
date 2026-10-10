@@ -77,7 +77,7 @@ Reading: "Conservation: the only law you need", "What moves: transport", Appendi
 
 Reading: chapter "Start with one species", model README and verification report. Dependency: E02. Outcome: O2-LO3.
 
-The supplied `model/oxygen_model.py` is a byte-identical copy of the verified model's verified code, not a course-written solver. It requires Python 3 and the standard library. From the student bundle directory run:
+The supplied `model/oxygen_model.py` is a byte-identical copy of the verified model code, not a course-written solver. It requires Python 3 and the standard library. From the student bundle directory run:
 
 ```bash
 python3 --version
@@ -134,9 +134,9 @@ The inspected abstract describes in situ microelectrode and surface/DBL mapping 
 3. Evaluate the claim "Our code matches the analytic profile and fitted synthetic data, so the model validates aerobic microbial respiration in this sediment." Separate code verification, fitting, field validation and sink attribution. Name a field datum reserved from fitting and a comparison that would test an actual prediction.
 4. Give one plausible failure of the fixed-surface-C_0 condition when a diffusive boundary layer is present. Propose how to test it without immediately adding a more complex model.
 
-[^gundersen]: Jens K. Gundersen and Bo Barker Jorgensen, "Microstructure of diffusive boundary layers and the oxygen uptake of the sea floor," *Nature* 345 (1990): 604-607, https://doi.org/10.1038/345604a0. Publisher abstract inspected 10 October 2026: https://www.nature.com/articles/345604a0 . This additional course reference is not yet an accepted addition to the book bibliography. [@GundersenJorgensen1990]
+[^gundersen]: Jens K. Gundersen and Bo Barker Jorgensen, "Microstructure of diffusive boundary layers and the oxygen uptake of the sea floor," *Nature* 345 (1990): 604-607, https://doi.org/10.1038/345604a0. Publisher abstract inspected 10 October 2026: https://www.nature.com/articles/345604a0 . This reference is included in the book bibliography. [@GundersenJorgensen1990]
 
-Optional E06 extension (ungraded, approximately 20 to 30 additional minutes, not part of the nominal module budget): inspect the verified model's `data-comparison-task.md` for Beck and Maiti's archived measured station summaries. This is a separate observational-provenance task, not a replacement for the synthetic concentration-profile fit. The summaries contain flux and penetration-depth values, not raw profiles. Use the pinned versioned DOIs and preserve missing values. The instructor controls this additional handout and keeps its answers separate. No extension is required to earn the core 100 points.
+Optional E06 extension (ungraded, approximately 20 to 30 additional minutes, not part of the nominal module budget): inspect the verified model's [`data-comparison-task.md`](../optional-observed-data/data-comparison-task.md) for Beck and Maiti's archived measured station summaries. This is a separate observational-provenance task, not a replacement for the synthetic concentration-profile fit. The summaries contain flux and penetration-depth values, not raw profiles. Use the pinned versioned DOIs and preserve missing values. The instructor controls this additional handout and keeps its answers separate. No extension is required to earn the core 100 points.
 
 ## O2-E07: an independent transfer memo (5 points)
 

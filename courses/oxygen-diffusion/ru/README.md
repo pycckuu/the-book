@@ -1,9 +1,9 @@
 # Кислород: модуль 1.0
 
-Student material: [student-packet-ru.md](student-packet-ru.md). Instructor solutions and rubric: [instructor-packet-ru.md](instructor-packet-ru.md). Curriculum: [curriculum-ru.md](curriculum-ru.md). Prepared, unexecuted learner protocol: [pilot-protocol-ru.md](pilot-protocol-ru.md).
+[Задания студенту](student-packet-ru.md), [учебная программа](curriculum-ru.md), [методы проверки](verification-methods.md), [глава 8](chapters/08-the-equation.ru.md), [приложение B](appendices/b-model-toolkit.ru.md), [двуязычный глоссарий](../glossary-bilingual.tsv).
 
-[Глава 8](chapters/08-the-equation.ru.md), [Приложение B](appendices/b-model-toolkit.ru.md).
+[Решения и критерии оценивания](instructor-packet-ru.md) предназначены для преподавателя. [Протокол учебного пилота](pilot-protocol-ru.md) подготовлен, но ещё не выполнен.
 
-Run `python3 model/oxygen_model.py --out my-run` or use the archived outputs as described in the student packet. Give learners only the student packet, curriculum, verification methods, references, data and model directory; keep instructor packets, evidence, checker and protocol separate. The supplied verification benchmark is intentionally visible to learners; completed sensitivity and residual answer tables are instructor material.
+Из этого каталога выполните `python3 model/oxygen_model.py --out my-run`. Без Python используйте архивные результаты по указаниям студенческого пакета. Для преподавательской проверки перейдите в `../en/` и выполните `python3 check_teaching.py`: обе версии используют один код и одинаковые численные ответы.
 
-The instructor checker is shared with the English packet: from `../en/`, run `python3 check_teaching.py`. Both languages use identical code and numerical evidence.
+Студентам передавайте задания, программу, методы проверки, ссылки, каталоги `data/` и `model/`, русские главу и приложение, схематический рисунок `sources/img/ch8_porewater_profile.png` и глоссарий. Библиография находится в основном каталоге книги `../../../sources/bibliograph.bib`; сохраняйте относительные пути этих материалов или выдавайте готовый студенческий архив. Решения, `evidence/`, проверочный скрипт и протокол выдавайте отдельно преподавателю. Архивный эталон численной проверки виден студентам намеренно; заполненные таблицы чувствительности и невязок являются преподавательским материалом.
