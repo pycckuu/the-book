@@ -1,0 +1,9 @@
+# Validation scope
+
+The shared AD-NUMERICS-1 model, saved results and default N400/dt100 s/window600000 s are accepted for this bounded synthetic teaching module. Analytical limits, independent grid/time refinements, nonnegativity without clipping, update-consistent budgets and observation-window controls are retained in the unchanged model package. The English scientific/teaching source and Russian alignment have scoped acceptance receipts. The first formal numerical failure was B04; the recorded more-dispersion short-window limitation was separate.
+
+The default English book passed HTML/PDF/EPUB rendering with the moving-pulse material and open exercises/answers. Both standalone language modules also passed all three formats through build.py. Internal file/anchor checks, EPUB CRC, exercise inclusion and missing-glyph checks passed. Representative equations and answer tables were visually inspected; the Russian ratio-table header overlap was corrected without changing values. HTML companions retain live links; PDF/EPUB show companion filenames and require the supplied source/data bundle for calculations.
+
+Run the commands in README.md in new isolated output directories. Full numerical verification is not part of rendering. The model standard library command and the spreadsheet supplied-output route remain distinct; neither produces empirical validation.
+
+Final independent exact-revision integration/readiness review is pending. Existing whole-book configuration is English; the Russian module translates only the three new scientific fragments and associated teaching material. No learner pilot, measured workload, learning gain, field calibration, unique biological mechanism or water safety is claimed. Scientific acceptance covers this module and its inserted fragments, not every inherited appendix equation. No new remote publication or merge has been performed.

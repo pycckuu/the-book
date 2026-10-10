@@ -1,0 +1,43 @@
+{
+  "id": "AD-RU-TABLE-HEADER-LANGUAGE-RECONCILIATION-R2",
+  "disposition": "ACCEPTED_BOUNDED_LANGUAGE_AND_NOTATION_PRESENTATION_DELTA",
+  "reviewer": "BOOK Russian Editor",
+  "integration_delta": {
+    "path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/russian-intake-r1/table-header-delta.json",
+    "sha256": "8132feb2f7de25c30e95b0c515c8ad3f7e73b89e8e87f4cf5941efb6693310cd",
+    "before_source_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/russian-intake-r1/answers-before-table-header-fix.qmd",
+    "before_sha256": "712ba428abadc3d128d3e61bd554b5a07a8906c80aca7d4d78522d75f0995660",
+    "after_source_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/russian-builds-r2/project/courses/advection-dispersion/ru/worked-answers-ru.qmd",
+    "after_sha256": "908e7056d5cec560704b7f27b68bb82dc4b892775acd0fc04a33b4f6cc33e818",
+    "header_before": "| Случай | Вынос/поступление | Исчезновение/поступление | Запас/поступление |",
+    "header_after": "| Случай | Вынос $O/I$ | Потери $B/I$ | Запас $M/I$ |"
+  },
+  "checks": {
+    "integration_before_equals_immutable_owner_r2_answers": true,
+    "exact_single_header_replacement_accounts_for_all_changed_bytes": true,
+    "all_table_data_rows_and_other_body_bytes_unchanged": true,
+    "numeric_token_sequence_unchanged": true,
+    "symbol_meaning": "O export, B aggregate parent disappearance/loss, M remaining inventory, I own cumulative inlet dose; three ratios are dimensionless and retain their original denominators.",
+    "russian_wording": "Потери is consistent with the existing aggregate parent-loss model; no mineralization, unique microbial mechanism or empirical validity claim added.",
+    "header_math_delta": "Only three explicit existing ratios O/I, B/I, M/I added to abbreviated header labels, no model equation changed."
+  },
+  "required_language_corrections": [],
+  "linked_immutable_handoff_count_correction": {
+    "path": "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-handoff-reconciliation-r2.json",
+    "sha256": "ef53291285425f48aee6d87a544b05ab4400b443c0d5c69874199507af82607a"
+  },
+  "linked_owner_terminology_carry_forward": {
+    "path": "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-owner-review-carry-forward-r2.json",
+    "sha256": "6e76895cc2820e0d7e66d8a74eb98c3798a7335a15e918046ac27225b604cabd"
+  },
+  "scope_limits": [
+    "Source-only header semantics/presentation alignment",
+    "No visual verdict on rebuilt Russian PDF/HTML/EPUB",
+    "No numerical/build/learner execution",
+    "No owner package, shared source, archive or remote write"
+  ],
+  "remaining_gates": [
+    "EIC integration/final acceptance",
+    "Rebuilt rendered readiness / independent Reviewer"
+  ]
+}

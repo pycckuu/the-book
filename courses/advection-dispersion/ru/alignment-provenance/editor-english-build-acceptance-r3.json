@@ -1,0 +1,123 @@
+{
+  "revision": "AD-EN-PORTABILITY-3",
+  "disposition": "PASS_BOUNDED_EDITOR_ENGLISH_RENDER_AND_PORTABILITY_CHECKS",
+  "source_manifest_sha256": "6848f884efcdc7c65840a9e264309136a265797b38c184e791b384d7c9e4d198",
+  "build_surfaces": "Full English book and separate English teaching reading",
+  "builds": [
+    {
+      "surface": "book",
+      "format": "html",
+      "command": [
+        "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/oxygen-pr-verification/bin/quarto",
+        "render",
+        "--to",
+        "html"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 13.380596160888672,
+      "log": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-builds-r3/book-html.log",
+      "source_freeze_manifest_sha256": "6848f884efcdc7c65840a9e264309136a265797b38c184e791b384d7c9e4d198",
+      "PATH_prefix": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/oxygen-build-verification/tinytex-runtime/TinyTeX/bin/universal-darwin",
+      "output_directory": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-builds-r3/book-html"
+    },
+    {
+      "surface": "book",
+      "format": "pdf",
+      "command": [
+        "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/oxygen-pr-verification/bin/quarto",
+        "render",
+        "--to",
+        "pdf",
+        "-M",
+        "pdf-auto-install:false"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 18.39151692390442,
+      "log": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-builds-r3/book-pdf.log",
+      "source_freeze_manifest_sha256": "6848f884efcdc7c65840a9e264309136a265797b38c184e791b384d7c9e4d198",
+      "PATH_prefix": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/oxygen-build-verification/tinytex-runtime/TinyTeX/bin/universal-darwin",
+      "output_directory": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-builds-r3/book-pdf"
+    },
+    {
+      "surface": "book",
+      "format": "epub",
+      "command": [
+        "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/oxygen-pr-verification/bin/quarto",
+        "render",
+        "--to",
+        "epub"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.247399091720581,
+      "log": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-builds-r3/book-epub.log",
+      "source_freeze_manifest_sha256": "6848f884efcdc7c65840a9e264309136a265797b38c184e791b384d7c9e4d198",
+      "PATH_prefix": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/oxygen-build-verification/tinytex-runtime/TinyTeX/bin/universal-darwin",
+      "output_directory": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-builds-r3/book-epub"
+    },
+    {
+      "surface": "course",
+      "format": "html",
+      "command": [
+        "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/oxygen-pr-verification/bin/quarto",
+        "render",
+        "--to",
+        "html"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.7751240730285645,
+      "log": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-builds-r3/course-html.log",
+      "source_freeze_manifest_sha256": "6848f884efcdc7c65840a9e264309136a265797b38c184e791b384d7c9e4d198",
+      "PATH_prefix": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/oxygen-build-verification/tinytex-runtime/TinyTeX/bin/universal-darwin",
+      "output_directory": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-builds-r3/course-html"
+    },
+    {
+      "surface": "course",
+      "format": "pdf",
+      "command": [
+        "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/oxygen-pr-verification/bin/quarto",
+        "render",
+        "--to",
+        "pdf",
+        "-M",
+        "pdf-auto-install:false"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 4.127397775650024,
+      "log": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-builds-r3/course-pdf.log",
+      "source_freeze_manifest_sha256": "6848f884efcdc7c65840a9e264309136a265797b38c184e791b384d7c9e4d198",
+      "PATH_prefix": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/oxygen-build-verification/tinytex-runtime/TinyTeX/bin/universal-darwin",
+      "output_directory": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-builds-r3/course-pdf"
+    },
+    {
+      "surface": "course",
+      "format": "epub",
+      "command": [
+        "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/oxygen-pr-verification/bin/quarto",
+        "render",
+        "--to",
+        "epub"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.3625428676605225,
+      "log": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-builds-r3/course-epub.log",
+      "source_freeze_manifest_sha256": "6848f884efcdc7c65840a9e264309136a265797b38c184e791b384d7c9e4d198",
+      "PATH_prefix": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/oxygen-build-verification/tinytex-runtime/TinyTeX/bin/universal-darwin",
+      "output_directory": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-builds-r3/course-epub"
+    }
+  ],
+  "reference_audit_sha256": "a70f7af85d59de0d40f7f75cb176404318e1050c01d898fc3c115ff279c94c04",
+  "internal_html_epub_references": 3024,
+  "epub_crc_checks": 2,
+  "visual_pages_reviewed": 12,
+  "scientist_notation_equivalence_sha256": "6289876b24ed2182a3a6f319c85bcf6e1d673a1277d6c296239e869ace3ad50c",
+  "scientific_model_and_results": "All67 accepted owner payloads unchanged; no numeric rerun",
+  "earlier_build_findings": "R1 local TeX runtime/package failure and deprecated font command diagnosed; R2 exposed absent EPUB companion targets. Both corrected in R3. Earlier logs retained. Numerical historical failures remain separate unchanged records.",
+  "not_claimed": [
+    "Whole inherited book scientific acceptance",
+    "Complete Russian module",
+    "Independent Reviewer final readiness",
+    "Learner trial or measured workload",
+    "Field validity",
+    "Remote write/publication/merge"
+  ]
+}

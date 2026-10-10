@@ -1,0 +1,95 @@
+{
+  "revision": "AD-RU-ALIGNED-1",
+  "accepted_numerical_default": {
+    "N": 400,
+    "dt_s": 100,
+    "window_s": 600000
+  },
+  "local_numerical_package": {
+    "path": "../model/",
+    "revision": "AD-NUMERICS-1",
+    "manifest": "../model/SHA256SUMS.json",
+    "manifest_sha256": "d1c50796f6217afe6215050ca6451aee2d69bda247d43b9f531186fa38c0d5c6",
+    "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+    "report_sha256": "736b73ddb55c417db86d8aa2e5c36ba7a3fe5945d4b3de3ab7346b4e2bd8e8f0",
+    "original_zip_sha256": "3de45dc688880c341a62d791c9448df069fad3c2e7adcdb396b0bfe614d1d29e"
+  },
+  "acceptance_authorities": [
+    {
+      "path": "evidence/editor-scientific-contract-acceptance-r1.json",
+      "sha256": "f631b7406e415a49b153c55155d1b16cd31248f2389c613a4d3770590d3f8a5f"
+    },
+    {
+      "path": "evidence/editor-supplement-acceptance-r1.json",
+      "sha256": "88250a0302072ca96c15c014b0a774f016074966d9e6067aa8b5dcabed97e60d"
+    },
+    {
+      "path": "evidence/editor-numerical-acceptance-r1.json",
+      "sha256": "93f9dea86f0009bf5c2d56b410693d1fa6ddc7ab48e843ea2c149a5eb4bb4664"
+    },
+    {
+      "path": "evidence/editor-teaching-intake-r2.json",
+      "sha256": "486dd19ffc3855ebea553072f99b03543a2c73620353c21b588602f6f305829c"
+    }
+  ],
+  "external_readings": [
+    {
+      "title": "Modeling the Invisible",
+      "headings": [
+        "Conservation: the only law you need",
+        "What moves: transport",
+        "What we sacrificed"
+      ],
+      "book_base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+      "delivery": "Accepted rendered book reading required with learner assets; external to this teaching package"
+    },
+    {
+      "title": "The Water Planet",
+      "headings": [
+        "What microbes have to do with it",
+        "The modeling challenge"
+      ],
+      "book_base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+      "delivery": "Accepted rendered book reading required with learner assets; external to this teaching package"
+    },
+    {
+      "title": "Appendix B context",
+      "headings": [
+        "Advection",
+        "Externally impressed flow (Darcy)"
+      ],
+      "delivery": "Final accepted appendix reading required; external to this teaching package"
+    }
+  ],
+  "external_scientific_narrative_handoff": {
+    "status": "Accepted and integrated locally; rendered destination checks pending",
+    "editor_receipt_sha256": "1feea623e39a3e3c7af20e15bb7b642ad8e7f8f5a56a31ca5673647f4fec4372",
+    "accepted_reading_headings": [
+      "Let the water move",
+      "The modeling challenge",
+      "Advection, dispersion and parent loss"
+    ],
+    "instruction": "Use supplied rendered book readings by title/heading. This source acceptance does not certify PDF/EPUB routes."
+  },
+  "E06_primary": {
+    "id": "P02",
+    "key": "Gouze2021Dispersion",
+    "url": "https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2021.766338/full",
+    "locator": "sections 2.1-2.3 and 4",
+    "scope": "pore-scale numerical evidence in generated sandstone-like media; not measured validation of this model",
+    "primary_html_access": "2026-10-10, methods and conclusion text inspected; no raw output downloaded"
+  },
+  "chronology": "Unchanged owner files may contain predecessor pending statements. The separate accepted editor numerical receipt governs current numerical/default status, without rewriting frozen scientific bytes.",
+  "gates": {
+    "numerical_default_and_inputs": "ACCEPTED",
+    "teaching_structure_0_2": "ACCEPTED",
+    "English_teaching_source": "ACCEPTED_AND_FROZEN_FOR_TRANSLATION",
+    "narrative_integration": "ACCEPTED_LOCAL_SOURCE",
+    "rendered_HTML_PDF_EPUB": "Not run or accepted by Russian Editor",
+    "Russian_alignment": "Russian Editor source checks complete; EIC acceptance pending",
+    "learner_pilot": "Not executed",
+    "natural_validity": "Not established"
+  },
+  "english_revision": "AD-EN-INTEGRATED-1",
+  "russian_reading": "module-reading-ru.qmd"
+}

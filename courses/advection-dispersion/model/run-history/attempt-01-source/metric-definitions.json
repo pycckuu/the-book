@@ -1,0 +1,15 @@
+{
+  "revision": "AD-METRICS-1",
+  "status": "DECLARED_BEFORE_RESOLUTION_TESTS",
+  "peak": "Maximum right-endpoint outlet flux-normalized concentration; earliest sampled time attaining maximum. Terminal cell average approximates exit resident concentration.",
+  "arrival": "t10,t50,t90 of cumulative exported mass divided by total export within reported window; piecewise-constant interval flux reconstruction. No sharp first-arrival claim for D_L>0.",
+  "temporal_width": "Standard deviation of interval-reconstructed outlet mass distribution; exact first/second time integrals of constant interval flux. Report observation-window support.",
+  "profiles": "Resident porewater cell averages at fixed physical snapshot times; compare coarse cells with volume averages of their two refined children. Maximum absolute error over cells and snapshots.",
+  "spatial_width": "Standard deviation of material remaining in finite domain using piecewise-constant cell reconstruction including h^2/12. Undefined at zero storage; domain/export conditioned.",
+  "refinement_criterion": "abs(refined-base) <= 0.02*max(abs(refined),floor); peak floor=0.01*C_ref, time/temporal-width floor=0.01*(L/u), profile floor=0.01*C_ref with scale=max refined profile over snapshots. Fractions absolute change <=0.005.",
+  "window_criterion": "Remaining storage/injected amount <=0.001 for effectively complete washout, plus timing/width stability under extension. Finite-window metrics otherwise explicitly conditional.",
+  "algebraic_targets": "Scaled linear residual <=1e-12, discrete step and cumulative budget <=1e-10. Nonzero amount reference phi*L*C_ref or initial inventory; zero branch checks absolute residual <=1e-14 mol/m2.",
+  "positivity": "Report actual min/max; no clipping or rescaling. Fail negativity below -1e-12*max(C_ref,max initial C). Within threshold retain/report count and minimum.",
+  "numerical_spreading_heuristic": "For core D_L>0, (u*h/2+u^2*dt/2)/D_L <=0.05. Long-wave heuristic only; verify curve/profile refinement independently.",
+  "synthetic_score": "Candidate prediction minus noiseless synthetic interval-average outlet concentration; RMSE in mol/m3 porewater. No sigma, noise or confidence interval invented. Fixed declared flow/transport/geometry/feed; only k differs."
+}

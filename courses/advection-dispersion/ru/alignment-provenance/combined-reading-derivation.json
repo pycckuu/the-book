@@ -1,0 +1,20 @@
+[
+  {
+    "fragment": "ru/fragments/chapter08-advection-insertion-ru.md",
+    "fragment_sha256": "d807857586e178706b2897f1ee95fe337dee25d7f4d65bfcfb700b9a74fe85ac",
+    "combined_transform": "relative link remap only; no mathematical/numerical content change",
+    "anchor": "let-the-water-move"
+  },
+  {
+    "fragment": "ru/fragments/chapter10-advection-bridge-ru.md",
+    "fragment_sha256": "3c2070a8d95e502de51c2036f397ba18107139805ed4e9ea659fa5d3330640fc",
+    "combined_transform": "relative link remap only; no mathematical/numerical content change",
+    "anchor": "groundwater-bridge"
+  },
+  {
+    "fragment": "ru/fragments/appendix-b-advection-addition-ru.md",
+    "fragment_sha256": "86a82e3fd61f22f35b6a33455919c03835607de56d79d66072a73e8e6de19602",
+    "combined_transform": "relative link remap only; no mathematical/numerical content change",
+    "anchor": "advection-dispersion-and-parent-loss"
+  }
+]

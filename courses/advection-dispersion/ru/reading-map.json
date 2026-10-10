@@ -1,0 +1,70 @@
+{
+  "existing_book_base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+  "existing_title_locators_preserved_in_English": true,
+  "existing_book_required_not_translated_here": [
+    {
+      "title": "Modeling the Invisible",
+      "headings": [
+        "Conservation: the only law you need",
+        "What moves: transport",
+        "What we sacrificed"
+      ],
+      "book_base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+      "delivery": "Accepted rendered book reading required with learner assets; external to this teaching package"
+    },
+    {
+      "title": "The Water Planet",
+      "headings": [
+        "What microbes have to do with it",
+        "The modeling challenge"
+      ],
+      "book_base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+      "delivery": "Accepted rendered book reading required with learner assets; external to this teaching package"
+    },
+    {
+      "title": "Appendix B context",
+      "headings": [
+        "Advection",
+        "Externally impressed flow (Darcy)"
+      ],
+      "delivery": "Final accepted appendix reading required; external to this teaching package"
+    }
+  ],
+  "oxygen_prerequisites": {
+    "inventory_flux": [
+      "O2-LO1",
+      "O2-LO2"
+    ],
+    "verification": [
+      "O2-LO3"
+    ],
+    "controlled_comparison": [
+      "O2-LO4"
+    ],
+    "residuals": [
+      "O2-LO5"
+    ],
+    "evidence_critique": [
+      "O2-LO6",
+      "O2-LO7"
+    ]
+  },
+  "new_translated_locators": [
+    {
+      "English": "Let the water move",
+      "Русский": "Пусть вода движется",
+      "target": "module-reading-ru.qmd#let-the-water-move"
+    },
+    {
+      "English": "Chapter 10 advection bridge within The modeling challenge",
+      "Русский": "От колонки к подземным водам (добавленный навигационный заголовок)",
+      "target": "module-reading-ru.qmd#groundwater-bridge"
+    },
+    {
+      "English": "Advection, dispersion and parent loss",
+      "Русский": "Адвекция, дисперсия и потеря исходного вещества",
+      "target": "module-reading-ru.qmd#advection-dispersion-and-parent-loss"
+    }
+  ],
+  "actual_rendered_anchor_resolution": "Not claimed; explicit source anchors checked only"
+}

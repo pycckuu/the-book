@@ -1,0 +1,163 @@
+---
+title: "Flowing water, spreading and loss: OPEN worked answers"
+lang: en
+---
+
+These answers are openly available. Attempt the [exercises](student-packet-en.qmd) first, keep the original reasoning and record any correction after consultation. All cases and observations are synthetic. Symbolic conventions and numerical inputs use accepted AD-CONTRACT-0.1 and AD-NUMERICS-1. See the [curriculum and rubrics](curriculum-en.md); self-marking is not proof of unaided mastery.
+
+## AD-E01: velocity and observable distinctions
+
+At fixed $u,D_L,k$ and fixed feed concentration/history, constant $\phi$ cancels from concentration evolution and the inlet equation divided by $\phi$. Concentration is unchanged; inventory, input and export per bulk area scale with $\phi$. At fixed $v_D$, $u=v_D/\phi$ changes, so concentration histories need not remain unchanged. This comparison does not fix physical spreading automatically: specify $D_L$ as fixed for the thought experiment. Input concentration is a dose-flux normalization; it need not equal resident concentration just inside the inlet. Before consulting the output, a transport-only sketch should show a pulse moving downstream and spreading. At positive $D_L$, diffuse tails rule out a sharp first-arrival time; after feeding stops, resident material may remain while the imposed total inlet flux is zero. In the separate $D_L=0$ reference, transport delays the rectangular outlet pulse by $L/u$, without physical spreading. At the chosen continuum exit the zero gradient makes the two concentration definitions agree. Discrete terminal cell averages approximate the exit; they are not separately measured face samples.
+
+## AD-E02: slab and integrated derivation
+
+Storage in a slab of thickness $dx$ per unit bulk area is $\phi C\,dx$. Its rate equals left total flux minus right total flux minus $\phi kC\,dx$. Dividing by $dx$ and taking its limit gives
+
+$$
+F=\phi(uC-D_L C_x),\qquad
+\partial_t(\phi C)=-\partial_xF-\phi kC.
+$$
+
+For constant coefficients, divide by $\phi$ and differentiate $F$:
+
+$$
+C_t=D_L C_{xx}-u C_x-kC.
+$$
+
+Units: $C$ is $\mathrm{mol\,m^{-3}}\ \text{water}$; $\phi C$ is $\mathrm{mol\,m^{-3}}\ \text{bulk}$; $F$ is $\mathrm{mol\,m^{-2}\,s^{-1}}\ \text{bulk area}$; $\phi kC$ and the accumulation/divergence are $\mathrm{mol\,m^{-3}\,s^{-1}}\ \text{bulk}$. Each inventory, flux and bulk sink includes $\phi$ once. $D_L$ already includes the modeled molecular and mechanical contribution, with units $\mathrm{m^2\,s^{-1}}$; adding molecular diffusion again would change the accepted model.
+
+Initial condition is zero interior concentration. At entry and exit:
+
+$$
+\begin{aligned}
+F(0,t)&=v_D C_{\mathrm{in}}(t),\\
+uC(0,t)-D_L C_x(0,t)&=uC_{\mathrm{in}}(t),\\
+C_x(L,t)&=0,\\
+F(L,t)&=v_D C(L,t).
+\end{aligned}
+$$
+
+The first two inlet expressions are the same condition, not independent constraints. Imposing resident inlet concentration as well would overconstrain this experiment. A Dirichlet reservoir can be a different legitimate experiment; its ledger must include its actual dispersive input. The outlet is open even though its dispersive term vanishes. At $u=0$ this flux inlet supplies no dose, and does not recover the oxygen fixed-concentration boundary. At $D_L=0$ only the hyperbolic inflow is prescribed; do not add an independent outflow condition.
+
+Define per unit area
+
+$$
+M=\phi\int_0^L C\,dx,\quad S=kM,\quad
+\frac{dM}{dt}=F(0,t)-F(L,t)-S.
+$$
+
+Define cumulative quantities with the actual time support:
+
+$$
+I(t)=\int_0^t F(0,\tau)\,d\tau,\quad
+O(t)=\int_0^t F(L,\tau)\,d\tau,\quad
+B(t)=\int_0^t kM(\tau)\,d\tau.
+$$
+
+Integrating the storage balance gives:
+
+$$
+M(t)-M(0)=I(t)-O(t)-B(t),\qquad
+I_{\mathrm{total}}=v_D C_{\mathrm{ref}}T_p.
+$$
+
+$M,I,O,B$ have $\mathrm{mol\,m^{-2}}$; $S$ has $\mathrm{mol\,m^{-2}\,s^{-1}}$. $B$ records disappearance of the parent, not formation of specified products or elemental balance. At $k=0$ and finite time, $I-O$ can be remaining inventory. Eventual complete washout is a limiting statement, not an assumed finite-window result.
+
+## AD-E03: how to read verification evidence
+
+For the accepted finite-volume/backward-Euler update, summing cell balances cancels internal face fluxes. With cell width $h$, the discrete storage is $M^n=\phi h\sum_i C_i^n$. The step's export and loss increments use the same $n+1$ rule as the update:
+
+$$
+\Delta O_n=\Delta t\,v_D C_N^{n+1},\qquad
+\Delta B_n=\Delta t\,kM^{n+1}.
+$$
+
+Input uses exact pulse/time-interval overlap. The budget residual is $M^{n+1}-M^n-\Delta I_n+\Delta O_n+\Delta B_n$. Sum these increments to compare cumulative storage/input/export/loss. Do not substitute trapezoidal loss diagnostics into a backward-Euler balance and call the difference solver failure. The accepted [verification report](../model/results/verification.json) supplies the declared absolute/scaled criteria; a tiny ledger residual alone does not establish solution accuracy.
+
+Uniform conservative steady concentration checks boundary assembly; reactive finite steady checks compare exact cell averages with computed averages. Auxiliary smooth periodic modes have different IC/BC from the finite pulse. Fixed-grid temporal checks use the exact semidiscrete mode; a continuum comparison can plateau at spatial error. Upwind plus backward Euler generally gives first-order coupled targets. In a smooth pure-advection long-wave limit the diagnostic artificial diffusion is approximately $u h/2+u^2\Delta t/2$. This is neither an exact pulse error law nor a physical coefficient to fit. At $D_L=0$ inspect decreasing artificial spreading, not a ratio to zero. Preserve reported minima; never silently clip or rescale.
+
+## AD-E04: compatible comparisons
+
+Normalize export and disappearance by each case's own injected amount; retain $M$ at the reported end. With $\phi$ and feed duration/concentration fixed, changing $u$ changes input dose as well as travel. Holding $T_p/(L/u)$ fixed instead would silently change the physical experiment. Pure transport can lower a peak by spreading or move mass outside an observation window. The tracked disappearance increment, rather than a reduced peak alone, supports aggregate parent loss within this model. Products, unique microbial mechanisms, pore-scale donor/acceptor contact and water safety are outside its scope.
+
+The numerical supplement below uses the owner-declared finite-window definitions. These default values and definitions are accepted for this bounded module; no universal width rule or detected-arrival threshold is assigned.
+
+## AD-E05: residual and inference logic
+
+Use $r_j=\widehat y_j-y_j$ on the file's specified sampling support and concentration/flux basis. Any comparison score and uncertainty treatment must be declared before selecting a scenario. The numerical supplement below compares only the three pinned candidates; there is no optimizer, inferential interval or empirical fit.
+
+At steady state:
+
+$$
+C_{xx}-\frac{u}{D_L}C_x-\frac{k}{D_L}C=0,\qquad
+C(0)-\frac{D_L}{u}C_x(0)=C_{\mathrm{in}},\qquad C_x(L)=0.
+$$
+
+For a positive constant $s$, simultaneously scaling $(u,D_L,k)$ to $(su,sD_L,sk)$ leaves this boundary-value problem and resident concentration unchanged. Hence these concentrations cannot determine all three absolute rates. Timing or absolute flux with independently known geometry/porosity/flow supplies different information; practical identifiability still needs sensitivity and observation-quality checks. Conditional $k$ inference after a conservative transport comparison is not simultaneous independent estimation of $u,D_L,k$, nor proof of a loss mechanism.
+
+## AD-E06: bounded evidence use
+
+A satisfactory answer locates P02 methods/conclusion evidence, names its numerical/generated-medium setting, and connects pre-asymptotic transport to the limited scale/regime applicability of one constant $D_L$. It proposes an observation that could discriminate departures from this closure, with feed, flow and sampling controls. It does not call those published numerical experiments measured validation of our column or copy the paper's pore-scale Pe into $uL/D_L$. These limits follow the [primary paper](https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2021.766338/full), sections 2 and 4. Many reasoned independent-test proposals can earn full credit; no unique answer is imposed.
+
+No learner success or empirical calibration/validation is claimed.
+
+
+## Numerical supplement: pinned export calculations
+
+These rounded values are readback results for the supplied CSVs, not fresh solver runs. Use unrounded CSVs for calculations; last digits can vary with summation order. Grading should credit consistent units, time support and interpretation rather than literal display precision. The prior teaching CSV readback used $10^{-10}$ arithmetic agreement, a saved-output comparison rather than a PDE accuracy target. The [editor acceptance receipt](evidence/editor-numerical-acceptance-r1.json) records the accepted default and supplementary checks; rendered integration remains a separate editorial check.
+
+AD-E01/02: baseline $v_D=3\times10^{-6}\,\mathrm{m\,s^{-1}}$ and $I_{\mathrm{total}}=0.06\,\mathrm{mol\,m^{-2}}$. Nominal advective scale $L/u=100000\,\mathrm{s}$ is not the dispersive $t_{50}$ or a sharp arrival. Fixed-$u$ porosity comparisons preserve concentration while changing inventory/flux; fixed-$v_D$ comparisons change $u$.
+
+AD-E03, supplied reactive row from $99900$ to $100000\,\mathrm{s}$:
+
+| Quantity | Result | Unit |
+| --- | ---: | --- |
+| $\Delta I$ | 0 | $\mathrm{mol\,m^{-2}}$ |
+| $\Delta O$ | $2.57278115\times10^{-5}$ | $\mathrm{mol\,m^{-2}}$ |
+| $\Delta B$ | $1.28372718\times10^{-5}$ | $\mathrm{mol\,m^{-2}}$ |
+| $M_{\mathrm{next}}$ | 0.0128372718 | $\mathrm{mol\,m^{-2}}$ |
+
+Storage falls by the sum of export and parent disappearance during this row; input is zero after the pulse. The unrounded step residual is about $1.77\times10^{-17}\,\mathrm{mol\,m^{-2}}$. Profile summation at that exact snapshot gives the same storage. Its resident centroid is $0.691343404\,\mathrm{m}$ and resident width $0.220983102\,\mathrm{m}$, including the $h^2/12$ cell variance. These conditional spatial quantities are not outlet time widths or estimates of an unbounded $D_L$.
+
+At $600000\,\mathrm{s}$ the reactive cumulative $I=0.06$, $O=0.0238535651$, $B=0.0361464348$, and remaining $M=4.59796251\times10^{-11}$, all in $\mathrm{mol\,m^{-2}}$. Sum $O+B+M$ before rounding; the supplied cumulative residual is about $4.31\times10^{-14}\,\mathrm{mol\,m^{-2}}$.
+
+Observed orders from steady-spatial.csv are $0.980704$, $0.990331$, $0.995160$. They support approximately first-order coupled space accuracy. For the periodic $k=0$ fixed-$N=64$ series, time orders are $0.973003$, $0.985896$, $0.992903$. The owner report retains the smaller-step comparison: semidiscrete error decreases while continuum error plateaus, so temporal refinement has not removed fixed spatial error. In the auxiliary grid-only pure-advection series the measured artificial diffusion decreases from about $1.25236\times10^{-7}$ at $N=40$ to $1.61244\times10^{-8}\,\mathrm{m^2\,s^{-1}}$ at $N=320$. This is numerical spreading with zero physical dispersion in that separate test. It does not validate finite pulse boundaries. Current no-negative-values/budget passes are necessary checks, not replacements for these accuracy comparisons. The first retained run formally failed the periodic auxiliary check B04. Its original window checker covered only conservative/reactive cases; the more-dispersion storage excess at $400000\,\mathrm{s}$ was a diagnosed short-window limitation, not a separate formally logged failure. The corrected current checker tests all four cases and passes the $600000/800000\,\mathrm{s}$ window comparison. See the [chronology receipt](evidence/editor-numerical-chronology-reconciliation-r1.json).
+
+AD-E04: accepted default $N=400$, $\Delta t=100\,\mathrm{s}$, window $T=600000\,\mathrm{s}$. The following three compact tables avoid conflating observable definitions. Input amounts are per unit bulk area; peaks are right-endpoint terminal-cell/exit approximations; timing/width condition on mass exported within $T$.
+
+| Case | Input ($\mathrm{mol\,m^{-2}}$) | Peak ($\mathrm{mol\,m^{-3}}$ water) | $t_{50}$ ($\mathrm{s}$) |
+| --- | ---: | ---: | ---: |
+| conservative | 0.06 | 0.223666517 | 102018.564 |
+| reactive | 0.06 | 0.107993746 | 89707.2784 |
+| faster-flow | 0.12 | 0.517012054 | 58033.1258 |
+| more-dispersion | 0.06 | 0.192999537 | 96776.7124 |
+
+| Case | Export/input | Disappearance/input | Storage/input |
+| --- | ---: | ---: | ---: |
+| conservative | 0.999999729 | 0 | $2.71053788\times10^{-7}$ |
+| reactive | 0.397559419 | 0.602440581 | $7.66327085\times10^{-10}$ |
+| faster-flow | 1 | 0 | $9.61531271\times10^{-25}$ |
+| more-dispersion | 0.999967533 | 0 | $3.2466868\times10^{-5}$ |
+
+| Case | $t_{10}$ ($\mathrm{s}$) | $t_{90}$ ($\mathrm{s}$) | Temporal width ($\mathrm{s}$) |
+| --- | ---: | ---: | ---: |
+| conservative | 63338.791 | 166862.785 | 43165.6089 |
+| reactive | 57583.0444 | 141112.349 | 34496.1278 |
+| faster-flow | 40371.2945 | 82077.9301 | 16776.72 |
+| more-dispersion | 52527.7408 | 184432.249 | 57047.8305 |
+
+Positive loss lowers both peak and recovered parent and produces narrower exported timing here. Selective survival of shorter-residence material can explain this; the physical dispersion coefficient was not reduced. More dispersion broadens the exported time distribution while its median and peak shift; a width is not the same statistic as a median. Faster flow injects twice the amount because physical feed duration and concentration remain fixed. All storage fractions are small but nonzero in the ledger. The owner report checks an extended window, without calling finite washout exactly complete. Rounded export/input $=1$ is not exact full recovery.
+
+AD-E05: interval overlap aggregation reproduces all eight raw observations and candidate predictions. Equal-weight RMSE in $\mathrm{mol\,m^{-3}}$ water:
+
+| Candidate | $k$ ($\mathrm{s^{-1}}$) | RMSE |
+| --- | ---: | ---: |
+| k0 | 0 | 0.0745291496 |
+| k1 | $1\times10^{-5}$ | 0.000266739245 |
+| k2 | $2\times10^{-5}$ | 0.0314275984 |
+
+Candidate k1 has the smallest score within this known-input synthetic comparison. Its nonzero residual reflects the coarser candidate grid, since truth uses $N=800$, $\Delta t=50\,\mathrm{s}$. It is not measured noise. Full signed residuals are in [the open answer CSV](../model/results/candidate-residuals-open-answers.csv); raw observations/source series remain separate. Relaxing known flow, input, transport or observation support would change the inference. There is no confidence interval, unique biological mechanism, or natural validation.
+
+AD-E06: an acceptable independent-test proposal compares conservative transport at multiple observation distances with controlled injection/flow/recovery and stated low-concentration uncertainty. Persistent structured tails or scale-dependent inferred dispersion could challenge one constant-$D_L$ closure, without uniquely proving immobile storage or reaction. This is a proposed test, not an executed study. Other supported discriminating tests can earn full credit. P02 supplies bounded pore-scale numerical evidence, not measured validation of our column.
+
+Rubrics remain 10/20/25/20/15/10, total 100. Credit correct calculations and the stated scientific limits. Proposed mastery remains 70 plus all three gates; targeted revision follows a gate failure. Actual learner attempts, timing and gains have not been measured.

@@ -1,0 +1,33 @@
+{
+  "created_at_utc": "2026-10-10T15:53:41.274582+00:00",
+  "revision": "AD-CONTRACT-0.1",
+  "status": "DRAFT_PENDING_CONTRACT_ACCEPTANCE",
+  "source_revision": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+  "source_files": {
+    "book-bible.md": "135e9a586a63d962ccb2b30decd44aa056e72d66eabe89f6855215ea3614abfa",
+    "CITATIONS.md": "d6e0e0bd33022bee3febd8ced896bbb66c3264ee1716c1a66ad521f77cefcd26",
+    "README.md": "7069803b98c86e8b5857cf3c49e9f1afede27ad46916f0fee6bd42dc935e039f",
+    "chapters/08-the-equation.md": "c2222715838ff1259f35abb5bb0405eaf0c902ae4cd9274e68d22f13e01adf30",
+    "chapters/10-the-water-planet.md": "4c341b597a536e573b1b5c49c4477bd6a2183d33f7fd7c38e4730d5b79166fee",
+    "appendices/b-model-toolkit.md": "f49c114b742d127334147adbd7fdcc1c1674ad08f430f69754c635ead6595945",
+    "sources/bibliograph.bib": "aa26193844ca1eba8f02ba70d406578a210ae0088839f7b3ce2a570907b26d0a"
+  },
+  "source_readback_equal_base": true,
+  "brief": {
+    "path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/MODULE-BRIEF.md",
+    "sha256": "4b2e4e00791c06a726baccc5d7b484c90f3b4660e48e76ddced1a5e251c14364"
+  },
+  "executed": {
+    "source_reads": true,
+    "primary_literature_search": true,
+    "equation_and_dimension_inspection": true,
+    "solver_implementation": false,
+    "numerical_benchmarks": false,
+    "calibration": false,
+    "empirical_validation": false,
+    "oxygen_rerun": false,
+    "shared_source_edits": false,
+    "publication": false
+  },
+  "example_provenance": "All proposed coefficients are illustrative choices; no measured concentration or fitted input is supplied."
+}

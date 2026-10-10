@@ -1,0 +1,17 @@
+{
+  "status": "PASS_PINNED_TRANSLATION_MATH_CITATION_CODE_INTAKE",
+  "archive_sha256": "d0f9159ec5017dff4c00e866cb3d8d18da7205379e097955c4655114424a441f",
+  "archive_actual_members": 116,
+  "manifest_pins": 113,
+  "unlisted_non_manifest_members": [
+    "model/SHA256SUMS.json",
+    "model/contract-and-evidence/SHA256SUMS.json"
+  ],
+  "aligned_blocks": 217,
+  "math_occurrences": 412,
+  "shared_model_files_exact": 68,
+  "worksheets_exact": 3,
+  "receipt_member_count_mismatch": "delivery reports 114; actual archive 116",
+  "owner_handoff_completion_confirmation_pending": true,
+  "rendered_acceptance": false
+}

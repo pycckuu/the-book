@@ -1,0 +1,130 @@
+[
+  {
+    "id": "known_flux",
+    "english_claim": "Known total inlet, no second resident inlet condition",
+    "russian_file": "ru/fragments/appendix-b-advection-addition-ru.md",
+    "aligned_blocks": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "language_check": "PASS; source-bound meaning preserved"
+  },
+  {
+    "id": "pulse",
+    "english_claim": "Half-open pulse and exact overlap preserves dose",
+    "russian_file": "ru/fragments/appendix-b-advection-addition-ru.md",
+    "aligned_blocks": [
+      7,
+      22,
+      23
+    ],
+    "language_check": "PASS; source-bound meaning preserved"
+  },
+  {
+    "id": "volume",
+    "english_claim": "Porewater versus bulk and single phi factor; D_L excludes phi",
+    "russian_file": "ru/student-packet-ru.qmd",
+    "aligned_blocks": [
+      7,
+      8,
+      9
+    ],
+    "language_check": "PASS; source-bound meaning preserved"
+  },
+  {
+    "id": "own_dose",
+    "english_claim": "Faster flow doubles dose; recovery normalized by own input",
+    "russian_file": "ru/fragments/appendix-b-advection-addition-ru.md",
+    "aligned_blocks": [
+      15,
+      16
+    ],
+    "language_check": "PASS; source-bound meaning preserved"
+  },
+  {
+    "id": "parent",
+    "english_claim": "Parent disappearance not mineralization, unique microbes or water safety",
+    "russian_file": "ru/fragments/appendix-b-advection-addition-ru.md",
+    "aligned_blocks": [
+      13
+    ],
+    "language_check": "PASS; source-bound meaning preserved"
+  },
+  {
+    "id": "finite_window",
+    "english_claim": "Storage retained, finite washout not exact completion",
+    "russian_file": "ru/worked-answers-ru.qmd",
+    "aligned_blocks": [
+      19,
+      44,
+      48
+    ],
+    "language_check": "PASS; source-bound meaning preserved"
+  },
+  {
+    "id": "accuracy",
+    "english_claim": "Balance/positivity distinct from accuracy; first-order coupled scheme",
+    "russian_file": "ru/student-packet-ru.qmd",
+    "aligned_blocks": [
+      19,
+      20
+    ],
+    "language_check": "PASS; source-bound meaning preserved"
+  },
+  {
+    "id": "residual",
+    "english_claim": "Prediction minus observation on matching intervals; no invented noise",
+    "russian_file": "ru/student-packet-ru.qmd",
+    "aligned_blocks": [
+      29,
+      56,
+      57,
+      58
+    ],
+    "language_check": "PASS; source-bound meaning preserved"
+  },
+  {
+    "id": "inference",
+    "english_claim": "Three k candidates, fixed transport; scaling ambiguity",
+    "russian_file": "ru/worked-answers-ru.qmd",
+    "aligned_blocks": [
+      29,
+      30,
+      31,
+      32
+    ],
+    "language_check": "PASS; source-bound meaning preserved"
+  },
+  {
+    "id": "evidence",
+    "english_claim": "P02 generated-medium pore-scale numerics not field validation",
+    "russian_file": "ru/student-packet-ru.qmd",
+    "aligned_blocks": [
+      33,
+      34
+    ],
+    "language_check": "PASS; source-bound meaning preserved"
+  },
+  {
+    "id": "open_answers",
+    "english_claim": "Both exercise/answer readings open; attempt first",
+    "russian_file": "ru/student-packet-ru.qmd",
+    "aligned_blocks": [
+      1,
+      5
+    ],
+    "language_check": "PASS; source-bound meaning preserved"
+  },
+  {
+    "id": "pilot",
+    "english_claim": "Pilot planned not executed; no learner outcomes fabricated",
+    "russian_file": "ru/pilot-protocol-ru.md",
+    "aligned_blocks": [
+      1,
+      14
+    ],
+    "language_check": "PASS; source-bound meaning preserved"
+  }
+]

@@ -1,0 +1,4 @@
+candidate_case_id,k_s_inv,RMSE_mol_m3_water,known_inputs,interpretation
+k0,0.0,0.07452914958843618,"same L,phi,u,D_L,C_ref,Tp,window,grid,dt; only k differs",Synthetic consistency; no empirical calibration or interval
+k1,1e-05,0.0002667392450206385,"same L,phi,u,D_L,C_ref,Tp,window,grid,dt; only k differs",Synthetic consistency; no empirical calibration or interval
+k2,2e-05,0.03142759839437012,"same L,phi,u,D_L,C_ref,Tp,window,grid,dt; only k differs",Synthetic consistency; no empirical calibration or interval

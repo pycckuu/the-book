@@ -1,0 +1,5 @@
+case_id,input_mol_m2,peak_C_mol_m3_water,t50_s,width_time_s,export_fraction,loss_fraction,storage_fraction
+conservative,,,,,,,
+reactive,,,,,,,
+faster-flow,,,,,,,
+more-dispersion,,,,,,,

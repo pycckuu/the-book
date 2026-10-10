@@ -1,0 +1,291 @@
+{
+  "id": "AD-SCIENTIFIC-NOTATION-EQUIVALENCE-R2",
+  "created_at_utc": "2026-10-10T16:56:38.645330+00:00",
+  "predecessor": "AD-EN-INTEGRATED-1",
+  "successor": "AD-EN-INTEGRATED-2",
+  "disposition": "ACCEPTED_SCOPED_NOTATION_EQUIVALENCE",
+  "delta_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-notation-delta-r2/notation-delta.json",
+  "delta_sha256": "b6829d8d14ceb028a0f3a98290ed87cb5207aa74cf8e393920ae0b6782602d9f",
+  "scope": "Only the three exact pinned before/after files and 42 roman-label replacements. No full manuscript, teaching, model or rendered-readiness review.",
+  "transformation": "{\\rm label} -> {\\mathrm{label}}",
+  "scientific_assessment": "Both spellings mark the same brace-scoped roman descriptive labels in mathematical subscripts. Modern mathrm preserves the label, enclosing subscript grouping, operators, units and variable meaning, including the nested out label in the interval observable. Exact forward byte equality proves that every other byte, number, equation, citation and claim in these three files is unchanged.",
+  "files": [
+    {
+      "file": "appendices/b-model-toolkit.md",
+      "before_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-notation-delta-r2/before/appendices/b-model-toolkit.md",
+      "after_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r2/source/appendices/b-model-toolkit.md",
+      "before_sha256": "4ac86616bb165b3c92cd4f996816f94458e2cdffbfafb1c322b82221c77ea681",
+      "after_sha256": "98cbf5d463d6c5a09068f0651cda578576dae8c80d9da465208b02858dc43c2e",
+      "replacements": 18,
+      "labels": [
+        "base",
+        "fine",
+        "fine,max",
+        "floor",
+        "in",
+        "num",
+        "ref"
+      ],
+      "forward_exact_byte_equality": "PASS",
+      "all_other_bytes_unchanged": "PASS",
+      "changes": [
+        {
+          "before_line": 187,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 187,
+          "old": "{\\rm ref}",
+          "new": "{\\mathrm{ref}}"
+        },
+        {
+          "before_line": 190,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 200,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 208,
+          "old": "{\\rm ref}",
+          "new": "{\\mathrm{ref}}"
+        },
+        {
+          "before_line": 229,
+          "old": "{\\rm ref}",
+          "new": "{\\mathrm{ref}}"
+        },
+        {
+          "before_line": 240,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 259,
+          "old": "{\\rm ref}",
+          "new": "{\\mathrm{ref}}"
+        },
+        {
+          "before_line": 265,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 283,
+          "old": "{\\rm num}",
+          "new": "{\\mathrm{num}}"
+        },
+        {
+          "before_line": 288,
+          "old": "{\\rm fine}",
+          "new": "{\\mathrm{fine}}"
+        },
+        {
+          "before_line": 288,
+          "old": "{\\rm base}",
+          "new": "{\\mathrm{base}}"
+        },
+        {
+          "before_line": 288,
+          "old": "{\\rm fine}",
+          "new": "{\\mathrm{fine}}"
+        },
+        {
+          "before_line": 288,
+          "old": "{\\rm floor}",
+          "new": "{\\mathrm{floor}}"
+        },
+        {
+          "before_line": 288,
+          "old": "{\\rm ref}",
+          "new": "{\\mathrm{ref}}"
+        },
+        {
+          "before_line": 288,
+          "old": "{\\rm fine,max}",
+          "new": "{\\mathrm{fine,max}}"
+        },
+        {
+          "before_line": 288,
+          "old": "{\\rm ref}",
+          "new": "{\\mathrm{ref}}"
+        },
+        {
+          "before_line": 288,
+          "old": "{\\rm ref}",
+          "new": "{\\mathrm{ref}}"
+        }
+      ]
+    },
+    {
+      "file": "courses/advection-dispersion/en/student-packet-en.qmd",
+      "before_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-notation-delta-r2/before/courses/advection-dispersion/en/student-packet-en.qmd",
+      "after_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r2/source/courses/advection-dispersion/en/student-packet-en.qmd",
+      "before_sha256": "afc490a5dddbcfb830be8181d17d2a5e20f11d5f3404a5b75b3aa93983663015",
+      "after_sha256": "48416a6eb1045b5a7877afc1d5b6b9ab6ffbb2d78d33682f1f08e94065da86e5",
+      "replacements": 17,
+      "labels": [
+        "coarse",
+        "fine",
+        "in",
+        "next",
+        "out",
+        "previous",
+        "ref",
+        "total"
+      ],
+      "forward_exact_byte_equality": "PASS",
+      "all_other_bytes_unchanged": "PASS",
+      "changes": [
+        {
+          "before_line": 20,
+          "old": "{\\rm ref}",
+          "new": "{\\mathrm{ref}}"
+        },
+        {
+          "before_line": 22,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 22,
+          "old": "{\\rm ref}",
+          "new": "{\\mathrm{ref}}"
+        },
+        {
+          "before_line": 22,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 34,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 59,
+          "old": "{\\rm ref}",
+          "new": "{\\mathrm{ref}}"
+        },
+        {
+          "before_line": 109,
+          "old": "{\\rm total}",
+          "new": "{\\mathrm{total}}"
+        },
+        {
+          "before_line": 109,
+          "old": "{\\rm ref}",
+          "new": "{\\mathrm{ref}}"
+        },
+        {
+          "before_line": 117,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 119,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 119,
+          "old": "{\\rm out}",
+          "new": "{\\mathrm{out}}"
+        },
+        {
+          "before_line": 119,
+          "old": "{\\rm next}",
+          "new": "{\\mathrm{next}}"
+        },
+        {
+          "before_line": 119,
+          "old": "{\\rm next}",
+          "new": "{\\mathrm{next}}"
+        },
+        {
+          "before_line": 119,
+          "old": "{\\rm previous}",
+          "new": "{\\mathrm{previous}}"
+        },
+        {
+          "before_line": 139,
+          "old": "{\\rm out}",
+          "new": "{\\mathrm{out}}"
+        },
+        {
+          "before_line": 153,
+          "old": "{\\rm coarse}",
+          "new": "{\\mathrm{coarse}}"
+        },
+        {
+          "before_line": 153,
+          "old": "{\\rm fine}",
+          "new": "{\\mathrm{fine}}"
+        }
+      ]
+    },
+    {
+      "file": "courses/advection-dispersion/en/worked-answers-en.qmd",
+      "before_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-notation-delta-r2/before/courses/advection-dispersion/en/worked-answers-en.qmd",
+      "after_path": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/english-integrated-freeze-r2/source/courses/advection-dispersion/en/worked-answers-en.qmd",
+      "before_sha256": "ffab7ad227894941f24b0fd05b093723c20ddde3e75511985111de68bddcbae9",
+      "after_sha256": "85692dc3c7fa5240a28ade8cc018f47260e1e5d947daf7d68077f6fe3e11fc0e",
+      "replacements": 7,
+      "labels": [
+        "in",
+        "next",
+        "ref",
+        "total"
+      ],
+      "forward_exact_byte_equality": "PASS",
+      "all_other_bytes_unchanged": "PASS",
+      "changes": [
+        {
+          "before_line": 33,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 34,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 61,
+          "old": "{\\rm total}",
+          "new": "{\\mathrm{total}}"
+        },
+        {
+          "before_line": 61,
+          "old": "{\\rm ref}",
+          "new": "{\\mathrm{ref}}"
+        },
+        {
+          "before_line": 93,
+          "old": "{\\rm in}",
+          "new": "{\\mathrm{in}}"
+        },
+        {
+          "before_line": 109,
+          "old": "{\\rm total}",
+          "new": "{\\mathrm{total}}"
+        },
+        {
+          "before_line": 118,
+          "old": "{\\rm next}",
+          "new": "{\\mathrm{next}}"
+        }
+      ]
+    }
+  ],
+  "total_replacements": 42,
+  "required_corrections": [],
+  "numerical_execution": false,
+  "model_package_modified": false,
+  "original_scientific_handoff_modified": false,
+  "rendered_glyph_acceptance": "Not assessed; separate Editor/Reviewer gate."
+}

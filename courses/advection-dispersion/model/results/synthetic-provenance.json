@@ -1,0 +1,47 @@
+{
+  "revision": "AD-SYNTHETIC-1",
+  "synthetic_only": true,
+  "truth": {
+    "case_id": "reactive-refined",
+    "coefficients": {
+      "L_m": 1.0,
+      "phi_dimensionless": 0.3,
+      "u_m_s_porewater": 1e-05,
+      "v_D_m_s_bulk_area": 3e-06,
+      "D_L_m2_s_excluding_phi": 1e-06,
+      "k_s_inv": 1e-05,
+      "C_ref_mol_m3_water": 1.0,
+      "T_p_s": 20000.0
+    },
+    "coefficient_record_sha256": "0a4a58e4e299222fdbe26ad257e01bca7a4b56354953ff8fe1973dd614e99ba6",
+    "N": 800,
+    "h_m": 0.00125,
+    "dt_s": 50.0,
+    "end_s": 600000.0,
+    "IC": "zero cell averages",
+    "inlet": "known total mass flux; exact rectangular feed overlap",
+    "outlet": "zero dispersive gradient; advective export",
+    "synthetic": true,
+    "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+    "contract_sha256": "d890ac5b46c239a9b64bfadf1cf4a1af5bdb2ec7e97a56f34deb3333166df75e",
+    "metric_definitions_sha256": "a0489e5a7be6ac402dbd1983fbd6035cbda34e7cde2bf0cdf68221acbab79ed0"
+  },
+  "noise": "none",
+  "random_seed": null,
+  "observation_support": "eight exact-declared 10000-second interval averages of right-endpoint flux-normalized exit reconstruction",
+  "candidate_k_s_inv": {
+    "k0": 0.0,
+    "k1": 1e-05,
+    "k2": 2e-05
+  },
+  "candidate_grid_N": 400,
+  "candidate_dt_s": 100.0,
+  "uncertainty": "No measured noise, sigma or confidence interval; same physical model at different resolutions. Not independent natural data.",
+  "files_sha256": {
+    "k0-synthetic-source-series.csv": "c4af0ab9a2bb8428504f43ef963e59dff43b12dee408f65491bdab49e3b4692c",
+    "k1-synthetic-source-series.csv": "749c327f6df7d9e1e877bf9d048b747cb9e2c6c43c7050866813c0c5def13388",
+    "k2-synthetic-source-series.csv": "d3e0f2ff1ef7632161fc2f6ad73d1c3fe62786e71eb7b95ae3a6184d898d159a",
+    "observations-synthetic.csv": "5ab71ab0a8a7fbb69f420b55b5c51516a9d36b636c95beb4113170d46b80dc1f",
+    "truth_refined-synthetic-source-series.csv": "666249596ffde1e1e47b2d68661fb59baf5d9bb546db79feaf59440c2d3eada0"
+  }
+}

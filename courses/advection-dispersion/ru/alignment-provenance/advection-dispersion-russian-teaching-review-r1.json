@@ -1,0 +1,124 @@
+{
+  "revision": "AD-RU-TEACHING-REVIEW-R1",
+  "reviewer": "BOOK Learning Designer",
+  "reviewed_revision": "AD-RU-ALIGNED-1",
+  "english_revision": "AD-EN-INTEGRATED-1",
+  "disposition": "ACCEPTED_FOR_TEACHING_SEMANTICS_AND_GLOSSARY_TEACHING_SCOPE",
+  "required_corrections": [],
+  "russian_package_root": "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r1",
+  "russian_alignment_receipt_sha256": "412cffac3bed6f0a62250c09eb9808c3c33b9e8023f6d2171df8db8c55671e13",
+  "russian_manifest_sha256": "1158c8b7edfe2700c1f337ec6b4c7a5e6758537e0e012939afc1248383db1a73",
+  "english_freeze_receipt_sha256": "3ef9e0e02797096ea9269a7153035043cd8287707726da7d74aa2189dda4baf0",
+  "source_pins": {
+    "ru/student-packet-ru.qmd": "0b7f32be5f9726282e290e7b1d1e2ca49d2ec01fb59e40b9e8300ead15ba223c",
+    "ru/worked-answers-ru.qmd": "88b11b8d818f47fdee3caca0d4c76583e4c903d95a9a293b0e137e8e8e427326",
+    "ru/curriculum-ru.md": "1b76e87931e555662e708dae8c6f016047ffee5e6d66d8aed8e0f25052370e89",
+    "ru/pilot-protocol-ru.md": "f011dc443ff26785a990934f4e887a35c24e567856ad28b3751adb6c61e425aa",
+    "ru/exercise-outcome-map.json": "3ef1f90fba8c3299dafb2562a6e51d608923c8f3c9b8ff431435f844145850b9",
+    "ru/glossary.tsv": "1835606cfc920fee81c44f749a6d39a70fad3b10f050796ddf8d470cbbc3de6d",
+    "ru/README.md": "9fa840dc8265cd5fe25bef822bccb5a61cf592929c7b95205cdd5fc9839104d3"
+  },
+  "readback": {
+    "all_manifest_payload_hashes": {
+      "count": 113,
+      "mismatches": []
+    },
+    "exact_english_input_pins_and_local_copies": 9,
+    "four_teaching_readings_math_sequences_identical": {
+      "student": 120,
+      "answers": 135,
+      "curriculum": 4,
+      "pilot": 1
+    },
+    "four_teaching_readings_code_blocks_identical": true,
+    "table_numeric_token_sequences_identical": true,
+    "exercise_map_ids_dependencies_points_rubric_locators_identical": true,
+    "worksheets_byte_identical": 3,
+    "teaching_and_README_local_routes_checked": 49,
+    "broken_teaching_routes": 0
+  },
+  "teaching_evidence": [
+    {
+      "path": "ru/student-packet-ru.qmd",
+      "lines": [
+        10,
+        12,
+        14,
+        24,
+        32,
+        40,
+        48,
+        65,
+        73
+      ],
+      "finding": "Reading-title guidance, oxygen prerequisites and all six exercise intentions preserved. Open answers are separate for pacing; first attempts and revisions remain distinguishable."
+    },
+    {
+      "path": "ru/student-packet-ru.qmd",
+      "lines": [
+        83,
+        85,
+        87,
+        93,
+        105,
+        116,
+        126,
+        133,
+        143
+      ],
+      "finding": "100 points, 270 planned minutes plus optional 20-minute bridge; accepted single-case command and supplied-output spreadsheet route; known total interval-average inlet, half-open pulse, right-endpoint budget, finite-window export conditioning, separate resident width and matching-k resolution residual preserved."
+    },
+    {
+      "path": "ru/worked-answers-ru.qmd",
+      "lines": [
+        6,
+        12,
+        66,
+        79,
+        85,
+        98,
+        104
+      ],
+      "finding": "Open worked answers retain slab/flux/boundary derivations, reference limits, own-dose storage/loss accounting, conditional k comparison, generated-medium P02 scope and unchanged numerical keys."
+    },
+    {
+      "path": "ru/curriculum-ru.md",
+      "lines": [
+        8,
+        16,
+        29,
+        43,
+        58
+      ],
+      "finding": "Prerequisites and measurable performances align with English; analytic component scores and 70/100 plus three conceptual gates preserved. Arithmetic propagation is not repeatedly penalized; revised self-study is distinguished from unaided mastery."
+    },
+    {
+      "path": "ru/pilot-protocol-ru.md",
+      "lines": [
+        6,
+        14,
+        18,
+        22,
+        34
+      ],
+      "finding": "Pilot remains unexecuted. Voluntary participants, first/revised attempts and answer/hint records, actual feedback and incomplete work reporting preserved. Proposed criteria are not represented as observed learning or causal gains."
+    },
+    {
+      "path": "ru/glossary.tsv",
+      "lines": [
+        2,
+        48
+      ],
+      "finding": "All 47 rows read for teaching meaning. Resident/flux-normalized concentrations, water/bulk bases, total-flux boundary, storage/parent loss, spreading/mixing limits, conditioned diagnostics, residuals, verification/validation and open-answer/mastery/rubric terminology preserve the intended distinctions."
+    }
+  ],
+  "glossary_owner_status": "Learning Designer teaching review complete for all 47 rows; scientific-owner review and EIC acceptance remain separate. Original glossary status cells left unchanged.",
+  "scope_limits": [
+    "Source-level teaching semantics review, not scientific re-verification of manuscript or primary literature",
+    "No HTML/PDF/EPUB build or visual layout acceptance",
+    "No solver/checker execution or numerical rerun",
+    "No learner contact, execution, feedback, outcomes or measured workload",
+    "No shared source edits, translation edits or publication"
+  ],
+  "handoff": "BOOK Russian Editor and BOOK Editor in Chief; EIC retains integration/final acceptance, BOOK Reviewer retains rendered readiness"
+}

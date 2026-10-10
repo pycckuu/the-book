@@ -1,0 +1,55 @@
+{
+  "revision": "AD-NUMERICS-1",
+  "status": "OWNER_VERIFICATION_PASS_PENDING_EDITOR_NUMERICAL_TEACHING_ACCEPTANCE",
+  "source_base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+  "contract_sha256": "d890ac5b46c239a9b64bfadf1cf4a1af5bdb2ec7e97a56f34deb3333166df75e",
+  "implementation_acceptance_sha256": "f631b7406e415a49b153c55155d1b16cd31248f2389c613a4d3770590d3f8a5f",
+  "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+  "verification_code_sha256": "f2fd7cc99f36a742a49ec8c0d108ef65f31a797eed7eb5d3a6e2969f6f208e07",
+  "readback_code_sha256": "377cba5e995589b62ede49137a207e70a5d80f9f7c15b7ac9c6a5b894e9f3690",
+  "metrics_sha256_declared_before_first_run": "a0489e5a7be6ac402dbd1983fbd6035cbda34e7cde2bf0cdf68221acbab79ed0",
+  "results_verification_sha256": "736b73ddb55c417db86d8aa2e5c36ba7a3fe5945d4b3de3ab7346b4e2bd8e8f0",
+  "table_readback_sha256": "c7dbd3ff72b081a1dbc048e182da4561690aa59749a0b6ad72b34bf60c749dfe",
+  "received_teaching_dependencies_sha256": {
+    "/Users/openclaw/.bloks/artifacts/472bf7b3-5d12-4b2a-9e2d-9c6f5c59ec9f/advection-dispersion-teaching-draft-v0.2/export-request.json": "e413699a77d4fb6bd7605895e4b3c07959901661296715c64347ebed0ea69131",
+    "/Users/openclaw/.bloks/artifacts/472bf7b3-5d12-4b2a-9e2d-9c6f5c59ec9f/advection-dispersion-teaching-draft-v0.2/student-prompts-draft.md": "516a730afaf529c49b177337ad3c1f8d13d510efd7c6eea82b0bd3e70efc5bea",
+    "/Users/openclaw/.bloks/artifacts/472bf7b3-5d12-4b2a-9e2d-9c6f5c59ec9f/advection-dispersion-teaching-draft-v0.2/open-derivation-notes-draft.md": "d0aa92bc574590897ae82c6c6cd2ecd10fcffc2d2e5bfdb7c1c40f9dd4beb57a"
+  },
+  "canonical_commands": [
+    "python3 verify_advection.py --out reproduced-results",
+    "python3 readback_exports.py --results reproduced-results"
+  ],
+  "tested_python_version": "3.9.6",
+  "synthetic_only": true,
+  "field_dataset": null,
+  "empirical_validation": false,
+  "learner_feedback": null,
+  "default_proposed": {
+    "N": 400,
+    "dt_s": 100.0,
+    "end_s": 600000.0,
+    "provisional_until_editor_acceptance": true,
+    "metrics_declared_before_testing": true,
+    "all_core_scenarios_checked": true
+  },
+  "four_scenario_scope": "Baseline k0, baseline k1e-5, conservative 2u, conservative 2D_L; fixed physical Tp and case-specific input dose.",
+  "evidence_gate": "Analytical limits, finite boundary/steady balance, scheme update budget, positivity, independent space/time refinement, auxiliary spreading, domain/porosity/closed checks; export/CLI readback.",
+  "excluded": "No high-Pe implementation expansion, optimizer, microbial extension, oxygen execution/edit, shared source edit, outreach or publication.",
+  "historical_runs": [
+    {
+      "file": "run-history/20261010T161006464616Z.json",
+      "sha256": "4d571fc04a7d4136d09821a41a54f4d76f13b18e9aa5eae7083aa4d99b49c8ab",
+      "status": "FAIL"
+    },
+    {
+      "file": "run-history/20261010T161217505508Z.json",
+      "sha256": "2d8d460755fd37d0e685d100663551896c8920e6817bf6ccc61a36b5085a1249",
+      "status": "PASS"
+    },
+    {
+      "file": "run-history/20261010T161520732961Z.json",
+      "sha256": "736b73ddb55c417db86d8aa2e5c36ba7a3fe5945d4b3de3ab7346b4e2bd8e8f0",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "predecessor": "AD-EN-INTEGRATED-1",
+  "successor": "AD-EN-INTEGRATED-2",
+  "changes": [
+    {
+      "file": "appendices/b-model-toolkit.md",
+      "replacements": 18,
+      "before_sha256": "4ac86616bb165b3c92cd4f996816f94458e2cdffbfafb1c322b82221c77ea681",
+      "after_sha256": "98cbf5d463d6c5a09068f0651cda578576dae8c80d9da465208b02858dc43c2e",
+      "kind": "Notation-only old roman font switch to scoped modern math roman"
+    },
+    {
+      "file": "courses/advection-dispersion/en/student-packet-en.qmd",
+      "replacements": 17,
+      "before_sha256": "afc490a5dddbcfb830be8181d17d2a5e20f11d5f3404a5b75b3aa93983663015",
+      "after_sha256": "48416a6eb1045b5a7877afc1d5b6b9ab6ffbb2d78d33682f1f08e94065da86e5",
+      "kind": "Notation-only old roman font switch to scoped modern math roman"
+    },
+    {
+      "file": "courses/advection-dispersion/en/worked-answers-en.qmd",
+      "replacements": 7,
+      "before_sha256": "ffab7ad227894941f24b0fd05b093723c20ddde3e75511985111de68bddcbae9",
+      "after_sha256": "85692dc3c7fa5240a28ade8cc018f47260e1e5d947daf7d68077f6fe3e11fc0e",
+      "kind": "Notation-only old roman font switch to scoped modern math roman"
+    }
+  ],
+  "numerical_payload_changes": false,
+  "numeric_rerun": false,
+  "Russian_translation": "Carry translation forward; apply equivalent roman-subscript spelling only. Do not restart."
+}

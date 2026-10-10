@@ -1,0 +1,91 @@
+{
+  "id": "AD-NUMERICAL-ACCEPTANCE-R1",
+  "created_at_utc": "2026-10-10T16:31:20.926343+00:00",
+  "disposition": "ACCEPTED_FOR_BOUNDED_NUMERICAL_DEFAULT_AND_TEACHING_INPUTS",
+  "owner_revision": "AD-NUMERICS-1",
+  "base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
+  "contract_sha256": "d890ac5b46c239a9b64bfadf1cf4a1af5bdb2ec7e97a56f34deb3333166df75e",
+  "owner_manifest_sha256": "d1c50796f6217afe6215050ca6451aee2d69bda247d43b9f531186fa38c0d5c6",
+  "owner_archive_sha256": "3de45dc688880c341a62d791c9448df069fad3c2e7adcdb396b0bfe614d1d29e",
+  "model_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+  "verification_sha256": "f2fd7cc99f36a742a49ec8c0d108ef65f31a797eed7eb5d3a6e2969f6f208e07",
+  "checks": {
+    "owner_manifest_payloads": 67,
+    "owner_archive_exact_files": 68,
+    "archive_crc": "PASS",
+    "executed_gate_count": 15,
+    "executed_failures": [],
+    "reproduced_result_file_byte_matches": 32,
+    "spatial_width_refinement_comparisons": 64,
+    "spatial_width_targets": "PASS",
+    "largest_spatial_width_change_over_tolerance": 0.4833942321801235,
+    "saved_temporal_moment_quantile_reconstruction": "PASS",
+    "oxygen_hash_only_preservation": "PASS"
+  },
+  "commands": [
+    {
+      "command": "python3 verify_advection.py --out ../reproduced-results",
+      "cwd": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/numerical-intake-r1/frozen-owner-package",
+      "exit_code": 0,
+      "log": "verification-run.log"
+    },
+    {
+      "command": "python3 readback_exports.py --results ../reproduced-results",
+      "cwd": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/numerical-intake-r1/frozen-owner-package",
+      "exit_code": 0,
+      "log": "export-readback-run.log"
+    },
+    {
+      "command": "python3 check_spatial_width.py",
+      "cwd": "/Users/openclaw/.bloks/artifacts/905503ed-d35e-4b52-9d0f-d8993b09bcf1/advection-dispersion-module-v0.1/numerical-intake-r1",
+      "exit_code": 0,
+      "log": "spatial-width-run.log"
+    }
+  ],
+  "code_review": "Read all three current Python sources. Finite FV assembly/known inlet/advective outlet, stable continuum cell-average roots, periodic corner repair, shared flux signs, exact pulse overlap, BE export/loss and no clipping agree with contract. Standard library and existing checker reused.",
+  "acceptance_scope": "Editor readback and reproduction with the same pinned solver; supplementary saved-moment/width calculations. This is not an independently implemented PDE solver, Reviewer final verdict, field validation or rendered integration acceptance.",
+  "accepted_default": {
+    "N": 400,
+    "dt_s": 100,
+    "window_s": 600000,
+    "grid_control_N": 800,
+    "time_control_dt_s": 50,
+    "window_control_s": 800000,
+    "core_cases": [
+      "conservative",
+      "reactive",
+      "faster-flow",
+      "more-dispersion"
+    ],
+    "physical_Tp_s": 20000
+  },
+  "accepted_teaching_inputs": {
+    "synthetic_only": true,
+    "observations": 8,
+    "truth_N": 800,
+    "truth_dt_s": 50,
+    "candidate_N": 400,
+    "candidate_dt_s": 100,
+    "candidate_k_s_inv": [
+      0,
+      1e-05,
+      2e-05
+    ],
+    "noise": "none",
+    "candidate_difference": "only k; same physical feed/transport and observation intervals",
+    "matching_k_RMSE_mol_m3": 0.0002667392450206385,
+    "matching_k_nonzero_reason": "different numerical resolutions, not measurement noise"
+  },
+  "findings_closed": {
+    "spatial_width_evidence": "Owner exports omit a separate spatial-width refinement row. Editor saved eight affected finer-control profile tables and reconstructed all64 checks against the already approved width target; all pass. Numerical default can be accepted without owner rerunning unchanged gates."
+  },
+  "history_clarification": "First retained run formally FAILS B04 only. Its more-dispersion storage fraction at400000s is .0015558691775327269; the first OBSERVATION_WINDOW checker covered only conservative/reactive, so it did not formally fail that more-dispersion case. Current checker extends allfour cases and passes600000/800000. Preserve this distinction in final prose.",
+  "required_numerical_corrections": [],
+  "next_gate": "Complete English exercises/open worked answers and narrative integration from these frozen inputs; then English freeze, Russian alignment and exact-head rendered independent readiness.",
+  "not_claimed": [
+    "Empirical calibration/field validation/biological cause/water safety",
+    "Learner trial or measured workload",
+    "Final student-ready English/Russian module",
+    "New repository publication or merge authority"
+  ]
+}

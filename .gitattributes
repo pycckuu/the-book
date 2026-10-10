@@ -1,0 +1,3 @@
+# Preserve byte-pinned tabular exports with their standard CRLF record endings.
+courses/advection-dispersion/**/*.csv whitespace=cr-at-eol
+courses/advection-dispersion/**/*.tsv whitespace=cr-at-eol

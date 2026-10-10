@@ -1,0 +1,78 @@
+{
+  "id": "AD-RU-HANDOFF-RECONCILIATION-R2",
+  "completed_immutable_handoffs": [
+    {
+      "revision": "AD-RU-ALIGNED-1",
+      "archive": "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r1-source.zip",
+      "archive_sha256": "d0f9159ec5017dff4c00e866cb3d8d18da7205379e097955c4655114424a441f",
+      "receipt_sha256": "412cffac3bed6f0a62250c09eb9808c3c33b9e8023f6d2171df8db8c55671e13",
+      "payload_manifest_sha256": "1158c8b7edfe2700c1f337ec6b4c7a5e6758537e0e012939afc1248383db1a73",
+      "actual_zip_entries": 116,
+      "actual_file_members": 116,
+      "directory_entries": 0,
+      "payload_manifest_entries": 113,
+      "unlisted_files": [
+        "SHA256SUMS.json",
+        "model/SHA256SUMS.json",
+        "model/contract-and-evidence/SHA256SUMS.json"
+      ],
+      "crc_and_all_member_byte_equality": "PASS",
+      "original_delivery_member_statement": 114
+    },
+    {
+      "revision": "AD-RU-ALIGNED-2",
+      "archive": "/Users/openclaw/.bloks/artifacts/1e85bfe4-fc89-4776-b319-a620821ad741/advection-dispersion-ru-r2-source.zip",
+      "archive_sha256": "d1f69b35eb510db776567f243187086e66fcc4363b27058f29fa0bdc12288e13",
+      "receipt_sha256": "3b6dd0c22cc2de572684233266681d421c2a87c080dc59b0887f92dc3008259b",
+      "payload_manifest_sha256": "cb578d74508a5f809692e743395f801347424e68f75200e87b6c2b1a28ff9338",
+      "actual_zip_entries": 130,
+      "actual_file_members": 130,
+      "directory_entries": 0,
+      "payload_manifest_entries": 129,
+      "unlisted_files": [
+        "SHA256SUMS.json"
+      ],
+      "crc_and_all_member_byte_equality": "PASS",
+      "original_delivery_member_statement": 130
+    }
+  ],
+  "r1_count_correction": {
+    "old_file_member_count": 114,
+    "correct_file_member_count": 116,
+    "cause": "R1 top-level manifest collection omitted two nested files named SHA256SUMS.json; count was derived from manifest size plus one, not actual archive membership. Both nested model manifests are present and independently byte-identical. No missing payload or archive mutation.",
+    "excluded_nested_manifests": [
+      "model/SHA256SUMS.json",
+      "model/contract-and-evidence/SHA256SUMS.json"
+    ],
+    "correction_scope": "Accounting statement only, no archive/source/receipt rewrite"
+  },
+  "current_completed_successor": "AD-RU-ALIGNED-2 against AD-EN-PORTABILITY-3; already delivered before intake messages. R1 remains a completed immutable predecessor.",
+  "scientific_owner_receipt": {
+    "path": "/Users/openclaw/.bloks/artifacts/aebf6c99-2109-4153-972e-63c58e71bd8f/advection-dispersion-russian-scientific-terminology-r1.json",
+    "sha256": "a29ce1f66a690d17ac2dd0901373b15ab393e82ee0a9a39f51ec84fe7d1221a6",
+    "scope": "Accepted 44 scientific terms and bounded claim alignment for exact R1 only",
+    "unchanged_carry_forward_pins": [
+      {
+        "path": "ru/glossary.tsv",
+        "sha256": "1835606cfc920fee81c44f749a6d39a70fad3b10f050796ddf8d470cbbc3de6d",
+        "identical_to_scientist_reviewed_r1": true
+      },
+      {
+        "path": "provenance/symbol-alignment.tsv",
+        "sha256": "58e9ce621d1f40bcccff9b62041093fd2682a1faab71abb3632517c828942d93",
+        "identical_to_scientist_reviewed_r1": true
+      },
+      {
+        "path": "provenance/claim-alignment.json",
+        "sha256": "bcfe5c2665bdcd651ef116c4e7715aca307848659a75e677bc7c88bde9caf60f",
+        "identical_to_scientist_reviewed_r1": true
+      }
+    ],
+    "r2_scope": "Definitions/symbol/claim maps unchanged; 42 equivalent roman-label replacements independently recorded in R2 language receipt. This reconciliation does not claim a fresh scientist review of every R2 output.",
+    "teaching_terms": "Three definitions reserved to Learning Designer; acceptance not asserted here"
+  },
+  "no_new_package_created": true,
+  "archives_sources_and_existing_receipts_modified": false,
+  "numerical_build_or_learner_execution": false,
+  "final_integration_and_rendered_acceptance_pending": true
+}

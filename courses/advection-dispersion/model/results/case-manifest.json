@@ -1,0 +1,134 @@
+[
+  {
+    "case_id": "conservative",
+    "parameters": {
+      "L": 1.0,
+      "phi": 0.3,
+      "u": 1e-05,
+      "D": 1e-06,
+      "k": 0.0,
+      "C_ref": 1.0,
+      "Tp": 20000.0
+    },
+    "volume_basis": "C porewater; flux/inventory/loss per bulk area",
+    "synthetic": true,
+    "reference_type": "core finite pulse",
+    "IC": "zero cell averages",
+    "inlet": "known total mass flux; exact rectangular feed overlap",
+    "outlet": "zero dispersive gradient; advective export",
+    "N": 400,
+    "dt_s": 100.0,
+    "end_s": 600000.0,
+    "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+    "snapshot_times_s": [
+      0.0,
+      20000.0,
+      50000.0,
+      100000.0,
+      150000.0,
+      200000.0,
+      400000.0,
+      600000.0
+    ],
+    "input_mol_m2": 0.06000000000000024
+  },
+  {
+    "case_id": "reactive",
+    "parameters": {
+      "L": 1.0,
+      "phi": 0.3,
+      "u": 1e-05,
+      "D": 1e-06,
+      "k": 1e-05,
+      "C_ref": 1.0,
+      "Tp": 20000.0
+    },
+    "volume_basis": "C porewater; flux/inventory/loss per bulk area",
+    "synthetic": true,
+    "reference_type": "core finite pulse",
+    "IC": "zero cell averages",
+    "inlet": "known total mass flux; exact rectangular feed overlap",
+    "outlet": "zero dispersive gradient; advective export",
+    "N": 400,
+    "dt_s": 100.0,
+    "end_s": 600000.0,
+    "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+    "snapshot_times_s": [
+      0.0,
+      20000.0,
+      50000.0,
+      100000.0,
+      150000.0,
+      200000.0,
+      400000.0,
+      600000.0
+    ],
+    "input_mol_m2": 0.06000000000000024
+  },
+  {
+    "case_id": "faster-flow",
+    "parameters": {
+      "L": 1.0,
+      "phi": 0.3,
+      "u": 2e-05,
+      "D": 1e-06,
+      "k": 0.0,
+      "C_ref": 1.0,
+      "Tp": 20000.0
+    },
+    "volume_basis": "C porewater; flux/inventory/loss per bulk area",
+    "synthetic": true,
+    "reference_type": "core finite pulse",
+    "IC": "zero cell averages",
+    "inlet": "known total mass flux; exact rectangular feed overlap",
+    "outlet": "zero dispersive gradient; advective export",
+    "N": 400,
+    "dt_s": 100.0,
+    "end_s": 600000.0,
+    "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+    "snapshot_times_s": [
+      0.0,
+      20000.0,
+      50000.0,
+      100000.0,
+      150000.0,
+      200000.0,
+      400000.0,
+      600000.0
+    ],
+    "input_mol_m2": 0.12000000000000048
+  },
+  {
+    "case_id": "more-dispersion",
+    "parameters": {
+      "L": 1.0,
+      "phi": 0.3,
+      "u": 1e-05,
+      "D": 2e-06,
+      "k": 0.0,
+      "C_ref": 1.0,
+      "Tp": 20000.0
+    },
+    "volume_basis": "C porewater; flux/inventory/loss per bulk area",
+    "synthetic": true,
+    "reference_type": "core finite pulse",
+    "IC": "zero cell averages",
+    "inlet": "known total mass flux; exact rectangular feed overlap",
+    "outlet": "zero dispersive gradient; advective export",
+    "N": 400,
+    "dt_s": 100.0,
+    "end_s": 600000.0,
+    "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+    "snapshot_times_s": [
+      0.0,
+      20000.0,
+      50000.0,
+      100000.0,
+      150000.0,
+      200000.0,
+      400000.0,
+      600000.0
+    ],
+    "input_mol_m2": 0.06000000000000024
+  }
+]
