@@ -1,0 +1,22 @@
+[
+  {
+    "id": "E-N01",
+    "text": "For this one-to-one A ⇌ B reaction with a common standard concentration, c° cancels from Q and the reaction Gibbs energy; this example teaches dimensionless activities but does not demonstrate standard-state dependence of K_eq or Δ_rG°."
+  },
+  {
+    "id": "E-N02",
+    "text": "Reported numerical G_ex uses the direct compensated two-species expression with c_Aeq and c_Beq derived once from the initial C. The binary expression is an independent check only at analytical reference states with exact conserved total; it does not silently replace the direct numerical diagnostic or recompute equilibrium from a drifting total."
+  },
+  {
+    "id": "E-N03",
+    "text": "The proposed 100 s default follows the predeclared policy and is not claimed to be the coarsest passing step. All attempted coarse and refined candidates, including any passing 200 s candidate, retain their actual measured numerical gate outcomes after authorized execution."
+  },
+  {
+    "id": "E-N04",
+    "text": "Gross one-way throughputs and equilibrium exchange are model quantities here, not measurements from equilibrium concentrations. Equilibrium concentration records alone do not identify λ; independent gross-exchange constraints require additional tracer or exchange observations."
+  },
+  {
+    "id": "E-N05",
+    "text": "endpoint_power_energy = actual_h_s × P_diss at the current positive-time endpoint. For a boundary start the initial P_diss remains null, not zero; the first step uses its finite new-endpoint power and never the preceding null value."
+  }
+]

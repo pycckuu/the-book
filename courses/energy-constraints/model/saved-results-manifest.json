@@ -1,0 +1,39 @@
+{
+  "id": "ENERGY-NUMERICS-DATA-MANIFEST-R1",
+  "synthetic": true,
+  "default_candidate_s": 100,
+  "accepted_default_s": 100,
+  "files": [
+    {
+      "path": "results-r2/case-settings.csv",
+      "bytes": 2146,
+      "sha256": "61fabd4df34119b6af4dbc92aa88b6e4a47d449b657cef6580e12c8fd1b7fab2",
+      "rows": 7,
+      "columns": 20
+    },
+    {
+      "path": "results-r2/step-ledger.csv",
+      "bytes": 4655103,
+      "sha256": "192ab293a30be59f4bc21d96894dabe0c89cf8f9bf3ade5da129ef46f511c707",
+      "rows": 7425,
+      "columns": 35
+    },
+    {
+      "path": "results-r2/comparison.csv",
+      "bytes": 53183396,
+      "sha256": "b6f4bc6c44d4c17340f5d356261335714dc655318e2d37e67432737343abe2a9",
+      "rows": 266580,
+      "columns": 13
+    },
+    {
+      "path": "results-r2/verification.csv",
+      "bytes": 109613,
+      "sha256": "84709a549965b19b86554a3cd7ea1826cc3f999d7df1f1806768696b34c133a0",
+      "rows": 655,
+      "columns": 16
+    }
+  ],
+  "format": "Exact frozen four CSV families; UTF-8,17 significant digits, dot decimal, explicit null reasons. Large tables are a data companion, not textual PR diff.",
+  "schema_sha256": "69408cf02e7b78190f890812e16841380d3411f9f95cf77e037e934f0cbaca51",
+  "acceptance_scope": "Synthetic numerical/default verification only. No empirical or learner validation."
+}

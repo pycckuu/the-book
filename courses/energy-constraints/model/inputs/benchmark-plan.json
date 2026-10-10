@@ -1,0 +1,156 @@
+{
+  "proposal_id": "ENERGY-CONTRACT-0.1",
+  "status": "PREDECLARED_UNEXECUTED",
+  "method": "backward Euler, direct two-species positive map; analytical exponential and integrated-throughput references are independent of this recurrence",
+  "normalization": {
+    "C_scale": "initial C for C>0; empty checks use exact zero branch",
+    "N_scale": "max(initial N, 1e-15 mol) for accounting roundoff only, not an added inventory",
+    "G_ex_scale": "R*T*initial N for C>0",
+    "amplitude": "abs(c_B0-c_Beq); exclude equilibrium and empty from relative-amplitude metrics",
+    "G_ex0_scale": "G_ex(0); exclude equilibrium/empty; absolute scale R*T*N remains separately reported",
+    "near_zero_metric_floor": "1e-12 of its stated dimensionless normalization; below-floor metrics export null order/relative ratio with reason, never fabricated zero or order",
+    "raw_values": "All raw residuals/minima and normalizers exported alongside normalized values; normalization floors do not alter states or activities."
+  },
+  "support": "Exact windows, native grids, 401 common snapshots and common half-step union are frozen in proposed-settings.json. References are evaluated directly at each requested physical time. Native and snapshot metrics are separate, never an unlabeled maximum over differing supports.",
+  "benchmarks": [
+    {
+      "id": "B01",
+      "name": "Domain, units and detailed balance",
+      "planned_checks": [
+        "All finite inputs in declared positive/zero domains; reject negative concentration, zero/nonpositive/nonfinite T,V_l,c°,lambda,K_eq. Invalid inputs emit explicit error before arithmetic, not NaN CSV rows.",
+        "Dimensions: n=Vc [mol], r=k*c [mol m^-3 s^-1], V*r*DeltaG [J s^-1], G_ex and D [J], entropy D/T [J K^-1].",
+        "Derived k_f/k_r=K_eq and DeltaG°/(RT)=-ln(K_eq). Chemical versus transformed basis and m=2 reaction-basis invariance must remain explicit."
+      ],
+      "criteria": {
+        "dimensionless_detailed_balance_residual_max": 1e-12,
+        "dimensionless_standard_relation_residual_max": 1e-12,
+        "basis_power_relative_residual_max": 1e-12,
+        "invalid_input_rule": "all declared invalid inputs rejected; no epsilon, clipping, max(0,r), logistic replacement or independent inconsistent parameter overrides"
+      }
+    },
+    {
+      "id": "B02",
+      "name": "Independent reference and analytical limits",
+      "planned_checks": [
+        "Derive and substitute the exponential concentrations, integrate both one-way fluxes, verify signed extent identity and positive bounds. Reference must not call the candidate step method.",
+        "Compare direct two-state G_ex expression with independent binary relative-entropy expression at the same reference states; derive minimum, derivative and convexity analytically.",
+        "At exact zero time, gross references zero; at t>0 boundary starts positive; at infinite mathematical time approach equilibrium; no finite exact depletion. Small-z analytic integrals use stable u/v evaluation."
+      ],
+      "criteria": {
+        "reference_initial_concentration_normalized_residual_max": 1e-12,
+        "reference_extent_amount_normalized_residual_max": 1e-12,
+        "reference_G_ex_agreement_normalized_by_RTN_max": 1e-12,
+        "reference_derivative_rule": "independent analytical substitution, not finite-difference approximation treated as exact; record implementation formula readback and all finite-domain checks"
+      }
+    },
+    {
+      "id": "B03",
+      "name": "Positive inventory and independent gross ledger",
+      "planned_checks": [
+        "Evolve A and B independently with the 2x2 map. Retain both amounts; no complement substitution or mass repair.",
+        "Accumulate V*h*k_f*A_new and V*h*k_r*B_new separately. Reconstruct both amount changes using their signed difference.",
+        "Check every step including actual partial h: total residual, both independent extent residuals, cumulative gross nonnegativity and monotonicity, no overshoot."
+      ],
+      "criteria": {
+        "negative_state_rule": "any negative concentration or amount FAIL; core and nonempty auxiliary at t>0 strictly positive",
+        "gross_nonnegative_rule": "every one-way increment and cumulative throughput nonnegative; no clipping",
+        "max_abs_total_or_extent_residual_over_N_scale": 1e-11,
+        "normalized_overshoot_tolerance": 1e-12,
+        "empty_rule": "states and all amounts/throughputs exactly zero"
+      }
+    },
+    {
+      "id": "B04",
+      "name": "Equilibrium, forward and reverse meaning",
+      "planned_checks": [
+        "Equilibrium core remains stationary: net rate and extent vanish; gross rates equal and positive; G_ex and power vanish to roundoff.",
+        "Forward/reverse cores keep correct side of equilibrium and signed extent; positive states satisfy RT*ln(r_plus/r_minus)=-DeltaG and Q/K_eq consistency.",
+        "Do not treat balanced gross throughput as work or label the empty state Q=K_eq."
+      ],
+      "criteria": {
+        "equilibrium_max_abs_r_over_lambdaC": 1e-12,
+        "equilibrium_max_abs_DeltaG_over_RT": 1e-12,
+        "equilibrium_max_abs_G_ex_over_RTN": 1e-12,
+        "flux_force_dimensionless_residual_max": 1e-12,
+        "sign_rule": "For finite non-equilibrium values r*DeltaG<=0 within the energy roundoff threshold in B05; near-zero values reported, not forced into an equilibrium branch."
+      }
+    },
+    {
+      "id": "B05",
+      "name": "Gibbs dissipation and zero-log domains",
+      "planned_checks": [
+        "G_ex nonnegative and nonincreasing; power nonnegative at every finite-domain sample; D_state=G_ex0-G_ex and accumulated step drops agree, recognizing the telescoping identity is not independent accuracy proof.",
+        "Per step compute DeltaD_state, endpoint W_end=h*P_new and gap=DeltaD_state-W_end; convexity requires gap>=0.",
+        "No comparison with heat; no captured ATP/work. At initial B=0,A>0 keep Q=0 and null ΔG/P with zero_B_activity; at A=0,B>0 Q/ΔG/P null with zero_A_activity. Finite G_ex at both boundaries. Empty has Q/ΔG/P null and G_ex=D=0. All nonempty t>0 values finite."
+      ],
+      "criteria": {
+        "min_G_ex_over_RTN_at_least": -1e-12,
+        "min_step_D_or_gap_over_RTN_at_least": -1e-12,
+        "min_power_times_tau_over_RTN_at_least": -1e-12,
+        "state_drop_sum_residual_over_RTN_max": 1e-11,
+        "null_rules": "exact nullable-field/status/reason consistency; no NaN/Infinity serialized; no epsilon or numerical zero masquerading as an undefined log",
+        "no_accuracy_claim": "Allowed roundoff is reported raw, never repaired; gap and endpoint proxy are diagnostics, not asserted equal to true continuous dissipation."
+      }
+    },
+    {
+      "id": "B06",
+      "name": "Candidate accuracy against analytical references",
+      "planned_checks": [
+        "For each nonempty core, compare both concentrations, G_ex, signed extent and both cumulative gross throughputs at all native endpoints and separately the 401 snapshots.",
+        "Recompute nonlinear thermodynamics from interpolated snapshot states; evaluate independent reference at the same times. No linearly interpolated G_ex presented as G_ex of a state.",
+        "Equilibrium uses absolute roundoff gates, not division by zero initial deviation/energy."
+      ],
+      "criteria": {
+        "max_abs_c_error_over_C": 0.005,
+        "max_abs_c_error_over_initial_amplitude_non_equilibrium": 0.005,
+        "max_abs_G_ex_error_over_RTN": 0.005,
+        "max_abs_G_ex_error_over_G_ex0_non_equilibrium": 0.005,
+        "max_abs_signed_extent_or_each_gross_error_over_N": 0.005,
+        "scope": "Each listed metric passes on each stated support for forward and reverse; equilibrium passes B03-B05 roundoff rules. Accuracy in a nearly depleted energy tail is absolute, not an unsupported small-G_ex relative guarantee. No production accuracy gate on h/tau=10 auxiliaries."
+      }
+    },
+    {
+      "id": "B07",
+      "name": "Common-support refinement and actual default history",
+      "planned_checks": [
+        "On the frozen union support compare candidate and half-step solutions for both concentrations, G_ex and all three extents; never compare unequal-time array indices.",
+        "For non-equilibrium forward/reverse, compute direct-reference normalized max concentration errors for 100,50,25 s and p=log2(E_h/E_h2) on the same 401 snapshots and separately a fixed union of all three native grids plus these snapshots. If candidate must be finer, use its last three consecutive sizes and their fixed union instead; pin exact sizes. Native-endpoint-only maxima remain direct accuracy checks, not unequal-support order evidence.",
+        "Preserve every attempted candidate, run order, actual gate failure, supporting metrics, step/window/support identity and reason. No engineered fake fail or presumed coarse failure."
+      ],
+      "criteria": {
+        "max_abs_halfstep_c_difference_over_C": 0.0025,
+        "max_abs_halfstep_c_difference_over_amplitude": 0.0025,
+        "max_abs_halfstep_G_ex_difference_over_RTN": 0.0025,
+        "max_abs_halfstep_G_ex_difference_over_G_ex0": 0.0025,
+        "max_abs_halfstep_each_extent_difference_over_N": 0.0025,
+        "concentration_observed_order_range": [
+          0.8,
+          1.2
+        ],
+        "order_floor_rule": "Only use errors above 1e-12; equilibrium order null, not 1. If informative core concentration orders cannot be resolved, default gate unresolved/FAIL, never automatically waived. Report G_ex/throughput refinement errors without asserting the same order threshold for cancellation-dominated diagnostics.",
+        "default_rule": "All B01-B08 plus B06 and its half-step B07 must pass before proposing a default; EIC independently accepts it. Apply exact bounded candidate policy in proposed-settings.json."
+      }
+    },
+    {
+      "id": "B08",
+      "name": "Auxiliary steps, partial endpoint and export reconstruction",
+      "planned_checks": [
+        "A-only and B-only have two complete h/tau=10 steps in fixed 20*tau window. Report nominal and actual h/tau; no shortened-step substitute for this test.",
+        "Empty case uses the same window. Partial-final-step case reaches its exact declared endpoint with actual h recorded. Compare auxiliary analytical values for information but do not promote coarse accuracy.",
+        "Saved CSV arithmetic reconstructs n=V*c, both inventories, independent increment ledger, G_ex0-G_ex, power units, endpoint proxy and numerical gap using only declared inputs/columns; reconstruct common snapshots/refinement support and null rules."
+      ],
+      "criteria": {
+        "auxiliary_full_step_count": 2,
+        "auxiliary_actual_h_over_tau": 10,
+        "partial_final_endpoint_rule": "last actual h positive and no greater than nominal h; exact target endpoint represented in metadata; no overshoot or silent extension",
+        "reconstruction_amount_normalized_residual_max": 1e-11,
+        "reconstruction_energy_normalized_residual_max": 1e-11,
+        "csv_json_numeric_precision": "17 significant digits; empty CSV cell/null JSON for undefined values with reason; mathematical zero is numeric 0",
+        "schema_rule": "Required files, IDs, units, synthetic labels, headers, candidate history and reference/method/sample-support provenance present; this is not empirical or learner validation."
+      }
+    }
+  ],
+  "execution_authority": false,
+  "numerical_or_default_verdict": null,
+  "change_control": "Reviewer critique before implementation; EIC acceptance and implementation authority separate. Any changed equations, cases, supports, tolerance or export meaning require an explicit affected contract delta."
+}
