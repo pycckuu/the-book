@@ -91,7 +91,7 @@ The shortcut has a precise limit: a thermodynamic analysis relates nominal carbo
 Buried-carbon reactivity also depends on accessibility and the environment. Oxidation state alone is not a universal depth or freshness index.
 :::
 
-The oxidation-half-reaction analysis is developed by LaRowe and Van Cappellen.[^larowe2011]
+The oxidation-half-reaction analysis is developed by LaRowe and Van Cappellen.[^ch01_larowe2011]
 
 ## Why favorable reactions still stall
 
@@ -135,7 +135,7 @@ The rules they uncovered, quantized energy, Gibbs free energy, chemical equilibr
 
 [^schrodinger_lectures]: The three lectures were delivered 5, 12, and 19 February 1943 at Trinity College Dublin. See Erwin Schrödinger, *What Is Life?* (Cambridge University Press, 1944), preface. [@Schrodinger1944]
 
-[^larowe2011]: Douglas E. LaRowe and Philippe Van Cappellen, "Degradation of Natural Organic Matter: A Thermodynamic Analysis," *Geochimica et Cosmochimica Acta* 75 (2011): 2030-2042, sections 3.1 and 3.3. The oxidation-half-reaction proxy is not a complete metabolic yield or a universal reactivity law. [@LaRowe2011]
+[^ch01_larowe2011]: Douglas E. LaRowe and Philippe Van Cappellen, "Degradation of Natural Organic Matter: A Thermodynamic Analysis," *Geochimica et Cosmochimica Acta* 75 (2011): 2030-2042, sections 3.1 and 3.3. The oxidation-half-reaction proxy is not a complete metabolic yield or a universal reactivity law. [@LaRowe2011]
 
 
 [^martinrussell2003]: William Martin and Michael J. Russell, "On the Origins of Cells," *Philosophical Transactions of the Royal Society B* 358 (2003): 59–85. [@MartinRussell2003]
