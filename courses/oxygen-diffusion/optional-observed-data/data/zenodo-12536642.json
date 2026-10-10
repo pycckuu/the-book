@@ -1,0 +1,128 @@
+{
+  "created": "2024-06-25T20:10:36.013915+00:00",
+  "modified": "2025-03-01T00:02:20.167238+00:00",
+  "id": 12536642,
+  "conceptrecid": "12536641",
+  "doi": "10.5281/zenodo.12536642",
+  "conceptdoi": "10.5281/zenodo.12536641",
+  "doi_url": "https://doi.org/10.5281/zenodo.12536642",
+  "metadata": {
+    "title": "Sediment oxygen flux in the NGOM hypoxic zone",
+    "doi": "10.5281/zenodo.12536642",
+    "publication_date": "2024-06-25",
+    "description": "<p><span>The northern Gulf of Mexico (NGOM) coastal shelf adjacent to the Mississippi and Atchafalaya rivers system experiences strong seasonal hypoxia in the late summer and coupled physical-biological models suggest that hypoxia formation in the NGOM is sensitive to benthic biogeochemical processes. However, the processes driving sediment oxygen consumption and their relationship to bottom oxygen concentration remain enigmatic. This study for the first time concurrently measured in situ total oxygen uptake (TOU) and diffusive oxygen uptake (DOU) during two different hypoxia seasons. The relatively large TOU:DOU ratio of 1.9 &plusmn; 0.5 observed during this study suggests more significant benthic infauna community activity driving oxygen fluxes than previously thought. Future hypoxia models for this region should consider the role of fauna mediated oxygen consumption in biogeochemical variables.</span></p>",
+    "access_right": "open",
+    "embargo_date": "2025-03-01",
+    "creators": [
+      {
+        "name": "Beck, Hannah",
+        "affiliation": "Louisiana State University",
+        "orcid": "0000-0002-4784-6009"
+      },
+      {
+        "name": "Maiti, Kanchan",
+        "affiliation": "Louisiana State University",
+        "orcid": "0000-0002-7202-1578"
+      }
+    ],
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "grants": [
+      {
+        "code": "1756788",
+        "internal_id": "10.13039/100000001::1756788",
+        "funder": {
+          "name": "U.S. National Science Foundation",
+          "doi": "10.13039/100000001",
+          "acronym": "NSF"
+        },
+        "title": "Collaborative Research: Sediment Geochemical Control on Ocean Acidification and Carbon Budget in a River Dominated Shelf System",
+        "program": "GEO/OAD"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": false,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "12536641"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Sediment oxygen flux in the NGOM hypoxic zone",
+  "links": {
+    "self": "https://zenodo.org/api/records/12536642",
+    "self_html": "https://zenodo.org/records/12536642",
+    "preview_html": "https://zenodo.org/records/12536642?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.12536642",
+    "self_doi": "https://doi.org/10.5281/zenodo.12536642",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12536642",
+    "reserve_doi": "https://zenodo.org/api/records/12536642/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/12536641",
+    "parent_html": "https://zenodo.org/records/12536641",
+    "parent_doi": "https://doi.org/10.5281/zenodo.12536641",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.12536641",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:12536642/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:12536642/sequence/default",
+    "files": "https://zenodo.org/api/records/12536642/files",
+    "media_files": "https://zenodo.org/api/records/12536642/media-files",
+    "latest": "https://zenodo.org/api/records/12536642/versions/latest",
+    "latest_html": "https://zenodo.org/records/12536642/latest",
+    "versions": "https://zenodo.org/api/records/12536642/versions",
+    "draft": "https://zenodo.org/api/records/12536642/draft",
+    "access_links": "https://zenodo.org/api/records/12536642/access/links",
+    "access_grants": "https://zenodo.org/api/records/12536642/access/grants",
+    "access_users": "https://zenodo.org/api/records/12536642/access/users",
+    "access_request": "https://zenodo.org/api/records/12536642/access/request",
+    "access": "https://zenodo.org/api/records/12536642/access",
+    "communities": "https://zenodo.org/api/records/12536642/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/12536642/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/12536642/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/12536642/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/12536642/quota-increase",
+    "requests": "https://zenodo.org/api/records/12536642/requests"
+  },
+  "updated": "2025-03-01T00:02:20.167238+00:00",
+  "recid": "12536642",
+  "revision": 6,
+  "files": [
+    {
+      "id": "4e633724-d212-425c-9358-9b1c4c6c8f10",
+      "key": "Beck.Oxygen.Data.xlsx",
+      "size": 10918,
+      "checksum": "md5:3aa0ff04a92467b2ebcbeba730d47d09",
+      "links": {
+        "self": "https://zenodo.org/api/records/12536642/files/Beck.Oxygen.Data.xlsx/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1150425"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 62,
+    "unique_downloads": 62,
+    "views": 146,
+    "unique_views": 141,
+    "version_downloads": 29,
+    "version_unique_downloads": 29,
+    "version_unique_views": 76,
+    "version_views": 80
+  },
+  "state": "done",
+  "submitted": true
+}

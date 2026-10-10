@@ -40,3 +40,7 @@ Book website: https://pycckuu.github.io/the-book/
 - The latest **PDF/EPUB** are also available as an artifact named `downloads` in the most recent GitHub Actions run.
 
 
+
+## Modeling course
+
+[Oxygen diffusion and consumption](courses/oxygen-diffusion/README.md) provides English and Russian student materials, separate instructor solutions, a verified Python model and a prepared learner-pilot protocol.

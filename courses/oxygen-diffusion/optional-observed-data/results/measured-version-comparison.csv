@@ -1,0 +1,9 @@
+station,season,source_row,bottom_O2_uM,TOU_v1_mmol_m2_day,TOU_v2_mmol_m2_day,DOU_v1_mmol_m2_day,DOU_v2_mmol_m2_day,OPD_v1_mm,OPD_v2_mm,DOU_div_TOU_v2,status
+C6,August 2018,3,53.5241,15.501,21.918569319999996,5.07,2.2596176715676575,2.75,2.5,0.10309147639056114,reported measured summary; no uncertainty column
+C6,July 2019,4,145.9159,22.69,25.127713960000005,10.281,7.263787792230532,3.75,3.0,0.28907475641411395,reported measured summary; no uncertainty column
+B5,August 2018,5,88.3061,16.519,20.6225686,10.189,5.097714112148332,1.625,1.75,0.24719103672412232,reported measured summary; no uncertainty column
+B5,July 2019,6,58.8131,6.439,6.439,n/d,n/d,n/d,n/d,,"missing DOU and OPD, excluded from ratio"
+D3,August 2018,7,48.5069,10.749,20.324282720000003,5.725,1.8844649177894952,1.625,1.5,0.09271987325462155,reported measured summary; no uncertainty column
+D3,July 2019,8,112.4159,22.125,35.063719479999996,12.11,11.703786405999981,3.125,3.0,0.33378622061688884,reported measured summary; no uncertainty column
+D5,August 2018,9,81.8768,13.968,13.79285052,9.858,5.147623515830471,2.625,6.9,0.37320954855316385,reported measured summary; no uncertainty column
+D5,July 2019,10,89.4268,14.637,16.42599484,10.03,10.028,7.0,7.0,0.6104957476048982,reported measured summary; no uncertainty column

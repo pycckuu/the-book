@@ -2,7 +2,7 @@
 title: "Model Toolkit"
 ---
 
-This appendix collects the mathematical machinery behind the reaction--transport models discussed in Chapters 8 and 9. Readers who skipped the Sidebar callouts can find the full framework here; readers who followed every sidebar can use this as a concise reference.
+This appendix collects the mathematical machinery behind the reaction--transport models discussed in "Modeling the Invisible" and "Cities Without Sunlight". Readers who skipped the Sidebar callouts can find the full framework here; readers who followed every sidebar can use this as a concise reference.
 
 ## The diagenetic equation
 
@@ -78,7 +78,7 @@ $$
 R_{\text{resp}} = k_{\text{resp}} \cdot [B] \cdot \frac{[\text{TED}]}{[\text{TED}] + K_m^{\text{TED}}} \cdot \frac{[\text{TEA}]}{[\text{TEA}] + K_m^{\text{TEA}}}
 $$
 
-where TED = terminal electron donor, TEA = terminal electron acceptor [@Jin2005; @Thullner2007].
+where TED denotes the electron donor and TEA the terminal electron acceptor; TED is retained as the equation identifier [@Jin2005; @Thullner2007].
 
 ### Hydrolysis (Michaelis--Menten)
 
@@ -90,13 +90,7 @@ where $k_{\text{cat}}$ is the turnover number, $[E]$ is enzyme concentration, an
 
 ### Thermodynamic factor
 
-In its simplest schematic form:
-
-$$
-F_T = \frac{1}{\exp\!\left(\frac{\Delta G_r}{RT}\right) + 1}
-$$
-
-When $\Delta G_r$ is large and negative (far from equilibrium), $F_T \approx 1$. At $\Delta G_r = 0$, this expression gives $F_T = 1/2$, not zero. The full Jin-Bethke treatment adds a term for the energy the cell conserves per reaction (the number of ATPs synthesized), shifting the effective equilibrium threshold into negative $\Delta G_r$ territory so that $F_T$ drops to near zero well before thermodynamic equilibrium [@Jin2005; @Regnier2011]. See Chapter 8 for discussion.
+The logistic gate formerly shown here is a heuristic, not a net thermodynamic rate law: it remains one-half at chemical equilibrium. ["Modeling the Invisible"](../chapters/08-the-equation.md) defines the coupled driving force and points to a primary formulation [@Jin2003]. Application requires a consistent reaction and energy basis, plus a domain for forward or reverse rates. The oxygen pilot does not use thermodynamic gating. The broader treatment remains [@Jin2005; @Regnier2011].
 
 ### Temperature dependence (Arrhenius)
 
@@ -116,11 +110,9 @@ $$
 
 Yield coefficient approaches:
 
-| Approach | Reference | Notes |
-|----------|-----------|-------|
-| Theoretical (energy-based) | @Rittmann2001 | $R^2 = 0.9$ |
-| Theoretical (Gibbs dissipation) | @Heijnen1992 | $R^2 = 0.9$ |
-| Empirical | @Roden2011 | $Y = 0.28 + 0.0211 \cdot (-\Delta G')$ |
+- Theoretical (energy-based), @Rittmann2001: $R^2 = 0.9$.
+- Theoretical (Gibbs dissipation), @Heijnen1992: $R^2 = 0.9$.
+- Empirical, @Roden2011: $Y = 0.28 + 0.0211 \cdot (-\Delta G')$.
 
 Monod growth kinetics:
 
@@ -161,3 +153,16 @@ For readers who want to build and run their own reaction--transport simulations 
 
 The frontier is moving again. Machine-learning surrogates and physics-informed neural networks are beginning to accelerate selected parts of reactive-transport workflows, especially where repeated forward solves are the main computational cost [@Adhikari2026]. These approaches do not replace conservation laws; they try to solve them faster.
 
+
+## Oxygen pilot: sign and volume conventions
+
+For the pilot, use $C$ [mol m$^{-3}$ porewater], $\phi$ [dimensionless], $D_s$ [m$^2$ s$^{-1}$, tortuosity corrected, excluding porosity], $k$ [s$^{-1}$] and depth $x$ [m, downward]. The bulk inventory is $\phi C$, the positive porewater consumption rate is $q=kC$, the signed bulk source is $R=-\phi kC$, and the downward flux is $F=-\phi D_s C_x$. The general conservative balance is:
+
+$$
+\frac{\partial(\phi C)}{\partial t}
+=\frac{\partial}{\partial x}\left(\phi D_s C_x\right)-\phi kC.
+$$
+
+Only for constant porosity and diffusivity does this reduce to $C_t=D_sC_{xx}-kC$. The surface concentration is fixed at $C_0$, the lower boundary has $C_x(L)=0$, and the initial interior concentration is zero. The discontinuous surface step is not used to establish a smooth time-convergence order.
+
+At steady state, $C_*=C_0\cosh((L-x)/\ell)/\cosh(L/\ell)$ with $\ell=\sqrt{D_s/k}$. Its inward flux equals its depth-integrated bulk consumption. The numerical companion checks this equality, second-order spatial convergence, first-order time convergence with a smooth analytic mode, and nonnegativity without clipping. All default parameters and fitting observations are synthetic or illustrative. Measured station summaries are used only in a separate provenance and observable-comparison exercise. These are numerical checks, not independent empirical validation.

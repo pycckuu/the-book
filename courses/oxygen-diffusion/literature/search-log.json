@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-10",
+  "cutoff": "2026-10-10",
+  "method": "Focused web discovery, primary publisher/repository follow-through; not systematic",
+  "queries": [
+    "sediment oxygen microprofiles diffusion consumption 2024 2025 microsensor sediment primary study",
+    "sediment oxygen consumption microprofiles 2023 2024 cable bacteria oxygen uptake",
+    "Jin Bethke 2005 thermodynamic microbial respiration rate factor 1 exp",
+    "\"2024JG008291\" oxygen Auer",
+    "2025 2026 sediment oxygen microprofiles diffusion reaction biogeosciences",
+    "\"Electrogenic sulfur oxidation by cable bacteria in two\" doi",
+    "\"oxygen\" \"microprofiles\" \"2024\" site:bg.copernicus.org/articles",
+    "\"Porewater oxygen microprofiles of abyssal sediment cores from the Samoa Basin\" USGS 2026",
+    "\"2024JG008291\" \"pangaea\""
+  ],
+  "full_text_checked": [
+    "10.1016/j.ecss.2024.108615",
+    "10.5194/bg-21-911-2024",
+    "10.3389/fmars.2025.1532999",
+    "10.1029/2024JG008291",
+    "10.1128/AEM.69.4.2340-2348.2003"
+  ],
+  "not_imported": [
+    "USGS 10.5066/P14JMPDV detailed retrieval unavailable through web tool",
+    "Auer PANGAEA.971357 identified but not downloaded"
+  ],
+  "exclusions": [
+    "2026-11 photogranule article after cutoff and different setting"
+  ],
+  "failed_access": [
+    "ScienceDirect full page 403; VLIZ PDF available",
+    "AWI PDF Anubis access denied; Wiley HTML available",
+    "PMC239682 access check; ASM full HTML available"
+  ],
+  "data_versions": [
+    "12536642",
+    "15367775"
+  ]
+}

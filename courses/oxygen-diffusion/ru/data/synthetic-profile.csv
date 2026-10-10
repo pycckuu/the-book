@@ -1,0 +1,11 @@
+x_m,C_synthetic_mol_m3_porewater,sigma_mol_m3,provenance
+0.003,0.14673025450143923,0.002,analytic first-order profile + seeded Gaussian noise; no field data
+0.006,0.11277341744223693,0.002,analytic first-order profile + seeded Gaussian noise; no field data
+0.009000000000000001,0.0859723212786703,0.002,analytic first-order profile + seeded Gaussian noise; no field data
+0.012,0.0627205543998216,0.002,analytic first-order profile + seeded Gaussian noise; no field data
+0.015,0.04664139618218869,0.002,analytic first-order profile + seeded Gaussian noise; no field data
+0.018000000000000002,0.03799386390167302,0.002,analytic first-order profile + seeded Gaussian noise; no field data
+0.021,0.026724294025649464,0.002,analytic first-order profile + seeded Gaussian noise; no field data
+0.024,0.025751048409652307,0.002,analytic first-order profile + seeded Gaussian noise; no field data
+0.027,0.021688455914643412,0.002,analytic first-order profile + seeded Gaussian noise; no field data
+0.03,0.021637509952659357,0.002,analytic first-order profile + seeded Gaussian noise; no field data

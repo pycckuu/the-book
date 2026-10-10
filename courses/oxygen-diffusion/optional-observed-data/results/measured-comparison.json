@@ -1,0 +1,36 @@
+{
+  "version1": "10.5281/zenodo.12536642",
+  "version2": "10.5281/zenodo.15367775",
+  "source_sheet": "Table",
+  "source_range": "A1:L10",
+  "row_count": 8,
+  "paired_flux_rows": 7,
+  "v2_mean_station_ratio": 0.29279552279405285,
+  "v2_ratio_of_sums": 0.2830520074224133,
+  "illustrative_model_flux_mmol_m2_day": 1.3755636914965368,
+  "C6_July2019_v2": {
+    "station": "C6",
+    "season": "July 2019",
+    "source_row": 4,
+    "bottom_O2_uM": 145.9159,
+    "TOU_v1_mmol_m2_day": 22.69,
+    "TOU_v2_mmol_m2_day": 25.127713960000005,
+    "DOU_v1_mmol_m2_day": 10.281,
+    "DOU_v2_mmol_m2_day": 7.263787792230532,
+    "OPD_v1_mm": 3.75,
+    "OPD_v2_mm": 3.0,
+    "DOU_div_TOU_v2": 0.28907475641411395,
+    "status": "reported measured summary; no uncertainty column"
+  },
+  "warning": "Archived versions contain different measured summaries. Neither contains raw profiles or error estimates. Do not silently mix with published article corrections or identify k from these data.",
+  "hashes": {
+    "Beck.Oxygen.Data.xlsx": {
+      "md5": "3aa0ff04a92467b2ebcbeba730d47d09",
+      "sha256": "47b66bc3243e7b188c2b04e6599d92f1ee2da3479f06f838573e5e28709b6af4"
+    },
+    "latest-Beck.Oxygen.Data.xlsx": {
+      "md5": "80aeb327b8ebecd9d359c1c1b5ba0e00",
+      "sha256": "c5f82518fe5739c99fe7242932ea7118137fc97e9985e05d002fd02548f2cb61"
+    }
+  }
+}
