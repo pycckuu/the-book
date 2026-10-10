@@ -2,7 +2,7 @@
 title: "Model Toolkit"
 ---
 
-This appendix collects the mathematical machinery behind the reaction--transport models discussed in Chapters 8 and 9. Readers who skipped the Sidebar callouts can find the full framework here; readers who followed every sidebar can use this as a concise reference.
+This appendix collects the mathematical machinery behind the reaction--transport models discussed in "Modeling the Invisible" and "Cities Without Sunlight". Readers who skipped the Sidebar callouts can find the full framework here; readers who followed every sidebar can use this as a concise reference.
 
 ## The diagenetic equation
 
@@ -90,7 +90,7 @@ where $k_{\text{cat}}$ is the turnover number, $[E]$ is enzyme concentration, an
 
 ### Thermodynamic factor
 
-The logistic gate formerly shown here is a heuristic, not a net thermodynamic rate law: it remains one-half at chemical equilibrium. Chapter 8 defines the coupled driving force and points to a primary formulation [@Jin2003]. Application requires a consistent reaction and energy basis, plus a domain for forward or reverse rates. The oxygen pilot does not use thermodynamic gating. The broader treatment remains [@Jin2005; @Regnier2011].
+The logistic gate formerly shown here is a heuristic, not a net thermodynamic rate law: it remains one-half at chemical equilibrium. ["Modeling the Invisible"](../chapters/08-the-equation.md) defines the coupled driving force and points to a primary formulation [@Jin2003]. Application requires a consistent reaction and energy basis, plus a domain for forward or reverse rates. The oxygen pilot does not use thermodynamic gating. The broader treatment remains [@Jin2005; @Regnier2011].
 
 ### Temperature dependence (Arrhenius)
 
@@ -110,11 +110,9 @@ $$
 
 Yield coefficient approaches:
 
-| Approach | Reference | Notes |
-|----------|-----------|-------|
-| Theoretical (energy-based) | @Rittmann2001 | $R^2 = 0.9$ |
-| Theoretical (Gibbs dissipation) | @Heijnen1992 | $R^2 = 0.9$ |
-| Empirical | @Roden2011 | $Y = 0.28 + 0.0211 \cdot (-\Delta G')$ |
+- Theoretical (energy-based), @Rittmann2001: $R^2 = 0.9$.
+- Theoretical (Gibbs dissipation), @Heijnen1992: $R^2 = 0.9$.
+- Empirical, @Roden2011: $Y = 0.28 + 0.0211 \cdot (-\Delta G')$.
 
 Monod growth kinetics:
 
