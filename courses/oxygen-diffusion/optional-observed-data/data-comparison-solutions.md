@@ -1,4 +1,4 @@
-# Measured data comparison: instructor reference
+# Measured data comparison: worked answers
 
 These answers audit archived observations. They do not establish empirical validation.
 

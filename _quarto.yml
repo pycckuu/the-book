@@ -41,6 +41,10 @@ book:
     - appendices/c-reaction-gallery.md
     - appendices/d-math-without-pain.md
     - appendices/e-dramatis-personae.md
+    - courses/oxygen-diffusion/en/student-packet-en.md
+    - courses/oxygen-diffusion/en/instructor-packet-en.md
+    - courses/oxygen-diffusion/optional-observed-data/data-comparison-task.md
+    - courses/oxygen-diffusion/optional-observed-data/data-comparison-solutions.md
 
 bibliography: sources/bibliograph.bib
 suppress-bibliography: true

@@ -222,6 +222,8 @@ These are real limitations, and we state them here so that the equation earns no
 - The conservation law carries across scales: the same accounting principle -- accumulation equals flux plus reaction -- applies whether the system is a sediment pore, an aquifer, or the global ocean. The transport operators and closure terms change, but the framework is portable.
 - The model assumes steady-state biology, effective rate constants, continuum averaging, and one-dimensionality. These assumptions define the current frontier; relaxing them is the work of the next generation of models.
 
+Continue with the [oxygen exercises](../courses/oxygen-diffusion/en/student-packet-en.md) and [worked answers](../courses/oxygen-diffusion/en/instructor-packet-en.md) in the appendices. Try each exercise before reading its solution.
+
 [^berner1980]: Robert A. Berner, *Early Diagenesis: A Theoretical Approach* (Princeton University Press, 1980). The conservation equation framework for sediment geochemistry. [@Berner1980Early]
 
 [^fick1855]: Adolf Fick, "Ueber Diffusion," *Annalen der Physik* 170 (1855): 59–86. [@Fick1855]

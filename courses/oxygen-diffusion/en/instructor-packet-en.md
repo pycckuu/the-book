@@ -1,6 +1,6 @@
-# Oxygen: instructor solutions and rubric
+# Oxygen: worked answers and rubric
 
-Revision O2-TEACHING-1.0.1-EN. Instructor use only. Do not distribute with the student packet. Solutions below refer to the same accepted model and synthetic inputs as the student packet. This packet supplies the answer key and point allocation; it does not report any learner attempt or outcome.
+Revision O2-TEACHING-1.0.1-EN. These worked answers are openly included in the book. Try the exercises before consulting them. Solutions below refer to the same accepted model and synthetic inputs as the student packet. This packet supplies the answer key and point allocation; it does not report any learner attempt or outcome.
 
 ## Scoring and scientific gates
 

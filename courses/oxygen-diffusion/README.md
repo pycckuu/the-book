@@ -14,4 +14,4 @@ The prescribed inputs and fitting observations are synthetic. Numerical verifica
 
 The optional workbooks are CC BY 4.0 data by Beck and Maiti, pinned to Zenodo versions 12536642 and 15367775 with original bytes and attribution. They contain station summaries, not raw depth profiles. The published mean DOU/TOU of 0.33 +/- 0.07 is not reconciled to the archive's changed cells and older metadata ratio; neither version is assumed correct merely because it is newer.
 
-The book's default render continues to use the English chapter and appendix. Russian course materials are provided as a separate source-aligned reading path. No learner efficacy or empirical validation is claimed.
+The book's default English render includes the exercises, worked answers, and optional measured-data task and answers as appendices. Answers and numerical keys are intentionally public. Russian course materials are provided as a separate source-aligned reading path. No learner efficacy or empirical validation is claimed.

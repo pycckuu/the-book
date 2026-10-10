@@ -7,9 +7,9 @@
   "learner_pilot": "prepared, not executed",
   "model_sha256": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9",
   "files": {
-    "README.md": "c4b697bf19debf6bf9532af3fbeff4fc6ebeda766d5d98f6a24eba24cba3321c",
+    "README.md": "c6d25e0f2d59cffc3682d925457c61adc0906e99e57edd2501f15195731b94a4",
     "appendices/b-model-toolkit.ru.md": "1092ada99b498fda307976c0866597cc9c49c598cd14bac0a4f2c2a5f5d384ab",
-    "chapters/08-the-equation.ru.md": "1bf4fa1474fa264844927b803f84ee37115687b53f3e871952133b833ea3b9df",
+    "chapters/08-the-equation.ru.md": "ec57b116e1e6c0f55816dadbb7d9aad13356aaf334b5e65b55abb72908a6d0dc",
     "course-references.bib": "9ae9952aa26758db89293bf73a0955e433e9f68cd0f0db040282bfcbf70be827",
     "curriculum-ru.md": "aa1a28d2b6e446de0bc26be8eb6465b6af6904d343715ec5add2975ef3a7708a",
     "data/synthetic-profile.csv": "b8e56c78c459e0292905b043b0494be16f7417b6d2796cbfc224c0adb2952ebd",
@@ -18,7 +18,7 @@
     "evidence/sensitivity.csv": "14abe80e8c81f579da42a4ff0f94238d30f80503c1874f1773dc05dfe2b5f0c2",
     "evidence/teaching-checks.json": "962c859800cc13300d427ab32634d91ad088716c99192b6db05ee143d11f4b8f",
     "evidence/verification.json": "e49735eaca2669430e975a507e445eb1ca24c1138c0f589423a74d24e59027b5",
-    "instructor-packet-ru.md": "0f68933427f37ac373cd41569004db86c966ff020edcbd871f99e2345ce5d790",
+    "instructor-packet-ru.md": "16a483496e35f45f7aa6c873af151d9b61919018cfed53f0832eb8dc0133c555",
     "model/README.md": "f69dc7ea74f9004418065f2970a514f7e0d8286cc63e4fd87c26a82f796033e3",
     "model/model-contract.md": "c32fae949f07a137fe652188fe3e8bdf78b7ab152dbdacd0860c3918b889bd67",
     "model/oxygen_model.py": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9",
@@ -29,7 +29,8 @@
     "sources/figures/fig_ch8_porewater_profile.ru.py": "f0889d9f023b535fd3e19fca44dd70376aa7593a7ecd6f55195e480cafb38695",
     "sources/img/ch8_porewater_profile.pdf": "1ba0b2e018d35f6f08cd4a2f75afb158174f8c005ee2613122bb24e203a5ee6f",
     "sources/img/ch8_porewater_profile.png": "22898bd251f2509bc4c8004a0aa199970ec2037ceb3446d7864db9937e670822",
-    "student-packet-ru.md": "7fcd21064567e67d1627b9b8d5e3d61bf3806d2137c1a4c670d92081ca5469d7",
+    "student-packet-ru.md": "de7bf23d8f200ac1e3e9c93c77d586d662273bd5b20dbe490cfc003712f7494c",
     "verification-methods.md": "5798301daab5c09e553ccf0e554f9fbdd595f6404b1d61f32026fca2cefbee61"
-  }
+  },
+  "answer_access": "open book and public companion source"
 }
