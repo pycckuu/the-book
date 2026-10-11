@@ -92,7 +92,7 @@ The analytical bottom concentration is $19.9\,\mu\mathrm{mol\,L^{-1}}$ and inwar
 
 The saved startup uses 80 equal cells and $\Delta t=1000\,\mathrm{s}$, with profiles at $10000$, $100000$ and $1000000\,\mathrm{s}$. Finite volumes balance each layer. The top flux uses the half-cell distance; internal shared fluxes cancel when summed. Backward Euler evaluates diffusion and consumption at the new time level. It preserves nonnegative states here without clipping, while large steps can still give inaccurate transients.
 
-![Oxygen at three saved startup times, at numerical cell centres. Depth is horizontal and concentration is per porewater volume. The dashed curve is a finite-domain steady analytical reference, not an exact transient. Times are displayed in days.](figures/en/oxygen-depth-profiles.png)
+![Oxygen at three saved startup times, at numerical cell centres. Depth is horizontal and concentration is per porewater volume. The dashed curve is a finite-domain steady analytical reference, not an exact transient. The analytical values are evaluated at cell centres, not exactly averaged over each cell. Times are displayed in days; a curve indistinguishable from zero on this linear scale does not establish exact depletion.](figures/en/oxygen-depth-profiles.png)
 
 Predict first: diffusion replenishes the surface layers while the fixed sink removes oxygen. The startup profile grows toward the steady curve. Read this growth as accumulation; only near steady state can inward flux be equated directly to total consumption. No boundary sample at zero depth is invented. Sulfate and methane are not coupled states in this calculation.
 
@@ -351,7 +351,7 @@ For the saved forward run at $100\,\mathrm{s}$, the first endpoint has $c_{\math
 
 ### Read state and energy graphs
 
-![The saved forward 100 s run, through 80000 s (22.2 h). Left: A and B concentrations, with the independently saved B reference on its 401-snapshot support. Right: remaining Gibbs availability and its state decrease, in J. Native numerical endpoints and snapshot-reference support remain distinct.](figures/en/energy-state-and-availability.png)
+![The saved forward 100 s run, through 80000 s (22.2 h). Left: A and B concentrations, with the independently saved B reference on its 401-snapshot support. Right: remaining Gibbs availability and its state decrease, in J. The state decrease is the cumulative loss of Gibbs availability, not an independently integrated sum of endpoint-power proxies. Tiny remaining availability is visually unresolved on this linear scale. Native numerical endpoints and snapshot-reference support remain distinct.](figures/en/energy-state-and-availability.png)
 
 Predict first: A decreases, B increases and their sum stays fixed. Initial availability is 2.06 J; the state approaches equilibrium and loses that availability. The two energy curves partition the initial availability, rather than showing a device harvesting work. The reverse start approaches the same equilibrium from the other side in its separate saved case.
 
