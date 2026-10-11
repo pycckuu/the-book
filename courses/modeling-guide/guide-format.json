@@ -1,0 +1,35 @@
+{
+  "project": {
+    "type": "default"
+  },
+  "author": "Igor Markelov",
+  "toc": true,
+  "toc-depth": 2,
+  "number-sections": false,
+  "format": {
+    "html": {
+      "embed-resources": true,
+      "html-math-method": "mathml",
+      "css": "guide.css",
+      "toc-location": "left"
+    },
+    "pdf": {
+      "pdf-engine": "xelatex",
+      "documentclass": "scrartcl",
+      "mainfont": "PT Serif",
+      "sansfont": "PT Sans",
+      "fontsize": "11pt",
+      "papersize": "a4",
+      "geometry": [
+        "left=18mm",
+        "right=18mm",
+        "top=20mm",
+        "bottom=20mm"
+      ],
+      "colorlinks": true,
+      "keep-tex": true
+    }
+  },
+  "fig-width": 11,
+  "fig-cap-location": "bottom"
+}
