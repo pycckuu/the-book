@@ -1,0 +1,139 @@
+{
+  "revision": "ENERGY-TEACHING-1.0-RU-SOURCE-CANDIDATE",
+  "lang": "ru",
+  "title": "Ограничения энергии: русская карта упражнений и результатов",
+  "source_status": "INTEGRATED_SOURCE_SCOPED_ACCEPTANCE_RENDERED_REVIEW_PENDING",
+  "numeric_default_s": 100,
+  "numeric_acceptance_id": "ENERGY-NUMERICAL-DEFAULT-ACCEPTANCE-R1",
+  "exercises": [
+    {
+      "exercise_id": "ENERGY-E01",
+      "outcome_id": "ENERGY-LO01",
+      "label": "Базис реакции, активности и направление",
+      "measurable_outcome": "Построить безразмерные активности и частные, интерпретировать направление и сохранить физическую мощность при смене базиса реакции.",
+      "prerequisites": [
+        "concentration_amount",
+        "signed_balance",
+        "rate_integral",
+        "dimensionless_log",
+        "spreadsheet"
+      ],
+      "student_path": "student-packet.md#energy-e01",
+      "OPEN_path": "OPEN-worked-answers.md#energy-answer-e01",
+      "rubric_components": {
+        "basis_units": 4,
+        "quotient_sign": 4,
+        "basis_power_invariance": 4,
+        "chemical_transformed_pairing": 3
+      },
+      "points": 15,
+      "session_minutes": 20,
+      "reading_dependencies": [
+        "CH01-corrected",
+        "model-contract"
+      ]
+    },
+    {
+      "exercise_id": "ENERGY-E02",
+      "outcome_id": "ENERGY-LO02",
+      "label": "Валовое превращение и знаковый чистый прогресс",
+      "measurable_outcome": "Различать односторонние скорости и потоки превращения и знаковый чистый прогресс и указывать пределы равновесных данных о концентрациях.",
+      "prerequisites": [
+        "ENERGY-LO01"
+      ],
+      "student_path": "student-packet.md#energy-e02",
+      "OPEN_path": "OPEN-worked-answers.md#energy-answer-e02",
+      "rubric_components": {
+        "gross_net_rates": 5,
+        "extents_signs": 5,
+        "equilibrium_work": 5,
+        "timing_observation_limits": 5
+      },
+      "points": 20,
+      "session_minutes": 20,
+      "reading_dependencies": [
+        "CH08-qualified",
+        "model-contract"
+      ]
+    },
+    {
+      "exercise_id": "ENERGY-E03",
+      "outcome_id": "ENERGY-LO03",
+      "label": "Доступная работа Гиббса, диссипация и мощность",
+      "measurable_outcome": "Классифицировать энергию реакции Гиббса, оставшуюся доступность, накопленное снижение и мощность с единицами и пределами резервуара, работы и тепла.",
+      "prerequisites": [
+        "ENERGY-LO02"
+      ],
+      "student_path": "student-packet.md#energy-e03",
+      "OPEN_path": "OPEN-worked-answers.md#energy-answer-e03",
+      "rubric_components": {
+        "quantity_units": 6,
+        "finite_availability_decrease": 6,
+        "reservoir_work_heat": 5,
+        "equilibrium_interpretation": 3
+      },
+      "points": 20,
+      "session_minutes": 25,
+      "reading_dependencies": [
+        "CH01-corrected",
+        "model-contract"
+      ]
+    },
+    {
+      "exercise_id": "ENERGY-E04",
+      "outcome_id": "ENERGY-LO04",
+      "label": "Независимый двухшаговый журнал и согласованное численное свидетельство",
+      "measurable_outcome": "Воспроизвести два прямых шага собственного журнала и объяснить согласованный эталон, уточнение и подлинную историю значения по умолчанию.",
+      "prerequisites": [
+        "ENERGY-LO03"
+      ],
+      "student_path": "student-packet.md#energy-e04",
+      "OPEN_path": "OPEN-worked-answers.md#energy-answer-e04",
+      "rubric_components": {
+        "two_step_matter_ledger": 10,
+        "drop_endpoint_gap": 8,
+        "reference_refinement_support": 8,
+        "default_history_limits": 4
+      },
+      "points": 30,
+      "session_minutes": 35,
+      "reading_dependencies": [
+        "SAT-EN-source",
+        "model-contract",
+        "ENERGY-NUMERICS-1"
+      ]
+    },
+    {
+      "exercise_id": "ENERGY-E05",
+      "outcome_id": "ENERGY-LO05",
+      "label": "Нулевые области и ограниченный вывод",
+      "measurable_outcome": "Интерпретировать границы точного нуля и null и критиковать утверждения о природной или захваченной энергии и наблюдаемости обмена.",
+      "prerequisites": [
+        "ENERGY-LO04"
+      ],
+      "student_path": "student-packet.md#energy-e05",
+      "OPEN_path": "OPEN-worked-answers.md#energy-answer-e05",
+      "rubric_components": {
+        "boundary_empty_nulls": 6,
+        "observability_additional_evidence": 5,
+        "natural_coupling_limits": 4
+      },
+      "points": 15,
+      "session_minutes": 20,
+      "reading_dependencies": [
+        "CH01-corrected",
+        "CH08-qualified",
+        "model-contract"
+      ]
+    }
+  ],
+  "points_total": 100,
+  "planned_minutes": 195,
+  "optional_refresher_minutes": 15,
+  "compulsory_ledger_arithmetic": "forward:100s native times100/200 s only",
+  "student_route": "student-packet.md",
+  "OPEN_route": "OPEN-worked-answers.md",
+  "no_python_route": "worksheets/blank-worksheet.html",
+  "learner_outcomes": null,
+  "_note_ru": "Идентификаторы, пути, баллы, минуты, компоненты рубрики и зависимости идентичны английскому источнику; переведены только label, measurable_outcome, title."
+}
