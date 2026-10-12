@@ -39,6 +39,7 @@ jobs:
           test -x "$tex_bin/tlmgr"
           export PATH="$tex_bin:$PATH"
           echo "$tex_bin" >> "$GITHUB_PATH"
+          tlmgr update --self
           tlmgr install hyphen-russian
           kpsewhich hyph-ru.tex
 
