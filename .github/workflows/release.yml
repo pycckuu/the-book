@@ -20,10 +20,23 @@ jobs:
         with:
           ref: ${{ inputs.tag_name }}
 
+      - name: Check out current release tooling
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          path: .release-tools
+
       - name: Set up Quarto (with TinyTeX for PDF)
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           tinytex: true
+
+      - name: Install Russian typography prerequisites
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-paratype
+          tlmgr install hyphen-russian
+          kpsewhich hyph-ru.tex
 
       - name: Render (PDF + EPUB)
         run: |
@@ -36,6 +49,9 @@ jobs:
           quarto render --to epub
           cp _book/*.epub dist/
 
+      - name: Build Russian book and separate bilingual course downloads
+        run: python3 .release-tools/scripts/build-release-translations.py --repo . --output dist
+
       - name: Create GitHub Release and upload assets
         uses: softprops/action-gh-release@v2
         with:
@@ -46,3 +62,4 @@ jobs:
           files: |
             dist/*.pdf
             dist/*.epub
+            dist/translation-assets.json
