@@ -43,4 +43,6 @@ Book website: https://pycckuu.github.io/the-book/
 
 ## Modeling course
 
-[Oxygen diffusion and consumption](courses/oxygen-diffusion/README.md) provides English and Russian student materials, separate instructor solutions, a verified Python model and a prepared learner-pilot protocol.
+[The modeling course](courses/README.md) provides a learning path through the book's models. The two available modules, [oxygen diffusion and consumption](courses/oxygen-diffusion/README.md) and [advection, dispersion and parent loss](courses/advection-dispersion/README.md), each include English and Russian materials, a verified Python model, supplied outputs for work without Python, and openly available worked answers.
+
+The default English book includes both modules' exercises and answers as appendices. The Russian materials cover these modules, rather than a complete Russian edition of the book. Learner-pilot protocols are prepared; learner outcomes and field validity have not been established.
