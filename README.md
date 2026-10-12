@@ -22,7 +22,7 @@ The book is organized in four parts.
 
 **Part IV: The Hidden World and the Future** opens by turning that machinery into a practical language for reading hidden systems: porewater profiles, transport, rate laws, and the conservation logic that lets us ask why a boundary sits where it does. It then moves into the deep biosphere, groundwater redox, water treatment, climate feedbacks, and the open questions that define the frontier of the field.
 
-Throughout, *Sidebar* callouts offer the mathematical machinery for readers who want to see the derivations, check the units, and run their own back-of-the-envelope estimates. You can skip them without losing the narrative thread. Five appendices -- an energy toolkit, a model toolkit, a reaction gallery, a math refresher, and a field guide to the organisms -- hold the deeper technical scaffolding for readers who want the full apparatus.
+Throughout, *Sidebar* callouts offer the mathematical machinery for readers who want to see the derivations, check the units, and run their own back-of-the-envelope estimates. You can skip them without losing the narrative thread. Five appendices -- an energy toolkit, a model toolkit, a reaction gallery, quantum and energy derivations, and a field guide to the organisms -- hold the deeper technical scaffolding for readers who want the full apparatus.
 
 This book is meant to be read straight through as narrative first. It can also be used as a technical companion, but the appendices and sidebars are there so the main text does not have to behave like a textbook every time it wants to be precise.
 
@@ -43,6 +43,13 @@ Book website: https://pycckuu.github.io/the-book/
 
 ## Modeling course
 
-[The modeling course](courses/README.md) provides a learning path through the book's models. The two available modules, [oxygen diffusion and consumption](courses/oxygen-diffusion/README.md) and [advection, dispersion and parent loss](courses/advection-dispersion/README.md), each include English and Russian materials, a verified Python model, supplied outputs for work without Python, and openly available worked answers.
+[The modeling course](courses/README.md) offers four modules with separate English and Russian files:
 
-The default English book includes both modules' exercises and answers as appendices. The Russian materials cover these modules, rather than a complete Russian edition of the book. Learner-pilot protocols are prepared; learner outcomes and field validity have not been established.
+1. Oxygen diffusion and consumption: [English](courses/oxygen-diffusion/en/README.md), [Russian](courses/oxygen-diffusion/ru/README.md).
+2. Advection, dispersion and parent loss: [English](courses/advection-dispersion/en/README.md), [Russian](courses/advection-dispersion/ru/README.md).
+3. Saturation kinetics: [English](courses/saturation-kinetics/en/README.md), [Russian](courses/saturation-kinetics/ru/README.md).
+4. Energy constraints: [English](courses/energy-constraints/en/README.md), [Russian](courses/energy-constraints/ru/README.md).
+
+The separate [English modeling guide](courses/modeling-guide/modeling-guide-en.md) and [Russian modeling guide](courses/modeling-guide/modeling-guide-ru.md) walk through all four models with equations, worked calculations and saved-data graphs. Each module includes a verified model, supplied outputs for work without Python and separately titled public worked answers. Start with Chapter 8's observations, units and balances; the course home page explains the remaining prerequisites.
+
+Both book builders include Chapters 1-10, the Epilogue, narrative Appendices A-E and all twelve course readings as Appendices F-Q. The [Russian book builder](translations/ru/README.md) produces one `the-invisible-architects-ru.pdf` and one `the-invisible-architects-ru.epub`, separate from English files. The combined Russian edition is undergoing integration review; dated partial review files remain archived. The modeling guide stays an optional companion. Learner-pilot protocols remain unexecuted; numerical verification does not establish learner outcomes or validity in a natural system.

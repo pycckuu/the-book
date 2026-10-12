@@ -1,7 +1,8 @@
 ---
-title: "The Invisible Architects"
 subtitle: "How Microbes Built the World"
 ---
+
+# Preface {.unnumbered}
 
 This book began as a stack of handwritten notes in a graduate student office at the University of Waterloo. I was trying to understand how microbes in sediments and groundwater make a living -- what they eat, how they breathe, why they arrange themselves in predictable layers, and what happens when you disturb those arrangements. The notes were dense with equations, short on narrative, and comprehensible mainly to me.
 
@@ -21,7 +22,7 @@ The book is organized in four parts.
 
 **Part IV: The Hidden World and the Future** opens by turning that machinery into a practical language for reading hidden systems: porewater profiles, transport, rate laws, and the conservation logic that lets us ask why a boundary sits where it does. It then moves into the deep biosphere, groundwater redox, water treatment, climate feedbacks, and the open questions that define the frontier of the field.
 
-Throughout, *Sidebar* callouts offer the mathematical machinery for readers who want to see the derivations, check the units, and run their own back-of-the-envelope estimates. You can skip them without losing the narrative thread. Five appendices -- an energy toolkit, a model toolkit, a reaction gallery, a math refresher, and a field guide to the organisms -- hold the deeper technical scaffolding for readers who want the full apparatus.
+Throughout, *Sidebar* callouts offer the mathematical machinery for readers who want to see the derivations, check the units, and run their own back-of-the-envelope estimates. You can skip them without losing the narrative thread. Five appendices -- an energy toolkit, a model toolkit, a reaction gallery, quantum and energy derivations, and a field guide to the organisms -- hold the deeper technical scaffolding for readers who want the full apparatus.
 
 This book is meant to be read straight through as narrative first. It can also be used as a technical companion, but the appendices and sidebars are there so the main text does not have to behave like a textbook every time it wants to be precise.
 
