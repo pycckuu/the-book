@@ -18,43 +18,44 @@ grey = "#333333"
 mid_grey = "#8E8E8E"
 light_grey = "#D9D9D9"
 
+# Positions below are unscaled layout coordinates, not electrode potentials.
 donors = [
     {
-        "name": r"H$_2$",
+        "name": r"H$_2$ $\rightarrow$ 2 H$^+$",
         "electrons": r"2 e$^-$",
-        "y": -0.42,
+        "y": 0.10,
         "fc": green_bg,
         "ec": green,
         "tc": green,
     },
     {
-        "name": r"H$_2$S",
-        "electrons": r"2 e$^-$",
-        "y": -0.27,
+        "name": r"H$_2$S $\rightarrow$ SO$_4^{2-}$",
+        "electrons": r"8 e$^-$",
+        "y": 0.30,
         "fc": sand_bg,
         "ec": sand,
         "tc": sand,
     },
     {
-        "name": r"Fe$^{2+}$",
+        "name": r"Fe(II) $\rightarrow$ Fe(III)",
         "electrons": r"1 e$^-$",
-        "y": 0.20,
+        "y": 0.50,
         "fc": blue_bg,
         "ec": blue,
         "tc": blue,
     },
     {
-        "name": r"NO$_2^-$",
+        "name": r"NO$_2^-$ $\rightarrow$ NO$_3^-$",
         "electrons": r"2 e$^-$",
-        "y": 0.43,
+        "y": 0.70,
         "fc": violet_bg,
         "ec": violet,
         "tc": violet,
     },
     {
-        "name": r"H$_2$O",
+        "name": r"2 H$_2$O $\rightarrow$ O$_2$",
         "electrons": r"4 e$^-$",
-        "y": 0.82,
+        "y": 0.90,
         "fc": red_bg,
         "ec": red,
         "tc": red,
@@ -66,96 +67,25 @@ fig.patch.set_facecolor("white")
 ax.set_facecolor("white")
 
 ax.set_xlim(0, 11.6)
-ax.set_ylim(0.96, -0.56)
-ax.set_xticks([])
-ax.set_yticks([-0.4, -0.2, 0.0, 0.2, 0.4, 0.6, 0.8])
-ax.tick_params(axis="y", labelsize=9.5, colors="#666666", length=0)
-ax.set_ylabel(
-    r"standard reduction potential $E_0^\prime$ (V)",
-    fontsize=11,
-    color=grey,
-)
-
-for spine in ["top", "right", "bottom"]:
-    ax.spines[spine].set_visible(False)
-
-ax.spines["left"].set_color(light_grey)
-ax.spines["left"].set_linewidth(1.2)
+ax.set_ylim(1.04, -0.04)
+ax.set_axis_off()
 
 fig.suptitle(
-    "The electron donor ladder",
+    "Electron donors: selected oxidation endpoints",
     fontsize=14,
     fontweight="bold",
     y=0.97,
     color=grey,
 )
 
-ladder_x = 2.75
 box_x = 4.10
 box_width = 3.55
 box_height = 0.082
 pill_width = 0.92
 pill_height = 0.054
 
-ax.plot(
-    [ladder_x, ladder_x],
-    [-0.42, 0.82],
-    color=light_grey,
-    linewidth=6.2,
-    solid_capstyle="round",
-    zorder=1,
-)
-ax.plot(
-    [ladder_x, ladder_x],
-    [-0.42, 0.82],
-    color="#F8F8F8",
-    linewidth=2.4,
-    solid_capstyle="round",
-    zorder=2,
-)
-
-ax.text(
-    0.92,
-    -0.46,
-    "easier\nto oxidize",
-    ha="left",
-    va="top",
-    fontsize=10,
-    color=green,
-    style="italic",
-    linespacing=1.2,
-)
-ax.text(
-    0.92,
-    0.86,
-    "harder\nto oxidize",
-    ha="left",
-    va="top",
-    fontsize=10,
-    color=red,
-    style="italic",
-    linespacing=1.2,
-)
-
 for donor in donors:
     y = float(donor["y"])
-
-    ax.plot(
-        [ladder_x - 0.30, ladder_x + 0.30],
-        [y, y],
-        color=mid_grey,
-        linewidth=1.6,
-        solid_capstyle="round",
-        zorder=3,
-    )
-    ax.plot(
-        [ladder_x + 0.30, box_x - 0.18],
-        [y, y],
-        color="#A7A7A7",
-        linewidth=0.95,
-        linestyle=(0, (3, 4)),
-        zorder=2,
-    )
 
     ax.add_patch(
         FancyBboxPatch(
@@ -190,7 +120,7 @@ for donor in donors:
         str(donor["name"]),
         ha="left",
         va="center",
-        fontsize=14,
+        fontsize=11,
         fontweight="bold",
         color=str(donor["tc"]),
         zorder=6,
@@ -207,37 +137,15 @@ for donor in donors:
         zorder=6,
     )
 
-barrier_y = 0.62
-ax.plot(
-    [3.15, 8.65],
-    [barrier_y, barrier_y],
-    color=red,
-    linewidth=1.8,
-    linestyle=(0, (6, 4)),
-    zorder=2,
-)
 ax.text(
-    8.92,
-    0.59,
-    "water-oxidation barrier",
+    8.20,
+    0.90,
+    "Water oxidation in PSII;\noxygenic flow uses\nPSII and PSI in series",
     ha="left",
-    va="bottom",
-    fontsize=12,
-    fontweight="bold",
-    color=red,
-    zorder=5,
-)
-ax.text(
-    8.92,
-    0.69,
-    "(conceptual: needs two\nlinked photosystems)",
-    ha="left",
-    va="top",
+    va="center",
     fontsize=9.5,
     color=red,
-    style="italic",
     linespacing=1.22,
-    zorder=5,
 )
 
 out_dir = Path(__file__).resolve().parents[1] / "img"
