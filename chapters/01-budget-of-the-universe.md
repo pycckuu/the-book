@@ -23,7 +23,11 @@ $$
 G = H - TS
 $$
 
-Read it as a budget, with one caution: the spendable quantity is a change in free energy, not the absolute value of $G$. Enthalpy is $H = U + PV$, where $U$ is internal energy. Entropy measures the spread of microscopic possibilities; for equally probable accessible microstates, $S = k_B\ln\Omega$. It is not simply their number. At constant temperature and pressure, $\Delta G = \Delta H - T\Delta S$. For a closed process, $-\Delta G$ bounds the non-expansion work that can be delivered, with the bound reached reversibly.[^thermod1994]
+Read it as a budget, with one caution: the spendable quantity is a change in free energy, not the absolute value of $G$. Enthalpy is $H = U + PV$, where $U$ is internal energy.
+
+Entropy measures the spread of microscopic possibilities; for equally probable accessible microstates, $S = k_B\ln\Omega$. It is not simply their number.
+
+At constant temperature and pressure, $\Delta G = \Delta H - T\Delta S$. For a closed process, $-\Delta G$ bounds the non-expansion work that can be delivered, with the bound reached reversibly.[^thermod1994]
 
 At fixed temperature and pressure, the sign of $\Delta G$ gives the tendency of the specified reaction in the written direction:
 

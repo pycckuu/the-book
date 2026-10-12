@@ -28,7 +28,15 @@ The standard RNA alphabet is small: four bases -- adenine (A), guanine (G), cyto
 
 ## Where it happened
 
-Where did RNA chemistry first ignite? Three settings are proposed, and they are not mutually exclusive. Ice can concentrate supplied reactants into liquid pockets between crystals; laboratory-selected RNA polymerase ribozymes can operate there below freezing.[^markov2010c] Alkaline hydrothermal vent hypotheses instead emphasize geological supplies of H$_2$ and mineral catalysts, including iron and nickel.[^mineral_catalyst] A continuous supply of CO or HCN cannot simply be assumed from those ingredients. Miller-type spark experiments test a different setting: electrical discharge through prepared reduced gases and water, not vent fluids.[^johnson2008][^miller1953] A third option -- wet-dry cycling on land, in volcanic hot springs or tidal flats -- repeatedly concentrates reactants by dehydration. Experiments with supplied mononucleotides and lipids have produced RNA-like polymers and encapsulated them on rehydration; the larger hot-spring origin scenario remains a hypothesis.[^ch03-wet-dry-experiment][^damer2020] None of these steps demonstrates an entire route from simple feedstocks to self-copying RNA. The amount of exposed land on early Earth and the compatibility of successive chemical steps remain constraints. Different steps might have happened in different settings. The planet is large, and chemistry does not respect the boundaries of human narratives.
+Where did RNA chemistry first ignite? Three settings are proposed, and they are not mutually exclusive.
+
+Ice can concentrate supplied reactants into liquid pockets between crystals; laboratory-selected RNA polymerase ribozymes can operate there below freezing.[^markov2010c]
+
+Alkaline hydrothermal vent hypotheses instead emphasize geological supplies of H$_2$ and mineral catalysts, including iron and nickel.[^mineral_catalyst] A continuous supply of CO or HCN cannot simply be assumed from those ingredients. Miller-type spark experiments test a different setting: electrical discharge through prepared reduced gases and water, not vent fluids.[^johnson2008][^miller1953]
+
+A third option -- wet-dry cycling on land, in volcanic hot springs or tidal flats -- repeatedly concentrates reactants by dehydration. Experiments with supplied mononucleotides and lipids have produced RNA-like polymers and encapsulated them on rehydration; the larger hot-spring origin scenario remains a hypothesis.[^ch03-wet-dry-experiment][^damer2020]
+
+None of these steps demonstrates an entire route from simple feedstocks to self-copying RNA. The amount of exposed land on early Earth and the compatibility of successive chemical steps remain constraints. Different steps might have happened in different settings. The planet is large, and chemistry does not respect the boundaries of human narratives.
 
 ## The phosphorus problem
 
@@ -76,7 +84,16 @@ Biological recycling can extend access to resources. One organism's waste can be
 
 A single type of organism need not carry out all those transformations on its own. Geological processes can supply some of them.
 
+```{=latex}
+\begingroup
+\interfootnotelinepenalty=10000
+```
+
 An organism that plugs into geological supply and sinks can persist without a biological recycling partner while those fluxes meet its needs. A hydrothermal flow-through setting is one candidate. Intensifying metabolism may exceed local supply, but no universal threshold forces geological buffering to fail or complementary organisms to appear.[^markov2010f][^braakman2013]
+
+```{=latex}
+\endgroup
+```
 
 For life that grows, diversifies, and reshapes its environment, biological recycling creates further possibilities. Its importance is a question of scale and flux, not an automatic consequence of growth.
 
