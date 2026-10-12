@@ -6,7 +6,7 @@ In 1943, a physicist who had never cultured a bacterium or cored a sediment sat 
 
 Erwin Schrödinger's little book did not answer its own title. What it did was more lasting. It reframed the question in the language of physics -- order, entropy, free energy, information -- and insisted that the answer, whatever it turned out to be, must not violate the laws that govern everything else.[^schrodinger1944_ep]
 
-We opened this book with his question. Now, having traveled from the first chemical reactions on a cooling planet to microbial communities persisting 2.8 kilometers underground on energy budgets thinner than a candle flame, we can attempt something Schrödinger could not: an answer grounded in evidence, calibrated in $\Delta G$, and tested against the porewater profiles of real sediments.
+We opened this book with his question. Now, having traveled from the first chemical reactions on a cooling planet to microbial communities in an energy-rich fracture 2.8 kilometers underground, we can attempt something Schrödinger could not: an answer grounded in evidence, calibrated in $\Delta G$, and tested against the porewater profiles of real sediments.
 
 ## Three definitions, all correct
 
@@ -14,7 +14,7 @@ Throughout this journey, three definitions of life have kept surfacing. Each one
 
 **Life is the process of maintaining non-equilibrium conditions by extracting energy from the environment.**[^luisi1998]
 
-In Chapter 1, this was a bacterium dividing once per century and a formula: $\Delta G = \Delta G^\circ + RT \ln Q$. By the time we reached the deep biosphere, it was something you could measure with an electrode and a gas chromatograph. The Gibbs budget that seemed abstract in the opening pages became the accounting system for every metabolism we encountered -- from aerobic respiration's generous payoff to the razor-thin margins of anaerobic methane oxidation.[^knittel2009_ep] We learned that "maintaining non-equilibrium" is not a poetic description. It is a quantitative claim. It means spending maintenance energy, continuously, just to keep enzymes folded, membranes intact, and gradients from collapsing. Maintenance energy is not an abstraction. It is the first law of microbial existence.[^larowe2015_ep]
+In Chapter 1, this definition was a formula, $\Delta G = \Delta G^\circ + RT \ln Q$, and a fracture-water population whose slow turnover was a conditional estimate, not an observed individual division.[^deep-life-epilogue] By the time we reached the deep biosphere, it was something you could measure with an electrode and a gas chromatograph. The Gibbs budget that seemed abstract in the opening pages became the accounting system for every metabolism we encountered -- from aerobic respiration's generous payoff to the razor-thin margins of anaerobic methane oxidation.[^knittel2009_ep] We learned that "maintaining non-equilibrium" is not a poetic description. It is a quantitative claim. It means spending maintenance energy, continuously, just to keep enzymes folded, membranes intact, and gradients from collapsing. Maintenance energy is not an abstraction. It is the first law of microbial existence.[^larowe2015_ep]
 
 **Life is inseparable from the concept of the organism -- discrete units that reproduce.**[^cleland2002]
 
@@ -37,11 +37,11 @@ Information without work is a library with no readers. Work without information 
 
 This book began with a bacterium in the dark and the energy accounting it forces on us, and it ended with planetary engineering. The same physics operates at every scale.
 
-The same $\Delta G$ that governs electron transfer in a hydrogen atom governs whether a bacterial community 2.8 kilometers underground will thrive or slowly starve. The Michaelis-Menten kinetics that describe a single purified enzyme reappear, in effective form, as the rate laws of entire ecosystems -- not because the enzyme and the ecosystem are the same system, but because saturation logic applies at both levels. The same conservation law that tracks a solute diffusing through a sediment column applies to carbon moving through the global ocean -- though the transport operators and boundary conditions change substantially.
+The same $\Delta G$ that governs a single electron-transfer reaction governs whether a bacterial community 2.8 kilometers underground will thrive or slowly starve. The Michaelis-Menten kinetics that describe a single purified enzyme reappear, in effective form, as the rate laws of entire ecosystems -- not because the enzyme and the ecosystem are the same system, but because saturation logic applies at both levels. The same conservation law that tracks a solute diffusing through a sediment column applies to carbon moving through the global ocean -- though the transport operators and boundary conditions change substantially.
 
 The underlying physics does not change. The models built on it must.
 
-The claim is empirical, and it is the reason that reaction-transport models are portable at all. If the physics changed with scale -- if microbial communities invented new thermodynamics -- then every model would be an ad hoc curve fit. The fact that a model calibrated on porewater sulfate in one fjord can make useful predictions in another -- even if recalibration is needed -- is evidence that the non-equilibrium framework is not just a metaphor. It is the actual mechanism.
+The claim is empirical, and it is the reason reaction-transport models can be portable at all. If the physics changed with scale -- if microbial communities invented new thermodynamics -- then every model would be an ad hoc curve fit. A model calibrated in one sediment may transfer to another where the same constraints dominate, though that transfer still has to be tested against site data and often needs recalibration. When it works, it is evidence that the non-equilibrium framework is more than a metaphor.
 
 We moved through that framework in four stages:
 
@@ -57,9 +57,9 @@ We moved through that framework in four stages:
 
 A book that pretends to have all the answers is advertising. Here are questions that remain open, drawn from the same source literature that informed every chapter:
 
-**How did the transition from inorganic catalysts to protein enzymes occur?** We know that mineral surfaces can catalyze many of the reactions that enzymes perform today.[^wachtershauser1988] We know that ribozymes can catalyze a subset of reactions using RNA alone.[^cech1986_ep] But the mechanistic path from mineral-catalyzed chemistry to the protein-dominated metabolism of modern cells remains sketchy. The gap is not just historical curiosity -- it determines how we think about the likelihood of life elsewhere.
+**How did the transition from inorganic catalysts to protein enzymes occur?** Mineral surfaces can catalyze some reactions that enzymes perform today, and Wächtershäuser proposed that the first metabolic cycles ran on such surfaces.[^wachtershauser1988] We know that ribozymes can catalyze a subset of reactions using RNA alone.[^cech1986_ep] But the mechanistic path from mineral-catalyzed chemistry to the protein-dominated metabolism of modern cells remains sketchy. The gap is not just historical curiosity -- it determines how we think about the likelihood of life elsewhere.
 
-**What would count as convincing evidence of life elsewhere now that ocean worlds and Mars are back on the table?** Enceladus has phosphates, organics, and hydrogen. Europa is finally being surveyed with instruments designed for habitability rather than mythology. Mars has begun yielding redox-sensitive minerals and organics in settings that look, to a geomicrobiologist, uncomfortably familiar. But none of these observations is self-interpreting. We still do not know what combination of isotopes, minerals, textures, and disequilibria would amount to a persuasive biosignature rather than an intriguing chemical story.
+**What would count as convincing evidence of life elsewhere now that ocean worlds and Mars are back on the table?** Enceladus has phosphates, organics, and hydrogen. Two spacecraft are now on their way to Europa with instruments designed for habitability rather than mythology. Mars has begun yielding redox-sensitive minerals and organics in settings that look, to a geomicrobiologist, uncomfortably familiar. But none of these observations is self-interpreting. We still do not know what combination of isotopes, minerals, textures, and disequilibria would amount to a persuasive biosignature rather than an intriguing chemical story.
 
 **How far does satisficing take us?** This book has argued that microbial communities satisfice rather than optimize. I have used Simon's term as an extension to microbial systems, not as established geomicrobiological doctrine.[^simon1956_ep][^carmel2005_ep][^brennanlo2012_ep] The framework explains fuzzy redox boundaries and the coexistence of "losing" metabolisms. Critics of satisficing argue that the concept can collapse into optimization once you price search or information costs into the objective function.[^callebaut2007_ep] Microbial communities may resist that reduction because no agent surveys the whole reaction landscape and no shared objective joins unrelated lineages into one maximization problem. That defense is not enough by itself. The framework has to earn its place by predicting field behavior that optimization stories miss.
 
@@ -77,7 +77,7 @@ These are not footnotes. They are the frontier.
 
 The title of this book is a statement of fact. Microbes built the oxygen atmosphere. They regulate the carbon cycle. They mediate the transformation of minerals, the cycling of nitrogen, the fate of sulfur. They created the chemical conditions that made complex life possible, and they continue to maintain those conditions today.
 
-But "invisible architects" is also an invitation to shift perspective. We tend to think of the living world as the part we can see: forests, animals, coral reefs. The actual biological engine of the planet is invisible. It lives in sediment pores, in deep aquifers, in the fractures of basalt kilometers below the seafloor, in the thin films of water coating soil grains. By some estimates, the continental subsurface alone harbors on the order of 10$^{29}$ cells -- a substantial fraction of all prokaryotic life on Earth.[^magnabosco2018_ep] These organisms are not waiting to be discovered as curiosities. They are running the geochemistry that makes the surface habitable.[^falkowski2008]
+But "invisible architects" is also an invitation to shift perspective. We tend to think of the living world as the part we can see: forests, animals, coral reefs. The actual biological engine of the planet is invisible. It lives in sediment pores, in deep aquifers, in fractured oceanic crust beneath the seafloor, in the thin films of water coating soil grains. By some estimates, the continental subsurface alone harbors on the order of 10$^{29}$ cells -- a substantial fraction of all prokaryotic life on Earth.[^magnabosco2018_ep] These organisms are not waiting to be discovered as curiosities. They are running the geochemistry that makes the surface habitable.[^falkowski2008_ep]
 
 ## Three claims
 
@@ -97,31 +97,31 @@ The question is whether we will make the effort to understand them.
 
 [^schrodinger1944_ep]: Erwin Schrödinger, *What Is Life? The Physical Aspect of the Living Cell* (Cambridge University Press, 1944). [@Schrodinger1944]
 
-[^luisi1998]: Pier Luigi Luisi, "About Various Definitions of Life," *Origins of Life and Evolution of the Biosphere* 28 (1998): 613--622. [@Luisi1998]
+[^luisi1998]: Pier Luigi Luisi, "About Various Definitions of Life," *Origins of Life and Evolution of the Biosphere* 28 (1998): 613--622. Luisi surveys definitions of life, starting from the NASA working definition; the energetic formulation above is this book's synthesis, not Luisi's wording. [@Luisi1998]
 
-[^cleland2002]: Carol Cleland and Christopher Chyba, "Defining 'Life'," *Origins of Life and Evolution of the Biosphere* 32 (2002): 387--393. [@Cleland2002]
+[^cleland2002]: Carol Cleland and Christopher Chyba, "Defining 'Life'," *Origins of Life and Evolution of the Biosphere* 32 (2002): 387--393. Cleland and Chyba argue that, without a general theory of living systems, controversy over definitions of life is inescapable; the organism-centred formulation above is this book's synthesis, not theirs. [@Cleland2002]
 
-[^joyce1994]: Gerald Joyce, "Foreword," in *Origins of Life: The Central Concepts*, ed. David Deamer and Gail Fleischaker (Jones and Bartlett, 1994). This formulation became the NASA working definition of life. [@Joyce1994]
+[^joyce1994]: Gerald Joyce, "Foreword," in *Origins of Life: The Central Concepts*, ed. David Deamer and Gail Fleischaker (Jones and Bartlett, 1994). Joyce's foreword gives the formulation NASA adopted as its working definition, life as "a self-sustaining chemical system capable of Darwinian evolution"; the replicator wording above is this book's information-centred paraphrase, not a quotation. [@Joyce1994]
 
-[^szathmary1995]: Eors Szathmary and John Maynard Smith, *The Major Transitions in Evolution* (Freeman, 1995). [@SzathmaryMaynardSmith1995]
+[^szathmary1995]: John Maynard Smith and Eörs Szathmáry, *The Major Transitions in Evolution* (W. H. Freeman, 1995). [@SzathmaryMaynardSmith1995]
 
 [^knittel2009_ep]: Katrin Knittel and Antje Boetius, "Anaerobic Oxidation of Methane: Progress with an Unknown Process," *Annual Review of Microbiology* 63 (2009): 311–334. The energetics of AOM at the sulfate-methane transition demonstrate life operating at the thermodynamic edge. [@Knittel2009]
 
-[^larowe2015_ep]: Douglas E. LaRowe and Jan P. Amend, "Catabolic Rates, Population Sizes and Doubling/Replacement Times of Microorganisms in Natural Settings," *American Journal of Science* 315 (2015): 167–203. Catabolic rates vary over twelve orders of magnitude across Earth's biosphere. [@LaRowe:2015dt]
+[^larowe2015_ep]: Douglas E. LaRowe and Jan P. Amend, "Catabolic Rates, Population Sizes and Doubling/Replacement Times of Microorganisms in Natural Settings," *American Journal of Science* 315 (2015): 167–203. Table 2 compiles volumetric catabolic rates in marine environments at and below the sediment-water interface, spanning twelve orders of magnitude; the paper also treats maintenance power explicitly. [@LaRowe:2015dt]
 
 [^wachtershauser1988]: Günter Wächtershäuser, "Before Enzymes and Templates: Theory of Surface Metabolism," *Microbiological Reviews* 52 (1988): 452–484. The iron-sulfur world hypothesis posits that mineral surfaces catalyzed the first metabolic cycles. [@Wachtershauser1988]
 
-[^cech1986_ep]: Thomas R. Cech, "A Model for the RNA-Catalyzed Replication of RNA," *Proceedings of the National Academy of Sciences* 83 (1986): 4360–4363. Discovery that RNA can catalyze reactions without protein enzymes. [@Cech1986]
+[^cech1986_ep]: Thomas R. Cech, "A Model for the RNA-Catalyzed Replication of RNA," *Proceedings of the National Academy of Sciences* 83 (1986): 4360–4363. Cech proposes how an RNA enzyme could replicate RNA; RNA catalysis itself was first reported in 1982 and 1983 (see Chapter 3). [@Cech1986]
 
 [^simon1956_ep]: Herbert A. Simon, "Rational Choice and the Structure of the Environment," *Psychological Review* 63 (1956): 129–138. The satisficing framework: organisms find strategies that are good enough, not optimal. [@Simon1956]
 
-[^carmel2005_ep]: Yohay Carmel and Yakov Ben-Haim, "Info-gap robust-satisficing model of foraging behavior: do foragers optimize or satisfice?," *The American Naturalist* 166 (2005). Carmel and Ben-Haim provide one of the clearest empirical defenses of satisficing against optimal-foraging predictions. [@CarmelBenHaim2005]
+[^carmel2005_ep]: Yohay Carmel and Yakov Ben-Haim, "Info-gap robust-satisficing model of foraging behavior: do foragers optimize or satisfice?," *The American Naturalist* 166 (2005): 633--641. Carmel and Ben-Haim compare optimizing and info-gap robust-satisficing foraging models and argue that available field data are consistent with satisficing. [@CarmelBenHaim2005]
 
 [^brennanlo2012_ep]: Thomas J. Brennan and Andrew W. Lo, "An evolutionary model of bounded rationality and intelligence," *PLOS ONE* 7 (2012): e50310. Brennan and Lo show how bounded strategies can persist under selection when cognition and information carry costs. [@BrennanLo2012]
 
 [^callebaut2007_ep]: Werner Callebaut, "Herbert Simon's silent revolution," *Biological Theory* 2 (2007): 76--86. Callebaut reviews the attempt to fold bounded rationality back into optimization and argues that the reduction misses Simon's target. [@Callebaut2007]
 
-[^blanch1981_ep]: Harvey W. Blanch, "Invited Review: Microbial Growth Kinetics," *Biotechnology and Bioengineering* 23 (1981): 1691–1722. Lag phase dynamics and the limitations of unstructured models in microbial kinetics. [@Blanch1981]
+[^blanch1981_ep]: Harvey W. Blanch, "Invited Review: Microbial Growth Kinetics," *Chemical Engineering Communications* 8 (1981): 181--211. A review of microbial growth kinetics. [@Blanch1981]
 
 [^arndt2013_ep]: Sandra Arndt et al., "Quantifying the Degradation of Organic Matter in Marine Sediments: A Review and Synthesis," *Earth-Science Reviews* 123 (2013): 53–86. The mechanistic understanding of organic matter degradation remains a major challenge for RTMs. [@Arndt2013]
 
@@ -129,4 +129,6 @@ The question is whether we will make the effort to understand them.
 
 [^magnabosco2018_ep]: Cara Magnabosco et al., "The Biomass and Biodiversity of the Continental Subsurface," *Nature Geoscience* 11 (2018): 707–717. Estimated 2–6 × 10$^{29}$ cells in the continental subsurface; combined with other estimates, total global prokaryotic biomass of ~23–31 Pg C. [@Magnabosco2018]
 
-[^falkowski2008]: Paul G. Falkowski, Tom Fenchel, and Edward F. Delong, "The Microbial Engines That Drive Earth's Biogeochemical Cycles," *Science* 320 (2008): 1034–1039. Review of microbial contributions to global biogeochemical cycling. [@Falkowski2008]
+[^falkowski2008_ep]: Paul G. Falkowski, Tom Fenchel, and Edward F. DeLong, "The Microbial Engines That Drive Earth's Biogeochemical Cycles," *Science* 320 (2008): 1034–1039. Review of microbial contributions to global biogeochemical cycling. [@Falkowski2008]
+
+[^deep-life-epilogue]: Li-Hung Lin et al., "Long-Term Sustainability of a High-Energy, Low-Diversity Crustal Biome," *Science* 314 (2006): 479 to 482, p. 482, [doi:10.1126/science.1127376](https://doi.org/10.1126/science.1127376). The 45-to-300-year turnover estimate assumes constant growth and death and uses a laboratory substrate-to-biomass yield with an inferred long-term reaction rate. It is not an observation of individual cell division. [@Lin2006]
