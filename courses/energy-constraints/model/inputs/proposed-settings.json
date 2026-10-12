@@ -107,5 +107,5 @@
     "general positive K_eq and lambda analytical derivations"
   ],
   "default_status": "100 s is a proposed candidate, never a PASS here",
-  "failure_rule": "Execute and retain the declared 400,200,100,50,25 s series. Propose 100 s only if all default gates pass, including its 50 s comparison. If 100 s fails, retain exact failures and halve the candidate from 50 s through at most 3.125 s, using a half-step partner through 1.5625 s. The full allowed support is nine step sizes from 400 to 1.5625 s. If none passes, stop with failed history and request contract reconciliation. EIC accepts a default separately; no horizon, support or threshold change after observing results."
+  "failure_rule": "Execute and retain the declared 400,200,100,50,25 s series. Propose 100 s only if all default gates pass, including its 50 s comparison. If 100 s fails, retain exact failures and halve the candidate from 50 s through at most 3.125 s, using a half-step partner through 1.5625 s. The full allowed support is nine step sizes from 400 to 1.5625 s. If none passes, stop with failed history and request contract reconciliation. The course editor accepts a default separately; no horizon, support or threshold change after observing results."
 }

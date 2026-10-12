@@ -180,7 +180,7 @@
         "actual full step sizes, windows, endpoint arrays or precise generation specification and actual shortened steps",
         "401 support and candidate/halfstep/last-three union generation identities",
         "B01-B08 metrics/status/reasons and invalid-input rejection evidence",
-        "ordered candidate attempts, true failure reasons and proposed default, still pending independent EIC acceptance",
+        "ordered candidate attempts, true failure reasons and proposed default, still pending independent course editor acceptance",
         "arithmetic reconstruction readback from saved CSVs and its identities",
         "limits: numerical verification only, no empirical calibration/validation/learner benefit"
       ]
@@ -205,5 +205,5 @@
     "Use comparison rows paired at identical support/time; differences and normalized max errors reproduce benchmark norms; orders use LN(E_h/E_h2)/LN(2) only above the declared floor. Relative-energy tail accuracy and continuous power-integral equality are not promised."
   ],
   "zero_and_precision_limit": "Spreadsheet reconstruction thresholds include retained 17-digit source numbers and true zero branches. Stable log1p/expm1/series may be needed in future reference code close to equilibrium/time zero; exported quantities allow arithmetic interpretation without requiring students to implement these functions.",
-  "no_new_export_family": "No full species network, ATP/growth tables, fit/optimizer, optional alternate-law data, extra worksheets or new learner tasks. Designer/EIC may reuse these defined fields within their later accepted teaching scope."
+  "no_new_export_family": "No full species network, ATP/growth tables, fit/optimizer, optional alternate-law data, extra worksheets or new learner tasks. The learning designer and course editor may reuse these defined fields within their later accepted teaching scope."
 }

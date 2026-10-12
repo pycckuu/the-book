@@ -1,0 +1,71 @@
+{
+  "id": "ENERGY-PUB-02-PRESENTATION-ONLY-INPUT-MAPPING-R1",
+  "status": "POST_EXECUTION_PRESENTATION_ONLY_NOT_A_PRE_RUN_FREEZE",
+  "base_revision": "095c6c96ee76f2c2627652ea2644abf248b8009a",
+  "scope": "Five role-label strings only. Published manifest pins describe the current presentation copy. These normalized strings were not present during the original solve. No solver execution accompanies this mapping.",
+  "executed_input_pins": {
+    "inputs/benchmark-plan.json": "5095b612af54130fa24778c2954e1b619d0abb5a8244e5cfc66281f0988f29db",
+    "inputs/export-schema.json": "69408cf02e7b78190f890812e16841380d3411f9f95cf77e037e934f0cbaca51",
+    "inputs/proposed-settings.json": "6ea9a4a4efc57d473e90750d22802b01ab45c29d20f27068b4069e0161cb3fdf"
+  },
+  "published_input_pins": {
+    "inputs/benchmark-plan.json": "46712efd45fda94e423a23ac52935edda06dbaa0752add4bf514bd80a71d334a",
+    "inputs/export-schema.json": "775a31cd2b5d5d9b3b52530f7c8d6c9135cbd5c22570f6ee90b7ba476cbec3df",
+    "inputs/proposed-settings.json": "c15b333046e7b267bfb8a399dde51167337d078048b8d315eec39278a7ab05df"
+  },
+  "previous_publication_manifest_pins": {
+    "prospective-plan.json": "1825278d283bb7354498942834946a8a4c577da90b4b8d56d9bca816cdccdce7",
+    "execution-manifest.json": "ac8b47acb9dc5c3eeb6c8c5565f4767cd9749738f42958daf98f788835fdb140",
+    "saved-results-manifest.json": "9364baafc42000c564bb13954645b3c49cc2ba15081743d5ab9dd326edd8d9aa"
+  },
+  "original_owner_prospective_plan_sha256": "98ccf87f86318f0d573de248405af4db61b2252b2cb7e29be10598f5303c5dad",
+  "original_owner_execution_manifest_sha256": "06205b8a0d2914c0335eeefaa93936b9fb358e6eb2aafd032bfc79ffd03479bd",
+  "original_owner_execution_status": "Corrected execution followed a retained failed first run; no history is replaced by this presentation normalization.",
+  "historical_saved_archive": {
+    "path": "saved-results.zip",
+    "sha256": "bc32f1bf7ba77339c3fec2e9780e73a56219ccfa90bf4430b87dda858bc6c0df",
+    "member": "DATA-MANIFEST.json",
+    "member_sha256": "736f228b3ce4106aeddf5a0de626833f0d2ec385cf29bb4d0fb771c959ef0410",
+    "schema_sha256_at_execution": "69408cf02e7b78190f890812e16841380d3411f9f95cf77e037e934f0cbaca51",
+    "rule": "Archive bytes and embedded historical schema identity remain unchanged. The current external schema hash identifies a presentation-only copy, not a regenerated result."
+  },
+  "changed_json_paths": [
+    {
+      "path": "inputs/benchmark-plan.json",
+      "json_path": [
+        "benchmarks",
+        6,
+        "criteria",
+        "default_rule"
+      ]
+    },
+    {
+      "path": "inputs/benchmark-plan.json",
+      "json_path": [
+        "change_control"
+      ]
+    },
+    {
+      "path": "inputs/export-schema.json",
+      "json_path": [
+        "files",
+        4,
+        "contents",
+        5
+      ]
+    },
+    {
+      "path": "inputs/export-schema.json",
+      "json_path": [
+        "no_new_export_family"
+      ]
+    },
+    {
+      "path": "inputs/proposed-settings.json",
+      "json_path": [
+        "failure_rule"
+      ]
+    }
+  ],
+  "unchanged": "All equations, cases, tolerances, schema structure, numeric values, code, CSV bytes, ZIP bytes and numerical/default outcomes. This is not a new scientific or numerical acceptance."
+}

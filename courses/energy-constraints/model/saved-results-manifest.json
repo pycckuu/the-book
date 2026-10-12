@@ -34,6 +34,11 @@
     }
   ],
   "format": "Exact frozen four CSV families; UTF-8,17 significant digits, dot decimal, explicit null reasons. Large tables are a data companion, not textual PR diff.",
-  "schema_sha256": "69408cf02e7b78190f890812e16841380d3411f9f95cf77e037e934f0cbaca51",
-  "acceptance_scope": "Synthetic numerical/default verification only. No empirical or learner validation."
+  "schema_sha256": "775a31cd2b5d5d9b3b52530f7c8d6c9135cbd5c22570f6ee90b7ba476cbec3df",
+  "acceptance_scope": "Synthetic numerical/default verification only. No empirical or learner validation.",
+  "presentation_only_provenance": {
+    "path": "presentation-only-input-mapping.json",
+    "sha256": "36e14da4bd0fb299ec73027635dafef03d397784ec8baa1fe630dc3061f1a0eb",
+    "scope": "Post-execution presentation copy only; original executed identities are retained in the mapping."
+  }
 }
