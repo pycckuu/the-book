@@ -3,7 +3,12 @@ project:
   output-dir: _book
   resources:
     - sources/img
-    - "!courses/**"
+    - "!courses/oxygen-diffusion/**"
+    - "!courses/advection-dispersion/**"
+    - courses/saturation-kinetics/model
+    - courses/saturation-kinetics/en/worksheets
+    - courses/saturation-kinetics/ru/worksheets
+    - courses/saturation-kinetics/en/exercise-outcome-map.json
 
 book:
   title: "The Invisible Architects"
@@ -45,6 +50,9 @@ book:
     - courses/oxygen-diffusion/en/instructor-packet-en.md
     - courses/oxygen-diffusion/optional-observed-data/data-comparison-task.md
     - courses/oxygen-diffusion/optional-observed-data/data-comparison-solutions.md
+    - courses/saturation-kinetics/en/scientific-reading.md
+    - courses/saturation-kinetics/en/student-packet.md
+    - courses/saturation-kinetics/en/OPEN-worked-answers.md
     - courses/advection-dispersion/en/student-packet-en.qmd
     - courses/advection-dispersion/en/worked-answers-en.qmd
 

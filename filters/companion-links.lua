@@ -6,7 +6,7 @@ function Link(link)
   if target:match('^%a[%w+.-]*:') or target:match('^#') then return nil end
   local path = target:gsub('[?#].*$', '')
   local extension = path:match('%.([%w]+)$')
-  if not ({md=true,qmd=true,csv=true,json=true,tsv=true,py=true})[extension] then return nil end
+  if not ({md=true,qmd=true,csv=true,json=true,tsv=true,py=true,zip=true})[extension] then return nil end
   local name = path:match('[^/]+$') or path
   if pandoc.utils.stringify(link.content) == name then return pandoc.Code(name) end
   local content = link.content
