@@ -9,6 +9,10 @@ project:
     - courses/saturation-kinetics/en/worksheets
     - courses/saturation-kinetics/ru/worksheets
     - courses/saturation-kinetics/en/exercise-outcome-map.json
+    - courses/energy-constraints/model
+    - courses/energy-constraints/en/worksheets
+    - courses/energy-constraints/en/data
+    - courses/energy-constraints/en/exercise-outcome-map.json
 
 book:
   title: "The Invisible Architects"
@@ -53,6 +57,9 @@ book:
     - courses/saturation-kinetics/en/scientific-reading.md
     - courses/saturation-kinetics/en/student-packet.md
     - courses/saturation-kinetics/en/OPEN-worked-answers.md
+    - courses/energy-constraints/en/scientific-reading.md
+    - courses/energy-constraints/en/student-packet.md
+    - courses/energy-constraints/en/OPEN-worked-answers.md
     - courses/advection-dispersion/en/student-packet-en.qmd
     - courses/advection-dispersion/en/worked-answers-en.qmd
 
