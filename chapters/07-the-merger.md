@@ -6,11 +6,11 @@ Imagine you are a chemist, and you have exactly one test tube.
 
 Not one test tube on the bench while your equipment cupboard holds dozens more. One test tube -- that's it. Every reaction you run has to happen in that single vessel. Acid and base, oxidation and reduction, synthesis and degradation -- all dumped together in the same pot, all at the same time. Whatever you make is immediately exposed to whatever else is in there. If one reaction produces something fragile, the next reaction may destroy it before you can use it.
 
-That is the prokaryotic cell. For roughly two billion years, bacteria and archaea ran the planet's chemistry inside a single compartment: the cytoplasm. To be fair, some had a second compartment -- gram-negative bacteria carry a periplasmic space between their two membranes. So call it two test tubes for those. "But two tubes is certainly not enough for a good chemical laboratory!"[^markov_compartment]
+That is the prokaryotic cell. For roughly two billion years, bacteria and archaea ran the planet's chemistry inside a single compartment: the cytoplasm. To be fair, some had a second compartment -- gram-negative bacteria carry a periplasmic space between their two membranes. So call it two test tubes for those. But two tubes are certainly not enough for a good chemical laboratory![^markov_compartment]
 
 And yet prokaryotes thrived. They invented photosynthesis, nitrogen fixation, sulfur cycling, methanogenesis. They reshaped the atmosphere and the ocean floor. They did extraordinary chemistry with minimal architecture. (Some prokaryotes did evolve limited internal membranes -- cyanobacteria house their photosynthetic machinery in thylakoid folds, and a few other lineages have specialized compartments -- but these are exceptions. Most prokaryotic chemistry still runs in a single well-mixed volume.)
 
-But there were things they could not do. They could not run an oxygen-consuming reaction in one room while running an oxygen-sensitive reaction next door. They could not isolate their DNA behind a membrane and control who got access. They could not build a body made of trillions of differentiated cells, because differentiation requires compartments within compartments -- a bureaucracy of nested enclosures, each with its own chemistry, its own imports and exports, its own protected interior.
+But there were things they could not do. Within a single cell, they could not run an oxygen-consuming reaction in one room while running an oxygen-sensitive reaction next door. They could not isolate their DNA behind a membrane and control who got access. They could not build a body made of trillions of specialized cells; that kind of complexity seems to require compartments within compartments -- a bureaucracy of nested enclosures, each with its own chemistry, its own imports and exports, its own protected interior.
 
 For that, you need more test tubes. Many more.
 
@@ -36,15 +36,15 @@ The prokaryotic cell had none of this internal architecture. It was the open-pla
 
 For a long time, the origin of eukaryotes was a black box. Prokaryotes on one side, eukaryotes on the other, and a vast gulf of cellular complexity between them. Then, in 2015, a team of researchers pulled something remarkable out of the Arctic Ocean.
 
-The samples came from deep-sea sediments near a hydrothermal vent field called Loki's Castle, on the Mid-Atlantic Ridge between Norway and Greenland, at a depth of 3,283 meters.[^spang_loki] The organisms they found were not eukaryotes. They were archaea -- prokaryotes, single-celled, lacking nuclei and internal membranes. But their gene set told a different story.
+The samples came from deep-sea sediments about 15 kilometers from a hydrothermal vent field called Loki's Castle, on the Arctic Mid-Ocean Ridge between Norway and Greenland, at a depth of 3,283 meters.[^spang_loki] What the team recovered was not a living culture but DNA, assembled into genomes. The genomes belonged to archaea -- prokaryotes -- but their gene set told a different story.
 
 These archaea, dubbed *Lokiarchaeota*, carried genes that no one expected to find in a prokaryote.[^spang_loki] Genes for actin-like cytoskeletal proteins -- the molecular scaffolding that eukaryotic cells use to change shape, crawl, and engulf particles. Genes suggesting the capacity for membrane remodeling. Genes whose eukaryotic counterparts participate in phagocytosis -- the act of wrapping your cell membrane around another object and pulling it inside. Whether these archaea actually engulfed particles remains debated.
 
-*Lokiarchaeota* did not have a nucleus. They did not have mitochondria. But they had the genetic toolkit that could, in principle, lead to both. They were closer to eukaryotes than any other prokaryote ever found -- a bridge between the two great domains of cellular life.
+*Lokiarchaeota* did not have a nucleus. They did not have mitochondria. But they had the genetic toolkit that could, in principle, lead to both. They were closer to eukaryotes than any other prokaryote known at the time -- a bridge between the two great domains of cellular life.
 
 ::: {.callout-note}
 ## Sidebar --- The Asgard archaea
-*Lokiarchaeota* was the first discovered member of what is now called the Asgard superphylum -- a group of archaea named after figures from Norse mythology (Loki, Thor, Odin, Heimdall).[^zaremba_asgard] Phylogenetic analyses consistently place eukaryotes *within* the Asgard archaea, not as their sister group.[^eme_archaea] This means that eukaryotes did not diverge from archaea; they emerged from within them. The "three domains of life" model (Bacteria, Archaea, Eukarya) may need to be revised to a "two domains" model, with eukaryotes as a highly derived branch of the Archaea. The discovery did not answer every question about eukaryotic origins, but it narrowed the search space dramatically.
+*Lokiarchaeota* was the first discovered member of what is now called the Asgard superphylum -- a group of archaea named after figures from Norse mythology (Loki, Thor, Odin, Heimdall).[^zaremba_asgard] Most recent phylogenomic analyses place eukaryotes *within* the Asgard archaea rather than as their sister group, although the exact branching point is still debated.[^eme_archaea] This means that eukaryotes did not diverge from archaea; they emerged from within them. The "three domains of life" model (Bacteria, Archaea, Eukarya) may need to be revised to a "two domains" model, with eukaryotes as a highly derived branch of the Archaea. The discovery did not answer every question about eukaryotic origins, but it narrowed the search space dramatically.
 :::
 
 ## A rival story about the nucleus
@@ -63,17 +63,17 @@ Even minerals get involved. DNA adsorbed to clay and oxide surfaces can survive 
 
 By the time endosymbiosis appears, biology is already comfortable with hybridization. Whole-cell merger is unusual. Gene traffic is not.
 
-Somewhere around 1.6 to 2.7 billion years ago -- with most molecular clock estimates favoring roughly 2 billion years ago -- an archaeal cell, perhaps something like *Lokiarchaeota* or a close relative, took a step that prokaryotes had been building toward for billions of years.[^parfrey_timing][^betts_timing] It may have been able to reshape its membrane using actin-like scaffolding. How the association with the bacterium began -- whether by engulfment, by the archaeon extending membrane protrusions around it, or by the bacterium invading -- remains one of the open questions in evolutionary biology.[^imachi_mka] However it started, the bacterium was not digested.
+Somewhere around 2 billion years ago -- molecular clocks place the mitochondrial partnership between about 2.1 and 1.2 billion years ago, and the last common ancestor of living eukaryotes at roughly 1.9 to 1.7 billion years ago -- an archaeal cell, perhaps something like *Lokiarchaeota* or a close relative, took a step with no precedent.[^parfrey_timing][^betts_timing] It may have been able to reshape its membrane using actin-like scaffolding. How the association with the bacterium began -- whether by engulfment, by the archaeon extending membrane protrusions around it, or by the bacterium invading -- remains one of the open questions in evolutionary biology.[^imachi_mka] However it started, the bacterium was not digested.
 
-That bacterium was an alpha-proteobacterium -- an aerobic organism that could use oxygen to burn organic molecules with extraordinary efficiency. Inside the archaeal host, the bacterium kept breathing. It kept producing ATP. And over time, what started as a captured meal became something else entirely: a permanent resident, a co-dependent partner, and eventually an organelle.
+That bacterium was an alpha-proteobacterium -- an aerobic organism that could use oxygen to burn organic molecules with extraordinary efficiency. Inside the archaeal host, the bacterium kept breathing. It kept producing ATP. And over time, what started as an uncertain association became something else entirely: a permanent resident, a co-dependent partner, and eventually an organelle.
 
 That organelle is the mitochondrion. Every mitochondrion in every eukaryotic cell on Earth descends from that single, ancient partnership.
 
 ## The spectrum of integration
 
-The transformation from free-living bacterium to mitochondrion did not happen overnight. It was a long, slow slide from partnership to dependence to irreversible fusion -- a process that took hundreds of millions of years and that we can still watch happening today, frozen at different stages in different organisms.
+The transformation from free-living bacterium to mitochondrion did not happen overnight. It was a long, slow slide from partnership to dependence to irreversible fusion -- a process that probably took a very long time and that we can still watch happening today, frozen at different stages in different organisms.
 
-![Genome reduction tightens the bond, but only a handful of symbioses have crossed the threshold to organelle.](../sources/img/ch7_integration_spectrum.png){#fig-integration-spectrum}
+![Different forms of symbiotic integration. Four living associations are compared, not stages on one evolutionary route or points on a measured integration scale. Sizes identify specific bacterial chromosomes or human reference mtDNA; they do not measure metabolic autonomy. Elysia acquires plastids by feeding, and no slug or plastid genome size is represented. Genome lengths are labels, not proportional bars.[^integration_figure_genomes]](../sources/img/ch7_integration_spectrum.png){#fig-integration-spectrum}
 
 Think of it as a spectrum. At one end, a bacterium lives inside a host cell but retains its full genetic and metabolic independence: it could, in principle, be extracted and grown on its own. At the other end, the bacterium has lost so many genes that it is no longer an organism at all -- it is an organelle, a part of the host, unable to exist independently. Between these extremes lies every shade of partnership, dependence, and dissolution.
 
@@ -85,15 +85,15 @@ The ocean floor, several kilometers below the surface, is usually a desert. No l
 
 But where the Earth's crust is cracked, where hydrothermal fluids seep upward carrying hydrogen sulfide and methane, the desert blooms. Around these vents and seeps, life is dense, improbable, and vivid: tube worms with blood-red plumes, ghostly white shrimp, and clusters of giant clams pressing their tissues against the chemical-rich water.
 
-The giant clam *Calyptogena magnifica* is one of these vent animals. It lives along the edges of hydrothermal vents on the ocean floor, and its secret is inside its gill cells.[^newton_ruthia] There, packed into specialized host cells called bacteriocytes, lives *Ruthia magnifica* -- a gamma-proteobacterium that has traded the open ocean for a captive existence inside an animal.
+The giant white clam *Calyptogena magnifica* is one of these vent animals. It lives along the edges of hydrothermal vents on the ocean floor, and its secret is inside its gill cells.[^newton_ruthia] There, packed into specialized host cells called bacteriocytes, lives *Ruthia magnifica* -- a gamma-proteobacterium that has traded the open ocean for a captive existence inside an animal.
 
 *Ruthia* is a chemoautotroph. It fixes carbon from CO$_2$ via the Calvin cycle, just as a plant does, but it does not use sunlight as its energy source. Instead, it oxidizes sulfur compounds. Hydrogen sulfide flows in from the vent fluid; *Ruthia* strips electrons from it, storing elemental sulfur in intracellular granules, then oxidizing the sulfur further to sulfite and sulfate, extracting energy at each step. That energy drives carbon fixation, and the organic molecules *Ruthia* produces feed the clam.
 
 The clam, in turn, provides *Ruthia* with a stable physical environment, a supply of oxygen (delivered via the clam's blood), and access to the hydrogen sulfide welling up from below. It is a partnership: the bacterium is the chemist, the clam is the house.
 
-What makes *Ruthia* remarkable is what its genome reveals: it has retained a complete set of genes for chemoautotrophic life.[^newton_ruthia] It can still, in principle, do everything a free-living sulfur-oxidizing bacterium can do. Its genome has not yet suffered the erosion that afflicts more deeply integrated symbionts. It is still biochemically independent, still carrying the full toolkit of an autonomous organism.
+What makes *Ruthia* remarkable is what its genome reveals: it still encodes the major chemoautotrophic pathways, along with pathways for vitamins, cofactors, and all 20 amino acids the clam requires.[^newton_ruthia] Metabolically, it keeps much of the toolkit of a free-living sulfur-oxidizing bacterium.
 
-*Ruthia magnifica* is early on the spectrum. It is an intracellular symbiont, yes -- committed to life inside a host -- but it has not yet traveled far down what we might call the path of inevitable degradation. It is a captured bacterium whose genome still encodes the full machinery for independent life.
+*Ruthia magnifica* is early on the spectrum. It is an intracellular symbiont, yes -- committed to life inside a host -- but it has not yet traveled far down what we might call the path of genome degradation. Its genome still encodes much of the machinery for independent metabolism.
 
 ### The shrinking genome: *Carsonella ruddii*
 
@@ -101,9 +101,9 @@ Now move to the other end of the spectrum.
 
 Psyllids are small, sap-sucking insects -- relatives of aphids -- that feed on the phloem of plants. Plant sap is a poor diet. It is rich in sugars but deficient in essential amino acids, the building blocks that animals need to construct proteins but cannot synthesize on their own. Any insect that commits to a sap-only diet faces a nutritional crisis.
 
-Psyllids solved this problem the way many insects have: they enlisted a bacterium. Inside specialized cells in the psyllid's body lives *Candidatus* Carsonella ruddii, a gamma-proteobacterium that synthesizes the amino acids missing from the plant sap. The partnership is ancient and obligate -- neither the insect nor the bacterium can survive without the other. "Successful symbiosis was the decisive factor allowing psyllids to feed only on plant sap."[^nakabachi_carsonella]
+Psyllids solved this problem the way many insects have: they enlisted a bacterium. Inside specialized cells in the psyllid's body lives *Candidatus* Carsonella ruddii, a gamma-proteobacterium that synthesizes the amino acids missing from the plant sap. The partnership is ancient and obligate -- neither the insect nor the bacterium can survive without the other.[^nakabachi_carsonella]
 
-But look at *Carsonella*'s genome, and you see something startling. At just 160 kilobases, it is among the smallest genomes of any known cellular organism -- smaller than many viruses. It has lost genes for DNA repair, for the synthesis of its own cell wall, for most regulatory functions. It cannot make its own nucleotides. It cannot replicate without help from the host. Gene after gene has been shed, discarded as redundant once the host cell could supply the missing function.
+But look at *Carsonella*'s genome, and you see something startling. At just 160 kilobases, it is among the smallest genomes of any known cellular organism -- smaller than the genomes of the largest viruses. It has lost genes for DNA repair, for the synthesis of its own cell wall, for most regulatory functions. It cannot make its own nucleotides. It cannot replicate without help from the host. Gene after gene has been shed, discarded as redundant once the host cell could supply the missing function.
 
 *Carsonella* is so reduced that some biologists have questioned whether it should still be called a living organism. It is closer to an organelle -- a piece of cellular machinery, maintained by the host, performing a specific biochemical task, unable to exist in any other context.
 
@@ -111,7 +111,7 @@ But look at *Carsonella*'s genome, and you see something startling. At just 160 
 ## Sidebar --- How small can a genome get?
 Genome reduction in obligate symbionts follows a ratchet-like logic. Once a function is reliably supplied by the host, the symbiont's gene for it drifts and decays. Each loss deepens dependence, and there is no going back. *Carsonella*'s 160-kilobase genome illustrates a late stage.
 
-But genome shrinkage alone does not make an organelle. That transition requires additional steps -- establishment of a protein-import apparatus, coordinated gene transfer to the host nucleus, integration into host cell division -- that have occurred only a few times in the history of life. Mitochondria and plastids crossed that threshold; most reduced symbionts (including *Buchnera*, *Wigglesworthia*, and others that have been shrinking for over 100 million years) have not. Genome erosion is common; organellogenesis is rare.
+But genome shrinkage alone does not make an organelle. That transition requires additional steps -- establishment of a protein-import apparatus, coordinated gene transfer to the host nucleus, integration into host cell division -- that have occurred only a few times in the history of life. Mitochondria and plastids crossed that threshold; most reduced symbionts (including *Buchnera* and *Wigglesworthia*) have not. Genome erosion is common; organellogenesis is rare.
 :::
 
 ### The borrowed factory: *Elysia chlorotica*
@@ -120,7 +120,7 @@ Between the deep-sea vent and the psyllid gut, there are stranger partnerships. 
 
 When *E. chlorotica* feeds, it does something unusual. It punctures algal cells and sucks out the contents, digesting most of the cellular material. But it does not digest the chloroplasts -- the photosynthetic organelles. Instead, it captures them intact and incorporates them into the cells lining its own digestive tract. There, surrounded by animal tissue, the stolen chloroplasts continue to function. They absorb light, split water, fix carbon. The sea slug photosynthesizes.[^rumpho_kleptoplasty]
 
-The chloroplasts are not inherited. They do not reproduce inside the slug. Each generation of *E. chlorotica* must acquire them anew by feeding on algae. The arrangement is a temporary theft -- kleptoplasty -- that hints at how the permanent acquisition of photosynthesis might have begun, billions of years ago, when an ancient eukaryote engulfed a cyanobacterium and never let go.
+The chloroplasts are not inherited. They do not reproduce inside the slug. Each generation of *E. chlorotica* must acquire them anew by feeding on algae. The arrangement is a temporary theft -- kleptoplasty -- that hints at how the permanent acquisition of photosynthesis might have begun, more than a billion years ago, when an ancient eukaryote engulfed a cyanobacterium and never let go.
 
 *E. chlorotica* is a living thought experiment: what does the early stage of chloroplast acquisition look like? Perhaps something like this -- a predator that learns to keep its prey's machinery running, harvesting the products, and gradually becoming dependent on them.
 
@@ -128,9 +128,9 @@ The chloroplasts are not inherited. They do not reproduce inside the slug. Each 
 
 If *Ruthia* is the early stage and *Carsonella* is the late stage, then lichens represent something else: the fully realized partnership, stable and successful, maintained not by genomic erosion but by ecological complementarity.
 
-A lichen is not a single organism. It is a composite: a fungus (the mycobiont) that provides the structural scaffold, intertwined with one or more photosynthetic partners. In the simplest lichens, the partner is a green alga that performs photosynthesis, converting light and CO$_2$ into organic carbon that feeds the fungus. But in the most sophisticated lichens, there is a third partner: a cyanobacterium that fixes atmospheric nitrogen, supplying the nutrient that neither the fungus nor the alga can obtain on its own.[^nash_lichen]
+A lichen is not a single organism. It is a composite: a fungus (the mycobiont) that provides the structural scaffold, intertwined with one or more photosynthetic partners. In many lichens, the partner is a green alga (in others, a cyanobacterium) that performs photosynthesis, converting light and CO$_2$ into organic carbon that feeds the fungus. In tripartite lichens, there is a third partner: a cyanobacterium that fixes atmospheric nitrogen, which neither the fungus nor the alga can fix.[^nash_lichen]
 
-Each partner retains its own genome, its own cellular identity, its own metabolic autonomy. The lichen persists not because its members have lost the ability to live alone, but because the partnership is so productive that breaking it would be a catastrophic downgrade for everyone involved.[^markov_compartment][^nash_lichen] The integration is shallow compared to mitochondria, but it may be the most balanced partnership on the spectrum.
+Each partner retains its own genome and its own cellular identity. The lichen persists not through genomic erosion but because the partnership is so productive that breaking it would be a catastrophic downgrade for everyone involved.[^nash_lichen] The integration is shallow compared to mitochondria, but it may be the most balanced partnership on the spectrum.
 
 ## Oases in the dark
 
@@ -140,7 +140,7 @@ The story of *Ruthia* is not an isolated curiosity. At hydrothermal vents and co
 
 A thread runs through these examples, though not a single trajectory. In every case, a partnership formed. In some, integration deepened and independence eroded until the boundary between host and symbiont blurred. In others -- lichens, kleptoplasts -- the partners remain distinct, the arrangement stable or temporary. **The pattern is not a conveyor belt from symbiont to organelle. It is a landscape of possibilities, most of which stop well short of that destination.**
 
-*Ruthia* still has a complete genome. *Carsonella* has lost most of hers. Mitochondria have transferred the vast majority of their genes to the host nucleus and retained only a handful -- just enough to build the core machinery of the electron transport chain, the very apparatus that made the partnership worthwhile in the first place. Chloroplasts tell the same story: once free-living cyanobacteria, now organelles with shrunken genomes, dependent on the host for most of their proteins.
+*Ruthia* still retains much of its core metabolic toolkit. *Carsonella* has lost most of hers. Mitochondria have transferred the vast majority of their genes to the host nucleus and retained only a handful -- just enough to build the core machinery of the electron transport chain, the very apparatus that made the partnership worthwhile in the first place. Chloroplasts tell the same story: once free-living cyanobacteria, now organelles with shrunken genomes, dependent on the host for most of their proteins.
 
 The early stages of the trajectory are common: a free-living organism enters a host -- by predation, by accident, by mutual convenience. If the partnership is beneficial, both partners persist. Over time, the symbiont loses genes it no longer needs, because the host supplies the missing functions. Each lost gene tightens the bond. Many symbioses stall at this stage -- deeply dependent, genomically eroded, but not organelles. The final steps -- evolving a protein-import system, integrating into host cell division, transferring regulatory control to the host nucleus -- have occurred only a handful of times. But when they did, the line between "two organisms" and "one organism with internal compartments" vanished. That is the mechanism that built the eukaryotic cell.
 
@@ -148,11 +148,11 @@ The early stages of the trajectory are common: a free-living organism enters a h
 
 We can now reconstruct the event -- or rather, the long process -- that created the eukaryotic cell.
 
-An archaeal cell, perhaps a member of the Asgard lineage, carried genes for cytoskeletal proteins and membrane-remodeling machinery. At some point -- roughly 1.6 to 2.7 billion years ago based on molecular clock estimates, with most analyses favoring about 2 billion years ago -- this archaeal cell entered into an intimate association with an alpha-proteobacterium. Whether the archaeon engulfed the bacterium, the bacterium invaded, or the two grew progressively intertwined remains unclear.
+An archaeal cell, perhaps a member of the Asgard lineage, carried genes for cytoskeletal proteins and membrane-remodeling machinery. At some point -- roughly 2 billion years ago, within wide molecular-clock uncertainties -- this archaeal cell entered into an intimate association with an alpha-proteobacterium. Whether the archaeon engulfed the bacterium, the bacterium invaded, or the two grew progressively intertwined remains unclear.
 
 The bacterium survived. Perhaps it was resistant to digestion. Perhaps the archaeal cell's degradation machinery was incomplete. Whatever the reason, the bacterium persisted inside the host, and the two organisms began a relationship that would transform both of them beyond recognition.
 
-The alpha-proteobacterium brought a gift: aerobic respiration. It could use oxygen -- by then increasingly available in Earth's atmosphere, thanks to billions of years of cyanobacterial photosynthesis -- to completely oxidize organic molecules, extracting far more energy per glucose molecule than any anaerobic pathway could provide. The archaeal host gained access to an energy supply of unprecedented efficiency.
+The alpha-proteobacterium brought a gift: aerobic respiration. It could use oxygen -- present in the atmosphere and surface waters since the Great Oxidation Event, though probably at low levels for a long time afterward -- to completely oxidize organic molecules, extracting far more energy per glucose molecule than fermentation could provide. The archaeal host gained access to an energy supply of unprecedented efficiency.
 
 In return, the host provided the bacterium with a stable environment and a steady supply of organic substrates. The partnership was metabolically complementary: the host could do things the symbiont could not, and vice versa.
 
@@ -164,13 +164,13 @@ The result was a new kind of cell -- one with a dedicated energy-producing organ
 
 This was the birth of the eukaryotic cell.
 
-Why did this matter for cell size? Prokaryotic cells generate ATP at their cell membrane. As a cell grows larger, its volume (which determines energy demand) increases as the cube of its radius, while its membrane surface area (which determines ATP supply) increases only as the square.[^lane_energetics] In an influential model proposed by Lane and Martin, large prokaryotic cells face an energy bottleneck: demand outpaces supply. Mitochondria solve this by internalizing the energy-producing membranes. A eukaryotic cell can increase its volume and simply add more mitochondria, each with its own chemiosmotic membrane. The internal membrane surface area scales with volume, not with the cell's external surface. If this model is correct, the merger did not just add a metabolic capability -- it relaxed a fundamental constraint on cell size and genomic complexity.[^lane_power]
+Why did this matter for cell size? For cells of similar shape, external surface area grows as the square of radius while volume grows as the cube. If ATP-producing capacity were restricted to that surface and demand rose in proportion to active volume, increasing size would create a bottleneck.[^lane_energetics] In the influential model proposed by Lane and Martin, mitochondria relax an energetic constraint through internal bioenergetic membranes and the distribution of genes relative to them. This is more than a geometric argument: it assumes particular relationships among power, gene expression, genome copies, and cell size. The bottleneck is not a universal property of prokaryotes, some of which have extensive internal membranes or large inactive volumes. Later analyses disagree about the advantage and show how strongly it depends on shape, division time, membrane allocation, and biosynthetic costs. The merger may have expanded the options for larger and more demanding cells, but the model does not by itself establish that energy made cellular complexity impossible before it.[^lane_power]
 
 And then it happened again.
 
 A eukaryotic cell -- already carrying its mitochondrial passengers -- engulfed a cyanobacterium. The cyanobacterium was not digested. It persisted, still photosynthesizing, still fixing carbon from CO$_2$ using sunlight. Over time, it too lost genes, transferred others to the host nucleus, and became an organelle: the chloroplast.[^keeling_plastids]
 
-This second merger gave rise to the photosynthetic eukaryotes: the green algae that would eventually crawl onto land and become plants. Every leaf on every tree, every blade of grass, every strand of kelp carries the descendants of that engulfed cyanobacterium -- a free-living organism that became a permanent component of another cell, billions of years ago.[^archibald_plastid]
+This second merger gave rise to the photosynthetic eukaryotes: the green algae that would eventually crawl onto land and become plants. Every leaf on every tree, every blade of grass, every strand of kelp carries the descendants of that engulfed cyanobacterium -- a free-living organism that became a permanent component of another cell, more than a billion years ago.[^archibald_plastid]
 
 ## A merger we can still watch
 
@@ -186,7 +186,7 @@ What did the merger make possible?
 
 In the short term: larger cells with more energy, more internal organization, and the capacity to run complex biochemistry in separated compartments.
 
-In the medium term: multicellularity. Once you have a cell with a nucleus and mitochondria, you have a cell that can specialize. You can devote some cells to digestion, others to locomotion, others to reproduction. You can build tissues, organs, bodies. The step from single-celled eukaryote to multicellular organism is not trivial, but it is a step that has been taken independently dozens of times in evolutionary history -- always by eukaryotes for complex, tissue-level multicellularity -- prokaryotes have evolved only rudimentary forms (filamentous cyanobacteria, myxobacterial fruiting bodies).[^grosberg_multicell] The compartmentalized architecture of the eukaryotic cell is the necessary precondition for the kind of multicellularity that builds bodies.
+In the medium term: multicellularity. A cell with a nucleus and mitochondria offers new scope for specialization. You can devote some cells to digestion, others to locomotion, others to reproduction. You can build tissues, organs, bodies. The step from single-celled eukaryote to multicellular organism is not trivial, but it has been taken independently many times. Complex, tissue-level multicellularity arose only in eukaryotes; prokaryotes have evolved simpler forms (filamentous cyanobacteria, myxobacterial fruiting bodies).[^grosberg_multicell] The compartmentalized architecture of the eukaryotic cell is the necessary precondition for the kind of multicellularity that builds bodies.
 
 In the long term: everything you see when you look around. Every animal, every plant, every fungus, every protist. The forests. The coral reefs. The grasslands. The humans. All built from eukaryotic cells. All carrying mitochondria. All descended from that ancient merger between an archaeon and a bacterium.
 
@@ -202,31 +202,31 @@ The alpha-proteobacterium did not "win" by becoming a mitochondrion. The archaea
 
 The same logic runs through every example in this chapter. The tube worm and its chemosynthetic bacteria. The psyllid and *Carsonella*. The sea slug and its stolen chloroplasts. The lichen's balanced commune. In each case, integration was the creative force that competition alone could not have produced.
 
-This is not to say that competition is unimportant. Symbiotic partnerships must still compete with other organisms and other partnerships for resources and space. Selection still acts. But the raw material that selection acts on -- the new forms, the new metabolic capabilities, the new body plans -- comes disproportionately from mergers.
+This is not to say that competition is unimportant. Symbiotic partnerships must still compete with other organisms and other partnerships for resources and space. Selection still acts. But some of the most consequential new forms -- new metabolic capabilities, new kinds of cells -- came from mergers.
 
-Lynn Margulis, who spent decades championing the endosymbiotic theory against fierce resistance from the biological establishment, put it simply: "Life did not take over the globe by combat, but by networking."[^margulis_networking]
+Lynn Margulis, who spent decades championing the endosymbiotic theory against fierce resistance from the biological establishment, and Dorion Sagan put it simply: "Life did not take over the globe by combat, but by networking."[^margulis_networking]
 
 ## The deep continuity
 
 There is one more thing to notice. The merger between the archaeon and the alpha-proteobacterium was not a break in the pattern we have traced through this book. It was a continuation.
 
-In earlier chapters, we watched prokaryotes cooperate: sharing electrons across species boundaries, forming syntrophic partnerships where one organism's waste is another's fuel, building biofilms where metabolic labor is divided among specialists. The logic of symbiosis -- the advantage of metabolic complementarity -- was already ancient when the eukaryotic merger happened.
+In earlier chapters, we watched prokaryotes cooperate: building layered mats in which one guild's waste is another's fuel, and dividing labor in biofilms and fruiting bodies. Partnerships in which organisms depend on each other's metabolism in this way are called syntrophy. The logic of symbiosis -- the advantage of metabolic complementarity -- was already ancient when the eukaryotic merger happened.
 
 What changed was the intimacy. In a biofilm, partners live side by side. In syntrophy, they exchange metabolites across a shared boundary. In the eukaryotic merger, one partner moved inside the other. The membrane that once separated two organisms became the double membrane of the mitochondrion -- a fossil boundary, still visible under the electron microscope after two billion years.
 
-The step from syntrophy to endosymbiosis is not a conceptual leap. It is a change in distance: from micrometers apart to nanometers apart to zero distance, to full enclosure. The driving force is the same: metabolic partnership is more efficient when transport distances are short. The closer the partners, the faster the exchange, the less energy lost to diffusion. Endosymbiosis is syntrophy taken to its logical extreme.
+The step from syntrophy to endosymbiosis is not a conceptual leap. It is a change in distance: from micrometers apart to nanometers apart to zero distance, to full enclosure. One proposed driving force is the same: metabolic partnership is more efficient when transport distances are short. The closer the partners, the faster the exchange, the less energy lost to diffusion. On this view, endosymbiosis is syntrophy taken to its logical extreme.
 
 And the step from endosymbiosis to organelle is not a conceptual leap either. It is a change in commitment: from a partnership that could in principle be dissolved to one that cannot. Gene transfer cements the bond. Genomic erosion makes it irreversible. What was once a relationship becomes an anatomy.
 
 ## You are a community
 
-Every cell in your body contains hundreds of mitochondria. Each mitochondrion carries its own small circular genome -- a remnant of the alpha-proteobacterial chromosome that has been shrinking for two billion years. That genome still encodes a few essential components of the electron transport chain, the molecular machinery that performs aerobic respiration. The rest of the mitochondrion's proteins are encoded in your nuclear genome and imported across the double membrane after synthesis.
+Most cells in your body contain hundreds to thousands of mitochondria (mature red blood cells have none). Each mitochondrion carries its own small circular genome -- a remnant of the alpha-proteobacterial chromosome that has been shrinking for two billion years. That genome still encodes a few essential components of the electron transport chain, the molecular machinery that performs aerobic respiration. The rest of the mitochondrion's proteins are encoded in your nuclear genome and imported across the double membrane after synthesis.
 
-Your mitochondria replicate independently of your cell's division cycle. They have their own DNA polymerase, their own ribosomes (which are bacterial-type ribosomes, not eukaryotic-type), their own translation machinery. When a cell divides, the mitochondria are parceled out to the daughter cells, not constructed from scratch. They are inherited, in an unbroken line of descent, from the mitochondria of the previous generation -- all the way back, across billions of cell divisions, to the original engulfed bacterium.
+Your mitochondria replicate independently of your cell's division cycle. They use a dedicated DNA polymerase, ribosomes that are bacterial in origin, and their own translation machinery. When a cell divides, the mitochondria are parceled out to the daughter cells, not constructed from scratch. They are inherited, in an unbroken line of descent, from the mitochondria of the previous generation -- all the way back, across billions of cell divisions, to the original engulfed bacterium.
 
 If you eat a salad, the chloroplasts in the lettuce leaves tell the same story from a different chapter. They too carry their own circular DNA. They too have bacterial ribosomes. They too descend, in an unbroken line, from a cyanobacterium that was swallowed and never released.
 
-You are a community. Not a metaphorical community -- an actual one. Your cells are chimeras: archaeal information systems running on bacterial power plants. The merger is not something that happened to a distant ancestor. It is something that is still happening, right now, in every cell, in the continuous conversation between your nuclear genome and your mitochondrial genome, in the import of proteins across the mitochondrial membranes, in the division of mitochondria within your cells.
+You are a community. Not a metaphorical community -- an actual one. Your cells are chimeras: archaeal information systems running on bacterial power plants. The merger is not something that happened to a distant ancestor. It is something that is still happening, right now, in most of your cells, in the continuous conversation between your nuclear genome and your mitochondrial genome, in the import of proteins across the mitochondrial membranes, in the division of mitochondria within your cells.
 
 Two billion years ago, two prokaryotes merged. They abandoned cellular individuality. They combined their capabilities into a single body. And from that body came everything that followed: the algae, the plants, the fungi, the worms, the clams, the insects, the fish, the mammals, and -- eventually, improbably -- the chemist who now has all the test tubes she needs.
 
@@ -236,16 +236,16 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 
 - Prokaryotic cells are limited by having essentially one or two internal compartments; eukaryotic cells solve this with internal membranes that create many separate reaction chambers.
 - The eukaryotic cell arose from a merger: an archaeal host (likely related to the Asgard archaea) acquired an alpha-proteobacterial partner that became the mitochondrion; chloroplasts arose from a later engulfment of a cyanobacterium.
-- Living symbioses -- from *Ruthia* (early, genome intact) to *Carsonella* (late, genome nearly gone) -- illustrate stages of symbiotic integration -- partnership, gene loss, deepening dependence -- though organellogenesis itself has occurred only a few times.
+- Living symbioses -- from *Ruthia* (early, core metabolism retained) to *Carsonella* (late, genome nearly gone) -- illustrate stages of symbiotic integration -- partnership, gene loss, deepening dependence -- though organellogenesis itself has occurred only a few times.
 - Horizontal gene transfer made microbial evolution collaborative long before whole cells merged, and the 2024 nitroplast discovery shows that organellogenesis is not only an ancient event but an observable process.
-- Hydrothermal vent ecosystems demonstrate that symbiosis between autotrophs and heterotrophs can sustain entire communities in the absence of sunlight.
-- The creative force behind the most consequential innovations in the history of life -- eukaryotic cells, photosynthetic eukaryotes, multicellularity -- was integration -- the merging of independently evolved capabilities -- not competition alone.
+- Hydrothermal vent ecosystems demonstrate that symbiosis between autotrophs and heterotrophs can sustain entire communities without local sunlight.
+- The creative force behind some of the most consequential innovations in the history of life -- eukaryotic cells and photosynthetic eukaryotes, which in turn made complex multicellularity possible -- was integration -- the merging of independently evolved capabilities -- not competition alone.
 
 [^markov_compartment]: Markov (2010) notes that prokaryotic cells are limited to one or two compartments (cytoplasm and periplasmic space), constraining the complexity of chemistry they can perform simultaneously. [@Markov2010]
 
 [^margulis_networking]: Lynn Margulis and Dorion Sagan, *Microcosmos: Four Billion Years of Evolution from Our Microbial Ancestors* (Summit Books, 1986). The "networking, not combat" formulation recurs throughout Margulis's writing on symbiogenesis. [@MargulisSagan1986]
 
-[^spang_loki]: Spang et al. (2015) reported the discovery of *Lokiarchaeota* from deep-sea sediments at Loki's Castle hydrothermal vent field; the genome revealed eukaryotic signature proteins (ESPs) including actin homologs involved in membrane remodeling in eukaryotes. [@Spang2015]
+[^spang_loki]: Spang et al. (2015) reported the discovery of *Lokiarchaeota* from deep-sea sediments about 15 km from Loki's Castle hydrothermal vent field; the genome revealed eukaryotic signature proteins (ESPs) including actin homologs involved in membrane remodeling in eukaryotes. [@Spang2015]
 
 [^zaremba_asgard]: The Asgard superphylum includes *Lokiarchaeota*, *Thorarchaeota*, *Odinarchaeota*, and *Heimdallarchaeota*, all named after Norse deities; see Zaremba-Niedzwiedzka et al. (2017). [@ZarembaNiedzwiedzka2017]
 
@@ -253,35 +253,35 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 
 [^takemura2020_nucleus]: Masaharu Takemura, "Medusavirus ancestor in a proto-eukaryotic cell: updating the hypothesis for the viral origin of the nucleus," *Frontiers in Microbiology* 11 (2020). Takemura argues that giant-virus factories provide a serious template for one route to nuclear origin. [@Takemura2020]
 
-[^parfrey_timing]: Molecular clock estimates for the origin of eukaryotes range from 1.6 to 2.7 Ga, with most analyses converging on ~2.0 Ga; see Parfrey et al. (2011). [@Parfrey2011]
+[^parfrey_timing]: Parfrey et al. (2011) estimate that the last common ancestor of living eukaryotes lived between 1866 and 1679 Ma, and note that putative 2700 Ma biomarkers conflict with molecular-clock dates. [@Parfrey2011]
 
-[^betts_timing]: Betts et al. (2018) estimate the last eukaryotic common ancestor (LECA) at 1.84 Ga using a calibrated molecular clock. [@Betts2018]
+[^betts_timing]: Betts et al. (2018) place crown-group eukaryotes after 1.84 Ga and the symbiotic origin of mitochondria between 2.053 and 1.21 Ga. [@Betts2018]
 
-[^newton_ruthia]: Newton et al. (2007) sequenced the *Ruthia magnifica* genome (1.16 Mb) and found it encodes a complete sulfur oxidation pathway and Calvin cycle, indicating metabolic autonomy. [@Newton2007]
+[^newton_ruthia]: Newton et al. (2007) sequenced the *Ruthia magnifica* genome (1.16 Mb) and found major chemoautotrophic pathways, including sulfur oxidation and the Calvin cycle, as well as pathways for vitamins, cofactors, and all 20 amino acids required by the clam. [@Newton2007]
 
 [^nakabachi_carsonella]: Nakabachi et al. (2006) reported the 160-kb genome of *Carsonella ruddii*, the smallest bacterial genome known at the time, lacking genes for DNA repair, cell wall synthesis, and most regulatory functions. [@Nakabachi2006]
 
-[^rumpho_kleptoplasty]: Rumpho et al. (2008) describe kleptoplasty in *Elysia chlorotica*, where stolen chloroplasts remain photosynthetically active for months. Early reports suggested algal genes had transferred to the slug's nuclear genome, but subsequent genome-scale analyses found no confirmed functional transfers (Bhatt et al. 2014; Chan et al. 2018). The chloroplasts likely persist on their own long-lived proteins and mRNAs. [@Rumpho2008; @Bhatt2014; @Chan2018]
+[^rumpho_kleptoplasty]: Rumpho et al. (2008) describe kleptoplasty in *Elysia chlorotica*, where stolen chloroplasts photosynthesize for months, and reported an algal gene in the slug. A later genome analysis of slug egg DNA found no evidence of algal genes in the germ line (Bhattacharya et al. 2013), and RNA-seq shows an active host response to the sequestered plastids (Chan et al. 2018). How the plastids stay active without the algal nucleus remains unresolved. [@Rumpho2008; @Bhattacharya2013; @Chan2018]
 
 [^nash_lichen]: Nash (2008) provides a comprehensive treatment of lichen biology, including tripartite lichens with fungal, algal, and cyanobacterial partners. [@Nash2008]
 
-[^childress_riftia]: *Riftia pachyptila* lacks a mouth, gut, and anus; all nutrition is supplied by endosymbiotic sulfur-oxidizing bacteria in the trophosome; see Childress et al. (1987). [@Childress1987]
+[^childress_riftia]: *Riftia pachyptila* lacks a mouth, gut, and anus; all nutrition is supplied by endosymbiotic sulfur-oxidizing bacteria in the trophosome; see Childress and Fisher (1987). [@Childress1987]
 
 [^arp_hemoglobin]: *Riftia* hemoglobin has separate binding sites for $\mathrm{O}_{2}$ and $\mathrm{H}_{2}\mathrm{S}$, allowing simultaneous transport of both; see Arp et al. (1987). [@Arp1987]
 
 [^dubilier_symbiosis]: Dubilier et al. (2008) review chemosynthetic symbioses in marine animals, emphasizing that vent and seep ecosystems are powered by bacterial primary production rather than photosynthesis. [@Dubilier2008]
 
-[^timmis_transfer]: Endosymbiotic gene transfer (EGT) moves genes from organellar genomes to the nucleus; thousands of genes have been transferred from the mitochondrial ancestor to the eukaryotic nucleus; see Timmis et al. (2004). [@Timmis2004]
+[^timmis_transfer]: Endosymbiotic gene transfer (EGT) moves genes from organellar genomes to the nucleus; many genes have been transferred from the mitochondrial ancestor to the eukaryotic nucleus; see Timmis et al. (2004). [@Timmis2004]
 
-[^lane_energetics]: Lane and Martin (2010) argue that the energetic advantage of mitochondria -- internalized ATP-producing membranes -- gives eukaryotes on the order of 200,000-fold more energy per gene than prokaryotes, relaxing the constraint on genome size and complexity. [@LaneMartin2010]
+[^lane_energetics]: Nick Lane and William Martin, "The energetics of genome complexity," *Nature* 467 (2010): 929-934, presents a hypothesis. Table 1 (p. 931) distinguishes power per cell, genome, and gene; the approximately 200,000-fold argument on that page compares an idealized bacterium scaled to a protozoan's size with a eukaryote, under surface-area and genomic assumptions. It is not a measured, universal fold difference between living prokaryotes and eukaryotes. [doi:10.1038/nature09486](https://doi.org/10.1038/nature09486). [@LaneMartin2010]
 
-[^lane_power]: Lane (2005) provides an accessible account of mitochondrial bioenergetics and the surface-area-to-volume constraint on prokaryotic cell size. [@Lane2005]
+[^lane_power]: Michael Lynch and Georgi K. Marinov, "Membranes, energetics, and evolution across the prokaryote-eukaryote divide," *eLife* 6 (2017): e20437, sections on membrane costs and energy production, Table 1, and Discussion, argues against an abrupt volumetric energetic boost using comparative measurements and biochemical cost accounting. Its 2018 correction, *eLife* 7: e35006, corrects ribosome/cell-volume data in Appendix 1 Table 3 and Fig. 2. Paul E. Schavemaker and Sergio A. Muñoz-Gómez, "The role of mitochondrial energetics in the origin and diversification of eukaryotes," *Nature Ecology & Evolution* 6 (2022): 1307-1317, pp. 1309-1310, Eqs. 1-3 and Fig. 3, and pp. 1314-1316, varies cell shape, division time, respiratory membrane fraction, and genomic assumptions. Its modeled constraints need not prevent initially small eukaryote-like cells, while mitochondria can benefit larger, faster-dividing cells. These are competing quantitative interpretations, not direct observations of ancestral cells. [doi:10.7554/eLife.20437](https://doi.org/10.7554/eLife.20437); [correction](https://doi.org/10.7554/eLife.35006); [doi:10.1038/s41559-022-01833-9](https://doi.org/10.1038/s41559-022-01833-9). [@LynchMarinov2017; @LynchMarinovCorrection2018; @SchavemakerMunozGomez2022]
 
 [^keeling_plastids]: Keeling (2010) reviews the origin and diversification of plastids via primary and secondary endosymbiosis; primary plastids arose once from a cyanobacterial ancestor. [@Keeling2010]
 
 [^archibald_plastid]: Archibald (2009) traces the evolutionary history of plastids, including multiple independent secondary endosymbiotic events in diverse eukaryotic lineages. [@Archibald2009]
 
-[^grosberg_multicell]: Grosberg and Strathmann (2007) document that complex multicellularity evolved independently at least 25 times, always in eukaryotes; prokaryotic multicellularity is limited to simple forms. [@Grosberg2007]
+[^grosberg_multicell]: Grosberg and Strathmann (2007) review the repeated evolution of multicellularity from unicellular ancestors and explain why organisms that develop clonally from a single cell show more cell differentiation than those that form by aggregation. [@Grosberg2007]
 
 [^imachi_mka]: Imachi et al. (2020) cultured *Candidatus Prometheoarchaeum syntrophicum*, the first Asgard archaeon grown in the laboratory. Rather than a phagocyte, it was a small, slow-growing organism that extended long membrane protrusions, suggesting that the initial archaeon-bacterium association may not have required engulfment. [@Imachi2020]
 
@@ -290,3 +290,5 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 [^coale2024]: Tyler H. Coale et al., "Nitrogen-fixing organelle in a marine alga," *Science* 384 (2024): 217--222. The authors identify UCYN-A inside *Braarudosphaera bigelowii* as a bona fide organelle, the nitroplast. [@Coale2024]
 
 [^massana2024]: Ramon Massana, "The nitroplast: A nitrogen-fixing organelle," *Science* 384 (2024): 160--161. A short perspective on why the nitroplast qualifies as an organelle and why it matters for understanding organellogenesis. [@Massana2024]
+
+[^integration_figure_genomes]: The selected chromosomes are *Candidatus Ruthia magnifica* strain Cm from *Calyptogena magnifica* (NC_008610.1, identical to CP000488.1; 1,160,782 bp, displayed as 1.16 Mb) and *Candidatus Carsonella ruddii* strain PV from *Pachypsylla venusta* (NC_008512.1, identical to AP009180.1; 159,662 bp, displayed as 160 kb). The organelle example is specifically human reference mtDNA, NC_012920.1 (16,569 bp, displayed as 16.6 kb), not the size of every mitochondrial genome or all DNA copies in an organelle. These are selected sequence lengths, not a ranking. The *Elysia* card represents acquired *Vaucheria litorea* plastids, not an inherited bacterial chromosome. [Human reference sequence](https://www.ncbi.nlm.nih.gov/nuccore/NC_012920.1). [@Newton2007; @Nakabachi2006; @Bhattacharya2013; @NCBIMtDNAReference]

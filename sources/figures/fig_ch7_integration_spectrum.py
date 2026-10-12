@@ -1,17 +1,16 @@
 """
-Figure: The spectrum of integration
+Figure: Different forms of symbiotic integration
 Chapter 7, The Merger
 
-Four symbioses placed along an Independence -> Organelle axis, with a schematic
-genome bar that shrinks as integration tightens. Numeric genome sizes are shown
-only where the manuscript provides them (Carsonella 160 kb, mitochondrion ~16 kb);
-the bars are schematic, not to scale. Palette matched to the other figures.
+Four categorical examples, not stages of one lineage or an integration metric.
+Genome labels identify selected chromosomes/reference mtDNA; no proportional bars.
+Elysia represents acquired plastids, not an inherited symbiont chromosome.
 """
 
 from pathlib import Path
 
 import matplotlib.pyplot as plt
-from matplotlib.patches import FancyArrowPatch, FancyBboxPatch, Rectangle
+from matplotlib.patches import FancyBboxPatch
 
 # ── palette (shared with the other figures) ───────────────────────────
 blue = "#2E6B8A"
@@ -34,79 +33,52 @@ ax.set_ylim(1.4, 6.6)
 ax.axis("off")
 
 fig.suptitle(
-    "The spectrum of integration",
+    "Different forms of symbiotic integration",
     fontsize=14,
     fontweight="bold",
     y=0.97,
     color=grey,
 )
 
-# ── four stations ───────────────────────────────────────────────────────
-# Genome bars are SCHEMATIC (not to scale); numeric size is given only for
-# Carsonella and the mitochondrion, where the manuscript provides one.
+# Four categorical examples; genome sizes are organism-specific labels.
 stations = [
     {
         "x": 2.55, "fc": green_bg, "ec": green,
         "name": "Ruthia magnifica",
-        "desc": "retains free-living metabolism;\nmetabolically autonomous",
-        "gw": 1.70, "glabel": "large genome",
+        "desc": "Clam endosymbiont;\ncore metabolic pathways encoded",
+        "basis": "Strain Cm chromosome\n1.16 Mb",
+        "italic": True,
     },
     {
         "x": 5.35, "fc": blue_bg, "ec": blue,
         "name": "Elysia chlorotica",
-        "desc": "steals chloroplasts;\nnon-heritable",
-        "gw": 1.18, "glabel": "borrowed parts",
+        "desc": "Plastids from V. litorea;\nacquired anew by feeding",
+        "basis": "No inherited symbiont\nchromosome represented",
+        "italic": True,
     },
     {
         "x": 8.15, "fc": sand_bg, "ec": sand,
         "name": "Carsonella ruddii",
-        "desc": "cannot replicate alone",
-        "gw": 0.66, "glabel": "160 kb",
+        "desc": "Obligate psyllid symbiont;\nstrong genome reduction",
+        "basis": "Strain PV chromosome\n160 kb",
+        "italic": True,
     },
     {
         "x": 10.95, "fc": red_bg, "ec": red,
-        "name": "Mitochondrion",
-        "desc": "fully integrated organelle",
-        "gw": 0.30, "glabel": "~16 kb",
+        "name": "Human mitochondrion",
+        "desc": "Organelle; depends on\nnuclear-encoded proteins",
+        "basis": "Human reference mtDNA\n16.6 kb",
+        "italic": False,
     },
 ]
 
 BOX_W, BOX_H = 2.46, 2.02
 box_cy = 5.05
-box_bottom = box_cy - BOX_H / 2
+label_y = box_cy - 0.60
 
-# genome-track geometry inside each card
-track_y = box_cy - 0.52          # vertical centre of the schematic bar
-track_h = 0.20
-track_inset = 0.34               # margin of the track from the card edges
-track_w = BOX_W - 2 * track_inset
-
-# ── the axis: independence -> organelle ────────────────────────────────
-axis_y = 2.55
-ax.add_patch(FancyArrowPatch(
-    (1.0, axis_y), (12.05, axis_y),
-    arrowstyle="-|>", mutation_scale=24, color=mid_grey,
-    linewidth=2.8, zorder=2))
-
-ax.text(1.0, axis_y - 0.50, "Independence", ha="left", va="top",
-        fontsize=11.5, fontweight="bold", color=green)
-ax.text(12.05, axis_y - 0.50, "Organelle", ha="right", va="top",
-        fontsize=11.5, fontweight="bold", color=red)
-ax.text(6.75, axis_y - 0.50, "increasing integration", ha="center", va="top",
-        fontsize=9.5, color=mid_grey, style="italic")
-
-# ── stations: leaders, axis dots, cards, genome bars ──────────────────────
+# Equal cards and ordinary labels do not encode genome length or integration.
 for s in stations:
     sx, ec = s["x"], s["ec"]
-
-    # leader: a clean solid stub straight down from the card to the axis dot
-    ax.plot([sx, sx], [box_bottom - 0.02, axis_y],
-            color=ec, linewidth=1.6, linestyle=(0, (1, 1.6)),
-            alpha=0.9, zorder=2, solid_capstyle="round")
-
-    # axis marker (drawn last per-station so the leader tucks underneath)
-    ax.plot(sx, axis_y, "o", markersize=11, color=ec,
-            markeredgecolor="white", markeredgewidth=1.8, zorder=5)
 
     # station card
     ax.add_patch(FancyBboxPatch(
@@ -116,47 +88,20 @@ for s in stations:
 
     # species name (italic) and description
     ax.text(sx, box_cy + 0.66, s["name"], ha="center", va="center",
-            fontsize=10.5, fontweight="bold", fontstyle="italic",
+            fontsize=10.5, fontweight="bold",
+            fontstyle="italic" if s["italic"] else "normal",
             color=ec, zorder=6)
     ax.text(sx, box_cy + 0.16, s["desc"], ha="center", va="center",
             fontsize=8.2, color=grey, linespacing=1.25, zorder=6)
 
-    # ── schematic genome bar (shrinking left -> right; NOT to scale) ──
-    track_x = sx - track_w / 2
-    # white track gives every bar a clean, equal-length frame to read against
-    ax.add_patch(FancyBboxPatch(
-        (track_x, track_y - track_h / 2), track_w, track_h,
-        boxstyle="round,pad=0.0,rounding_size=0.04",
-        facecolor="white", edgecolor=light_grey, linewidth=1.0, zorder=5))
-    # the filled portion uses the card's full edge colour (solid, no alpha)
-    gw = min(s["gw"], track_w)
-    ax.add_patch(Rectangle(
-        (track_x, track_y - track_h / 2 + 0.012), gw, track_h - 0.024,
-        facecolor=ec, edgecolor="none", zorder=6))
+    # Labels are not bars or scores.
+    ax.text(sx, label_y, s["basis"], ha="center", va="center",
+            fontsize=8.2, fontweight="bold", color=ec, linespacing=1.25, zorder=6)
 
-    # genome-size / status label below the bar
-    ax.text(sx, track_y - 0.30, s["glabel"], ha="center", va="top",
-            fontsize=8.2, fontweight="bold", color=ec, zorder=6)
+ax.text(6.75, 2.55, "Different associations, not evolutionary stages",
+        ha="center", va="center", fontsize=9.5, color=mid_grey)
 
-# ── row label for the genome track, anchored to the first card ────────────
-# Sits just left of the first card, vertically aligned with the bars, with a
-# short connector so it clearly belongs to the genome row (no longer orphaned).
-first = stations[0]
-label_x = first["x"] - BOX_W / 2 - 0.18
-ax.annotate(
-    "schematic\ngenome",
-    xy=(first["x"] - track_w / 2, track_y),
-    xytext=(label_x, track_y),
-    ha="right", va="center",
-    fontsize=8.2, color=mid_grey, style="italic", linespacing=1.2,
-    arrowprops=dict(arrowstyle="-", color=light_grey, linewidth=1.0,
-                    shrinkA=2, shrinkB=2),
-    zorder=6,
-)
-
-# Caption handled in markdown:
-# "Genome reduction tightens the bond, but only a handful of symbioses have
-#  crossed the threshold to organelle."
+# Caption and organism/reference-sequence evidence are supplied in Markdown.
 
 out_dir = Path(__file__).resolve().parents[1] / "img"
 out_dir.mkdir(parents=True, exist_ok=True)
