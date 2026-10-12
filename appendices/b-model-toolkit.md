@@ -2,7 +2,7 @@
 title: "Model Toolkit"
 ---
 
-This appendix collects the mathematical machinery behind the reaction--transport models discussed in "Modeling the Invisible" and "Cities Without Sunlight". Readers who skipped the Sidebar callouts can find the full framework here; readers who followed every sidebar can use this as a concise reference.
+This appendix collects the mathematical machinery behind the reaction--transport models discussed in "Modeling the Invisible" and "Cities Without Sunlight". It gathers the full framework in one place and can also serve as a concise reference.
 
 ## The diagenetic equation
 
@@ -80,6 +80,8 @@ $$
 
 where TED denotes the electron donor and TEA the terminal electron acceptor; TED is retained as the equation identifier [@Jin2005; @Thullner2007].
 
+Here $[B]$ is biomass per modeled volume and $k_{\text{resp}}$ is the maximum specific rate (electron donor per unit biomass per time), so $R_{\text{resp}}$ is donor consumed per modeled volume per time. As for hydrolysis below, declare whether the modeled volume is porewater or bulk sediment; biomass reported per mass of sediment must be converted with porosity and solid density before it enters a porewater balance.
+
 ### Hydrolysis (effective saturation closure)
 
 $$
@@ -95,8 +97,10 @@ The logistic gate formerly shown here is a heuristic, not a net thermodynamic ra
 ### Temperature dependence (Arrhenius)
 
 $$
-k = k^\circ \exp\!\left[-\frac{E_a}{R}\left(\frac{1}{T} - \frac{1}{298.15}\right)\right]
+k = k^\circ \exp\!\left[-\frac{E_a}{R}\left(\frac{1}{T} - \frac{1}{T_{\text{ref}}}\right)\right]
 $$
+
+where $k^\circ$ is the rate constant at the reference temperature $T_{\text{ref}} = 298.15$ K (25 °C), $T$ is absolute temperature, $E_a$ is the (apparent) activation energy and $R$ is the gas constant.
 
 Note: The Arrhenius equation is semi-empirical, derived for elementary reactions. Apparent $E_a$ values are generally calculated from rate measurements [@Arndt2013; @Leal2015].
 
@@ -108,11 +112,13 @@ $$
 \frac{\partial [B]}{\partial t} = Y \cdot R_{\text{resp}} - \mu_{\text{dec}} \cdot [B]
 $$
 
+With $R_{\text{resp}}$ in moles of electron donor per volume per time, $Y$ is biomass produced per mole of donor consumed, and $\mu_{\text{dec}}$ is a first-order decay constant with units of inverse time.
+
 Yield coefficient approaches:
 
-- Theoretical (energy-based), @Rittmann2001: $R^2 = 0.9$.
-- Theoretical (Gibbs dissipation), @Heijnen1992: $R^2 = 0.9$.
-- Empirical, @Roden2011: $Y = 0.28 + 0.0211 \cdot (-\Delta G')$.
+- Theoretical (energy-based), @Rittmann2001. Compared with 123 published yield determinations covering 38 catabolic pathways, this approach reproduced observed yields with slope 1.00 and $r^2 = 0.963$ after one energy-transfer efficiency ($\varepsilon = 0.39$) was fitted to the same compilation [@Roden2011].
+- Theoretical (Gibbs energy dissipation), @Heijnen1992, who report yield predictions within about 13% for 0.01-0.80 C-mol biomass per C-mol substrate in aerobic, anaerobic and denitrifying growth.
+- Empirical, @Roden2011: $Y = 2.08 + 0.0211\,(-\Delta G')$ with $r^2 = 0.949$, where $Y$ is in grams of dry cells per mole of electron donor and $-\Delta G'$ is the catabolic free-energy release in kJ per mole of electron donor under typical culture conditions. Most pathways fall within a factor of two of the line; growth-rate and maintenance effects are not included.
 
 Monod growth kinetics:
 
@@ -122,28 +128,24 @@ $$
 
 ## Mineral dissolution/precipitation rate laws
 
-Mineral reactions are commonly expressed using transition-state theory (TST) rate laws [@Leal2015]:
+Mineral reactions are commonly expressed with rate laws adapted from transition-state theory (TST) and generalized semi-empirically [@Leal2015]:
 
-$$
-r = k \cdot a_i \left(1 - \frac{Q}{K}\right)
-$$
+$$r = k\, a_i^{\,n_i}\left(1 - \Omega\right), \qquad \Omega = \frac{Q}{K}$$
 
-where $k$ is the rate constant, $a_i$ is the activity of a catalytic or inhibiting species, $Q$ is the ion activity product, and $K$ is the equilibrium constant. When $Q/K < 1$ the mineral dissolves; when $Q/K > 1$ it precipitates. Near-equilibrium behavior can be adjusted with empirical exponents:
+where $r$ is the rate per unit reactive mineral surface area (multiply by surface area per modeled volume for a volumetric rate), $k$ is the rate constant, $a_i$ is the activity of a catalytic ($n_i>0$) or inhibiting ($n_i<0$) species, $Q$ is the ion activity product and $K$ is the equilibrium constant. With this sign convention $r>0$ is dissolution ($\Omega<1$) and $r<0$ is precipitation ($\Omega>1$). Near-equilibrium behavior can be adjusted with empirical exponents $p$ and $q$; writing the sign separately keeps fractional powers defined on both sides of equilibrium:
 
-$$
-r = k \cdot a_i \left[\left(1 - \frac{Q}{K}\right)^\xi\right]^\nu
-$$
+$$r = \operatorname{sgn}(1-\Omega)\, k\, a_i^{\,n_i}\left|1 - \Omega^{p}\right|^{q}$$
 
 When aqueous speciation reactions are much faster than mineral reactions, modelers sometimes replace the fast aqueous reactions with algebraic equilibrium constraints (the partial-equilibrium assumption), solving only the slower mineral kinetics as differential equations.
 
 ## Software and tools
 
-Several geochemical modeling codes implement the frameworks described above:
+Several geochemical modeling codes implement parts of the frameworks described above:
 
-- **PHREEQC** (Parkhurst and Appelo, 1999, 2013)
-- **The Geochemist's Workbench** (Bethke, 2007)
-- **EQ6** (Wolery and Daveler, 1992)
-- **CHESS** (van der Lee and Windt, 2002)
+- **PHREEQC** for speciation, batch-reaction, one-dimensional transport and inverse calculations [@Parkhurst1999; @Parkhurst2013]
+- **The Geochemist's Workbench** for geochemical and biogeochemical reaction modeling [@Bethke2007]
+- **EQ6** for reaction-path modeling of aqueous geochemical systems [@Wolery1992]
+- **CHESS** for chemical equilibrium of species and surfaces [@vanderLee2002]
 - **CrunchFlow** for multicomponent reactive transport in porous media [@Steefel2005]
 - **PFLOTRAN** for massively parallel subsurface flow and reactive transport [@Hammond2014]
 
@@ -151,7 +153,7 @@ Increasingly, modelers do not choose a single monolithic code and stay inside it
 
 For readers who want to build and run their own reaction--transport simulations of the processes described in this book, the open-source **[PorousMediaLab](https://github.com/biogeochemistry/PorousMediaLab)** provides a Python-based framework for modeling biogeochemical reactions in porous media. It implements many of the rate expressions and transport equations presented here, and can serve as a hands-on companion to the mathematical theory.
 
-The frontier is moving again. Machine-learning surrogates and physics-informed neural networks are beginning to accelerate selected parts of reactive-transport workflows, especially where repeated forward solves are the main computational cost [@Adhikari2026]. These approaches do not replace conservation laws; they try to solve them faster.
+The frontier is moving again. Machine-learning methods are entering reactive-transport work: trained surrogates can stand in for repeated chemical calculations inside existing codes, and physics-informed neural networks offer a mesh-free way to solve the governing equations, as in a recent study of fast bimolecular reactions in porous media [@Adhikari2026]. These approaches do not replace conservation laws; physics-informed networks build them into the training objective.
 
 
 ## Oxygen pilot: sign and volume conventions
