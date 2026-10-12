@@ -1,0 +1,104 @@
+{
+  "revision": "SAT-MODEL-DATA-1",
+  "synthetic": true,
+  "default_dt_s": 100,
+  "model_sha256": "f782b776eaa8972be880a7c40272c1e9ea8ab01d07bd3e1dae8661c8793a0658",
+  "saved_results_zip_sha256": "5407c59986bc0094b01c084a4adc355da636a746ceab42c3c7e6113a9c88b6b1",
+  "payloads": [
+    {
+      "path": "results/OPEN-worked-step-values.csv",
+      "bytes": 3696,
+      "sha256": "62615608554034eca199566c65e14966a6cdf381e6b6a5adbe955f167b17717b"
+    },
+    {
+      "path": "results/blank-step-worksheet.csv",
+      "bytes": 1807,
+      "sha256": "7e6807a6910eef42662015d3fcfdb7129bdfe0a3b7956c723b70533cdaa17861"
+    },
+    {
+      "path": "results/case-manifest.json",
+      "bytes": 1931,
+      "sha256": "8eddb8f5a1a258316daf72ee7cda8def0a680e31900c170868d89faad09899ca"
+    },
+    {
+      "path": "results/high-large-step-ledger.csv",
+      "bytes": 3275,
+      "sha256": "4fec61f9c022068ebd2cefba7eea839a8a8ae0a8f470c3644773935069ec4ff9"
+    },
+    {
+      "path": "results/high-snapshots.csv",
+      "bytes": 121936,
+      "sha256": "f05bd10ca018080d9044c13a1b3c2f5c2575dcf49bb3534cb34aadc65e9ee6cb"
+    },
+    {
+      "path": "results/high-step-ledger.csv",
+      "bytes": 2749961,
+      "sha256": "2257c988f9738fe149378145bcef4170262cd954de3ab16653d198a5097ac607"
+    },
+    {
+      "path": "results/low-large-step-ledger.csv",
+      "bytes": 829,
+      "sha256": "6c39af0513cbde9f9bd408f66281c9051725bedb9b782fbd4bc50885db739dff"
+    },
+    {
+      "path": "results/low-snapshots.csv",
+      "bytes": 127191,
+      "sha256": "73a15d71a45e048f438c4d9a72fce10e7d2910d29d5a49c69f418cdb65bf27dd"
+    },
+    {
+      "path": "results/low-step-ledger.csv",
+      "bytes": 138733,
+      "sha256": "7694612a688928b14555df2127643ffaaf28899b012c9cbbc0e13db5d34c32fd"
+    },
+    {
+      "path": "results/rate-curve.csv",
+      "bytes": 1092,
+      "sha256": "a4e6a2e259d1add9ffbb699987ece275d00bdff31a93d673526cf88e78637401"
+    },
+    {
+      "path": "results/saved-csv-readback.json",
+      "bytes": 3737,
+      "sha256": "49f27a54f0c8129cd3394c1096e26e1046295421b565b1f22876dda3f3d1ff02"
+    },
+    {
+      "path": "results/thresholds.csv",
+      "bytes": 1437,
+      "sha256": "6f6c2f250ae6c60721375e2c94172d23878c5cf62ee582960ff873f355600235"
+    },
+    {
+      "path": "results/time-refinement.csv",
+      "bytes": 7110,
+      "sha256": "752624eada72771e9dc2ce292853f87ac4e737a48f656c193db285ae1fc937a9"
+    },
+    {
+      "path": "results/transition-large-step-ledger.csv",
+      "bytes": 834,
+      "sha256": "f13d7ca4aed6241538f753b967d86c4882049849293ce6710567626fac10e670"
+    },
+    {
+      "path": "results/transition-snapshots.csv",
+      "bytes": 124402,
+      "sha256": "7516f48580df612cd9ecdb4f1492bb21b9eaf273b26c18f97b96dfc4b5cfe100"
+    },
+    {
+      "path": "results/transition-step-ledger.csv",
+      "bytes": 162554,
+      "sha256": "ae6f6c3cbf8fa583d2f8f6ba0482c4913e0b42e5084123d75e9bbf258bbfa0b0"
+    },
+    {
+      "path": "results/verification.json",
+      "bytes": 54839,
+      "sha256": "3e42f96b5809d28bcdfeaa207f874501b2fd6539981c8de3d662dfc440b94bc8"
+    },
+    {
+      "path": "results/zero-capacity-ledger.csv",
+      "bytes": 508,
+      "sha256": "e53468291092553ac38afcd5755681b8517789c6ac09bfb97e5cca9ee37c4f22"
+    },
+    {
+      "path": "results/zero-substrate-ledger.csv",
+      "bytes": 490,
+      "sha256": "f70fe9c29c9015845fb0155fad2dc7861613eea02a0174982db95227b570d12d"
+    }
+  ]
+}

@@ -94,7 +94,7 @@ The reaction terms $R_i$ are where the biology enters the equation. In a sedimen
 
 We built the kinetic framework for these reactions in earlier chapters. The key expressions are:
 
-**Michaelis-Menten kinetics**[^michaelis1913_eq] for a single-substrate reaction:
+**Michaelis-Menten kinetics**[^michaelis1913_eq] for a reduced single-enzyme reaction, under suitable approximation conditions:
 
 $$
 r = V_{\max} \cdot \frac{[S]}{[S] + K_m}
@@ -106,7 +106,7 @@ $$
 r = k_{\max} \cdot [B] \cdot \frac{[\text{TED}]}{[\text{TED}] + K_{m,\text{TED}}} \cdot \frac{[\text{TEA}]}{[\text{TEA}] + K_{m,\text{TEA}}}
 $$
 
-where $[B]$ is biomass concentration, and both electron donor (TED) and acceptor (TEA) act as independent rate-limiting factors.[^thullner2007]
+where $[B]$ is biomass concentration. Electron donor (TED) and acceptor (TEA) are represented by a separable empirical product in this closure; independence is an assumption, not a result of the single-enzyme law.[^thullner2007] The retained $K_m$ labels denote half-saturation parameters on each stated substrate basis, not automatically enzyme constants.
 
 **The thermodynamic factor** $F_T$ requires an explicit energy convention. A net rate must vanish when the coupled process has no driving force. A logistic gate $1/(1+\exp(\Delta G_r/(RT)))$ would still give $1/2$ at chemical equilibrium, so we will not use it as that law.
 

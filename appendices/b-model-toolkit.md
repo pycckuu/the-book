@@ -80,13 +80,13 @@ $$
 
 where TED denotes the electron donor and TEA the terminal electron acceptor; TED is retained as the equation identifier [@Jin2005; @Thullner2007].
 
-### Hydrolysis (Michaelis--Menten)
+### Hydrolysis (effective saturation closure)
 
 $$
 R_{\text{hydr}} = k_{\text{cat}} \cdot [E] \cdot \frac{[\text{POM}]}{[\text{POM}] + K_m^{\text{POM}}}
 $$
 
-where $k_{\text{cat}}$ is the turnover number, $[E]$ is enzyme concentration, and POM is particulate organic matter [@Dale2006; @Thullner2007].
+where $k_{\text{cat}}$ is the turnover number, $[E]$ is enzyme concentration, and POM is particulate organic matter [@Dale2006; @Thullner2007]. For use as an effective hydrolysis closure, declare the POM amount and phase-volume basis, the enzyme amount per modeled volume, and the assumed accessible fraction. $K_m^{\text{POM}}$ must share the POM concentration units. The resulting rate has the enzyme amount units per modeled volume per time; a POM conversion requires a consistent substrate-equivalent basis. Particulate POM is not free dissolved substrate in a homogeneous enzyme assay. This closure does not resolve accessibility or enzyme adsorption, so neither an assay $K_m$ nor the batch example's $K$ can be transferred without separate justification.
 
 ### Thermodynamic factor
 
