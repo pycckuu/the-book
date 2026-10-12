@@ -1,12 +1,12 @@
 # Oxygen diffusion and consumption: bilingual module 1.0
 
-This module connects Chapter 8's story about porewater profiles to a verifiable one-dimensional oxygen model, seven exercises and a separate instructor key. It uses constant water-filled porosity, tortuosity-corrected diffusivity and aggregate first-order oxygen consumption. A normalized steady profile constrains alpha = k/D_s; the oxygen sink does not uniquely identify a metabolism.
+This module connects Chapter 8's story about porewater profiles to a verifiable one-dimensional oxygen model, seven exercises and separately titled open worked answers. It uses constant water-filled porosity, tortuosity-corrected diffusivity and aggregate first-order oxygen consumption. A normalized steady profile constrains alpha = k/D_s; the oxygen sink does not uniquely identify a metabolism.
 
-- [English student and instructor entry point](en/README.md)
-- [Russian student and instructor entry point](ru/README.md)
+- [English exercises and open answers](en/README.md)
+- [Russian exercises and open answers](ru/README.md)
 - [Bilingual glossary](glossary-bilingual.tsv)
 - [Literature appraisal](literature/literature-review.md) and [source-to-claim ledger](literature/source-to-claim.csv)
-- [Optional measured-summary version exercise](optional-observed-data/data-comparison-task.md), with separate instructor solutions
+- [Optional measured-summary version exercise](optional-observed-data/data-comparison-task.md), with [open worked answers](optional-observed-data/data-comparison-solutions.md)
 
 From `en/`, run `python3 model/oxygen_model.py --out my-run`. For instructor checks, run `python3 check_teaching.py`. For the optional version audit, run `python3 optional-observed-data/compare_measured.py` from this directory. All numerical scripts use Python 3.9+ and the standard library. Figure regeneration separately requires matplotlib and numpy.
 
