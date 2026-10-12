@@ -4,11 +4,16 @@
     "model.py": "2d4ccddfba16e42e5ff65d63fc7dc3216efa95a1a080d95ecad87464f06512f0",
     "run.py": "924d2fe9f872bf135dd57e272a3bd1314bb06b3d78338d7d7dff9b45979f73ac",
     "check_saved.py": "15cf0c5cf7ca7009caed8c82d3582c32e49b1dc29ea784fd2b07582a8629156d",
-    "prospective-plan.json": "1825278d283bb7354498942834946a8a4c577da90b4b8d56d9bca816cdccdce7",
-    "inputs/proposed-settings.json": "6ea9a4a4efc57d473e90750d22802b01ab45c29d20f27068b4069e0161cb3fdf",
-    "inputs/benchmark-plan.json": "5095b612af54130fa24778c2954e1b619d0abb5a8244e5cfc66281f0988f29db",
-    "inputs/export-schema.json": "69408cf02e7b78190f890812e16841380d3411f9f95cf77e037e934f0cbaca51",
+    "prospective-plan.json": "3155e0842a4d11a2c49f7d73744a3264accdb84c9735c40e99b1c770c6e2431b",
+    "inputs/proposed-settings.json": "c15b333046e7b267bfb8a399dde51167337d078048b8d315eec39278a7ab05df",
+    "inputs/benchmark-plan.json": "46712efd45fda94e423a23ac52935edda06dbaa0752add4bf514bd80a71d334a",
+    "inputs/export-schema.json": "775a31cd2b5d5d9b3b52530f7c8d6c9135cbd5c22570f6ee90b7ba476cbec3df",
     "inputs/clarifications.json": "3d10343261299a25147b91b162f35966b3a1c88652ca55bc50e15739c67d84dd"
   },
-  "scope": "Immutable scientific settings and criteria, positive two-state update, independent exponential/integrated reference and CSV-only checker. Existing output directories are rejected."
+  "scope": "Immutable scientific settings and criteria, positive two-state update, independent exponential/integrated reference and CSV-only checker. Existing output directories are rejected.",
+  "presentation_only_provenance": {
+    "path": "presentation-only-input-mapping.json",
+    "sha256": "36e14da4bd0fb299ec73027635dafef03d397784ec8baa1fe630dc3061f1a0eb",
+    "scope": "Post-execution presentation copy only; original executed identities are retained in the mapping."
+  }
 }

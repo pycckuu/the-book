@@ -6,3 +6,5 @@ courses/saturation-kinetics/model/results/*.csv whitespace=cr-at-eol
 # Preserve supplied worksheet bytes and their native CRLF endings.
 courses/saturation-kinetics/en/worksheets/*.csv -text whitespace=cr-at-eol
 courses/saturation-kinetics/ru/worksheets/*.csv -text whitespace=cr-at-eol
+courses/energy-constraints/en/data/*.csv -text whitespace=cr-at-eol
+courses/energy-constraints/ru/data/*.csv -text whitespace=cr-at-eol

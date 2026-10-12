@@ -128,7 +128,7 @@
           1.2
         ],
         "order_floor_rule": "Only use errors above 1e-12; equilibrium order null, not 1. If informative core concentration orders cannot be resolved, default gate unresolved/FAIL, never automatically waived. Report G_ex/throughput refinement errors without asserting the same order threshold for cancellation-dominated diagnostics.",
-        "default_rule": "All B01-B08 plus B06 and its half-step B07 must pass before proposing a default; EIC independently accepts it. Apply exact bounded candidate policy in proposed-settings.json."
+        "default_rule": "All B01-B08 plus B06 and its half-step B07 must pass before proposing a default; the course editor independently accepts it. Apply exact bounded candidate policy in proposed-settings.json."
       }
     },
     {
@@ -152,5 +152,5 @@
   ],
   "execution_authority": false,
   "numerical_or_default_verdict": null,
-  "change_control": "Reviewer critique before implementation; EIC acceptance and implementation authority separate. Any changed equations, cases, supports, tolerance or export meaning require an explicit affected contract delta."
+  "change_control": "Scientific reviewer critique before implementation; course editor acceptance and implementation authority separate. Any changed equations, cases, supports, tolerance or export meaning require an explicit affected contract delta."
 }
