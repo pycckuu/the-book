@@ -22,6 +22,8 @@ Plot $1/V$ against $1/[\text{S}]$ and you get a line with:
 
 This is the Lineweaver-Burk (or double-reciprocal) plot. It was historically important because it allowed $K_m$ and $V_{\max}$ to be extracted from experimental data using a ruler and graph paper. Modern curve-fitting software has made the graphical method less necessary, but the plot remains a powerful diagnostic tool because different types of inhibition produce visually distinct patterns [@Nelson2017].
 
+For positive substrate and rate, reciprocal linearization is an algebraic identity. It does not preserve additive rate errors: a small rate error is multiplied approximately by $1/V^2$ after inversion. Low-rate observations can therefore dominate an unweighted reciprocal fit. Fit the original rate law with an explicit observation-error model when estimating parameters.
+
 ## Competitive inhibition
 
 A competitive inhibitor is a molecule that resembles the substrate closely enough to bind the active site but cannot be catalyzed. While the inhibitor occupies the active site, the substrate is locked out. The effect: the enzyme appears to have a higher $K_m$ (it needs more substrate to reach half-saturation) but $V_{\max}$ is unchanged -- if you add enough substrate, you can always outcompete the inhibitor [@Nelson2017].

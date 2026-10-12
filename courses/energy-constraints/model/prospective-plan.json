@@ -1,0 +1,18 @@
+{
+  "id": "ENERGY-NUMERICAL-PRE-RUN-CONTROLS",
+  "status": "FROZEN_BEFORE_FIRST_SOLVE",
+  "input_pins": {
+    "inputs/export-schema.json": "69408cf02e7b78190f890812e16841380d3411f9f95cf77e037e934f0cbaca51",
+    "inputs/clarifications.json": "3d10343261299a25147b91b162f35966b3a1c88652ca55bc50e15739c67d84dd",
+    "inputs/benchmark-plan.json": "5095b612af54130fa24778c2954e1b619d0abb5a8244e5cfc66281f0988f29db",
+    "inputs/proposed-settings.json": "6ea9a4a4efc57d473e90750d22802b01ab45c29d20f27068b4069e0161cb3fdf"
+  },
+  "unchanged_controls": "Numerical settings, all B01-B08 criteria, four schema families and five scientific clarifications preserve the original pre-run controls. This portable copy excludes private coordination metadata.",
+  "implementation": "Independent two-state BE map; independent exponential and integrated-throughput reference; direct compensated Gibbs with initial-C equilibrium. Native endpoints and labeled interpolated common supports; gross increments accumulated independently of state differences.",
+  "order": "400,200,100,50,25 s for each forward/reverse/equilibrium. Candidate100 tested against50 and order100/50/25. Only the declared bounded halving policy if candidate fails. All actual outcomes retained, including passing coarse candidates.",
+  "auxiliary": "A_only/B_only/empty: two complete100000s steps at20tau. Partial_final_step:400s nominal, exact8/lambda+1/(3lambda) endpoint and actual last h.",
+  "reference_stability": "u=-expm1(-z)/lambda; v small-z convergent series. Direct species Gibbs term eq*((1+y)*log1p(y)-y) with small-y series and continuous c=0 limit; no clipping or epsilon. Binary Gibbs only analytical reference check.",
+  "verification": "Declared raw residual/minimum, scales/criteria and supports exported. Independent saved-CSV arithmetic/reference/refinement reconstruction. One fresh-output reproducibility comparison after passed checks; no empirical/learner claim.",
+  "output": "Four full CSV families, verification.json and separate blank/OPEN two-forward-step views. The verified100s policy is fixed, not coarsest passing; full raw tables are in saved-results.zip.",
+  "code_freeze": "Exact implementation/reference/checker hashes recorded in execution-manifest.json before first numerical command. Code corrections, if necessary, retain prior execution logs and hashes rather than replacing failure history."
+}

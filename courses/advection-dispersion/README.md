@@ -7,7 +7,7 @@ This module follows the oxygen module with a moving pulse in a finite saturated 
 - [Shared model and supplied outputs](model/README.md)
 - [Finite-column contract](model/contract-and-evidence/model-contract.md)
 
-The default English book includes the exercises followed by their worked answers. Both are openly available. Both language source packages are integrated locally. Both language modules pass bounded HTML/PDF/EPUB build and portability checks. The final independent review is pending. Book readings must accompany the course assets.
+The default English book includes the exercises followed by their worked answers. Both are openly available. Both language modules pass bounded HTML/PDF/EPUB build and portability checks, and the integrated module has passed independent review. The English book additions are published in release [v0.55](https://github.com/pycckuu/the-book/releases/tag/v0.55). Russian materials form a separate module, rather than a Russian whole-book edition. Book readings must accompany the course assets.
 
 Six exercises total 100 points and 270 planned minutes, with an optional 20-minute prerequisite bridge. The learner protocol is planned and unexecuted. All numerical observations are synthetic; no field validity or learning gain is claimed.
 
