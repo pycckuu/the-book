@@ -1,0 +1,77 @@
+{
+  "revision": "SAT-PRE-RUN-1",
+  "frozen_before_first_solve_utc": "2026-10-10T21:06:04.858527+00:00",
+  "base": "c7593acde2386107fc85105df54ee9f493e03e6f",
+  "code_sha256": "f782b776eaa8972be880a7c40272c1e9ea8ab01d07bd3e1dae8661c8793a0658",
+  "saved_csv_check_sha256": "fd3e0dd7ab3fd2f80dc82730a7c59604531941d24b08f562b9e31355972b773a",
+  "inputs": {
+    "implementation_acceptance": "98302ecec6e1243e6e7ac615e5e00c4f837607cd2d9c3a4321628d2eebac3944",
+    "model_contract": "31239b02849566063ab6b7672f1144b22cafc88f5eb764fb7cd10dea2ccb3bb8",
+    "benchmark_plan": "8b6e13282c3140b9d69f20df89e0ce23ad9df1a2fdb7650fd6882da2c568eb4e",
+    "contract_manifest": "abb01c5bf6985818799585f68c23af8839b3707b347938694d9a08e39122d947"
+  },
+  "values": {
+    "K_mol_m3": 0.1,
+    "qmax_mol_m3_s": 1e-05,
+    "V_liquid_m3": 0.001,
+    "ratios_S0_over_K": [
+      0.01,
+      1,
+      100
+    ],
+    "synthetic": true
+  },
+  "trajectory_window": "T=t_0.01 analytical for each case; fixed across refinements; partial step ends exactly at T",
+  "event_window": "T+max(0.02*T,4000s), fixed across refinements; event rows excluded from trajectory norms",
+  "default_first_candidate_dt_s": 100,
+  "order_series_dt_s": [
+    400,
+    200,
+    100,
+    50,
+    25
+  ],
+  "if_candidate_fails": "preserve all failed metrics, halve step, compare half-step and direct reference without relaxing gates; at most10candidate attempts then explicit unresolved failure",
+  "common_halfstep_norm": "maximum |S_h-S_h/2|/S0 on sorted union of both trajectory endpoint grids plus same401 uniformly spaced snapshots, declared linear interpolation; no extrapolation",
+  "direct_reference_norms": "separate all-trajectory endpoint and401 fixed-snapshot maxima; max<=0.005S0; tail relative errors diagnostics only",
+  "order_norm": "maximum error over fixed401 snapshots, identical physical support at every step; last2orders .8..1.2, no silent roundoff fallback",
+  "large_step": "dt/tau=10 for all3positive cases, unchanged T and event horizon, final partial steps. Positivity/accounting/update only, no accuracy/default claim.",
+  "zero_branches": "S0=0 and qmax=0, dt100s, fixedT250s, last partial50s; exact identity/zero increments; fractional times null/reason",
+  "input_range": {
+    "K_mol_m3": [
+      1e-06,
+      10
+    ],
+    "qmax_mol_m3_s": [
+      1e-10,
+      0.01
+    ],
+    "zero_capacity_allowed": true,
+    "V_liquid_m3": [
+      1e-06,
+      1
+    ],
+    "S0_over_K": [
+      0,
+      100
+    ],
+    "dt_s": "finite positive"
+  },
+  "criteria": "unchanged accepted benchmark-plan.md SHA8b6e13282c3140b9d69f20df89e0ce23ad9df1a2fdb7650fd6882da2c568eb4e",
+  "B01_B08": [
+    "units/halfmax/limits",
+    "independent log-root trajectory",
+    "analytical threshold/positive tail",
+    "independent BE increments and amounts",
+    "common-support refinement/fixed-snapshot order",
+    "strict positivity/monotonicity without clipping",
+    "rate excess/analytical bounds",
+    "zero/invalid/partial step"
+  ],
+  "reference": "log bisection, bracket[-qmax*t/K,0], residual<=1e-12 max(S0,K), logwidth<=1e-12, max200iterations, no underflow-as-exhaustion",
+  "outputs": "default3full interval ledgers and401snapshots each, threshold/rate/refinement tables,3large-step and2zero ledgers, blank worksheet/separate OPEN worked values,case-manifest and verification; no optional static three-K tables",
+  "limitations": "substrate-equivalent accounting only; no products/growth/transport/field/mechanistic-reduction validation",
+  "status": "PORTABLE_METADATA_COPY_OF_FROZEN_PRE_RUN_NOT_NEW_NUMERICAL_EVIDENCE",
+  "portable_copy_of_pre_run_sha256": "592b1b95d208a329fb9c9d0b00d7a66906f595c2176145cabc011ab67ff01800",
+  "input_pin_basis": "Archived input identities, labeled without private filesystem paths. These labels are not runtime file dependencies."
+}

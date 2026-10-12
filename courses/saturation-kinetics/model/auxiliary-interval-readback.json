@@ -1,0 +1,50 @@
+{
+  "revision": "SAT-AUXILIARY-INTERVAL-READBACK-1",
+  "cases": [
+    {
+      "case": "low",
+      "nominal_dt_over_tau": 10,
+      "actual_dt_over_tau": [
+        4.615070185988092,
+        0.4
+      ],
+      "maximum_actual_dt_over_tau": 4.615070185988092,
+      "full_nominal_steps": 0,
+      "input_sha256": "6c39af0513cbde9f9bd408f66281c9051725bedb9b782fbd4bc50885db739dff"
+    },
+    {
+      "case": "transition",
+      "nominal_dt_over_tau": 10,
+      "actual_dt_over_tau": [
+        5.595170185988091,
+        0.4
+      ],
+      "maximum_actual_dt_over_tau": 5.595170185988091,
+      "full_nominal_steps": 0,
+      "input_sha256": "f13d7ca4aed6241538f753b967d86c4882049849293ce6710567626fac10e670"
+    },
+    {
+      "case": "high",
+      "nominal_dt_over_tau": 10,
+      "actual_dt_over_tau": [
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        10.0,
+        3.605170185988082,
+        2.072103403719759
+      ],
+      "maximum_actual_dt_over_tau": 10.0,
+      "full_nominal_steps": 10,
+      "input_sha256": "4fec61f9c022068ebd2cefba7eea839a8a8ae0a8f470c3644773935069ec4ff9"
+    }
+  ],
+  "interpretation": "verification.json auxiliary dt_over_tau=10 denotes the nominal requested step. Fixed trajectory/event boundaries shorten actual steps. Low/transition horizons prevent any full100000s step. The high-start case includes10 full100000s steps. No horizon expanded and no auxiliary accuracy claim.",
+  "computed_from": "saved interval CSV only, no numerical rerun"
+}
