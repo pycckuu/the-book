@@ -1,10 +1,10 @@
 """
-Figure: The B. subtilis cannibalism decision tree
+Figure: B. subtilis cannibalism and nutrient recycling
 Chapter 6, Cannibals and Voters
 
-Same genome, same signal, two fates. A stochastic Spo0A~P split sends one
-subpopulation to kill (SdpC toxin) and feed on its lysed siblings, delaying
-sporulation, while sporulation waits as the deferred alternative. Clean
+Shared genome, heterogeneous regulatory responses. Toxin production and
+immunity create different outcomes; the branches are not Spo0A attractors.
+Nutrients can postpone sporulation before commitment. Clean
 left -> right schematic; deterministic coordinates (no RNG) for reproducible
 output. Palette matched to the other figures.
 """
@@ -39,7 +39,7 @@ ax.set_aspect("equal")
 ax.axis("off")
 
 fig.suptitle(
-    "The cannibalism decision tree",
+    "Cannibalism and nutrient recycling",
     fontsize=14,
     fontweight="bold",
     y=0.965,
@@ -94,29 +94,29 @@ def labeled_arrow(p0, p1, color, label, lx, ly, ha="center", va="center",
 
 
 # ── layout anchors (deterministic) ─────────────────────────────────────
-y_mid = 4.55      # axis of the uniform population / switch
-y_high = 6.35     # high Spo0A~P (deciders) row
-y_low = 2.55      # low Spo0A~P (victims) row
+y_mid = 4.55      # axis of population / response branch
+y_high = 6.35     # toxin-producing survivors row
+y_low = 2.55      # susceptible siblings row
 
 x_pop = 1.30      # uniform population
-x_switch = 3.55   # stochastic switch column position (split origin)
-x_high = 6.10     # decider cell cluster
+x_switch = 3.55   # response branch position (split origin)
+x_high = 6.10     # survivor cell cluster
 x_low = 6.10      # victim cell cluster
 
-# ── stage 1: a starving, uniform population ────────────────────────────
+# ── stage 1: a starving population ────────────────────────────
 rod_column(x_pop, y_mid, 5, cell_grey_bg, mid_grey)
-ax.text(x_pop, y_mid + 1.55, "identical cells", ha="center", va="bottom",
+ax.text(x_pop, y_mid + 1.55, "shared genome", ha="center", va="bottom",
         fontsize=11, fontweight="bold", color=grey)
-ax.text(x_pop, y_mid - 1.58, "uniform, starving", ha="center", va="top",
+ax.text(x_pop, y_mid - 1.58, "starving population", ha="center", va="top",
         fontsize=9, color=mid_grey, style="italic")
 
-# ── the stochastic switch ──────────────────────────────────────────────
+# ── heterogeneous regulatory responses ──────────────────────────────────────────────
 ax.add_patch(FancyArrowPatch((x_pop + 0.85, y_mid), (x_switch - 0.32, y_mid),
              arrowstyle="-|>", mutation_scale=18, linewidth=2.2,
              color=grey, zorder=3))
-ax.text((x_pop + 0.85 + x_switch - 0.32) / 2, y_mid + 0.42, r"Spo0A~P",
+ax.text((x_pop + 0.85 + x_switch - 0.32) / 2, y_mid + 0.42, "regulation",
         ha="center", va="bottom", fontsize=10.5, fontweight="bold", color=grey)
-ax.text((x_pop + 0.85 + x_switch - 0.32) / 2, y_mid - 0.40, "stochastic switch",
+ax.text((x_pop + 0.85 + x_switch - 0.32) / 2, y_mid - 0.40, "varied responses",
         ha="center", va="top", fontsize=9, color=mid_grey, style="italic")
 
 # small dial node marking the branch point
@@ -125,7 +125,7 @@ ax.add_patch(Circle((x_switch, y_mid), 0.20, facecolor="white",
 ax.add_patch(Circle((x_switch, y_mid), 0.055, facecolor=grey,
              edgecolor="none", zorder=6))
 
-# split into two fates — two clearly-headed branch arrows
+# schematic outcomes, not two regulatory attractors
 ax.add_patch(FancyArrowPatch((x_switch + 0.18, y_mid + 0.12),
              (x_high - 0.50, y_high - 0.18),
              arrowstyle="-|>", mutation_scale=18, linewidth=2.2,
@@ -135,21 +135,21 @@ ax.add_patch(FancyArrowPatch((x_switch + 0.18, y_mid - 0.12),
              arrowstyle="-|>", mutation_scale=18, linewidth=2.2,
              connectionstyle="arc3,rad=0.20", color=mid_grey, zorder=3))
 
-# ── upper fate: high Spo0A~P deciders (killers) ────────────────────────
+# ── upper outcome: toxin-producing cells with immunity ────────────────────────
 rod_column(x_high, y_high, 3, blue_bg, blue)
-ax.text(x_high, y_high + 1.05, r"high Spo0A~P", ha="center", va="bottom",
+ax.text(x_high, y_high + 1.05, "toxin producers", ha="center", va="bottom",
         fontsize=11, fontweight="bold", color=blue)
-ax.text(x_high, y_high + 0.78, "deciders", ha="center", va="bottom",
+ax.text(x_high, y_high + 0.78, "immunity active", ha="center", va="bottom",
         fontsize=9, color=blue, style="italic")
 
-# ── lower fate: low Spo0A~P (victims) ──────────────────────────────────
+# ── lower outcome: susceptible siblings ──────────────────────────────────
 rod_column(x_low, y_low, 3, cell_grey_bg, mid_grey)
-ax.text(x_low, y_low - 0.78, r"low Spo0A~P", ha="center", va="top",
+ax.text(x_low, y_low - 0.78, "susceptible siblings", ha="center", va="top",
         fontsize=11, fontweight="bold", color=mid_grey)
-ax.text(x_low, y_low - 1.05, "victims", ha="center", va="top",
+ax.text(x_low, y_low - 1.05, "insufficient immunity", ha="center", va="top",
         fontsize=9, color=mid_grey, style="italic")
 
-# ── SdpC toxin: secreted by the deciders, kills the victims ────────────
+# ── Sdp toxin: production and susceptible neighbors ────────────
 # Dotted arrow runs in a clean vertical LANE just left of the clusters,
 # clearly headed downward from the high row to the low row. Its label sits
 # to the LEFT in open space, so toxin owns its own lane (no crossings).
@@ -168,7 +168,7 @@ for k in range(n_dots):
     off = -0.045 if k % 2 == 0 else 0.045
     ax.add_patch(Circle((toxin_x + off, ty), 0.056,
                  facecolor=red, edgecolor="none", zorder=5))
-ax.text(toxin_x - 0.30, y_mid, "SdpC\ntoxin", ha="right", va="center",
+ax.text(toxin_x - 0.30, y_mid, "Sdp\ntoxin", ha="right", va="center",
         fontsize=10, fontweight="bold", color=red, linespacing=1.12, zorder=6)
 
 # ── lysis releases nutrients ───────────────────────────────────────────
@@ -187,20 +187,20 @@ for dx, dy, r in [(-0.34, 0.12, 0.36), (0.26, 0.20, 0.32),
 ax.text(x_nutri, y_low - 0.92, "nutrients released", ha="center", va="top",
         fontsize=10, fontweight="bold", color=green, zorder=6)
 
-# ── nutrients feed the deciders (feedback) ─────────────────────────────
-# Routed through the open mid-right space and into the decider cluster's
+# ── nutrients feed the survivors (feedback) ─────────────────────────────
+# Routed through the open mid-right space and into the survivor cluster's
 # RIGHT edge, staying clear of the toxin lane (left of clusters) and below
 # the blue outcome arrow — so nothing crosses.
 ax.add_patch(FancyArrowPatch((x_nutri - 0.20, y_low + 0.78),
              (x_high + 0.48, y_high - 0.55),
              arrowstyle="-|>", mutation_scale=18, linewidth=2.2,
              connectionstyle="arc3,rad=0.26", color=green, zorder=3))
-ax.text(7.35, y_mid + 0.30, "consumed", ha="center", va="center",
+ax.text(7.35, y_mid + 0.30, "used by survivors", ha="center", va="center",
         fontsize=9.5, fontweight="bold", color=green, style="italic", zorder=6,
         bbox=dict(boxstyle="round,pad=0.15", facecolor="white", edgecolor="none",
                   alpha=0.85))
 
-# ── decider outcome: delay sporulation / keep growing ──────────────────
+# ── survivor outcome: delay sporulation / keep growing ──────────────────
 box_x, box_y = 9.95, y_high
 box_w, box_h = 3.0, 1.0
 ax.add_patch(FancyArrowPatch((x_high + 0.55, y_high), (box_x - 0.12, y_high),
@@ -210,7 +210,7 @@ ax.add_patch(
     FancyBboxPatch((box_x, box_y - box_h / 2), box_w, box_h,
                    boxstyle="round,pad=0.06,rounding_size=0.12",
                    facecolor=green_bg, edgecolor=green, linewidth=2.0, zorder=4))
-ax.text(box_x + box_w / 2, box_y, "delay sporulation\nkeep growing",
+ax.text(box_x + box_w / 2, box_y, "can delay sporulation\nbefore commitment",
         ha="center", va="center", fontsize=10.5, fontweight="bold",
         color=green, linespacing=1.22, zorder=5)
 
@@ -218,18 +218,21 @@ ax.text(box_x + box_w / 2, box_y, "delay sporulation\nkeep growing",
 spore_cx, spore_cy = box_x + box_w / 2, 3.65
 ax.add_patch(Ellipse((spore_cx, spore_cy), 1.85, 1.0, facecolor=sand_bg,
              edgecolor=sand, linewidth=1.6, alpha=0.85, zorder=3))
-ax.text(spore_cx, spore_cy, "sporulation\n(deferred)", ha="center", va="center",
+ax.text(spore_cx, spore_cy, "may proceed\nto spores", ha="center", va="center",
         fontsize=9.5, color=sand, style="italic", linespacing=1.2, zorder=4)
 ax.add_patch(FancyArrowPatch((spore_cx, box_y - box_h / 2 - 0.06),
              (spore_cx, spore_cy + 0.55),
              arrowstyle="-|>", mutation_scale=15, color=sand,
              linewidth=1.8, linestyle=(0, (4, 3)), zorder=3))
 ax.text(spore_cx + 0.18, (box_y - box_h / 2 + spore_cy + 0.55) / 2,
-        "the deferred\nalternative", ha="left", va="center", fontsize=8.5,
+        "if starvation\ncontinues", ha="left", va="center", fontsize=8.5,
         color=sand, style="italic", linespacing=1.15, zorder=5)
 
+ax.text(6.6, 0.45, "Schematic outcomes, not two stable Spo0A states",
+        ha="center", va="center", fontsize=8.5, color=mid_grey)
+
 # Caption handled in markdown:
-# "Same genome, same signal, two fates. The stochastic switch is the strategy."
+# "Same genome, different responses. Toxin production and immunity can divide a starving population into killers and susceptible siblings."
 
 out_dir = Path(__file__).resolve().parents[1] / "img"
 out_dir.mkdir(parents=True, exist_ok=True)
