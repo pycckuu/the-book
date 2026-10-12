@@ -1,0 +1,209 @@
+{
+  "proposal_id": "ENERGY-CONTRACT-0.1",
+  "status": "SCHEMA_ONLY_NO_ROWS_RESULTS_OR_NEW_EXERCISES",
+  "purpose": "Small reusable CSV support, unit dictionary and input/provenance JSON. Future code/numerics are a separate authorized packet; ledgers may travel in a data companion ZIP, not raw large textual PR diffs.",
+  "format": {
+    "csv": "UTF-8, comma separated, header row, 17 significant digits, dot decimal; no thousands separators",
+    "json": "UTF-8; null allowed with explicit reason; reject NaN/Infinity",
+    "common_row_keys": [
+      "case_id",
+      "run_id",
+      "sample_kind",
+      "time_s",
+      "synthetic"
+    ],
+    "synthetic": "Every result row is labeled synthetic=true; parameter source is illustrative assumption. No measured observations.",
+    "null_reasons": [
+      "zero_A_activity",
+      "zero_B_activity",
+      "empty_batch",
+      "zero_initial_deviation",
+      "zero_initial_free_energy",
+      "below_metric_floor",
+      "not_applicable_initial_step"
+    ],
+    "initial_row": "time=0 states and cumulative gross/net amounts are included. No preceding increment exists, so step increments, h, endpoint energy and gap null with not_applicable_initial_step. Mathematical cumulative zeros are numeric 0."
+  },
+  "unit_dictionary": {
+    "c_A": "mol m^-3 liquid",
+    "c_B": "mol m^-3 liquid",
+    "n_A": "mol equivalent",
+    "n_B": "mol equivalent",
+    "a_A": "1",
+    "a_B": "1",
+    "Q": "1",
+    "delta_rG": "J mol^-1 written A->B",
+    "r_plus": "mol m^-3 s^-1",
+    "r_minus": "mol m^-3 s^-1",
+    "r_net": "mol m^-3 s^-1",
+    "Xi_plus": "mol gross equivalent",
+    "Xi_minus": "mol gross equivalent",
+    "xi_net": "mol net written reaction",
+    "G_ex": "J Gibbs relative to declared equilibrium",
+    "D_state": "J Gibbs decrease",
+    "P_diss": "J s^-1",
+    "delta_Xi_plus": "mol",
+    "delta_Xi_minus": "mol",
+    "delta_D_state": "J",
+    "endpoint_power_energy": "J",
+    "dissipation_gap": "J",
+    "total_residual": "mol",
+    "A_extent_residual": "mol",
+    "B_extent_residual": "mol"
+  },
+  "files": [
+    {
+      "path": "case-settings.csv",
+      "row_scope": "one row per declared core/auxiliary case, seven rows; no optional mechanism/case family",
+      "columns": [
+        "case_id",
+        "role",
+        "synthetic",
+        "parameter_source",
+        "T_K",
+        "p_Pa",
+        "V_liquid_m3",
+        "c_standard_mol_m3",
+        "R_J_mol_K",
+        "C0_mol_m3",
+        "c_A0_mol_m3",
+        "c_B0_mol_m3",
+        "K_eq",
+        "lambda_s_inv",
+        "k_f_s_inv",
+        "k_r_s_inv",
+        "delta_rG_standard_J_mol",
+        "window_end_s",
+        "nominal_h_s",
+        "reference_equilibrium_fraction_B"
+      ],
+      "rule": "Derived values use only declared independent settings. All units and liquid/equivalent basis are explicit; no inconsistent user-supplied overrides."
+    },
+    {
+      "path": "step-ledger.csv",
+      "row_scope": "default candidate and its half-step partner for the three core cases; all four auxiliary trajectories. Initial and every actual step included. Other refinement histories are summarized in verification records, with exact rerun inputs/code pins later.",
+      "columns": [
+        "case_id",
+        "run_id",
+        "sample_kind",
+        "time_s",
+        "actual_h_s",
+        "nominal_h_s",
+        "actual_h_over_tau",
+        "synthetic",
+        "c_A",
+        "c_B",
+        "n_A",
+        "n_B",
+        "a_A",
+        "a_B",
+        "Q",
+        "delta_rG",
+        "r_plus",
+        "r_minus",
+        "r_net",
+        "Xi_plus",
+        "Xi_minus",
+        "xi_net",
+        "G_ex",
+        "D_state",
+        "P_diss",
+        "delta_Xi_plus",
+        "delta_Xi_minus",
+        "delta_D_state",
+        "endpoint_power_energy",
+        "dissipation_gap",
+        "total_residual",
+        "A_extent_residual",
+        "B_extent_residual",
+        "thermo_status",
+        "null_reason"
+      ],
+      "rule": "Direct two-state BE endpoints. Gross cumulative amounts are sums of independent V*h*k*c_new increments; xi is their difference. Keep state-derived extents separate residuals. Thermo status finite, zero_boundary or empty; At the initial B=0,A>0 boundary Q is numeric 0, DeltaG/P null; at A=0,B>0 Q/DeltaG/P null. Each null carries its reason. Activities retain valid numeric zeros. Powers at all nonempty positive-time rows finite."
+    },
+    {
+      "path": "comparison.csv",
+      "row_scope": "Long form per case, run, physical time, support ID and quantity: same 401 snapshots for each declared refinement; fixed candidate/half-step union; fixed last-three union for order. A reference row is paired at exactly that time. Duplicate physical times across distinct labeled supports are permitted, duplicate logical IDs are not.",
+      "columns": [
+        "case_id",
+        "run_id",
+        "support_id",
+        "time_s",
+        "quantity",
+        "unit",
+        "synthetic",
+        "value",
+        "reference_value",
+        "signed_error",
+        "candidate_interpolated",
+        "reference_method",
+        "null_reason"
+      ],
+      "quantities": [
+        "c_A",
+        "c_B",
+        "G_ex",
+        "xi_net",
+        "Xi_plus",
+        "Xi_minus"
+      ],
+      "rule": "All three core cases; direct independent analytic reference; linearly interpolate only states and cumulative gross throughputs. Recompute xi from gross difference and G_ex from interpolated states; never interpolate nonlinear G_ex then relabel it as state free energy. Exact endpoints flag false. All half-step and order operands are reconstructible from the paired long-form rows; do not silently change support."
+    },
+    {
+      "path": "verification.csv",
+      "row_scope": "One row per declared run/benchmark/metric/support. Includes actual failed and passing candidates, auxiliary metrics, orders, both normalizations and exact thresholds, not only the selected default.",
+      "columns": [
+        "attempt_index",
+        "case_id",
+        "run_id",
+        "benchmark_id",
+        "metric",
+        "support_id",
+        "value",
+        "normalizer",
+        "normalized_value",
+        "unit",
+        "criterion",
+        "threshold_lower",
+        "threshold_upper",
+        "status",
+        "null_reason",
+        "synthetic"
+      ],
+      "rule": "PASS/FAIL/UNRESOLVED only after future execution; planned records are not emitted as observed PASS. Orders for equilibrium/empty null. Criterion text preserves exact comparison, raw residual/minimum and roundoff. Exact zero-denominator metrics follow the benchmark null rules."
+    },
+    {
+      "path": "verification.json",
+      "contents": [
+        "proposal/accepted-contract IDs and hashes",
+        "input settings, implementation/reference/export hashes and executable command later",
+        "actual full step sizes, windows, endpoint arrays or precise generation specification and actual shortened steps",
+        "401 support and candidate/halfstep/last-three union generation identities",
+        "B01-B08 metrics/status/reasons and invalid-input rejection evidence",
+        "ordered candidate attempts, true failure reasons and proposed default, still pending independent EIC acceptance",
+        "arithmetic reconstruction readback from saved CSVs and its identities",
+        "limits: numerical verification only, no empirical calibration/validation/learner benefit"
+      ]
+    },
+    {
+      "path": "README.md",
+      "contents": [
+        "reaction basis and liquid unit dictionary",
+        "all symbols, column meanings, null handling and sample kinds",
+        "spreadsheet arithmetic instructions and provenance",
+        "selected candidate is separately accepted or pending, never inferred from contract alone",
+        "reference and solver commands only after authorization; this proposal contains neither"
+      ]
+    }
+  ],
+  "no_python_reconstruction": [
+    "In case-settings, derive n_A0=V*c_A0, n_B0=V*c_B0, N=n_A0+n_B0, tau=1/lambda and RT=R*T.",
+    "For each endpoint, delta_Xi_plus=V*actual_h*k_f*c_A_new and delta_Xi_minus=V*actual_h*k_r*c_B_new; cumulative sums form Xi_plus and Xi_minus. xi=Xi_plus-Xi_minus; check n_A=n_A0-xi, n_B=n_B0+xi independently.",
+    "For positive states, a_i=c_i/c_standard, Q=a_B/a_A, DeltaG=-R*T*LN(K_eq)+R*T*LN(Q), P=-V*r_net*DeltaG. For B=0,A>0 keep Q=0 but DeltaG/P null; for A=0,B>0 Q/DeltaG/P null; for empty all three null. Use IF branches for true zeros, not LN(epsilon).",
+    "G_ex=RT*V*SUM[c_i*LN(c_i/c_i_eq)-c_i+c_i_eq], replacing only the c_i*LN term by its continuous zero limit when c_i=0. For empty C=0, G_ex=D=0 with undefined Q/DeltaG/P.",
+    "Compute each state drop from preceding G_ex and endpoint_power_energy=actual_h*P_new; gap=drop-endpoint_power_energy. Summing state drops telescopes; use independent reference comparisons for accuracy.",
+    "Use comparison rows paired at identical support/time; differences and normalized max errors reproduce benchmark norms; orders use LN(E_h/E_h2)/LN(2) only above the declared floor. Relative-energy tail accuracy and continuous power-integral equality are not promised."
+  ],
+  "zero_and_precision_limit": "Spreadsheet reconstruction thresholds include retained 17-digit source numbers and true zero branches. Stable log1p/expm1/series may be needed in future reference code close to equilibrium/time zero; exported quantities allow arithmetic interpretation without requiring students to implement these functions.",
+  "no_new_export_family": "No full species network, ATP/growth tables, fit/optimizer, optional alternate-law data, extra worksheets or new learner tasks. Designer/EIC may reuse these defined fields within their later accepted teaching scope."
+}

@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>OPEN worked values</title>
+<style>body{font:16px system-ui;max-width:1100px;margin:32px auto;padding:12px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #aaa;padding:7px;text-align:right}th:first-child,td:first-child{text-align:left}small{display:block;margin:15px 0}</style>
+<h1>OPEN worked values</h1><p>Synthetic illustrative A ⇌ B. Two consecutive forward steps only. Verified 100 s numerical policy; all data are synthetic.</p>
+<p>V_liquid=0.001 m³; C0=1.0 mol/m³; T=298.15 K; k_f=8e-05 s⁻¹; k_r=2e-05 s⁻¹; K_eq=4.0; R=8.31446261815324 J mol⁻¹ K⁻¹; h=100.0 s.</p>
+<p>Use n=Vc; ΔΞ+=Vhk_f c_A,new; ΔΞ−=Vhk_r c_B,new; ξ=Ξ+−Ξ−. Independently compare n_A=n_A0−ξ and n_B=n_B0+ξ. Compute the direct initial-C G_ex, its state drop, P=−VrΔ_rG and W_end=hP_new. Read the column units and true-zero/null branches in README.</p>
+<table><tr><th>Existing field</th><th>Initial, t=0 s</th><th>Step1, t=100.0 s</th><th>Step2, t=200.0 s</th></tr>
+<tr><td>c_A</td><td>0.80000000000000004</td><td>0.7940594059405941</td><td>0.78817762964415261</td></tr>
+<tr><td>c_B</td><td>0.20000000000000001</td><td>0.20594059405940593</td><td>0.21182237035584747</td></tr>
+<tr><td>n_A</td><td>0.00080000000000000004</td><td>0.00079405940594059414</td><td>0.00078817762964415261</td></tr>
+<tr><td>n_B</td><td>0.00020000000000000001</td><td>0.00020594059405940594</td><td>0.00021182237035584746</td></tr>
+<tr><td>delta_Xi_plus</td><td>null (no preceding step)</td><td>6.3524752475247541e-06</td><td>6.3054210371532221e-06</td></tr>
+<tr><td>delta_Xi_minus</td><td>null (no preceding step)</td><td>4.1188118811881191e-07</td><td>4.2364474071169502e-07</td></tr>
+<tr><td>Xi_plus</td><td>0</td><td>6.3524752475247541e-06</td><td>1.2657896284677977e-05</td></tr>
+<tr><td>Xi_minus</td><td>0</td><td>4.1188118811881191e-07</td><td>8.3552592883050693e-07</td></tr>
+<tr><td>xi_net</td><td>0</td><td>5.9405940594059423e-06</td><td>1.1822370355847471e-05</td></tr>
+<tr><td>G_ex</td><td>2.0619384909577829</td><td>2.0213794153629112</td><td>1.9817490668736761</td></tr>
+<tr><td>delta_D_state</td><td>null (no preceding step)</td><td>0.040559075594871707</td><td>0.039630348489235079</td></tr>
+<tr><td>P_diss</td><td>0.00041238769819155655</td><td>0.00040289652471300755</td><td>0.00039371744689336462</td></tr>
+<tr><td>endpoint_power_energy</td><td>null (no preceding step)</td><td>0.040289652471300758</td><td>0.039371744689336463</td></tr>
+<tr><td>dissipation_gap</td><td>null (no preceding step)</td><td>0.00026942312357094989</td><td>0.0002586037998986157</td></tr>
+</table><small>Values use case-settings.csv and the native step-ledger.csv. Attempt the blank view before consulting the separate OPEN values. Full errors, references and candidate history are in the saved exports. Numerical verification does not establish empirical or learner validity.</small></html>
