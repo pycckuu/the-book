@@ -4,9 +4,9 @@ title: "The First City"
 
 What did the first self-sustaining communities look like?
 
-Not a single cell -- not necessarily. As the last chapter argued, a lone metabolism can persist where geological fluxes supply reactants and remove products. Biological partnerships offer another way to recycle them, but there is no universal threshold at which life must close its own loops. A sulfur oxidizer paired with a sulfur reducer is one plausible partnership under suitable conditions. The rock record preserves layered structures interpreted as microbial communities; it does not identify all their members or reconstruct their waste flows.
-
 Among the early answers the rock record preserves are stromatolites from about 3.43 billion years ago, interpreted as products of microbial communities.[^oldest_stromatolites] To explore how a community could work, picture a mat a few millimeters thick: green on top, pink beneath, dark below. Three zones, multiple metabolic guilds, and material passing between them. This is a thought experiment assembled from modern microbial physiology, not a recovered cross-section of an Archean community.
+
+As the last chapter argued, a lone metabolism can persist where geological fluxes supply reactants and remove products. Biological partnerships offer another way to recycle them, but there is no universal threshold at which life must close its own loops. A sulfur oxidizer paired with a sulfur reducer is one plausible partnership under suitable conditions. The rock record preserves layered structures interpreted as microbial communities; it does not identify all their members or reconstruct their waste flows.
 
 Mat-built structures are prominent in the Precambrian fossil record, across more than two billion years.[^mat_dominance] Their persistence does not show that one community design dominated all life or remained unchanged. Modern mats still offer a window into layered communities.[^sharkbay] Stromatolites preserve a long record of such structures, though preservation is uneven and their biological origin must be assessed in context.[^stromatolite_record] The scene invites a question: how can chemistry, gradients, and metabolic partnerships help a community persist?
 

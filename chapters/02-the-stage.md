@@ -2,13 +2,23 @@
 title: "The Stage"
 ---
 
+Venus today is uninhabitable. Surface temperature: 460 degrees Celsius. Surface pressure: 92 atmospheres--equivalent to being 900 meters underwater on Earth. The atmosphere is 96.5 percent carbon dioxide, with clouds of sulfuric acid. No liquid water exists on the surface or anywhere in the atmosphere where it could persist.
+
+Earth has persistent liquid water at its surface. What let it keep the conditions that life would need?
+
 Three planets formed from broadly similar raw materials.
 
 They orbited the same young star and obeyed identical physics. Their rock and volatile inventories came from a common solar system, but their initial supplies of water and carbon need not have been equal. The starting chemistry was related enough to make the later divergence meaningful.
 
 And yet their histories diverged. Earth became a living world; Venus and Mars present very different conditions today. Whether either neighbor ever supported life remains unknown.
 
-Earth is the best-known case: rock structures,[^fig_allwood] mineral isotopes,[^fig_wilde_zircon] and reconstructed ancient enzymes[^fig_gaucher] give us different kinds of evidence, rather than a single thermometer. Zircons support early water interaction; ancient proteins offer a conditional reconstruction of environments inhabited by selected lineages. Venus and Mars are less constrained. Deuterium enrichment supports water loss on Venus,[^fig_donahue] but does not fix its ocean history.[^fig_way] Mars's crustal magnetism supports an early dynamo,[^fig_acuna] while its climate history remains debated.[^fig_mars_climate] Related raw materials, the same physics, different histories.
+Earth is the best-known case: rock structures,[^fig_allwood] mineral isotopes,[^fig_wilde_zircon] and reconstructed ancient enzymes[^fig_gaucher] give us different kinds of evidence, rather than a single thermometer. Zircons support early water interaction; ancient proteins offer a conditional reconstruction of environments inhabited by selected lineages.
+
+Venus and Mars are less constrained. Deuterium enrichment supports water loss on Venus,[^fig_donahue] but does not fix its ocean history.[^fig_way]
+
+Mars's crustal magnetism supports an early dynamo,[^fig_acuna] while its climate history remains debated.[^fig_mars_climate]
+
+Related raw materials, the same physics, different histories.
 
 This chapter is not here to turn the book into a survey of planetary science. It is here to establish the minimum stage the later biology requires: liquid water that persists, an atmosphere that does not vanish, access to reduced chemicals, and a crust-ocean system that keeps the planet out of equilibrium long enough for chemistry to become evolution.
 
@@ -46,9 +56,7 @@ Third, a giant impact can rework the surface and remove atmosphere. How much atm
 
 ### Venus: the greenhouse that ate itself
 
-Venus today is uninhabitable. Surface temperature: 460 degrees Celsius. Surface pressure: 92 atmospheres--equivalent to being 900 meters underwater on Earth. The atmosphere is 96.5 percent carbon dioxide, with clouds of sulfuric acid. No liquid water exists on the surface or anywhere in the atmosphere where it could persist.
-
-And yet Venus is nearly Earth's twin in size and mass. It formed from the same part of the solar nebula. Its initial water inventory is uncertain. Whether it ever had a surface ocean remains a model-dependent question.
+Venus is nearly Earth's twin in size and mass. It formed from the same part of the solar nebula. Its initial water inventory is uncertain. Whether it ever had a surface ocean remains a model-dependent question.
 
 So what happened?
 
