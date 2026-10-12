@@ -1,0 +1,111 @@
+{
+  "proposal_id": "ENERGY-CONTRACT-0.1",
+  "status": "ASSUMPTIONS_ONLY_NOT_EXECUTED",
+  "parameter_origin": "Fictional teaching assumptions, not fitted or measured",
+  "common": {
+    "temperature_K": 298.15,
+    "pressure_Pa": 100000.0,
+    "liquid_volume_m3": 0.001,
+    "standard_concentration_mol_m3": 1000.0,
+    "gas_constant_J_mol_K": 8.31446261815324,
+    "K_eq_dimensionless": 4.0,
+    "lambda_s_inv": 0.0001,
+    "total_concentration_mol_m3": 1.0,
+    "activity_coefficient": 1.0
+  },
+  "derived_only": {
+    "k_forward_s_inv": "lambda*K_eq/(1+K_eq)",
+    "k_reverse_s_inv": "lambda/(1+K_eq)",
+    "delta_rG_standard_J_mol": "-R*T*ln(K_eq)",
+    "tau_s": "1/lambda",
+    "initial_c_B": "C*x_B0",
+    "initial_c_A": "C*(1-x_B0)"
+  },
+  "core_cases": [
+    {
+      "id": "forward",
+      "initial_x_B": 0.2
+    },
+    {
+      "id": "reverse",
+      "initial_x_B": 0.95
+    },
+    {
+      "id": "equilibrium",
+      "initial_x_B": "K_eq/(1+K_eq)"
+    }
+  ],
+  "core_support": {
+    "window_s": [
+      0,
+      80000
+    ],
+    "window_tau": [
+      0,
+      8
+    ],
+    "snapshot_count": 401,
+    "snapshot_times": "j*T_end/400, integer j=0..400; same physical times in every refinement",
+    "candidate_step_s": 100,
+    "ordered_refinement_steps_s": [
+      400,
+      200,
+      100,
+      50,
+      25
+    ],
+    "accuracy_supports": [
+      "each native endpoint against direct analytical reference",
+      "the same 401 snapshots; candidate states and gross cumulative throughputs linearly interpolated, nonlinear observables recomputed from interpolated states"
+    ],
+    "halfstep_support": "sorted unique union of both endpoint grids and the same 401 snapshots within [0,T_end]; linearly interpolate each solution on this support and label interpolation",
+    "comparison_rule": "Never compare arrays at different physical times or silently extend a horizon."
+  },
+  "auxiliary_cases": [
+    {
+      "id": "A_only",
+      "initial_x_B": 0.0,
+      "window_s": [
+        0,
+        200000
+      ],
+      "nominal_step_s": 100000,
+      "purpose": "two complete h/tau=10 steps, positivity/null and dissipation checks only; no production accuracy claim"
+    },
+    {
+      "id": "B_only",
+      "initial_x_B": 1.0,
+      "window_s": [
+        0,
+        200000
+      ],
+      "nominal_step_s": 100000,
+      "purpose": "reverse boundary, two complete h/tau=10 steps"
+    },
+    {
+      "id": "empty",
+      "total_concentration_mol_m3": 0.0,
+      "initial_x_B": null,
+      "window_s": [
+        0,
+        200000
+      ],
+      "nominal_step_s": 100000,
+      "purpose": "empty-state and null branch"
+    },
+    {
+      "id": "partial_final_step",
+      "initial_x_B": 0.2,
+      "window_end_formula_s": "8/lambda+1/(3*lambda)",
+      "nominal_step_s": 400,
+      "purpose": "actual shortened final step; not h/tau=10 test"
+    }
+  ],
+  "algebra_checks_only": [
+    "reaction basis m=2 with unchanged physical process",
+    "time scaling lambda -> alpha*lambda at fixed K_eq, not a new fitted rate",
+    "general positive K_eq and lambda analytical derivations"
+  ],
+  "default_status": "100 s is a proposed candidate, never a PASS here",
+  "failure_rule": "Execute and retain the declared 400,200,100,50,25 s series. Propose 100 s only if all default gates pass, including its 50 s comparison. If 100 s fails, retain exact failures and halve the candidate from 50 s through at most 3.125 s, using a half-step partner through 1.5625 s. The full allowed support is nine step sizes from 400 to 1.5625 s. If none passes, stop with failed history and request contract reconciliation. EIC accepts a default separately; no horizon, support or threshold change after observing results."
+}
