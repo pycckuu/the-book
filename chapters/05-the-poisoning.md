@@ -285,7 +285,7 @@ Modern Earth is not an oxygen planet that happens to contain some anaerobic pock
 
 [^endosymbiosis]: Chloroplasts originated from the endosymbiosis of a cyanobacterium by a eukaryotic host ~1.5 Ga. Keeling (2010) reviews the molecular and genomic evidence for plastid origins. [@Keeling2010]
 
-[^n2_bond]: The N≡N triple bond has a bond dissociation energy of 945 kJ/mol, one of the strongest in chemistry. Breaking this bond requires the complex nitrogenase enzyme system. Howard and Rees (1996) describe the structural basis of nitrogen fixation. [@HowardRees1996]
+[^n2_bond]: The $\mathrm{N}\equiv\mathrm{N}$ triple bond has a bond dissociation energy of 945 kJ/mol, one of the strongest in chemistry. Breaking this bond requires the complex nitrogenase enzyme system. Howard and Rees (1996) describe the structural basis of nitrogen fixation. [@HowardRees1996]
 
 [^legume_symbiosis]: Legumes form root nodules housing nitrogen-fixing rhizobia. The plant provides sugars and maintains low oxygen concentrations; the bacteria fix N$_2$ and supply ammonia. This symbiosis is reviewed in Margulis (1998) and Knoll (2003). [@Margulis1998; @Knoll2003]
 

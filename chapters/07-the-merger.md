@@ -267,7 +267,7 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 
 [^childress_riftia]: *Riftia pachyptila* lacks a mouth, gut, and anus; all nutrition is supplied by endosymbiotic sulfur-oxidizing bacteria in the trophosome; see Childress et al. (1987). [@Childress1987]
 
-[^arp_hemoglobin]: *Riftia* hemoglobin has separate binding sites for O₂ and H₂S, allowing simultaneous transport of both; see Arp et al. (1987). [@Arp1987]
+[^arp_hemoglobin]: *Riftia* hemoglobin has separate binding sites for $\mathrm{O}_{2}$ and $\mathrm{H}_{2}\mathrm{S}$, allowing simultaneous transport of both; see Arp et al. (1987). [@Arp1987]
 
 [^dubilier_symbiosis]: Dubilier et al. (2008) review chemosynthetic symbioses in marine animals, emphasizing that vent and seep ecosystems are powered by bacterial primary production rather than photosynthesis. [@Dubilier2008]
 
