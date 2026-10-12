@@ -1,0 +1,114 @@
+{
+  "source_data": [
+    {
+      "path": "courses/oxygen-diffusion/en/model/results/profiles.csv",
+      "commit": "1ac8a01aab51028cb75ad4a243f4312e1befdc35",
+      "sha256": "24e95fb0fe0b44484fc479cc17dc904ab70b5cd3e6dad31ed7e7ca30857c9ded",
+      "bytes": 14604
+    },
+    {
+      "path": "courses/advection-dispersion/model/results/scenario-summary.csv",
+      "commit": "1ac8a01aab51028cb75ad4a243f4312e1befdc35",
+      "sha256": "f2c0c7807075951478b4f11e7ed061616a234d358b6cd8b244bc844ae2bd362a",
+      "bytes": 1159
+    },
+    {
+      "path": "courses/advection-dispersion/model/results/conservative-pulse-budget.csv",
+      "commit": "1ac8a01aab51028cb75ad4a243f4312e1befdc35",
+      "sha256": "5614d38435ef3dee9fc10fc9d66d9c483233df26fcde0feb7d746ded462cb4fd",
+      "bytes": 2160162
+    },
+    {
+      "path": "courses/advection-dispersion/model/results/reactive-pulse-budget.csv",
+      "commit": "1ac8a01aab51028cb75ad4a243f4312e1befdc35",
+      "sha256": "f67a57a7bedd5090084490bc5e72bf9e2ce6d378f13c39944c75a588415cf025",
+      "bytes": 2340386
+    },
+    {
+      "path": "courses/advection-dispersion/model/results/faster-flow-pulse-budget.csv",
+      "commit": "1ac8a01aab51028cb75ad4a243f4312e1befdc35",
+      "sha256": "a953ed775834f50383cf6da4b66342c9c6d53a47b5861f4e05f70b5a512dd270",
+      "bytes": 2156302
+    },
+    {
+      "path": "courses/advection-dispersion/model/results/more-dispersion-pulse-budget.csv",
+      "commit": "1ac8a01aab51028cb75ad4a243f4312e1befdc35",
+      "sha256": "9cbd99c5bcb9214ba71f24b568cf1b8b84750c7b09c0f630d5259dfdaee2cf8a",
+      "bytes": 2157368
+    },
+    {
+      "path": "courses/saturation-kinetics/model/results/rate-curve.csv",
+      "commit": "1ac8a01aab51028cb75ad4a243f4312e1befdc35",
+      "sha256": "a4e6a2e259d1add9ffbb699987ece275d00bdff31a93d673526cf88e78637401",
+      "bytes": 1092
+    },
+    {
+      "path": "courses/saturation-kinetics/model/saved-results.zip::results/low-snapshots.csv",
+      "commit": "1ac8a01aab51028cb75ad4a243f4312e1befdc35",
+      "sha256": "73a15d71a45e048f438c4d9a72fce10e7d2910d29d5a49c69f418cdb65bf27dd",
+      "bytes": 127191
+    },
+    {
+      "path": "courses/saturation-kinetics/model/saved-results.zip::results/high-snapshots.csv",
+      "commit": "1ac8a01aab51028cb75ad4a243f4312e1befdc35",
+      "sha256": "f05bd10ca018080d9044c13a1b3c2f5c2575dcf49bb3534cb34aadc65e9ee6cb",
+      "bytes": 121936
+    },
+    {
+      "path": "courses/energy-constraints/model/saved-results.zip::results-r2/step-ledger.csv",
+      "commit": "04b31e17ef9a9a3734c9549e83d6a0b1cea44692",
+      "sha256": "192ab293a30be59f4bc21d96894dabe0c89cf8f9bf3ade5da129ef46f511c707",
+      "bytes": 4655103
+    },
+    {
+      "path": "courses/energy-constraints/model/saved-results.zip::results-r2/comparison.csv",
+      "commit": "04b31e17ef9a9a3734c9549e83d6a0b1cea44692",
+      "sha256": "b6f4bc6c44d4c17340f5d356261335714dc655318e2d37e67432737343abe2a9",
+      "bytes": 53183396
+    }
+  ],
+  "figures": [
+    {
+      "path": "figures/en/oxygen-depth-profiles.png",
+      "sha256": "da8ea803dac7f8475bbfd10c9417ca5a9d01c636a2ef945e2b0937754a1c382f"
+    },
+    {
+      "path": "figures/en/transport-breakthrough-and-budget.png",
+      "sha256": "874d9b5444eb4358f6cdfce91fe00bb4e27c9d7a87fba4ec44b152d1b38118cc"
+    },
+    {
+      "path": "figures/en/saturation-rate-and-depletion.png",
+      "sha256": "b6d9bbf8d8483144d31878b09871d5d6a59d41ed111ac43ca6ab61afbf53b473"
+    },
+    {
+      "path": "figures/en/energy-state-and-availability.png",
+      "sha256": "8a847bf8ed1933b53f62258067c46fd9113d80e1eaeedd0770bf34e221dc5f62"
+    },
+    {
+      "path": "figures/en/energy-gross-net-and-power.png",
+      "sha256": "54afc7ed047af9ad1bcbd9b32c2f338b1c21c955aaa827f0f330a962cc2e5713"
+    },
+    {
+      "path": "figures/ru/oxygen-depth-profiles.png",
+      "sha256": "47cd27dbe74da442b1f8d4c28e030568e352b8746dd3d5dc3f083ba0d49a7ed4"
+    },
+    {
+      "path": "figures/ru/transport-breakthrough-and-budget.png",
+      "sha256": "bb269f7c7ee92d8ce3647e0c26e31d1b95ec939fe6761ce1c9ead21c22117a04"
+    },
+    {
+      "path": "figures/ru/saturation-rate-and-depletion.png",
+      "sha256": "e0d198c04d53f1cc1175c7447c29529094c3ba09bdfc41cb9f449aacb5a98aaf"
+    },
+    {
+      "path": "figures/ru/energy-state-and-availability.png",
+      "sha256": "ef52f41a24c6dfb803c2600db9027fc959bc4f76cbba2d540645df4ab69e7224"
+    },
+    {
+      "path": "figures/ru/energy-gross-net-and-power.png",
+      "sha256": "0a1ded77249604b99b1b9631ffa8eec249f05a378206cf0edc2fb4425bec0cfa"
+    }
+  ],
+  "plot_support": "Oxygen cell centres at saved three startup times; full AD native right-endpoint heights cover intervals and own final dose; SAT401 low/high snapshots use own t/T; ENERGY forward100s native endpoints and B401-snapshot reference. No model code was imported or executed.",
+  "display": "3 significant figures only; raw coordinates and source CSV bytes retained; tiny nonzero storage may be invisible at linear plot scale."
+}

@@ -83,6 +83,13 @@ jobs:
         with:
           tinytex: true
 
+      - name: Install Russian typography prerequisites
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-paratype
+          tlmgr install hyphen-russian
+          kpsewhich hyph-ru.tex
+
       - name: Render (HTML)
         run: |
           quarto render --to html
@@ -102,6 +109,9 @@ jobs:
           rm -rf _book
           mv _book_site _book
 
+      - name: Build Russian book and separate bilingual course downloads
+        run: python3 scripts/build-release-translations.py --output _book
+
       - name: Add .nojekyll
         run: touch _book/.nojekyll
 
@@ -117,6 +127,7 @@ jobs:
           path: |
             _book/*.pdf
             _book/*.epub
+            _book/translation-assets.json
 
   deploy:
     needs: build
@@ -150,4 +161,5 @@ jobs:
           files: |
             dist/*.pdf
             dist/*.epub
+            dist/translation-assets.json
 
