@@ -2,11 +2,11 @@
 title: "Modeling the Invisible"
 ---
 
-![Schematic porewater profiles, drawn from analytic functions rather than measured data. Each curve uses a relative concentration scale; their plotted crossing illustrates a transition and does not locate a measured sulfate-methane transition.](../sources/img/ch8_porewater_profile.png){#fig-porewater-profile}
-
-A sediment core can look, at first glance, like three quiet curves on a page. The x-axis is concentration. The y-axis is depth below the sediment-water interface, increasing downward. The curves are oxygen, sulfate, and methane in an imagined marine sediment. This is a thought experiment: the figure uses smooth analytic functions, not measurements from a core.
+Imagine a sediment core in front of you. You want to know where oxygen can reach and where methane might escape. The drawing offers a first clue: three curves, for oxygen, sulfate, and methane. Concentration runs along the x-axis; depth below the sediment-water interface increases downward along the y-axis. This is an imagined marine sediment, a thought experiment drawn with smooth analytic functions rather than measurements from a core.
 
 In the sketch, oxygen falls steeply below the interface. Sulfate stays high near the surface and declines farther down. Methane rises from below. The relative scales show a possible arrangement, not concentrations or detection limits measured at a particular site.
+
+![Schematic porewater profiles, drawn from analytic functions rather than measured data. The curve shapes are not solutions of a reaction-transport balance, so their curvature does not indicate where species are produced or consumed. Each curve uses a relative concentration scale; their plotted crossing illustrates a transition and does not locate a measured sulfate-methane transition.](../sources/img/ch8_porewater_profile.png){#fig-porewater-profile}
 
 The sketch places sulfate falling and methane rising around a transition horizon. In a measured core, we would locate the sulfate-methane transition from actual concentrations and the processes that connect them, not from the crossing of separately scaled curves. Neither its width nor its reaction rate can be read from this drawing.
 
@@ -16,9 +16,9 @@ $$
 \text{CH}_4 + \text{SO}_4^{2-} \longrightarrow \text{HCO}_3^- + \text{HS}^- + \text{H}_2\text{O}
 $$
 
-The organisms are real. The reaction is real. But the *shape* of the curves -- why oxygen drops fast and sulfate drops slowly, why methane rises from below, why the transition zone sits here and not somewhere else -- cannot be explained by intuition alone. It requires bookkeeping.
+Knowing the organisms and the reaction gives us part of the story. For a measured core, though, we still need to explain the *shape* of the curves: why oxygen drops fast and sulfate drops slowly, why methane rises from below, and why the transition sits here rather than somewhere else. Naming a metabolism does not settle those questions. We need to follow the material as well as the organisms.
 
-This chapter is about that bookkeeping: how to turn a porewater profile into a quantitative story. The same conservation law, written once and applied species by species, lets us ask practical questions. Why does this boundary sit where it does? How far would it move if organic matter delivery doubled? How much methane escapes if transport outruns biology?
+Let us follow the material through a small volume of sediment. Track what enters, what leaves, and what is produced or consumed inside. That bookkeeping turns a porewater profile into a quantitative story. Written once and applied species by species, the same conservation law lets us ask: Why does this boundary sit where it does? How far would it move if organic matter delivery doubled? How much methane escapes if transport outruns biology?
 
 One equation is enough to begin.
 
@@ -26,7 +26,7 @@ One equation is enough to begin.
 
 Every model in this book -- every profile, every flux, every prediction -- rests on a single principle: **mass is conserved**.[^berner1980] Whatever enters a volume of sediment must either leave it, react within it, or accumulate. There are no other options.
 
-Write this as an equation. Consider a thin slab of sediment at some depth $x$, with thickness $\Delta x$. Let $\hat{C}$ be the bulk concentration of a chemical species -- the amount per unit volume of sediment (not per unit volume of porewater; that distinction matters and we will get to it). The rate of change of $\hat{C}$ in that slab is:
+Picture a thin slab of sediment at depth $x$, with thickness $\Delta x$. We will keep track of one chemical species inside it. Call its bulk concentration $\hat{C}$: the amount per unit volume of sediment, not per unit volume of porewater. We will return to that distinction. The equation records how quickly $\hat{C}$ changes in the slab:
 
 $$
 \frac{\partial \hat{C}}{\partial t} = -\frac{\partial F}{\partial x} + \sum R_i
@@ -36,17 +36,17 @@ Three terms. Each one does exactly one job. Here $\hat{C}$ is in mol per cubic m
 
 **The left side** ($\partial \hat{C} / \partial t$) is the rate of accumulation. If the concentration in the slab is increasing, this term is positive. If it is decreasing, this term is negative. At steady state -- when the profile is not changing with time -- this term is zero.
 
-**The first term on the right** ($-\partial F / \partial x$) is the negative divergence of flux. $F$ is the flux of the species -- the amount moving through a unit area per unit time. If more stuff flows into the slab from above than flows out below, the concentration increases. If more flows out than in, it decreases. The minus sign and the derivative handle the bookkeeping automatically.
+**The first term on the right** ($-\partial F / \partial x$) compares what enters with what leaves. $F$ is the flux: the amount of the species passing through a unit area per unit time. If more flows into the slab from above than flows out below, concentration increases. If more leaves than enters, it decreases. The mathematical name is the negative divergence of flux. The minus sign and the derivative perform the comparison for us.
 
 **The second term** ($\sum R_i$) is the sum of all reactions that produce or consume the species. A reaction that produces the species contributes a positive $R_i$. A reaction that consumes it contributes a negative $R_i$. If there are multiple reactions acting on the same species -- which there always are -- you add them all up.
 
 That is the entire equation. It says: the rate of change equals what comes in minus what goes out, plus what is produced minus what is consumed. It is an accounting identity, nothing more, nothing less.
 
-Everything else is details. Important details -- but details.
+The ledger is in place. Now we need to find out how material crosses the slab and what happens to it inside.
 
 ## What moves: transport
 
-The flux $F$ has two components in most sediment and groundwater settings: diffusion and advection.
+Material can cross the slab because a concentration gradient drives diffusion or because flowing water carries it along. In most sediment and groundwater settings, these give the two components of the flux $F$: diffusion and advection.
 
 **Molecular diffusion** moves dissolved species down their concentration gradients. The flux is:
 
@@ -56,7 +56,7 @@ $$
 
 where $\phi$ is porosity (the fraction of the sediment that is porewater), $D_s$ is the effective diffusion coefficient in the sediment (smaller than in free water, because the pore network is tortuous), and $C$ is the porewater concentration. The minus sign means stuff moves from high concentration to low. This is Fick's first law, applied to a porous medium.[^fick1855] Here $D_s$ includes the tortuosity correction, but not the separate porosity prefactor already present in the flux. Some conventions absorb porosity into a bulk diffusion coefficient; mixing the two conventions would count porosity twice.[^boudreau1997]
 
-A useful intuition: the timescale for diffusion to operate over a distance $L$ is:
+How long does that journey take? For diffusion over a distance $L$, a useful timescale is:
 
 $$
 \tau_{\text{diff}} \sim \frac{L^2}{D_s}
@@ -86,13 +86,39 @@ $$
 \frac{\partial (\phi C)}{\partial t} = \frac{\partial}{\partial x}\left(\phi D_s \frac{\partial C}{\partial x}\right) - \frac{\partial (\phi u C)}{\partial x} + \sum R_i
 $$
 
-This is the reaction-transport equation for a dissolved species in a porous medium. It looks intimidating, but every term is doing something you already understand: diffusion spreading things out, advection carrying things along, reactions creating or destroying.
+Read the right side as a list of actions: diffusion spreads material, advection carries it along, and reactions produce or consume it. The left side records the resulting change in what is stored. This is the reaction-transport equation for a dissolved species in a porous medium. The notation has grown, but the ledger has not changed.
+
+## Start with one species
+
+Before coupling an ecosystem, let us set up an experiment we can follow from the start. Imagine a dark, fully saturated sediment. Hold oxygen at $C_0$ at the surface and allow no flux through the lower boundary at depth $L$. Let depth $x$ increase downward, and keep porosity $\phi$ and diffusivity $D_s$ constant. There is no oxygen in the interior when we turn on the surface supply at $t=0$. Which steady oxygen profile follows from these boundaries and the sink we choose below?
+
+For this teaching example, let the porewater consumption rate be $q=kC$, where $k$ has units s$^{-1}$. The bulk sink is then $R=-\phi kC$:
+
+$$
+\frac{\partial(\phi C)}{\partial t}
+=\frac{\partial}{\partial x}\left(\phi D_s\frac{\partial C}{\partial x}\right)-\phi kC.
+$$
+
+With constant porosity, $\partial C/\partial t=D_s\partial^2C/\partial x^2-kC$. At steady state the solution is:
+
+$$
+C_*(x)=C_0\frac{\cosh((L-x)/\ell)}{\cosh(L/\ell)},\qquad
+\ell=\sqrt{\frac{D_s}{k}}.
+$$
+
+The length $\ell$ compares diffusive delivery with consumption. More rapid consumption makes the profile thinner. In a deep domain it approaches an exponential near the surface. At a finite sealed lower boundary, it flattens. Oxygen approaches low values without an exact zero at finite depth; a reported penetration depth needs a stated detection threshold.
+
+Use $L=0.03$ m, $D_s=10^{-9}$ m$^2$/s, $k=10^{-5}$ s$^{-1}$, $\phi=0.8$, and $C_0=0.2$ mol/m$^3$ of porewater. These are illustrative choices, not observations from a field site. They give $\ell=0.01$ m and a steady inward oxygen flux of about 1.376 mmol/m$^2$/day. The bottom still contains about 19.87 $\mu$M oxygen. A 1 $\mu$M threshold would not be crossed inside this chosen domain.
+
+We can now compare the computer's steady oxygen profile with this independent solution. The companion finite-volume model compares its steady solution with this curve, checks that inflow balances consumption and accumulation, refines its grid and time step, and rejects negative concentrations without clipping them. These checks verify the calculation. They do not validate the first-order assumption against nature.
+
+A steady profile alone identifies $k/D_s$, not $k$ and $D_s$ separately. An independent diffusivity or an additional flux or transient observation is needed to separate them. The companion fit therefore estimates only this ratio from clearly labeled synthetic observations. Its separate measured-data exercise asks which archived flux corresponds to the model and whether the data version is reproducible. The distinction matters: solving an equation correctly and choosing the right equation for a core are different tasks.
 
 ## What reacts: rate expressions
 
 The reaction terms $R_i$ are where the biology enters the equation. In a sediment, the major reactions are microbially mediated: aerobic respiration, denitrification, manganese reduction, iron reduction, sulfate reduction, methanogenesis. Each one oxidizes organic matter (or hydrogen, or methane) using a different terminal electron acceptor.
 
-We built the kinetic framework for these reactions in earlier chapters. The key expressions are:
+We have solved one profile with a deliberately simple consumption law. Before we couple species, we need to choose how their reactions enter the same ledger. The earlier chapters gave us ways to ask how a rate responds to substrate supply and to the available driving force. Here we bring those expressions together. Each answers a different part of the question: how fast can the reaction proceed?
 
 **Michaelis-Menten kinetics**[^michaelis1913_eq] for a reduced single-enzyme reaction, under suitable approximation conditions:
 
@@ -116,7 +142,7 @@ $$
 F_T=1-\exp\left(-\frac{f}{\chi RT}\right)
 $$
 
-Here $\chi$ reflects the reaction mechanism. All energies and stoichiometric quantities must use a consistent reaction basis. This expression reaches zero at $f=0$, not generally at $\Delta G_r=0$. Its application needs an explicit domain and treatment of regulation or reverse flux; it is not a universal sediment rate law.[^jin2003_eq] The oxygen teaching model below uses a first-order sink without a thermodynamic factor.
+Here $\chi$ reflects the reaction mechanism. All energies and stoichiometric quantities must use a consistent reaction basis. This expression reaches zero at $f=0$, not generally at $\Delta G_r=0$. Its application needs an explicit domain and treatment of regulation or reverse flux; it is not a universal sediment rate law.[^jin2003_eq] The oxygen teaching model above uses a first-order sink without a thermodynamic factor.
 A rate expression for a microbially mediated reaction can then be written:
 
 $$
@@ -124,32 +150,6 @@ r = k_{\max} \cdot [B] \cdot \frac{[\text{TED}]}{[\text{TED}] + K_{m,\text{TED}}
 $$
 
 Kinetics times thermodynamics. Supply times demand times feasibility. Let $r$ denote reaction progress on a stated volume basis. The substrate-only expressions give a positive forward rate; with an energetic factor, the net rate may be signed. For species $j$, $R_j=\nu_j r$ when $r$ is per bulk sediment volume, or $R_j=\phi\nu_j r$ when it is per porewater volume. The stoichiometric coefficient $\nu_j$ is negative for a reactant and positive for a product. $V_{\max}$ and $k_{\max}[B]$ must have the units of $r$. A positive respiration rate is not itself a positive source of oxygen. The biomass-specific rate constant $k_{\max}$ is distinct from the oxygen pilot's first-order $k$.
-
-## Start with one species
-
-Before coupling an ecosystem, try a single curve. Imagine a dark, fully saturated sediment, with oxygen held at $C_0$ at the surface and no flux through a lower boundary at depth $L$. Let depth $x$ increase downward. Keep porosity $\phi$ and diffusivity $D_s$ constant. Start with no oxygen in the interior and turn on the surface supply at $t=0$.
-
-For this teaching example, let the porewater consumption rate be $q=kC$, where $k$ has units s$^{-1}$. The bulk sink is then $R=-\phi kC$:
-
-$$
-\frac{\partial(\phi C)}{\partial t}
-=\frac{\partial}{\partial x}\left(\phi D_s\frac{\partial C}{\partial x}\right)-\phi kC.
-$$
-
-With constant porosity, $\partial C/\partial t=D_s\partial^2C/\partial x^2-kC$. At steady state the solution is:
-
-$$
-C_*(x)=C_0\frac{\cosh((L-x)/\ell)}{\cosh(L/\ell)},\qquad
-\ell=\sqrt{\frac{D_s}{k}}.
-$$
-
-The length $\ell$ compares diffusive delivery with consumption. More rapid consumption makes the profile thinner. In a deep domain it approaches an exponential near the surface. At a finite sealed lower boundary, it flattens. Oxygen approaches low values without an exact zero at finite depth; a reported penetration depth needs a stated detection threshold.
-
-Use $L=0.03$ m, $D_s=10^{-9}$ m$^2$/s, $k=10^{-5}$ s$^{-1}$, $\phi=0.8$, and $C_0=0.2$ mol/m$^3$ of porewater. These are illustrative choices, not observations from a field site. They give $\ell=0.01$ m and a steady inward oxygen flux of about 1.376 mmol/m$^2$/day. The bottom still contains about 19.87 $\mu$M oxygen. A 1 $\mu$M threshold would not be crossed inside this chosen domain.
-
-Now we can ask whether a computer reproduces something we know. The companion finite-volume model compares its steady solution with this curve, checks that inflow balances consumption and accumulation, refines its grid and time step, and rejects negative concentrations without clipping them. These checks verify the calculation. They do not validate the first-order assumption against nature.
-
-A steady profile alone identifies $k/D_s$, not $k$ and $D_s$ separately. An independent diffusivity or an additional flux or transient observation is needed to separate them. The companion fit therefore estimates only this ratio from clearly labeled synthetic observations. Its separate measured-data exercise asks which archived flux corresponds to the model and whether the data version is reproducible. The distinction matters: solving an equation correctly and choosing the right equation for a core are different tasks.
 
 ## Let the water move
 
@@ -183,7 +183,7 @@ A computer can add spreading of its own. The companion calculation therefore che
 
 ## Coupling: one organism's waste is another's substrate
 
-In a real sediment, there are not three independent species obeying three independent equations. There are dozens of species, linked by shared reactions.
+The single-species examples let us follow one ledger at a time. A real sediment does not stop at three independent species obeying three independent equations. Dozens of species are linked by shared reactions. A product of one reaction can become the reactant of the next.
 
 When aerobic respiration consumes oxygen and organic carbon, it produces CO$_2$ and water. The CO$_2$ affects pH, which affects carbonate equilibria, which affects calcium concentrations. When sulfate reduction consumes sulfate and organic carbon, it produces sulfide. The sulfide reacts with dissolved iron to precipitate iron sulfide minerals. The iron came from the dissolution of iron oxides, which was mediated by iron-reducing bacteria, which were competing with sulfate reducers for the same organic carbon.
 
@@ -227,7 +227,7 @@ The portability is not infinite. Parameters must be recalibrated. Biology adapts
 
 ## What we sacrificed
 
-The equation we have built is powerful. It is also wrong -- in the precise, useful sense that all models are wrong.
+Before using the equation to interpret a real core, we need to be clear about its limits. The model keeps the bookkeeping explicit. It does not describe every feature of the sediment.
 
 Here is what we assumed and what we set aside:
 
