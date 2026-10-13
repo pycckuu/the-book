@@ -164,7 +164,11 @@ The result was a new kind of cell -- one with a dedicated energy-producing organ
 
 This was the birth of the eukaryotic cell.
 
-Why did this matter for cell size? For cells of similar shape, external surface area grows as the square of radius while volume grows as the cube. If ATP-producing capacity were restricted to that surface and demand rose in proportion to active volume, increasing size would create a bottleneck.[^lane_energetics] In the influential model proposed by Lane and Martin, mitochondria relax an energetic constraint through internal bioenergetic membranes and the distribution of genes relative to them. This is more than a geometric argument: it assumes particular relationships among power, gene expression, genome copies, and cell size. The bottleneck is not a universal property of prokaryotes, some of which have extensive internal membranes or large inactive volumes. Later analyses disagree about the advantage and show how strongly it depends on shape, division time, membrane allocation, and biosynthetic costs. The merger may have expanded the options for larger and more demanding cells, but the model does not by itself establish that energy made cellular complexity impossible before it.[^lane_power]
+Why did this matter for cell size? For cells of similar shape, external surface area grows as the square of radius while volume grows as the cube. If ATP-producing capacity were restricted to that surface and demand rose in proportion to active volume, increasing size would create a bottleneck.[^lane_energetics]
+
+In the influential model proposed by Lane and Martin, mitochondria relax an energetic constraint through internal bioenergetic membranes and the distribution of genes relative to them. This is more than a geometric argument: it assumes particular relationships among power, gene expression, genome copies, and cell size.
+
+The bottleneck is not a universal property of prokaryotes, some of which have extensive internal membranes or large inactive volumes. Later analyses disagree about the advantage and show how strongly it depends on shape, division time, membrane allocation, and biosynthetic costs. The merger may have expanded the options for larger and more demanding cells, but the model does not by itself establish that energy made cellular complexity impossible before it.[^lane_power]
 
 And then it happened again.
 
