@@ -52,7 +52,7 @@ A field guide to the organisms that appear in this book.
 ***Ruthia magnifica***
 - **Habitat**: Gill cells of the giant white clam *Calyptogena magnifica*, at hydrothermal vents
 - **Metabolism**: Chemoautotrophy -- oxidizes H$_2$S, fixes CO$_2$ via Calvin cycle
-- **Claim to fame**: An intracellular symbiont whose genome still encodes major chemoautotrophic pathways and pathways for vitamins, cofactors and all 20 amino acids the clam requires; gene content does not show that it can live outside the host. Represents an early stage on the spectrum from free-living bacterium to organelle.
+- **Claim to fame**: An intracellular symbiont whose genome still encodes major chemoautotrophic pathways and pathways for vitamins, cofactors and all 20 amino acids the clam requires; gene content does not show that it can live outside the host. Shows a symbiont that keeps a broad metabolic toolkit while depending on its host's environment.
 - **Key citation**: Newton et al. (2007), *Science* [@Newton2007]
 - **Appears in**: Chapter 7
 
@@ -61,7 +61,7 @@ A field guide to the organisms that appear in this book.
 ***Candidatus* Carsonella ruddii**
 - **Habitat**: Specialized cells (bacteriocytes) inside psyllid insects
 - **Metabolism**: Amino acid biosynthesis for the host (cannot replicate independently)
-- **Claim to fame**: Possesses one of the smallest genomes of any known cellular organism (160 kb -- the smallest bacterial genome known when it was published in 2006, since surpassed by symbionts such as *Nasuia*) -- so reduced that some biologists question whether it is still a living organism or has become an organelle. Represents a late stage of symbiont-to-organelle evolution.
+- **Claim to fame**: Possesses one of the smallest genomes of any known cellular organism (160 kb -- the smallest bacterial genome known when it was published in 2006, since surpassed by symbionts such as *Nasuia*) -- so reduced that some biologists question whether it is still a living organism or has become an organelle. Shows extreme genome reduction in an obligate symbiont, not a stage on a single route to an organelle.
 - **Key citation**: Nakabachi et al. (2006), *Science* [@Nakabachi2006]
 - **Appears in**: Chapter 7
 
