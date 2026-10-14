@@ -71,13 +71,13 @@ That organelle is the mitochondrion. Every mitochondrion in every eukaryotic cel
 
 ## The spectrum of integration
 
-The transformation from free-living bacterium to mitochondrion did not happen overnight. It was a long, slow slide from partnership to dependence to irreversible fusion -- a process that probably took a very long time and that we can still watch happening today, frozen at different stages in different organisms.
+The transformation from free-living bacterium to mitochondrion did not happen overnight. That ancient partnership changed both organisms. Living symbioses let us ask a more immediate question: what does each partner supply, and what does it need from the other?
 
 ![Different forms of symbiotic integration. Four living associations are compared, not stages on one evolutionary route or points on a measured integration scale. Sizes identify specific bacterial chromosomes or human reference mtDNA; they do not measure metabolic autonomy. Elysia acquires plastids by feeding, and no slug or plastid genome size is represented. Genome lengths are labels, not proportional bars.[^integration_figure_genomes]](../sources/img/ch7_integration_spectrum.png){#fig-integration-spectrum}
 
-Think of it as a spectrum. At one end, a bacterium lives inside a host cell but retains its full genetic and metabolic independence: it could, in principle, be extracted and grown on its own. At the other end, the bacterium has lost so many genes that it is no longer an organism at all -- it is an organelle, a part of the host, unable to exist independently. Between these extremes lies every shade of partnership, dependence, and dissolution.
+Start with the work being shared. A host may supply shelter and reactants; a symbiont may supply metabolic products. Some symbionts retain a broad biochemical toolkit. Others depend on their host for functions they no longer encode. Genome length alone does not tell us how that partnership works.
 
-The living world is full of symbioses caught at different points on this spectrum. They illustrate, at different stages, how symbiotic dependence can deepen -- though only a few have crossed (or will cross) the threshold to true organelle status.
+Follow those exchanges through the examples below. These are different living arrangements, not successive frames in a film of mitochondrial evolution. Each shows a different way to share the work of staying alive.
 
 ### The chemist in the dark: *Ruthia magnifica*
 
@@ -93,11 +93,11 @@ The clam, in turn, provides *Ruthia* with a stable physical environment, a suppl
 
 What makes *Ruthia* remarkable is what its genome reveals: it still encodes the major chemoautotrophic pathways, along with pathways for vitamins, cofactors, and all 20 amino acids the clam requires.[^newton_ruthia] Metabolically, it keeps much of the toolkit of a free-living sulfur-oxidizing bacterium.
 
-*Ruthia magnifica* is early on the spectrum. It is an intracellular symbiont, yes -- committed to life inside a host -- but it has not yet traveled far down what we might call the path of genome degradation. Its genome still encodes much of the machinery for independent metabolism.
+*Ruthia magnifica* shows why genome content is not the whole story. The clam supplies its working environment and reactants. The genome tells us which pathways are encoded; it does not, by itself, show that *Ruthia* could live outside the clam.
 
 ### The shrinking genome: *Carsonella ruddii*
 
-Now move to the other end of the spectrum.
+The next partnership solves a different food problem, with a much smaller bacterial toolkit.
 
 Psyllids are small, sap-sucking insects -- relatives of aphids -- that feed on the phloem of plants. Plant sap is a poor diet. It is rich in sugars but deficient in essential amino acids, the building blocks that animals need to construct proteins but cannot synthesize on their own. Any insect that commits to a sap-only diet faces a nutritional crisis.
 
@@ -109,7 +109,7 @@ But look at *Carsonella*'s genome, and you see something startling. At just 160 
 
 ::: {.callout-note}
 ## Sidebar --- How small can a genome get?
-Genome reduction in obligate symbionts follows a ratchet-like logic. Once a function is reliably supplied by the host, the symbiont's gene for it drifts and decays. Each loss deepens dependence, and there is no going back. *Carsonella*'s 160-kilobase genome illustrates a late stage.
+Genome reduction in obligate symbionts follows a ratchet-like logic. Once a function is reliably supplied by the host, the symbiont's gene for it drifts and decays. Each loss deepens dependence, and there is no going back. *Carsonella*'s 160-kilobase genome illustrates extensive reduction, not a fixed stage on the route to an organelle.
 
 But genome shrinkage alone does not make an organelle. That transition requires additional steps -- establishment of a protein-import apparatus, coordinated gene transfer to the host nucleus, integration into host cell division -- that have occurred only a few times in the history of life. Mitochondria and plastids crossed that threshold; most reduced symbionts (including *Buchnera* and *Wigglesworthia*) have not. Genome erosion is common; organellogenesis is rare.
 :::
@@ -120,13 +120,13 @@ Between the deep-sea vent and the psyllid gut, there are stranger partnerships. 
 
 When *E. chlorotica* feeds, it does something unusual. It punctures algal cells and sucks out the contents, digesting most of the cellular material. But it does not digest the chloroplasts -- the photosynthetic organelles. Instead, it captures them intact and incorporates them into the cells lining its own digestive tract. There, surrounded by animal tissue, the stolen chloroplasts continue to function. They absorb light, split water, fix carbon. The sea slug photosynthesizes.[^rumpho_kleptoplasty]
 
-The chloroplasts are not inherited. They do not reproduce inside the slug. Each generation of *E. chlorotica* must acquire them anew by feeding on algae. The arrangement is a temporary theft -- kleptoplasty -- that hints at how the permanent acquisition of photosynthesis might have begun, more than a billion years ago, when an ancient eukaryote engulfed a cyanobacterium and never let go.
+The chloroplasts are not inherited. They do not reproduce inside the slug. Each generation of *E. chlorotica* must acquire them anew by feeding on algae. The arrangement is a temporary theft, kleptoplasty. Keeping a captured plastid working is different from passing it to the next generation.
 
-*E. chlorotica* is a living thought experiment: what does the early stage of chloroplast acquisition look like? Perhaps something like this -- a predator that learns to keep its prey's machinery running, harvesting the products, and gradually becoming dependent on them.
+*E. chlorotica* poses a different puzzle: how does the slug keep borrowed photosynthetic machinery working? The useful comparison is what the captured plastids still do and what their new host must supply. The slug is not a surviving early stage of chloroplast evolution.
 
 ### The perfect commune: the three-way lichen
 
-If *Ruthia* is the early stage and *Carsonella* is the late stage, then lichens represent something else: the fully realized partnership, stable and successful, maintained not by genomic erosion but by ecological complementarity.
+Lichens shift the comparison again. Their partners keep distinct cellular identities while sharing different jobs. Here, the story turns on ecological complementarity rather than on how far a bacterial genome has shrunk.
 
 A lichen is not a single organism. It is a composite: a fungus (the mycobiont) that provides the structural scaffold, intertwined with one or more photosynthetic partners. In many lichens, the partner is a green alga (in others, a cyanobacterium) that performs photosynthesis, converting light and CO$_2$ into organic carbon that feeds the fungus. In tripartite lichens, there is a third partner: a cyanobacterium that fixes atmospheric nitrogen, which neither the fungus nor the alga can fix.[^nash_lichen]
 
@@ -240,7 +240,7 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 
 - Prokaryotic cells are limited by having essentially one or two internal compartments; eukaryotic cells solve this with internal membranes that create many separate reaction chambers.
 - The eukaryotic cell arose from a merger: an archaeal host (likely related to the Asgard archaea) acquired an alpha-proteobacterial partner that became the mitochondrion; chloroplasts arose from a later engulfment of a cyanobacterium.
-- Living symbioses -- from *Ruthia* (early, core metabolism retained) to *Carsonella* (late, genome nearly gone) -- illustrate stages of symbiotic integration -- partnership, gene loss, deepening dependence -- though organellogenesis itself has occurred only a few times.
+- Living symbioses such as *Ruthia* (broad metabolic toolkit retained), *Carsonella* (genome heavily reduced) and kleptoplastic *Elysia* (plastids captured, not inherited) show different ways partners divide work. They are not stages on one route; organellogenesis itself has occurred only a few times.
 - Horizontal gene transfer made microbial evolution collaborative long before whole cells merged, and the 2024 nitroplast discovery shows that organellogenesis is not only an ancient event but an observable process.
 - Hydrothermal vent ecosystems demonstrate that symbiosis between autotrophs and heterotrophs can sustain entire communities without local sunlight.
 - The creative force behind some of the most consequential innovations in the history of life -- eukaryotic cells and photosynthetic eukaryotes, which in turn made complex multicellularity possible -- was integration -- the merging of independently evolved capabilities -- not competition alone.
