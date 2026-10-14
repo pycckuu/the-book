@@ -67,5 +67,30 @@
       ]
     }
   ],
-  "unchanged": "All equations, cases, tolerances, schema structure, numeric values, code, CSV bytes, ZIP bytes and numerical/default outcomes. This is not a new scientific or numerical acceptance."
+  "unchanged": "All equations, cases, tolerances, schema structure, numeric values, code, CSV bytes, ZIP bytes and numerical/default outcomes. This is not a new scientific or numerical acceptance.",
+  "post_execution_checker_hardening_r2": {
+    "id": "ENERGY-Q01-Q02-CURRENT-CHECKER-PROVENANCE-R2",
+    "status": "POST_EXECUTION_SOFTWARE_CANDIDATE_NOT_ORIGINAL_SOLVE_CODE",
+    "base_revision": "3a45a910a51382d30c90fdb31944c674601085ca",
+    "scope": "Q01 saved-data coverage and Q02 nonfinite rejection only. No solver execution accompanies this candidate. Earlier role-label presentation history above is unchanged and describes that earlier delta only.",
+    "original_executed_checker": {
+      "path": "check_saved.py",
+      "sha256": "15cf0c5cf7ca7009caed8c82d3582c32e49b1dc29ea784fd2b07582a8629156d",
+      "basis": "The prior portable execution manifest pins the checker used for the accepted saved-data execution. Original owner manifest identity is retained above, separately from the later portable manifest."
+    },
+    "previous_portable_manifest_pins": {
+      "execution-manifest.json": "03c5f8ec652a6538b7959995e4e37199cdbb30ecc4c52e5a5ca1c55b8e7c3d3d",
+      "prospective-plan.json": "3155e0842a4d11a2c49f7d73744a3264accdb84c9735c40e99b1c770c6e2431b",
+      "saved-results-manifest.json": "739abb0ee7d54081826bf9e7ae04e8eb09d856ae0c44621524b1a68e671e4737",
+      "presentation-only-input-mapping.json": "36e14da4bd0fb299ec73027635dafef03d397784ec8baa1fe630dc3061f1a0eb"
+    },
+    "current_checker_pins": {
+      "check_saved.py": "123af2ca12748f1137a59a7d5dba3c52eab24462b086b190ef9893bc70f53223",
+      "test_check_saved.py": "a9b82ddf6551f0a54d83ed2efe922a0b35606f0109f29e835d98e3cdb8cfe8f7"
+    },
+    "historical_identity_rule": "The prior portable execution-manifest SHA256 03c5f8ec652a6538b7959995e4e37199cdbb30ecc4c52e5a5ca1c55b8e7c3d3d is not the original owner pre-run manifest. The original owner execution-manifest SHA256 and earlier publication pins above remain historical. The new checker was not present during the original solve.",
+    "current_manifest_rule": "Current execution-manifest.json pins the current code and current prospective-plan presentation copy for a future reproduction route; no new numerical execution or acceptance is claimed. Current manifest hashes are recorded externally to avoid circular hash references.",
+    "unchanged": "model.py, run.py, settings, criteria, schema, scientific clarifications, saved CSVs, saved-results.zip and embedded DATA-MANIFEST.json remain byte-identical.",
+    "deferred": "Self-check metadata value/status integrity and final-archive versus pre-append mode are not fixed by Q01/Q02 and remain a separately triaged scope."
+  }
 }
