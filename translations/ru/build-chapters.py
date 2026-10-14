@@ -126,7 +126,7 @@ def main():
     # Keep the last Chapter 7 takeaway on its page instead of two orphaned lines.
     seventh_chapter = stage / chapters[6]
     seventh_chapter.write_text(seventh_chapter.read_text(encoding='utf-8').replace(
-        '## Главное\n', '## Главное\n\n```{=latex}\n\\enlargethispage{2\\baselineskip}\n```\n', 1), encoding='utf-8')
+        '## Главное\n', '```{=latex}\n\\vspace{-\\baselineskip}\n```\n\n## Главное\n\n```{=latex}\n\\enlargethispage{2\\baselineskip}\n\\vspace{-\\baselineskip}\n```\n', 1), encoding='utf-8')
     eighth_chapter = stage / chapters[7]
     (stage / 'index.md').write_text(
         '# Как читать эту книгу {.unnumbered}\n\n'
