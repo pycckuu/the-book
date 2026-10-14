@@ -27,7 +27,7 @@ The guide and worksheet instructions supply the worked modeling steps. Appendix 
 
 All four modules' exercises, scientific readings and public answers are included as F-Q in the English book and the combined Russian book builder, in the same order. The guide is a standalone reading with its own [build instructions](modeling-guide/README.md). Module helpers and release downloads keep English and Russian in separate files.
 
-The [Russian book builder](../translations/ru/README.md) assembles Chapters 1-10, the Epilogue and Appendices A-Q into one `the-invisible-architects-ru.pdf` and one `the-invisible-architects-ru.epub`, separately from English files. Combined-edition integration acceptance is pending; the accepted narrative A-E review files remain archived.
+The [Russian book builder](../translations/ru/README.md) assembles Chapters 1-10, the Epilogue and Appendices A-Q into one `the-invisible-architects-ru.pdf` and one `the-invisible-architects-ru.epub`, separately from English files.
 
 Numerical verification concerns the declared equations and illustrative or synthetic scenarios. It does not establish validity in a natural system, biological mechanism or learner performance. Learner-pilot protocols remain unexecuted; their durations are planned rather than observed.
 
@@ -41,4 +41,4 @@ The following blocks are a development sequence, not available or verified modul
 
 The proposed order adds one dependency at a time. It is not a promise that one simple rate law transfers unchanged to every metabolism. Community interactions, general calibration and uncertainty, and speciation/mineral applications extend beyond the four accepted companions. Each new block needs a declared model contract, checked sources, numerical verification, exercises and public answers, aligned Russian materials and rendered review before joining the available modules.
 
-Whole-book scientific and editorial review, combined-edition integration acceptance and actual learner pilots remain separate gates. The accepted modules do not certify every inherited equation or claim in the book.
+The accepted modules do not certify every inherited equation or claim in the book.
