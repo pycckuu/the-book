@@ -3,7 +3,7 @@
   "frozen_before_first_solve_utc": "2026-10-10T21:06:04.858527+00:00",
   "base": "c7593acde2386107fc85105df54ee9f493e03e6f",
   "code_sha256": "f782b776eaa8972be880a7c40272c1e9ea8ab01d07bd3e1dae8661c8793a0658",
-  "saved_csv_check_sha256": "fd3e0dd7ab3fd2f80dc82730a7c59604531941d24b08f562b9e31355972b773a",
+  "saved_csv_check_sha256": "87c0f63267be2abcc5bbfbe4039540e7347771d5f3142d22ee21ad949b39c614",
   "inputs": {
     "implementation_acceptance": "98302ecec6e1243e6e7ac615e5e00c4f837607cd2d9c3a4321628d2eebac3944",
     "model_contract": "31239b02849566063ab6b7672f1144b22cafc88f5eb764fb7cd10dea2ccb3bb8",
@@ -71,7 +71,12 @@
   "reference": "log bisection, bracket[-qmax*t/K,0], residual<=1e-12 max(S0,K), logwidth<=1e-12, max200iterations, no underflow-as-exhaustion",
   "outputs": "default3full interval ledgers and401snapshots each, threshold/rate/refinement tables,3large-step and2zero ledgers, blank worksheet/separate OPEN worked values,case-manifest and verification; no optional static three-K tables",
   "limitations": "substrate-equivalent accounting only; no products/growth/transport/field/mechanistic-reduction validation",
-  "status": "PORTABLE_METADATA_COPY_OF_FROZEN_PRE_RUN_NOT_NEW_NUMERICAL_EVIDENCE",
+  "status": "PORTABLE_METADATA_COPY_WITH_POST_EXECUTION_CHECKER_PIN_NOT_NEW_NUMERICAL_EVIDENCE",
   "portable_copy_of_pre_run_sha256": "592b1b95d208a329fb9c9d0b00d7a66906f595c2176145cabc011ab67ff01800",
-  "input_pin_basis": "Archived input identities, labeled without private filesystem paths. These labels are not runtime file dependencies."
+  "input_pin_basis": "Archived input identities, labeled without private filesystem paths. These labels are not runtime file dependencies.",
+  "checker_provenance": {
+    "path": "checker-provenance.json",
+    "sha256": "a1cad1f2a70cc6d7a3da8871c7c9ba6a1818af11970eb0d847022187c07a63a7",
+    "scope": "Post-execution current checker identity; original executed identities remain historical."
+  }
 }
