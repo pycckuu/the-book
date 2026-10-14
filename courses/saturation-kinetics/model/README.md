@@ -13,6 +13,14 @@ python3 check_saved_csv.py new-results
 
 The first command executes the bounded model and SAT-B01 through SAT-B08 checks. The second reads saved exports and independently recomputes interval arithmetic. It does not run/import the solver. Existing nonempty output directories are rejected. The portable pre-run plan preserves the original inputs and criteria while replacing private path labels with stable evidence labels. The saved manifest records the original plan hash; re-execution updates only that manifest field, with all numerical outputs unchanged. Numerical/default results and raw failed coarse controls are preserved in results/. The portable execution reproduces all numerical exports; only the manifest plan hash reflects the portable metadata copy.
 
+The saved-data checker requires the declared low/transition/high default and large-step ledgers plus both zero-branch ledgers. It verifies each start, native interval, step key, trajectory boundary and event-extension boundary against the adjacent fixed-input plan and accepted-default declaration. All actual partial intervals remain valid. A truncated prefix cannot represent a complete saved history. This checks the eight ledgers, not every snapshot, threshold or verification result.
+
+The [checker provenance](checker-provenance.json) distinguishes the current checker from the checker used during the original solve. The current portable plan pins the hardened checker; its timestamp and original pre-run identity remain historical. The solver code pin, numerical controls and archived results remain unchanged. The archive's embedded plan/report identities are not replaced by the current metadata. To run the saved-data controls without solving, use a fresh directory:
+
+```sh
+python3 test_check_saved_csv.py --archive saved-results.zip --out new-csv-controls
+```
+
 ## Files and observation support
 
 - case-manifest.json: units, inputs, fixed physical windows, volume basis and proposed default.

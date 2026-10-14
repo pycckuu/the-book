@@ -1,0 +1,21 @@
+{
+  "id": "SAT-POST-EXECUTION-CHECKER-COMPLETENESS-PROVENANCE-R1",
+  "status": "POST_EXECUTION_SOFTWARE_CANDIDATE_NOT_ORIGINAL_SOLVE_CODE",
+  "base_head": "81839ebccdee5ad828dfd5d6b38ca0de94ce5ce0",
+  "scope": "Q01 completeness of the eight saved native ledgers only. No solver execution accompanies this checker candidate.",
+  "historical_pins": {
+    "executed_checker_sha256": "fd3e0dd7ab3fd2f80dc82730a7c59604531941d24b08f562b9e31355972b773a",
+    "original_pre_run_plan_sha256": "592b1b95d208a329fb9c9d0b00d7a66906f595c2176145cabc011ab67ff01800",
+    "prior_portable_pre_run_plan_sha256": "08bc107cf4c2152b3720d1ff62f9a1e27182d3adf8b5733b90c7227a01c3b6a3",
+    "prior_saved_results_manifest_sha256": "fff605a420163c0f257953461efd1dd946a1543008f6d6068b87255f37efa202",
+    "solver_sha256": "f782b776eaa8972be880a7c40272c1e9ea8ab01d07bd3e1dae8661c8793a0658",
+    "saved_results_zip_sha256": "5407c59986bc0094b01c084a4adc355da636a746ceab42c3c7e6113a9c88b6b1"
+  },
+  "current_checker_pins": {
+    "check_saved_csv.py": "87c0f63267be2abcc5bbfbe4039540e7347771d5f3142d22ee21ad949b39c614",
+    "test_check_saved_csv.py": "ac6f4202435c6bbd557313ea039bce109d6ebce2193766ff0e0930d9dea02e08"
+  },
+  "identity_rule": "The current checker was absent during the original solve. Original saved CSV/report hashes and archived case-manifest.plan_sha256 remain historical. The current portable plan contains a post-execution checker pin while retaining the original pre-run numerical controls. Current manifest hashes are recorded externally to avoid cycles.",
+  "unchanged": "Solver, scientific input values, windows, criteria, numerical results, archive members and the original saved readback are unchanged. The standalone checker has no solver caller. saturation.py only checks its own source-code pin; it never calls the checker or validates saved_csv_check_sha256.",
+  "limits": "Ledger coverage and interval arithmetic only, not complete snapshot/event/reference-result verification or independent scientific validation. General Q04 optimized-mode gates remain separate."
+}

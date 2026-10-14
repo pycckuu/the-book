@@ -100,5 +100,11 @@
       "bytes": 490,
       "sha256": "f70fe9c29c9015845fb0155fad2dc7861613eea02a0174982db95227b570d12d"
     }
-  ]
+  ],
+  "current_checker_provenance": {
+    "path": "checker-provenance.json",
+    "sha256": "a1cad1f2a70cc6d7a3da8871c7c9ba6a1818af11970eb0d847022187c07a63a7",
+    "scope": "Post-execution current checker identity; original executed identities remain historical."
+  },
+  "current_portable_plan_sha256": "a731574e7c38811674b663b1e5eee6764415786abd128846b34ef7c64035fc77"
 }
