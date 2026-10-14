@@ -11,6 +11,20 @@ python3 check_saved.py new-results
 
 The runner checks its source/input pins, evaluates seven cases and eight benchmark groups, and retains the actual coarse/refined outcomes. The second command reconstructs saved arithmetic, independent exponential/integrated references, geometric backward-Euler values and common-support metrics without importing the solver. Existing output directories are rejected. No older course model runs as part of these commands.
 
+The saved-data checker requires the complete declared case/run/quantity groups and physical-time supports, including the final native intervals. Expected coverage comes from the accompanying settings/schema and bounded refinement policy; a CSV cannot define away its own missing rows. It rejects nonfinite numbers and forbidden blanks with a file, row key and field diagnostic. True boundary/empty nulls and equilibrium nonapplicability remain distinct from numerical zero. The check also accepts the runner's intermediate verification table before its own saved-CSV metrics are appended; a partially appended group is rejected.
+
+For the separate CSV-only corruption regression, use a new directory:
+
+```sh
+python3 test_check_saved.py --archive saved-results.zip --out checker-regression
+```
+
+This uses disposable copies of the unchanged accepted 100 s archive and records complete/negative controls and CLI exit statuses. It runs no solver and establishes no empirical or learner validity. Original numerical CSV identities and execution provenance remain separate from later checker revisions.
+
+The [execution manifest](execution-manifest.json) pins the current code and input presentation copies for the reproduction command. [Provenance](presentation-only-input-mapping.json) retains the original executed checker and original owner manifest, as well as the prior portable manifest. The hardened checker did not exist at the original solve; changing these current pins does not regenerate or validate the saved numerical data.
+
+The declared final 3.125 s fallback remains an unexecuted compatibility limitation: if every preceding candidate fails, the unchanged runner can repeat the 6.25 s verification IDs. The hardened checker then rejects duplicates. The accepted fixed-input fixture selects 100 s and does not reach that branch. This candidate does not fix the fallback.
+
 ## Saved data and spreadsheet route
 
 Extract [saved-results.zip](saved-results.zip) with an ordinary archive manager to obtain `results-r2/`. Its four CSV families are pinned in [saved-results-manifest.json](saved-results-manifest.json):
