@@ -44,6 +44,6 @@ cd ../model
 python3 run.py --output fresh-results
 ```
 
-Use a new output directory. Read [prospective-plan.json](../model/prospective-plan.json) and the exact [execution manifest](../model/execution-manifest.json) before any voluntary reproduction; do not alter settings/gates. The optional owner's saved-output readback command is `python3 check_saved.py fresh-results` from that model directory. Neither command was run while preparing this teaching candidate. Supplied-output analysis is distinguished from this independent execution route.
+Use a new output directory. Read [prospective-plan.json](../model/prospective-plan.json) and the exact [execution manifest](../model/execution-manifest.json) before any voluntary reproduction; do not alter settings/gates. The optional owner's saved-output readback command is `python3 check_saved.py fresh-results` from that model directory; its default final phase requires and reconciles all eleven self-check metrics, while the internal runner explicitly uses pre-append before adding them. Neither command was run while preparing this teaching candidate. Supplied-output analysis is distinguished from this independent execution route.
 
 The [model guide](../model/README.md) records the repeated-zero predicate correction and execution chronology. The corrected $400\,\mathrm{s}$ accuracy FAIL, $200\,\mathrm{s}$ PASS and fixed-policy $100\,\mathrm{s}$ acceptance are not replaced by expectations. Saved numerical verification does not claim field or learner validation.

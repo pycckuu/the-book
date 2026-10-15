@@ -14,10 +14,10 @@
   "reference_stability": "u=-expm1(-z)/lambda; v small-z convergent series. Direct species Gibbs term eq*((1+y)*log1p(y)-y) with small-y series and continuous c=0 limit; no clipping or epsilon. Binary Gibbs only analytical reference check.",
   "verification": "Declared raw residual/minimum, scales/criteria and supports exported. Independent saved-CSV arithmetic/reference/refinement reconstruction. One fresh-output reproducibility comparison after passed checks; no empirical/learner claim.",
   "output": "Four full CSV families, verification.json and separate blank/OPEN two-forward-step views. The verified100s policy is fixed, not coarsest passing; full raw tables are in saved-results.zip.",
-  "code_freeze": "Exact implementation/reference/checker hashes recorded in execution-manifest.json before first numerical command. Code corrections, if necessary, retain prior execution logs and hashes rather than replacing failure history. This records the original execution procedure, not a pre-run freeze of the current checker. The post-execution Q01/Q02 checker identity and original executed identities are distinguished in presentation-only-input-mapping.json.",
+  "code_freeze": "Exact implementation/reference/checker hashes recorded in execution-manifest.json before first numerical command. Code corrections, if necessary, retain prior execution logs and hashes rather than replacing failure history. This records the original execution procedure, not a pre-run freeze of the current checker. The post-execution Q01/Q02 checker identity and original executed identities are distinguished in presentation-only-input-mapping.json. The later final-selfcheck checker and explicit pre-append caller are post-execution software changes, not code used for the original numerical solve; their identities are scoped in post_execution_final_selfcheck_r1 of that mapping.",
   "presentation_only_provenance": {
     "path": "presentation-only-input-mapping.json",
-    "sha256": "21c92aea1712df0a6198624511650fc003d1d2df4c34b1b5ef5ed9575974ba9e",
+    "sha256": "f312eeffcc43faa8f547d167e399cef7e89cb72fd5ba744ec7bd5eb79bb16f4f",
     "scope": "Post-execution input presentation history and current checker hardening; original executed identities are retained separately in the mapping."
   }
 }

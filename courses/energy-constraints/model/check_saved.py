@@ -154,7 +154,9 @@ def metric_keys(settings, steps, candidates, quantities):
     return keys
 
 
-def check_saved(folder):
+def check_saved(folder, *, phase='final'):
+    if phase not in ('final', 'pre-append'):
+        raise ValueError('Unknown saved-CSV phase: ' + str(phase))
     root = Path(__file__).resolve().parent
     schema = json.loads((root / 'inputs/export-schema.json').read_text())
     settings = json.loads((root / 'inputs/proposed-settings.json').read_text())
@@ -219,8 +221,8 @@ def check_saved(folder):
             yield row
     def complete(label, actual, wanted):
         if actual != wanted:
-            raise ValueError(label + ': declared coverage mismatch; missing ' + repr(next(iter(wanted - actual), None)) +
-                             '; unexpected ' + repr(next(iter(actual - wanted), None)))
+            raise ValueError(label + ': declared coverage mismatch; missing ' + repr(min(wanted - actual, default=None)) +
+                             '; unexpected ' + repr(min(actual - wanted, default=None)))
     pmap = {}
     declared_cases = {c['id']: c for c in settings['core_cases'] + settings['auxiliary_cases']}
     defaults = set()
@@ -378,10 +380,15 @@ def check_saved(folder):
     complete('comparison.csv groups', set(times_by_group), set(wanted_comparison))
     for group, times in times_by_group.items():
         complete('comparison.csv times ' + repr(group), times, wanted_comparison[group])
+    saved_rows = []
     for row in rows('verification.csv'):
         where = row['_where']
         key = tuple(row[k] for k in ('benchmark_id', 'case_id', 'run_id', 'support_id', 'metric'))
-        if key not in wanted_metrics and key[:4] != ('B08', 'all', 'global', 'saved-CSV'):
+        if key[:4] == ('B08', 'all', 'global', 'saved-CSV'):
+            saved_rows.append(row)
+            counts['verification_numeric_rows'] += 1  # Reporting only, excluded from reductions.
+            continue
+        if key not in wanted_metrics:
             raise ValueError(where + ': undeclared verification metric ID')
         if key in metric_ids:
             raise ValueError(where + ': duplicate verification logical key')
@@ -416,14 +423,44 @@ def check_saved(folder):
                       for key, value in sorted(maxima.items())]
     result_metrics.append({'metric': 'saved_schema_ID_support_null_status_mismatch_count', 'value': len(mismatches),
                            'normalizer': 1.0, 'unit': 'count', 'threshold': 0.0})
-    # run.py calls this before adding saved-CSV metrics, then writes all of them.
-    saved_keys = {('B08', 'all', 'global', 'saved-CSV', m['metric']) for m in result_metrics}
-    present_saved = metric_ids & saved_keys
-    if present_saved and present_saved != saved_keys:
-        raise ValueError('verification.csv: incomplete saved-CSV metrics')
-    complete('verification.csv metric IDs', metric_ids - present_saved, wanted_metrics)
+    complete('verification.csv metric IDs', metric_ids, wanted_metrics)
+    # Reconcile only after independent ordinary reductions, never recursively.
+    if phase == 'pre-append':
+        if saved_rows:
+            raise ValueError('verification.csv saved-CSV group field metric: pre-append phase requires group absent')
+    else:
+        expected_saved = {m['metric']: m for m in result_metrics}
+        recorded = {}
+        for row in saved_rows:
+            metric = row['metric']
+            if metric not in expected_saved:
+                raise ValueError('verification.csv saved-CSV metric ' + metric + ' field metric: undeclared metric')
+            if metric in recorded:
+                raise ValueError('verification.csv saved-CSV metric ' + metric + ' field metric: duplicate logical key')
+            recorded[metric] = row
+        if set(recorded) != set(expected_saved):
+            raise ValueError('verification.csv saved-CSV group field metric: final phase requires exactly 11 declared metrics')
+        expected_rows = {}
+        for metric, m in expected_saved.items():
+            expected_rows[metric] = dict(value=m['value'], normalizer=m['normalizer'],
+                normalized_value=m['value'] / m['normalizer'], threshold_lower=None,
+                threshold_upper=m['threshold'], unit=m['unit'],
+                criterion=f"normalized <= {m['threshold']}",
+                status='PASS' if m['value'] <= m['threshold'] else 'FAIL',
+                null_reason='', synthetic='true', benchmark_id='B08',
+                case_id='all', run_id='global', support_id='saved-CSV', metric=metric)
+        numeric_fields = {'value', 'normalizer', 'normalized_value', 'threshold_lower', 'threshold_upper'}
+        # Field-major precedence binds diagnostics independently of CSV row order.
+        for field in ('value', 'normalizer', 'normalized_value', 'threshold_lower', 'threshold_upper',
+                      'unit', 'criterion', 'status', 'null_reason', 'synthetic',
+                      'benchmark_id', 'case_id', 'run_id', 'support_id', 'metric'):
+            for metric in expected_saved:
+                row = recorded[metric]
+                actual = number(row, field) if field in numeric_fields else row[field]
+                if actual != expected_rows[metric][field]:
+                    raise ValueError('verification.csv saved-CSV metric ' + metric + ' field ' + field + ': recorded/reconstructed mismatch')
     passed = all(m['value'] <= m['threshold'] for m in result_metrics)
-    return {'status': 'PASS' if passed else 'FAIL', 'method': 'Independent CSV-only amount/energy/null/support/status reconstruction, independent exponential/integral reference and fixed-step geometric BE check; no model/solver import.',
+    return {'status': 'PASS' if passed else 'FAIL', 'phase': phase, 'method': 'Independent CSV-only amount/energy/null/support/status reconstruction, independent exponential/integral reference and fixed-step geometric BE check; no model/solver import.',
             'metrics': result_metrics, 'row_counts': dict(counts), 'mismatches': mismatches,
             'auxiliary_reference_information': aux_info,
             'limits': 'Arithmetic/numerical verification only. Auxiliary accuracy is reported for information without production accuracy gates.'}
@@ -432,6 +469,8 @@ def check_saved(folder):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('folder', type=Path)
-    result = check_saved(parser.parse_args().folder)
+    parser.add_argument('--phase', choices=('final', 'pre-append'), default='final')
+    args = parser.parse_args()
+    result = check_saved(args.folder, phase=args.phase)
     print(json.dumps(result, indent=2, allow_nan=False))
     raise SystemExit(0 if result['status'] == 'PASS' else 1)

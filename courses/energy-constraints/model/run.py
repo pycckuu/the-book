@@ -361,7 +361,7 @@ def execute(out):
     write_csv(out / 'verification.csv', columns['verification.csv'], metrics)
     # Separate module reads serialized CSVs and does not import the solver/model.
     from check_saved import check_saved
-    saved = check_saved(out)
+    saved = check_saved(out, phase='pre-append')
     dump(out / 'saved-table-readback.json', saved)
     for metric in saved['metrics']:
         record('B08', metric['metric'], metric['value'], norm=metric['normalizer'],

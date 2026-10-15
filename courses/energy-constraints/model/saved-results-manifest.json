@@ -38,7 +38,7 @@
   "acceptance_scope": "Synthetic numerical/default verification only. No empirical or learner validation.",
   "presentation_only_provenance": {
     "path": "presentation-only-input-mapping.json",
-    "sha256": "21c92aea1712df0a6198624511650fc003d1d2df4c34b1b5ef5ed9575974ba9e",
+    "sha256": "f312eeffcc43faa8f547d167e399cef7e89cb72fd5ba744ec7bd5eb79bb16f4f",
     "scope": "Post-execution input presentation history and current checker hardening; original executed identities are retained separately in the mapping."
   }
 }

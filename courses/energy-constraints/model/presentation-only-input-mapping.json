@@ -92,5 +92,46 @@
     "current_manifest_rule": "Current execution-manifest.json pins the current code and current prospective-plan presentation copy for a future reproduction route; no new numerical execution or acceptance is claimed. Current manifest hashes are recorded externally to avoid circular hash references.",
     "unchanged": "model.py, run.py, settings, criteria, schema, scientific clarifications, saved CSVs, saved-results.zip and embedded DATA-MANIFEST.json remain byte-identical.",
     "deferred": "Self-check metadata value/status integrity and final-archive versus pre-append mode are not fixed by Q01/Q02 and remain a separately triaged scope."
+  },
+  "post_execution_final_selfcheck_r1": {
+    "previous_current_code_pins": {
+      "check_saved.py": "123af2ca12748f1137a59a7d5dba3c52eab24462b086b190ef9893bc70f53223",
+      "run.py": "924d2fe9f872bf135dd57e272a3bd1314bb06b3d78338d7d7dff9b45979f73ac",
+      "test_check_saved.py": "a9b82ddf6551f0a54d83ed2efe922a0b35606f0109f29e835d98e3cdb8cfe8f7"
+    },
+    "previous_portable_manifest_pins": {
+      "presentation-only-input-mapping.json": "21c92aea1712df0a6198624511650fc003d1d2df4c34b1b5ef5ed9575974ba9e",
+      "prospective-plan.json": "10920b7087a4cde7b514bdc3480246d57708fa4bef229b921e7b6248b196450c",
+      "execution-manifest.json": "ade5b20045c20b07e1e54a3a7b6c72917f58631a4741a3b17958a202817fd2d8",
+      "saved-results-manifest.json": "4b99184ed72833246dcf4115ea820b7369b830d7ae067a6169880dd6daf187fd"
+    },
+    "historical_regression_37_sha256": "1346ef69a67eb2819fd38760f42c5945f0436a597f4575129f3e496272712f0b",
+    "current_code_pins": {
+      "check_saved.py": "178089bffea7ea801eafda2c3a96dd363e20459f9eff7b55f08a73b0c4bfb852",
+      "run.py": "e9423ee3677361d2d114cc2f96cb4553c20e8c866472d24c5cf4b4b0e0929cca",
+      "test_check_saved.py": "4230cfcdce0b72045c14cbd7dedfc758ae2ca70bb8b570141d7f4a89a67f4af0"
+    },
+    "scope": "Final archive versus explicit pre-append software contract and independent nonrecursive reconciliation; deterministic diagnostic selection only, unchanged coverage and numerical predicates.",
+    "identity_rule": "Earlier scoped events, including their current_checker_pins, unchanged and deferred fields, describe their previous code and remain history. Original owner, executed, publication and portable identities are retained. Current CSV regression outcomes and downstream manifest hashes are external. No new solver execution."
+  },
+  "post_execution_harness_utf8_retention_r2": {
+    "previous_current_code_pins": {
+      "check_saved.py": "178089bffea7ea801eafda2c3a96dd363e20459f9eff7b55f08a73b0c4bfb852",
+      "run.py": "e9423ee3677361d2d114cc2f96cb4553c20e8c866472d24c5cf4b4b0e0929cca",
+      "test_check_saved.py": "4230cfcdce0b72045c14cbd7dedfc758ae2ca70bb8b570141d7f4a89a67f4af0"
+    },
+    "previous_portable_manifest_pins": {
+      "presentation-only-input-mapping.json": "15fa2aae75744a7561345769fc237f8d93a5474c57920aee0b06c365fff50161",
+      "prospective-plan.json": "144fced845a8eed7d732057df74a4cda996f7ecad46940aa9ea08b85bb7618fb",
+      "execution-manifest.json": "62723736f64a8432f9185621cf136c9ef1b514ae858975b15f5610885228eb2e",
+      "saved-results-manifest.json": "e15be50968da0f56677dd0721168f1948702fe8e7c980d497b11483d95527df0"
+    },
+    "current_code_pins": {
+      "check_saved.py": "178089bffea7ea801eafda2c3a96dd363e20459f9eff7b55f08a73b0c4bfb852",
+      "run.py": "e9423ee3677361d2d114cc2f96cb4553c20e8c866472d24c5cf4b4b0e0929cca",
+      "test_check_saved.py": "7382bd9d1717ea65487d8372aa3fa7fcd148cd163832ff78ac9dff106f3f7176"
+    },
+    "scope": "Developer harness channel-decoding evidence retention only. Any invalid UTF-8 channel is unmatched; raw bytes, input hashes and case identity survive into the final receipt.",
+    "identity_rule": "Earlier scoped current pins and outcomes describe their recorded code and remain unchanged history. The r1 CSV37 results identify the preceding harness, not a rerun with this harness. Targeted successor outcomes and current downstream manifest hashes are external. Checker, runner, scientific functions, saved archive and all input bytes are unchanged. No solver execution."
   }
 }
