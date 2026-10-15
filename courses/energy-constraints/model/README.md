@@ -11,15 +11,15 @@ python3 check_saved.py new-results
 
 The runner checks its source/input pins, evaluates seven cases and eight benchmark groups, and retains the actual coarse/refined outcomes. The second command reconstructs saved arithmetic, independent exponential/integrated references, geometric backward-Euler values and common-support metrics without importing the solver. Existing output directories are rejected. No older course model runs as part of these commands.
 
-The saved-data checker requires the complete declared case/run/quantity groups and physical-time supports, including the final native intervals. Expected coverage comes from the accompanying settings/schema and bounded refinement policy; a CSV cannot define away its own missing rows. It rejects nonfinite numbers and forbidden blanks with a file, row key and field diagnostic. True boundary/empty nulls and equilibrium nonapplicability remain distinct from numerical zero. The check also accepts the runner's intermediate verification table before its own saved-CSV metrics are appended; a partially appended group is rejected.
+The saved-data checker requires the complete declared case/run/quantity groups and physical-time supports, including the final native intervals. Expected coverage comes from the accompanying settings/schema and bounded refinement policy; a CSV cannot define away its own missing rows. It rejects nonfinite numbers and forbidden blanks with a file, row key and field diagnostic. True boundary/empty nulls and equilibrium nonapplicability remain distinct from numerical zero. The standalone API and CLI default to final verification, requiring all eleven saved-CSV metrics and reconciling their recorded fields against independent ordinary reductions. These rows count in final reporting but never feed their own reductions. The internal runner explicitly selects pre-append, requiring the self-check group to be absent; a missing or partial final group is rejected.
 
 For the separate CSV-only corruption regression, use a new directory:
 
 ```sh
-python3 test_check_saved.py --archive saved-results.zip --out checker-regression
+python3 test_check_saved.py --archive saved-results.zip --out checker-regression --suite final-selfcheck
 ```
 
-This uses disposable copies of the unchanged accepted 100 s archive and records complete/negative controls and CLI exit statuses. It runs no solver and establishes no empirical or learner validity. Original numerical CSV identities and execution provenance remain separate from later checker revisions.
+This single explicit suite uses disposable copies of the unchanged accepted 100 s archive for 23 selected regressions, C2 and the distinct final metadata controls, with positive aliases counted once: 37 CLI invocations. It checks exact diagnostic or JSON outcomes and records per-case channels, input hashes and environment in final-selfcheck-results.json. The former command without --suite fails explicitly. The earlier full37 outcomes remain historical evidence for their recorded checker/test identities only. It runs no solver and establishes no empirical or learner validity. Original numerical CSV identities and execution provenance remain separate from later checker revisions.
 
 The [execution manifest](execution-manifest.json) pins the current code and input presentation copies for the reproduction command. [Provenance](presentation-only-input-mapping.json) retains the original executed checker and original owner manifest, as well as the prior portable manifest. The hardened checker did not exist at the original solve; changing these current pins does not regenerate or validate the saved numerical data.
 

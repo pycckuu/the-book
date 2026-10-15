@@ -2,9 +2,9 @@
   "id": "ENERGY-PORTABLE-EXECUTION-PINS",
   "file_pins": {
     "model.py": "2d4ccddfba16e42e5ff65d63fc7dc3216efa95a1a080d95ecad87464f06512f0",
-    "run.py": "924d2fe9f872bf135dd57e272a3bd1314bb06b3d78338d7d7dff9b45979f73ac",
-    "check_saved.py": "123af2ca12748f1137a59a7d5dba3c52eab24462b086b190ef9893bc70f53223",
-    "prospective-plan.json": "10920b7087a4cde7b514bdc3480246d57708fa4bef229b921e7b6248b196450c",
+    "run.py": "e9423ee3677361d2d114cc2f96cb4553c20e8c866472d24c5cf4b4b0e0929cca",
+    "check_saved.py": "178089bffea7ea801eafda2c3a96dd363e20459f9eff7b55f08a73b0c4bfb852",
+    "prospective-plan.json": "0ac8d1b98f5ac380f1a9a16870cb7a8cdcf53660f2b8658409f9f15d15b2bc06",
     "inputs/proposed-settings.json": "c15b333046e7b267bfb8a399dde51167337d078048b8d315eec39278a7ab05df",
     "inputs/benchmark-plan.json": "46712efd45fda94e423a23ac52935edda06dbaa0752add4bf514bd80a71d334a",
     "inputs/export-schema.json": "775a31cd2b5d5d9b3b52530f7c8d6c9135cbd5c22570f6ee90b7ba476cbec3df",
@@ -13,7 +13,7 @@
   "scope": "Immutable scientific settings and criteria, positive two-state update, independent exponential/integrated reference and CSV-only checker. Existing output directories are rejected.",
   "presentation_only_provenance": {
     "path": "presentation-only-input-mapping.json",
-    "sha256": "21c92aea1712df0a6198624511650fc003d1d2df4c34b1b5ef5ed9575974ba9e",
+    "sha256": "f312eeffcc43faa8f547d167e399cef7e89cb72fd5ba744ec7bd5eb79bb16f4f",
     "scope": "Post-execution input presentation history and current checker hardening; original executed identities are retained separately in the mapping."
   }
 }
