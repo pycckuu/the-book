@@ -9,8 +9,8 @@
     "path": "../model/",
     "revision": "AD-NUMERICS-1",
     "manifest": "../model/SHA256SUMS.json",
-    "manifest_sha256": "d1c50796f6217afe6215050ca6451aee2d69bda247d43b9f531186fa38c0d5c6",
-    "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+    "manifest_sha256": "d802b216cde3ba104dc1ef87d3b43eab402c4cc19d27f1d8b837e4ec59e1a1d4",
+    "code_sha256": "c487875d7f39dc3c52b62b01934bf9844fd3e9182fb1ed57a1ae3734bb3ec025",
     "report_sha256": "736b73ddb55c417db86d8aa2e5c36ba7a3fe5945d4b3de3ab7346b4e2bd8e8f0",
     "original_zip_sha256": "3de45dc688880c341a62d791c9448df069fad3c2e7adcdb396b0bfe614d1d29e"
   },
@@ -89,5 +89,23 @@
     "Russian_alignment": "After accepted English freeze",
     "learner_pilot": "Not executed",
     "natural_validity": "Not established"
+  },
+  "output_preservation": {
+    "status": "CURRENT_OUTPUT_GUARD_PREPARED_NOT_NUMERICALLY_REEXECUTED",
+    "historical_local_numerical_package": {
+      "path": "../model/",
+      "revision": "AD-NUMERICS-1",
+      "manifest": "../model/SHA256SUMS.json",
+      "manifest_sha256": "d1c50796f6217afe6215050ca6451aee2d69bda247d43b9f531186fa38c0d5c6",
+      "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+      "report_sha256": "736b73ddb55c417db86d8aa2e5c36ba7a3fe5945d4b3de3ab7346b4e2bd8e8f0",
+      "original_zip_sha256": "3de45dc688880c341a62d791c9448df069fad3c2e7adcdb396b0bfe614d1d29e"
+    },
+    "previous_dependencies_sha256": "cbd5318670d72a27221c1fd39d70056de17b2c28419bedf926f733a7e3f35c0d",
+    "history_mapping": {
+      "path": "../model/output-preservation-provenance.json",
+      "sha256": "a55f24d3fc6301f9b0a355e5bba7a002229a8ee64864572b0e35e909145a3195"
+    },
+    "current_code_identity_rule": "Local manifest/code pins identify current guard-only source. Report, original ZIP and acceptance identities remain historical. No solver rerun; all numerical functions and saved outputs retained."
   }
 }

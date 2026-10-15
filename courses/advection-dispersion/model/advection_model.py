@@ -15,6 +15,12 @@ from pathlib import Path
 DEFAULT = dict(L=1., phi=.30, u=1e-5, D=1e-6, k=0., C_ref=1., Tp=20000.)
 
 
+def require_empty_output(out):
+    """Reject occupied destinations before computation or any output writes."""
+    if out.exists() and (not out.is_dir() or any(out.iterdir())):
+        raise ValueError('Output directory must be new or empty; existing contents will not be overwritten.')
+
+
 def validate(p, n, dt=None, end=None):
     if type(n) is not int or n < 2:
         raise ValueError('Require integer N>=2')
@@ -277,6 +283,8 @@ def main():
     parser.add_argument('--end',type=float,default=600000.)
     for q in DEFAULT: parser.add_argument('--'+q,type=float,default=DEFAULT[q])
     a=parser.parse_args(); p={q:getattr(a,q) for q in DEFAULT}
+    try: require_empty_output(a.out)
+    except ValueError as error: parser.error(str(error))
     validate(p,a.n,a.dt,a.end); a.out.mkdir(parents=True,exist_ok=True)
     writer=Export(a.out,'custom',p)
     try: result=pulse(p,a.n,a.dt,a.end,writer=writer)

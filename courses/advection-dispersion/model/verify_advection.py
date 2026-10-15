@@ -121,6 +121,7 @@ def interval_observation(result,left,right,p):
 
 
 def run(out):
+    m.require_empty_output(out)
     out.mkdir(parents=True,exist_ok=True)
     evidence={'revision':'AD-NUMERICS-1','contract_sha256':CONTRACT_SHA,'metrics_sha256':METRIC_SHA,
               'code_sha256':hashlib.sha256((ROOT/'advection_model.py').read_bytes()).hexdigest(),
@@ -320,7 +321,10 @@ def check_budget_result(report):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__); parser.add_argument('--out',type=Path,required=True)
-    args=parser.parse_args(); args.out.mkdir(parents=True,exist_ok=True)
+    args=parser.parse_args()
+    try: m.require_empty_output(args.out)
+    except ValueError as error: parser.error(str(error))
+    args.out.mkdir(parents=True,exist_ok=True)
     history=args.out.parent/'run-history'; history.mkdir(exist_ok=True)
     stamp=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')
     try: evidence=run(args.out)

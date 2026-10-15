@@ -1,7 +1,7 @@
 {
   "README.md": "7e034bd6988700618fc5f70c8d7c9c964e9ea2672e60f91036ec632b881addb2",
   "curriculum-en.md": "2046fc690eeb2e44daaba94b1f3bfa104a60a073bd17767b2dc9647f8d4b40ee",
-  "dependencies.json": "cbd5318670d72a27221c1fd39d70056de17b2c28419bedf926f733a7e3f35c0d",
+  "dependencies.json": "5f53c9596361924e70f77f956f1222d8f615e0ae4079952ca2da7ed0e5652013",
   "evidence/csv-readback-output.json": "c7dbd3ff72b081a1dbc048e182da4561690aa59749a0b6ad72b34bf60c749dfe",
   "evidence/editor-independent-moment-readback.json": "08167207fc1dc2a630584ecb8411a0b5e88bd3cd2383eab28689f1ec7bea981f",
   "evidence/editor-numerical-acceptance-r1.json": "93f9dea86f0009bf5c2d56b410693d1fa6ddc7ab48e843ea2c149a5eb4bb4664",
@@ -14,7 +14,7 @@
   "exercise-outcome-map.json": "7ca08e33273142f8875678406f5688df8b6576ece66ca45a15d1c9cfe3461581",
   "module-reading-en.qmd": "ffdbeaf2a5a5c10626aef3d7b2a145814cca697a54ba3f1c94b0ce3196c73edf",
   "pilot-protocol-en.md": "1bd01dd3ea5b9bcc268a26f0da253d1c3828c3029900fca9f793f83f861250f3",
-  "provenance.json": "19fec8d749f2a2eed9800c387110c7dfc3a181bb5feaf00d179302108f25a0d8",
+  "provenance.json": "e2cc33fc0dbd4a7bdb311080bd3f9727f4ec461c9656b2c1852a9dfb32a82af5",
   "student-packet-en.qmd": "48416a6eb1045b5a7877afc1d5b6b9ab6ffbb2d78d33682f1f08e94065da86e5",
   "worked-answers-en.qmd": "85692dc3c7fa5240a28ade8cc018f47260e1e5d947daf7d68077f6fe3e11fc0e",
   "worksheets/e03-budget-input.csv": "04778e4201b8ee2d44af53d92301f57c8d42c3f2dc6dee3f277420e3f3dcaf76",

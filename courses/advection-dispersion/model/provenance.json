@@ -4,8 +4,8 @@
   "source_base": "b6f5fd80c963e8cd5b739e930893a0c7ec7c871a",
   "contract_sha256": "d890ac5b46c239a9b64bfadf1cf4a1af5bdb2ec7e97a56f34deb3333166df75e",
   "implementation_acceptance_sha256": "f631b7406e415a49b153c55155d1b16cd31248f2389c613a4d3770590d3f8a5f",
-  "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
-  "verification_code_sha256": "f2fd7cc99f36a742a49ec8c0d108ef65f31a797eed7eb5d3a6e2969f6f208e07",
+  "code_sha256": "c487875d7f39dc3c52b62b01934bf9844fd3e9182fb1ed57a1ae3734bb3ec025",
+  "verification_code_sha256": "e3858c967b5a4908b3786dd5ec2fec856555603bd92f81e0432cc010fe685746",
   "readback_code_sha256": "377cba5e995589b62ede49137a207e70a5d80f9f7c15b7ac9c6a5b894e9f3690",
   "metrics_sha256_declared_before_first_run": "a0489e5a7be6ac402dbd1983fbd6035cbda34e7cde2bf0cdf68221acbab79ed0",
   "results_verification_sha256": "736b73ddb55c417db86d8aa2e5c36ba7a3fe5945d4b3de3ab7346b4e2bd8e8f0",
@@ -51,5 +51,21 @@
       "sha256": "736b73ddb55c417db86d8aa2e5c36ba7a3fe5945d4b3de3ab7346b4e2bd8e8f0",
       "status": "PASS"
     }
-  ]
+  ],
+  "output_preservation": {
+    "status": "PREPARED_SOFTWARE_GUARD_NOT_A_NEW_NUMERICAL_RUN",
+    "history_mapping": "output-preservation-provenance.json",
+    "history_mapping_sha256": "a55f24d3fc6301f9b0a355e5bba7a002229a8ee64864572b0e35e909145a3195",
+    "original_executed_identity": {
+      "code_sha256": "6bbc5fa99259dfde534f93eb1b4feb9540c9380e612047faa8b8a6aa147e1305",
+      "verification_code_sha256": "f2fd7cc99f36a742a49ec8c0d108ef65f31a797eed7eb5d3a6e2969f6f208e07",
+      "readback_code_sha256": "377cba5e995589b62ede49137a207e70a5d80f9f7c15b7ac9c6a5b894e9f3690"
+    },
+    "current_test": {
+      "path": "test_output_guard.py",
+      "sha256": "897a25d7e9b39ee938eb1c771df1fce785434f4b12fff0ff4bbf9a181744660d",
+      "scope": "developer guard-order regression, no numeric execution"
+    },
+    "historical_status_rule": "Original revision/status/acceptance/default/run fields refer to historical numerical evidence, not execution of current guarded source."
+  }
 }

@@ -17,7 +17,7 @@
   "files": {
     "README.md": "7e034bd6988700618fc5f70c8d7c9c964e9ea2672e60f91036ec632b881addb2",
     "curriculum-en.md": "2046fc690eeb2e44daaba94b1f3bfa104a60a073bd17767b2dc9647f8d4b40ee",
-    "dependencies.json": "cbd5318670d72a27221c1fd39d70056de17b2c28419bedf926f733a7e3f35c0d",
+    "dependencies.json": "5f53c9596361924e70f77f956f1222d8f615e0ae4079952ca2da7ed0e5652013",
     "evidence/csv-readback-output.json": "c7dbd3ff72b081a1dbc048e182da4561690aa59749a0b6ad72b34bf60c749dfe",
     "evidence/editor-independent-moment-readback.json": "08167207fc1dc2a630584ecb8411a0b5e88bd3cd2383eab28689f1ec7bea981f",
     "evidence/editor-numerical-acceptance-r1.json": "93f9dea86f0009bf5c2d56b410693d1fa6ddc7ab48e843ea2c149a5eb4bb4664",
@@ -36,5 +36,11 @@
     "worksheets/e05-residual-worksheet.csv": "bab9530e53de0a8024c84340a2a474a119915038c738332c990ea2dcad94ea63",
     "module-reading-en.qmd": "ffdbeaf2a5a5c10626aef3d7b2a145814cca697a54ba3f1c94b0ce3196c73edf"
   },
-  "notation_delta": "Roman subscripts use modern math font command; symbols, values and scientific meaning unchanged."
+  "notation_delta": "Roman subscripts use modern math font command; symbols, values and scientific meaning unchanged.",
+  "output_preservation": {
+    "previous_provenance_sha256": "19fec8d749f2a2eed9800c387110c7dfc3a181bb5feaf00d179302108f25a0d8",
+    "previous_dependencies_sha256": "cbd5318670d72a27221c1fd39d70056de17b2c28419bedf926f733a7e3f35c0d",
+    "current_dependency_pin_only": true,
+    "historical_render_and_source_gates": "Carried original receipts apply to original evidence; no new render/build/gate claim."
+  }
 }
