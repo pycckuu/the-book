@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Illustrative O2 model, Python standard library only. No measured calibration.
 
-Run: python3 oxygen_model.py --out results
+Run: python3 oxygen_model.py --out my-run
+Choose a new or empty output directory.
 C: mol/m3 porewater; Ds: m2/s, excludes phi; k: 1/s; x: m downward.
 Cell-centred finite volumes, backward Euler, fixed surface C, sealed bottom.
 """
@@ -190,6 +191,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--out', type=Path, default=Path('results'))
     args = parser.parse_args()
+    if args.out.exists() and (not args.out.is_dir() or any(args.out.iterdir())):
+        parser.error('Output directory must be new or empty; existing contents will not be overwritten.')
     args.out.mkdir(parents=True, exist_ok=True)
     p = DEFAULT.copy()
     report = dict(parameters=p, parameter_status='all illustrative, not literature estimates',

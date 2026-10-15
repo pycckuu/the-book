@@ -5,7 +5,7 @@
   "input_provenance": "synthetic illustrative model and fitting observations",
   "empirical_validation": false,
   "learner_pilot": "prepared, not executed",
-  "model_sha256": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9",
+  "model_sha256": "6d0be30c926bf17cec758385a9f7b1834e119ccbc615897f61e80c96d2040828",
   "files": {
     "README.md": "c6d25e0f2d59cffc3682d925457c61adc0906e99e57edd2501f15195731b94a4",
     "appendices/b-model-toolkit.ru.md": "1092ada99b498fda307976c0866597cc9c49c598cd14bac0a4f2c2a5f5d384ab",
@@ -18,10 +18,10 @@
     "evidence/sensitivity.csv": "14abe80e8c81f579da42a4ff0f94238d30f80503c1874f1773dc05dfe2b5f0c2",
     "evidence/teaching-checks.json": "962c859800cc13300d427ab32634d91ad088716c99192b6db05ee143d11f4b8f",
     "evidence/verification.json": "e49735eaca2669430e975a507e445eb1ca24c1138c0f589423a74d24e59027b5",
-    "instructor-packet-ru.md": "16a483496e35f45f7aa6c873af151d9b61919018cfed53f0832eb8dc0133c555",
-    "model/README.md": "f69dc7ea74f9004418065f2970a514f7e0d8286cc63e4fd87c26a82f796033e3",
+    "instructor-packet-ru.md": "1b89bdbcec1d45cbc564123ff81962916708cfbfa87f021af8febd1753cb6abd",
+    "model/README.md": "6b3b5d47ac8d46418a102c910739f11f0f16c0b06cd8134b31b66ec3cf885201",
     "model/model-contract.md": "c32fae949f07a137fe652188fe3e8bdf78b7ab152dbdacd0860c3918b889bd67",
-    "model/oxygen_model.py": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9",
+    "model/oxygen_model.py": "6d0be30c926bf17cec758385a9f7b1834e119ccbc615897f61e80c96d2040828",
     "model/results/profiles.csv": "24e95fb0fe0b44484fc479cc17dc904ab70b5cd3e6dad31ed7e7ca30857c9ded",
     "model/results/verification.json": "e49735eaca2669430e975a507e445eb1ca24c1138c0f589423a74d24e59027b5",
     "model/verification-report.md": "6ef36f2d0a21eb2405a22162767305f2fa074445ef766e5ad2974fe10e1354a4",
@@ -29,8 +29,89 @@
     "sources/figures/fig_ch8_porewater_profile.ru.py": "f0889d9f023b535fd3e19fca44dd70376aa7593a7ecd6f55195e480cafb38695",
     "sources/img/ch8_porewater_profile.pdf": "1ba0b2e018d35f6f08cd4a2f75afb158174f8c005ee2613122bb24e203a5ee6f",
     "sources/img/ch8_porewater_profile.png": "22898bd251f2509bc4c8004a0aa199970ec2037ceb3446d7864db9937e670822",
-    "student-packet-ru.md": "de7bf23d8f200ac1e3e9c93c77d586d662273bd5b20dbe490cfc003712f7494c",
+    "student-packet-ru.md": "71889ee097ce5266cb28a3dc64bd7fc65ee02ece325e5ae8f98cdf9adc330d4e",
     "verification-methods.md": "5798301daab5c09e553ccf0e554f9fbdd595f6404b1d61f32026fca2cefbee61"
   },
-  "answer_access": "open book and public companion source"
+  "answer_access": "open book and public companion source",
+  "output_preservation": {
+    "task": "BOOK-MODEL-OXYGEN-OUTPUT-PRESERVATION-1",
+    "status": "POST_EXECUTION_OUTPUT_GUARD_CANDIDATE_NOT_A_NEW_NUMERICAL_RUN",
+    "base_head": "692c367ace6e2b411d7effcc8e16b4a0b962f139",
+    "original_executed_model_sha256": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9",
+    "original_model_README_sha256": "f69dc7ea74f9004418065f2970a514f7e0d8286cc63e4fd87c26a82f796033e3",
+    "previous_provenance_sha256": "4d5db295b56dab2f44af0e2179c14c4f5b5a45f072c4d58045757279b6a21258",
+    "current_guard_test": {
+      "path": "courses/oxygen-diffusion/test_output_guard.py",
+      "sha256": "cdebc208c7aca8b829efc86a6d11c2937c9df6b2337383e2d48245a19a57817f",
+      "path_basis": "repository_root",
+      "role": "repository_only_developer_regression",
+      "availability": "Available from the full repository with both EN and RU course trees. This is a developer regression reference, not a locally resolvable standalone EN or RU file pin.",
+      "standalone_language_runtime_dependency": false,
+      "required_repository_trees": [
+        "courses/oxygen-diffusion/en",
+        "courses/oxygen-diffusion/ru"
+      ]
+    },
+    "identity_rule": "Current model_sha256 and affected model/code README file pins identify the current output-guard copy. The guard was absent during the original solve. Original numerical functions, parameters, seeds, saved results and teaching verification identities carry unchanged. Other existing file pins are carried without a new whole-inventory acceptance.",
+    "historical_snapshot": "The unchanged English model-snapshot remains the executed teaching reference, not a second current execution entrypoint. Its source pin and all original teaching evidence pins remain unchanged.",
+    "scope": "Output destination precondition in main() only; no numerical or learner validation. Arbitrary direct calls to synthetic_fit(out) are not guarded by main()."
+  },
+  "output_preservation_documentation_r2": {
+    "status": "PREPARED_DOCUMENTATION_AND_ROUTING_DELTA_NO_NUMERICAL_RUN",
+    "prior_r1_provenance_sha256": "1facfa4531ac801311e30ebeb220d6384f2c79be713724a3669f7eb980a2b207",
+    "original_student_packet_sha256": "de7bf23d8f200ac1e3e9c93c77d586d662273bd5b20dbe490cfc003712f7494c",
+    "original_optional_task_sha256": "d91535a061dc3faf62618944a9b2e896139a51019f899938dbdd2db8bc9420f9",
+    "current_optional_task": {
+      "path": "../optional-observed-data/data-comparison-task-ru.md",
+      "sha256": "1d70d7cbeebbd472074d1a58208804d53d3e9533fa5cdc5309f433a1252d87db"
+    },
+    "identity_rule": "Only the affected student document file pin is updated from r1. All other r1 fields and historical identities are preserved. The new optional-task pin identifies fresh working-copy guidance, not executed numerical or comparison results."
+  },
+  "output_preservation_documentation_r4": {
+    "status": "PREPARED_DOCSTRING_AND_DOCUMENTATION_DELTA_NO_NEW_NUMERICAL_RUN",
+    "prior_r3_provenance_sha256": "363a3757bd5aaf4153dfa2e881e2ecebf8d19e2639fcd8330ac4b0f4570c6e29",
+    "original_instructor_packet_sha256": "16a483496e35f45f7aa6c873af151d9b61919018cfed53f0832eb8dc0133c555",
+    "tested_guard_model_sha256": "3b290d332bae0adb947a519fdcd23409c07d565ccce2eca85df519c0ee6400aa",
+    "current_docstring_only_model_sha256": "6d0be30c926bf17cec758385a9f7b1834e119ccbc615897f61e80c96d2040828",
+    "guard_regression_test_sha256": "cdebc208c7aca8b829efc86a6d11c2937c9df6b2337383e2d48245a19a57817f",
+    "guard_regression_results_sha256": "40f4c6bdf70b54561589bb7504352030b76d7da2dcc511719bd6fdeff22197ea",
+    "guard_controls_carried_without_replay": 20,
+    "current_root_course_README": {
+      "path": "courses/oxygen-diffusion/README.md",
+      "path_basis": "repository_root",
+      "sha256": "855bca53fd7015dea39a3154022f72e003bc4482e8d9b5865648f09d35b055ca"
+    },
+    "identity_rule": "The recorded 20 destination controls exercised tested_guard_model_sha256, not the docstring-only successor. Removing the module docstring gives an identical executable AST and all executable source lines are byte-exact. Current model_sha256 and affected file pins identify this successor; original numerical and teaching run identities remain unchanged. No solver or regression replay."
+  },
+  "output_preservation_documentation_r5": {
+    "status": "PREPARED_INSTRUCTOR_IDENTIFIER_LAYOUT_DELTA_NO_NEW_EXECUTION",
+    "prior_r4_provenance_sha256": "b53af476dac62ae0cd98ff3fc6300ffe354b2151b69a9be63b56d2b6c10d8c9a",
+    "prior_r4_instructor_packet_sha256": "e285df27d8b06832ade62de2a29f1fec8c15524acbc565f6d5e394793ac6437d",
+    "identity_rule": "Only the current instructor document file pin changes. The separate original_executed_model_sha256 field under output_preservation and top-level model_sha256 retain their historical/current roles. All other r4 JSON values, model/test identities and recorded guard/routing evidence remain unchanged. This documentation delta is not a new numerical or regression execution."
+  },
+  "output_preservation_documentation_r6": {
+    "status": "PREPARED_FORMAT_ONLY_INSTRUCTOR_HARDBREAK_DELTA_NO_NEW_EXECUTION",
+    "prior_r5_provenance_sha256": "a06f3ff3dea22cbf626ffb7c5146358188a14c20610ed3776e076628d50fc8ec",
+    "prior_r5_instructor_packet_sha256": "d6da32b4fb8b24467bbc6f12855270df4be10855a3736e776361f403f838c033",
+    "identity_rule": "Only the current instructor document file pin changes. Normalized words and all backtick code spans equal r5; explicit Markdown hard breaks surround the unchanged identifier. All other r5 provenance values, current/historical/tested model identities and recorded controls remain unchanged. No numerical, model, test, help or regression execution."
+  },
+  "output_preservation_documentation_r7": {
+    "status": "PREPARED_FORMAT_ONLY_TASK_COMMAND_CONTINUATION_NO_NEW_EXECUTION",
+    "prior_r6_provenance_sha256": "59c6b546fab7ba3334168bcace5c34c9b19dbe47cfc3fe4d4ae5ed6cfd5c28a6",
+    "prior_optional_task_sha256": "5a3c4047ab25aee42178935736d131a10d084deff573f71d2b93d4baf1f9f9a2",
+    "identity_rule": "Only the current optional-task document SHA256 changes. A standard shell backslash-newline splits the existing model command after oxygen_model.py; all five logical commands, paths, quoted variable and argument tokens remain unchanged. All other r6 JSON values and historical/current/tested code identities remain unchanged. No model, solver, comparison, help or control execution."
+  },
+  "output_preservation_documentation_r8": {
+    "status": "PREPARED_FORMAT_ONLY_TASK_COMMAND_CONTINUATION_NO_NEW_EXECUTION",
+    "prior_r7_provenance_sha256": "33b57c21227d45184f9a72388fb7c9c9f0d21dd202335cfbae2c9fef8f0f7cc5",
+    "prior_optional_task_sha256": "7de7cb8e3a371e8f53d46f3a595afff731aff3c77f65294a836d3a16b7e4f990",
+    "identity_rule": "Only the current optional-task document SHA256 changes. Standard shell backslash-newline continuations split the existing mktemp command after -d and the existing model command after oxygen_model.py; all five logical commands, paths, quoted variable and argument tokens remain unchanged. All other r7 JSON values and historical/current/tested code identities remain unchanged. No model, solver, comparison, help or control execution."
+  },
+  "output_preservation_documentation_r9": {
+    "status": "PREPARED_RU_TASK_PATH_WORDING_HARDBREAK_DELTA_NO_NEW_EXECUTION",
+    "prior_r8_provenance_sha256": "532fc1f45c31a1425b02d2ed4c27d34071ec8af8c756032795b48fd5e543b801",
+    "prior_r8_optional_task_sha256": "349ed156670d3b642ad3e37c2356acb86eee197ab374cd210543e2741622a183",
+    "eic_proposal_sha256": "f28ca277e616903dfa540345e7448ee8251a42ffd34b685f5f551336c38c7039",
+    "identity_rule": "Only the current RU optional-task document SHA256 changes. Exact EIC proposal adds the Russian word файл and two Markdown hard breaks around the unchanged inline working-copy path. All other task bytes, the complete command block and backtick code spans remain unchanged. All other r8 JSON values and historical/current/tested model, instructor, test and numerical identities remain unchanged. No new model, comparison, solver, help, routing or control execution."
+  }
 }
