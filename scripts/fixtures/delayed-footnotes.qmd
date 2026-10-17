@@ -1,0 +1,36 @@
+---
+title: Callout footnote regression
+format:
+  pdf:
+    pdf-engine: xelatex
+filters:
+  - delayed-footnotes.lua
+---
+
+Outside before.[^before]
+
+::: {.callout-note}
+## Several notes
+First.[^one] Second.[^two] Third.[^three]
+:::
+
+Outside after.[^after]
+
+::: {.callout-tip}
+## Another box
+Fourth.[^four]
+:::
+
+![Two figure notes.[^figone][^figtwo]](figure.png){#fig-check width=1cm}
+
+[^figone]: First figure note text.
+[^figtwo]: Second figure note text.
+
+[^before]: Outside before text.
+[^one]: First distinct note text.
+[^two]: Second distinct note text.
+[^three]: Third distinct note text, with **bold** and $x^2$.
+
+    A second paragraph in the third note.
+[^after]: Outside after text.
+[^four]: Fourth distinct note text.
