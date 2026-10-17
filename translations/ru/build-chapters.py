@@ -73,7 +73,7 @@ def main():
         if path.is_file() and '__pycache__' not in path.parts and not path.name.startswith('.')
         and str(path.relative_to(repo)) not in course_readings})
     files = chapters + epilogue + appendices + resources + ['sources/bibliograph.bib', 'sources/img/ch3_rna_world.png', 'sources/img/ch4_mat_cross_section.png', 'translations/ru/img/ch6_cannibalism.png', 'translations/ru/img/ch5_electron_donor_ladder.png', 'translations/ru/img/ch7_integration_spectrum.png', 'translations/ru/img/ch8_porewater_profile.png', 'translations/ru/img/ch9_redox_ladder.png', 'translations/ru/img/ch10_aquifer_rtm.png',
-             'translations/ru/chapter-callouts.lua', 'filters/companion-links.lua', 'courses/README.md']
+             'translations/ru/chapter-callouts.lua', 'filters/companion-links.lua', 'filters/delayed-footnotes.lua', 'courses/README.md']
     for name in files:
         target = stage / name
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -145,7 +145,7 @@ def main():
         'book': {'title': 'Невидимые архитекторы',
                  'author': 'Igor Markelov', 'output-file': 'the-invisible-architects-ru',
                  'chapters': ['index.md'] + chapters + epilogue + appendices},
-        'filters': ['translations/ru/chapter-callouts.lua', 'filters/companion-links.lua'],
+        'filters': ['translations/ru/chapter-callouts.lua', 'filters/companion-links.lua', 'filters/delayed-footnotes.lua'],
         'execute': {'enabled': False},
         'bibliography': 'sources/bibliograph.bib', 'suppress-bibliography': True,
         'lang': 'ru', 'format': {
@@ -247,7 +247,7 @@ def main():
             path.write_text(text, encoding='utf-8')
         command = [args.quarto, 'render', '--to', fmt]
         if fmt == 'pdf':
-            command += ['-M', 'pdf-auto-install:false']
+            command += ['-M', 'latex-auto-install:false']
         with (output / f'{fmt}.log').open('w') as log:
             subprocess.run(command, cwd=stage, stdout=log, stderr=subprocess.STDOUT, check=True)
         shutil.copytree(stage / '_book', output / fmt)
