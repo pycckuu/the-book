@@ -77,7 +77,7 @@ Reading: "Conservation: the only law you need", "What moves: transport", Appendi
 
 Reading: chapter "Start with one species", model README and verification report. Dependency: E02. Outcome: O2-LO3.
 
-The numerical functions in `model/oxygen_model.py` are unchanged from the verified model code. The current code adds only a precondition requiring a new or empty output directory; it is not byte-identical to the historical executed copy. It requires Python 3 and the standard library. From the student bundle directory run:
+The numerical functions in `model/oxygen_model.py` are unchanged from the verified model code. The current code requires a new or empty output directory and rejects optimized verification; it is not byte-identical to the historical executed copy. It requires Python 3 and the standard library. Use normal Python without `-O`/`-OO` and with `PYTHONOPTIMIZE` unset. From the student bundle directory run:
 
 ```bash
 python3 --version

@@ -17,7 +17,7 @@
   "files": {
     "README.md": "7e034bd6988700618fc5f70c8d7c9c964e9ea2672e60f91036ec632b881addb2",
     "curriculum-en.md": "2046fc690eeb2e44daaba94b1f3bfa104a60a073bd17767b2dc9647f8d4b40ee",
-    "dependencies.json": "5f53c9596361924e70f77f956f1222d8f615e0ae4079952ca2da7ed0e5652013",
+    "dependencies.json": "17bdd9584def0b5d6acce58922c3f2df5d68ae73b4fed06727ec0bf4af332b4c",
     "evidence/csv-readback-output.json": "c7dbd3ff72b081a1dbc048e182da4561690aa59749a0b6ad72b34bf60c749dfe",
     "evidence/editor-independent-moment-readback.json": "08167207fc1dc2a630584ecb8411a0b5e88bd3cd2383eab28689f1ec7bea981f",
     "evidence/editor-numerical-acceptance-r1.json": "93f9dea86f0009bf5c2d56b410693d1fa6ddc7ab48e843ea2c149a5eb4bb4664",
@@ -42,5 +42,18 @@
     "previous_dependencies_sha256": "cbd5318670d72a27221c1fd39d70056de17b2c28419bedf926f733a7e3f35c0d",
     "current_dependency_pin_only": true,
     "historical_render_and_source_gates": "Carried original receipts apply to original evidence; no new render/build/gate claim."
+  },
+  "optimized_verification_q04_harness_r2": {
+    "scope": "Repository-only A-AD instrumentation correction; production, docs and scientific evidence unchanged. No transient outcomes embedded.",
+    "prior_metadata_sha256": "8e737769356360aada0815aa31671bd85499825c9653ac36d8b4dd250e01e847",
+    "prior_harness_sha256": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+    "current_harness_sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+    "displaced_current_leaves": [
+      {
+        "pointer": "/files/dependencies.json",
+        "before": "31007d337c49bb0a734e4e78f36b9dd437db47de0ffa7c1ce0b6ae8a4d87fcc3",
+        "after": "9a04ab6e4008091acb693898b582e7b2bb8adf3d05d34bd9cb35da80ed65a31a"
+      }
+    ]
   }
 }

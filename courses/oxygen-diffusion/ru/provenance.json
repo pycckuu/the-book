@@ -5,9 +5,9 @@
   "input_provenance": "synthetic illustrative model and fitting observations",
   "empirical_validation": false,
   "learner_pilot": "prepared, not executed",
-  "model_sha256": "6d0be30c926bf17cec758385a9f7b1834e119ccbc615897f61e80c96d2040828",
+  "model_sha256": "1c9e7e17bfdf5423def1b445a1f99c2b1b20eb11eea83a6dce5cb152e873c08d",
   "files": {
-    "README.md": "c6d25e0f2d59cffc3682d925457c61adc0906e99e57edd2501f15195731b94a4",
+    "README.md": "ecf668206dfe5955d00c1911e7180d42fc2bf2c4cb3da24bf55d752f248bb001",
     "appendices/b-model-toolkit.ru.md": "1092ada99b498fda307976c0866597cc9c49c598cd14bac0a4f2c2a5f5d384ab",
     "chapters/08-the-equation.ru.md": "0b34fcf21ef6528a44ec8f0255cdacc7941b87db1643bf2809b115ad7bfd6f25",
     "course-references.bib": "9ae9952aa26758db89293bf73a0955e433e9f68cd0f0db040282bfcbf70be827",
@@ -19,9 +19,9 @@
     "evidence/teaching-checks.json": "962c859800cc13300d427ab32634d91ad088716c99192b6db05ee143d11f4b8f",
     "evidence/verification.json": "e49735eaca2669430e975a507e445eb1ca24c1138c0f589423a74d24e59027b5",
     "instructor-packet-ru.md": "1b89bdbcec1d45cbc564123ff81962916708cfbfa87f021af8febd1753cb6abd",
-    "model/README.md": "6b3b5d47ac8d46418a102c910739f11f0f16c0b06cd8134b31b66ec3cf885201",
+    "model/README.md": "aa029c90d379f97128b2705d4be239cc411ac255477697e9a2ceac308bf73c5e",
     "model/model-contract.md": "c32fae949f07a137fe652188fe3e8bdf78b7ab152dbdacd0860c3918b889bd67",
-    "model/oxygen_model.py": "6d0be30c926bf17cec758385a9f7b1834e119ccbc615897f61e80c96d2040828",
+    "model/oxygen_model.py": "1c9e7e17bfdf5423def1b445a1f99c2b1b20eb11eea83a6dce5cb152e873c08d",
     "model/results/profiles.csv": "24e95fb0fe0b44484fc479cc17dc904ab70b5cd3e6dad31ed7e7ca30857c9ded",
     "model/results/verification.json": "e49735eaca2669430e975a507e445eb1ca24c1138c0f589423a74d24e59027b5",
     "model/verification-report.md": "6ef36f2d0a21eb2405a22162767305f2fa074445ef766e5ad2974fe10e1354a4",
@@ -29,7 +29,7 @@
     "sources/figures/fig_ch8_porewater_profile.ru.py": "f0889d9f023b535fd3e19fca44dd70376aa7593a7ecd6f55195e480cafb38695",
     "sources/img/ch8_porewater_profile.pdf": "1ba0b2e018d35f6f08cd4a2f75afb158174f8c005ee2613122bb24e203a5ee6f",
     "sources/img/ch8_porewater_profile.png": "22898bd251f2509bc4c8004a0aa199970ec2037ceb3446d7864db9937e670822",
-    "student-packet-ru.md": "71889ee097ce5266cb28a3dc64bd7fc65ee02ece325e5ae8f98cdf9adc330d4e",
+    "student-packet-ru.md": "5b7dd063f7f31de24836bc126dafff61a0c7fbff6102947704d9694999bae42b",
     "verification-methods.md": "5798301daab5c09e553ccf0e554f9fbdd595f6404b1d61f32026fca2cefbee61"
   },
   "answer_access": "open book and public companion source",
@@ -63,7 +63,7 @@
     "original_optional_task_sha256": "d91535a061dc3faf62618944a9b2e896139a51019f899938dbdd2db8bc9420f9",
     "current_optional_task": {
       "path": "../optional-observed-data/data-comparison-task-ru.md",
-      "sha256": "1d70d7cbeebbd472074d1a58208804d53d3e9533fa5cdc5309f433a1252d87db"
+      "sha256": "08e1a5a0542ab2751fa0ce3897c3b04f4f46abab136764f47ec000a94e28b622"
     },
     "identity_rule": "Only the affected student document file pin is updated from r1. All other r1 fields and historical identities are preserved. The new optional-task pin identifies fresh working-copy guidance, not executed numerical or comparison results."
   },
@@ -79,7 +79,7 @@
     "current_root_course_README": {
       "path": "courses/oxygen-diffusion/README.md",
       "path_basis": "repository_root",
-      "sha256": "855bca53fd7015dea39a3154022f72e003bc4482e8d9b5865648f09d35b055ca"
+      "sha256": "05a61a0a028c10aecaefa6b0a5dd33f69122bf92f2f3208be03cd1866f1106cc"
     },
     "identity_rule": "The recorded 20 destination controls exercised tested_guard_model_sha256, not the docstring-only successor. Removing the module docstring gives an identical executable AST and all executable source lines are byte-exact. Current model_sha256 and affected file pins identify this successor; original numerical and teaching run identities remain unchanged. No solver or regression replay."
   },
@@ -113,5 +113,200 @@
     "prior_r8_optional_task_sha256": "349ed156670d3b642ad3e37c2356acb86eee197ab374cd210543e2741622a183",
     "eic_proposal_sha256": "f28ca277e616903dfa540345e7448ee8251a42ffd34b685f5f551336c38c7039",
     "identity_rule": "Only the current RU optional-task document SHA256 changes. Exact EIC proposal adds the Russian word файл and two Markdown hard breaks around the unchanged inline working-copy path. All other task bytes, the complete command block and backtick code spans remain unchanged. All other r8 JSON values and historical/current/tested model, instructor, test and numerical identities remain unchanged. No new model, comparison, solver, help, routing or control execution."
+  },
+  "optimized_verification_q04": {
+    "scope": "Post-execution optimized verification admission only; no new numerical run or acceptance. Earlier scoped current/tested fields remain history except explicitly displaced maintained pointers.",
+    "prior_provenance_sha256": "ee9448251f6691685c9b6ded169bb04f742b9b4b65f2929b9b0760ae794b4f17",
+    "path_basis": "repository_root",
+    "prior_current_pins": {
+      "courses/oxygen-diffusion/ru/model/oxygen_model.py": "6d0be30c926bf17cec758385a9f7b1834e119ccbc615897f61e80c96d2040828",
+      "courses/oxygen-diffusion/ru/model/README.md": "6b3b5d47ac8d46418a102c910739f11f0f16c0b06cd8134b31b66ec3cf885201",
+      "courses/oxygen-diffusion/ru/student-packet-ru.md": "71889ee097ce5266cb28a3dc64bd7fc65ee02ece325e5ae8f98cdf9adc330d4e",
+      "courses/oxygen-diffusion/en/check_teaching.py": "2a5eafeb571331a7f84e805fd5fd3f6cc79a01925898954bad1fe932b34c97e6",
+      "courses/oxygen-diffusion/optional-observed-data/compare_measured.py": "9c82ab6ba03fcf6f42e0745a97c404e34ff3e6ecc4291d44f8eeb144ac22a627",
+      "courses/oxygen-diffusion/README.md": "855bca53fd7015dea39a3154022f72e003bc4482e8d9b5865648f09d35b055ca",
+      "courses/oxygen-diffusion/ru/README.md": "c6d25e0f2d59cffc3682d925457c61adc0906e99e57edd2501f15195731b94a4",
+      "courses/oxygen-diffusion/optional-observed-data/data-comparison-task-ru.md": "1d70d7cbeebbd472074d1a58208804d53d3e9533fa5cdc5309f433a1252d87db"
+    },
+    "current_pins": {
+      "courses/oxygen-diffusion/ru/model/oxygen_model.py": "1c9e7e17bfdf5423def1b445a1f99c2b1b20eb11eea83a6dce5cb152e873c08d",
+      "courses/oxygen-diffusion/ru/model/README.md": "aa029c90d379f97128b2705d4be239cc411ac255477697e9a2ceac308bf73c5e",
+      "courses/oxygen-diffusion/ru/student-packet-ru.md": "5b7dd063f7f31de24836bc126dafff61a0c7fbff6102947704d9694999bae42b",
+      "courses/test_optimized_mode_guards.py": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+      "courses/oxygen-diffusion/en/check_teaching.py": "40506d66c7becac9f6837d29ae707b6315114698d364d32475f0b7fc812e3573",
+      "courses/oxygen-diffusion/optional-observed-data/compare_measured.py": "686309f19d9b9afbebdfb2abde70485ba16d1ac73fb993122b64bc57a8950cd6",
+      "courses/oxygen-diffusion/README.md": "05a61a0a028c10aecaefa6b0a5dd33f69122bf92f2f3208be03cd1866f1106cc",
+      "courses/oxygen-diffusion/ru/README.md": "ecf668206dfe5955d00c1911e7180d42fc2bf2c4cb3da24bf55d752f248bb001",
+      "courses/oxygen-diffusion/optional-observed-data/data-comparison-task-ru.md": "08e1a5a0542ab2751fa0ce3897c3b04f4f46abab136764f47ec000a94e28b622"
+    },
+    "developer_regression": {
+      "path": "courses/test_optimized_mode_guards.py",
+      "sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+      "role": "repository_only_developer_regression",
+      "standalone_language_runtime_dependency": false
+    },
+    "identity_rule": "No source hash here establishes originally producing code for saved results. No transient test outcomes or downstream manifest hashes are embedded.",
+    "prior_optional_task_sha256": "1d70d7cbeebbd472074d1a58208804d53d3e9533fa5cdc5309f433a1252d87db",
+    "prior_root_course_README_sha256": "855bca53fd7015dea39a3154022f72e003bc4482e8d9b5865648f09d35b055ca",
+    "current_entrypoints": {
+      "teaching": "40506d66c7becac9f6837d29ae707b6315114698d364d32475f0b7fc812e3573",
+      "comparator": "686309f19d9b9afbebdfb2abde70485ba16d1ac73fb993122b64bc57a8950cd6"
+    },
+    "producing_teaching_comparator_code_command_environment": "Not recorded in the historical report; unknown, not inferred from these prior-current source pins.",
+    "displaced_current_pointer_records": [
+      {
+        "consumer": "courses/oxygen-diffusion/ru/provenance.json",
+        "prior_provenance_sha256": "ee9448251f6691685c9b6ded169bb04f742b9b4b65f2929b9b0760ae794b4f17",
+        "updates": [
+          {
+            "pointer": "/output_preservation_documentation_r2/current_optional_task/sha256",
+            "path": "../optional-observed-data/data-comparison-task-ru.md",
+            "old_sha256": "1d70d7cbeebbd472074d1a58208804d53d3e9533fa5cdc5309f433a1252d87db",
+            "prior_record": "optimized_verification_q04.prior_optional_task_sha256",
+            "current_sha256": "211186832a6b26a67f3adc4914f112f980f0b246011eebee799822bc0d1b7676"
+          },
+          {
+            "pointer": "/output_preservation_documentation_r4/current_root_course_README/sha256",
+            "path": "courses/oxygen-diffusion/README.md",
+            "old_sha256": "855bca53fd7015dea39a3154022f72e003bc4482e8d9b5865648f09d35b055ca",
+            "prior_record": "optimized_verification_q04.prior_root_course_README_sha256",
+            "current_sha256": "05a61a0a028c10aecaefa6b0a5dd33f69122bf92f2f3208be03cd1866f1106cc"
+          }
+        ]
+      }
+    ],
+    "historical_evidence": {
+      "method": "static readback, no assertion/teaching/comparison execution",
+      "records": [
+        {
+          "path": "courses/oxygen-diffusion/en/check_teaching.py",
+          "sha256": "2a5eafeb571331a7f84e805fd5fd3f6cc79a01925898954bad1fe932b34c97e6",
+          "bytes": 4791,
+          "mode": "0o644"
+        },
+        {
+          "path": "courses/oxygen-diffusion/optional-observed-data/compare_measured.py",
+          "sha256": "9c82ab6ba03fcf6f42e0745a97c404e34ff3e6ecc4291d44f8eeb144ac22a627",
+          "bytes": 4035,
+          "mode": "0o644"
+        },
+        {
+          "path": "courses/oxygen-diffusion/en/evidence/teaching-checks.json",
+          "sha256": "962c859800cc13300d427ab32634d91ad088716c99192b6db05ee143d11f4b8f",
+          "bytes": 5327,
+          "mode": "0o644",
+          "recorded_identity_fields": {
+            "model_sha256": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9",
+            "status": "checks passed; no field validation"
+          }
+        },
+        {
+          "path": "courses/oxygen-diffusion/ru/evidence/teaching-checks.json",
+          "sha256": "962c859800cc13300d427ab32634d91ad088716c99192b6db05ee143d11f4b8f",
+          "bytes": 5327,
+          "mode": "0o644",
+          "recorded_identity_fields": {
+            "model_sha256": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9",
+            "status": "checks passed; no field validation"
+          }
+        },
+        {
+          "path": "courses/oxygen-diffusion/optional-observed-data/results/measured-comparison.json",
+          "sha256": "a0e1612501c85b42eacd62879ae636b545dc3726e13c26606570b647ddf88994",
+          "bytes": 1344,
+          "mode": "0o644",
+          "recorded_identity_fields": {
+            "version1": "10.5281/zenodo.12536642",
+            "version2": "10.5281/zenodo.15367775",
+            "hashes": {
+              "Beck.Oxygen.Data.xlsx": {
+                "md5": "3aa0ff04a92467b2ebcbeba730d47d09",
+                "sha256": "47b66bc3243e7b188c2b04e6599d92f1ee2da3479f06f838573e5e28709b6af4"
+              },
+              "latest-Beck.Oxygen.Data.xlsx": {
+                "md5": "80aeb327b8ebecd9d359c1c1b5ba0e00",
+                "sha256": "c5f82518fe5739c99fe7242932ea7118137fc97e9985e05d002fd02548f2cb61"
+              }
+            }
+          }
+        },
+        {
+          "path": "courses/oxygen-diffusion/en/model-snapshot/oxygen_model.py",
+          "sha256": "aadefa8e9a051c64b75602944b7ea5b9fc732d921f183e2ef1d4f957ec6b2ce9",
+          "bytes": 10963,
+          "mode": "0o644"
+        }
+      ],
+      "producing_checker_or_comparator_code_identity": "No new assertion of original producing source/CLI/environment. Current pre-Q04 source pins, recorded snapshot/workbook identities and immutable report hashes remain separate.",
+      "old_results_unchanged": true,
+      "original_snapshot_function_bodies_unchanged_required": true
+    }
+  },
+  "optimized_verification_q04_harness_r2": {
+    "scope": "Repository-only A-AD instrumentation correction; production, docs and scientific evidence unchanged. No transient outcomes embedded.",
+    "prior_metadata_sha256": "a27fdf07d2a8fb00b4d5b1bbce351942fb7ffc7ca082c69c743d11f958ec4735",
+    "prior_harness_sha256": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+    "current_harness_sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+    "displaced_current_leaves": [
+      {
+        "pointer": "/optimized_verification_q04/current_pins/courses~1test_optimized_mode_guards.py",
+        "before": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+        "after": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454"
+      },
+      {
+        "pointer": "/optimized_verification_q04/developer_regression/sha256",
+        "before": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+        "after": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454"
+      }
+    ]
+  },
+  "optimized_verification_q04_documentation_r3": {
+    "scope": "Required RU-Q04-R1/R2 sentence-flow correction only: ENERGY command introduction, optional-task sentence boundary, and student paragraph causal antecedent. All code, command blocks, flags, numeric functions, result/input/model and earlier provenance history values unchanged. Documentation identity only, no runtime outcome claim.",
+    "prior_provenance_sha256": "27eb2e4c0cfe5161814d178e7019ba8d6eb7a6dc2aa552be0e118643f3f90593",
+    "path_basis": "repository_root",
+    "displaced_current_pointers": [
+      {
+        "pointer": "/files/student-packet-ru.md",
+        "path": "courses/oxygen-diffusion/ru/student-packet-ru.md",
+        "prior_sha256": "16ea3152f3c56ae0e1da5d93c884e60970dbb658040900cc5fb4e6e85b14adeb",
+        "current_sha256": "5b7dd063f7f31de24836bc126dafff61a0c7fbff6102947704d9694999bae42b"
+      },
+      {
+        "pointer": "/output_preservation_documentation_r2/current_optional_task/sha256",
+        "path": "courses/oxygen-diffusion/optional-observed-data/data-comparison-task-ru.md",
+        "prior_sha256": "211186832a6b26a67f3adc4914f112f980f0b246011eebee799822bc0d1b7676",
+        "current_sha256": "08e1a5a0542ab2751fa0ce3897c3b04f4f46abab136764f47ec000a94e28b622"
+      },
+      {
+        "pointer": "/optimized_verification_q04/current_pins/courses~1oxygen-diffusion~1ru~1student-packet-ru.md",
+        "path": "courses/oxygen-diffusion/ru/student-packet-ru.md",
+        "prior_sha256": "16ea3152f3c56ae0e1da5d93c884e60970dbb658040900cc5fb4e6e85b14adeb",
+        "current_sha256": "5b7dd063f7f31de24836bc126dafff61a0c7fbff6102947704d9694999bae42b"
+      },
+      {
+        "pointer": "/optimized_verification_q04/current_pins/courses~1oxygen-diffusion~1optional-observed-data~1data-comparison-task-ru.md",
+        "path": "courses/oxygen-diffusion/optional-observed-data/data-comparison-task-ru.md",
+        "prior_sha256": "211186832a6b26a67f3adc4914f112f980f0b246011eebee799822bc0d1b7676",
+        "current_sha256": "08e1a5a0542ab2751fa0ce3897c3b04f4f46abab136764f47ec000a94e28b622"
+      }
+    ],
+    "current_documents": [
+      {
+        "path": "courses/energy-constraints/ru/README.md",
+        "prior_sha256": "5c15a20b1aa93404c54409083afeadf0e57517d2b706b27f020358b2897b45f7",
+        "current_sha256": "35ca9fd657d05519a03261937ed95cad1ca53f2dd0b252a7b13e6e1e78d8155f"
+      },
+      {
+        "path": "courses/oxygen-diffusion/optional-observed-data/data-comparison-task-ru.md",
+        "prior_sha256": "211186832a6b26a67f3adc4914f112f980f0b246011eebee799822bc0d1b7676",
+        "current_sha256": "08e1a5a0542ab2751fa0ce3897c3b04f4f46abab136764f47ec000a94e28b622"
+      },
+      {
+        "path": "courses/oxygen-diffusion/ru/student-packet-ru.md",
+        "prior_sha256": "16ea3152f3c56ae0e1da5d93c884e60970dbb658040900cc5fb4e6e85b14adeb",
+        "current_sha256": "5b7dd063f7f31de24836bc126dafff61a0c7fbff6102947704d9694999bae42b"
+      }
+    ],
+    "historical_identity_rule": "Earlier displaced_current_pointer_records and optimized_verification_q04_harness_r2 are exact scoped history; their past current_sha256 values are not rewritten."
   }
 }

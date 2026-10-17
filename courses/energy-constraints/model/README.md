@@ -2,7 +2,7 @@
 
 This synthetic ideal A ⇌ B batch uses a verified 100 s default under a fixed policy. The actual 400 s run failed accuracy checks; 200 s passed. The selected default is not claimed to be the coarsest passing step. Numerical verification does not establish natural kinetics, biological energy capture or learner outcomes.
 
-Python 3 and its standard library are sufficient. From this directory, write to a fresh output directory:
+Python 3 and its standard library are sufficient. From this directory, write to a fresh output directory: The `run.py` reproduction command requires normal Python without `-O`/`-OO` and with `PYTHONOPTIMIZE` unset; `check_saved.py` retains its existing contract.
 
 ```sh
 python3 run.py --output new-results

@@ -38,7 +38,20 @@
   "acceptance_scope": "Synthetic numerical/default verification only. No empirical or learner validation.",
   "presentation_only_provenance": {
     "path": "presentation-only-input-mapping.json",
-    "sha256": "f312eeffcc43faa8f547d167e399cef7e89cb72fd5ba744ec7bd5eb79bb16f4f",
+    "sha256": "43724ecba460e1f4a62c05f6d921e2f010a993eb68425d812a2edff1717e1621",
     "scope": "Post-execution input presentation history and current checker hardening; original executed identities are retained separately in the mapping."
+  },
+  "optimized_verification_q04_harness_r2": {
+    "scope": "Repository-only A-AD instrumentation correction; production, docs and scientific evidence unchanged. No transient outcomes embedded.",
+    "prior_metadata_sha256": "027448bbd8db8923ff5d0cc33aba0225ca7a5b49c6358e9eb0ed268a9c33c389",
+    "prior_harness_sha256": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+    "current_harness_sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+    "displaced_current_leaves": [
+      {
+        "pointer": "/presentation_only_provenance/sha256",
+        "before": "0f19ab44ed4eec1350d2beb57da5b5867c46e51be331e31a16ae327fb2825f21",
+        "after": "43724ecba460e1f4a62c05f6d921e2f010a993eb68425d812a2edff1717e1621"
+      }
+    ]
   }
 }

@@ -106,5 +106,18 @@
     "sha256": "a1cad1f2a70cc6d7a3da8871c7c9ba6a1818af11970eb0d847022187c07a63a7",
     "scope": "Post-execution current checker identity; original executed identities remain historical."
   },
-  "current_portable_plan_sha256": "a731574e7c38811674b663b1e5eee6764415786abd128846b34ef7c64035fc77"
+  "current_portable_plan_sha256": "dd1d188269c7d151b466dbfa64987841cf8b3343ad439eb94eb25dd025b017cf",
+  "optimized_verification_q04_harness_r2": {
+    "scope": "Repository-only A-AD instrumentation correction; production, docs and scientific evidence unchanged. No transient outcomes embedded.",
+    "prior_metadata_sha256": "764e47e4d6925ddee1c4d1be1d742eea8fa6b5499aec749d50cf059a16396e44",
+    "prior_harness_sha256": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+    "current_harness_sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+    "displaced_current_leaves": [
+      {
+        "pointer": "/current_portable_plan_sha256",
+        "before": "1e3938b12e2712202bbafb103a5bb0f0855ac39342a2e3a900e8961e00c92dbc",
+        "after": "dd1d188269c7d151b466dbfa64987841cf8b3343ad439eb94eb25dd025b017cf"
+      }
+    ]
+  }
 }

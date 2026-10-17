@@ -38,6 +38,8 @@ def write_csv(path, columns, records):
 
 
 def execute(out):
+    if not __debug__:
+        raise RuntimeError("Verification requires normal Python; remove -O/-OO and unset PYTHONOPTIMIZE.")
     settings = json.loads((ROOT / 'inputs/proposed-settings.json').read_text())
     schema = json.loads((ROOT / 'inputs/export-schema.json').read_text())
     clarifications = json.loads((ROOT / 'inputs/clarifications.json').read_text())

@@ -30,4 +30,4 @@ cd ../model
 python3 saturation.py new-results
 ```
 
-Use a fresh empty output directory. Python standard library only; `saturation.py` requires its unchanged adjacent `pre-run-plan.json`. Optional `python3 check_saved_csv.py new-results` reconstructs exported arithmetic without importing/running the solver. Running all owner cases does not add transition/auxiliary learner tasks. The teaching readings use the supplied verified outputs.
+Use a fresh empty output directory. Python standard library only; `saturation.py` requires its matched bundled adjacent `pre-run-plan.json`. Optional `python3 check_saved_csv.py new-results` reconstructs exported arithmetic without importing/running the solver. Running all owner cases does not add transition/auxiliary learner tasks. The teaching readings use the supplied verified outputs. For `saturation.py`, use normal Python without `-O`/`-OO` and with `PYTHONOPTIMIZE` unset. Original executed code and plan identities remain historical.

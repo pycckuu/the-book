@@ -37,7 +37,7 @@ The seven cases are forward, reverse, equilibrium, A_only, B_only, empty and par
 
 ## Canonical optional Python route
 
-Python 3 with the standard library is sufficient; this course does not require it. From `courses/energy-constraints/en/`, the frozen owner's reproduction command is:
+Python 3 with the standard library is sufficient; this course does not require it. From `courses/energy-constraints/en/`, the frozen owner's reproduction command is: The `run.py` command requires normal Python without `-O`/`-OO` and with `PYTHONOPTIMIZE` unset; `check_saved.py` retains its existing contract.
 
 ```sh
 cd ../model

@@ -2,7 +2,7 @@
   "revision": "SAT-PRE-RUN-1",
   "frozen_before_first_solve_utc": "2026-10-10T21:06:04.858527+00:00",
   "base": "c7593acde2386107fc85105df54ee9f493e03e6f",
-  "code_sha256": "f782b776eaa8972be880a7c40272c1e9ea8ab01d07bd3e1dae8661c8793a0658",
+  "code_sha256": "ea70b88b6be196dd9cf8d9f2d6c40e8428e31725b8cac8d3a1db6f4359301aac",
   "saved_csv_check_sha256": "87c0f63267be2abcc5bbfbe4039540e7347771d5f3142d22ee21ad949b39c614",
   "inputs": {
     "implementation_acceptance": "98302ecec6e1243e6e7ac615e5e00c4f837607cd2d9c3a4321628d2eebac3944",
@@ -78,5 +78,44 @@
     "path": "checker-provenance.json",
     "sha256": "a1cad1f2a70cc6d7a3da8871c7c9ba6a1818af11970eb0d847022187c07a63a7",
     "scope": "Post-execution current checker identity; original executed identities remain historical."
+  },
+  "optimized_verification_q04": {
+    "scope": "Post-execution optimized verification admission only; no new numerical run or acceptance. Earlier scoped current/tested fields remain history except explicitly displaced maintained pointers.",
+    "prior_provenance_sha256": "a731574e7c38811674b663b1e5eee6764415786abd128846b34ef7c64035fc77",
+    "path_basis": "repository_root",
+    "prior_current_pins": {
+      "courses/saturation-kinetics/model/saturation.py": "f782b776eaa8972be880a7c40272c1e9ea8ab01d07bd3e1dae8661c8793a0658",
+      "courses/saturation-kinetics/model/pre-run-plan.json": "a731574e7c38811674b663b1e5eee6764415786abd128846b34ef7c64035fc77",
+      "courses/saturation-kinetics/model/saved-results-manifest.json": "563dbeaed2c3f36515994643424858aad70d676264a4269b1cb472dc87381a68"
+    },
+    "current_pins": {
+      "courses/saturation-kinetics/model/saturation.py": "ea70b88b6be196dd9cf8d9f2d6c40e8428e31725b8cac8d3a1db6f4359301aac",
+      "courses/test_optimized_mode_guards.py": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454"
+    },
+    "developer_regression": {
+      "path": "courses/test_optimized_mode_guards.py",
+      "sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+      "role": "repository_only_developer_regression",
+      "standalone_language_runtime_dependency": false
+    },
+    "identity_rule": "No source hash here establishes originally producing code for saved results. No transient test outcomes or downstream manifest hashes are embedded."
+  },
+  "optimized_verification_q04_harness_r2": {
+    "scope": "Repository-only A-AD instrumentation correction; production, docs and scientific evidence unchanged. No transient outcomes embedded.",
+    "prior_metadata_sha256": "1e3938b12e2712202bbafb103a5bb0f0855ac39342a2e3a900e8961e00c92dbc",
+    "prior_harness_sha256": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+    "current_harness_sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+    "displaced_current_leaves": [
+      {
+        "pointer": "/optimized_verification_q04/current_pins/courses~1test_optimized_mode_guards.py",
+        "before": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+        "after": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454"
+      },
+      {
+        "pointer": "/optimized_verification_q04/developer_regression/sha256",
+        "before": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+        "after": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454"
+      }
+    ]
   }
 }

@@ -14,10 +14,23 @@
   "reference_stability": "u=-expm1(-z)/lambda; v small-z convergent series. Direct species Gibbs term eq*((1+y)*log1p(y)-y) with small-y series and continuous c=0 limit; no clipping or epsilon. Binary Gibbs only analytical reference check.",
   "verification": "Declared raw residual/minimum, scales/criteria and supports exported. Independent saved-CSV arithmetic/reference/refinement reconstruction. One fresh-output reproducibility comparison after passed checks; no empirical/learner claim.",
   "output": "Four full CSV families, verification.json and separate blank/OPEN two-forward-step views. The verified100s policy is fixed, not coarsest passing; full raw tables are in saved-results.zip.",
-  "code_freeze": "Exact implementation/reference/checker hashes recorded in execution-manifest.json before first numerical command. Code corrections, if necessary, retain prior execution logs and hashes rather than replacing failure history. This records the original execution procedure, not a pre-run freeze of the current checker. The post-execution Q01/Q02 checker identity and original executed identities are distinguished in presentation-only-input-mapping.json. The later final-selfcheck checker and explicit pre-append caller are post-execution software changes, not code used for the original numerical solve; their identities are scoped in post_execution_final_selfcheck_r1 of that mapping.",
+  "code_freeze": "Exact implementation/reference/checker hashes recorded in execution-manifest.json before first numerical command. Code corrections, if necessary, retain prior execution logs and hashes rather than replacing failure history. This records the original execution procedure, not a pre-run freeze of the current checker. The post-execution Q01/Q02 checker identity and original executed identities are distinguished in presentation-only-input-mapping.json. The later final-selfcheck checker and explicit pre-append caller are post-execution software changes, not code used for the original numerical solve; their identities are scoped in post_execution_final_selfcheck_r1 of that mapping. The later Q04 execute-entry optimization refusal is a post-execution software change; its current runner, regression and predecessor manifest pins are recorded in optimized_verification_q04 of the mapping. The original solve and current runtime pin roles remain distinct.",
   "presentation_only_provenance": {
     "path": "presentation-only-input-mapping.json",
-    "sha256": "f312eeffcc43faa8f547d167e399cef7e89cb72fd5ba744ec7bd5eb79bb16f4f",
+    "sha256": "43724ecba460e1f4a62c05f6d921e2f010a993eb68425d812a2edff1717e1621",
     "scope": "Post-execution input presentation history and current checker hardening; original executed identities are retained separately in the mapping."
+  },
+  "optimized_verification_q04_harness_r2": {
+    "scope": "Repository-only A-AD instrumentation correction; production, docs and scientific evidence unchanged. No transient outcomes embedded.",
+    "prior_metadata_sha256": "59e704d80d19c4557be4940fa47a510d0246455da261200908c1aa8ceb8928d8",
+    "prior_harness_sha256": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+    "current_harness_sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+    "displaced_current_leaves": [
+      {
+        "pointer": "/presentation_only_provenance/sha256",
+        "before": "0f19ab44ed4eec1350d2beb57da5b5867c46e51be331e31a16ae327fb2825f21",
+        "after": "43724ecba460e1f4a62c05f6d921e2f010a993eb68425d812a2edff1717e1621"
+      }
+    ]
   }
 }
