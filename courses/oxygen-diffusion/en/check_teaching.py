@@ -2,6 +2,8 @@
 """Check teaching answers with the pinned scientist model, no new solver.
 Run from bundle root: python3 check_teaching.py
 """
+if not __debug__:
+    raise RuntimeError("Verification requires normal Python; remove -O/-OO and unset PYTHONOPTIMIZE.")
 import csv
 import hashlib
 import importlib.util

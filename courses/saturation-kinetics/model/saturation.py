@@ -173,6 +173,8 @@ def dump(path, obj):
 
 
 def main(out):
+    if not __debug__:
+        raise RuntimeError("Verification requires normal Python; remove -O/-OO and unset PYTHONOPTIMIZE.")
     out.mkdir(parents=True, exist_ok=True)
     if any(out.iterdir()):
         raise ValueError("output directory must be empty")

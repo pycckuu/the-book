@@ -42,7 +42,7 @@ cd ../model
 python3 saturation.py new-results
 ```
 
-This runs the unchanged new model and its owner checks, producing all owner cases. Interpret only the assigned tasks below. Optional owner saved-file reconstruction is `python3 check_saved_csv.py new-results`; it reads exported arithmetic and does not execute the solver.
+This runs the unchanged new model and its owner checks, producing all owner cases. Interpret only the assigned tasks below. Optional owner saved-file reconstruction is `python3 check_saved_csv.py new-results`; it reads exported arithmetic and does not execute the solver. For `saturation.py`, use normal Python without `-O`/`-OO` and with `PYTHONOPTIMIZE` unset. Keep its matched bundled `pre-run-plan.json`; the original executed source and plan identities remain historical.
 
 ## SK-E01 / SK-LO01: same shape, different meanings (15 points)
 

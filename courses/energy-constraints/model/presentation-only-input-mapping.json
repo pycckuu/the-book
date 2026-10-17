@@ -133,5 +133,46 @@
     },
     "scope": "Developer harness channel-decoding evidence retention only. Any invalid UTF-8 channel is unmatched; raw bytes, input hashes and case identity survive into the final receipt.",
     "identity_rule": "Earlier scoped current pins and outcomes describe their recorded code and remain unchanged history. The r1 CSV37 results identify the preceding harness, not a rerun with this harness. Targeted successor outcomes and current downstream manifest hashes are external. Checker, runner, scientific functions, saved archive and all input bytes are unchanged. No solver execution."
+  },
+  "optimized_verification_q04": {
+    "scope": "Post-execution optimized verification admission only; no new numerical run or acceptance. Earlier scoped current/tested fields remain history except explicitly displaced maintained pointers.",
+    "prior_provenance_sha256": "f312eeffcc43faa8f547d167e399cef7e89cb72fd5ba744ec7bd5eb79bb16f4f",
+    "path_basis": "repository_root",
+    "prior_current_pins": {
+      "courses/energy-constraints/model/run.py": "e9423ee3677361d2d114cc2f96cb4553c20e8c866472d24c5cf4b4b0e0929cca",
+      "courses/energy-constraints/model/execution-manifest.json": "483ad53577d627a27470c2f09832c90a17359692e079e403a116c63b8434ebe8",
+      "courses/energy-constraints/model/prospective-plan.json": "0ac8d1b98f5ac380f1a9a16870cb7a8cdcf53660f2b8658409f9f15d15b2bc06",
+      "courses/energy-constraints/model/saved-results-manifest.json": "f3fcc97af27d409422bc4592ec5c609bdbd8d64f505e06f402a142d55d08116d",
+      "courses/energy-constraints/model/presentation-only-input-mapping.json": "f312eeffcc43faa8f547d167e399cef7e89cb72fd5ba744ec7bd5eb79bb16f4f"
+    },
+    "current_pins": {
+      "courses/energy-constraints/model/run.py": "29786541b34c3217b7483378be3e0908e9071fcb50e33adc29f724bd615dcc34",
+      "courses/test_optimized_mode_guards.py": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454"
+    },
+    "developer_regression": {
+      "path": "courses/test_optimized_mode_guards.py",
+      "sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+      "role": "repository_only_developer_regression",
+      "standalone_language_runtime_dependency": false
+    },
+    "identity_rule": "No source hash here establishes originally producing code for saved results. No transient test outcomes or downstream manifest hashes are embedded."
+  },
+  "optimized_verification_q04_harness_r2": {
+    "scope": "Repository-only A-AD instrumentation correction; production, docs and scientific evidence unchanged. No transient outcomes embedded.",
+    "prior_metadata_sha256": "0f19ab44ed4eec1350d2beb57da5b5867c46e51be331e31a16ae327fb2825f21",
+    "prior_harness_sha256": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+    "current_harness_sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+    "displaced_current_leaves": [
+      {
+        "pointer": "/optimized_verification_q04/current_pins/courses~1test_optimized_mode_guards.py",
+        "before": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+        "after": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454"
+      },
+      {
+        "pointer": "/optimized_verification_q04/developer_regression/sha256",
+        "before": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+        "after": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454"
+      }
+    ]
   }
 }

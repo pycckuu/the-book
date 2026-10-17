@@ -37,6 +37,8 @@ def read_summary(path):
 
 
 def main():
+    if not __debug__:
+        raise RuntimeError("Verification requires normal Python; remove -O/-OO and unset PYTHONOPTIMIZE.")
     paths = [ROOT/'data'/'Beck.Oxygen.Data.xlsx', ROOT/'data'/'latest-Beck.Oxygen.Data.xlsx']
     expected = ['3aa0ff04a92467b2ebcbeba730d47d09','80aeb327b8ebecd9d359c1c1b5ba0e00']
     for path, md5 in zip(paths, expected):

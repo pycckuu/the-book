@@ -25,6 +25,8 @@ def write(p,rows):
 
 
 def main():
+    if not __debug__:
+        raise RuntimeError("Verification requires normal Python; remove -O/-OO and unset PYTHONOPTIMIZE.")
     parser=argparse.ArgumentParser(description=__doc__); parser.add_argument('--results',type=Path,required=True)
     out=parser.parse_args().results; root=Path(__file__).resolve().parent
     verification=json.loads((out/'verification.json').read_text())

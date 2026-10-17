@@ -9,7 +9,7 @@
     "path": "../model/",
     "revision": "AD-NUMERICS-1",
     "manifest": "../model/SHA256SUMS.json",
-    "manifest_sha256": "d802b216cde3ba104dc1ef87d3b43eab402c4cc19d27f1d8b837e4ec59e1a1d4",
+    "manifest_sha256": "8dcd111d0264daae4cf5eb5d5ad17005a85f7ee84a2c562d048c7013616477fb",
     "code_sha256": "c487875d7f39dc3c52b62b01934bf9844fd3e9182fb1ed57a1ae3734bb3ec025",
     "report_sha256": "736b73ddb55c417db86d8aa2e5c36ba7a3fe5945d4b3de3ab7346b4e2bd8e8f0",
     "original_zip_sha256": "3de45dc688880c341a62d791c9448df069fad3c2e7adcdb396b0bfe614d1d29e"
@@ -107,5 +107,18 @@
       "sha256": "a55f24d3fc6301f9b0a355e5bba7a002229a8ee64864572b0e35e909145a3195"
     },
     "current_code_identity_rule": "Local manifest/code pins identify current guard-only source. Report, original ZIP and acceptance identities remain historical. No solver rerun; all numerical functions and saved outputs retained."
+  },
+  "optimized_verification_q04_harness_r2": {
+    "scope": "Repository-only A-AD instrumentation correction; production, docs and scientific evidence unchanged. No transient outcomes embedded.",
+    "prior_metadata_sha256": "31007d337c49bb0a734e4e78f36b9dd437db47de0ffa7c1ce0b6ae8a4d87fcc3",
+    "prior_harness_sha256": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+    "current_harness_sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+    "displaced_current_leaves": [
+      {
+        "pointer": "/local_numerical_package/manifest_sha256",
+        "before": "57a9bb2144c2efa23380ae179ce922e54824ece5f4949d132bf738acd7ea0222",
+        "after": "ce2b6bbff60432b132cd53374f4a7ddde68479c3cde634184b65fba91827b23b"
+      }
+    ]
   }
 }

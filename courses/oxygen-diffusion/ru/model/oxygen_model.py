@@ -124,6 +124,8 @@ def synthetic_fit(out):
 
 
 def verify():
+    if not __debug__:
+        raise RuntimeError("Verification requires normal Python; remove -O/-OO and unset PYTHONOPTIMIZE.")
     p = DEFAULT.copy()
     grid = []
     for n in (20, 40, 80, 160):
@@ -188,6 +190,8 @@ def verify():
 
 
 def main():
+    if not __debug__:
+        raise RuntimeError("Verification requires normal Python; remove -O/-OO and unset PYTHONOPTIMIZE.")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--out', type=Path, default=Path('results'))
     args = parser.parse_args()

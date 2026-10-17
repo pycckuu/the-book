@@ -6,7 +6,7 @@ Sources: Beck and Maiti, *Sediment oxygen flux in the NGOM hypoxic zone*, Zenodo
 
 Downloaded 2026-10-10. Files under `data/` are byte-preserved originals. The unprefixed spreadsheet is v1; `latest-Beck.Oxygen.Data.xlsx` is the pinned v2 record, not an automatically refreshed file. Metadata for each version is saved. Both spreadsheets contain one sheet, `Table`, with headers in row 1 and units in row 2. Rows 3 to 10 contain eight station-season summaries. They contain TOU, DOU and oxygen penetration depth, not raw depth-concentration profiles. Missing values are the text `n/d`.
 
-1. From `optional-observed-data/`, create a fresh working copy containing only the comparison script and byte-preserved `data/` directory. Do not copy the archived `results/`. Run the existing model into the working copy, then run the copied comparison script; it reads and writes `results/` beside its own file:
+1. From `optional-observed-data/`, create a fresh working copy containing only the comparison script and byte-preserved `data/` directory. Do not copy the archived `results/`. Run the existing model into the working copy, then run the copied comparison script; it reads and writes `results/` beside its own file: These verification commands require normal Python without `-O`/`-OO` and with `PYTHONOPTIMIZE` unset; archived evidence remains historical.
 
    ```bash
    work_dir=$(mktemp -d \

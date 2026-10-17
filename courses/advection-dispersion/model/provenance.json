@@ -6,7 +6,7 @@
   "implementation_acceptance_sha256": "f631b7406e415a49b153c55155d1b16cd31248f2389c613a4d3770590d3f8a5f",
   "code_sha256": "c487875d7f39dc3c52b62b01934bf9844fd3e9182fb1ed57a1ae3734bb3ec025",
   "verification_code_sha256": "e3858c967b5a4908b3786dd5ec2fec856555603bd92f81e0432cc010fe685746",
-  "readback_code_sha256": "377cba5e995589b62ede49137a207e70a5d80f9f7c15b7ac9c6a5b894e9f3690",
+  "readback_code_sha256": "8adb2ea0474b19a9ecb230acd76bc5a8d8f078623511b6a246562cff9db7da98",
   "metrics_sha256_declared_before_first_run": "a0489e5a7be6ac402dbd1983fbd6035cbda34e7cde2bf0cdf68221acbab79ed0",
   "results_verification_sha256": "736b73ddb55c417db86d8aa2e5c36ba7a3fe5945d4b3de3ab7346b4e2bd8e8f0",
   "table_readback_sha256": "c7dbd3ff72b081a1dbc048e182da4561690aa59749a0b6ad72b34bf60c749dfe",
@@ -67,5 +67,43 @@
       "scope": "developer guard-order regression, no numeric execution"
     },
     "historical_status_rule": "Original revision/status/acceptance/default/run fields refer to historical numerical evidence, not execution of current guarded source."
+  },
+  "optimized_verification_q04": {
+    "scope": "Post-execution optimized verification admission only; no new numerical run or acceptance. Earlier scoped current/tested fields remain history except explicitly displaced maintained pointers.",
+    "prior_provenance_sha256": "e89a704b90e1fda4eea3a8fb2738510c74a054e3f7de79c3545d34b217d6439c",
+    "path_basis": "repository_root",
+    "prior_current_pins": {
+      "courses/advection-dispersion/model/readback_exports.py": "377cba5e995589b62ede49137a207e70a5d80f9f7c15b7ac9c6a5b894e9f3690",
+      "courses/advection-dispersion/model/SHA256SUMS.json": "d802b216cde3ba104dc1ef87d3b43eab402c4cc19d27f1d8b837e4ec59e1a1d4"
+    },
+    "current_pins": {
+      "courses/advection-dispersion/model/readback_exports.py": "8adb2ea0474b19a9ecb230acd76bc5a8d8f078623511b6a246562cff9db7da98",
+      "courses/test_optimized_mode_guards.py": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454"
+    },
+    "developer_regression": {
+      "path": "courses/test_optimized_mode_guards.py",
+      "sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+      "role": "repository_only_developer_regression",
+      "standalone_language_runtime_dependency": false
+    },
+    "identity_rule": "No source hash here establishes originally producing code for saved results. No transient test outcomes or downstream manifest hashes are embedded."
+  },
+  "optimized_verification_q04_harness_r2": {
+    "scope": "Repository-only A-AD instrumentation correction; production, docs and scientific evidence unchanged. No transient outcomes embedded.",
+    "prior_metadata_sha256": "55f02e0984fcc9b2f53aa8ea14736dd78f02d63a6253dfc7ae52e6a138dbdf33",
+    "prior_harness_sha256": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+    "current_harness_sha256": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454",
+    "displaced_current_leaves": [
+      {
+        "pointer": "/optimized_verification_q04/current_pins/courses~1test_optimized_mode_guards.py",
+        "before": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+        "after": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454"
+      },
+      {
+        "pointer": "/optimized_verification_q04/developer_regression/sha256",
+        "before": "9dc67a79054fc15d3258759bc3eb5eb56e7f632eb3c92c06df10a5e652aefb37",
+        "after": "58c4124b92d1147c1d379809299312e7fa5740c9287d66e537c4a9e40feec454"
+      }
+    ]
   }
 }
