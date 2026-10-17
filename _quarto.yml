@@ -65,6 +65,7 @@ book:
 
 filters:
   - filters/companion-links.lua
+  - filters/delayed-footnotes.lua
 
 bibliography: sources/bibliograph.bib
 suppress-bibliography: true
