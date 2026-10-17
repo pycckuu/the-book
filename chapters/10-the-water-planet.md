@@ -34,10 +34,6 @@ The geomicrobiology approach starts from the other end. It asks: what organisms 
 
 The distinction determines whether your model works when conditions change, when the system is perturbed, when prediction matters.
 
-And the payoff is not merely academic: Increasing the availability of clean water, he argues, generates economic prosperity.[^vancappellen2016] This is the observation that water scarcity is a binding constraint on development in much of the world, and that relaxing that constraint has cascading effects on agriculture, industry, health, and political stability.
-
-Canada, Van Cappellen argues, has the possibility to become a frontrunner in water technology. It has both the water resources and a large water research community -- the people who understand the fundamental science. Whether it will is a different question, and one that depends on whether the science gets translated into engineering practice.
-
 ## The modeling challenge
 
 The atmosphere can be modeled as a well-mixed box, but sediments and aquifers cannot. They have spatial structure -- gradients in concentration, redox zones, transport limitations. And that is where reaction-transport models -- RTMs -- become essential.
@@ -92,17 +88,25 @@ The major greenhouse gases, CO$_2$, methane, and nitrous oxide, move through the
 
 Soil is the crowded interface in that story. Mineral surfaces, porewater, roots, fungi, bacteria, archaea, and viruses meet there. If you want to watch water, carbon, nutrients, and microbes push on one another at once, soil is the place to look.
 
-Permafrost makes the link concrete. Permafrost soils hold an immense carbon reservoir. NOAA's 2024 synthesis reports that Arctic tundra has become a small net CO$_2$ source in recent decades when wildfire emissions are included.[^noaa2024] Separately, atmospheric isotope observations and a source-sink model support increased microbial emissions as the main driver of methane growth in 2020 to 2022. They cannot distinguish natural wetlands from microbial sources such as livestock and landfills.[^michel2024] At Stordalen Mire, McGivern and colleagues paired gene-expression and chemical measurements across a thaw gradient, finding evidence for polyphenol metabolism under both oxic and anoxic conditions.[^northen2024] Wang, Urich, and colleagues found contrasting methane-cycling communities across Arctic soils and wet versus dry degraded-permafrost sites in Alaska. Their sequence data suggest different methane-cycling potentials, rather than measure the resulting methane flux.[^urich2025] Hydrology helps decide which guilds can flourish.
+Permafrost makes the link concrete. Permafrost soils hold an immense carbon reservoir. NOAA's 2024 synthesis reports that Arctic tundra has become a small net CO$_2$ source in recent decades when wildfire emissions are included.[^noaa2024]
 
-Wetlands push the same chemistry into the open. Kuhn and colleagues estimate a net natural boreal-Arctic source of about 34 teragrams of CH$_4$ per year (95% confidence interval: 25 to 43), using flux observations from 1988 to 2019 and land-cover upscaling. That total includes wetlands, lakes, rivers, upland tundra, and methane uptake by boreal forests. Their projected increase in wetland and lake emissions by 2100 is conditional on an SSP2-4.5 warming scenario and assumptions about thaw, wetting, and drainage.[^kuhn2025] In a five-year field manipulation at a Chesapeake Bay brackish marsh, Lee and colleagues found lower sulfate availability and lower potential sulfate-dependent anaerobic methane oxidation under warming. Elevated CO$_2$ produced a different response.[^lee2025] Wetting, drying, and the supply of oxidants can pull the methane balance in different directions.
+Separately, atmospheric isotope observations and a source-sink model support increased microbial emissions as the main driver of methane growth in 2020 to 2022. They cannot distinguish natural wetlands from microbial sources such as livestock and landfills.[^michel2024]
 
-Soils do not answer warming with one response. Sun and colleagues' global meta-analysis found average declines in bacterial diversity and soil organic carbon across warming experiments, with effects varying by warming magnitude, duration, and soil conditions.[^sun2025] Liu and colleagues found a different response after a decade of modest warming in subtropical-forest mesocosms moved to lower elevations. Carbon-use efficiency measured in laboratory incubations increased with the warming treatments, while sequence-based co-occurrence networks changed. The proposed role of those networks in thermal adjustment is an interpretation, not a direct measurement of interactions between organisms.[^liu2025] These studies complicate a fixed temperature response; they do not by themselves determine a soil's net climate feedback.
+At Stordalen Mire, McGivern and colleagues paired gene-expression and chemical measurements across a thaw gradient, finding evidence for polyphenol metabolism under both oxic and anoxic conditions.[^northen2024]
+
+Wang, Urich, and colleagues found contrasting methane-cycling communities across Arctic soils and wet versus dry degraded-permafrost sites in Alaska. Their sequence data suggest different methane-cycling potentials, rather than measure the resulting methane flux.[^urich2025] Hydrology helps decide which guilds can flourish.
+
+Wetlands push the same chemistry into the open. Kuhn and colleagues estimate a net natural boreal-Arctic source of about 34 teragrams of CH$_4$ per year (95% confidence interval: 25 to 43), using flux observations from 1988 to 2019 and land-cover upscaling. That total includes wetlands, lakes, rivers, upland tundra, and methane uptake by boreal forests. Their projected increase in wetland and lake emissions by 2100 is conditional on an SSP2-4.5 warming scenario and assumptions about thaw, wetting, and drainage.[^kuhn2025]
+
+In a five-year field manipulation at a Chesapeake Bay brackish marsh, Lee and colleagues found lower sulfate availability and lower potential sulfate-dependent anaerobic methane oxidation under warming. Elevated CO$_2$ produced a different response.[^lee2025] Wetting, drying, and the supply of oxidants can pull the methane balance in different directions.
+
+Soils do not answer warming with one response. Sun and colleagues' global meta-analysis found average declines in bacterial diversity and soil organic carbon across warming experiments, with effects varying by warming magnitude, duration, and soil conditions.[^sun2025]
+
+Liu and colleagues found a different response after a decade of modest warming in subtropical-forest mesocosms moved to lower elevations. Carbon-use efficiency measured in laboratory incubations increased with the warming treatments, while sequence-based co-occurrence networks changed. The proposed role of those networks in thermal adjustment is an interpretation, not a direct measurement of interactions between organisms.[^liu2025] These studies complicate a fixed temperature response; they do not by themselves determine a soil's net climate feedback.
 
 The ocean has feedbacks of its own. Lehmann and Bach use natural carbonate-chemistry gradients to assess how calcifying plankton could respond to deliberate ocean alkalinity enhancement. Increased calcification could consume part of the added alkalinity and weaken the intended CO$_2$ removal.[^lehmannbach2025] Their analysis concerns an intervention and its biological feedback. Climate, biology, and carbonate chemistry still have to be read together.
 
 An RTM for a contaminated aquifer and a global carbon cycle model share the same intellectual scaffolding: conservation equations, rate expressions, and the challenge of coupling fast and slow processes. The practical models differ in parameterization, spatial resolution, and biological detail. The logic is the same. In both cases, biology is the catalyst that makes thermodynamically favorable reactions happen on the timescales that matter.
-
-The framework travels. Ground it in energy, transport, and kinetics, and it works in a sediment core, a treatment wetland, or a global climate model. The microbes change. The minerals change. The timescales change. The principles do not.
 
 Tara Oceans turned that shared scaffold into a planetary map. Sunagawa and colleagues showed that temperature structures much of the upper-ocean microbiome and built a gene catalog large enough to treat marine microbial biogeography as Earth-system data rather than local anecdote.[^sunagawa2015] Viral ecology rides on that host landscape.
 
@@ -119,8 +123,6 @@ Cold-seep metagenomics raises the same functional question in sediments. Wang an
 Microbes do not run the planet alone. Their parasites can redirect carbon, move genes, and alter which metabolisms dominate; the size of those effects depends on the system. Where those interactions drive the process we want to predict, leaving viruses out drops a trophic layer.
 
 ## What the microbes are still doing
-
-You could treat microbes as abstract reaction catalysts -- black boxes that convert inputs to outputs according to rate laws. That reduction would break the argument of this book, so it is worth stating the problem one more time.
 
 Microbes are not passive. They respond to their environment. They regulate gene expression, adjust their metabolic machinery, form communities with complementary capabilities, and compete for shared resources. The "choices" they make -- which we showed in the preceding chapters are better described as emergent consequences of thermodynamic and kinetic constraints -- determine which reactions dominate in a given environment.
 
