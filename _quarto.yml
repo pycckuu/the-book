@@ -81,5 +81,6 @@ format:
     toc: true
     number-sections: true
   epub:
+    lang: en
     toc: true
     number-sections: true
