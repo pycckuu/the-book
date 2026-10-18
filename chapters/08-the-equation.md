@@ -18,7 +18,9 @@ $$
 
 Knowing the organisms and the reaction gives us part of the story. For a measured core, though, we still need to explain the *shape* of the curves: why oxygen drops fast and sulfate drops slowly, why methane rises from below, and why the transition sits here rather than somewhere else. Naming a metabolism does not settle those questions. We need to follow the material as well as the organisms.
 
-Let us follow the material through a small volume of sediment. Track what enters, what leaves, and what is produced or consumed inside. That bookkeeping turns a porewater profile into a quantitative story. Written once and applied species by species, the same conservation law lets us ask: Why does this boundary sit where it does? How far would it move if organic matter delivery doubled? How much methane escapes if transport outruns biology?
+Let us follow the material through a small volume of sediment. Track what enters, what leaves, and what is produced or consumed inside. That bookkeeping turns a porewater profile into a quantitative story.
+
+Written once and applied species by species, the same conservation law lets us ask: How far would the boundary move if organic matter delivery doubled? How much methane escapes if transport outruns biology?
 
 One equation is enough to begin.
 
