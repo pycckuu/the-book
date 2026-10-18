@@ -170,7 +170,7 @@ This illustrates the theme from Chapter 1. Organisms adapt their machinery to th
 ::: {.callout-note}
 ## Sidebar --- Reading Earth's diary -- isotope proxies
 
-How do we know the temperature of an ocean three billion years ago? How do we detect the breath of organisms that left no fossils? The answer, in almost every case, is isotopes.
+How do we know the temperature of an ocean three billion years ago? How do we detect the breath of organisms that left no fossils? Isotope ratios provide one important source of evidence.
 
 Different physical and biological processes fractionate isotopes--preferring lighter or heavier versions of the same element--in predictable ways. By measuring isotope ratios in ancient minerals, we can reconstruct conditions that no instrument ever recorded. The delta notation is a relative difference, not the isotope ratio itself: $\delta = R_{\mathrm{sample}}/R_{\mathrm{reference}} - 1$, where $R$ is the heavy-to-light isotope ratio. Delta is dimensionless; its numerical value in per mil is $1000\delta$. Carbon values are commonly reported relative to VPDB. Oxygen values require the stated scale, commonly VSMOW for water and silicates or VPDB for carbonates.
 
@@ -180,13 +180,13 @@ Different physical and biological processes fractionate isotopes--preferring lig
 
 **Trace element ratios in biominerals.** Beyond isotopes, the chemical composition of biogenic minerals carries environmental information:
 
-- **Sr/Ca ratios** in mollusk shells have been used as proxies for El Nino events, because Sr incorporation into aragonite varies with temperature and growth rate.
+- **Sr/Ca ratios** in mollusk shells require species-specific checks. In the Peruvian cockles studied after the 1982-83 El Nino event, Sr/Ca did not provide a useful record of the temperature anomaly.
 - **Mg/Ca ratios** in foraminiferal calcite serve as temperature proxies, though the relationship is complicated by biological controls on biomineralization. Recent work has developed new models for how trace elements are incorporated into foraminiferal tests.
 - **Shell nanostructure**: the ultrastructure of nacre (mother-of-pearl) in mollusk shells correlates with the temperature and pressure conditions during growth, providing yet another independent environmental record.
 
 **Goethite and ancient CO$_2$.** Goethite ($\alpha$-FeOOH) can preserve occluded carbonate whose abundance and isotope composition constrain the CO$_2$ present during formation. In soils, that CO$_2$ is a mixture of atmospheric and respired carbon. Inferring atmospheric partial pressure therefore requires a temperature-dependent mineral calibration and a model of soil gas, with their assumptions and uncertainties stated.
 
-The common thread across all these proxies is the same: physical and chemical processes leave isotopic fingerprints, and those fingerprints are preserved in minerals that survive for billions of years. The diary is not easy to read--each proxy has assumptions, calibration uncertainties, and potential for alteration after deposition. But taken together, these proxies give us a remarkably detailed picture of conditions on a planet that left almost no other record of its youth.
+These archives record isotope fractionation, trace-element incorporation, or mineral structure. Each proxy has its own calibration, biological effects, preservation limits, and geological age range. Shell-based proxies illustrate younger records rather than Hadean conditions.
 :::
 
 Sources for the sidebar: isotope scales,[^isotope_scales] the carbon record,[^carbon_isotope_record] Sr/Ca,[^sr_ca_proxy] Mg/Ca,[^mg_ca_proxy] nacre structure,[^nacre_structure] and goethite.[^yapp_goethite]
