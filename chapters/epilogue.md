@@ -6,7 +6,7 @@ Erwin Schrödinger's little book did not answer its own title. What it did was m
 
 We opened this book with his question. Now, having traveled from the first chemical reactions on a cooling planet to microbial communities in an energy-rich fracture 2.8 kilometers underground, we can attempt something Schrödinger could not: an answer grounded in evidence, calibrated in $\Delta G$, and tested against the porewater profiles of real sediments.
 
-## Three definitions, all correct {.unnumbered}
+## `\texorpdfstring{\protect\phantomsection}{}`{=latex}Three definitions, all correct {.unnumbered}
 
 Throughout this journey, three definitions of life have kept surfacing. Each one captures something essential. None is complete alone.
 
@@ -22,7 +22,7 @@ This definition is the one that keeps biology from dissolving into pure chemistr
 
 This is the information definition, and it is the one Schrödinger anticipated most clearly with his "aperiodic crystal." We traced it from the RNA world hypothesis through the emergence of DNA-based heredity to the full metabolic machinery of modern cells. The replicator definition captures something the other two miss: the arrow of evolution. Non-equilibrium maintenance is necessary but not sufficient. Discrete organisms are necessary but not sufficient. What makes life *life* -- what distinguishes it from a cleverly maintained chemical gradient -- is that the system carries instructions for its own reproduction, and those instructions can change.
 
-## Two irreducible properties {.unnumbered}
+## `\texorpdfstring{\protect\phantomsection}{}`{=latex}Two irreducible properties {.unnumbered}
 
 Strip away the details -- the metabolisms, the redox ladders, the transport equations -- and you are left with two things that cannot be removed without losing the phenomenon entirely:[^szathmary1995]
 
@@ -31,7 +31,7 @@ Strip away the details -- the metabolisms, the redox ladders, the transport equa
 
 Information without work is a library with no readers. Work without information is a fire. Life is both: a system that reads its own instructions and pays the energy cost of following them.
 
-## The arc of the book {.unnumbered}
+## `\texorpdfstring{\protect\phantomsection}{}`{=latex}The arc of the book {.unnumbered}
 
 This book began with a bacterium in the dark and the energy accounting it forces on us, and it ended with planetary engineering. The same physics operates at every scale.
 
@@ -51,7 +51,7 @@ We moved through that framework in four stages:
 
 *Part IV: The Hidden World and the Future* opened by turning that machinery into a way of reading real systems: the conservation equation, the transport operators, the rate expressions, and the practical art of explaining a profile rather than merely admiring it. It then carried the story into the deep biosphere, groundwater redox, water treatment, climate feedbacks, and the open questions that define the frontier of the field.
 
-## What we still do not know {.unnumbered}
+## `\texorpdfstring{\protect\phantomsection}{}`{=latex}What we still do not know {.unnumbered}
 
 A book that pretends to have all the answers is advertising. Here are questions that remain open, drawn from the same source literature that informed every chapter:
 
@@ -71,13 +71,13 @@ A book that pretends to have all the answers is advertising. Here are questions 
 
 These are not footnotes. They are the frontier.
 
-## The invisible architects, still at work {.unnumbered}
+## `\texorpdfstring{\protect\phantomsection}{}`{=latex}The invisible architects, still at work {.unnumbered}
 
 The title of this book is a statement of fact. Microbes built the oxygen atmosphere. They regulate the carbon cycle. They mediate the transformation of minerals, the cycling of nitrogen, the fate of sulfur. They created the chemical conditions that made complex life possible, and they continue to maintain those conditions today.
 
 But "invisible architects" is also an invitation to shift perspective. We tend to think of the living world as the part we can see: forests, animals, coral reefs. The actual biological engine of the planet is invisible. It lives in sediment pores, in deep aquifers, in fractured oceanic crust beneath the seafloor, in the thin films of water coating soil grains. By some estimates, the continental subsurface alone harbors on the order of 10$^{29}$ cells -- a substantial fraction of all prokaryotic life on Earth.[^magnabosco2018_ep] These organisms are not waiting to be discovered as curiosities. They are running the geochemistry that makes the surface habitable.[^falkowski2008_ep]
 
-## Three claims {.unnumbered}
+## `\texorpdfstring{\protect\phantomsection}{}`{=latex}Three claims {.unnumbered}
 
 This book has made three claims, nested from the microscopic to the planetary.
 
