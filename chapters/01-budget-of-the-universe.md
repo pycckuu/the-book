@@ -103,7 +103,7 @@ A negative $\Delta G$ is permission, not speed: it tells you that a reaction can
 
 The second half of the microbial energy problem appears here. A sulfate reducer can, in principle, earn a living by coupling hydrogen oxidation to sulfate reduction. But the reactants still have to cross an activation barrier before any useful chemistry occurs. Without a catalyst, that barrier can make a favorable reaction effectively inert on biological timescales.
 
-Enzymes solve this problem without rewriting the thermodynamics. They do not make an unfavorable reaction favorable or change the final balance in the Gibbs ledger; they change the path, stabilizing intermediate states, lowering the activation cost, and making a reaction that would otherwise be geologically slow run on the timescale of metabolism.
+Enzymes solve this problem without rewriting the thermodynamics. They do not make an unfavorable reaction favorable or change the final balance in the Gibbs ledger; they provide a catalytic pathway with lower activation free-energy barriers, which can bring otherwise slow reactions onto biological timescales.
 
 The deeper reason molecules have specific bond energies, activation barriers, and wavelength thresholds is quantum-mechanical, and the full argument belongs in Appendix D.[^atkins2010] For the purposes of this book, two facts are enough: chemical bonds have definite energetic costs, and life survives only because enzymes turn thermodynamic permission into biological speed.
 
