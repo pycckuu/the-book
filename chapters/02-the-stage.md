@@ -2,7 +2,7 @@
 title: "The Stage"
 ---
 
-Venus today is uninhabitable. Surface temperature: 460 degrees Celsius. Surface pressure: 92 atmospheres--equivalent to being 900 meters underwater on Earth. The atmosphere is 96.5 percent carbon dioxide, with clouds of sulfuric acid. No liquid water exists on the surface or anywhere in the atmosphere where it could persist.
+Venus's surface today is uninhabitable for life as we know it. Surface temperature: about 460 degrees Celsius. Surface pressure: about 92 bar, roughly the pressure 900 meters underwater on Earth. Near the surface, the atmosphere is 96.5 percent carbon dioxide by volume, with sulfuric-acid clouds above.[^ch02_venus_facts] No stable surface bodies of liquid water are known. Cloud droplets contain water mixed with sulfuric acid. Under representative atmospheric-equilibrium assumptions, the availability of water in these droplets is too low for known active terrestrial life.[^ch02_venus_water_activity]
 
 Earth has persistent liquid water at its surface. What let it keep the conditions that life would need?
 
@@ -24,13 +24,13 @@ This chapter is not here to turn the book into a survey of planetary science. It
 
 ## The violence that built the world
 
-The solar system did not assemble gently. It condensed from a disk of gas and dust around a young star, and the condensation was competitive. Small grains stuck together into pebbles, pebbles into boulders, boulders into planetesimals tens of kilometers across. Those planetesimals collided, shattered, reformed, and collided again. The inner solar system, where temperatures were too high for ices to survive, produced rocky bodies: Mercury, Venus, Earth, Mars, and a great deal of rubble that didn't make it into a planet at all.
+The planets assembled from a disk of gas and dust around the young Sun. Growth need not have followed a single ladder from grains to boulders: models also allow concentrations of solids to collapse under their own gravity into planetesimals. Collisions among larger bodies could then produce accretion, fragmentation, or hit-and-run encounters. The inner planets are rocky, but their related starting materials did not guarantee equal water or carbon inventories.[^ch02_accretion_routes]
 
-The process was not orderly. It was a series of collisions in which the survivors were simply the bodies that absorbed the most impacts without fragmenting. Earth accreted over tens of millions of years, each impact delivering kinetic energy that converted to heat on arrival. The growing planet was partly or entirely molten for much of this period--a magma ocean hundreds of kilometers deep, with an atmosphere of rock vapor and steam above it.
+Earth accreted over tens of millions of years, with impacts supplying heat. Large impacts could produce extensive melting and magma oceans, but their depth, duration, and associated atmosphere depend on the impact and thermal model. Coupled magma-ocean and atmosphere models permit cooling and water condensation between impacts; they do not establish that Earth remained globally molten throughout accretion.[^ch02_magma_ocean]
 
 Venus and Mars went through the same process. So did a number of other bodies that no longer exist as independent planets, because they were absorbed or ejected. Earth, Venus, and Mars are the three cases compared here, not the only surviving inner planets. Their related starting materials did not guarantee equal volatile inventories. The differences that would later matter emerged from both those inventories and the physics of what happened next.
 
-The first 700 to 800 million years of Earth's history left almost no direct record in the crust. The oldest surviving minerals--tiny crystals of zircon from Western Australia--are about 4.4 billion years old. Much of the earlier record was reworked or erased by later geological activity. This period, the Hadean eon, is named after the Greek underworld, and the name is apt. We know the Earth existed. We know it was hot. We know it was hit, repeatedly, by objects large enough to re-melt the surface. But we have almost no rocks from that time to read.[^wilde2001_hadean]
+The Hadean, the earliest eon of Earth's history, left a sparse crustal record. The oldest surviving minerals (tiny crystals of zircon from Western Australia) are about 4.4 billion years old. Much of the early record was reworked or erased by later geological activity. These zircons preserve evidence of early water interaction, but they do not provide a continuous record of the surface between impacts.[^wilde2001_hadean]
 
 What we do have is physics. And physics, combined with isotope geochemistry and careful modeling, lets us reconstruct quite a lot from very little direct evidence.
 
@@ -308,3 +308,11 @@ At hydrothermal vents, water-rock reactions can supply hydrogen and other reduce
 [^mars_escape]: Bruce M. Jakosky et al., "Mars' Atmospheric History Derived from Upper-Atmosphere Measurements of 38Ar/36Ar," *Science* 355 (2017): 1408--1410. Argon-isotope measurements and an escape model constrain atmospheric loss; the inference is not a measured loss of every atmospheric species. [@Jakosky2017Argon]
 
 [^isotope_scales]: IUPAC, *Compendium of Chemical Terminology*, "relative isotope-ratio difference" [@IUPACDelta2025]; NIST, *Reference Material 8540: IAEA-CH-7*, reporting guidance [@NIST8540]; CIAAW, "Oxygen Isotope Reference Materials" [@CIAAWOxygen]. State the reference scale whenever reporting a delta value.
+
+[^ch02_venus_facts]: David R. Williams, *Venus Fact Sheet* (NASA GSFC/NSSDCA, updated January 11, 2024), and *Notes on the Fact Sheets* (updated May 6, 2024), accessed October 18, 2026. These reference-compilation values are approximate, not uniform conditions everywhere. [@Williams2024VenusFactSheet; @Williams2024FactSheetNotes]
+
+[^ch02_accretion_routes]: Anders Johansen et al., "Rapid Planetesimal Formation in Turbulent Circumstellar Disks," Nature 448 (2007): 1022-1025, doi:10.1038/nature06086; Sarah T. Stewart and Zoe M. Leinhardt, "Collisions between Gravity-Dominated Bodies: 2. The Diversity of Impact Outcomes during the End Stage of Planet Formation," The Astrophysical Journal 751 (2012): 32, doi:10.1088/0004-637X/751/1/32. [@Johansen2007Planetesimals; @StewartLeinhardt2012Outcomes]
+
+[^ch02_magma_ocean]: Thomas Lebrun et al., "Thermal Evolution of an Early Magma Ocean in Interaction with the Atmosphere," Journal of Geophysical Research: Planets 118 (2013): 1155-1176, doi:10.1002/jgre.20068. [@Lebrun2013MagmaOcean]
+
+[^ch02_venus_water_activity]: John E. Hallsworth et al., "Water Activity in Venus’s Uninhabitable Clouds and Other Planetary Atmospheres," Nature Astronomy 5 (2021): 665-675, doi:10.1038/s41550-021-01391-3. [@Hallsworth2021WaterActivity]
