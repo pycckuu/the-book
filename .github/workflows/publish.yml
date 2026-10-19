@@ -94,6 +94,7 @@ jobs:
           tlmgr update --self
           tlmgr install hyphen-russian
           kpsewhich hyph-ru.tex
+          fmtutil-sys --byfmt xelatex
 
       - name: Render (HTML)
         run: |
