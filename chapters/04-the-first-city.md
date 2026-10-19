@@ -112,13 +112,13 @@ The quantitative framework for isotope fractionation -- the $\delta^{13}$C scale
 
 ## Microbes as geological agents
 
-Microbial mats did not merely inhabit the early Earth -- they reshaped it. Photosynthesis raises local pH and drives carbonate precipitation; sulfate reduction generates sulfide minerals; iron-oxidizing bacteria leave behind iron oxides. The sedimentary rock record is, to a remarkable degree, a record of microbial metabolism.[^microbial_geology] The relationship between life and geology is bidirectional: the planet shaped the first communities, and those communities shaped the planet back.
+Microbial mats did not merely inhabit the early Earth -- they reshaped it. Photosynthetic CO$_2$ uptake can raise local pH and favor carbonate precipitation where water chemistry permits it; sulfate reduction supplies sulfide that can react with available metals; iron oxidation can promote iron-oxide precipitation. The sedimentary rock record is, to a remarkable degree, a record of microbial metabolism.[^microbial_geology] The relationship between life and geology is bidirectional: the planet shaped the first communities, and those communities shaped the planet back.
 
 ## Biomineralization: when metabolism becomes rock
 
 Here the title turns literal. Microbes do more than alter water chemistry. They build minerals.
 
-Sometimes they do it indirectly. Cyanobacterial photosynthesis consumes CO$_2$, raises local pH, and pushes carbonate minerals out of solution, helping to build stromatolites layer by layer. Sulfate reducers alter alkalinity and sulfide availability in ways that favor carbonate and sulfide precipitation. Iron oxidizers and iron reducers shift iron between soluble and insoluble forms, helping to create the mineral patterns that later geologists read back as environmental history.[^konhauser2007_biomineral]
+Sometimes they do it indirectly. Cyanobacterial CO$_2$ uptake can raise local pH and favor carbonate precipitation, but net mineral growth also depends on water chemistry, organic matrices, and other metabolic processes. Sulfate reducers alter alkalinity and sulfide availability in ways that favor carbonate and sulfide precipitation. Iron oxidizers and iron reducers shift iron between soluble and insoluble forms, helping to create the mineral patterns that later geologists read back as environmental history.[^konhauser2007_biomineral]
 
 Some microbes build more directly. Magnetotactic bacteria precipitate chains of magnetite or greigite crystals inside their own cells, using the minerals as internal compass needles.[^konhauser2007_biomineral] Other microbes coat themselves in iron oxides or nucleate manganese minerals on their surfaces. In each case, the cell is manufacturing part of the mineral world around it.
 
@@ -228,7 +228,7 @@ These simplifications are not errors. They are deliberate trades: we sacrifice r
 
 [^nitrogenase]: Nitrogenase catalyzes the reduction of atmospheric N$_2$ to NH$_3$, the only biological pathway for nitrogen fixation. The enzyme also fractionates nitrogen isotopes, preferentially incorporating ^14^N. James B. Howard and Douglas C. Rees, "Structural Basis of Biological Nitrogen Fixation," *Chemical Reviews* 96 (1996): 2965--2982. [@HowardRees1996]
 
-[^microbial_geology]: Microbial metabolism drives mineral precipitation, dissolution, and transformation. Photosynthesis alters pH and carbonate chemistry; sulfate reduction generates sulfide minerals; iron oxidation produces iron oxides. Kurt Konhauser, *Introduction to Geomicrobiology* (Blackwell, 2007), provides a comprehensive treatment of microbe--mineral interactions across geological time. [@Konhauser2007]
+[^microbial_geology]: Microbial metabolism drives mineral precipitation, dissolution, and transformation. Photosynthesis can alter pH and carbonate saturation; sulfate reduction supplies sulfide that can precipitate with available metals; iron oxidation can promote iron-oxide formation. Kurt Konhauser, *Introduction to Geomicrobiology* (Blackwell, 2007), provides a comprehensive treatment of microbe--mineral interactions across geological time. [@Konhauser2007]
 
 [^konhauser2007_biomineral]: Kurt Konhauser, *Introduction to Geomicrobiology* (Blackwell, 2007). Konhauser's treatment of carbonate precipitation, iron mineral formation, magnetotactic bacteria, and other microbe-mineral systems remains one of the clearest geomicrobiological overviews of how microbes literally build minerals. [@Konhauser2007]
 
