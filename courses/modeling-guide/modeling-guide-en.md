@@ -7,6 +7,8 @@ A useful model connects a question to something we can observe. It states what i
 
 The examples use illustrative parameters and saved simulated or synthetic results. [Source notes and companion locations](#sources-and-companions) identify their saved tables. Their numerical checks test their stated equations. Testing a real sediment, enzyme assay or reaction system needs independent observations and an observation rule that matches the calculation.
 
+For orientation, take one example at a time: read its question, declared system, boundary conditions and prediction, then the graph-reading paragraphs with the complete captions. Return to the reference calculations, refinement studies and reproduction instructions when checking how the result was obtained. Keep the stated units, assumptions and inference limits in both readings. This is a choice of reading depth for the guide; the assigned module tasks remain unchanged.
+
 ## Choose the system and observable
 
 Start with a question small enough to answer. “What controls this ecosystem?” has no single measurable output. “Can diffusion and a fixed oxygen demand explain this depth profile?” names a system, an observable and a proposed explanation.

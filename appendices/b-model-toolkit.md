@@ -4,6 +4,8 @@ title: "Model Toolkit"
 
 This appendix collects the mathematical machinery behind the reaction--transport models discussed in "Modeling the Invisible" and "Cities Without Sunlight". It gathers the full framework in one place and can also serve as a concise reference.
 
+For the first oxygen example, read the solute balance and then “Oxygen pilot: sign and volume conventions”. Continue with “Advection, dispersion and parent loss” for flowing water. The other rate laws, growth equations, mineral closures and software list are references to consult when needed, not prerequisites to complete before those examples. The four teaching companions cover bounded parts of this toolkit, not the full coupled framework.
+
 ## The diagenetic equation
 
 The conservation (balance) equation for any species in one-dimensional sediment is Berner's diagenetic equation [@Berner1980Early]:
