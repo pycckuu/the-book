@@ -6,11 +6,11 @@ Imagine you are a chemist, and you have exactly one test tube.
 
 Not one test tube on the bench while your equipment cupboard holds dozens more. One test tube -- that's it. Every reaction you run has to happen in that single vessel. Acid and base, oxidation and reduction, synthesis and degradation -- all dumped together in the same pot, all at the same time. Whatever you make is immediately exposed to whatever else is in there. If one reaction produces something fragile, the next reaction may destroy it before you can use it.
 
-That is the prokaryotic cell. For roughly two billion years, bacteria and archaea ran the planet's chemistry inside a single compartment: the cytoplasm. To be fair, some had a second compartment -- gram-negative bacteria carry a periplasmic space between their two membranes. So call it two test tubes for those. But two tubes are certainly not enough for a good chemical laboratory![^markov_compartment]
+That is a deliberately simplified picture of a prokaryotic cell. It foregrounds the cytoplasm and, in gram-negative bacteria, the periplasmic space. As the internal-membrane examples below show, real prokaryotic compartmentalization cannot be reduced to a universal count of one or two test tubes.[^markov_compartment]
 
 And yet prokaryotes thrived. They invented photosynthesis, nitrogen fixation, sulfur cycling, methanogenesis. They reshaped the atmosphere and the ocean floor. They did extraordinary chemistry with minimal architecture. (Some prokaryotes did evolve limited internal membranes -- cyanobacteria house their photosynthetic machinery in thylakoid folds, and a few other lineages have specialized compartments -- but these are exceptions. Most prokaryotic chemistry still runs in a single well-mixed volume.)
 
-But there were things they could not do. Within a single cell, they could not run an oxygen-consuming reaction in one room while running an oxygen-sensitive reaction next door. They could not isolate their DNA behind a membrane and control who got access. They could not build a body made of trillions of specialized cells; that kind of complexity seems to require compartments within compartments -- a bureaucracy of nested enclosures, each with its own chemistry, its own imports and exports, its own protected interior.
+The eukaryotic cell offers many separately maintained reaction environments. It can isolate DNA, run acidic digestion and maintain electrochemical gradients behind internal membranes. The point of the test-tube picture is to follow those different working conditions and the exchanges between them.
 
 For that, you need more test tubes. Many more.
 
@@ -30,7 +30,7 @@ Each of these compartments is a separate reaction chamber. Each maintains its ow
 
 Compartmentalization buys you **the ability to run incompatible processes simultaneously**, each sealed behind its own membrane. A laboratory with as many test tubes as you need.
 
-The prokaryotic cell had none of this internal architecture. It was the open-plan office of biology -- everything in one room, everyone hearing everyone else's conversations. Efficient, in a way. Fast, certainly. But limited in the complexity of chemistry it could orchestrate.
+The open-plan-office image is useful only as a starting picture. Prokaryotic internal membranes and specialized compartments already separate some chemistry. Eukaryotes expanded the range of internal reaction environments; mitochondria and chloroplasts added partnerships of their own.
 
 ## A bridge between worlds
 
@@ -226,7 +226,7 @@ And the step from endosymbiosis to organelle is not a conceptual leap either. It
 
 Most cells in your body contain hundreds to thousands of mitochondria (mature red blood cells have none). Each mitochondrion carries its own small circular genome -- a remnant of the alpha-proteobacterial chromosome that has been shrinking for two billion years. That genome still encodes a few essential components of the electron transport chain, the molecular machinery that performs aerobic respiration. The rest of the mitochondrion's proteins are encoded in your nuclear genome and imported across the double membrane after synthesis.
 
-Your mitochondria replicate independently of your cell's division cycle. They use a dedicated DNA polymerase, ribosomes that are bacterial in origin, and their own translation machinery. When a cell divides, the mitochondria are parceled out to the daughter cells, not constructed from scratch. They are inherited, in an unbroken line of descent, from the mitochondria of the previous generation -- all the way back, across billions of cell divisions, to the original engulfed bacterium.
+Your mitochondria replicate independently of your cell's division cycle. They use a dedicated DNA polymerase, ribosomes that are bacterial in origin, and their own translation machinery. When a cell divides, the mitochondria are parceled out to the daughter cells, not constructed from scratch. They are inherited, in an unbroken line of descent, from the mitochondria of the previous generation -- all the way back, across billions of cell divisions, to the original bacterial partner.
 
 If you eat a salad, the chloroplasts in the lettuce leaves tell the same story from a different chapter. They too carry their own circular DNA. They too have bacterial ribosomes. They too descend, in an unbroken line, from a cyanobacterium that was swallowed and never released.
 
@@ -238,14 +238,14 @@ But the prokaryotic world that made the merger possible did not disappear. It co
 
 ## Takeaway
 
-- Prokaryotic cells are limited by having essentially one or two internal compartments; eukaryotic cells solve this with internal membranes that create many separate reaction chambers.
+- Eukaryotic cells contain an extensive system of membrane-bound reaction chambers. Prokaryotes also use internal membranes and specialized compartments, so a universal one-or-two-compartment limit is not the basis of the comparison.
 - The eukaryotic cell arose from a merger: an archaeal host (likely related to the Asgard archaea) acquired an alpha-proteobacterial partner that became the mitochondrion; chloroplasts arose from a later engulfment of a cyanobacterium.
 - Living symbioses such as *Ruthia* (broad metabolic toolkit retained), *Carsonella* (genome heavily reduced) and kleptoplastic *Elysia* (plastids captured, not inherited) show different ways partners divide work. They are not stages on one route; organellogenesis itself has occurred only a few times.
 - Horizontal gene transfer made microbial evolution collaborative long before whole cells merged, and the 2024 nitroplast discovery shows that organellogenesis is not only an ancient event but an observable process.
 - Hydrothermal vent ecosystems demonstrate that symbiosis between autotrophs and heterotrophs can sustain entire communities without local sunlight.
 - The creative force behind some of the most consequential innovations in the history of life -- eukaryotic cells and photosynthetic eukaryotes, which in turn made complex multicellularity possible -- was integration -- the merging of independently evolved capabilities -- not competition alone.
 
-[^markov_compartment]: Markov (2010) notes that prokaryotic cells are limited to one or two compartments (cytoplasm and periplasmic space), constraining the complexity of chemistry they can perform simultaneously. [@Markov2010]
+[^markov_compartment]: Markov (2010) supplies the simplified compartment comparison. The exceptions described in the main text must accompany it; the comparison is not a universal count of prokaryotic compartments. [@Markov2010]
 
 [^margulis_networking]: Lynn Margulis and Dorion Sagan, *Microcosmos: Four Billion Years of Evolution from Our Microbial Ancestors* (Summit Books, 1986). The "networking, not combat" formulation recurs throughout Margulis's writing on symbiogenesis. [@MargulisSagan1986]
 

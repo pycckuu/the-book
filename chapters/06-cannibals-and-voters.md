@@ -199,7 +199,7 @@ The bacteria had been signaling, cooperating, and consuming each other long befo
 
 ## Where we go next
 
-In the next chapter, we turn from social strategies to the most consequential social event in the history of life: the merger. One cell swallowing another and, instead of digesting it, keeping it alive. The birth of the eukaryotic cell was not an invention. It was an alliance---forged by organisms that already competed, cooperated, and killed.
+In the next chapter, we turn from social strategies to the most consequential social event in the history of life: the merger. An archaeal cell and a bacterial partner became intimately associated; how the bacterium came to live inside its host remains uncertain. The birth of the eukaryotic cell was not an invention. It was an alliance---forged by organisms that already competed, cooperated, and killed.
 
 ## Takeaway
 - Bacteria are social organisms: they communicate, cooperate, compete, and make collective "decisions" through chemical signaling.
