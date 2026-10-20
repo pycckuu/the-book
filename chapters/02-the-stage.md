@@ -42,13 +42,9 @@ Not a small asteroid. In a widely studied scenario, a body roughly the size of M
 
 The giant-impact hypothesis explains several important features together: the Moon's small iron core, its volatile depletion, and the angular momentum of the Earth-Moon system. Similarities between lunar and terrestrial material constrain the models; they do not, by themselves, prove that the Moon was made exclusively from Earth's mantle.
 
-What did this catastrophe give us?
+A giant impact can change Earth's spin, while tidal interaction with the Moon subsequently slows that rotation. Rotation produces day and night; axial tilt and orbital motion produce seasons. The Moon helps limit long-term variations in axial tilt, but large tilt swings on a moonless Earth are not inevitable under every set of initial conditions.[^moonless_earth]
 
-First, a giant impact can change Earth's spin. Tidal interaction with the Moon subsequently slows that rotation. Rotation itself produces the day-night cycle: a rhythm of heating and cooling, light and dark, that would later become a fundamental environmental oscillation for biology. The impact did not create the existence of day and night.
-
-Second, the Moon helps limit variations in Earth's axial tilt. It does not pin the tilt at a single value. Calculations of a hypothetical moonless Earth also show that large tilt swings are not inevitable under every set of initial conditions.[^moonless_earth] Seasons arise from axial tilt and orbital motion; the Moon modifies their long-term variability.
-
-Third, a giant impact can rework the surface and remove atmosphere. How much atmosphere escapes depends on the impact and the state of the surface, including whether an ocean is present.[^impact_atmosphere] Later outgassing and impacts can replenish volatiles. That history cannot be reduced to a single event that necessarily removed most of the atmosphere and created the particular mixture life would later use.
+The collision can also rework the surface and remove atmosphere. How much escapes depends on the impact and the state of the surface, including whether an ocean is present.[^impact_atmosphere] Later outgassing and impacts can replenish volatiles. The environment life inherited reflects that longer history, rather than a single catastrophe that necessarily supplied the right mixture.
 
 ## The divergence: Venus, Earth, and Mars
 
