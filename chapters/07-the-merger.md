@@ -230,11 +230,9 @@ Your mitochondria replicate independently of your cell's division cycle. They us
 
 If you eat a salad, the chloroplasts in the lettuce leaves tell the same story from a different chapter. They too carry their own circular DNA. They too have bacterial ribosomes. They too descend, in an unbroken line, from a cyanobacterium that was swallowed and never released.
 
-You are a community. Not a metaphorical community -- an actual one. Your cells are chimeras: archaeal information systems running on bacterial power plants. The merger is not something that happened to a distant ancestor. It is something that is still happening, right now, in most of your cells, in the continuous conversation between your nuclear genome and your mitochondrial genome, in the import of proteins across the mitochondrial membranes, in the division of mitochondria within your cells.
+Your cells are chimeras: archaeal information systems running on bacterial power plants. The ancient merger persists through the protein imports and mitochondrial divisions taking place inside them. The chemist now has her reaction rooms, and keeping them supplied still requires exchange across membranes.
 
-Two billion years ago, two prokaryotes merged. They abandoned cellular individuality. They combined their capabilities into a single body. And from that body came everything that followed: the algae, the plants, the fungi, the worms, the clams, the insects, the fish, the mammals, and -- eventually, improbably -- the chemist who now has all the test tubes she needs.
-
-But the prokaryotic world that made the merger possible did not disappear. It continued -- and continues -- to run the planet's chemistry. The syntrophic partnerships, the closed biogeochemical cycles, the layered communities we traced in earlier chapters are still at work in every sediment, every aquifer, every water column on Earth. The next chapter asks: can we write down the equation that describes what they do?
+Outside those cells, prokaryotic communities continue to reshape sediments and groundwater. Following one of their products, methane, brings us back to a practical question: how do supply, transport, and consumption determine where it accumulates? The next chapter builds that account for a small volume of sediment: what enters, what leaves, and what is produced or consumed inside.
 
 ## Takeaway
 
