@@ -179,7 +179,7 @@ A finite diffusive boundary layer can make interface C_0 lower than bulk overlyi
 
 Rubric: challenged assumption and no universal factor 4; discriminating observation 4; verification/fitting/validation/attribution with held-out test 5; boundary test 2. Scientific gate: any claim that schematic or synthetic agreement establishes field validity requires correction.
 
-Optional E06 measured-summary extension is ungraded in the core 100-point module. It requires approximately 20 to 30 additional minutes, an estimate to test. Use the verified model's separately pinned task and solutions; do not give students the solution file. C6 July 2019 v2 DOU/TOU = 0.289074756. The model's illustrative flux is 1.37556369 mmol/m2/day, whereas archived v2 C6 DOU is 7.26378779 mmol/m2/day. Unequal inputs and observables prevent interpretation as a validation result or fitted k. Neither archived workbook contains concentration-depth profiles. The full version/reconciliation caveats belong to that scientist handout; do not silently apply publication corrections or treat missing values as zero.
+Optional E06 measured-summary extension is ungraded in the core 100-point module. It requires approximately 20 to 30 additional minutes, an estimate to test. Use the verified model’s separately pinned task and public solutions; ask learners to save their first attempt before consulting the solution file. C6 July 2019 v2 DOU/TOU = 0.289074756. The model's illustrative flux is 1.37556369 mmol/m2/day, whereas archived v2 C6 DOU is 7.26378779 mmol/m2/day. Unequal inputs and observables prevent interpretation as a validation result or fitted k. Neither archived workbook contains concentration-depth profiles. The full version/reconciliation caveats belong to that scientist handout; do not silently apply publication corrections or treat missing values as zero.
 
 ## O2-E07 expected response (5 points)
 
@@ -188,6 +188,8 @@ At the new steady state, linearity with fixed k, D_s, phi and L makes C and the 
 Relevant timescales include 1/k and L2/D_s, with the finite-domain slowest linear relaxation time [k + D_s(pi/(2L))2]^-1. This is an optional stronger answer, not required for the five-point memo. Distinguish rough scales from a statement that the system reaches exact steady state in one such interval. Repeated oxygen profiles and independently logged interface supply could reveal variable demand, advection/irrigation or an incorrect boundary forcing.
 
 Rubric: eventual exact scaling 2; transient distinguished 1; threshold contrast 1; conditional observation/limit 1. Do not require a new solver run. Prompt after scoring: "Which stored oxygen has changed at the instant the boundary changes?"
+
+For continued modeling practice, the next core module is “Flowing water, spreading and loss”, in Appendices P and Q. Then continue to saturation in J-L and energy in M-O. The measured-data comparison in H and I is optional. This is the learning route, not the printed appendix order; use the existing entry diagnostic rather than repeating every earlier solver.
 
 ## Evidence and teaching revision
 

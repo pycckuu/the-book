@@ -4,6 +4,8 @@ title: "Energy Toolkit"
 
 This appendix collects two sets of tools referenced throughout the book. Sections A.1--A.5 cover enzyme kinetics: the graphical methods, inhibition types, and environmental dependencies that extend the Michaelis-Menten framework introduced in Chapter 4. Sections A.6--A.7 cover geochemical estimation tools: methods for assessing the energy content of organic matter and detecting ancient metabolism in the rock record.
 
+Use this appendix by topic. For the Gibbs budget, reaction direction and energy-versus-power distinction, return to Chapter 1. For saturation practice, the reciprocal plot is background: the teaching module does not require a reciprocal fit.
+
 **Enzyme Kinetics and Regulation**
 
 ## Linearizing the Michaelis-Menten curve: Lineweaver-Burk

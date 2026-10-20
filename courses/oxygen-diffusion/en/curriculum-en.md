@@ -59,7 +59,7 @@ Prework: approximately 45 minutes including the diagnostic. Live module: 180 min
 6. 130 to 160 minutes: compare synthetic profiles and identify an inference limit (E05, remaining calculation as follow-up).
 7. 160 to 180 minutes: critique a checked field study and write an exit prediction (E06 discussion, E07 independent exit response). E06 written report as follow-up.
 
-Student packet contains prompts, reading links, approved model inputs, commands and submission instructions. Instructor packet contains expected results, derivations, tolerances, misconception prompts and 100-point rubric. Instructor results are never linked from student materials.
+Student packet contains prompts, reading links, approved model inputs, commands and submission instructions. Instructor packet contains expected results, derivations, tolerances, misconception prompts and 100-point rubric. Instructor results are separately titled public readings; learners save a first attempt before consulting them and record the help used.
 
 ## Language and handoff
 
