@@ -148,7 +148,9 @@ Here $[\text{S}]$ is free substrate concentration on the assay volume basis, and
 
 At low substrate ($[\text{S}] \ll K_m$), the rate scales linearly with supply -- the enzyme has idle time between encounters. At high substrate ($[\text{S}] \gg K_m$), the rate plateaus at $V_{\max}$ -- every enzyme molecule is busy. In a bacterial mat, substrate concentrations are set not by a lab technician but by the balance between production, consumption, and diffusion. For this law, substrate must greatly exceed $K_m$ for the rate to approach $V_{\max}$; merely exceeding it is not enough. Well below $K_m$, the rate is approximately proportional to supply.
 
-This simple curve illustrates a kinetic speed limit. Metabolism is never infinitely fast, even when energy is abundant. Appendix A covers the Lineweaver-Burk graphical method, enzyme inhibition types, and temperature/pH dependencies.
+Try the law on the same enzyme preparation, holding $V_{\max}$ and $K_m$ fixed. At $[\text{S}]=K_m$, the rate is $V_{\max}/2$. Double the substrate to $[\text{S}]=2K_m$ and the rate becomes $2V_{\max}/3$, not $V_{\max}$. Doubling the substrate concentration has not doubled the rate. The enzyme preparation has less unused capacity as substrate rises.
+
+For the mat, that gives us a question to test. If an upstream reaction supplies more substrate, how much faster can the next step use it, and how much accumulates or diffuses away? The enzyme calculation alone cannot answer for the whole community. It gives us one relation to combine with the material balance. Appendix A covers the Lineweaver-Burk graphical method, enzyme inhibition types, and temperature/pH dependencies.
 
 ## The mat as a metabolic circuit
 

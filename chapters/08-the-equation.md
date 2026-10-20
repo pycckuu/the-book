@@ -44,6 +44,8 @@ Three terms. Each one does exactly one job. Here $\hat{C}$ is in mol per cubic m
 
 That is the entire equation. It says: the rate of change equals what comes in minus what goes out, plus what is produced minus what is consumed. It is an accounting identity, nothing more, nothing less.
 
+A steady oxygen concentration can coexist with continuing reactions. When supply minus export matches consumption, the slab keeps the same oxygen inventory.
+
 The ledger is in place. Now we need to find out how material crosses the slab and what happens to it inside.
 
 ## What moves: transport
@@ -112,9 +114,13 @@ The length $\ell$ compares diffusive delivery with consumption. More rapid consu
 
 Use $L=0.03$ m, $D_s=10^{-9}$ m$^2$/s, $k=10^{-5}$ s$^{-1}$, $\phi=0.8$, and $C_0=0.2$ mol/m$^3$ of porewater. These are illustrative choices, not observations from a field site. They give $\ell=0.01$ m and a steady inward oxygen flux of about 1.376 mmol/m$^2$/day. The bottom still contains about 19.87 $\mu$M oxygen. A 1 $\mu$M threshold would not be crossed inside this chosen domain.
 
+![Oxygen at three saved startup times, at numerical cell centres. Depth is horizontal and concentration is per porewater volume. The dashed curve is a finite-domain steady analytical reference, not an exact transient. The analytical values are evaluated at cell centres, not exactly averaged over each cell. Times are displayed in days; a curve indistinguishable from zero on this linear scale does not establish exact depletion.](../courses/modeling-guide/figures/en/oxygen-depth-profiles.png){#fig-oxygen-worked-profile}
+
+At first, oxygen accumulates while diffusion feeds the surface layers and the sink consumes it. The profiles approach the dashed steady curve, where inward supply balances consumption. This calculation follows oxygen alone; it does not solve for the sulfate and methane in our opening sketch.
+
 We can now compare the computer's steady oxygen profile with this independent solution. The companion finite-volume model compares its steady solution with this curve, checks that inflow balances consumption and accumulation, refines its grid and time step, and rejects negative concentrations without clipping them. These checks verify the calculation. They do not validate the first-order assumption against nature.
 
-A steady profile alone identifies $k/D_s$, not $k$ and $D_s$ separately. An independent diffusivity or an additional flux or transient observation is needed to separate them. The companion fit therefore estimates only this ratio from clearly labeled synthetic observations. Its separate measured-data exercise asks which archived flux corresponds to the model and whether the data version is reproducible. The distinction matters: solving an equation correctly and choosing the right equation for a core are different tasks.
+A steady profile alone identifies $k/D_s$, not $k$ and $D_s$ separately. Imagine two versions of this same slab, with the same surface concentration, porosity and lower boundary. In the second, multiply both diffusivity $D_s$ and the consumption coefficient $k$ by two. The steady concentration profile is unchanged, although the inward flux doubles and the transient response is faster. More points on that same steady curve would not distinguish the two explanations. An independent diffusivity, flux or transient observation adds different information. The companion fit therefore estimates only the ratio from clearly labeled synthetic observations. Its separate measured-data exercise asks which archived flux corresponds to the model and whether the data version is reproducible. Solving the equation correctly and choosing it for a core remain different tasks.
 
 ## What reacts: rate expressions
 
@@ -217,15 +223,9 @@ $$
 \frac{\partial \hat{C}}{\partial t} = -\frac{\partial F}{\partial x} + \sum R_i
 $$
 
-The $F$ changes -- not just its parameters but its mathematical form. The $R_i$ changes. The geometry changes. What persists is the conservation law itself: accumulation equals net flux plus net reaction.
+The accounting survives the change in scale; the model must change with the system. Between a sediment pore and the Southern Ocean, transport operators, boundary conditions, reaction closures and geometry differ. Changing a few coefficients does not turn a pore-scale model into an ocean model. Organisms, minerals and timescales differ too. In each setting, we still account for what enters, what leaves, what reacts and what accumulates.
 
-This is more than analogy. The conservation law is the same physical principle in each case. But the transport operators, boundary conditions, and closure terms differ enough between a sediment pore and the Southern Ocean that calling the models "identical" would overstate the case. What is identical is the accounting: mass in, mass out, mass transformed. The organisms differ. The minerals differ. The timescales differ by factors of millions. The bookkeeping does not.
-
-Why? Because conservation of mass is not a biological principle, or a geological principle, or a chemical principle. It is a physical principle. It does not care whether the reacting species is sulfate in a pore or CO$_2$ in the atmosphere. It does not care whether the transport mechanism is molecular diffusion or ocean circulation. It cares only that matter is neither created nor destroyed, and that the accounting balances.
-
-This shared accounting is the reason that reaction-transport models are portable. A model calibrated on one fjord's sediment can provide a starting framework for another fjord[^boudreau1997]. Useful predictions still require checking the new site's transport, boundary conditions, reaction parameters and independent observations. A model built for early diagenesis can be adapted for groundwater contamination, because the coupling between transport and reaction works the same way in both settings.
-
-The portability is not infinite. Parameters must be recalibrated. Biology adapts. New reactions become important at new scales. But the framework -- the conservation equation, the transport operators, the rate expressions -- carries across. It is the scaffold on which all the site-specific details hang.
+A model calibrated on one fjord's sediment can provide a starting framework for another fjord.[^boudreau1997] An early-diagenetic framework can also be adapted to groundwater contamination. In either case, useful predictions require checking the new site's transport, boundaries, reaction parameters and independent observations. Biology adapts, and new reactions can matter. Conservation lets us carry the accounting across; it does not remove the need to recalibrate parameters or test the new model.
 
 ## What we sacrificed
 

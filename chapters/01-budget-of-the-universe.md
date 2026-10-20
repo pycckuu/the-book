@@ -57,6 +57,8 @@ $$
 
 The expression is a special case of the one above, evaluated at the point where the reaction has no net tendency to move in either direction.
 
+Picture two pores at the same temperature, with the same reactant activities and a reaction favorable in both. In one, products are carried away; in the other, products accumulate. The second pore has the larger $Q$, so its reaction Gibbs energy is less negative. That compares the driving force of the same written reaction. To compare the rates of metabolism, we still need the enzymes, supply rates and cells.
+
 For biochemical reactions at a specified pH, often pH 7, a transformed convention is useful: $\Delta G' = \Delta G^{\circ\prime} + RT\ln Q'$. Its reactants and quotient must match that convention. The proton reservoir is already accounted for and must not be added again as an ordinary proton-activity factor. Temperature, pH and other relevant solution conditions must accompany the reference data.[^thermod1994]
 
 ::: {.callout-note}
