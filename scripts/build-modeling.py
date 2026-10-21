@@ -95,7 +95,7 @@ def prepare(repo, stage, lang):
         'lang': lang, 'format': {'html': {'toc': True}, 'epub': {'toc': True},
         'pdf': {'documentclass': 'scrbook', 'pdf-engine': 'xelatex', 'mainfont': 'PT Serif',
                 'sansfont': 'PT Sans', 'toc': True, 'toc-depth': 2,
-                'include-in-header': {'text': r'\interfootnotelinepenalty=10000\def\UrlBreaks{\do\/\do\-\do\_\do\.}'
+                'include-in-header': {'text': r'\sloppy\interfootnotelinepenalty=10000\def\UrlBreaks{\do\/\do\-\do\_\do\.}'
                     + '\n' + r'\renewcommand{\chaptermark}[1]{\markboth{' + title + '}{' + title
                     + r'}}\renewcommand{\sectionmark}[1]{}'}}}}
     (stage / '_quarto.yml').write_text(json.dumps(config, ensure_ascii=False, indent=2) + '\n')

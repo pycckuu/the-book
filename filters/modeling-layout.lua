@@ -16,3 +16,12 @@ function Table(tbl)
     return tbl
   end
 end
+
+function Math(math)
+  if FORMAT:match('latex') and math.mathtype == 'DisplayMath'
+      and math.text:match('^%s*\\Xi_%+=') then
+    local text = math.text:gsub(',\\quad%s*', ',\\\\\n'):gsub('^%s+', ''):gsub('%s+$', '')
+    math.text = '\\begin{gathered}\n' .. text .. '\n\\end{gathered}'
+    return math
+  end
+end
