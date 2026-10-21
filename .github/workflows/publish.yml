@@ -3,6 +3,8 @@ name: Build book site + downloads
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch: {}
 
 permissions:
@@ -25,7 +27,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: ${{ github.ref_name }}
+          ref: ${{ github.event.pull_request.head.sha || github.ref_name }}
 
       - name: Bump book version
         id: bump_version
@@ -96,6 +98,9 @@ jobs:
           kpsewhich hyph-ru.tex
           fmtutil-sys --byfmt xelatex
 
+      - name: Check two-volume release contract
+        run: python3 scripts/test_release_translations.py
+
       - name: Render (HTML)
         run: |
           quarto render --to html
@@ -115,7 +120,7 @@ jobs:
           rm -rf _book
           mv _book_site _book
 
-      - name: Build Russian book and separate bilingual course downloads
+      - name: Build bilingual book and modeling volumes
         run: python3 scripts/build-release-translations.py --output _book
 
       - name: Add .nojekyll
@@ -136,6 +141,7 @@ jobs:
             _book/translation-assets.json
 
   deploy:
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:

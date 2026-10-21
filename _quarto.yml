@@ -50,18 +50,6 @@ book:
     - appendices/c-reaction-gallery.md
     - appendices/d-math-without-pain.md
     - appendices/e-dramatis-personae.md
-    - courses/oxygen-diffusion/en/student-packet-en.md
-    - courses/oxygen-diffusion/en/instructor-packet-en.md
-    - courses/oxygen-diffusion/optional-observed-data/data-comparison-task.md
-    - courses/oxygen-diffusion/optional-observed-data/data-comparison-solutions.md
-    - courses/saturation-kinetics/en/scientific-reading.md
-    - courses/saturation-kinetics/en/student-packet.md
-    - courses/saturation-kinetics/en/OPEN-worked-answers.md
-    - courses/energy-constraints/en/scientific-reading.md
-    - courses/energy-constraints/en/student-packet.md
-    - courses/energy-constraints/en/OPEN-worked-answers.md
-    - courses/advection-dispersion/en/student-packet-en.qmd
-    - courses/advection-dispersion/en/worked-answers-en.qmd
 
 filters:
   - filters/companion-links.lua

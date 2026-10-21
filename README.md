@@ -50,6 +50,11 @@ Book website: https://pycckuu.github.io/the-book/
 3. Saturation kinetics: [English](courses/saturation-kinetics/en/README.md), [Russian](courses/saturation-kinetics/ru/README.md).
 4. Energy constraints: [English](courses/energy-constraints/en/README.md), [Russian](courses/energy-constraints/ru/README.md).
 
-The separate [English modeling guide](courses/modeling-guide/modeling-guide-en.md) and [Russian modeling guide](courses/modeling-guide/modeling-guide-ru.md) walk through all four models with equations, worked calculations and saved-data graphs. Each module includes a verified model, supplied outputs for work without Python and separately titled public worked answers. Start with Chapter 8's observations, units and balances; the course home page explains the remaining prerequisites.
+The [English modeling guide](courses/modeling-guide/modeling-guide-en.md) and [Russian modeling guide](courses/modeling-guide/modeling-guide-ru.md) walk through all four models with equations, worked calculations and saved-data graphs. Each module includes a verified model, supplied outputs for work without Python and separately titled public worked answers. Start with Chapter 8's observations, units and balances; the course home page explains the remaining prerequisites.
 
-Both book builders include Chapters 1-10, the Epilogue, narrative Appendices A-E and all twelve course readings as Appendices F-Q. The [Russian book builder](translations/ru/README.md) produces one `the-invisible-architects-ru.pdf` and one `the-invisible-architects-ru.epub`, separate from English files. The combined Russian edition is undergoing integration review; dated partial review files remain archived. The modeling guide stays an optional companion. Learner-pilot protocols remain unexecuted; numerical verification does not establish learner outcomes or validity in a natural system.
+Releases contain two volumes per language, each in PDF and EPUB:
+
+- **Book**: Chapters 1-10, the Epilogue and Appendices A-E (`the-invisible-architects`, `the-invisible-architects-ru`).
+- **Modeling**: the guide and all four modules, including exercises, open answers, curricula and unexecuted pilot protocols (`modeling-en`, `modeling-ru`).
+
+Individual module downloads remain available through their local build helpers, but are not separate release assets. The modeling volume follows oxygen, advection-dispersion, saturation and energy; it repeats Chapter 8 and selected Appendix B material for reference. Numerical verification does not establish learner outcomes or validity in a natural system. See [release build instructions](RELEASES.md).

@@ -1,19 +1,25 @@
-"""Check release asset selection and missing-Russian failure without publishing."""
+"""Check the delivered two-volume file contract and complete source selection."""
 import importlib.util
-import sys
-sys.dont_write_bytecode = True
 import json
+import re
 from pathlib import Path
-import tempfile
 import subprocess
+import sys
+import tempfile
 import unittest
+sys.dont_write_bytecode = True
 
-spec = importlib.util.spec_from_file_location('translations',
-                                             Path(__file__).with_name('build-release-translations.py'))
-translations = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(translations)
 
-# A stand-in for existing Quarto helpers, not a model or document renderer.
+def load(name, file):
+    spec = importlib.util.spec_from_file_location(name, Path(__file__).with_name(file))
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+release = load('release', 'build-release-translations.py')
+modeling = load('modeling', 'build-modeling.py')
+# Only stand in for the external renderer; release naming and failure policy are real.
 HELPER = '''import argparse
 from pathlib import Path
 p = argparse.ArgumentParser()
@@ -22,64 +28,78 @@ p.add_argument('--lang', default='ru')
 a = p.parse_args()
 folder = Path(a.output) / a.to
 folder.mkdir(parents=True)
-name = Path(__file__).parent.name + '-' + a.lang + '.' + a.to
-(folder / name).write_bytes(b'rendered file')
+name = 'modeling-' + a.lang if Path(__file__).name == 'build-modeling.py' else 'the-invisible-architects-ru'
+(folder / (name + '.' + a.to)).write_bytes(b'rendered document')
 '''
 
 
-class ReleaseAssets(unittest.TestCase):
-    def test_bilingual_assets_and_missing_russian(self):
+class TwoVolumeRelease(unittest.TestCase):
+    def test_release_contract_and_render_failure(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             repo, output = root / 'repo', root / 'dist'
             repo.mkdir()
-            with self.assertRaisesRegex(SystemExit, 'requires Russian'):
-                translations.build(repo, output, 'quarto')
-            helpers = [repo / 'translations/ru/build-chapter01.py',
-                       repo / 'courses/advection-dispersion/build.py',
-                       repo / 'courses/saturation-kinetics/build.py',
-                       repo / 'courses/energy-constraints/build.py',
-                       repo / 'courses/modeling-guide/build.py']
-            for helper in helpers:
-                helper.parent.mkdir(parents=True, exist_ok=True)
+            with self.assertRaisesRegex(SystemExit, 'requires two-volume'):
+                release.build(repo, output, 'quarto')
+            for name in ['translations/ru/build-chapters.py', 'scripts/build-modeling.py']:
+                helper = repo / name
+                helper.parent.mkdir(parents=True)
                 helper.write_text(HELPER)
-            for helper in helpers[1:]:
-                if helper.parent.name != 'modeling-guide':
-                    (helper.parent / 'ru').mkdir()
-            # The real guide has root-level language files, not en/ and ru/.
-            guide = helpers[-1].parent
-            (guide / 'modeling-guide-ru.md').write_text('Russian guide source')
-            helpers[-1].unlink()
-            with self.assertRaisesRegex(SystemExit, 'modeling-guide requires'):
-                translations.build(repo, output, 'quarto')
-            helpers[-1].write_text(HELPER)
-            loose = repo / 'courses/unbuilt/reading.ru.md'
-            loose.parent.mkdir()
-            loose.write_text('Russian reading without a directory named ru')
-            with self.assertRaisesRegex(SystemExit, 'unbuilt requires'):
-                translations.build(repo, output, 'quarto')
-            loose.unlink()
-            loose.parent.rmdir()
-            # A translated course may never disappear because its helper is missing.
-            missing = repo / 'courses/oxygen-diffusion/ru'
-            missing.mkdir(parents=True)
-            with self.assertRaisesRegex(SystemExit, 'oxygen-diffusion requires'):
-                translations.build(repo, output, 'quarto')
-            oxygen_helper = missing.parent / 'build.py'
-            oxygen_helper.write_text(HELPER)
-            helpers.append(oxygen_helper)
-            assets = translations.build(repo, output, 'quarto')
-            self.assertEqual(len(assets), 20)
-            self.assertEqual(len(list(output.glob('*.pdf'))), 11)
-            self.assertEqual(len(list(output.glob('*.epub'))), 9)
-            self.assertEqual({a['language'] for a in assets}, {'en', 'ru'})
-            self.assertEqual(json.loads((output / 'translation-assets.json').read_text())['assets'], assets)
+            output.mkdir()
+            for fmt in ['pdf', 'epub']:
+                (output / f'the-invisible-architects.{fmt}').write_bytes(b'English book')
+            # Old standalone modules must not silently reappear as extra release files.
+            extra = output / 'oxygen-diffusion-module-ru.pdf'
+            extra.write_bytes(b'old module')
+            with self.assertRaisesRegex(SystemExit, 'unexpected='):
+                release.build(repo, output, 'quarto')
+            extra.unlink()
+            # The first failed run already produced files. A rerun must not overwrite them.
             with self.assertRaisesRegex(SystemExit, 'overwrite'):
-                translations.build(repo, output, 'quarto')
-            # A failed Russian module render must stop the entire release step.
-            helpers[-1].write_text(HELPER + "\nif a.lang == 'ru': raise SystemExit(3)\n")
+                release.build(repo, output, 'quarto')
+            for file in output.iterdir():
+                if not file.name.startswith('the-invisible-architects.'):
+                    file.unlink()
+            assets = release.build(repo, output, 'quarto')
+            self.assertEqual(len(assets), 8)
+            self.assertEqual({(a['language'], a['scope']) for a in assets},
+                             {('en', 'book'), ('ru', 'book'), ('en', 'modeling'), ('ru', 'modeling')})
+            for lang in ['en', 'ru']:
+                for scope in ['book', 'modeling']:
+                    self.assertEqual(sum(a['language'] == lang and a['scope'] == scope for a in assets), 2)
+            self.assertEqual(json.loads((output / 'translation-assets.json').read_text())['assets'], assets)
+            (repo / 'scripts/build-modeling.py').write_text(HELPER + "\nraise SystemExit(3)\n")
             with self.assertRaises(subprocess.CalledProcessError):
-                translations.build(repo, root / 'failed-dist', 'quarto')
+                release.build(repo, root / 'failed', 'quarto')
+
+    def test_complete_modeling_readings_and_no_execution(self):
+        repo = Path(__file__).resolve().parents[1]
+        for lang in ['en', 'ru']:
+            with self.subTest(lang=lang), tempfile.TemporaryDirectory() as temporary:
+                stage = Path(temporary) / 'project'
+                readings = modeling.prepare(repo, stage, lang)
+                config = json.loads((stage / '_quarto.yml').read_text())
+                self.assertFalse(config['execute']['enabled'])
+                self.assertEqual(len(readings), len(set(readings)))
+                # Compare with the independently maintained module source inventories.
+                for module in ['oxygen-diffusion', 'advection-dispersion',
+                               'saturation-kinetics', 'energy-constraints']:
+                    folder = repo / 'courses' / module / lang
+                    for source in folder.iterdir():
+                        if source.suffix in ['.md', '.qmd'] and any(
+                                word in source.name for word in ['student-packet', 'instructor-packet',
+                                'worked-answers', 'curriculum', 'pilot-protocol', 'verification-methods',
+                                'scientific-reading', 'module-reading']):
+                            self.assertIn(str(source.relative_to(repo)), readings)
+                for name in readings:
+                    self.assertTrue((stage / name).is_file(), name)
+                combined = '\n'.join((stage / name).read_text() for name in readings)
+                notes = re.findall(r'^\[\^([^\]]+)\]:', combined, re.MULTILINE)
+                anchors = re.findall(r'\{#([\w-]+)', combined)
+                self.assertEqual(len(notes), len(set(notes)), 'ambiguous note definitions')
+                self.assertEqual(len(anchors), len(set(anchors)), 'ambiguous explicit destinations')
+                self.assertTrue(any('modeling-guide' in name for name in readings))
+                self.assertEqual(sum('optional-observed-data/' in name for name in readings), 2)
 
 
 if __name__ == '__main__':
