@@ -1,6 +1,7 @@
 """Check the delivered two-volume file contract and complete source selection."""
 import importlib.util
 import json
+import re
 from pathlib import Path
 import subprocess
 import sys
@@ -92,6 +93,11 @@ class TwoVolumeRelease(unittest.TestCase):
                             self.assertIn(str(source.relative_to(repo)), readings)
                 for name in readings:
                     self.assertTrue((stage / name).is_file(), name)
+                combined = '\n'.join((stage / name).read_text() for name in readings)
+                notes = re.findall(r'^\[\^([^\]]+)\]:', combined, re.MULTILINE)
+                anchors = re.findall(r'\{#([\w-]+)', combined)
+                self.assertEqual(len(notes), len(set(notes)), 'ambiguous note definitions')
+                self.assertEqual(len(anchors), len(set(anchors)), 'ambiguous explicit destinations')
                 self.assertTrue(any('modeling-guide' in name for name in readings))
                 self.assertEqual(sum('optional-observed-data/' in name for name in readings), 2)
 

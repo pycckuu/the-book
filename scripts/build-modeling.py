@@ -46,7 +46,8 @@ def prepare(repo, stage, lang):
          [f'courses/energy-constraints/{lang}/{p}' for p in ['scientific-reading.md',
           'student-packet.md', 'OPEN-worked-answers.md', 'curriculum.md', 'pilot-protocol.md']])]
     readings = [guide] + [p for _, paths in sections for p in paths]
-    for name in readings:
+    seen_ids = set()
+    for index, name in enumerate(readings):
         path = stage / name
         text = path.read_text(encoding='utf-8')  # A missing reading must fail the whole volume.
         # Move each document title into the book heading hierarchy, preserving its body.
@@ -56,6 +57,15 @@ def prepare(repo, stage, lang):
             if not re.match(r'# ', body):
                 body = '# ' + title[1] + '\n\n' + body
             text = body
+        # Each source retains its own note definitions when combined with overlapping readings.
+        text = re.sub(r'\[\^([^\]]+)\]', lambda m: f'[^volume-{index}-{m[1]}]', text)
+        for anchor in re.findall(r'\{#([\w-]+)', text):
+            if anchor in seen_ids:
+                renamed = f'volume-{index}-{anchor}'
+                text = re.sub(r'(?<=\{#)' + re.escape(anchor) + r'(?=[}\s])', renamed, text)
+                text = text.replace('](#' + anchor + ')', '](#' + renamed + ')')
+            else:
+                seen_ids.add(anchor)
         path.write_text(text, encoding='utf-8')
     title = 'Modeling' if lang == 'en' else 'Моделирование'
     intro = (
@@ -85,7 +95,7 @@ def prepare(repo, stage, lang):
         'lang': lang, 'format': {'html': {'toc': True}, 'epub': {'toc': True},
         'pdf': {'documentclass': 'scrbook', 'pdf-engine': 'xelatex', 'mainfont': 'PT Serif',
                 'sansfont': 'PT Sans', 'toc': True, 'toc-depth': 2,
-                'include-in-header': {'text': r'\usepackage{xurl}\interfootnotelinepenalty=10000'
+                'include-in-header': {'text': r'\interfootnotelinepenalty=10000\def\UrlBreaks{\do\/\do\-\do\_\do\.}'
                     + '\n' + r'\renewcommand{\chaptermark}[1]{\markboth{' + title + '}{' + title
                     + r'}}\renewcommand{\sectionmark}[1]{}'}}}}
     (stage / '_quarto.yml').write_text(json.dumps(config, ensure_ascii=False, indent=2) + '\n')
@@ -110,8 +120,13 @@ def main():
         command = [args.quarto, 'render', '--to', fmt]
         if fmt == 'pdf':
             command += ['-M', 'latex-auto-install:false']
-        with (output / f'{fmt}.log').open('w') as log:
-            subprocess.run(command, cwd=stage, stdout=log, stderr=subprocess.STDOUT, check=True)
+        log_path = output / f'{fmt}.log'
+        try:
+            with log_path.open('w') as log:
+                subprocess.run(command, cwd=stage, stdout=log, stderr=subprocess.STDOUT, check=True)
+        except subprocess.CalledProcessError:
+            print(log_path.read_text(encoding='utf-8', errors='replace')[-16000:], flush=True)
+            raise
         shutil.copytree(stage / '_book', output / fmt)
         print(f'{args.lang} modeling {fmt}: built', flush=True)
 

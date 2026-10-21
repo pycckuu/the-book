@@ -10,7 +10,7 @@ function Table(tbl)
   local specs = tbl.colspecs
   local unspecified = true
   for _, spec in ipairs(specs) do
-    if spec[2] > 0 then unspecified = false end
+    if (spec[2] or 0) > 0 then unspecified = false end
   end
   if unspecified and #specs > 0 then
     for _, spec in ipairs(specs) do spec[2] = 1 / #specs end
