@@ -25,9 +25,9 @@ The guide and worksheet instructions supply the worked modeling steps. Appendix 
 
 ## Delivery and evidence
 
-All four modules' exercises, scientific readings and public answers are included as F-Q in the English book and the combined Russian book builder, in the same order. The guide is a standalone reading with its own [build instructions](modeling-guide/README.md). Module helpers and release downloads keep English and Russian in separate files.
+The guide and all four modules form the separate **Modeling** volume in each language. Exercises, scientific readings, public answers, curricula, verification methods and unexecuted pilot protocols stay together in that volume. The main **Book** contains Chapters 1-10, the Epilogue and Appendices A-E. Previous teaching appendix letters F-Q refer to the same readings now grouped by module.
 
-The [Russian book builder](../translations/ru/README.md) assembles Chapters 1-10, the Epilogue and Appendices A-Q into one `the-invisible-architects-ru.pdf` and one `the-invisible-architects-ru.epub`, separately from English files.
+Releases provide `modeling-en.pdf` / `.epub` and `modeling-ru.pdf` / `.epub`. Build either language with `python3 scripts/build-modeling.py --lang en|ru --output /tmp/modeling-volume`. Individual module helpers remain available for focused local work, without adding separate files to releases.
 
 Numerical verification concerns the declared equations and illustrative or synthetic scenarios. It does not establish validity in a natural system, biological mechanism or learner performance. Learner-pilot protocols remain unexecuted; their durations are planned rather than observed.
 

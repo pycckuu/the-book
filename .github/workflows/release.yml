@@ -55,7 +55,7 @@ jobs:
           quarto render --to epub
           cp _book/*.epub dist/
 
-      - name: Build Russian book and separate bilingual course downloads
+      - name: Build bilingual book and modeling volumes
         run: python3 .release-tools/scripts/build-release-translations.py --repo . --output dist
 
       - name: Create GitHub Release and upload assets

@@ -1,4 +1,4 @@
-"""Render one Russian book with Chapters 1-10, the Epilogue and Appendices A-Q outside the source repository."""
+"""Render one Russian book with Chapters 1-10, the Epilogue and Appendices A-E outside the source repository."""
 import argparse
 import hashlib
 import json
@@ -38,28 +38,8 @@ def main():
                   'translations/ru/appendices/c-reaction-gallery.md',
                   'translations/ru/appendices/d-math-without-pain.md',
                   'translations/ru/appendices/e-dramatis-personae.md']
-    course_readings = ['courses/oxygen-diffusion/ru/student-packet-ru.md',
-                       'courses/oxygen-diffusion/ru/instructor-packet-ru.md',
-                       'courses/oxygen-diffusion/optional-observed-data/data-comparison-task-ru.md',
-                       'courses/oxygen-diffusion/optional-observed-data/data-comparison-solutions-ru.md',
-                       'courses/saturation-kinetics/ru/scientific-reading.md',
-                       'courses/saturation-kinetics/ru/student-packet.md',
-                       'courses/saturation-kinetics/ru/OPEN-worked-answers.md',
-                       'courses/energy-constraints/ru/scientific-reading.md',
-                       'courses/energy-constraints/ru/student-packet.md',
-                       'courses/energy-constraints/ru/OPEN-worked-answers.md',
-                       'courses/advection-dispersion/ru/student-packet-ru.qmd',
-                       'courses/advection-dispersion/ru/worked-answers-ru.qmd']
     appendix_titles = ['Энергетический инструментарий', 'Инструментарий моделирования',
                        'Галерея реакций', 'Математика без боли', 'Действующие лица']
-    for name in course_readings:
-        source = (repo / name).read_text(encoding='utf-8')
-        title = re.search(r'^title: "(.+)"$', source, re.MULTILINE)
-        appendix_titles.append(title[1] if title else re.search(r'^# (.+)$', source, re.MULTILINE)[1])
-    # Solutions remain public, separately titled readings after the exercises.
-    for index in (6, 8):
-        appendix_titles[index] += ' (ОТКРЫТЫЕ)'
-    appendices += course_readings
     resources = sorted(set(re.findall(
         r'\]\(\.\./\.\./\.\./(courses/[^)]+)\)',
         (repo / appendices[1]).read_text(encoding='utf-8'))))
@@ -71,7 +51,7 @@ def main():
     resources = sorted(set(resources) | {
         str(path.relative_to(repo)) for root in resource_roots for path in (repo / root).rglob('*')
         if path.is_file() and '__pycache__' not in path.parts and not path.name.startswith('.')
-        and str(path.relative_to(repo)) not in course_readings})
+})
     files = chapters + epilogue + appendices + resources + ['sources/bibliograph.bib', 'sources/img/ch3_rna_world.png', 'sources/img/ch4_mat_cross_section.png', 'translations/ru/img/ch6_cannibalism.png', 'translations/ru/img/ch5_electron_donor_ladder.png', 'translations/ru/img/ch7_integration_spectrum.png', 'translations/ru/img/ch8_porewater_profile.png', 'translations/ru/img/ch9_redox_ladder.png', 'translations/ru/img/ch10_aquifer_rtm.png',
              'translations/ru/chapter-callouts.lua', 'filters/companion-links.lua', 'filters/delayed-footnotes.lua', 'courses/README.md']
     for name in files:
@@ -86,18 +66,13 @@ def main():
     text = re.sub(r'^(#{2,6}) (.+)$',
                   r'\1 `\\texorpdfstring{\\phantomsection}{}`{=latex}\2 {.unnumbered}', text, flags=re.MULTILINE)
     epilogue_source.write_text(text, encoding='utf-8')
-    # Keep A-E and mirror the English course appendix order as F-Q.
-    for appendix, letter, title in zip(appendices, string.ascii_uppercase[:17], appendix_titles):
+    # Preserve the five narrative appendices A-E.
+    for appendix, letter, title in zip(appendices, string.ascii_uppercase[:5], appendix_titles):
         appendix_source = stage / appendix
         text = appendix_source.read_text(encoding='utf-8')
         heading = f'# Приложение {letter}. {title} {{#sec-appendix-{letter.lower()}-ru .unnumbered}}\n\n'
-        if appendix in course_readings:
-            text = re.sub(r'\A---\n.*?\n---\n\s*', '', text, count=1, flags=re.DOTALL)
-            text = re.sub(r'\A# [^\n]+\n\s*', '', text, count=1)
-            text = heading + text
-        else:
-            text = re.sub(r'^title:.*\n', '', text, count=1, flags=re.MULTILINE)
-            text = text.replace('---\n\n', '---\n\n' + heading, 1)
+        text = re.sub(r'^title:.*\n', '', text, count=1, flags=re.MULTILINE)
+        text = text.replace('---\n\n', '---\n\n' + heading, 1)
         if letter in ('A', 'B'):
             # Preserve A.1-A.7 and make Chapter 10's B.5/B.6 references findable.
             for number, heading in enumerate(re.findall(r'^## .+$', text, re.MULTILINE), 1):
@@ -130,14 +105,15 @@ def main():
     eighth_chapter = stage / chapters[7]
     (stage / 'index.md').write_text(
         '# Как читать эту книгу {.unnumbered}\n\n'
-        'Книга объединяет главы 1-10, эпилог и приложения A-Q. Приложения A-E дополняют повествование; '
-        'F-Q содержат задания, научные пояснения и открытые решения четырёх учебных модулей. '
-        'Сначала выполните задания самостоятельно, затем сравните свою работу с решениями и запишите использованную помощь. '
-        'Сравнение с измерениями в H-I остаётся необязательным.\n\n'
-        'Начните моделирование с главы 8 и приложения B. Порядок учебных приложений повторяет английскую книгу; '
-        'для прохождения курса используйте последовательность: кислород (F-I), адвекция и дисперсия (P-Q), насыщение (J-L), энергия (M-O). '
+        'Книга объединяет главы 1-10, эпилог и приложения A-E. '
+        'Задания, открытые решения, учебные планы и руководство собраны во втором томе, '
+        '[«Моделирование»](https://pycckuu.github.io/the-book/modeling-ru.pdf).\n\n'
+        'Начните моделирование с главы 8 и приложения B, затем откройте второй том. '
+        'Порядок модулей: кислород, адвекция и дисперсия, насыщение, энергия. '
         'В энергетическом модуле используются глава 1 и приложение A. '
-        '[Руководство по моделированию](https://pycckuu.github.io/the-book/modeling-guide-ru.pdf) остаётся необязательным сопровождением и входит в комплект ресурсов. '
+        'Руководство остаётся необязательным сопровождением. '
+        'Сначала выполните задания самостоятельно, затем сравните свою работу с решениями '
+        'и запишите использованную помощь. Сравнение с измерениями в кислородном модуле необязательно. '
         'Данные, программы и рабочие листы находятся в комплекте ресурсов. '
         'Учебные пилоты пока не проведены; заявленная длительность занятий является плановой.\n', encoding='utf-8')
     config = {
@@ -159,11 +135,11 @@ def main():
         for p in sorted(stage.rglob('*')) if p.is_file()}, indent=2) + '\n')
     # Format-specific links always start from the same staged source text.
     linked_sources = {stage / name: (stage / name).read_text(encoding='utf-8')
-                      for name in ['index.md', chapters[7], chapters[9], epilogue[0], appendices[1], appendices[4]] + course_readings}
+                      for name in ['index.md', chapters[7], chapters[9], epilogue[0], appendices[1], appendices[4]]}
     for fmt in (['html', 'pdf', 'epub'] if args.to == 'all' else [args.to]):
         for path, original in linked_sources.items():
             text = original
-            if fmt != 'html' or str(path.relative_to(stage)) in course_readings or path.name == 'index.md':
+            if fmt != 'html' or path.name == 'index.md':
                 def book_link(match):
                     label, url = match[1], match[2]
                     if re.match(r'^[a-zA-Z][\w+.-]*:', url) or url.startswith('#'):
@@ -184,21 +160,6 @@ def main():
                 text = re.sub(r'(?<!!)\[([^\]]+)\]\(([^)]+)\)', book_link, text)
             if fmt == 'pdf':
                 text = text.replace('../../../courses/', 'courses/')
-            if fmt == 'pdf' and str(path.relative_to(stage)) in course_readings:
-                letter = string.ascii_uppercase[appendices.index(str(path.relative_to(stage)))]
-                # Full course titles stay in the contents; running heads fit the page.
-                text = re.sub(r'(^# [^\n]+\n)', lambda m: m[0] + '\n```{=latex}\n'
-                              '\\renewcommand{\\sectionmark}[1]{}\n'
-                              f'\\markboth{{Приложение {letter}}}{{Приложение {letter}}}\n'
-                              '\\sloppy\n\\setcounter{figure}{0}\n'
-                              f'\\renewcommand{{\\thefigure}}{{{letter}.\\arabic{{figure}}}}\n'
-                              '```\n', text, count=1, flags=re.MULTILINE)
-                if str(path.relative_to(stage)) == 'courses/energy-constraints/ru/OPEN-worked-answers.md':
-                    # Wrap the gross/net inventory balance, preserving its terms and order.
-                    text = re.sub(r'\$\$\n(\\Xi_\+=.*?)\n\$\$',
-                                  lambda m: '$$\n\\begin{gathered}\n' +
-                                  m[1].replace(',\\quad', ',\\\\') +
-                                  '\n\\end{gathered}\n$$', text, count=1, flags=re.DOTALL)
             if fmt == 'pdf' and path.name == '10-the-water-planet.md':
                 # Short running heads; keep full section titles and TOC entries.
                 for heading, short in [('Быстрые и медленные реакции: приём частичного равновесия', 'Частичное равновесие'),
@@ -255,7 +216,7 @@ def main():
             target = output / fmt / resource
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(repo / resource, target)
-        print(f'ru complete book chapters01-10 epilogue appendices-a-q {fmt}: built', flush=True)
+        print(f'ru complete book chapters01-10 epilogue appendices-a-e {fmt}: built', flush=True)
 
 
 if __name__ == '__main__':
