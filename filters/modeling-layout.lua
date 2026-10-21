@@ -7,13 +7,11 @@ end
 
 function Table(tbl)
   if not FORMAT:match('latex') then return nil end
-  local specs = tbl.colspecs
-  local unspecified = true
-  for _, spec in ipairs(specs) do
-    if (spec[2] or 0) > 0 then unspecified = false end
-  end
-  if unspecified and #specs > 0 then
-    for _, spec in ipairs(specs) do spec[2] = 1 / #specs end
+  -- This syllabus table otherwise becomes three unwrapped natural-width columns.
+  if #tbl.colspecs == 3 and pandoc.utils.stringify(tbl):find('Planned minutes', 1, true) then
+    local specs = tbl.colspecs
+    local widths = {0.33, 0.20, 0.47}
+    for index, spec in ipairs(specs) do spec[2] = widths[index] end
     tbl.colspecs = specs
     return tbl
   end
