@@ -80,12 +80,14 @@ def prepare(repo, stage, lang):
                  'chapters': ['index.md', guide] + [dict(part=t, chapters=p) for t, p in sections]},
         'execute': {'enabled': False},
         'filters': ['translations/ru/chapter-callouts.lua', 'filters/companion-links.lua',
-                    'filters/delayed-footnotes.lua'],
+                    'filters/modeling-layout.lua', 'filters/delayed-footnotes.lua'],
         'bibliography': 'sources/bibliograph.bib', 'suppress-bibliography': True,
         'lang': lang, 'format': {'html': {'toc': True}, 'epub': {'toc': True},
         'pdf': {'documentclass': 'scrbook', 'pdf-engine': 'xelatex', 'mainfont': 'PT Serif',
                 'sansfont': 'PT Sans', 'toc': True, 'toc-depth': 2,
-                'include-in-header': {'text': r'\interfootnotelinepenalty=10000'}}}}
+                'include-in-header': {'text': r'\usepackage{xurl}\interfootnotelinepenalty=10000'
+                    + '\n' + r'\renewcommand{\chaptermark}[1]{\markboth{' + title + '}{' + title
+                    + r'}}\renewcommand{\sectionmark}[1]{}'}}}}
     (stage / '_quarto.yml').write_text(json.dumps(config, ensure_ascii=False, indent=2) + '\n')
     return readings
 
