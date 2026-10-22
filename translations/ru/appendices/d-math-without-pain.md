@@ -139,4 +139,4 @@ $$
 
 [^appd-partition-bridge]: MIT 5.62, лекция 11, с. 1-2 и 9, различает молекулярную и ансамблевую статистические суммы. [@FieldGriffin2008StatThermo] Karl K. Irikura, *Essential Statistical Thermodynamics*, адаптировано из *Computational Thermochemistry* (1998), объясняет приближения идеального газа и несвязанных мод и опорные энергии, необходимые для термохимии. [NIST CCCBDB](https://cccbdb.nist.gov/thermox.asp).
 
-[^appd-light-quanta]: Max Planck (1901), квантованные энергии осцилляторов в теории теплового излучения, и Albert Einstein (1905), предложение о квантах света. Исторический контекст см. в главе 1. [@Planck1901; @Einstein1905]
+[^appd-light-quanta]: Max Planck (1901), квантованные энергии осцилляторов в теории теплового излучения, и Albert Einstein (1905), предложение о квантах света. Исторический контекст приведён в начале этого приложения. [@Planck1901; @Einstein1905]

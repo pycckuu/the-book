@@ -138,4 +138,4 @@ Real molecules couple rotation, vibration and electronic structure, so this prod
 
 [^appd-partition-bridge]: MIT 5.62, lecture 11, pp. 1-2 and 9, distinguishes molecular and ensemble partition functions. [@FieldGriffin2008StatThermo] Karl K. Irikura, *Essential Statistical Thermodynamics*, adapted from *Computational Thermochemistry* (1998), explains the ideal-gas and uncoupled-mode approximations and the reference energies needed for thermochemistry. [NIST CCCBDB](https://cccbdb.nist.gov/thermox.asp).
 
-[^appd-light-quanta]: Max Planck (1901), quantized oscillator energies in thermal-radiation theory, and Albert Einstein (1905), the light-quantum proposal. See Chapter 1 for the historical context. [@Planck1901; @Einstein1905]
+[^appd-light-quanta]: Max Planck (1901), quantized oscillator energies in thermal-radiation theory, and Albert Einstein (1905), the light-quantum proposal. The opening of this appendix provides the historical context. [@Planck1901; @Einstein1905]
