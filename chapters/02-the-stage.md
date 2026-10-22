@@ -4,23 +4,11 @@ title: "The Stage"
 
 Venus's surface today is uninhabitable for life as we know it. Surface temperature: about 460 degrees Celsius. Surface pressure: about 92 bar, roughly the pressure 900 meters underwater on Earth. Near the surface, the atmosphere is 96.5 percent carbon dioxide by volume, with sulfuric-acid clouds above.[^ch02_venus_facts] No stable surface bodies of liquid water are known. Cloud droplets contain water mixed with sulfuric acid. Under representative atmospheric-equilibrium assumptions, the availability of water in these droplets is too low for known active terrestrial life.[^ch02_venus_water_activity]
 
-Earth has persistent liquid water at its surface. What let it keep the conditions that life would need?
+On Earth, water remains liquid at the surface, and organisms use it for the reactions described in Chapter 1. A cell needs a continuing supply of reactants and somewhere to release its products. Before asking how the first cells arose, we need to ask how a planet could sustain such conditions.
 
-Three planets formed from broadly similar raw materials.
+Earth, Venus, and Mars formed around the same young star from related materials. Their initial supplies of water and carbon need not have been equal. Today their surfaces differ sharply, and only Earth has confirmed life. What allowed Earth to keep liquid water and a supply of chemicals over geological time?
 
-They orbited the same young star and obeyed identical physics. Their rock and volatile inventories came from a common solar system, but their initial supplies of water and carbon need not have been equal. The starting chemistry was related enough to make the later divergence meaningful.
-
-And yet their histories diverged. Earth became a living world; Venus and Mars present very different conditions today. Whether either neighbor ever supported life remains unknown.
-
-Earth is the best-known case: rock structures,[^fig_allwood] mineral isotopes,[^fig_wilde_zircon] and reconstructed ancient enzymes[^fig_gaucher] give us different kinds of evidence, rather than a single thermometer. Zircons support early water interaction; ancient proteins offer a conditional reconstruction of environments inhabited by selected lineages.
-
-Venus and Mars are less constrained. Deuterium enrichment supports water loss on Venus,[^fig_donahue] but does not fix its ocean history.[^fig_way]
-
-Mars's crustal magnetism supports an early dynamo,[^fig_acuna] while its climate history remains debated.[^fig_mars_climate]
-
-Related raw materials, the same physics, different histories.
-
-This chapter is not here to turn the book into a survey of planetary science. It is here to establish the minimum stage the later biology requires: liquid water that persists, an atmosphere that does not vanish, access to reduced chemicals, and a crust-ocean system that keeps the planet out of equilibrium long enough for chemistry to become evolution.
+We can follow that question from the impacts that built the planets to their atmospheres and water. Then we can examine the surviving evidence for early Earth's chemistry and inhabitants. The evidence is fragmentary, so a reconstruction of suitable conditions must remain distinct from evidence that life was already present.
 
 ## The violence that built the world
 
@@ -32,7 +20,7 @@ Venus and Mars went through the same process. So did a number of other bodies th
 
 The Hadean, the earliest eon of Earth's history, left a sparse crustal record. The oldest surviving minerals (tiny crystals of zircon from Western Australia) are about 4.4 billion years old. Much of the early record was reworked or erased by later geological activity. These zircons preserve evidence of early water interaction, but they do not provide a continuous record of the surface between impacts.[^wilde2001_hadean]
 
-What we do have is physics. And physics, combined with isotope geochemistry and careful modeling, lets us reconstruct quite a lot from very little direct evidence.
+Physics and isotope geochemistry help us test possible histories against that sparse record. The Moon provides one example: a collision could alter the young Earth's rotation, surface and atmosphere, changing the conditions under which water might later persist.
 
 ## The blow that made the Moon
 
@@ -52,13 +40,13 @@ Third, a giant impact can rework the surface and remove atmosphere. How much atm
 
 ## The divergence: Venus, Earth, and Mars
 
-"Related starting materials, different outcomes" becomes useful when we separate measurements of the planets today from reconstructions of their past.
+An impact can change a planet's initial conditions; the atmosphere and surface continue to evolve afterward. To understand whether water can persist, we need to follow how it condenses, reaches the upper atmosphere, or escapes. Venus, Earth, and Mars let us compare those processes, while keeping present measurements separate from reconstructed histories.
 
-### Venus: the greenhouse that ate itself
+### Venus: tracing water loss
 
 Venus is nearly Earth's twin in size and mass. It formed from the same part of the solar nebula. Its initial water inventory is uncertain. Whether it ever had a surface ocean remains a model-dependent question.
 
-So what happened?
+How can we investigate that missing water?
 
 One clue is written in hydrogen isotopes. Venus's atmosphere has a deuterium-to-hydrogen ratio roughly 100 to 150 times the terrestrial value.[^fig_donahue] That enrichment is an observation; the initial volatile inventory must still be reconstructed.
 
@@ -100,9 +88,9 @@ Earth's cold trap is a consequence of its atmospheric and surface conditions, no
 
 Same physics. Related materials. Different orbital and atmospheric histories, and very different surface conditions.
 
-### Mars: the planet that lost its shield
+### Mars: water and a thinning atmosphere
 
-Mars tells a different cautionary tale. Its surface and atmospheric histories record water and major atmospheric loss, but those changes cannot be assigned to one cause.
+On Earth, condensation restricts the amount of water reaching the upper atmosphere. Mars raises a related question: what happens to surface water as a planet loses atmosphere? Its surface and atmospheric histories record water and major atmospheric loss, but those changes cannot be assigned to one cause.
 
 Mars is smaller than Earth, about half the diameter and roughly one-tenth the mass. Size affects both thermal evolution and atmospheric retention. Crustal magnetization supports an ancient dynamo,[^fig_acuna] and MAVEN measurements of argon isotopes support substantial atmospheric loss through sputtering.[^mars_escape] Those observations do not establish a single sequence in which core cooling switched off a shield and the solar wind then removed the entire atmosphere.
 
@@ -118,7 +106,7 @@ This raises a possibility: life might have been transported between planets in r
 
 ## The first ocean
 
-Life as we know it needs liquid water. Not as a decorative feature, but as a physical requirement: water is the solvent in which biochemical reactions occur, the medium through which reactants diffuse to meet each other, and a participant in countless hydrolysis and condensation reactions. Without liquid water, the thermodynamic rules from Chapter 1 are real but irrelevant--there is no medium in which to run the chemistry.
+The comparison tells us why retaining water matters. Now we can ask when water was present on Earth. For known life, liquid water provides a solvent for biochemical reactions and a medium through which reactants diffuse to meet each other. Water also participates in hydrolysis and condensation reactions. The energy balance from Chapter 1 therefore has to be considered in a physical setting where reactants can meet.
 
 The evidence that Earth's hydrosphere appeared very early comes from those ancient zircon crystals mentioned above. Zircons (zirconium silicate, ZrSiO$_4$) are extraordinarily durable minerals. They resist weathering, metamorphism, and even partial melting of the rocks that contain them. Some zircon crystals from the Jack Hills of Western Australia have been dated to 4.4 billion years ago--only about 150 million years after the Earth formed.[^wilde_zircon]
 
@@ -126,9 +114,9 @@ The structure and oxygen isotope composition of these zircons suggest that they 
 
 If the ocean existed that early, then the stage for life was set far sooner than the violent Hadean imagery might suggest. Even while the planet was still being bombarded, even while the surface may have been repeatedly sterilized by large impacts, water was there--cycling between the surface and the interior, dissolving minerals, and accumulating the dissolved inventory that would become the raw material for biochemistry.
 
-### An exotic soup
+### What the water could carry
 
-The early ocean was not like the modern ocean, but its temperature and chemistry are harder to reconstruct than a single description of hot, acidic water suggests. Temperature estimates depend on the proxy and its preservation; different approaches need not agree.[^cooling_trend] Acidity also depends on atmospheric composition and local water-rock reactions.
+Water would provide a reaction medium; dissolved substances would provide reactants and ingredients for catalysts. The early ocean differed from the modern ocean, but its temperature and chemistry are harder to reconstruct than a single description of hot, acidic water suggests. Temperature estimates depend on the proxy and its preservation; different approaches need not agree.[^cooling_trend] Acidity also depends on atmospheric composition and local water-rock reactions.
 
 Dissolved metals matter because they sit at the active sites of many enzymes. Their availability depends on redox conditions, mineral sources, sulfide, and ligands; it was not necessarily higher for every metal in the ancient ocean. Phylogenomic comparisons connect the history of metal use with changing ocean chemistry, but do not measure Hadean seawater concentrations.[^ancient_metals]
 
@@ -136,9 +124,29 @@ It is a fossil written in protein structure. Many of the enzymes that drive the 
 
 Modern metal requirements preserve clues to biochemical history, but they are not a direct inventory of the Hadean ocean. Active-site structure constrains metal use, while enzymes and metal-binding families can evolve. The reconstruction from modern proteins to ancient availability is an inference, with assumptions about evolutionary history. Biology can preserve a memory of geology without recording every original concentration.
 
+## The inventory, assembled
+
+The surviving record lets us assemble a working inventory for early Earth. The items are not all dated by the same evidence, and their amounts and histories remain partly reconstructed:
+
+**Liquid water**, cycling between ocean, atmosphere, and crust, providing the solvent and reaction medium that aqueous chemistry requires.
+
+**An atmosphere** supplying carbon and nitrogen. Its composition and the abundance of reduced gases depended on outgassing, escape, and chemical reactions. An oxygen-poor atmosphere is not automatically strongly reducing; the distinction matters for prebiotic chemistry.
+
+**Available metals**, supplied by minerals and water-rock reactions. Their dissolved concentrations and usefulness as catalysts depended on local chemistry; modern enzyme cofactors do not establish that every metal was more abundant in Hadean seawater.
+
+**Energy sources**: sunlight (ultraviolet radiation was particularly intense, since there was no ozone layer to block it), geothermal heat from a planet still cooling from accretion, chemical energy from the interaction of water with freshly exposed rock (serpentinization reactions that produce hydrogen gas), and electrical energy from lightning.
+
+**A range of temperatures**, including hot hydrothermal settings and water cool enough to remain liquid. Ancient global ocean temperatures are debated; local hot environments need not describe the whole ocean.
+
+**A day-night cycle and seasons**, arising from rotation and axial tilt. The Moon influences rotation and long-term tilt variability, but did not create those cycles.
+
+**Geological recycling**: volcanism, deformation, weathering, and exchanges between water and rock renewed chemical gradients. We do not need to assume that modern plate tectonics operated unchanged for four billion years, or that its absence alone makes a planet chemically inactive.
+
+Every item on this list is physical, but not every early inventory is directly measured. The surviving observations and the reconstructions must be kept separate when we compare Earth with Venus and Mars.
+
 ## The first signatures of life
 
-When did life actually appear? The honest answer is: we are not certain. Some of the oldest proposed evidence is indirect and debated. Greenland carbon records near 3.8 billion years ago are among those debated cases; by about 3.43 billion years ago, Australian stromatolite assemblages provide a stronger, though still interpreted, line of evidence for microbial communities.[^fig_allwood]
+Those ingredients describe possible conditions for life. To ask when organisms were actually present, we need evidence of their activity. The date of life's appearance remains uncertain. Some of the oldest proposed evidence is indirect and debated. Greenland carbon records near 3.8 billion years ago are among those debated cases; by about 3.43 billion years ago, Australian stromatolite assemblages provide a stronger, though still interpreted, line of evidence for microbial communities.[^fig_allwood]
 
 The Greenland arguments involve several localities and mineral settings. Isua and Akilia should not be folded into one apatite-graphite occurrence. Reports of isotopically light carbon prompted biological interpretations, while later studies questioned particular occurrences and their geological histories.[^isua_graphite][^isua_debate]
 
@@ -152,7 +160,7 @@ If a proposed biological signal is accepted, the origin of life must predate tha
 
 ## The cooling planet
 
-Was early life adapted to a hotter world? Ancient proteins give us one way to ask, but their thermal stability and the temperature of an entire ocean are different observables.
+Carbon isotopes can help us look for past biological activity. The temperature at which ancient organisms lived requires a different kind of evidence. Reconstructed ancestral proteins offer one approach, but their thermal stability and the temperature of an entire ocean are different observables.[^fig_gaucher]
 
 The most striking evidence for this comes from an ingenious approach: resurrecting ancient proteins. Eric Gaucher and colleagues reconstructed the likely amino acid sequences of ancestral elongation factors--proteins involved in translation, the process by which ribosomes read messenger RNA and build proteins. Because elongation factors are universal (present in all domains of life) and essential (you cannot live without them), their phylogenetic tree extends deep into evolutionary history.[^gaucher_proteins]
 
@@ -166,6 +174,44 @@ The authors compared that trend with oxygen-isotope reconstructions of seawater 
 The implication for our story is bounded: selected ancestral proteins support adaptation to changing temperatures. They do not establish that the first organisms were all thermophiles or hyperthermophiles, or that their temperature preferences equal the temperature of the whole ocean.
 
 This illustrates the theme from Chapter 1. Organisms adapt their machinery to the conditions in which they harvest energy. The thermodynamic laws do not change, but the value of $\Delta G$ depends on temperature, pressure, and chemical activities. Reaction rates also change with conditions, and with them the strategies that pay off.
+
+## Looking for the same conditions elsewhere
+
+The distinction between suitable conditions and evidence of life also guides observations beyond Earth. We can look for water, accessible elements and chemical energy, then ask what additional evidence would support a biological interpretation. Spacecraft measurements let us apply that distinction to other worlds.
+
+Cassini's sampling of Enceladus changed the stakes. The plume erupting from that moon's subsurface ocean contains salts, organics, molecular hydrogen, and now direct evidence of sodium phosphates -- the missing phosphorus piece in the CHNOPS inventory.[^postberg2023] Europa has moved from a literary possibility to an active mission target: Europa Clipper launched in 2024, tested its ice-penetrating radar at Mars in 2025.[^europaclipper2025] On Mars, Perseverance has begun to find exactly the kinds of redox-coupled mineral associations a geomicrobiologist would want to inspect first: iron phosphates, iron sulfides, organics, and textures that look less like barren dust and more like the aftermath of chemistry that once had structure.[^hurowitz2025]
+
+None of this proves life beyond Earth. It does sharpen the question. The issue is no longer whether habitable chemistry is conceivable elsewhere. The issue is where the same combination of solvent, redox disequilibrium, mineral surfaces, and elemental inventory may still be running right now.
+
+## Same rules, one stage
+
+The laws of thermodynamics operate everywhere. The quantum mechanics that determines bond energies and reaction rates is the same on Venus, Earth, and Mars. Gibbs free energy is Gibbs free energy whether you calculate it for a reaction in Earth's ocean or in a hypothetical Martian puddle.
+
+To evaluate a possible setting for life, we need its temperature, solvent, accessible elements, energy sources and history. The inventory assembled here describes possible settings; it does not yet explain how chemical reactions became a system capable of reproduction and evolution.
+
+Earth provided conditions in which life could persist. Its distance from the Sun, atmospheric history, mass, geological activity, and long-lived water all contributed. Their roles are reconstructed in interacting physical models; a giant impact or the presence of a large moon is not, by itself, proof that a living planet must follow.
+
+Venus and Mars show how rocky planets can follow different histories under the same thermodynamic rules. Mars preserves evidence of past surface water, while Venus's water history is less certain. Neither has confirmed evidence of life. That is a statement about our evidence, not a complete account of their past.
+
+We can now return to the opening question. Earth's history allowed liquid water, accessible chemicals and continuing energy supplies to coexist. That gives us environments in which to investigate the origin of life, even though many details of those environments remain uncertain.
+
+At hydrothermal vents, water-rock reactions can supply hydrogen and other reduced compounds, creating local energy and carbon sources for chemistry. Thermodynamic calculations also predict HCN under specified conditions; the cited review does not establish its detection in natural vent fluids.[^hcn_vents] A favorable calculated reaction is not proof of its rate or product abundance. A supply of chemicals and energy leaves a further question: how could molecules copy information and sustain the reactions needed to make more copies? Chapter 3 takes up that problem.
+
+## Takeaway
+
+- Earth, Venus, and Mars formed in the same solar system, but their initial volatile inventories need not have been equal.
+- Venus's deuterium enrichment supports water loss without uniquely establishing an earlier ocean. Moist and runaway greenhouse regimes are distinct, and their thresholds depend on conditions.
+- Mars's crustal magnetism and atmospheric isotopes constrain different parts of its history; they do not demonstrate a single switch that removed its entire atmosphere.
+- Ancient zircons support water interaction by about 4.4 billion years ago, without measuring the extent or temperature of a global ocean.
+- Modern metal cofactors provide clues to biochemical history, not a direct concentration inventory of Hadean seawater.
+- Isotopically light ancient carbon can be consistent with life, but the oldest Greenland records remain debated. Younger stromatolite assemblages offer a different line of evidence.
+- Resurrected proteins measure thermal stability. Environmental temperatures inferred from them depend on evolutionary and physiological assumptions.
+- Ocean worlds, Mars samples, and planetary missions make these distinctions practical: habitable chemistry and potential biosignatures require testing, and neither establishes extraterrestrial life.
+
+
+## If you want to examine the evidence
+
+The sidebar below explains how researchers interpret isotope and mineral records. It adds methodological detail to the main account; you can continue to Chapter 3 without reading it.
 
 ::: {.callout-note}
 ## Sidebar --- Reading Earth's diary -- isotope proxies
@@ -190,60 +236,6 @@ These archives record isotope fractionation, trace-element incorporation, or min
 :::
 
 Sources for the sidebar: isotope scales,[^isotope_scales] the carbon record,[^carbon_isotope_record] Sr/Ca,[^sr_ca_proxy] Mg/Ca,[^mg_ca_proxy] nacre structure,[^nacre_structure] and goethite.[^yapp_goethite]
-
-## The inventory, assembled
-
-The surviving record lets us assemble a working inventory for early Earth. The items are not all dated by the same evidence, and their amounts and histories remain partly reconstructed:
-
-**Liquid water**, cycling between ocean, atmosphere, and crust, providing the solvent and reaction medium that aqueous chemistry requires.
-
-**An atmosphere** supplying carbon and nitrogen. Its composition and the abundance of reduced gases depended on outgassing, escape, and chemical reactions. An oxygen-poor atmosphere is not automatically strongly reducing; the distinction matters for prebiotic chemistry.
-
-**Available metals**, supplied by minerals and water-rock reactions. Their dissolved concentrations and usefulness as catalysts depended on local chemistry; modern enzyme cofactors do not establish that every metal was more abundant in Hadean seawater.
-
-**Energy sources**: sunlight (ultraviolet radiation was particularly intense, since there was no ozone layer to block it), geothermal heat from a planet still cooling from accretion, chemical energy from the interaction of water with freshly exposed rock (serpentinization reactions that produce hydrogen gas), and electrical energy from lightning.
-
-**A range of temperatures**, including hot hydrothermal settings and water cool enough to remain liquid. Ancient global ocean temperatures are debated; local hot environments need not describe the whole ocean.
-
-**A day-night cycle and seasons**, arising from rotation and axial tilt. The Moon influences rotation and long-term tilt variability, but did not create those cycles.
-
-**Geological recycling**: volcanism, deformation, weathering, and exchanges between water and rock renewed chemical gradients. We do not need to assume that modern plate tectonics operated unchanged for four billion years, or that its absence alone makes a planet chemically inactive.
-
-Every item on this list is physical, but not every early inventory is directly measured. The surviving observations and the reconstructions must be kept separate when we compare Earth with Venus and Mars.
-
-## Why this comparison matters again
-
-For a long time, the comparison between Earth, Venus, and Mars served mainly as reconstruction: Earth supports life; the biological histories of the other two remain unknown. Astrobiology has made the comparison more immediate by turning speculation into fieldwork.
-
-Cassini's sampling of Enceladus changed the stakes. The plume erupting from that moon's subsurface ocean contains salts, organics, molecular hydrogen, and now direct evidence of sodium phosphates -- the missing phosphorus piece in the CHNOPS inventory.[^postberg2023] Europa has moved from a literary possibility to an active mission target: Europa Clipper launched in 2024, tested its ice-penetrating radar at Mars in 2025.[^europaclipper2025] On Mars, Perseverance has begun to find exactly the kinds of redox-coupled mineral associations a geomicrobiologist would want to inspect first: iron phosphates, iron sulfides, organics, and textures that look less like barren dust and more like the aftermath of chemistry that once had structure.[^hurowitz2025]
-
-None of this proves life beyond Earth. It does sharpen the question. The issue is no longer whether habitable chemistry is conceivable elsewhere. The issue is where the same combination of solvent, redox disequilibrium, mineral surfaces, and elemental inventory may still be running right now.
-
-## Same rules, one stage
-
-The laws of thermodynamics operate everywhere. The quantum mechanics that determines bond energies and reaction rates is the same on Venus, Earth, and Mars. Gibbs free energy is Gibbs free energy whether you calculate it for a reaction in Earth's ocean or in a hypothetical Martian puddle.
-
-But laws alone do not produce outcomes. You also need conditions: the right temperature range, the right solvent, the right inventory of elements in accessible forms, the right energy sources, and--crucially--enough time for the slow, improbable process of chemical evolution to produce self-replicating systems.
-
-Earth provided conditions in which life could persist. Its distance from the Sun, atmospheric history, mass, geological activity, and long-lived water all contributed. Their roles are reconstructed in interacting physical models; a giant impact or the presence of a large moon is not, by itself, proof that a living planet must follow.
-
-Venus and Mars show how rocky planets can follow different histories under the same thermodynamic rules. Mars preserves evidence of past surface water, while Venus's water history is less certain. Neither has confirmed evidence of life. That is a statement about our evidence, not a complete account of their past.
-
-The chapter needs only that much stage-setting: a planet with persistent liquid water, accessible metals, and geological activity bathed in energy, with the thermodynamic rules of Chapter 1 operating in every drop of its ancient ocean.
-
-At hydrothermal vents, water-rock reactions can supply hydrogen and other reduced compounds, creating local energy and carbon sources for chemistry. Thermodynamic calculations also predict HCN under specified conditions; the cited review does not establish its detection in natural vent fluids.[^hcn_vents] A favorable calculated reaction is not proof of its rate or product abundance. The planet offers possible settings. What we still need to explain is a system that can reproduce.
-
-## Takeaway
-
-- Earth, Venus, and Mars formed in the same solar system, but their initial volatile inventories need not have been equal.
-- Venus's deuterium enrichment supports water loss without uniquely establishing an earlier ocean. Moist and runaway greenhouse regimes are distinct, and their thresholds depend on conditions.
-- Mars's crustal magnetism and atmospheric isotopes constrain different parts of its history; they do not demonstrate a single switch that removed its entire atmosphere.
-- Ancient zircons support water interaction by about 4.4 billion years ago, without measuring the extent or temperature of a global ocean.
-- Modern metal cofactors provide clues to biochemical history, not a direct concentration inventory of Hadean seawater.
-- Isotopically light ancient carbon can be consistent with life, but the oldest Greenland records remain debated. Younger stromatolite assemblages offer a different line of evidence.
-- Resurrected proteins measure thermal stability. Environmental temperatures inferred from them depend on evolutionary and physiological assumptions.
-- Ocean worlds, Mars samples, and planetary missions make these distinctions practical: habitable chemistry and potential biosignatures require testing, and neither establishes extraterrestrial life.
-
 
 [^wilde2001_hadean]: Simon A. Wilde et al., "Evidence from Detrital Zircons for the Existence of Continental Crust and Oceans on the Earth 4.4 Gyr Ago," *Nature* 409 (2001): 175–178. [@Wilde2001]
 
