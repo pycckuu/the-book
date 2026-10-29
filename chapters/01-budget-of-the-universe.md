@@ -87,7 +87,7 @@ The next two sidebars give definitions and a field example for readers who want 
 ::: {.callout-note}
 ## Sidebar: what enters the energy balance
 
-Erwin Schrödinger discussed the problem of maintaining order in a living system in 1943.[^schrodinger1944] A complete thermodynamic balance must include the cell's exchanges with its surroundings: the Second Law applies to living systems too.
+Erwin Schrödinger discussed the problem of maintaining order in a living system in his 1943 lectures.[^schrodinger1944] A complete thermodynamic balance must include the cell's exchanges with its surroundings: the Second Law applies to living systems too.
 
 Gibbs free energy is defined as
 

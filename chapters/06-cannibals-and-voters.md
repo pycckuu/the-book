@@ -4,7 +4,7 @@ title: "Cannibals and Voters"
 
 A population of *Bacillus subtilis* is starving. Instead of dying together, a fraction of the cells kill and feed on some of their siblings. The molecular machinery behind this strategy is one of the best-documented social behaviors in microbiology---and it is far from the only one.
 
-We are leaving the physics of energy and electrons behind (temporarily) and asking a different question: **once cells exist and compete, what kinds of relationships do they build?**
+The energy budget has brought us to a question about behavior: when nutrients run short, do neighboring cells keep doing the same chemistry? They can change what they consume, what they secrete, and whether they grow or enter a resistant state. Those responses change the rates we will later put into models.
 
 The answer matters for everything that comes later. Eukaryotic cells---the kind that eventually built animals, plants, and fungi---did not arise from a single lucky mutation. They arose from mergers, and mergers are easier to stabilize in a world already full of social interactions: communication, exploitation, and occasionally, negotiated truces between former enemies. Before we can tell that story (the next chapter), we need to understand the social world that made it possible.
 
@@ -28,19 +28,19 @@ Take it out of the flask. Put it in soil, on a root surface, in a biofilm, or in
 
 When conditions demand it, *B. subtilis* can grow flagella and acquire motility, swimming toward nutrients or away from toxins. It can collect into organized "packs" with consistent, coordinated movement. It can secrete enzymes that break down complex molecules in the environment---a costly investment that benefits all nearby cells, not just the producer. It can form biofilms: dense, structured communities encased in a self-produced matrix of proteins and polysaccharides.[^flemming_biofilm] And it can make "decisions"---or more precisely, its genetic circuits can switch it into distinct behaviors---based on chemical signals received from relatives.[^social_evolution]
 
-The mechanism that coordinates many of these transitions is **quorum sensing**: bacteria secrete small signaling molecules (autoinducers) into the surrounding medium and simultaneously detect them.[^quorum_sensing_review][^bassler_bacterial] Each cell contributes signal; each cell measures the local concentration. When the concentration crosses a threshold---when the quorum is reached---the population's behavior shifts. (The process is often described as "voting," though as the sidebar notes, density-sensing or even diffusion-sensing may be more accurate.)
+One mechanism involved in bacterial coordination is **quorum sensing**: cells produce signaling molecules, or autoinducers, and detect them through regulatory circuits.[^quorum_sensing_review][^bassler_bacterial] A threshold response can coordinate behavior. The concentration depends on production and loss as well as cell density, so the voting image describes local coordination rather than a literal census.
 
 ::: {.callout-note}
 ## Sidebar --- How quorum sensing works
 
 Quorum sensing is not a single system. Different bacterial species use different signal molecules, different receptors, and different downstream circuits. But the basic logic is shared:
 
-1. **Signal production**: Each cell constitutively produces a small signaling molecule (an autoinducer) at a low basal rate.
-2. **Signal accumulation**: The autoinducer diffuses into the environment. At low cell density, the molecule diffuses away faster than it accumulates. At high cell density, it builds up.
-3. **Threshold detection**: When the local concentration exceeds a threshold, receptor proteins inside (or on the surface of) each cell become activated.
-4. **Coordinated response**: The activated receptors trigger a transcriptional program that changes the cell's behavior---biofilm formation, toxin production, sporulation, or dozens of other responses.
+1. **Signal production**: Signal-producing cells release autoinducers; production can itself be regulated.
+2. **Signal accumulation**: Local concentration depends on production and loss, including diffusion and flow. Density is one influence.
+3. **Signal detection**: Receptors respond to the local signal concentration through the regulatory circuit.
+4. **Coordinated response**: Depending on the system, the response can alter biofilm formation, toxin production, sporulation or other activities.
 
-The elegance is in the coupling: because each cell both produces and detects the signal, the system functions as a distributed sensor for population density. The "decision" emerges from the sum of individual contributions, and no central authority is needed.
+Coupling signal production and response permits local coordination without a central authority. How closely concentration tracks cell density depends on the signaling system and its environment.
 
 The voting metaphor captures the logic of density-dependent coordination but simplifies: real autoinducer concentrations reflect not just cell number but diffusion geometry, flow regime, and the spatial arrangement of producers---what Redfield called "diffusion sensing" rather than quorum sensing.[^redfield_qs]
 :::
@@ -53,7 +53,7 @@ The most dramatic social behavior of *B. subtilis* is cannibalism.
 
 Imagine a population of *B. subtilis* in soil. Nutrients have been declining for hours. The cells have already tried the obvious responses: ramping up enzyme secretion to scavenge what remains, adjusting their metabolic pathways, slowing growth. Nothing has worked. Starvation is now severe.
 
-The cell has one remaining option that offers its best chance of long-term survival: sporulation. A *B. subtilis* spore is one of nature's most resilient structures---resistant to heat, desiccation, UV radiation, and chemical assault.[^setlow_spore] A spore can wait for decades, even centuries, and germinate when conditions improve.
+Sporulation offers a route through prolonged starvation. A *B. subtilis* spore resists heat, desiccation, UV radiation, and chemical attack, and can germinate when conditions improve.[^setlow_spore] But before committing to that resistant state, some cells can gain more time by feeding on susceptible siblings.
 
 But sporulation is expensive.
 
@@ -112,12 +112,12 @@ The resolution involves several mechanisms:
 
 - **Kin selection**: in structured environments (soil, biofilms), cells tend to interact with close relatives. Helping relatives indirectly promotes copies of one's own genes.[^hamilton_kin][^west_kin]
 - **Population structure**: cheaters that destroy the cooperative group they depend on ultimately destroy themselves. Spatial structure can help cooperative groups outlast cheater-dominated ones, although crowding relatives together also intensifies competition among them.[^griffin_cooperation]
-- **Policing mechanisms**: some cooperative systems include active enforcement against non-kin or non-cooperators---for example, bacteriocins that target competing strains.[^travisano_policing] (*B. subtilis* cannibalism, by contrast, can be viewed as bet-hedging: the "victims" are not necessarily cheaters, and heterogeneous developmental responses need not be a bistable switch.)
+- **Policing mechanisms**: policing is one proposed way to constrain exploitation; its role must be established for each system.[^travisano_policing] (*B. subtilis* cannibalism, by contrast, can be viewed as bet-hedging: the "victims" are not necessarily cheaters, and heterogeneous developmental responses need not be a bistable switch.)
 
-The upshot is that microbial cooperation is not naive. It is enforced, policed, and maintained by mechanisms that punish free riders. The "altruism" is real, but it is not unconditional.
+Cooperation can persist when relatedness, spatial structure, or enforcement limits the advantage of exploiting neighbors. Which mechanism matters is a question for each system; cannibalism does not make every victim a cheater.
 :::
 
-The parallels between *M. xanthus* and *B. subtilis* are instructive. Both species use quorum sensing to coordinate group behavior. Both form complex multicellular structures under stress. Both sacrifice a fraction of their population so that the rest may survive. And both face---and have solved, at least partially---the problem of cheaters.
+The parallels between *M. xanthus* and *B. subtilis* are instructive. Both use intercellular signaling during development, form complex structures under stress, and produce populations with different fates. Their signaling systems and the evolutionary pressures maintaining cooperation need to be studied on their own terms.
 
 But the parallels extend further than any two species. These social behaviors are not oddities confined to a few laboratory favorites. Chemical signaling, quorum sensing, biofilm formation, and programmed cell death have been documented in many bacterial species across diverse lineages.[^miller_quorum][^nadell_biofilm] The social life of microbes is not an exception. It is the rule.
 
@@ -181,7 +181,7 @@ Consider the sequence of events when a *B. subtilis* population faces starvation
 
 The sequence combines internal regulation with local interactions. Who lives, who dies, and who sporulates depends on a cell's state and on the environment its neighbors help create. No single bistable switch has to explain every step.
 
-The outcome resembles a vote, as a metaphor: cells contribute to a shared chemical environment and respond to it. No central authority dictates the outcome. But shared behavior is not evidence that every cell casts the same signal or that the population passes one universal quorum threshold.
+The voting image is useful for the shared chemical environment: cells contribute signals and respond locally. Signal production, transport and sensitivity differ among cells, so coordinated behavior can arise through several regulatory routes.
 
 ## The ancient social contract
 
@@ -199,9 +199,10 @@ The bacteria had been signaling, cooperating, and consuming each other long befo
 
 ## Where we go next
 
-In the next chapter, we turn from social strategies to the most consequential social event in the history of life: the merger. An archaeal cell and a bacterial partner became intimately associated; how the bacterium came to live inside its host remains uncertain. The birth of the eukaryotic cell was not an invention. It was an alliance---forged by organisms that already competed, cooperated, and killed.
+These examples also tell a modeler what a single biomass concentration can hide: growing cells, toxin producers and dormant or developing cells can respond differently to the same surroundings. A useful model must choose which distinctions matter on its timescale. In the next chapter, we follow a different kind of dependence: an archaeal cell and a bacterial partner became so closely associated that their descendants formed a new kind of cell. How the bacterium first came to live inside its host remains uncertain.
 
 ## Takeaway
+
 - Bacteria are social organisms: they communicate, cooperate, compete, and make collective "decisions" through chemical signaling.
 - Quorum sensing functions as a distributed density-inference system---often described as "voting"---allowing populations to coordinate behavior.
 - *Bacillus subtilis* cannibalism can buy time before sporulation: heterogeneous regulatory activity, toxin production, and immunity divide a population into survivors and susceptible siblings, without proving a bistable Spo0A switch.

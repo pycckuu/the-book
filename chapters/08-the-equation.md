@@ -24,11 +24,11 @@ Written once and applied species by species, the same conservation law lets us a
 
 One equation is enough to begin.
 
-## Conservation: the only law you need
+## Conservation: the framework for the model
 
 Every model in this book -- every profile, every flux, every prediction -- rests on a single principle: **mass is conserved**.[^berner1980] Whatever enters a volume of sediment must either leave it, react within it, or accumulate. There are no other options.
 
-Picture a thin slab of sediment at depth $x$, with thickness $\Delta x$. We will keep track of one chemical species inside it. Call its bulk concentration $\hat{C}$: the amount per unit volume of sediment, not per unit volume of porewater. We will return to that distinction. The equation records how quickly $\hat{C}$ changes in the slab:
+Picture a thin slab of sediment at depth $x$, with thickness $\Delta x$. We will keep track of one dissolved species. Its porewater concentration is $C$; its amount per unit volume of bulk sediment is $\hat{C}=\phi C$, where $\phi$ is the water-filled porosity. The balance records how quickly that bulk concentration changes:
 
 $$
 \frac{\partial \hat{C}}{\partial t} = -\frac{\partial F}{\partial x} + \sum R_i
@@ -118,7 +118,7 @@ Use $L=0.03$ m, $D_s=10^{-9}$ m$^2$/s, $k=10^{-5}$ s$^{-1}$, $\phi=0.8$, and $C_
 
 At first, oxygen accumulates while diffusion feeds the surface layers and the sink consumes it. The profiles approach the dashed steady curve, where inward supply balances consumption. This calculation follows oxygen alone; it does not solve for the sulfate and methane in our opening sketch.
 
-We can now compare the computer's steady oxygen profile with this independent solution. The companion finite-volume model compares its steady solution with this curve, checks that inflow balances consumption and accumulation, refines its grid and time step, and rejects negative concentrations without clipping them. These checks verify the calculation. They do not validate the first-order assumption against nature.
+The companion calculation compares its profile with this independent solution and checks the material balance as its spatial and time resolution improve. That tests the numerical calculation. Whether first-order consumption describes a real core requires observations from that core; the Modeling volume gives the verification methods.
 
 A steady profile alone identifies $k/D_s$, not $k$ and $D_s$ separately. Imagine two versions of this same slab, with the same surface concentration, porosity and lower boundary. In the second, multiply both diffusivity $D_s$ and the consumption coefficient $k$ by two. The steady concentration profile is unchanged, although the inward flux doubles and the transient response is faster. More points on that same steady curve would not distinguish the two explanations. An independent diffusivity, flux or transient observation adds different information. The companion fit therefore estimates only the ratio from clearly labeled synthetic observations. Its separate measured-data exercise asks which archived flux corresponds to the model and whether the data version is reproducible. Solving the equation correctly and choosing it for a core remain different tasks.
 
@@ -142,7 +142,7 @@ $$
 
 where $[B]$ is biomass concentration. Electron donor (TED) and acceptor (TEA) are represented by a separable empirical product in this closure; independence is an assumption, not a result of the single-enzyme law.[^thullner2007] The retained $K_m$ labels denote half-saturation parameters on each stated substrate basis, not automatically enzyme constants.
 
-**The thermodynamic factor** $F_T$ requires an explicit energy convention. A net rate must vanish when the coupled process has no driving force. A logistic gate $1/(1+\exp(\Delta G_r/(RT)))$ would still give $1/2$ at chemical equilibrium, so we will not use it as that law.
+**The thermodynamic factor** $F_T$ describes how a specified coupled energy balance can restrict net respiration. We must account for both energy released by the reaction and energy conserved by the cell.
 
 For one published formulation, define the remaining drive $f=-\Delta G_r-m\Delta G_p$, where $m$ is the ATP conserved per reaction and $\Delta G_p$ is the phosphorylation free energy. The factor is:
 
@@ -151,6 +151,7 @@ F_T=1-\exp\left(-\frac{f}{\chi RT}\right)
 $$
 
 Here $\chi$ reflects the reaction mechanism. All energies and stoichiometric quantities must use a consistent reaction basis. This expression reaches zero at $f=0$, not generally at $\Delta G_r=0$. Its application needs an explicit domain and treatment of regulation or reverse flux; it is not a universal sediment rate law.[^jin2003_eq] The oxygen teaching model above uses a first-order sink without a thermodynamic factor.
+
 A rate expression for a microbially mediated reaction can then be written:
 
 $$
@@ -181,11 +182,11 @@ $$
 
 The equation needs an experiment around it. Our initially empty column receives a known total solute flux for a fixed time. We do not also fix the resident concentration at the inlet. At the exit, we set the dispersive gradient to zero while allowing flowing water to carry solute out. These are explicit finite-column closures, not universal boundaries for an aquifer.[^ad_boundary_ch8]
 
-For the illustrative column, $L=1$ m, $\phi=0.30$, $u=10^{-5}$ $\mathrm{m\,s^{-1}}$, and $D_L=10^{-6}$ $\mathrm{m^2\,s^{-1}}$. Feed at $1$ $\mathrm{mol\,m^{-3}}$ of porewater for 20000 s. The conservative calculation exports almost all the input during a 600000 s observation window. With $k=10^{-5}$ $\mathrm{s^{-1}}$, it exports about 39.76 percent; about 60.24 percent enters the parent-disappearance ledger, and a small amount remains stored. These are calculated fractions of the supplied dose, not removal measured in groundwater. [The scenario table](../courses/advection-dispersion/model/results/scenario-summary.csv) retains the separate export, disappearance and storage amounts.
+For the illustrative column, $L=1$ m, $\phi=0.30$, $u=10^{-5}$ $\mathrm{m\,s^{-1}}$, and $D_L=10^{-6}$ $\mathrm{m^2\,s^{-1}}$. Feed at $1$ $\mathrm{mol\,m^{-3}}$ of porewater for 20000 s. The conservative calculation exports almost all the input during a 600000 s observation window. With $k=10^{-5}$ $\mathrm{s^{-1}}$, about 39.76 percent leaves the column and about 60.24 percent is lost from the tracked parent substance; a small amount remains stored. These are calculated fractions of the supplied dose. They do not specify the products of that loss or represent removal measured in groundwater. The Modeling volume follows each amount separately.
 
 The reactive outlet curve also peaks earlier. That does not mean the water flows faster: loss changes the weighting of the material that survives to leave. Nor does a lower peak establish consumption. Spreading alone can lower a peak while conserving the parent. We need the integrated export and the material still inside the column.
 
-A computer can add spreading of its own. The companion calculation therefore checks separate grid and time refinements, alongside conservation and nonnegativity. A perfectly balanced ledger can accompany a poorly resolved curve. The technical details and synthetic comparison are in the [Model Toolkit](../appendices/b-model-toolkit.md#advection-dispersion-and-parent-loss). These checks establish that the calculation behaves as intended. Identifying the processes operating in an aquifer needs independent observations.
+A numerical method can spread a pulse as well as transport it. Refining the spatial and time resolution helps distinguish that numerical effect from the physical spreading we chose to model. The Modeling volume gives the checks; Appendix B summarizes the governing balances and their assumptions.
 
 [^ad_boundary_ch8]: M. Th. van Genuchten and J. C. Parker, "Boundary Conditions for Displacement Experiments through Short Laboratory Soil Columns," *Soil Science Society of America Journal* 48 (1984): 703-708. The paper distinguishes resident and flux concentrations and compares finite-column boundary formulations; it does not establish a universal aquifer boundary. [@vanGenuchtenParker1984]
 
@@ -254,7 +255,7 @@ These are real limitations, and we state them here so that the equation earns no
 - The conservation law carries across scales: the same accounting principle -- accumulation equals flux plus reaction -- applies whether the system is a sediment pore, an aquifer, or the global ocean. The transport operators and closure terms change, but the framework is portable.
 - The model assumes steady-state biology, effective rate constants, continuum averaging, and one-dimensionality. These assumptions define the current frontier; relaxing them is the work of the next generation of models.
 
-Continue with the oxygen exercises and worked answers listed in the book's appendices. Try each exercise before reading its solution.
+Continue with the oxygen exercises and worked answers in the separate [Modeling volume](https://pycckuu.github.io/the-book/modeling-en.pdf). Try each exercise before reading its solution.
 
 [^berner1980]: Robert A. Berner, *Early Diagenesis: A Theoretical Approach* (Princeton University Press, 1980). The conservation equation framework for sediment geochemistry. [@Berner1980Early]
 

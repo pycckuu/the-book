@@ -60,7 +60,7 @@ $$
 2\text{CH}_2\text{O} + \text{SO}_4^{2-} + 2\text{H}^+ \rightarrow 2\text{CO}_2 + \text{H}_2\text{S} + 2\text{H}_2\text{O}
 $$
 
-With hydrogen as electron donor (Chapter 4):
+With hydrogen as electron donor (Chapters 1 and 4): the equation below uses HS$^-$ as the sulfide species, whereas those chapters write H$_2$S. Converting between them requires the corresponding proton balance. The reference energy must match the chosen reaction and thermodynamic convention.
 
 $$
 4\text{H}_2\text{(g)} + \text{SO}_4^{2-}\text{(aq)} + \text{H}^+\text{(aq)} \rightarrow \text{HS}^-\text{(aq)} + 4\text{H}_2\text{O}\text{(l)}

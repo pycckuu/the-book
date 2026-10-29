@@ -18,14 +18,14 @@ A field guide to the organisms that appear in this book.
 - **Metabolism**: The reconstructed genome encodes hydrogen-driven sulfate reduction, inorganic carbon assimilation, and nitrogen-fixation potential. Gene presence does not establish in situ rates; dissolved ammonia could supply nitrogen without nitrogen fixation.[^deep-life-appe]
 - **Claim to fame**: Metagenomic evidence for more than 99.9 percent dominance in a particular filtered Mponeng fracture-water sample, suggesting potential metabolic independence. Attached or very small organisms were not excluded. An incomplete oxygen-resistance system suggested long isolation from oxygen; fluid-age estimates do not date individual cells.[^deep-life-appe]
 - **Key citations**: Lin et al. (2006), *Science*, and Chivian et al. (2008), *Science*, with publication details and sampling limits in the note.[^deep-life-appe]
-- **Appears in**: Chapter 9
+- **Appears in**: Chapters 1, 9, 10 and the Epilogue
 
 ---
 
 ***Synechococcus* (and cyanobacteria generally)**
 - **Habitat**: Oceans, freshwater, soil, hot springs -- nearly everywhere light reaches
 - **Metabolism**: Oxygenic photosynthesis (H$_2$O as electron donor, CO$_2$ fixation via Calvin cycle)
-- **Claim to fame**: Oxygen from ancient cyanobacteria made the Great Oxidation Event about 2.4 Ga possible; when oxygen accumulated also depended on oxygen sinks (Chapter 5). Chloroplasts derive from cyanobacteria taken up by eukaryotic cells, and *Paulinella* records a separate acquisition (Chapter 5).
+- **Claim to fame**: Oxygen from ancient cyanobacteria made the Great Oxidation Event possible; its atmospheric accumulation also depended on oxygen sinks (Chapter 5). Chloroplasts derive from cyanobacterial endosymbiosis, discussed in Chapter 7.
 - **Key citation**: Blankenship (2010), *Plant Physiology* [@Blankenship2010]
 - **Appears in**: Chapters 4, 5, 7
 
@@ -88,7 +88,7 @@ A field guide to the organisms that appear in this book.
 ***Elysia chlorotica***
 - **Habitat**: Tidal marshes and shallow coastal waters of eastern North America; feeds on algae
 - **Metabolism**: Steals functional chloroplasts from the alga *Vaucheria litorea* and retains them in its own digestive cells -- a temporary, non-heritable photosynthesis (kleptoplasty)
-- **Claim to fame**: A living thought experiment for how chloroplast acquisition might have begun. Each generation must acquire chloroplasts anew by feeding. The chloroplasts likely persist on their own long-lived proteins and mRNAs; genome-scale analyses have not confirmed functional gene transfer to the slug (see Chapter 7).
+- **Claim to fame**: Temporary use of acquired plastids rather than a surviving early stage of chloroplast evolution. Each generation must acquire chloroplasts anew by feeding. How the plastids remain active is unresolved, and egg-genome analyses found no evidence for algal gene transfer into the slug germ line (see Chapter 7). [@Bhattacharya2013; @Chan2018]
 - **Key citation**: Rumpho et al. (2008) [@Rumpho2008]
 - **Appears in**: Chapter 7
 

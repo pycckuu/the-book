@@ -4,9 +4,9 @@ title: "The First City"
 
 What did the first self-sustaining communities look like?
 
-Among the early answers the rock record preserves are stromatolites from about 3.43 billion years ago, interpreted as products of microbial communities.[^oldest_stromatolites] To explore how a community could work, picture a mat a few millimeters thick: green on top, pink beneath, dark below. Three zones, multiple metabolic guilds, and material passing between them. This is a thought experiment assembled from modern microbial physiology, not a recovered cross-section of an Archean community.
+Among the early answers the rock record preserves are stromatolites from about 3.43 billion years ago, interpreted as products of microbial communities.[^oldest_stromatolites] To explore how a community could work, we will construct a mat from modern microbial physiology: green on top, purple beneath, dark below. Three zones, several groups sharing metabolic roles, and material passing between them. The ancient structures motivate the question; modern physiology supplies the cast for our thought experiment.
 
-As the last chapter argued, a lone metabolism can persist where geological fluxes supply reactants and remove products. Biological partnerships offer another way to recycle them, but there is no universal threshold at which life must close its own loops. A sulfur oxidizer paired with a sulfur reducer is one plausible partnership under suitable conditions. The rock record preserves layered structures interpreted as microbial communities; it does not identify all their members or reconstruct their waste flows.
+Chapter 3 left us with a material-balance problem: reactants must arrive and products must go somewhere. A sulfur oxidizer paired with a sulfur reducer offers one possible route for recycling. We can use the mat to follow that exchange while keeping track of supplies from outside.
 
 Mat-built structures are prominent in the Precambrian fossil record, across more than two billion years.[^mat_dominance] Their persistence does not show that one community design dominated all life or remained unchanged. Modern mats still offer a window into layered communities.[^sharkbay] Stromatolites preserve a long record of such structures, though preservation is uneven and their biological origin must be assessed in context.[^stromatolite_record] The scene invites a question: how can chemistry, gradients, and metabolic partnerships help a community persist?
 
@@ -72,9 +72,9 @@ Methanogens and sulfate reducers can compete for the same electron donor, H$_2$.
 
 Methanogens today inhabit many anoxic settings, including wetlands, rice paddies, landfills, and animal intestines.[^methanogens] Their persistence across such different environments shows how widespread the niche is. Organic carbon and low oxygen can support methane production, but do not guarantee it: usable substrates, suitable conditions, and methanogens must also be present.
 
-## The beauty of the closed cycle
+## Recycling in the mat
 
-Step back and look at our mat as a single system. You see a proposed community with linked material flows, not a demonstrated closed system.
+Step back and follow the material through our mat. The layers exchange products, while the surrounding water supplies reactants and carries some products away.
 
 The top and middle layers fix CO$_2$ using sunlight and H$_2$S. Their simplified reactions produce elemental sulfur; further oxidation can supply sulfate. The dark layer ferments organic matter, producing H$_2$ and small molecules. Sulfate reducers can return sulfate to H$_2$S, while methanogens convert CO$_2$ to methane. Methane may escape or be consumed if suitable methane oxidizers and electron acceptors are present. Each arrow describes a possible process, not a recovered Archean flux.
 
@@ -100,9 +100,9 @@ The difference is context. Stromatolites are conspicuous in the Precambrian shal
 
 What can isotopes tell us about carbon fixation in these communities? They provide clues, but not a roster of ancient guilds.
 
-Carbon has two stable isotopes: ^12^C (six protons, six neutrons) and ^13^C (six protons, seven neutrons). Their different masses affect reaction and equilibrium behavior. Many carbon-fixation reactions preferentially incorporate the lighter isotope, but the size and direction of an isotope effect depend on the process and conditions.
+Carbon has two stable isotopes: $^{12}$C (six protons, six neutrons) and $^{13}$C (six protons, seven neutrons). Their different masses affect reaction and equilibrium behavior. Many carbon-fixation reactions preferentially incorporate the lighter isotope, but the size and direction of an isotope effect depend on the process and conditions.
 
-Several carbon-fixation pathways exist: the Calvin cycle, the reverse TCA cycle used by green sulfur bacteria, the Wood-Ljungdahl pathway, and others.[^carbon_fixation_pathways] RuBisCO preferentially incorporates ^12^C during CO$_2$ fixation.[^rubisco][^carbon_fractionation] Cultured organisms using different pathways can show different carbon isotope discrimination. But the whole-cell signal also depends on CO$_2$ supply, uptake, and growth conditions. A numerical range is not a universal pathway label, and depleted organic carbon alone cannot identify our green canopy.
+Several carbon-fixation pathways exist: the Calvin cycle, the reverse TCA cycle used by green sulfur bacteria, the Wood-Ljungdahl pathway, and others.[^carbon_fixation_pathways] RuBisCO preferentially incorporates $^{12}$C during CO$_2$ fixation.[^rubisco][^carbon_fractionation] Cultured organisms using different pathways can show different carbon isotope discrimination. But the whole-cell signal also depends on CO$_2$ supply, uptake, and growth conditions. A numerical range is not a universal pathway label, and depleted organic carbon alone cannot identify our green canopy.
 
 This isotopic fingerprint can survive geological time, but its interpretation needs the rock context. As Chapter 2 explains, reports of light carbon in ancient Greenland rocks involve distinct occurrences at Isua and Akilia. Their ages, alteration histories, and possible abiotic sources must be assessed separately.[^isua_carbon] Such carbon can be consistent with biological fixation without uniquely establishing its origin or the organisms responsible.
 
@@ -116,7 +116,7 @@ Microbial mats did not merely inhabit the early Earth -- they reshaped it. Photo
 
 ## Biomineralization: when metabolism becomes rock
 
-Here the title turns literal. Microbes do more than alter water chemistry. They build minerals.
+Here, "built" takes a material meaning: microbes help form minerals as well as change water chemistry.
 
 Sometimes they do it indirectly. Cyanobacterial CO$_2$ uptake can raise local pH and favor carbonate precipitation, but net mineral growth also depends on water chemistry, organic matrices, and other metabolic processes. Sulfate reducers alter alkalinity and sulfide availability in ways that favor carbonate and sulfide precipitation. Iron oxidizers and iron reducers shift iron between soluble and insoluble forms, helping to create the mineral patterns that later geologists read back as environmental history.[^konhauser2007_biomineral]
 
@@ -146,7 +146,7 @@ How fast? That depends on substrate supply. Michaelis and Menten (1913) formaliz
 
 Here $[\text{S}]$ is free substrate concentration on the assay volume basis, and $V$ and $V_{\max}$ are rates on that same basis. The law describes a reduced single-enzyme mechanism under suitable approximation conditions. A similar curve for microbial growth or uptake does not identify that mechanism or its constants.[^saturation_meaning]
 
-At low substrate ($[\text{S}] \ll K_m$), the rate scales linearly with supply -- the enzyme has idle time between encounters. At high substrate ($[\text{S}] \gg K_m$), the rate plateaus at $V_{\max}$ -- every enzyme molecule is busy. In a bacterial mat, substrate concentrations are set not by a lab technician but by the balance between production, consumption, and diffusion. For this law, substrate must greatly exceed $K_m$ for the rate to approach $V_{\max}$; merely exceeding it is not enough. Well below $K_m$, the rate is approximately proportional to supply.
+At low substrate ($[\text{S}] \ll K_m$), the rate scales approximately linearly with concentration. At high substrate ($[\text{S}] \gg K_m$), it approaches $V_{\max}$. In a bacterial mat, substrate concentrations follow the balance between production, consumption, and diffusion.
 
 Try the law on the same enzyme preparation, holding $V_{\max}$ and $K_m$ fixed. At $[\text{S}]=K_m$, the rate is $V_{\max}/2$. Double the substrate to $[\text{S}]=2K_m$ and the rate becomes $2V_{\max}/3$, not $V_{\max}$. Doubling the substrate concentration has not doubled the rate. The enzyme preparation has less unused capacity as substrate rises.
 
@@ -162,9 +162,9 @@ A saturation curve is a useful first approximation for selected steps. Local sub
 
 These couplings suggest feedback loops that can buffer changes in supply. Their effect on mat stability depends on transport, community responses, and the reaction network; a saturation curve or a closed batch calculation alone does not establish that stability. In a simplified model, excess organic carbon can accumulate and increase fermentation rates along a saturation curve. Scarce sulfate can slow sulfate reduction and allow H$_2$ to accumulate, potentially favoring methanogens. These are possible feedbacks to test, not a guarantee of self-regulation or eventual consumption.
 
-This is the satisficing lens used in this book: ask whether a community can cover maintenance costs under local constraints, rather than assuming a community-wide objective. A steady state in a selected kinetic model does not establish that organisms never optimize. Coexistence alone does not distinguish these interpretations. The material loops and the conditions that sustain them must be checked, rather than inferred from the saturation curve.
+Later, in Chapter 9, we will ask whether persistence under these constraints is best described as satisficing: covering the costs of living without assuming a community-wide optimum. For now, the mat gives us the concrete quantities that any such explanation must account for: reaction rates, transport and maintenance costs.
 
-A model that assumes sulfate reducers always exclude methanogens wherever sulfate is present, or that one reaction dominates each depth interval, can miss overlap and coexistence. Those observations call for checking substrate use, transport, and local energy conditions. The satisficing lens asks whether each guild can cover its costs in that setting. Negative $\Delta G$ for both reactions is a starting condition to examine, not sufficient evidence for coexistence or a test that rules out optimization.
+In particular, sulfate in the water need not exclude methanogens. To investigate overlap, we must establish which substrates each group uses and how transport and reaction change their local supply. A saturation curve gives one part of that explanation; it does not establish the community structure.
 
 ## What we sacrificed
 
@@ -172,7 +172,7 @@ The three-layer model described in this chapter is a useful idealization, but re
 
 We also treated enzymes as isolated catalysts following simple Michaelis-Menten kinetics. In reality, enzymes inside cells are organized into pathways and complexes, subject to allosteric regulation, product inhibition, and competition for shared cofactors. The Michaelis-Menten equation describes one enzyme acting on one substrate in a well-mixed solution. Inside a cell -- let alone inside a millimeter-thick mat with steep gradients -- the conditions for that equation are only approximately met.
 
-These simplifications are not errors. They are deliberate trades: we sacrifice realism for a framework that can be interrogated quantitatively. The Michaelis-Menten curve, the closed sulfur cycle, the three-layered architecture -- these are models, not photographs. Their value is that they let you ask, "What would change if I doubled the sulfate supply?" or "What happens to the mat if light intensity drops?" and get a directional answer. We will build on them, adding complexity where it earns its keep.
+These simplifications are not errors. They are deliberate trades: we sacrifice realism for a framework that can be interrogated quantitatively. The Michaelis-Menten curve, the linked sulfur reactions, the three-layered architecture -- these are models, not photographs. Their value is that they let you ask, "What would change if I doubled the sulfate supply?" or "What happens to the mat if light intensity drops?" and get a directional answer. We will build on them, adding complexity where it earns its keep.
 
 ## Takeaway
 
