@@ -18,7 +18,7 @@ Not teeming, not a jungle. But when Li-Hung Lin and colleagues analyzed that fra
 
 One organism dominated Chivian's filtered fracture-water DNA sample. From metagenomic reads, the authors estimated that it represented more than 99.9 percent of the microorganisms in that particular fluid sample. It received one of the more literary names in microbiology: *Candidatus* Desulforudis audaxviator. The name comes from a Latin phrase in Jules Verne's *Journey to the Center of the Earth*: "Descende, audax viator, et terrestre centrum attinges", "Descend, brave traveler, and you will reach the center of the Earth".[^chivian2008]
 
-Chivian's conclusion concerned the fluid phase captured on a 0.2-micrometer filter; the authors could not exclude organisms on fracture surfaces or smaller than the filter pores.[^chivian2008]
+Chivian's conclusion concerned microorganisms retained when the water was passed through a 0.2-micrometer filter; the authors could not exclude organisms on fracture surfaces or smaller than the filter pores.[^chivian2008]
 
 The name was earned. The reconstructed genome encoded a remarkable potential for self-sufficiency: sulfate reduction, hydrogen use, inorganic carbon assimilation, and nitrogen fixation. Genes identify capabilities, not rates measured in the fracture. In particular, the authors noted that available dissolved ammonia could supply nitrogen without nitrogen fixation. Lin's calculations placed hydrogen-driven sulfate reduction ahead of the other reactions they compared under the sampled conditions, with energy yields well above their chosen ATP-coupling threshold. Mponeng was not their example of a reaction barely paying for life.[^lin2006][^chivian2008]
 
@@ -142,7 +142,7 @@ How much life is down there? The estimates have been revised repeatedly as sampl
 
 The volume of habitable rock is enormous. Even sparse populations, distributed unevenly through that volume, can add up to substantial biomass. Estimates therefore depend on where samples were taken and how cell abundance is extrapolated across geological settings.
 
-The deep biosphere also represents a different mode of existence. Surface food webs often recycle solar energy rapidly. Some deep populations have very slow inferred biomass turnover, potentially on century or longer timescales, while others receive more active supplies of carbon and energy. Population turnover inferred from chemical budgets is not a stopwatch on individual division. The slow, dark economy still has to balance its books: energy must flow and electrons must move.[^lin2006]
+The deep biosphere also represents a different mode of existence. Surface food webs often transfer solar-derived energy rapidly. Some deep populations have very slow inferred biomass turnover, potentially on century or longer timescales, while others receive more active supplies of carbon and energy. Population turnover inferred from chemical budgets is not a stopwatch on individual division. The slow, dark economy still has to balance its books: energy must flow and electrons must move.[^lin2006]
 
 ## What the brave wanderer teaches
 

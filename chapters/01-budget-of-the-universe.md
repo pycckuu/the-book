@@ -4,7 +4,7 @@ title: "The Budget of the Universe"
 
 2.8 kilometers below South Africa, a microbial community lives in water filling fractures in the rock. Sunlight does not reach it. Its dominant bacterium, *Candidatus Desulforudis audaxviator*, can use hydrogen supplied by radiolytic chemistry and sulfate derived from minerals.
 
-The setting was chemically energy-rich. Yet Lin and colleagues estimated population turnover times of 45 to 300 years under their stated assumptions. They inferred extremely slow long-term activity.[^lin2006_deep] Why does the community turn over so slowly when chemical energy is abundant?
+The setting was chemically energy-rich. Yet Lin and colleagues estimated population turnover times of 45 to 300 years under their stated assumptions. They inferred extremely slow long-term activity.[^lin2006_deep] How can such slow population turnover coexist with abundant chemical energy?
 
 To answer, we will follow how a cell obtains energy from a chemical reaction and what it can spend that energy on. We will need the same reasoning in marine sediments and groundwater: how much energy is available, and how quickly can a cell obtain it?
 

@@ -42,7 +42,7 @@ The association persisted. Over many generations, the partners became dependent 
 
 Aerobic respiration can conserve more ATP than fermentation of the same substrate under specified conditions (Chapter 5). Modern mitochondrial function illustrates this capability, but the first metabolic exchange between the partners remains reconstructed. The energetic opportunity of the partnership is different from a measured ancestral efficiency.
 
-In return, the host provided the bacterium with a stable environment and a steady supply of organic substrates. The partnership was metabolically complementary: the host could do things the symbiont could not, and vice versa.
+The partnership was metabolically complementary: the host could do things the symbiont could not, and vice versa.
 
 Over time, the two genomes began to merge. Genes moved from the symbiont to the host nucleus -- a process called endosymbiotic gene transfer that continues to this day in some lineages.[^timmis_transfer] The symbiont shed genes for functions that the host could supply. The host evolved new systems for importing proteins into the symbiont, targeting gene products across the double membrane that still marks the mitochondrion as a descendant of a gram-negative bacterium.
 
