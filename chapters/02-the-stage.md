@@ -84,7 +84,7 @@ The key is what atmospheric scientists call the **cold trap**. In a sufficiently
 
 A warm, wet upper atmosphere weakens that protection. Whether Venus ever sustained an effective cold trap and a surface ocean remains uncertain; hot-start and ocean-start models need not follow the same history.
 
-Earth's cold trap is a consequence of its atmospheric and surface conditions, not a guarantee for every possible climate. The point at which it becomes ineffective is model-dependent; a fixed 10 to 15 percent orbital shift cannot serve as a universal boundary.
+Earth's cold trap depends on its atmospheric and surface conditions. Climate models place its breakdown at different thresholds, depending on the assumptions they use.
 
 Same physics. Related materials. Different orbital and atmospheric histories, and very different surface conditions.
 
@@ -92,15 +92,15 @@ Same physics. Related materials. Different orbital and atmospheric histories, an
 
 On Earth, condensation restricts the amount of water reaching the upper atmosphere. Mars raises a related question: what happens to surface water as a planet loses atmosphere? Its surface and atmospheric histories record water and major atmospheric loss, but those changes cannot be assigned to one cause.
 
-Mars is smaller than Earth, about half the diameter and roughly one-tenth the mass. Size affects both thermal evolution and atmospheric retention. Crustal magnetization supports an ancient dynamo,[^fig_acuna] and MAVEN measurements of argon isotopes support substantial atmospheric loss through sputtering.[^mars_escape] Those observations do not establish a single sequence in which core cooling switched off a shield and the solar wind then removed the entire atmosphere.
+Mars is smaller than Earth, about half the diameter and roughly one-tenth the mass. Size affects both thermal evolution and atmospheric retention. Crustal magnetization supports an ancient dynamo,[^fig_acuna] and MAVEN measurements of argon isotopes support substantial atmospheric loss through sputtering.[^mars_escape] These observations constrain different parts of a history in which atmospheric escape, surface chemistry and internal evolution interacted.
 
-Mars's present-day surface pressure averages about 610 Pa, roughly 0.6 percent of Earth's, and varies with elevation and season. Below the triple-point pressure of pure water, an equilibrium bulk liquid phase is not stable. Exposed liquid can evaporate or boil; ice can sublime. This is not a universal prohibition on brines or liquid under subsurface pressure. Nor does it establish that liquid reservoirs exist today. Reconstructing earlier pressure and the division of water among ice, minerals, subsurface storage, and space remains a separate problem.
+Mars's present-day surface pressure averages about 610 Pa, roughly 0.6 percent of Earth's, and varies with elevation and season. Below the triple-point pressure of pure water, an equilibrium bulk liquid phase is unstable: exposed water can evaporate or boil, while ice can sublime. Brines and pressurized subsurface water require their own conditions. Reconstructing earlier pressure and the partition of water among ice, minerals, subsurface storage and space remains a separate problem.
 
 Early Mars may have been habitable.
 
 During the late Hadean and early Archean interval on Earth, Mars may have had a thicker atmosphere and episodes of surface liquid water. River valleys, lake deposits, and alteration minerals constrain that history.[^fig_mars_climate] Features dating to about 4.0 to 3.7 billion years ago do not by themselves establish a continuously warm, wet global climate.
 
-Early Mars is therefore a plausible place to ask about habitability. That does not establish that it was a safer cradle for life than Earth, or that their habitable intervals and the origin of life can be dated precisely.
+Early Mars is therefore a plausible place to investigate habitability. Comparing it with early Earth requires dated environmental evidence from both planets, rather than a ranking of which world was the safer cradle.
 
 This raises a possibility: life might have been transported between planets in rocks. Martian meteorites reach Earth, but delivery of a rock is not delivery of a living system. Experiments test particular stages under particular conditions. One orbital experiment recovered viable thermophilic bacteria from some basalt cavities after reentry; it did not test the complete chain of natural ejection, interplanetary transit, and entry.[^marspanspermia] Panspermia remains a hypothesis, not a consequence of shared chemistry.
 
@@ -120,7 +120,7 @@ Water would provide a reaction medium; dissolved substances would provide reacta
 
 Dissolved metals matter because they sit at the active sites of many enzymes. Their availability depends on redox conditions, mineral sources, sulfide, and ligands; it was not necessarily higher for every metal in the ancient ocean. Phylogenomic comparisons connect the history of metal use with changing ocean chemistry, but do not measure Hadean seawater concentrations.[^ancient_metals]
 
-It is a fossil written in protein structure. Many of the enzymes that drive the most ancient metabolisms--nitrogen fixation, hydrogen metabolism, carbon fixation in methanogens and acetogens--use metal cofactors that seem oddly exotic by the standards of modern seawater chemistry. Molybdenum in nitrogenase. Tungsten in some archaeal enzymes. Nickel in methyl-coenzyme M reductase. Iron-sulfur clusters in nearly everything ancient.
+The history of metal use leaves clues in protein structure. Many enzymes that drive ancient metabolisms, including nitrogen fixation, hydrogen metabolism, and carbon fixation in methanogens and acetogens, use metal cofactors. Molybdenum in nitrogenase. Tungsten in some archaeal enzymes. Nickel in methyl-coenzyme M reductase. Iron-sulfur clusters in many ancient enzyme families.
 
 Modern metal requirements preserve clues to biochemical history, but they are not a direct inventory of the Hadean ocean. Active-site structure constrains metal use, while enzymes and metal-binding families can evolve. The reconstruction from modern proteins to ancient availability is an inference, with assumptions about evolutionary history. Biology can preserve a memory of geology without recording every original concentration.
 
@@ -148,7 +148,7 @@ Every item on this list is physical, but not every early inventory is directly m
 
 Those ingredients describe possible conditions for life. To ask when organisms were actually present, we need evidence of their activity. The date of life's appearance remains uncertain. Some of the oldest proposed evidence is indirect and debated. Greenland carbon records near 3.8 billion years ago are among those debated cases; by about 3.43 billion years ago, Australian stromatolite assemblages provide a stronger, though still interpreted, line of evidence for microbial communities.[^fig_allwood]
 
-The Greenland arguments involve several localities and mineral settings. Isua and Akilia should not be folded into one apatite-graphite occurrence. Reports of isotopically light carbon prompted biological interpretations, while later studies questioned particular occurrences and their geological histories.[^isua_graphite][^isua_debate]
+The Greenland arguments concern different localities and mineral settings, including Isua and Akilia. Reports of isotopically light carbon prompted biological interpretations, while later studies questioned particular occurrences and their geological histories.[^isua_graphite][^isua_debate]
 
 Here is how the argument works. Carbon has two stable isotopes: $^{12}$C (six protons, six neutrons, about 98.9 percent of all carbon) and $^{13}$C (six protons, seven neutrons, about 1.1 percent). When organisms fix carbon dioxide into organic matter--when they build biomass from CO$_2$--the enzymes involved (particularly RuBisCO in modern autotrophs) preferentially incorporate the lighter isotope, $^{12}$C. This is not a choice: isotope-dependent reaction kinetics produce fractionation, with a magnitude that depends on the pathway and conditions. The result is that biogenic organic matter is enriched in $^{12}$C relative to the CO$_2$ it came from, and the residual inorganic carbon (in carbonates, for instance) is correspondingly enriched in $^{13}$C.
 
@@ -179,7 +179,7 @@ This illustrates the theme from Chapter 1. Organisms adapt their machinery to th
 
 The distinction between suitable conditions and evidence of life also guides observations beyond Earth. We can look for water, accessible elements and chemical energy, then ask what additional evidence would support a biological interpretation. Spacecraft measurements let us apply that distinction to other worlds.
 
-Cassini's sampling of Enceladus changed the stakes. The plume erupting from that moon's subsurface ocean contains salts, organics, molecular hydrogen, and now direct evidence of sodium phosphates -- the missing phosphorus piece in the CHNOPS inventory (carbon, hydrogen, nitrogen, oxygen, phosphorus and sulfur).[^postberg2023] Europa has moved from a literary possibility to an active mission target: Europa Clipper launched in 2024, tested its ice-penetrating radar at Mars in 2025.[^europaclipper2025] On Mars, Perseverance has begun to find exactly the kinds of redox-coupled mineral associations a geomicrobiologist would want to inspect first: iron phosphates, iron sulfides, organics, and textures that look less like barren dust and more like the aftermath of chemistry that once had structure.[^hurowitz2025]
+Cassini's sampling of Enceladus changed the stakes. The plume erupting from that moon's subsurface ocean contains salts, organics, molecular hydrogen, and now direct evidence of sodium phosphates -- the missing phosphorus piece in the CHNOPS inventory (carbon, hydrogen, nitrogen, oxygen, phosphorus and sulfur).[^postberg2023] Europa has moved from a literary possibility to an active mission target: Europa Clipper launched in 2024 and tested its ice-penetrating radar during a Mars flyby in 2025.[^europaclipper2025] On Mars, Perseverance has begun to find exactly the kinds of redox-coupled mineral associations a geomicrobiologist would want to inspect first: iron phosphates, iron sulfides, organics, and textures that look less like barren dust and more like the aftermath of chemistry that once had structure.[^hurowitz2025]
 
 None of this proves life beyond Earth. It does sharpen the question. The issue is no longer whether habitable chemistry is conceivable elsewhere. The issue is where the same combination of solvent, redox disequilibrium, mineral surfaces, and elemental inventory may still be running right now.
 
@@ -195,7 +195,7 @@ Venus and Mars show how rocky planets can follow different histories under the s
 
 We can now return to the opening question. Earth's history allowed liquid water, accessible chemicals and continuing energy supplies to coexist. That gives us environments in which to investigate the origin of life, even though many details of those environments remain uncertain.
 
-At hydrothermal vents, water-rock reactions can supply hydrogen and other reduced compounds, creating local energy and carbon sources for chemistry. Thermodynamic calculations also predict HCN under specified conditions; the cited review does not establish its detection in natural vent fluids.[^hcn_vents] A favorable calculated reaction is not proof of its rate or product abundance. A supply of chemicals and energy leaves a further question: how could molecules copy information and sustain the reactions needed to make more copies? Chapter 3 takes up that problem.
+At hydrothermal vents, water-rock reactions can supply hydrogen and other reduced compounds, creating local energy and carbon sources for chemistry. Calculations also predict HCN under specified conditions, though its natural supply and reaction rates remain to be established.[^hcn_vents] This brings us to a question that an inventory alone cannot answer: how could molecules copy information and sustain the reactions needed to make more copies? Chapter 3 takes up that problem.
 
 ## Takeaway
 

@@ -10,7 +10,7 @@ In this world, picture mats recycling part of their waste through layered commun
 
 Then one lineage, the ancestors of cyanobacteria, evolved a metabolism whose waste product could poison organisms adapted to anoxic surroundings.[^cyano_evolution]
 
-They learned to split water.
+Their photosynthetic machinery could extract electrons from water and release oxygen. That capability changed both their access to resources and the chemistry around them.
 
 ## The world before the catastrophe
 
@@ -22,7 +22,7 @@ Even the producers had to manage their byproduct. Modern cyanobacteria have enzy
 
 So why did they do it?
 
-Because the prize was independence. Anoxygenic phototrophs depend on electron donors other than water. Hydrogen sulfide, hydrogen gas, and ferrous iron are examples whose availability varies with local chemistry. A phototroph tethered to hydrogen sulfide is a phototroph tethered to its supply.
+The advantage was access to a widespread electron donor. Anoxygenic phototrophs depend on donors such as hydrogen sulfide, hydrogen gas, or ferrous iron, whose availability varies with local chemistry. A phototroph using hydrogen sulfide remains dependent on its supply.
 
 Water, on the other hand, was everywhere.
 
@@ -74,7 +74,7 @@ After several weeks, some cultures developed a faint pink color, typical of purp
 
 $$\text{NO}_2^- + \text{H}_2\text{O} \longrightarrow \text{NO}_3^- + 2\,\text{H}^+ + 2e^-$$
 
-Thirty-seven years from an evolutionary proposal to a demonstration of the proposed metabolism. The experiment supplied a modern example of a donor Olson had implicated. It did not identify an ancient intermediate or establish the order in which photosynthetic systems evolved.
+The experiment demonstrated a modern metabolism using the donor Olson had proposed. Whether ancient phototrophs used that route on the way to water splitting remains an evolutionary question.[^olson1970][^griffin2007]
 
 ### The final step: splitting water
 
@@ -94,11 +94,11 @@ It is also an organism that produces oxygen as waste.
 
 ## How photosynthesis actually works (told briefly)
 
-The molecular story is worth a paragraph, because it reveals something beautiful about the machinery -- and something that will matter enormously when we get to respiration.
+To connect water splitting with the energy accounting of Chapter 1, follow an electron through the photosynthetic machinery.
 
 A quantum of light strikes a chlorophyll molecule. The photon's energy excites it. In a reaction center, that excitation can drive charge separation: an electron is transferred to an acceptor and onward through carriers. Some of these reactions help build an electrochemical proton gradient across a membrane, which drives ATP synthesis. Not every carrier handoff is a separate proton pump.
 
-In oxygenic linear flow, two photosystems work in series: light excites the electrons again in Photosystem I, and the chain supplies reducing power as NADPH. That reducing power can then be used to convert CO$_2$ to organic carbon. The carbon in CO$_2$ starts at an oxidation state of +4; by the time it is incorporated into sugar, it has been reduced. The electron has done real chemical work.
+In oxygenic linear flow, Photosystem II draws replacement electrons from water. Light-driven electron transfer through carriers helps build a proton gradient for ATP synthesis. Photosystem I excites the electrons again, supplying reducing power as NADPH. The cell can use this reducing power to turn CO$_2$ into organic carbon.
 
 But there is a catch. If the electron departs chlorophyll and leaves the chain as reducing power for carbon fixation, it does not come back. The chlorophyll is left with a hole -- an electron vacancy. Something must refill it.
 
@@ -124,7 +124,7 @@ Oxygen began to persist in the atmosphere, enough to reshape the chemistry of th
 
 But the phrase "the Great Oxidation Event" is slightly misleading if it sounds too singular. The rise of oxygen was not a clean flip from off to on. Geochemical proxies preserve hints of earlier oxygen "whiffs," while reconstructions of the transition and its aftermath allow substantial rises and falls rather than a smooth climb.[^goe_whiffs][^goe_oxygen_levels] The surface ocean, the deep ocean, and the atmosphere did not oxygenate in lockstep. The poisoning was staggered, uneven, and regionally messy, as the planet's sinks, sources, and microbial communities changed together.
 
-For oxygen-sensitive anaerobes, that change could be lethal. Enzymes could be damaged, reactive oxygen species could accumulate, and a formerly suitable habitat could become hostile. It is reasonable to infer ecological losses and displacement. But the rock record does not provide a census of these organisms, or establish a global mass extinction caused by oxygen. The poisoning is a picture of the hazard, not a witnessed history of every ancient lineage.[^goe_oxygen_levels]
+For oxygen-sensitive anaerobes, the change could be lethal: damaged enzymes and accumulating reactive oxygen species could turn a suitable habitat hostile. The geological record supports the changing chemical setting; the extent of ecological losses among ancient anaerobes remains uncertain.[^goe_oxygen_levels]
 
 Anoxic habitats remained available in sediments and other places where oxygen supply could not keep up with consumption. Modern anaerobes still occupy such habitats, including waterlogged soils and, much later in life's history, animal guts. Their distribution shows how anoxic refuges work. It does not establish that particular living lineages were expelled from the surface at the GOE and remained confined ever since.
 
@@ -147,17 +147,11 @@ This is evidence for an interconnected toolkit, not a direction arrow in evoluti
 Purple phototrophs provide another illustration of metabolic versatility. They are not simply close relatives of cyanobacteria: purple bacteria include phototrophic proteobacteria, whereas cyanobacteria are a distinct lineage. Some purple bacteria combine anoxygenic photosynthesis with aerobic respiration, as in the group containing the nitrite-oxidizing isolate. Similar metabolic options do not place these organisms on one ancestral ladder.[^griffin2007][^water_splitting]
 
 ::: {.callout-note}
-## Sidebar --- Electron transfer energetics and the thermodynamic factor
+## Sidebar: electron transfer energetics and temperature
 
 When comparing different metabolisms -- iron reduction versus sulfate reduction, say, or aerobic versus anaerobic respiration -- the temptation is to compare energy yields per mole of reaction. This can be misleading, because different reactions transfer different numbers of electrons. One useful normalization is reaction energy **per electron transferred**. It does not replace specifying the reaction, activities, temperature, and energy actually conserved as ATP.[^larowe2011]
 
-This matters practically because microbial rate laws in reactive transport models need to respect thermodynamics. A reaction that is thermodynamically favorable on paper may stall if local concentrations push it close to equilibrium. The following logistic expression illustrates a smooth weighting of reaction energy. It is not the Jin-Bethke net-respiration factor:
-
-$$F_T = \frac{1}{\exp\!\left(\frac{\Delta G_r}{RT}\right) + 1}$$
-
-where $\Delta G_r$ is the in-situ Gibbs energy per mole of the reaction as written, $T$ is absolute temperature, and $R$ uses matching energy units. This makes the exponent dimensionless. The published rate laws cited here use a different thermodynamic factor.[^jin2005][^dale2006][^regnier2011]
-
-Read this particular $F_T$ as a smooth weighting. It approaches one for a large negative $\Delta G_r$, equals $1/2$ at zero, and remains positive for unfavorable reactions. It therefore cannot by itself enforce zero net respiration at equilibrium or a minimum energy for ATP synthesis. Jin and Bethke instead account for both released and conserved energy; their factor vanishes when the coupled driving force vanishes. Any restriction against reverse operation must also be stated. The published law is not obtained simply by shifting this logistic curve, and neither curve is a universal observation of microbial communities.
+Near equilibrium, a rate law must account for both the energy released by the reaction and the energy conserved by the cell. Chapter 8 introduces a published coupled-driving-force formulation and its assumptions.[^jin2005][^dale2006][^regnier2011]
 
 Temperature also matters. The Arrhenius relation gives the temperature dependence of the rate constant:
 
@@ -176,7 +170,7 @@ An anoxic cell can avoid this particular conflict while its surroundings remain 
 
 Some filamentous cyanobacteria use specialized cells called heterocysts. Their envelopes limit oxygen entry, respiration consumes oxygen, and oxygen-producing Photosystem II is suppressed: a spatial solution that protects nitrogenase while neighboring cells carry out oxygenic photosynthesis.[^heterocysts]
 
-Other cyanobacteria separate the conflicting activities in time. A field study published in 2006 gave a detailed example, not the first discovery of temporal separation.
+Other cyanobacteria separate the conflicting activities in time. A 2006 field study gives a detailed example.
 
 In Yellowstone hot-spring mats, researchers studied thermophilic *Synechococcus* ecotypes at sites where the usual heterocyst-forming cyanobacteria were absent. Could these unicellular inhabitants contribute fixed nitrogen?
 
@@ -190,19 +184,9 @@ The gene-expression patterns were varied, not one binary program: different ferm
 
 The measurements support temporal separation in this setting. They do not show that every individual cell follows the same schedule. Time is a compartment too.
 
-## Houses for cyanobacteria
+## Photosynthesis in a new host
 
-There is a line, sometimes repeated among biologists with a taste for provocation, that goes like this: plants are just comfortable houses built for the convenience of cyanobacteria.[^markov_houses]
-
-It sounds like a joke. The image has a biological basis, though a chloroplast is an integrated organelle, not an autonomous tenant.
-
-Every plant cell that photosynthesizes does so using organelles called chloroplasts. Chloroplasts have their own DNA. They have their own ribosomes. They divide within the host cell, using machinery that includes proteins encoded in the host nucleus. Their genome is unmistakably cyanobacterial -- not "similar to" cyanobacteria in the way that a cousin resembles a cousin, but derived from cyanobacteria in the way that a captured soldier becomes a citizen of the conquering nation.
-
-An ancient eukaryotic lineage acquired a cyanobacterium through endosymbiosis.[^endosymbiosis] Over time, the partners became integrated. Many genes were lost or transferred to the host nucleus, and proteins made outside the organelle came to service it. The descendant plastid retained photosynthetic machinery and other metabolic functions. The water-splitting, oxygen-producing apparatus had moved into a new cellular home.
-
-Every leaf on every tree, every blade of grass, every strand of kelp in the ocean uses photosynthetic machinery with cyanobacterial ancestry. In kelp, that machinery arrived through an algal endosymbiosis. The host supplies much of the structure, protection, and molecular support.
-
-The cyanobacteria poisoned the world. Then they moved indoors.
+Cyanobacterial photosynthesis later became part of eukaryotic cells through endosymbiosis. The image of plants as houses for cyanobacteria points toward that history, although chloroplasts are integrated organelles.[^markov_houses][^endosymbiosis] Chapter 7 follows how the partners became one cellular system. Here, we will stay with the biochemical problem oxygen creates for nitrogen fixation.
 
 ## The nitrogen bargain
 
@@ -263,7 +247,7 @@ Modern Earth contains both oxygenated and anoxic environments, separated by grad
 
 [^oxygen_sinks]: Before atmospheric oxygen accumulation, O$_2$ produced by cyanobacteria was consumed by reduced minerals (particularly dissolved Fe$^{2+}$), volcanic gases (H$_2$, H$_2$S), and organic matter. Holland (2006) quantifies these oxygen sinks. [@Holland2006]
 
-[^bif]: Banded iron formations record iron cycling, not a unique oxygen-producing metabolism or the exhaustion of all oxygen sinks. Cornelis Klein, "Some Precambrian banded iron-formations (BIFs) from around the world: Their age, geologic setting, mineralogy, metamorphism, geochemistry, and origin," *American Mineralogist* 90 (2005): 1473-1499, reviews their distribution. Lyons et al. (2014), p. 308, explicitly discuss iron oxidation without free oxygen. The alternative iron pathways qualified in Chapters 1-3 remain applicable here. [@Klein2005; @Lyons2014]
+[^bif]: Banded iron formations record iron cycling rather than a unique oxygen-producing metabolism. Cornelis Klein, "Some Precambrian banded iron-formations (BIFs) from around the world: Their age, geologic setting, mineralogy, metamorphism, geochemistry, and origin," *American Mineralogist* 90 (2005): 1473-1499, reviews their distribution. Lyons et al. (2014), p. 308, discuss iron oxidation without free oxygen. [@Klein2005; @Lyons2014]
 
 [^goe_timing]: The Great Oxidation Event occurred ~2.4 Ga, marked by the disappearance of mass-independent sulfur isotope fractionation and the appearance of red beds (oxidized continental sediments). Holland (2006) and Lyons et al. (2014) provide detailed reviews. [@Holland2006; @Lyons2014]
 
@@ -273,9 +257,9 @@ Modern Earth contains both oxygenated and anoxic environments, separated by grad
 
 [^larowe2011]: Douglas E. LaRowe and Philippe Van Cappellen, "Degradation of natural organic matter: A thermodynamic analysis," *Geochimica et Cosmochimica Acta* 75 (2011): 2030-2042, pp. 2035-2036 and Figs. 1-2, normalize energies per electron for comparison while showing that activities and mineral phases can change their ordering. Eq. 1 uses CH$_2$O as a simplified biomass representation. [doi:10.1016/j.gca.2011.01.020](https://doi.org/10.1016/j.gca.2011.01.020). [@LaRowe2011]
 
-[^jin2005]: Qusheng Jin and Craig M. Bethke, "Predicting the rate of microbial respiration in geochemical environments," *Geochimica et Cosmochimica Acta* 69 (2005): 1133-1143, Eq. 9 (p. 1134) and section 4 (p. 1136). Their factor is one minus an exponential of the coupled reaction energy, with a stoichiometric divisor. It is not the logistic expression displayed here. They discuss possible cellular prevention of reverse electron transfer. [doi:10.1016/j.gca.2004.08.010](https://doi.org/10.1016/j.gca.2004.08.010). [@Jin2005]
+[^jin2005]: Qusheng Jin and Craig M. Bethke, "Predicting the rate of microbial respiration in geochemical environments," *Geochimica et Cosmochimica Acta* 69 (2005): 1133-1143, Eq. 9 (p. 1134) and section 4 (p. 1136). Their factor is one minus an exponential of the coupled reaction energy, with a stoichiometric divisor. They discuss possible cellular prevention of reverse electron transfer. [doi:10.1016/j.gca.2004.08.010](https://doi.org/10.1016/j.gca.2004.08.010). [@Jin2005]
 
-[^dale2006]: Andrew W. Dale, Pierre Regnier, and Philippe Van Cappellen, "Bioenergetic controls on anaerobic oxidation of methane (AOM) in coastal marine sediments: A theoretical analysis," *American Journal of Science* 306 (2006): 246-294, Appendix A, Eq. A-19 (p. 288), use a one-minus-exponential driving-force factor for their modelled pathways. This is a theoretical AOM study, not a general field validation of the logistic expression. [doi:10.2475/ajs.306.4.246](https://doi.org/10.2475/ajs.306.4.246). [@Dale2006]
+[^dale2006]: Andrew W. Dale, Pierre Regnier, and Philippe Van Cappellen, "Bioenergetic controls on anaerobic oxidation of methane (AOM) in coastal marine sediments: A theoretical analysis," *American Journal of Science* 306 (2006): 246-294, Appendix A, Eq. A-19 (p. 288), use a one-minus-exponential driving-force factor for their modelled pathways. The study models AOM pathways under specified conditions. [doi:10.2475/ajs.306.4.246](https://doi.org/10.2475/ajs.306.4.246). [@Dale2006]
 
 [^regnier2011]: Pierre Regnier et al., "Quantitative analysis of anaerobic oxidation of methane (AOM) in marine sediments: A modeling perspective," *Earth-Science Reviews* 106 (2011): 105-130. This is an AOM modelling review, not evidence for a universal community-rate law. [doi:10.1016/j.earscirev.2011.01.002](https://doi.org/10.1016/j.earscirev.2011.01.002). [@Regnier2011]
 

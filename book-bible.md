@@ -5,11 +5,11 @@ A physics‑minded, story‑driven guide to how microbes survive on tight energy
 
 ## Central thesis (three claims, nested)
 
-1. **Satisficing, not optimizing.** Microbial communities appear to satisfice -- they find strategies that cover maintenance costs under local thermodynamic and kinetic constraints rather than maximizing growth rate or energy yield. This framework explains fuzzy redox boundaries, the coexistence of "losing" metabolisms, and the gap between laboratory rate constants and field rates. How far the satisficing lens extends remains an open question.
+1. **Local viability and satisficing.** Ask how microbial strategies cover maintenance and replacement under local thermodynamic, kinetic and ecological constraints. Satisficing is a proposed interpretive lens. Coexistence and slow field rates motivate it but do not by themselves distinguish it from optimization. Its predictive value requires explicit competing models and independently constrained costs and resources.
 
 2. **One conservation framework, all scales.** The conservation law — accumulation equals net flux plus net reaction — applies from a sediment pore to the global ocean. The transport operators, boundary conditions, and closure terms change with each setting, but the underlying accounting does not. The book demonstrates this portability explicitly, from millimeters to the planet.
 
-3. **Water treatment underperforms when it ignores geomicrobiology.** The same broad classes of metabolism and constraints that shaped the Archean atmosphere operate in every aquifer plume today. Better data will always matter. But data alone cannot fix the problem if the biology is modeled as a black box with fixed parameters rather than as an adaptive community under thermodynamic constraints.
+3. **Biology in water-quality prediction.** The metabolic processes that shape natural waters also matter for contaminant fate and treatment. Models need to represent the controlling biological responses at the relevant timescale. Effective rate constants remain useful within tested conditions; changing redox conditions, substrates or community adaptation can require a richer model. Comparative predictive success must be demonstrated rather than assumed from mechanistic detail.
 
 ## Target reader
 - Graduate students and working scientists in environmental science, geochemistry, and microbial ecology who want the conceptual bridge between microbiology and reactive transport modeling
@@ -72,7 +72,7 @@ Prefer consistency over completeness.
 5. The Poisoning -- oxygen, GOE, redox consequences
 6. Cannibals and Voters -- microbial social behavior, quorum sensing, bistability
 7. The Merger -- endosymbiosis, eukaryotic cell
-8. The Equation -- conservation law, transport, rate expressions, conservation framework across scales (Claim 2)
+8. Modeling the Invisible -- conservation law, transport, rate expressions, conservation framework across scales (Claim 2)
 9. Cities Without Sunlight -- deep biosphere, satisficing, maintenance energy (Claim 1)
 10. The Water Planet -- water quality, RTM applications, geomicrobiology vs engineering (Claim 3)
 - Epilogue: What Is Life? -- three definitions, three claims, open questions
@@ -81,19 +81,21 @@ Prefer consistency over completeness.
 - **Is**: a coherent bridge between geomicrobiology and modeling; a “why the model works” book
 - **Is not**: a full RTM textbook, a code manual, or a comprehensive review of all metabolisms
 
-## Repeating chapter pattern (consistent rhythm)
+## Chapter development (adapt to the question)
 - Hook scene (1–2 pages)
 - Concept: the biological/chemical rule
-- Model: the minimal equation(s) that capture it (Sidebar)
-- Data: what you’d measure to test it
+- Model, when useful: the minimal relation that clarifies the question; place derivations in sidebars or appendices
+- Evidence: what was observed, what is inferred, and what would distinguish competing explanations
 - Take‑home summary (5–8 bullets)
 
 ## Visual program (simple but frequent)
 - Line‑drawn figures (zones, ladders, profiles, flux cartoons)
-- “Microbe Cards” (half‑page): methanogens, sulfate reducers, iron reducers, cable bacteria (optional), Shewanella, deep subsurface specialists
-- “Profile Detective” callouts: interpret one curve bend at a time
+- Organism reference: Appendix E gathers the recurring organisms and their metabolic roles; extend it when a new organism carries a substantial argument
+- Profile interpretation: use the worked examples in Chapter 8 and the separate Modeling volume; add a callout only when it answers a specific reader question
 
 ## References (practical)
 - Keep citations light in the main text; put density in notes/appendices
-- Add “Further reading” lists when a chapter touches a large literature
+- Use source notes for primary evidence and locators. Add a short selected-reading route only when it offers a distinct next step for the reader.
+- Keep source-access logs, superseded wording and failed verification attempts in private editorial or model evidence records. In the book, state the evidence type and the limitations needed to interpret the claim.
+- Introduce reconstructions as reconstructions. Keep a local qualification when it changes the conclusion; remove repeated rebuttals of claims no longer made in the text.
 

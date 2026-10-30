@@ -4,7 +4,7 @@ title: "Spark"
 
 Imagine you find a book.
 
-Not an ordinary book -- this one is written in a language you have never seen, and the ink is a protein that degrades unless it is continuously recopied by a machine. The machine, in turn, is built from instructions contained in the book. Without the machine, the book decays. Without the book, the machine cannot be assembled. Each depends entirely on the other, and neither can exist first.
+Not an ordinary book: this one is written in a language you have never seen, on fragile molecular pages that must be copied by a machine. The instructions for building the machine are in the book. Without a working copier, the record is lost. Without the record, the copier cannot be rebuilt.
 
 That paradox sits at the center of origin-of-life research, and for decades it stalled progress.
 
@@ -12,17 +12,17 @@ That paradox sits at the center of origin-of-life research, and for decades it s
 
 In modern cells, the division of labor is clean. DNA stores the instructions. Proteins do the work -- catalyzing reactions, building structures, transporting molecules across membranes. But proteins cannot copy themselves; they need DNA's blueprint. And DNA cannot do anything useful without the proteins that read it, unwind it, and replicate it. Which came first? The question is not rhetorical. It is a genuine engineering bottleneck: you cannot bootstrap a system that requires two specialized components if each component depends on the other for its existence.
 
-The answer came from the molecule that everyone had dismissed as a mere intermediary.
+A possible way around this dependence came from a molecule known chiefly as an intermediary.
 
 ## The middleman steps forward
 
-RNA sits between DNA and proteins in every modern cell. It carries the genetic message from the archive (DNA) to the factory floor (ribosomes, which are themselves largely made of RNA). For most of the twentieth century, RNA appeared to be a passive carrier -- important, but not the molecule doing the work.
+RNA sits between DNA and proteins in modern cells. It carries genetic messages from DNA to ribosomes, the protein-making machinery built from RNA and proteins. For much of the twentieth century, researchers treated RNA chiefly as a carrier of information.
 
 Then, in the early 1980s, Thomas Cech and Sidney Altman independently discovered that certain RNA molecules could catalyze chemical reactions.[^ch03-ribozyme-discovery] They were not just carrying information; they were *doing chemistry*. These catalytic RNAs were named ribozymes, and their discovery earned Cech and Altman the Nobel Prize in 1989.[^nobel1989]
 
 If RNA can both store information *and* catalyze reactions, then perhaps you do not need two separate molecular systems to get replication started. A single type of molecule might fill both roles: an autocatalytic loop of replicating RNA, with ribozymes helping synthesize new copies.[^markov2010a][^cech1986] That is the proposed escape from the paradox. Catalytic RNA by itself does not establish a self-copying system.
 
-The RNA world hypothesis makes that move explicit: an early stage of life may have relied on RNA for heredity and catalysis, before the modern division of labor between DNA and proteins. It does not establish that the first living systems consisted of RNA alone.[^orgel2004] The chicken-and-egg paradox softens, because RNA could fill parts of both roles.
+The RNA world hypothesis proposes an early stage in which RNA supplied both heredity and catalysis, before the modern division of labor between DNA and proteins.[^orgel2004] The discovery makes that combination chemically plausible. The remaining challenge is to assemble a system that keeps copying itself with the available materials and energy.
 
 The standard RNA alphabet is small: four bases -- adenine (A), guanine (G), cytosine (C), and uracil (U). A base attached to ribose forms a nucleoside; a phosphate-bearing nucleoside is a nucleotide.[^markov2010b][^rna_bases] With just these letters, RNA can fold into elaborate three-dimensional shapes, creating pockets and surfaces that perform particular catalytic tasks. That capacity is established. Whether it was enough to start a self-sustaining evolutionary process is the open question.
 
@@ -36,7 +36,7 @@ Alkaline hydrothermal vent hypotheses instead emphasize geological supplies of H
 
 A third option -- wet-dry cycling on land, in volcanic hot springs or tidal flats -- repeatedly concentrates reactants by dehydration. Experiments with supplied mononucleotides and lipids have produced RNA-like polymers and encapsulated them on rehydration; the larger hot-spring origin scenario remains a hypothesis.[^ch03-wet-dry-experiment][^damer2020]
 
-None of these steps demonstrates an entire route from simple feedstocks to self-copying RNA. The amount of exposed land on early Earth and the compatibility of successive chemical steps remain constraints. Different steps might have happened in different settings. The planet is large, and chemistry does not respect the boundaries of human narratives.
+These experiments establish useful individual steps. Connecting them into a self-copying system requires compatible temperatures, reactants and successive reactions; the amount of exposed land on early Earth also constrains some settings. Different stages may have occurred in different environments.
 
 ## The phosphorus problem
 
@@ -52,7 +52,7 @@ Researchers no longer have to lean on the meteorite pathway alone. Laboratory he
 
 The chemistry of life did not arise in isolation from geology. Meteorites could have provided one route. Heated minerals could have provided another. Evaporative lakes may have provided yet another. Minerals provided surfaces. Water provided the solvent. Life did not invent its raw materials; it inherited them from a planet with more than one possible way of making them available.
 
-## An ocean laced with metal
+## Metals at the active site
 
 The ancient ocean was a different solvent than the one we know. Anoxic waters could sustain more dissolved iron than oxygenated waters, but availability depended on the element and the local chemistry. That does not make tungsten, molybdenum, and vanadium universally more abundant than today.[^markov2010d][^metal_ocean]
 
@@ -60,11 +60,11 @@ Many of the enzymes that drive modern biochemistry are not pure protein. They ar
 
 Why would proteins evolve to depend on metals? One proposed answer is that they inherited part of their chemistry from mineral catalysts. Iron-sulfur surface metabolism is one such origin hypothesis.[^ironsulfur_world] It offers a possible connection between geology and biochemistry, not an observed chronology of the first catalysts.
 
-A gradual transition from mineral-assisted chemistry to protein catalysis has been proposed.[^mineral_catalyst] Short peptides that helped position a metal ion might have gained a catalytic advantage. Over time, proteins could have become better partners for the metals. The proteins growing around a hearth is a useful picture, provided we remember that this early history is reconstructed, not witnessed.[^markov2010e]
+A gradual transition from mineral-assisted chemistry to protein catalysis has been proposed.[^mineral_catalyst] Short peptides that helped position a metal ion might have gained a catalytic advantage. Over time, proteins could have become better partners for the metals.[^markov2010e]
 
 ## LUCA was early, and not alone
 
-The faster this chapter moves, the stranger the timeline becomes. If life was already leaving isotopic traces by 3.8 billion years ago, the interval between a habitable planet and a functioning biosphere was short. A 2024 phylogenomic reconstruction pushes that compression even further: the last universal common ancestor, LUCA, may have lived roughly 4.2 billion years ago -- only a few hundred million years after Earth formed.[^moody2024]
+The geological and evolutionary clocks now meet. If the debated biological interpretation of the 3.8-billion-year-old carbon signals is accepted, life was already present by that time. A separate 2024 phylogenomic reconstruction places the last universal common ancestor, LUCA, roughly 4.2 billion years ago, only a few hundred million years after Earth formed.[^moody2024]
 
 In that reconstruction, LUCA looks more like a prokaryote-grade anaerobe than a barely assembled protocell: metabolically capable and genetically substantial. Moody and colleagues estimate a genome of about 2.75 megabases encoding around 2,600 proteins, with metabolic potential consistent with hydrogen- and CO$_2$-fed acetogenesis.[^moody2024] These are model-dependent inferences from living descendants. LUCA denotes their last universal ancestral lineage or population, not the first life. Inferred Cas-related proteins suggest an early defense system, not a fully reconstructed modern adaptive immune system.
 
@@ -72,7 +72,7 @@ Viruses belong in the story as a hypothesis about that early ecology. If LUCA ca
 
 Some researchers push the entanglement further. Forterre has argued that viruses may have helped install DNA itself into cellular evolution, making the first DNA genomes part of an arms race rather than a clean cellular invention.[^forterre2006] The proposal remains contested. If correct, infection and heredity were tangled together before LUCA.
 
-The lonely-puddle version of the origin story misses that possibility. By the time we can plausibly speak of LUCA, the reconstruction suggests life had already crossed from chemistry into ecology.
+By the time we can plausibly speak of LUCA, these reconstructions suggest an ecological setting: cells, their resources, and possibly their parasites. We now need to ask how such a system could keep obtaining materials and disposing of its products.
 
 ## The recycling problem
 

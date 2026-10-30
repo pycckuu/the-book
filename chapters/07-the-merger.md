@@ -8,7 +8,7 @@ Not one test tube on the bench while your equipment cupboard holds dozens more. 
 
 That is a deliberately simplified picture of a prokaryotic cell. It foregrounds the cytoplasm and, in gram-negative bacteria, the periplasmic space. As the internal-membrane examples below show, real prokaryotic compartmentalization cannot be reduced to a universal count of one or two test tubes.[^markov_compartment]
 
-And yet prokaryotes thrived. They invented photosynthesis, nitrogen fixation, sulfur cycling, methanogenesis. They reshaped the atmosphere and the ocean floor. They did extraordinary chemistry with minimal architecture. (Some prokaryotes did evolve limited internal membranes -- cyanobacteria house their photosynthetic machinery in thylakoid folds, and a few other lineages have specialized compartments -- but these are exceptions. Most prokaryotic chemistry still runs in a single well-mixed volume.)
+Prokaryotes nevertheless developed photosynthesis, nitrogen fixation, sulfur cycling and methanogenesis, reshaping the atmosphere and ocean floor. Their cells also use membranes to organize chemistry: cyanobacteria, for example, house photosynthetic machinery in thylakoids. We should compare the reaction environments and exchanges that different cells maintain, rather than count test tubes.
 
 The eukaryotic cell offers many separately maintained reaction environments. It can isolate DNA, run acidic digestion and maintain electrochemical gradients behind internal membranes. The point of the test-tube picture is to follow those different working conditions and the exchanges between them.
 
@@ -30,7 +30,39 @@ Each of these compartments is a separate reaction chamber. Each maintains its ow
 
 Compartmentalization buys you **the ability to run incompatible processes simultaneously**, each sealed behind its own membrane. A laboratory with as many test tubes as you need.
 
-The open-plan-office image is useful only as a starting picture. Prokaryotic internal membranes and specialized compartments already separate some chemistry. Eukaryotes expanded the range of internal reaction environments; mitochondria and chloroplasts added partnerships of their own.
+The test-tube image helps us ask which reactions need different surroundings and how their products move between compartments. Mitochondria and chloroplasts add a further question: how did cells with their own machinery become part of another cell?
+
+## The merger itself
+
+We can now reconstruct the event -- or rather, the long process -- that created the eukaryotic cell.
+
+An archaeal cell entered a lasting association with an alpha-proteobacterium. Molecular clocks give broad and overlapping age estimates: roughly 2.1 to 1.2 billion years for the mitochondrial partnership and about 1.9 to 1.7 billion years for the last common ancestor of living eukaryotes.[^parfrey_timing][^betts_timing] How the partners first came together remains uncertain. Proposed routes include engulfment, bacterial invasion, and gradual enclosure by archaeal protrusions.[^imachi_mka]
+
+The association persisted. Over many generations, the partners became dependent on one another, and the bacterial descendant became the mitochondrion.
+
+Aerobic respiration can conserve more ATP than fermentation of the same substrate under specified conditions (Chapter 5). Modern mitochondrial function illustrates this capability, but the first metabolic exchange between the partners remains reconstructed. The energetic opportunity of the partnership is different from a measured ancestral efficiency.
+
+The partnership was metabolically complementary: the host could do things the symbiont could not, and vice versa.
+
+Over time, the two genomes began to merge. Genes moved from the symbiont to the host nucleus -- a process called endosymbiotic gene transfer that continues to this day in some lineages.[^timmis_transfer] The symbiont shed genes for functions that the host could supply. The host evolved new systems for importing proteins into the symbiont, targeting gene products across the double membrane that still marks the mitochondrion as a descendant of a gram-negative bacterium.
+
+The two partners became a single body -- though not a single genome. The mitochondrion retained a small chromosome of its own, encoding core components of the electron transport chain, while the host nucleus took over the bulk of the regulatory and biosynthetic instructions.[^lane_energetics]
+
+The result was a new kind of cell -- one with a dedicated energy-producing organelle distributed throughout its cytoplasm, providing ATP wherever it was needed.
+
+This was the birth of the eukaryotic cell.
+
+Why did this matter for cell size? For cells of similar shape, external surface area grows as the square of radius while volume grows as the cube. If ATP-producing capacity were restricted to that surface and demand rose in proportion to active volume, increasing size would create a bottleneck.[^lane_energetics]
+
+In the influential model proposed by Lane and Martin, mitochondria relax an energetic constraint through internal bioenergetic membranes and the distribution of genes relative to them. This is more than a geometric argument: it assumes particular relationships among power, gene expression, genome copies, and cell size.
+
+The bottleneck is not a universal property of prokaryotes, some of which have extensive internal membranes or large inactive volumes. Later analyses disagree about the advantage and show how strongly it depends on shape, division time, membrane allocation, and biosynthetic costs. The merger may have expanded the options for larger and more demanding cells, but the model does not by itself establish that energy made cellular complexity impossible before it.[^lane_power]
+
+And then it happened again.
+
+A eukaryotic cell -- already carrying its mitochondrial passengers -- engulfed a cyanobacterium. The cyanobacterium was not digested. It persisted, still photosynthesizing, still fixing carbon from CO$_2$ using sunlight. Over time, it too lost genes, transferred others to the host nucleus, and became an organelle: the chloroplast.[^keeling_plastids]
+
+This merger gave rise to the plastids of green algae and land plants, among other lineages. Kelp also uses photosynthetic machinery of cyanobacterial ancestry, acquired through a later algal endosymbiosis.[^archibald_plastid]
 
 ## A bridge between worlds
 
@@ -61,13 +93,13 @@ Biologists call this horizontal gene transfer: DNA moving by transformation, con
 
 Even minerals get involved. DNA adsorbed to clay and oxide surfaces can survive longer than naked DNA in water, turning sediments into reservoirs of genetic possibilities.[^sand2018] That ties evolution back to geomicrobiology. Rock does not only host microbial evolution. Minerals can help move metabolic innovation through the biosphere.
 
-By the time endosymbiosis appears, biology is already comfortable with hybridization. Whole-cell merger is unusual. Gene traffic is not.
+Gene exchange shares biochemical capabilities without sharing a body. Endosymbiosis added a different level of association: whole cells and their internal environments became linked.
 
-Somewhere around 2 billion years ago -- molecular clocks place the mitochondrial partnership between about 2.1 and 1.2 billion years ago, and the last common ancestor of living eukaryotes at roughly 1.9 to 1.7 billion years ago -- an archaeal cell, perhaps something like *Lokiarchaeota* or a close relative, took a step with no precedent.[^parfrey_timing][^betts_timing] It may have been able to reshape its membrane using actin-like scaffolding. How the association with the bacterium began -- whether by engulfment, by the archaeon extending membrane protrusions around it, or by the bacterium invading -- remains one of the open questions in evolutionary biology.[^imachi_mka] However it started, the bacterium was not digested.
 
-That bacterium was an alpha-proteobacterium -- an aerobic organism that could use oxygen to burn organic molecules with extraordinary efficiency. Inside the archaeal host, the bacterium kept breathing. It kept producing ATP. And over time, what started as an uncertain association became something else entirely: a permanent resident, a co-dependent partner, and eventually an organelle.
 
-That organelle is the mitochondrion. Every mitochondrion in every eukaryotic cell on Earth descends from that single, ancient partnership.
+
+
+
 
 ## The spectrum of integration
 
@@ -116,7 +148,7 @@ But genome shrinkage alone does not make an organelle. That transition requires 
 
 ### The borrowed factory: *Elysia chlorotica*
 
-Between the deep-sea vent and the psyllid gut, there are stranger partnerships. Consider the sea slug *Elysia chlorotica*, a small, leaf-shaped mollusk that grazes on algae in the tidal marshes and shallow coastal waters of eastern North America.
+Between the deep-sea vent and the psyllid's bacteriocytes, there are stranger partnerships. Consider the sea slug *Elysia chlorotica*, a small, leaf-shaped mollusk that grazes on algae in the tidal marshes and shallow coastal waters of eastern North America.
 
 When *E. chlorotica* feeds, it does something unusual. It punctures algal cells and sucks out the contents, digesting most of the cellular material. But it does not digest the chloroplasts -- the photosynthetic organelles. Instead, it captures them intact and incorporates them into the cells lining its own digestive tract. There, surrounded by animal tissue, the stolen chloroplasts continue to function. They absorb light, split water, fix carbon. The sea slug photosynthesizes.[^rumpho_kleptoplasty]
 
@@ -124,7 +156,7 @@ The chloroplasts are not inherited. They do not reproduce inside the slug. Each 
 
 *E. chlorotica* poses a different puzzle: how does the slug keep borrowed photosynthetic machinery working? The useful comparison is what the captured plastids still do and what their new host must supply. The slug is not a surviving early stage of chloroplast evolution.
 
-### The perfect commune: the three-way lichen
+### Sharing the work: the three-way lichen
 
 Lichens shift the comparison again. Their partners keep distinct cellular identities while sharing different jobs. Here, the story turns on ecological complementarity rather than on how far a bacterial genome has shrunk.
 
@@ -140,41 +172,9 @@ The story of *Ruthia* is not an isolated curiosity. At hydrothermal vents and co
 
 A thread runs through these examples, though not a single trajectory. In every case, a partnership formed. In some, integration deepened and independence eroded until the boundary between host and symbiont blurred. In others -- lichens, kleptoplasts -- the partners remain distinct, the arrangement stable or temporary. **The pattern is not a conveyor belt from symbiont to organelle. It is a landscape of possibilities, most of which stop well short of that destination.**
 
-*Ruthia* still retains much of its core metabolic toolkit. *Carsonella* has lost most of hers. Mitochondria have transferred the vast majority of their genes to the host nucleus and retained only a handful -- just enough to build the core machinery of the electron transport chain, the very apparatus that made the partnership worthwhile in the first place. Chloroplasts tell the same story: once free-living cyanobacteria, now organelles with shrunken genomes, dependent on the host for most of their proteins.
+*Ruthia* still retains much of its core metabolic toolkit. *Carsonella* has lost most of its own. Mitochondria have transferred the vast majority of their genes to the host nucleus and retained only a handful -- just enough to build the core machinery of the electron transport chain, the very apparatus that made the partnership worthwhile in the first place. Chloroplasts tell the same story: once free-living cyanobacteria, now organelles with shrunken genomes, dependent on the host for most of their proteins.
 
 The early stages of the trajectory are common: a free-living organism enters a host -- by predation, by accident, by mutual convenience. If the partnership is beneficial, both partners persist. Over time, the symbiont loses genes it no longer needs, because the host supplies the missing functions. Each lost gene tightens the bond. Many symbioses stall at this stage -- deeply dependent, genomically eroded, but not organelles. The final steps -- evolving a protein-import system, integrating into host cell division, transferring regulatory control to the host nucleus -- have occurred only a handful of times. But when they did, the line between "two organisms" and "one organism with internal compartments" vanished. That is the mechanism that built the eukaryotic cell.
-
-## The merger itself
-
-We can now reconstruct the event -- or rather, the long process -- that created the eukaryotic cell.
-
-An archaeal cell, perhaps a member of the Asgard lineage, carried genes for cytoskeletal proteins and membrane-remodeling machinery. At some point -- roughly 2 billion years ago, within wide molecular-clock uncertainties -- this archaeal cell entered into an intimate association with an alpha-proteobacterium. Whether the archaeon engulfed the bacterium, the bacterium invaded, or the two grew progressively intertwined remains unclear.
-
-The bacterium survived. Perhaps it was resistant to digestion. Perhaps the archaeal cell's degradation machinery was incomplete. Whatever the reason, the bacterium persisted inside the host, and the two organisms began a relationship that would transform both of them beyond recognition.
-
-The alpha-proteobacterium brought a gift: aerobic respiration. It could use oxygen -- present in the atmosphere and surface waters since the Great Oxidation Event, though probably at low levels for a long time afterward -- to completely oxidize organic molecules, extracting far more energy per glucose molecule than fermentation could provide. The archaeal host gained access to an energy supply of unprecedented efficiency.
-
-In return, the host provided the bacterium with a stable environment and a steady supply of organic substrates. The partnership was metabolically complementary: the host could do things the symbiont could not, and vice versa.
-
-Over time, the two genomes began to merge. Genes moved from the symbiont to the host nucleus -- a process called endosymbiotic gene transfer that continues to this day in some lineages.[^timmis_transfer] The symbiont shed genes for functions that the host could supply. The host evolved new systems for importing proteins into the symbiont, targeting gene products across the double membrane that still marks the mitochondrion as a descendant of a gram-negative bacterium.
-
-The two partners became a single body -- though not a single genome. The mitochondrion retained a small chromosome of its own, encoding core components of the electron transport chain, while the host nucleus took over the bulk of the regulatory and biosynthetic instructions.[^lane_energetics]
-
-The result was a new kind of cell -- one with a dedicated energy-producing organelle distributed throughout its cytoplasm, providing ATP wherever it was needed.
-
-This was the birth of the eukaryotic cell.
-
-Why did this matter for cell size? For cells of similar shape, external surface area grows as the square of radius while volume grows as the cube. If ATP-producing capacity were restricted to that surface and demand rose in proportion to active volume, increasing size would create a bottleneck.[^lane_energetics]
-
-In the influential model proposed by Lane and Martin, mitochondria relax an energetic constraint through internal bioenergetic membranes and the distribution of genes relative to them. This is more than a geometric argument: it assumes particular relationships among power, gene expression, genome copies, and cell size.
-
-The bottleneck is not a universal property of prokaryotes, some of which have extensive internal membranes or large inactive volumes. Later analyses disagree about the advantage and show how strongly it depends on shape, division time, membrane allocation, and biosynthetic costs. The merger may have expanded the options for larger and more demanding cells, but the model does not by itself establish that energy made cellular complexity impossible before it.[^lane_power]
-
-And then it happened again.
-
-A eukaryotic cell -- already carrying its mitochondrial passengers -- engulfed a cyanobacterium. The cyanobacterium was not digested. It persisted, still photosynthesizing, still fixing carbon from CO$_2$ using sunlight. Over time, it too lost genes, transferred others to the host nucleus, and became an organelle: the chloroplast.[^keeling_plastids]
-
-This second merger gave rise to the photosynthetic eukaryotes: the green algae that would eventually crawl onto land and become plants. Every leaf on every tree, every blade of grass, every strand of kelp carries the descendants of that engulfed cyanobacterium -- a free-living organism that became a permanent component of another cell, more than a billion years ago.[^archibald_plastid]
 
 ## A merger we can still watch
 
@@ -190,7 +190,7 @@ What did the merger make possible?
 
 In the short term: larger cells with more energy, more internal organization, and the capacity to run complex biochemistry in separated compartments.
 
-In the medium term: multicellularity. A cell with a nucleus and mitochondria offers new scope for specialization. You can devote some cells to digestion, others to locomotion, others to reproduction. You can build tissues, organs, bodies. The step from single-celled eukaryote to multicellular organism is not trivial, but it has been taken independently many times. Complex, tissue-level multicellularity arose only in eukaryotes; prokaryotes have evolved simpler forms (filamentous cyanobacteria, myxobacterial fruiting bodies).[^grosberg_multicell] The compartmentalized architecture of the eukaryotic cell is the necessary precondition for the kind of multicellularity that builds bodies.
+In the medium term: multicellularity. A cell with a nucleus and mitochondria offers new scope for specialization. You can devote some cells to digestion, others to locomotion, others to reproduction. You can build tissues, organs, bodies. The step from single-celled eukaryote to multicellular organism is not trivial, but it has been taken independently many times. Complex, tissue-level multicellularity arose only in eukaryotes; prokaryotes have evolved simpler forms (filamentous cyanobacteria, myxobacterial fruiting bodies).[^grosberg_multicell] Compartmentalized eukaryotic cells provided the setting in which these forms of tissue-level multicellularity evolved.
 
 In the long term: everything you see when you look around. Every animal, every plant, every fungus, every protist. The forests. The coral reefs. The grasslands. The humans. All built from eukaryotic cells. All carrying mitochondria. All descended from that ancient merger between an archaeon and a bacterium.
 
@@ -204,7 +204,7 @@ Competition can sharpen. It can optimize. It can hone a blade to a finer edge. B
 
 The alpha-proteobacterium did not "win" by becoming a mitochondrion. The archaeal host did not "conquer" its symbiont. Both gave up their independence. Both were transformed. And the result was not a compromise but an escalation -- a cell more powerful, more versatile, and more architecturally complex than anything that had come before.
 
-The same logic runs through every example in this chapter. The tube worm and its chemosynthetic bacteria. The psyllid and *Carsonella*. The sea slug and its stolen chloroplasts. The lichen's balanced commune. In each case, integration was the creative force that competition alone could not have produced.
+Across these examples, association changes what organisms can do. The worm and its bacteria exchange resources; the psyllid depends on a reduced symbiont; the slug temporarily uses captured plastids; lichen partners share metabolic work while retaining their cellular identities. Mitochondria and chloroplasts represent the deeper integration that made inherited organelles.
 
 This is not to say that competition is unimportant. Symbiotic partnerships must still compete with other organisms and other partnerships for resources and space. Selection still acts. But some of the most consequential new forms -- new metabolic capabilities, new kinds of cells -- came from mergers.
 
@@ -232,7 +232,7 @@ If you eat a salad, the chloroplasts in the lettuce leaves tell the same story f
 
 Your cells are chimeras: archaeal information systems running on bacterial power plants. The ancient merger persists through the protein imports and mitochondrial divisions taking place inside them. The chemist now has her reaction rooms, and keeping them supplied still requires exchange across membranes.
 
-Outside those cells, prokaryotic communities continue to reshape sediments and groundwater. Following one of their products, methane, brings us back to a practical question: how do supply, transport, and consumption determine where it accumulates? The next chapter builds that account for a small volume of sediment: what enters, what leaves, and what is produced or consumed inside.
+Outside those cells, microbial partners still exchange substances through sediment and groundwater. Their reactions reshape the gradients that supply them. To understand a community in that setting, we need to follow material through space: what enters a small volume, what leaves, and what is produced or consumed inside. Chapter 8 builds that account.
 
 ## Takeaway
 

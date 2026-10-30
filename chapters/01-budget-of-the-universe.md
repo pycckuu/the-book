@@ -4,7 +4,7 @@ title: "The Budget of the Universe"
 
 2.8 kilometers below South Africa, a microbial community lives in water filling fractures in the rock. Sunlight does not reach it. Its dominant bacterium, *Candidatus Desulforudis audaxviator*, can use hydrogen supplied by radiolytic chemistry and sulfate derived from minerals.
 
-The setting was chemically energy-rich. Yet Lin and colleagues estimated population turnover times of 45 to 300 years under their stated assumptions. They inferred extremely slow long-term activity.[^lin2006_deep] Why does the community turn over so slowly when chemical energy is abundant?
+The setting was chemically energy-rich. Yet Lin and colleagues estimated population turnover times of 45 to 300 years under their stated assumptions. They inferred extremely slow long-term activity.[^lin2006_deep] How can such slow population turnover coexist with abundant chemical energy?
 
 To answer, we will follow how a cell obtains energy from a chemical reaction and what it can spend that energy on. We will need the same reasoning in marine sediments and groundwater: how much energy is available, and how quickly can a cell obtain it?
 
@@ -87,7 +87,7 @@ The next two sidebars give definitions and a field example for readers who want 
 ::: {.callout-note}
 ## Sidebar: what enters the energy balance
 
-Erwin Schrödinger discussed the problem of maintaining order in a living system in 1943.[^schrodinger1944] A complete thermodynamic balance must include the cell's exchanges with its surroundings: the Second Law applies to living systems too.
+Erwin Schrödinger discussed the problem of maintaining order in a living system in his 1943 lectures.[^schrodinger1944] A complete thermodynamic balance must include the cell's exchanges with its surroundings: the Second Law applies to living systems too.
 
 Gibbs free energy is defined as
 

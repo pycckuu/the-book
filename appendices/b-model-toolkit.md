@@ -94,7 +94,7 @@ where $k_{\text{cat}}$ is the turnover number, $[E]$ is enzyme concentration, an
 
 ### Thermodynamic factor
 
-The logistic gate formerly shown here is a heuristic, not a net thermodynamic rate law: it remains one-half at chemical equilibrium. ["Modeling the Invisible"](../chapters/08-the-equation.md) defines the coupled driving force and points to a primary formulation [@Jin2003]. Application requires a consistent reaction and energy basis, plus a domain for forward or reverse rates. The oxygen pilot does not use thermodynamic gating. The broader treatment remains [@Jin2005; @Regnier2011].
+Chapter 8 defines a thermodynamic factor for a specified coupled process, accounting for energy released and energy conserved by the cell [@Jin2003]. Its use requires consistent reaction and energy units, a declared rate domain, and a treatment of forward or reverse operation. The oxygen example uses a first-order sink without this factor. Broader applications are discussed by @Jin2005 and @Regnier2011.
 
 ### Temperature dependence (Arrhenius)
 
@@ -209,7 +209,7 @@ A deficit in export can remain in storage. The disappearance ledger records loss
 
 ### Scales and controlled scenarios
 
-The accepted reference uses $L=1$ m, $\phi=0.30$, $u=10^{-5}$ $\mathrm{m\,s^{-1}}$, $D_L=10^{-6}$ $\mathrm{m^2\,s^{-1}}$, $C_{\mathrm{ref}}=1$ $\mathrm{mol\,m^{-3}}$ and $T_p=20000$ s. Compare $k=0$ and $k=10^{-5}$ $\mathrm{s^{-1}}$. The advective scale is $\tau_a=L/u=100000$ s; $\mathrm{Pe}=uL/D_L=10$ and $\mathrm{Da}=kL/u$ is zero or one. These column-scale ratios are not pore-scale ratios from another study.
+The illustrative reference uses $L=1$ m, $\phi=0.30$, $u=10^{-5}$ $\mathrm{m\,s^{-1}}$, $D_L=10^{-6}$ $\mathrm{m^2\,s^{-1}}$, $C_{\mathrm{ref}}=1$ $\mathrm{mol\,m^{-3}}$ and $T_p=20000$ s. Compare $k=0$ and $k=10^{-5}$ $\mathrm{s^{-1}}$. The advective scale is $\tau_a=L/u=100000$ s; $\mathrm{Pe}=uL/D_L=10$ and $\mathrm{Da}=kL/u$ is zero or one. These dimensionless ratios describe the whole column.
 
 The [four-case table](../courses/advection-dispersion/model/results/scenario-summary.csv) also compares conservative cases with $2u$ or $2D_L$, holding the physical pulse duration fixed. Doubling $u$ doubles the input from $0.06$ to $0.12$ $\mathrm{mol\,m^{-2}}$. Each fraction uses its own dose. At fixed $u$, changing $\phi$ scales all amount ledgers while leaving $C$ unchanged. At fixed Darcy flux, changing $\phi$ changes $u$ and can change the concentration history.
 
@@ -289,9 +289,9 @@ $$
 
 The positive time term is specific to backward Euler. This is an auxiliary diagnostic, not a universal error formula for dispersive reacting pulses. Keep physical $D_L$ fixed during refinement.
 
-The reference resolution is $N=400$, $\Delta t=100$ s and a 600000 s window. Separate $N=800$ and $\Delta t=50$ s controls pass declared scale-aware 2 percent metric/profile targets; recovery, disappearance and storage changes are below 0.005. Conditional resident spatial widths also pass separate reconstructed controls. An 800000 s extension checks window stability. These differences support the chosen teaching resolution; they are not a bound on every possible continuum error. The metric target is $|z_{\mathrm{fine}}-z_{\mathrm{base}}|\leq0.02\max(|z_{\mathrm{fine}}|,z_{\mathrm{floor}})$. Floors are $0.01C_{\mathrm{ref}}$ for peak, $0.01\tau_a$ for temporal metrics and $0.01L$ for spatial width. Profile comparisons use the maximum absolute difference across declared snapshots and coarse cells, after averaging fine children, with scale $\max(C_{\mathrm{fine,max}},0.01C_{\mathrm{ref}})$. Undefined moments remain undefined. Linear residuals must be below $10^{-12}$; budget residuals below $10^{-10}$ after scaling by $\phi LC_{\mathrm{ref}}$ or the initial inventory. The all-zero branch instead checks an absolute amount residual of $10^{-14}$ $\mathrm{mol\,m^{-2}}$.
+The finite-volume reference and its refinement checks are documented in the separate Modeling volume. Spatial and time refinement, conservation, nonnegativity and the observation window test different aspects of a calculation; passing one does not establish the others. The [verification methods and results](../courses/advection-dispersion/model/verification-report.md) give the declared tolerances and exported evidence for the teaching scenarios.
 
-All four cases retain less than 0.001 of their dose at the reported end, with the window checks also passing. This is effective washout under a declared criterion, not exact complete export. The largest core scaled update-budget residual is about $9.85\times10^{-13}$; the actual concentration minimum is zero and negative counts are zero. Algebraic balance and positivity are checked separately from curve accuracy. [Verification exports](../courses/advection-dispersion/model/results/verification.json) preserve these results. A retained first attempt failed the periodic auxiliary checker and was corrected. Its recorded 400000 s more-dispersion storage was insufficient for the washout criterion; that case was not part of the first formal window gate.
+An observation window must be long enough for the amounts being compared to stabilize. Material still stored in the column belongs in the balance, even when its concentration is small. The companion records input, export, parent disappearance and remaining storage separately.
 
 ### What is being observed and inferred?
 
